@@ -33,7 +33,36 @@
   "assignee": null,
   "assignees": [],
   "milestone": null,
-  "comments": 1,
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/245162130",
+      "html_url": "https://github.com/alibaba/weex/issues/1152#issuecomment-245162130",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/1152",
+      "id": 245162130,
+      "user": {
+        "login": "Jinjiang",
+        "id": 206848,
+        "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Jinjiang",
+        "html_url": "https://github.com/Jinjiang",
+        "followers_url": "https://api.github.com/users/Jinjiang/followers",
+        "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+        "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+        "repos_url": "https://api.github.com/users/Jinjiang/repos",
+        "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2016-09-07T03:07:20Z",
+      "updated_at": "2016-09-07T03:07:20Z",
+      "body": "在 `ios/playground` 和 `android/playground` 目录\n"
+    }
+  ],
   "created_at": "2016-09-07T01:36:26Z",
   "updated_at": "2016-09-07T03:07:20Z",
   "closed_at": "2016-09-07T03:07:20Z",

@@ -90,7 +90,36 @@
     }
   ],
   "milestone": null,
-  "comments": 1,
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/240073086",
+      "html_url": "https://github.com/alibaba/weex/issues/1000#issuecomment-240073086",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/1000",
+      "id": 240073086,
+      "user": {
+        "login": "sospartan",
+        "id": 115201,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sospartan",
+        "html_url": "https://github.com/sospartan",
+        "followers_url": "https://api.github.com/users/sospartan/followers",
+        "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+        "organizations_url": "https://api.github.com/users/sospartan/orgs",
+        "repos_url": "https://api.github.com/users/sospartan/repos",
+        "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sospartan/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2016-08-16T11:12:09Z",
+      "updated_at": "2016-08-16T11:12:53Z",
+      "body": "@huiop368 多谢反馈,的确是android平台上有问题,会在下个版本修复,在此之前可以通过源码依赖android分支解决\n"
+    }
+  ],
   "created_at": "2016-08-16T08:14:18Z",
   "updated_at": "2016-08-16T11:12:53Z",
   "closed_at": "2016-08-16T11:12:18Z",

@@ -59,12 +59,12 @@
         "site_admin": false
       },
       "created_at": "2017-03-10T10:57:32Z",
-      "updated_at": "2017-03-10T10:57:32Z",
-      "body": "@bethebest  您能提交下你的错误信息么？截个图什么的？😁💐"
+      "updated_at": "2017-03-10T12:04:04Z",
+      "body": "@bethebest  你看下是不是代理的问题，https://github.com/npm/npm/issues/8872"
     }
   ],
   "created_at": "2017-02-20T08:39:02Z",
-  "updated_at": "2017-03-10T10:57:32Z",
+  "updated_at": "2017-03-10T12:04:04Z",
   "closed_at": null,
   "body": "![image](https://cloud.githubusercontent.com/assets/7374500/23117509/02826c3a-f78b-11e6-8950-ba924f2abe5b.png)\r\nwindow7系统gost版本，是系统的原因吗"
 }

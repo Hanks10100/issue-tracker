@@ -61,10 +61,38 @@
       "created_at": "2017-03-10T06:26:25Z",
       "updated_at": "2017-03-10T06:26:25Z",
       "body": "把jdk换成1.8"
+    },
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/285670920",
+      "html_url": "https://github.com/alibaba/weex/issues/2885#issuecomment-285670920",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/2885",
+      "id": 285670920,
+      "user": {
+        "login": "501956430",
+        "id": 20204491,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/20204491?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/501956430",
+        "html_url": "https://github.com/501956430",
+        "followers_url": "https://api.github.com/users/501956430/followers",
+        "following_url": "https://api.github.com/users/501956430/following{/other_user}",
+        "gists_url": "https://api.github.com/users/501956430/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/501956430/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/501956430/subscriptions",
+        "organizations_url": "https://api.github.com/users/501956430/orgs",
+        "repos_url": "https://api.github.com/users/501956430/repos",
+        "events_url": "https://api.github.com/users/501956430/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/501956430/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2017-03-10T13:39:19Z",
+      "updated_at": "2017-03-10T13:39:19Z",
+      "body": "jdk 换成1.8就好了，能说说为什么嘛？  难道以后只能在1.8 jdk才能保证正常运行，希望能解答下 谢谢。"
     }
   ],
   "created_at": "2017-03-09T02:40:13Z",
-  "updated_at": "2017-03-10T06:26:25Z",
+  "updated_at": "2017-03-10T13:39:19Z",
   "closed_at": null,
   "body": "编译报错：Unsupported major.minor version 52.0\r\n系统jdk是1.7\r\nadb 1.0.36\r\n\r\n![image](https://cloud.githubusercontent.com/assets/20204491/23733448/f1222724-04b3-11e7-98f9-1429dd86ba8b.png)"
 }

@@ -33,7 +33,36 @@
   "assignee": null,
   "assignees": [],
   "milestone": null,
-  "comments": 1,
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/234934003",
+      "html_url": "https://github.com/alibaba/weex/issues/859#issuecomment-234934003",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/859",
+      "id": 234934003,
+      "user": {
+        "login": "cxfeng1",
+        "id": 1625893,
+        "avatar_url": "https://avatars2.githubusercontent.com/u/1625893?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/cxfeng1",
+        "html_url": "https://github.com/cxfeng1",
+        "followers_url": "https://api.github.com/users/cxfeng1/followers",
+        "following_url": "https://api.github.com/users/cxfeng1/following{/other_user}",
+        "gists_url": "https://api.github.com/users/cxfeng1/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/cxfeng1/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/cxfeng1/subscriptions",
+        "organizations_url": "https://api.github.com/users/cxfeng1/orgs",
+        "repos_url": "https://api.github.com/users/cxfeng1/repos",
+        "events_url": "https://api.github.com/users/cxfeng1/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/cxfeng1/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2016-07-25T11:59:22Z",
+      "updated_at": "2016-07-25T11:59:22Z",
+      "body": "text-indent 目前还不支持， text样式支持情况请参考[Text Style 文档](http://alibaba.github.io/weex/doc/references/text-style.html)\n"
+    }
+  ],
   "created_at": "2016-07-25T08:44:42Z",
   "updated_at": "2016-07-25T11:59:22Z",
   "closed_at": "2016-07-25T11:59:22Z",

@@ -117,10 +117,38 @@
       "created_at": "2017-02-03T02:49:29Z",
       "updated_at": "2017-02-03T02:49:29Z",
       "body": "@JackPu   v1.0.1-beta.5 我查到是这个版本，麻烦看下\r\n"
+    },
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/285655889",
+      "html_url": "https://github.com/alibaba/weex/issues/2406#issuecomment-285655889",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/2406",
+      "id": 285655889,
+      "user": {
+        "login": "JackPu",
+        "id": 4744967,
+        "avatar_url": "https://avatars3.githubusercontent.com/u/4744967?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/JackPu",
+        "html_url": "https://github.com/JackPu",
+        "followers_url": "https://api.github.com/users/JackPu/followers",
+        "following_url": "https://api.github.com/users/JackPu/following{/other_user}",
+        "gists_url": "https://api.github.com/users/JackPu/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/JackPu/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/JackPu/subscriptions",
+        "organizations_url": "https://api.github.com/users/JackPu/orgs",
+        "repos_url": "https://api.github.com/users/JackPu/repos",
+        "events_url": "https://api.github.com/users/JackPu/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/JackPu/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2017-03-10T12:21:57Z",
+      "updated_at": "2017-03-10T12:21:57Z",
+      "body": "@jl6278462  Hello，最新版本的weex-toolkit 已经修复了热刷新的问题。可以先卸载再重新安装就好。\r\n\r\n``` bash\r\nnpm uninstall weex-toolkit -g\r\nnpm install weex-toolkit -g\r\n```"
     }
   ],
   "created_at": "2017-01-25T07:15:24Z",
-  "updated_at": "2017-02-03T02:49:29Z",
+  "updated_at": "2017-03-10T12:21:57Z",
   "closed_at": null,
   "body": "D:\\workspace\\weex\\src>weex hello.vue\r\ninfo weex JS bundle saved at C:\\Users\\qian\\.weex_tmp\r\ninfo Wed Jan 25 2017 14:46:21 GMT+0800 (中国标准时间)WebSocket  is listening on port 8082\r\ninfo Wed Jan 25 2017 14:46:21 GMT+0800 (中国标准时间)http  is listening on port 8081\r\nfile refresh!\r\nfile refresh!\r\nError: not opened\r\n    at WebSocket.send (C:\\Users\\qian\\AppData\\Roaming\\npm\\node_modules\\weex-toolkit\\node_modules\\.1.1.1@ws\\lib\\WebSocket.js:219:16)\r\n    at C:\\Users\\qian\\AppData\\Roaming\\npm\\node_modules\\weex-toolkit\\node_modules\\.1.2.6@weex-previewer\\build\\index.js:270:29\r\n(node:7080) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: not opened\r\n(node:7080) DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.\r\n"
 }
