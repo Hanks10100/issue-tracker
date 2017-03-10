@@ -24,7 +24,7 @@ function getAllIssues (agent) {
         if (error) {
           console.log(` => failed to fetch the comments of ${issue.number}`)
         } else {
-          console.log(` => got ${comments.number} comments of  ${issue.number}`)
+          console.log(` => got ${comments.length} comments of  ${issue.number}`)
           issue.comments = comments
           jsonfile.spaces = 2
           jsonfile.writeFile(`issues/${issue.number}.json`, issue, () => {
