@@ -1,0 +1,123 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/113",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/113/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/113/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/113/events",
+  "html_url": "https://github.com/alibaba/weex/issues/113",
+  "id": 151459037,
+  "number": 113,
+  "title": "[jsfm] try Vue 2.0 as new JS Framework",
+  "user": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 339914708,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/enhancement",
+      "name": "enhancement",
+      "color": "84b6eb",
+      "default": true
+    },
+    {
+      "id": 359381537,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/js%20runtime",
+      "name": "js runtime",
+      "color": "f9d0c4",
+      "default": false
+    }
+  ],
+  "state": "closed",
+  "locked": false,
+  "assignee": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "assignees": [
+    {
+      "login": "Jinjiang",
+      "id": 206848,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Jinjiang",
+      "html_url": "https://github.com/Jinjiang",
+      "followers_url": "https://api.github.com/users/Jinjiang/followers",
+      "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+      "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+      "repos_url": "https://api.github.com/users/Jinjiang/repos",
+      "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  ],
+  "milestone": null,
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/216726621",
+      "html_url": "https://github.com/alibaba/weex/issues/113#issuecomment-216726621",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/113",
+      "id": 216726621,
+      "user": {
+        "login": "Jinjiang",
+        "id": 206848,
+        "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Jinjiang",
+        "html_url": "https://github.com/Jinjiang",
+        "followers_url": "https://api.github.com/users/Jinjiang/followers",
+        "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+        "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+        "repos_url": "https://api.github.com/users/Jinjiang/repos",
+        "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2016-05-04T02:36:50Z",
+      "updated_at": "2016-05-19T11:41:12Z",
+      "body": "Updates:\n\n``` javascript\n/**\n * format comparison\n * _h(self, children)       -> render\n * _e(tag, data, namespace) -> self\n * _t(text)                 -> text content\n * _m(index)                -> static tree\n */\n```\n\nref: https://github.com/vuejs/vue/commit/6fe268874ca2ea9297ca64830b38f8179d51fce2#commitcomment-17533656\n\nNew JS Bundle format design (compared with current Vue 2.0 format):\n\n``` javascript\n/**\n * format comparison\n *\n * old:\n * __h__(tag, data, children, namespace)\n * new:\n * __r__(self, children)       -> render\n * __s__(tag, data, namespace) -> self\n * __t__(text)                 -> text content\n * __m__(index)                -> static tree\n *\n * the new format MUST be with `stream: true` option from root Vm\n */\nVue.component('foo', {\n  props: ['a', 'b'],\n  data: function () {\n    return {list: [1,2]}\n  },\n  render: function () {\n    with (this) {\n      // old format\n      return __h__('div', undefined, [\n        (list) && __renderList__((list), function (k, v,$index) {\n          return __h__('div', {\n            class:[a, 'a'],\n            style:{m: '1', n: a},\n            attrs:{\"n\":a},\n            staticAttrs:{\"m\":\"a\",\"style\":\"l: 2\"}\n          }, [\n            (\"\\n aaa\"+__toString__(a)+\"bbb\"+__toString__(k)+\"-\"+__toString__(v)+\"\\n \"),\n            _staticTrees[0]\n          ], '')\n        })\n      ], '')\n      // // new format\n      // return __r__(\n      //   __s__('div', {\n      //     staticAttrs: {a: 'b'}\n      //   }),\n      //   [\n      //     __r__(\n      //       __s__('text', {\n      //         staticAttrs: {value: 'child text content'}\n      //       })\n      //     ),\n      //   (list) && __renderList__((list), function(k, v, $index) {\n      //     return __r__(\n      //       __s__('div', {\n      //         class:[a, 'a'],\n      //         style:{m: '1', n: a},\n      //         attrs:{\"n\":a},\n      //         staticAttrs:{\"m\":\"a\",\"style\":\"l: 2\"}\n      //       }),\n      //       [\n      //         __t__(\"\\n aaa\"+__toString__(a)+\"bbb\"+__toString__(k)+\"-\"+__toString__(v)+\"\\n \"),\n      //         __m__(0)\n      //       ]\n      //     )\n      //   })]\n      // )\n    }\n  },\n  staticRenderFns: [\n    function () {\n      with(this){\n        // old format\n        return __h__('text', {\n          staticAttrs: {value: 'Hello World'}\n        }, [], '')\n        // // new format\n        // return __r__(\n        //   __s__('text', {\n        //     staticAttrs: {value: 'Hello World'}\n        //   }),\n        //   []\n        // )\n      }\n      with (this) {\n      }\n    }\n  ]\n})\n\nreturn new Vue({\n  el: 'scroller',\n  data: {x: 1, y: 2, z: 'foo'},\n  methods: {foo: function (e) {\n    console.log('event', e)\n    this.y++\n  }},\n  style: {y: {fontSize: 64}},\n  // // new format\n  // stream: true,\n  render: function () {\n    with (this) {\n      // old format\n      return __h__(\n        'div', {},\n        [\n          __h__('foo', {attrs:{\"a\":x,\"b\":y}}, undefined, ''),\n          __h__('text', {\n            on:{\"click\":foo},\n            staticClass:\"a b\",\n            class:[y, 'y'],\n            attrs:{value:(__toString__(y)+\"asdfasdfaf\")}\n          }, [], '')\n        ], ''\n      )\n      // // new format\n      // return __r__(\n      //   __s__('div', {}),\n      //   [\n      //     __r__(\n      //       __s__('foo', {\n      //         attrs:{\"a\":x,\"b\":y}\n      //       }),\n      //       []\n      //     ),\n      //     __r__(\n      //       __s__('text', {\n      //         on:{\"click\":foo},\n      //         staticClass:\"a b\",\n      //         class:[y, 'y'],\n      //         attrs:{value:(__toString__(y)+\"asdfasdfaf\")},\n      //         // append: true\n      //       }),\n      //       []\n      //     )\n      //   ]\n      // )\n    }\n  }\n})\n\n// // testing registerModules()\n// console.log(__weex_require_module__('dom'))\n\n// // testing registerComponents()\n// registerComponents(['a', {name: 'b'}, null])\n// console.log(Vue.config.isReservedTag('a'))\n// console.log(Vue.config.isReservedTag('b'))\n// console.log(Vue.config.isReservedTag('c'))\n```\n"
+    }
+  ],
+  "created_at": "2016-04-27T18:35:22Z",
+  "updated_at": "2016-05-29T16:34:57Z",
+  "closed_at": "2016-05-19T11:42:52Z",
+  "body": "the long-term branch is `jsfm-feature-vue` and gonna be moved to repo `alibaba/weex-vue-next`\n- [x] native dom node-ops\n  - [x] `createElement (tagName)`\n  - [x] `createElementNS (namespace, tagName)`\n  - [x] `createTextNode (text)`\n  - [x] `insertBefore (parentNode, newNode, referenceNode)`\n  - [x] `removeChild (node, child)`\n  - [x] `appendChild (node, child)`\n  - [x] `parentNode (node)`\n  - [x] `nextSibling (node)`\n  - [x] `tagName (node)`\n  - [x] `setTextContent (node, text)`\n- [x] native dom modules\n  - [x] `attr`\n  - [x] `style`\n  - [x] `class`\n  - [x] `event`\n- [x] first paint optimization\n  - [x] `append=\"tree|node\"`\n  - [x] `stream` option\n  - [x] support sub components\n- [x] multiple instance management\n  - [x] `createInstance()`\n  - [x] `renderFinish`\n  - [x] `refreshInstance()`\n  - [x] `refreshFinish`\n  - [x] `destroyInstance()`\n- [x] register components and modules from native\n  - [x] `registerComponents()`\n  - [x] `registerModules()`\n- [x] export virtual dom tree for debugging\n  - [x] `getRoot()`\n- [x] `callJS()`\n  - [x] `fireEvent()`\n  - [x] `callback()`\n- [x] `weex-vue-loader`\n- [x] compiler\n  - [x] parse `class`/`style`\n  - [x] generate `__r__`\n  - [x] generate `__s__`\n  - [x] generate `__m__`\n  - [x] generate `__t__`\n  - [x] generate `class`/`style`\n- [x] Vue 2.0 core enhancement\n  - [x] separate `__h__` into `renderElement` & `renderElementWithChildren`\n  - [x] from text and static root to `__t__` and `__m__`\n  - [x] `style` / `class` mechanism\n  - [x] text node to `<text>` (hacked)\n  - [x] `stream` option and `append` (`atom`) option (hacked)\n- [x] adapt to Android engine\n"
+}

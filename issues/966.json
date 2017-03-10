@@ -1,0 +1,63 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/966",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/966/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/966/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/966/events",
+  "html_url": "https://github.com/alibaba/weex/issues/966",
+  "id": 170204342,
+  "number": 966,
+  "title": "[proposal] improved console log level in JavaScript",
+  "user": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 400980840,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/contribution%20welcome",
+      "name": "contribution welcome",
+      "color": "1d76db",
+      "default": false
+    },
+    {
+      "id": 339914708,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/enhancement",
+      "name": "enhancement",
+      "color": "84b6eb",
+      "default": true
+    },
+    {
+      "id": 359381537,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/js%20runtime",
+      "name": "js runtime",
+      "color": "f9d0c4",
+      "default": false
+    }
+  ],
+  "state": "closed",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": [],
+  "created_at": "2016-08-09T15:58:28Z",
+  "updated_at": "2016-08-15T09:52:44Z",
+  "closed_at": "2016-08-15T09:52:43Z",
+  "body": "Currently Weex has an env var `WXEnvironment.logLevel` for log filter and the levels are just the common log levels in HTML5: `error`, `warn`, `info`, `log`, `debug` in order. The default level is `log`.\nNow we suggest to add another level named `off` to prevent all levels which include even `error`.\nMore details of current implementation in `html5/shared/console.js`\n\nThanks.\n"
+}

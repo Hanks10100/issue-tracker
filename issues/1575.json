@@ -1,0 +1,123 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/1575",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/1575/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/1575/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/1575/events",
+  "html_url": "https://github.com/alibaba/weex/issues/1575",
+  "id": 187054868,
+  "number": 1575,
+  "title": "weex  android4.4 下导致第三方jar包加载失败",
+  "user": {
+    "login": "pp1232",
+    "id": 13334260,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/13334260?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/pp1232",
+    "html_url": "https://github.com/pp1232",
+    "followers_url": "https://api.github.com/users/pp1232/followers",
+    "following_url": "https://api.github.com/users/pp1232/following{/other_user}",
+    "gists_url": "https://api.github.com/users/pp1232/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/pp1232/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/pp1232/subscriptions",
+    "organizations_url": "https://api.github.com/users/pp1232/orgs",
+    "repos_url": "https://api.github.com/users/pp1232/repos",
+    "events_url": "https://api.github.com/users/pp1232/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/pp1232/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 359381236,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/android",
+      "name": "android",
+      "color": "f9d0c4",
+      "default": false
+    },
+    {
+      "id": 339914709,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/help%20wanted",
+      "name": "help wanted",
+      "color": "159818",
+      "default": true
+    }
+  ],
+  "state": "closed",
+  "locked": false,
+  "assignee": {
+    "login": "xkli",
+    "id": 7642368,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7642368?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/xkli",
+    "html_url": "https://github.com/xkli",
+    "followers_url": "https://api.github.com/users/xkli/followers",
+    "following_url": "https://api.github.com/users/xkli/following{/other_user}",
+    "gists_url": "https://api.github.com/users/xkli/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/xkli/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/xkli/subscriptions",
+    "organizations_url": "https://api.github.com/users/xkli/orgs",
+    "repos_url": "https://api.github.com/users/xkli/repos",
+    "events_url": "https://api.github.com/users/xkli/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/xkli/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "assignees": [
+    {
+      "login": "xkli",
+      "id": 7642368,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7642368?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/xkli",
+      "html_url": "https://github.com/xkli",
+      "followers_url": "https://api.github.com/users/xkli/followers",
+      "following_url": "https://api.github.com/users/xkli/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xkli/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/xkli/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xkli/subscriptions",
+      "organizations_url": "https://api.github.com/users/xkli/orgs",
+      "repos_url": "https://api.github.com/users/xkli/repos",
+      "events_url": "https://api.github.com/users/xkli/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/xkli/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  ],
+  "milestone": null,
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/262178864",
+      "html_url": "https://github.com/alibaba/weex/issues/1575#issuecomment-262178864",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/1575",
+      "id": 262178864,
+      "user": {
+        "login": "zshshr",
+        "id": 5382962,
+        "avatar_url": "https://avatars2.githubusercontent.com/u/5382962?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zshshr",
+        "html_url": "https://github.com/zshshr",
+        "followers_url": "https://api.github.com/users/zshshr/followers",
+        "following_url": "https://api.github.com/users/zshshr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zshshr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zshshr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zshshr/subscriptions",
+        "organizations_url": "https://api.github.com/users/zshshr/orgs",
+        "repos_url": "https://api.github.com/users/zshshr/repos",
+        "events_url": "https://api.github.com/users/zshshr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zshshr/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2016-11-22T08:35:47Z",
+      "updated_at": "2016-11-22T08:35:47Z",
+      "body": "能具体说说吗？怎么导致引入失败的"
+    }
+  ],
+  "created_at": "2016-11-03T13:08:08Z",
+  "updated_at": "2016-12-09T14:32:38Z",
+  "closed_at": "2016-12-09T14:32:38Z",
+  "body": "自己开发的app\r\nweex 0.8.0版本sdk\r\n华为mate7 \r\nandroid 4.4.2\r\n加载log4j失败\r\n错误日志\r\n```\r\n11-03 20:07:04.694 771-771/? D/dalvikvm: Late-enabling CheckJNI\r\n11-03 20:07:04.734 771-771/com.ces.mob.playground W/ActivityThread: Application com.ces.mob.playground is waiting for the debugger on port 8100...\r\n11-03 20:07:04.739 771-771/com.ces.mob.playground I/System.out: Sending WAIT chunk\r\n11-03 20:07:04.924 771-777/com.ces.mob.playground I/dalvikvm: Debugger is active\r\n11-03 20:07:04.939 771-771/com.ces.mob.playground I/System.out: Debugger has connected\r\n11-03 20:07:04.939 771-771/com.ces.mob.playground I/System.out: waiting for debugger to settle...\r\n11-03 20:07:05.139 771-771/com.ces.mob.playground I/System.out: waiting for debugger to settle...\r\n11-03 20:07:05.339 771-771/com.ces.mob.playground I/System.out: waiting for debugger to settle...\r\n11-03 20:07:05.539 771-771/com.ces.mob.playground I/System.out: waiting for debugger to settle...\r\n11-03 20:07:05.739 771-771/com.ces.mob.playground I/System.out: waiting for debugger to settle...\r\n11-03 20:07:05.939 771-771/com.ces.mob.playground I/System.out: waiting for debugger to settle...\r\n11-03 20:07:06.139 771-771/com.ces.mob.playground I/System.out: waiting for debugger to settle...\r\n11-03 20:07:06.344 771-771/com.ces.mob.playground I/System.out: debugger has settled (1346)\r\n11-03 20:07:06.434 771-771/com.ces.mob.playground I/dalvikvm: Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method com.google.firebase.FirebaseApp.zza\r\n11-03 20:07:06.434 771-771/com.ces.mob.playground W/dalvikvm: VFY: unable to resolve virtual method 550: Landroid/content/Context;.isDeviceProtectedStorage ()Z\r\n11-03 20:07:06.434 771-771/com.ces.mob.playground D/dalvikvm: VFY: replacing opcode 0x6e at 0x0009\r\n11-03 20:07:06.469 771-771/com.ces.mob.playground D/FirebaseApp: com.google.firebase.auth.FirebaseAuth is not linked. Skipping initialization.\r\n11-03 20:07:06.474 771-771/com.ces.mob.playground I/dalvikvm: Could not find method android.content.Context.getNoBackupFilesDir, referenced from method com.google.android.gms.common.util.zzx.getNoBackupFilesDir\r\n11-03 20:07:06.474 771-771/com.ces.mob.playground W/dalvikvm: VFY: unable to resolve virtual method 536: Landroid/content/Context;.getNoBackupFilesDir ()Ljava/io/File;\r\n11-03 20:07:06.474 771-771/com.ces.mob.playground D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006\r\n11-03 20:07:06.514 771-771/com.ces.mob.playground W/InstanceID/Rpc: Found 10009\r\n11-03 20:07:06.519 771-771/com.ces.mob.playground D/FirebaseApp: com.google.firebase.crash.FirebaseCrash is not linked. Skipping initialization.\r\n11-03 20:07:06.534 771-771/com.ces.mob.playground I/dalvikvm: Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method com.google.android.gms.common.zze.zzs\r\n11-03 20:07:06.534 771-771/com.ces.mob.playground W/dalvikvm: VFY: unable to resolve virtual method 706: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;\r\n11-03 20:07:06.534 771-771/com.ces.mob.playground D/dalvikvm: VFY: replacing opcode 0x6e at 0x001c\r\n11-03 20:07:06.564 771-771/com.ces.mob.playground I/FA: App measurement is starting up, version: 9683\r\n11-03 20:07:06.564 771-771/com.ces.mob.playground I/FA: To enable debug logging run: adb shell setprop log.tag.FA VERBOSE\r\n11-03 20:07:06.869 771-771/com.ces.mob.playground I/FA: To enable faster debug mode event logging run:\r\n                                                                 adb shell setprop firebase.analytics.debug-mode com.ces.mob.playground\r\n11-03 20:07:06.874 771-771/com.ces.mob.playground V/HwCustAlarmManagerFactory: fwk cust use ****** cust factory\r\n11-03 20:07:06.889 771-771/com.ces.mob.playground I/FirebaseInitProvider: FirebaseApp initialization successful\r\n11-03 20:07:07.019 771-836/com.ces.mob.playground W/weex: weex so size check path :/data/app-lib/com.ces.mob.playground-1/libweexv8.so   3\r\n11-03 20:07:07.024 771-836/com.ces.mob.playground D/dalvikvm: Trying to load lib /data/app-lib/com.ces.mob.playground-1/libweexv8.so 0x43aa3f78\r\n11-03 20:07:07.029 771-836/com.ces.mob.playground D/dalvikvm: Added shared lib /data/app-lib/com.ces.mob.playground-1/libweexv8.so 0x43aa3f78\r\n11-03 20:07:07.034 771-836/com.ces.mob.playground D/weex_perf: [render time]SDKInitExecuteTime:44\r\n11-03 20:07:07.039 771-836/com.ces.mob.playground W/weex: app AvailMemory ---->>>1802\r\n11-03 20:07:07.044 771-836/com.ces.mob.playground D/weex: weex JS framework from assets\r\n11-03 20:07:07.094 771-771/com.ces.mob.playground D/weex_perf: [render time]SDKInitInvokeTime:174\r\n11-03 20:07:07.699 771-771/com.ces.mob.playground D/dalvikvm: threadid=1: still suspended after undo (sc=1 dc=1)\r\n11-03 20:07:28.094 771-771/com.ces.mob.playground I/dalvikvm: Failed resolving Lorg/apache/log4j/Category; interface 9246 'Lorg/apache/log4j/spi/AppenderAttachable;'\r\n11-03 20:07:28.094 771-771/com.ces.mob.playground W/dalvikvm: Link of class 'Lorg/apache/log4j/Category;' failed\r\n11-03 20:07:28.104 771-771/com.ces.mob.playground W/dalvikvm: Unable to resolve superclass of Lorg/apache/log4j/Logger; (9115)\r\n11-03 20:07:28.104 771-771/com.ces.mob.playground W/dalvikvm: Link of class 'Lorg/apache/log4j/Logger;' failed\r\n11-03 20:07:28.114 771-771/com.ces.mob.playground E/mobapplication: init application error,org.apache.log4j.Logger\r\n11-03 20:07:28.119 771-771/com.ces.mob.playground D/dalvikvm: MakeBoost:0x416472c8 to 1\r\n11-03 20:07:28.159 771-771/com.ces.mob.playground V/HwPolicyFactory: : success to get AllImpl object and return....\r\n11-03 20:07:28.189 771-771/com.ces.mob.playground V/HwWidgetFactory: : successes to get AllImpl object and return....\r\n11-03 20:07:28.194 771-771/com.ces.mob.playground I/dalvikvm: Could not find method android.view.Window$Callback.onProvideKeyboardShortcuts, referenced from method android.support.v7.view.WindowCallbackWrapper.onProvideKeyboardShortcuts\r\n11-03 20:07:28.194 771-771/com.ces.mob.playground W/dalvikvm: VFY: unable to resolve interface method 21068: Landroid/view/Window$Callback;.onProvideKeyboardShortcuts (Ljava/util/List;Landroid/view/Menu;I)V\r\n11-03 20:07:28.194 771-771/com.ces.mob.playground D/dalvikvm: VFY: replacing opcode 0x72 at 0x0002\r\n11-03 20:07:28.199 771-771/com.ces.mob.playground W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)\r\n11-03 20:07:28.199 771-771/com.ces.mob.playground I/dalvikvm: Could not find method android.view.Window$Callback.onSearchRequested, referenced from method android.support.v7.view.WindowCallbackWrapper.onSearchRequested\r\n11-03 20:07:28.199 771-771/com.ces.mob.playground W/dalvikvm: VFY: unable to resolve interface method 21070: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z\r\n11-03 20:07:28.199 771-771/com.ces.mob.playground D/dalvikvm: VFY: replacing opcode 0x72 at 0x0002\r\n11-03 20:07:28.199 771-771/com.ces.mob.playground I/dalvikvm: Could not find method android.view.Window$Callback.onWindowStartingActionMode, referenced from method android.support.v7.view.WindowCallbackWrapper.onWindowStartingActionMode\r\n11-03 20:07:28.199 771-771/com.ces.mob.playground W/dalvikvm: VFY: unable to resolve interface method 21074: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;\r\n11-03 20:07:28.199 771-771/com.ces.mob.playground D/dalvikvm: VFY: replacing opcode 0x72 at 0x0002\r\n11-03 20:07:28.199 771-771/com.ces.mob.playground I/dalvikvm: Could not find method android.content.res.TypedArray.getChangingConfigurations, referenced from method android.support.v7.widget.TintTypedArray.getChangingConfigurations\r\n11-03 20:07:28.199 771-771/com.ces.mob.playground W/dalvikvm: VFY: unable to resolve virtual method 799: Landroid/content/res/TypedArray;.getChangingConfigurations ()I\r\n11-03 20:07:28.199 771-771/com.ces.mob.playground D/dalvikvm: VFY: replacing opcode 0x6e at 0x0002\r\n11-03 20:07:28.204 771-771/com.ces.mob.playground I/dalvikvm: Could not find method android.content.res.TypedArray.getType, referenced from method android.support.v7.widget.TintTypedArray.getType\r\n11-03 20:07:28.204 771-771/com.ces.mob.playground W/dalvikvm: VFY: unable to resolve virtual method 821: Landroid/content/res/TypedArray;.getType (I)I\r\n11-03 20:07:28.204 771-771/com.ces.mob.playground D/dalvikvm: VFY: replacing opcode 0x6e at 0x0008\r\n11-03 20:07:28.219 771-771/com.ces.mob.playground D/AndroidRuntime: Shutting down VM\r\n11-03 20:07:28.219 771-771/com.ces.mob.playground W/dalvikvm: threadid=1: thread exiting with uncaught exception (group=0x41efec68)\r\n```\r\n\r\n在其他装有android 5.1版本的手机上可以正常运行加载成功\r\n\r\n"
+}

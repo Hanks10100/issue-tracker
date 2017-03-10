@@ -1,0 +1,85 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/2045",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/2045/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/2045/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/2045/events",
+  "html_url": "https://github.com/alibaba/weex/issues/2045",
+  "id": 197718453,
+  "number": 2045,
+  "title": "Scroller水平方向滚动，浏览器支持，安卓不支持？",
+  "user": {
+    "login": "DangDangHellen",
+    "id": 23217362,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/23217362?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/DangDangHellen",
+    "html_url": "https://github.com/DangDangHellen",
+    "followers_url": "https://api.github.com/users/DangDangHellen/followers",
+    "following_url": "https://api.github.com/users/DangDangHellen/following{/other_user}",
+    "gists_url": "https://api.github.com/users/DangDangHellen/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/DangDangHellen/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/DangDangHellen/subscriptions",
+    "organizations_url": "https://api.github.com/users/DangDangHellen/orgs",
+    "repos_url": "https://api.github.com/users/DangDangHellen/repos",
+    "events_url": "https://api.github.com/users/DangDangHellen/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/DangDangHellen/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 359381236,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/android",
+      "name": "android",
+      "color": "f9d0c4",
+      "default": false
+    },
+    {
+      "id": 339914709,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/help%20wanted",
+      "name": "help wanted",
+      "color": "159818",
+      "default": true
+    }
+  ],
+  "state": "open",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/277884137",
+      "html_url": "https://github.com/alibaba/weex/issues/2045#issuecomment-277884137",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/2045",
+      "id": 277884137,
+      "user": {
+        "login": "vfasky",
+        "id": 215752,
+        "avatar_url": "https://avatars3.githubusercontent.com/u/215752?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/vfasky",
+        "html_url": "https://github.com/vfasky",
+        "followers_url": "https://api.github.com/users/vfasky/followers",
+        "following_url": "https://api.github.com/users/vfasky/following{/other_user}",
+        "gists_url": "https://api.github.com/users/vfasky/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/vfasky/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/vfasky/subscriptions",
+        "organizations_url": "https://api.github.com/users/vfasky/orgs",
+        "repos_url": "https://api.github.com/users/vfasky/repos",
+        "events_url": "https://api.github.com/users/vfasky/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/vfasky/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2017-02-07T02:39:43Z",
+      "updated_at": "2017-02-07T02:39:43Z",
+      "body": "https://github.com/alibaba/weex/issues/2324"
+    }
+  ],
+  "created_at": "2016-12-27T15:29:23Z",
+  "updated_at": "2017-02-07T02:39:44Z",
+  "closed_at": null,
+  "body": "将Scroller的scroll-direction设为horizontal，在浏览器中可以实现水平滑动，但在安卓机上还是垂直方向，并且已经不能滑动，有人遇到过这种情况吗？"
+}

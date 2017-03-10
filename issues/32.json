@@ -1,0 +1,123 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/32",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/32/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/32/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/32/events",
+  "html_url": "https://github.com/alibaba/weex/issues/32",
+  "id": 149440432,
+  "number": 32,
+  "title": "`font-style: italic` fails",
+  "user": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 359381236,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/android",
+      "name": "android",
+      "color": "f9d0c4",
+      "default": false
+    },
+    {
+      "id": 339914706,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/bug",
+      "name": "bug",
+      "color": "fc2929",
+      "default": true
+    }
+  ],
+  "state": "closed",
+  "locked": false,
+  "assignee": {
+    "login": "YorkShen",
+    "id": 4162544,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4162544?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/YorkShen",
+    "html_url": "https://github.com/YorkShen",
+    "followers_url": "https://api.github.com/users/YorkShen/followers",
+    "following_url": "https://api.github.com/users/YorkShen/following{/other_user}",
+    "gists_url": "https://api.github.com/users/YorkShen/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/YorkShen/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/YorkShen/subscriptions",
+    "organizations_url": "https://api.github.com/users/YorkShen/orgs",
+    "repos_url": "https://api.github.com/users/YorkShen/repos",
+    "events_url": "https://api.github.com/users/YorkShen/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/YorkShen/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "assignees": [
+    {
+      "login": "YorkShen",
+      "id": 4162544,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4162544?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YorkShen",
+      "html_url": "https://github.com/YorkShen",
+      "followers_url": "https://api.github.com/users/YorkShen/followers",
+      "following_url": "https://api.github.com/users/YorkShen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YorkShen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YorkShen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YorkShen/subscriptions",
+      "organizations_url": "https://api.github.com/users/YorkShen/orgs",
+      "repos_url": "https://api.github.com/users/YorkShen/repos",
+      "events_url": "https://api.github.com/users/YorkShen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YorkShen/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  ],
+  "milestone": null,
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/211895408",
+      "html_url": "https://github.com/alibaba/weex/issues/32#issuecomment-211895408",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/32",
+      "id": 211895408,
+      "user": {
+        "login": "YorkShen",
+        "id": 4162544,
+        "avatar_url": "https://avatars2.githubusercontent.com/u/4162544?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YorkShen",
+        "html_url": "https://github.com/YorkShen",
+        "followers_url": "https://api.github.com/users/YorkShen/followers",
+        "following_url": "https://api.github.com/users/YorkShen/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YorkShen/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YorkShen/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YorkShen/subscriptions",
+        "organizations_url": "https://api.github.com/users/YorkShen/orgs",
+        "repos_url": "https://api.github.com/users/YorkShen/repos",
+        "events_url": "https://api.github.com/users/YorkShen/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YorkShen/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2016-04-19T12:19:53Z",
+      "updated_at": "2016-04-19T12:19:53Z",
+      "body": "The default FontFace in Smartisan cell-phone do not support `font-style: italic`. Unless loading a custom fontFace when initializing weex, there is nothing more we can do.\n"
+    }
+  ],
+  "created_at": "2016-04-19T12:07:59Z",
+  "updated_at": "2016-04-19T12:19:53Z",
+  "closed_at": "2016-04-19T12:19:53Z",
+  "body": "https://github.com/alibaba/weex/blob/dev/examples/textDemo.we#L22\n"
+}

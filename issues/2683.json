@@ -1,0 +1,78 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/2683",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/2683/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/2683/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/2683/events",
+  "html_url": "https://github.com/alibaba/weex/issues/2683",
+  "id": 209030516,
+  "number": 2683,
+  "title": "TypeError: Cannot call method 'indexOf' of undefined",
+  "user": {
+    "login": "zk0301",
+    "id": 4497345,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/4497345?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/zk0301",
+    "html_url": "https://github.com/zk0301",
+    "followers_url": "https://api.github.com/users/zk0301/followers",
+    "following_url": "https://api.github.com/users/zk0301/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zk0301/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/zk0301/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/zk0301/subscriptions",
+    "organizations_url": "https://api.github.com/users/zk0301/orgs",
+    "repos_url": "https://api.github.com/users/zk0301/repos",
+    "events_url": "https://api.github.com/users/zk0301/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/zk0301/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 359381236,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/android",
+      "name": "android",
+      "color": "f9d0c4",
+      "default": false
+    }
+  ],
+  "state": "open",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/281591509",
+      "html_url": "https://github.com/alibaba/weex/issues/2683#issuecomment-281591509",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/2683",
+      "id": 281591509,
+      "user": {
+        "login": "zk0301",
+        "id": 4497345,
+        "avatar_url": "https://avatars1.githubusercontent.com/u/4497345?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zk0301",
+        "html_url": "https://github.com/zk0301",
+        "followers_url": "https://api.github.com/users/zk0301/followers",
+        "following_url": "https://api.github.com/users/zk0301/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zk0301/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zk0301/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zk0301/subscriptions",
+        "organizations_url": "https://api.github.com/users/zk0301/orgs",
+        "repos_url": "https://api.github.com/users/zk0301/repos",
+        "events_url": "https://api.github.com/users/zk0301/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zk0301/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2017-02-22T07:32:38Z",
+      "updated_at": "2017-02-22T07:32:38Z",
+      "body": "BUNDLE_URL不能为null"
+    }
+  ],
+  "created_at": "2017-02-21T03:08:32Z",
+  "updated_at": "2017-02-24T11:42:49Z",
+  "closed_at": null,
+  "body": "加载本地的js文件。android的加载报这个错，ios那边没有问题，请问怎么修复。\r\nReportException : TypeError: Cannot call method 'indexOf' of undefined\r\n                                                               at Vm.created (eval at <anonymous> ((weex):4:10984), <anonymous>:3739:42)\r\n                                                               at (weex):5:18174\r\n                                                               at Array.forEach (native)\r\n                                                               at (weex):5:18140\r\n                                                               at Vm.$emit ((weex):5:18193)\r\n                                                               at new Vm ((weex):4:13193)\r\n                                                               at bootstrap ((weex):5:21869)\r\n                                                               at bundleBootstrap ((weex):4:9199)\r\n                                                               at Object.eval (eval at <anonymous> ((weex):4:10984), <anonymous>:66:2)\r\n                                                               at __webpack_require__ (eval at <anonymous> ((weex):4:10984), <anonymous>:22:30)\r\n02-21 11:06:39.512 24141-24165/com.weex.sample E/weex: reportJSException >>>> instanceId:2, exception function:createInstance, exception:TypeError: Cannot call method 'indexOf' of undefined"
+}

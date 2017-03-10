@@ -1,0 +1,85 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/1505",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/1505/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/1505/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/1505/events",
+  "html_url": "https://github.com/alibaba/weex/issues/1505",
+  "id": 185053031,
+  "number": 1505,
+  "title": "List中的下拉刷新，下拉后，刷新组件就被挡住了。",
+  "user": {
+    "login": "cooliean",
+    "id": 4754617,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/4754617?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cooliean",
+    "html_url": "https://github.com/cooliean",
+    "followers_url": "https://api.github.com/users/cooliean/followers",
+    "following_url": "https://api.github.com/users/cooliean/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cooliean/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cooliean/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cooliean/subscriptions",
+    "organizations_url": "https://api.github.com/users/cooliean/orgs",
+    "repos_url": "https://api.github.com/users/cooliean/repos",
+    "events_url": "https://api.github.com/users/cooliean/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cooliean/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 339914709,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/help%20wanted",
+      "name": "help wanted",
+      "color": "159818",
+      "default": true
+    },
+    {
+      "id": 359381244,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/ios",
+      "name": "ios",
+      "color": "f9d0c4",
+      "default": false
+    }
+  ],
+  "state": "closed",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/257505137",
+      "html_url": "https://github.com/alibaba/weex/issues/1505#issuecomment-257505137",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/1505",
+      "id": 257505137,
+      "user": {
+        "login": "acton393",
+        "id": 11631084,
+        "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/acton393",
+        "html_url": "https://github.com/acton393",
+        "followers_url": "https://api.github.com/users/acton393/followers",
+        "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+        "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+        "organizations_url": "https://api.github.com/users/acton393/orgs",
+        "repos_url": "https://api.github.com/users/acton393/repos",
+        "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/acton393/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2016-11-01T07:30:31Z",
+      "updated_at": "2016-11-01T07:30:31Z",
+      "body": "在 #1542 讨论\n"
+    }
+  ],
+  "created_at": "2016-10-25T08:39:20Z",
+  "updated_at": "2016-11-01T07:30:31Z",
+  "closed_at": "2016-11-01T07:30:31Z",
+  "body": "IOS 环境。\n加padding那些什么都不可以。\n"
+}

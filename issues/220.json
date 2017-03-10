@@ -1,0 +1,78 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/220",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/220/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/220/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/220/events",
+  "html_url": "https://github.com/alibaba/weex/issues/220",
+  "id": 154173480,
+  "number": 220,
+  "title": "Android weex技术交流QQ群",
+  "user": {
+    "login": "walid1992",
+    "id": 16499191,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/16499191?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/walid1992",
+    "html_url": "https://github.com/walid1992",
+    "followers_url": "https://api.github.com/users/walid1992/followers",
+    "following_url": "https://api.github.com/users/walid1992/following{/other_user}",
+    "gists_url": "https://api.github.com/users/walid1992/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/walid1992/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/walid1992/subscriptions",
+    "organizations_url": "https://api.github.com/users/walid1992/orgs",
+    "repos_url": "https://api.github.com/users/walid1992/repos",
+    "events_url": "https://api.github.com/users/walid1992/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/walid1992/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 339914709,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/help%20wanted",
+      "name": "help wanted",
+      "color": "159818",
+      "default": true
+    }
+  ],
+  "state": "closed",
+  "locked": true,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/218646094",
+      "html_url": "https://github.com/alibaba/weex/issues/220#issuecomment-218646094",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/220",
+      "id": 218646094,
+      "user": {
+        "login": "ronniesun",
+        "id": 8568320,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/8568320?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ronniesun",
+        "html_url": "https://github.com/ronniesun",
+        "followers_url": "https://api.github.com/users/ronniesun/followers",
+        "following_url": "https://api.github.com/users/ronniesun/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ronniesun/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ronniesun/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ronniesun/subscriptions",
+        "organizations_url": "https://api.github.com/users/ronniesun/orgs",
+        "repos_url": "https://api.github.com/users/ronniesun/repos",
+        "events_url": "https://api.github.com/users/ronniesun/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ronniesun/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2016-05-12T02:48:35Z",
+      "updated_at": "2016-05-12T02:48:35Z",
+      "body": "join in\n"
+    }
+  ],
+  "created_at": "2016-05-11T07:00:25Z",
+  "updated_at": "2016-06-13T03:03:38Z",
+  "closed_at": "2016-06-13T03:03:38Z",
+  "body": "Android weex技术交流QQ群： 455207162\n"
+}

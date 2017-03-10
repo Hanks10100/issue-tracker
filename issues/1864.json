@@ -1,0 +1,123 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/1864",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/1864/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/1864/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/1864/events",
+  "html_url": "https://github.com/alibaba/weex/issues/1864",
+  "id": 194829538,
+  "number": 1864,
+  "title": "单独定义一个activity 页面跳转就有问题？ 用weexpack生成的可以正常跳转，什么回事？",
+  "user": {
+    "login": "spiritelf",
+    "id": 8556186,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8556186?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/spiritelf",
+    "html_url": "https://github.com/spiritelf",
+    "followers_url": "https://api.github.com/users/spiritelf/followers",
+    "following_url": "https://api.github.com/users/spiritelf/following{/other_user}",
+    "gists_url": "https://api.github.com/users/spiritelf/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/spiritelf/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/spiritelf/subscriptions",
+    "organizations_url": "https://api.github.com/users/spiritelf/orgs",
+    "repos_url": "https://api.github.com/users/spiritelf/repos",
+    "events_url": "https://api.github.com/users/spiritelf/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/spiritelf/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 359381236,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/android",
+      "name": "android",
+      "color": "f9d0c4",
+      "default": false
+    },
+    {
+      "id": 339914709,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/help%20wanted",
+      "name": "help wanted",
+      "color": "159818",
+      "default": true
+    }
+  ],
+  "state": "open",
+  "locked": false,
+  "assignee": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "assignees": [
+    {
+      "login": "sospartan",
+      "id": 115201,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sospartan",
+      "html_url": "https://github.com/sospartan",
+      "followers_url": "https://api.github.com/users/sospartan/followers",
+      "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+      "organizations_url": "https://api.github.com/users/sospartan/orgs",
+      "repos_url": "https://api.github.com/users/sospartan/repos",
+      "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sospartan/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  ],
+  "milestone": null,
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/266287683",
+      "html_url": "https://github.com/alibaba/weex/issues/1864#issuecomment-266287683",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/1864",
+      "id": 266287683,
+      "user": {
+        "login": "spiritelf",
+        "id": 8556186,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/8556186?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/spiritelf",
+        "html_url": "https://github.com/spiritelf",
+        "followers_url": "https://api.github.com/users/spiritelf/followers",
+        "following_url": "https://api.github.com/users/spiritelf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/spiritelf/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/spiritelf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/spiritelf/subscriptions",
+        "organizations_url": "https://api.github.com/users/spiritelf/orgs",
+        "repos_url": "https://api.github.com/users/spiritelf/repos",
+        "events_url": "https://api.github.com/users/spiritelf/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/spiritelf/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2016-12-11T15:14:58Z",
+      "updated_at": "2016-12-11T15:14:58Z",
+      "body": "NetWork Error!\r\n1.make sure you use the comman npm run serve launched local service\r\n2.make sure you modify you_current_ip to you local IP in WXMainActivity"
+    }
+  ],
+  "created_at": "2016-12-11T12:32:55Z",
+  "updated_at": "2017-03-01T06:44:40Z",
+  "closed_at": null,
+  "body": "package com.github.zhoukekestar.weexquickstart;\r\n\r\nimport android.app.Activity;\r\nimport android.os.Bundle;\r\nimport android.util.Log;\r\nimport android.view.View;\r\nimport android.widget.Toast;\r\n\r\nimport com.taobao.weex.IWXRenderListener;\r\nimport com.taobao.weex.WXSDKInstance;\r\nimport com.taobao.weex.common.WXRenderStrategy;\r\nimport com.taobao.weex.utils.WXFileUtils;\r\n\r\npublic class MainActivity extends Activity implements IWXRenderListener  {\r\n\r\n    private static final String TAG = \"MainActivity\";\r\n    private static WXSDKInstance mInstance;\r\n\r\n    @Override\r\n    protected void onCreate(Bundle savedInstanceState) {\r\n        super.onCreate(savedInstanceState);\r\n        setContentView(R.layout.activity_main);\r\n\r\n        mInstance = new WXSDKInstance(this);\r\n        mInstance.registerRenderListener(this);\r\n\r\n        // WeexSDK 0.5.1\r\n//        mInstance.render(\"WeexQuickStart\", WXFileUtils.loadFileContent(\"weex/index.js\", this), null, null, -1, -1, WXRenderStrategy.APPEND_ASYNC);\r\n\r\n        // WeexSDK 0.8.0.1\r\n        mInstance.render(\"WeexQuickStart\", WXFileUtils.loadAsset(\"dist/login.js\", this), null, null, -1, -1, WXRenderStrategy.APPEND_ASYNC);\r\n       // mInstance.render(\"WeexQuickStart\", WXFileUtils.loadAsset(\"weex/index.html\", this), null, null, -1, -1, WXRenderStrategy.APPEND_ASYNC);\r\n    }\r\n\r\n    @Override\r\n    public void onViewCreated(WXSDKInstance wxsdkInstance, View view) {\r\n        Log.v(TAG, \"onViewCreated\");\r\n        setContentView(view);\r\n        Toast.makeText(MainActivity.this, \"onViewCreated\", Toast.LENGTH_LONG).show();\r\n    }\r\n\r\n    @Override\r\n    public void onRenderSuccess(WXSDKInstance instance, int width, int height) {\r\n        Log.v(TAG, \"onRenderSuccess\");\r\n        Toast.makeText(MainActivity.this, \"onRenderSuccess\", Toast.LENGTH_LONG).show();\r\n    }\r\n\r\n    @Override\r\n    public void onRefreshSuccess(WXSDKInstance wxsdkInstance, int i, int i1) {\r\n        Log.v(TAG, \"onRefreshSuccess\");\r\n        Toast.makeText(MainActivity.this, \"onRefreshSuccess\", Toast.LENGTH_LONG).show();\r\n    }\r\n\r\n    @Override\r\n    public void onException(WXSDKInstance instance, String errCode, String msg) {\r\n\r\n        Log.v(TAG, \"onException errCode:\" + errCode + \" msg:\" + msg);\r\n        Toast.makeText(MainActivity.this, \"ERROR  errCode:\" + errCode + \" msg:\" + msg, Toast.LENGTH_LONG).show();\r\n    }\r\n}\r\n"
+}

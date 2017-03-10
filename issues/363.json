@@ -1,0 +1,56 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/363",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/363/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/363/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/363/events",
+  "html_url": "https://github.com/alibaba/weex/issues/363",
+  "id": 157395353,
+  "number": 363,
+  "title": "Vue 2.0 perf in Weex",
+  "user": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 339914708,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/enhancement",
+      "name": "enhancement",
+      "color": "84b6eb",
+      "default": true
+    },
+    {
+      "id": 359381537,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/js%20runtime",
+      "name": "js runtime",
+      "color": "f9d0c4",
+      "default": false
+    }
+  ],
+  "state": "closed",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": 2,
+  "created_at": "2016-05-29T17:01:27Z",
+  "updated_at": "2016-08-01T09:47:31Z",
+  "closed_at": "2016-08-01T09:47:30Z",
+  "body": "I tried Vue 2.0 as JS framework of Weex #113 and wrote some examples in `jsfm-feature-vue` branch which included syntax, showcase etc.\n\npreparation:\n1. run `npm ln vue` to https://github.com/alibaba/weex-vue-next/\n2. run `npm ln weex-loader-new` to https://github.com/alibaba/weex-loader-next/\n3. run `npm run build -- weex.common.js,weex.compiler.js` in `weex-vue-next`\n\nbuild:\n1. run `npm run dev` in `src/js-framework` folder in `weex`, the new JS framework will be built into `src/js-framework/dist/index.js`\n2. run `webpack --config webpack.vue.config.js` in Weex, the Vue JS bundle files will be built into `example/build/vue/` folder\n\nThis new JS framework file will support both current Weex JS bundle and Vue JS Bundle.\n\nI use this JS framework file to build an Android APK and run \"List (Advanced)\" example 5 times for each bundle type in Smartisan YQ601 Android 5.1.1 (坚果手机). Here is the perf result:\n\nVue: https://github.com/alibaba/weex/blob/88422ee8567bb946d87d465446137916ac9dd605/src/vue/examples/showcase/itemlist.vue\n\n| bizType | pageName | templateLoadTime | localReadTime | JSLibInitTime | JSLibSize | templateUrl | JSTemplateSize | communicateTime | screenRenderTime | totalTime | JSLibVersion | WXSDKVersion | errCode | renderFailedDetail | errMsg |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| vue | WXPageActivity | 0 | 0 | 20277 | 0 |  | 23 | 291 | 757 | 756 | v0.13.9 | 1.5.0 |  |  |  |\n| vue | WXPageActivity | 0 | 0 | 20277 | 0 |  | 23 | 209 | 479 | 479 | v0.13.9 | 1.5.0 |  |  |  |\n| vue | WXPageActivity | 0 | 0 | 20277 | 0 |  | 23 | 279 | 730 | 729 | v0.13.9 | 1.5.0 |  |  |  |\n| vue | WXPageActivity | 0 | 0 | 20277 | 0 |  | 23 | 167 | 439 | 438 | v0.13.9 | 1.5.0 |  |  |  |\n| vue | WXPageActivity | 0 | 0 | 20277 | 0 |  | 23 | 176 | 592 | 591 | v0.13.9 | 1.5.0 |  |  |  |\n\nWeex: https://github.com/alibaba/weex/blob/88422ee8567bb946d87d465446137916ac9dd605/examples/component/list/list-demo.we\n\n| bizType | pageName | templateLoadTime | localReadTime | JSLibInitTime | JSLibSize | templateUrl | JSTemplateSize | communicateTime | screenRenderTime | totalTime | JSLibVersion | WXSDKVersion | errCode | renderFailedDetail | errMsg |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| weex | WXPageActivity | 0 | 0 | 20277 | 0 |  | 43 | 499 | 367 | 569 | v0.13.9 | 1.5.0 |  |  |  |\n| weex | WXPageActivity | 0 | 0 | 20277 | 0 |  | 43 | 421 | 359 | 522 | v0.13.9 | 1.5.0 |  |  |  |\n| weex | WXPageActivity | 0 | 0 | 20277 | 0 |  | 43 | 514 | 414 | 582 | v0.13.9 | 1.5.0 |  |  |  |\n| weex | WXPageActivity | 0 | 0 | 20277 | 0 |  | 43 | 473 | 356 | 576 | v0.13.9 | 1.5.0 |  |  |  |\n| weex | WXPageActivity | 0 | 0 | 20277 | 0 |  | 43 | 516 | 365 | 583 | v0.13.9 | 1.5.0 |  |  |  |\n\nThe whole native log is here: [perf.zip](https://github.com/alibaba/weex/files/288452/perf.zip)\n\nSeems the performance was not stable enough (still not get the reason). And the `screenRenderTime` (first-paint time) is just as same as the `totalTime` because Vue can only generate the whole virtual-DOM and mount it as last.\n"
+}

@@ -1,0 +1,113 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/1646",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/1646/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/1646/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/1646/events",
+  "html_url": "https://github.com/alibaba/weex/issues/1646",
+  "id": 189560799,
+  "number": 1646,
+  "title": "集成到Android时出现more than one library with package name com.taobao.weappplus_sdk，这个怎么破",
+  "user": {
+    "login": "MARCUSW10",
+    "id": 23288311,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23288311?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/MARCUSW10",
+    "html_url": "https://github.com/MARCUSW10",
+    "followers_url": "https://api.github.com/users/MARCUSW10/followers",
+    "following_url": "https://api.github.com/users/MARCUSW10/following{/other_user}",
+    "gists_url": "https://api.github.com/users/MARCUSW10/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/MARCUSW10/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/MARCUSW10/subscriptions",
+    "organizations_url": "https://api.github.com/users/MARCUSW10/orgs",
+    "repos_url": "https://api.github.com/users/MARCUSW10/repos",
+    "events_url": "https://api.github.com/users/MARCUSW10/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/MARCUSW10/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 339914709,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/help%20wanted",
+      "name": "help wanted",
+      "color": "159818",
+      "default": true
+    },
+    {
+      "id": 483936402,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/need%20repro",
+      "name": "need repro",
+      "color": "e99695",
+      "default": false
+    }
+  ],
+  "state": "closed",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/262161872",
+      "html_url": "https://github.com/alibaba/weex/issues/1646#issuecomment-262161872",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/1646",
+      "id": 262161872,
+      "user": {
+        "login": "zshshr",
+        "id": 5382962,
+        "avatar_url": "https://avatars2.githubusercontent.com/u/5382962?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zshshr",
+        "html_url": "https://github.com/zshshr",
+        "followers_url": "https://api.github.com/users/zshshr/followers",
+        "following_url": "https://api.github.com/users/zshshr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zshshr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zshshr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zshshr/subscriptions",
+        "organizations_url": "https://api.github.com/users/zshshr/orgs",
+        "repos_url": "https://api.github.com/users/zshshr/repos",
+        "events_url": "https://api.github.com/users/zshshr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zshshr/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2016-11-22T06:51:13Z",
+      "updated_at": "2016-11-22T06:51:13Z",
+      "body": "能描述一下你是怎么集成的？最简单的方式，就是直接同步代码，用android studio 打开sdk中的 build.gradle文件, 你可以试试"
+    },
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/263185505",
+      "html_url": "https://github.com/alibaba/weex/issues/1646#issuecomment-263185505",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/1646",
+      "id": 263185505,
+      "user": {
+        "login": "Jinjiang",
+        "id": 206848,
+        "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Jinjiang",
+        "html_url": "https://github.com/Jinjiang",
+        "followers_url": "https://api.github.com/users/Jinjiang/followers",
+        "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+        "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+        "repos_url": "https://api.github.com/users/Jinjiang/repos",
+        "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2016-11-28T05:18:00Z",
+      "updated_at": "2016-11-28T05:18:00Z",
+      "body": "由于长时间没有得到反馈且缺乏细节描述，这个 issue 我关掉了\r\n今后开 issue 请遵循模板的建议\r\n谢谢"
+    }
+  ],
+  "created_at": "2016-11-16T01:56:14Z",
+  "updated_at": "2016-11-28T05:18:00Z",
+  "closed_at": "2016-11-28T05:18:00Z",
+  "body": "<!--\r\n0. It's ***RECOMMENDED*** to [submit PR](https://github.com/alibaba/weex/pulls) for typo, new demo or tiny bugfix.\r\n0. If this's a ***BUG***, pls provide: course repetition, error/crash log, device model, OS version, App version (playground or other apps).\r\n0. If this's a ***FEATURE***, pls provide: details, pseudo codes if necessary.\r\n\r\n---\r\n\r\n（请在***提交***前删除这段描述）\r\n\r\n0. 我们***推荐***小问题直接[提 PR](https://github.com/alibaba/weex/pulls)，如错别字、新 demo 或 bugfix。\r\n0. 如果是 ***Bug***，请提供：复现步骤（推荐有截图）、error/crash log、设备型号、OS 版本、App 版本（playground 版本或自己的 app）。\r\n0. 如果是***新需求***，请提供：详细描述、应用场景、适当的伪代码（如有）。\r\n-->\r\n"
+}

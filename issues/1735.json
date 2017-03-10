@@ -1,0 +1,85 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/1735",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/1735/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/1735/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/1735/events",
+  "html_url": "https://github.com/alibaba/weex/issues/1735",
+  "id": 191738265,
+  "number": 1735,
+  "title": "[Proposal] Support CSS property Inheritance",
+  "user": {
+    "login": "Hanks10100",
+    "id": 8401776,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8401776?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Hanks10100",
+    "html_url": "https://github.com/Hanks10100",
+    "followers_url": "https://api.github.com/users/Hanks10100/followers",
+    "following_url": "https://api.github.com/users/Hanks10100/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Hanks10100/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Hanks10100/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Hanks10100/subscriptions",
+    "organizations_url": "https://api.github.com/users/Hanks10100/orgs",
+    "repos_url": "https://api.github.com/users/Hanks10100/repos",
+    "events_url": "https://api.github.com/users/Hanks10100/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Hanks10100/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 339914708,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/enhancement",
+      "name": "enhancement",
+      "color": "84b6eb",
+      "default": true
+    },
+    {
+      "id": 488748270,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/proposal",
+      "name": "proposal",
+      "color": "fbca04",
+      "default": false
+    }
+  ],
+  "state": "closed",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/265646959",
+      "html_url": "https://github.com/alibaba/weex/issues/1735#issuecomment-265646959",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/1735",
+      "id": 265646959,
+      "user": {
+        "login": "Hanks10100",
+        "id": 8401776,
+        "avatar_url": "https://avatars3.githubusercontent.com/u/8401776?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Hanks10100",
+        "html_url": "https://github.com/Hanks10100",
+        "followers_url": "https://api.github.com/users/Hanks10100/followers",
+        "following_url": "https://api.github.com/users/Hanks10100/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Hanks10100/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Hanks10100/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Hanks10100/subscriptions",
+        "organizations_url": "https://api.github.com/users/Hanks10100/orgs",
+        "repos_url": "https://api.github.com/users/Hanks10100/repos",
+        "events_url": "https://api.github.com/users/Hanks10100/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Hanks10100/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2016-12-08T03:58:27Z",
+      "updated_at": "2016-12-08T03:58:27Z",
+      "body": "On hold, temporarily move to #1494 . It will be reopen when we actually doing this."
+    }
+  ],
+  "created_at": "2016-11-25T16:43:30Z",
+  "updated_at": "2017-01-31T08:06:12Z",
+  "closed_at": "2016-12-08T03:58:27Z",
+  "body": "See the example below:\r\n\r\n```html\r\n<template>\r\n  <div style=\"color:blue\">\r\n    <text>blue</text>\r\n  </div>\r\n</template>\r\n```\r\nThe text color should be blue, but it shows black on the phone. ([demo](http://dotwe.org/8216e8160b41b588dcf26dafdf6346bc))\r\n\r\nI think we should support the inheritance, which is a useful and powerful technique in writing styles.\r\n\r\n## Properties we should support\r\n\r\nThe full list of inherited properties could be found in [W3C's spec](https://www.w3.org/TR/CSS21/propidx.html). Here is a summary on stackoverflow: [Which CSS properties are inherited?](http://stackoverflow.com/questions/5612302).\r\n\r\nBut we do not need to support all Inheritable properties (many properties are not support originally).\r\n\r\nHere is a candidate list I organized:\r\n\r\n+ color\r\n+ font-family\r\n+ font-size\r\n+ font-style\r\n+ font-weight\r\n+ line-height\r\n+ text-align\r\n\r\nQuite a short list.\r\n\r\nThe most important property we should support at first is **`color`** and **`font-size`**.\r\n"
+}

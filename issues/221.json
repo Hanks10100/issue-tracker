@@ -1,0 +1,49 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/221",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/221/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/221/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/221/events",
+  "html_url": "https://github.com/alibaba/weex/issues/221",
+  "id": 154173568,
+  "number": 221,
+  "title": " radio ，checkbox的支持",
+  "user": {
+    "login": "Demon-liao",
+    "id": 2654683,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2654683?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Demon-liao",
+    "html_url": "https://github.com/Demon-liao",
+    "followers_url": "https://api.github.com/users/Demon-liao/followers",
+    "following_url": "https://api.github.com/users/Demon-liao/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Demon-liao/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Demon-liao/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Demon-liao/subscriptions",
+    "organizations_url": "https://api.github.com/users/Demon-liao/orgs",
+    "repos_url": "https://api.github.com/users/Demon-liao/repos",
+    "events_url": "https://api.github.com/users/Demon-liao/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Demon-liao/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 339914708,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/enhancement",
+      "name": "enhancement",
+      "color": "84b6eb",
+      "default": true
+    }
+  ],
+  "state": "closed",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": 11,
+  "created_at": "2016-05-11T07:01:01Z",
+  "updated_at": "2016-05-12T08:43:48Z",
+  "closed_at": "2016-05-11T17:12:08Z",
+  "body": "文档中没有介绍 radio ，checkbox等相关的内容，是不是目前还未支持呢？\n"
+}

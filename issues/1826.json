@@ -1,0 +1,123 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/1826",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/1826/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/1826/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/1826/events",
+  "html_url": "https://github.com/alibaba/weex/issues/1826",
+  "id": 193946262,
+  "number": 1826,
+  "title": "编译so后不可用",
+  "user": {
+    "login": "xyzlmn",
+    "id": 360646,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/360646?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/xyzlmn",
+    "html_url": "https://github.com/xyzlmn",
+    "followers_url": "https://api.github.com/users/xyzlmn/followers",
+    "following_url": "https://api.github.com/users/xyzlmn/following{/other_user}",
+    "gists_url": "https://api.github.com/users/xyzlmn/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/xyzlmn/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/xyzlmn/subscriptions",
+    "organizations_url": "https://api.github.com/users/xyzlmn/orgs",
+    "repos_url": "https://api.github.com/users/xyzlmn/repos",
+    "events_url": "https://api.github.com/users/xyzlmn/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/xyzlmn/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 359381236,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/android",
+      "name": "android",
+      "color": "f9d0c4",
+      "default": false
+    },
+    {
+      "id": 339914706,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/bug",
+      "name": "bug",
+      "color": "fc2929",
+      "default": true
+    }
+  ],
+  "state": "open",
+  "locked": false,
+  "assignee": {
+    "login": "zshshr",
+    "id": 5382962,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5382962?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/zshshr",
+    "html_url": "https://github.com/zshshr",
+    "followers_url": "https://api.github.com/users/zshshr/followers",
+    "following_url": "https://api.github.com/users/zshshr/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zshshr/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/zshshr/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/zshshr/subscriptions",
+    "organizations_url": "https://api.github.com/users/zshshr/orgs",
+    "repos_url": "https://api.github.com/users/zshshr/repos",
+    "events_url": "https://api.github.com/users/zshshr/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/zshshr/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "assignees": [
+    {
+      "login": "zshshr",
+      "id": 5382962,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5382962?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zshshr",
+      "html_url": "https://github.com/zshshr",
+      "followers_url": "https://api.github.com/users/zshshr/followers",
+      "following_url": "https://api.github.com/users/zshshr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zshshr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zshshr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zshshr/subscriptions",
+      "organizations_url": "https://api.github.com/users/zshshr/orgs",
+      "repos_url": "https://api.github.com/users/zshshr/repos",
+      "events_url": "https://api.github.com/users/zshshr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zshshr/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  ],
+  "milestone": null,
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/266044703",
+      "html_url": "https://github.com/alibaba/weex/issues/1826#issuecomment-266044703",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/1826",
+      "id": 266044703,
+      "user": {
+        "login": "Jinjiang",
+        "id": 206848,
+        "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Jinjiang",
+        "html_url": "https://github.com/Jinjiang",
+        "followers_url": "https://api.github.com/users/Jinjiang/followers",
+        "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+        "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+        "repos_url": "https://api.github.com/users/Jinjiang/repos",
+        "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2016-12-09T15:42:54Z",
+      "updated_at": "2016-12-09T15:42:54Z",
+      "body": "感觉这个问题和 #1851 有一定关联，都是 callAddElement is not define"
+    }
+  ],
+  "created_at": "2016-12-07T03:04:55Z",
+  "updated_at": "2017-03-01T06:40:46Z",
+  "closed_at": null,
+  "body": "编译so（ https://github.com/alibaba/weex_v8core ） 后，在android版本的playgroud（下载源码编译）使用，报错， render error :createInstanceReferenceError:callAddElement is not define .编译后的so在 arm下为3.4 M,而SDK下arm的so是3.6 M.\r\n\r\n使用的android-ndk-r13b，mac10.12.1 。 "
+}

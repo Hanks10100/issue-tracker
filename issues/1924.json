@@ -1,0 +1,123 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/1924",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/1924/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/1924/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/1924/events",
+  "html_url": "https://github.com/alibaba/weex/issues/1924",
+  "id": 195999390,
+  "number": 1924,
+  "title": "关于对带有底部虚拟导航栏的android机型适配问题",
+  "user": {
+    "login": "fqlgaryth",
+    "id": 20830915,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/20830915?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/fqlgaryth",
+    "html_url": "https://github.com/fqlgaryth",
+    "followers_url": "https://api.github.com/users/fqlgaryth/followers",
+    "following_url": "https://api.github.com/users/fqlgaryth/following{/other_user}",
+    "gists_url": "https://api.github.com/users/fqlgaryth/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/fqlgaryth/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/fqlgaryth/subscriptions",
+    "organizations_url": "https://api.github.com/users/fqlgaryth/orgs",
+    "repos_url": "https://api.github.com/users/fqlgaryth/repos",
+    "events_url": "https://api.github.com/users/fqlgaryth/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/fqlgaryth/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 359381236,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/android",
+      "name": "android",
+      "color": "f9d0c4",
+      "default": false
+    },
+    {
+      "id": 339914709,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/help%20wanted",
+      "name": "help wanted",
+      "color": "159818",
+      "default": true
+    }
+  ],
+  "state": "closed",
+  "locked": false,
+  "assignee": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "assignees": [
+    {
+      "login": "sospartan",
+      "id": 115201,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sospartan",
+      "html_url": "https://github.com/sospartan",
+      "followers_url": "https://api.github.com/users/sospartan/followers",
+      "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+      "organizations_url": "https://api.github.com/users/sospartan/orgs",
+      "repos_url": "https://api.github.com/users/sospartan/repos",
+      "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sospartan/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  ],
+  "milestone": null,
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/268135371",
+      "html_url": "https://github.com/alibaba/weex/issues/1924#issuecomment-268135371",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/1924",
+      "id": 268135371,
+      "user": {
+        "login": "sospartan",
+        "id": 115201,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sospartan",
+        "html_url": "https://github.com/sospartan",
+        "followers_url": "https://api.github.com/users/sospartan/followers",
+        "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+        "organizations_url": "https://api.github.com/users/sospartan/orgs",
+        "repos_url": "https://api.github.com/users/sospartan/repos",
+        "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sospartan/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2016-12-20T02:16:10Z",
+      "updated_at": "2016-12-20T02:16:10Z",
+      "body": "@这个问题在android分支修复了，新增了`RenderContainer`的容器，会自适应。现阶段的话可以通过`SDKInstance#setSize`方法来调整容器大小。"
+    }
+  ],
+  "created_at": "2016-12-16T07:45:46Z",
+  "updated_at": "2016-12-20T02:16:10Z",
+  "closed_at": "2016-12-20T02:16:10Z",
+  "body": "因为weex在加载的时候是要传入显示的view大小，这样导致对一个带有底部虚拟导航栏的手机在加载进去后隐藏和显示虚拟导航栏上底部有遮蔽或空白问题。\r\nmInstance.renderByUrl(\r\n        getPageName(),\r\n        url,\r\n        options,\r\n        jsonInitData,\r\n        ScreenUtil.getDisplayWidth(this),\r\n        ScreenUtil.getDisplayHeight(this),\r\n        WXRenderStrategy.APPEND_ASYNC);"
+}

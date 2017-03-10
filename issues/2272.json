@@ -1,0 +1,85 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/2272",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/2272/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/2272/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/2272/events",
+  "html_url": "https://github.com/alibaba/weex/issues/2272",
+  "id": 200919305,
+  "number": 2272,
+  "title": "filter blur",
+  "user": {
+    "login": "gxmdboy",
+    "id": 13041525,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/13041525?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/gxmdboy",
+    "html_url": "https://github.com/gxmdboy",
+    "followers_url": "https://api.github.com/users/gxmdboy/followers",
+    "following_url": "https://api.github.com/users/gxmdboy/following{/other_user}",
+    "gists_url": "https://api.github.com/users/gxmdboy/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/gxmdboy/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/gxmdboy/subscriptions",
+    "organizations_url": "https://api.github.com/users/gxmdboy/orgs",
+    "repos_url": "https://api.github.com/users/gxmdboy/repos",
+    "events_url": "https://api.github.com/users/gxmdboy/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/gxmdboy/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 359381236,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/android",
+      "name": "android",
+      "color": "f9d0c4",
+      "default": false
+    },
+    {
+      "id": 339914708,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/enhancement",
+      "name": "enhancement",
+      "color": "84b6eb",
+      "default": true
+    }
+  ],
+  "state": "open",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/273359228",
+      "html_url": "https://github.com/alibaba/weex/issues/2272#issuecomment-273359228",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/2272",
+      "id": 273359228,
+      "user": {
+        "login": "gxmdboy",
+        "id": 13041525,
+        "avatar_url": "https://avatars3.githubusercontent.com/u/13041525?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/gxmdboy",
+        "html_url": "https://github.com/gxmdboy",
+        "followers_url": "https://api.github.com/users/gxmdboy/followers",
+        "following_url": "https://api.github.com/users/gxmdboy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/gxmdboy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/gxmdboy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/gxmdboy/subscriptions",
+        "organizations_url": "https://api.github.com/users/gxmdboy/orgs",
+        "repos_url": "https://api.github.com/users/gxmdboy/repos",
+        "events_url": "https://api.github.com/users/gxmdboy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/gxmdboy/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2017-01-18T01:51:33Z",
+      "updated_at": "2017-01-18T01:51:33Z",
+      "body": "还有个和ios兼容的问题\r\n在ios上可以用BorderRadius来设置圆角，但是在android上这个是设置background这层的圆角\r\n和ios不统一。\r\n暂时的解决办法是将image控件里的代码：\r\n`imageStrategy.blurRadius = getDomObject().getStyles().getBlur();`\r\n改成\r\n`imageStrategy.blurRadius = (int)getDomObject().getStyles().getBorderRadius();`\r\n然后在adapter获取使用\r\n这块请统一设计下"
+    }
+  ],
+  "created_at": "2017-01-16T02:41:44Z",
+  "updated_at": "2017-03-01T06:27:20Z",
+  "closed_at": null,
+  "body": "android上\r\n如果图片给的是矩形，需要显示为圆形（例如头像），使用filter:blur(100)，但原生代码里限制最多为10。\r\n这个数值应该由使用人来决定，不应限制\r\n"
+}

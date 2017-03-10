@@ -1,0 +1,113 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/1740",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/1740/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/1740/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/1740/events",
+  "html_url": "https://github.com/alibaba/weex/issues/1740",
+  "id": 191849621,
+  "number": 1740,
+  "title": "[Proposal] Add inline-level components, such as <span>",
+  "user": {
+    "login": "Hanks10100",
+    "id": 8401776,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8401776?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Hanks10100",
+    "html_url": "https://github.com/Hanks10100",
+    "followers_url": "https://api.github.com/users/Hanks10100/followers",
+    "following_url": "https://api.github.com/users/Hanks10100/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Hanks10100/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Hanks10100/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Hanks10100/subscriptions",
+    "organizations_url": "https://api.github.com/users/Hanks10100/orgs",
+    "repos_url": "https://api.github.com/users/Hanks10100/repos",
+    "events_url": "https://api.github.com/users/Hanks10100/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Hanks10100/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 339914708,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/enhancement",
+      "name": "enhancement",
+      "color": "84b6eb",
+      "default": true
+    },
+    {
+      "id": 488748270,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/proposal",
+      "name": "proposal",
+      "color": "fbca04",
+      "default": false
+    }
+  ],
+  "state": "closed",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/263447074",
+      "html_url": "https://github.com/alibaba/weex/issues/1740#issuecomment-263447074",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/1740",
+      "id": 263447074,
+      "user": {
+        "login": "Jinjiang",
+        "id": 206848,
+        "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Jinjiang",
+        "html_url": "https://github.com/Jinjiang",
+        "followers_url": "https://api.github.com/users/Jinjiang/followers",
+        "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+        "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+        "repos_url": "https://api.github.com/users/Jinjiang/repos",
+        "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2016-11-29T01:15:29Z",
+      "updated_at": "2016-11-29T01:15:29Z",
+      "body": "I think it's more better to encapsulated by a frontend custom component or functional Vue component instead based on `<richtext>`. They don't make more native feature and a frontend-only solution is enough."
+    },
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/264781582",
+      "html_url": "https://github.com/alibaba/weex/issues/1740#issuecomment-264781582",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/1740",
+      "id": 264781582,
+      "user": {
+        "login": "Jinjiang",
+        "id": 206848,
+        "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Jinjiang",
+        "html_url": "https://github.com/Jinjiang",
+        "followers_url": "https://api.github.com/users/Jinjiang/followers",
+        "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+        "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+        "repos_url": "https://api.github.com/users/Jinjiang/repos",
+        "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2016-12-05T07:03:28Z",
+      "updated_at": "2016-12-05T07:03:28Z",
+      "body": "The discussion was merged into #835"
+    }
+  ],
+  "created_at": "2016-11-27T08:42:05Z",
+  "updated_at": "2016-12-05T07:03:28Z",
+  "closed_at": "2016-12-05T07:02:45Z",
+  "body": "We don't have any inline level components yet, the `<text>` component is block level by default, indeed, it will compiled to `<div>` on the web. We can't achieve to write two words in one line with different colors or font style.\r\n\r\n## Proposal\r\n\r\nI think we should support to use `<span>` component. To simplify the implementation, we can add a convention that **`<span>` must be the child of `<text>`**, as well as other inline-level components.\r\n\r\n## Example\r\n\r\n```html\r\n<div>\r\n    <text>\r\n        <span style=\"color:red\">R</span>\r\n        <span style=\"color:green\">G</span>\r\n        <span style=\"color:blue\">B</span>\r\n    </text>\r\n</div>\r\n```\r\n\r\nThis demo should render the string `RGB` with three different colors.\r\n\r\n## What's More\r\n\r\n+ `<em>`, `<i>`, `<b>`, `<strong>`, `<small>`, could also be supported. (maybe it's not necessary)\r\n+ If we support `display: inline-block;`, It would be much easier to achieve rich text (#835).\r\n+ It's possible to create a `<markdown>` component without writing native codes.\r\n"
+}

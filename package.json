@@ -1,0 +1,15 @@
+{
+  "name": "issue",
+  "version": "1.0.0",
+  "description": "GitHub issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hanks <zhanghan.me@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "github-api": "^3.0.0",
+    "jsonfile": "^2.4.0"
+  }
+}

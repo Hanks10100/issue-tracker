@@ -1,0 +1,49 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/1083",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/1083/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/1083/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/1083/events",
+  "html_url": "https://github.com/alibaba/weex/issues/1083",
+  "id": 173710977,
+  "number": 1083,
+  "title": "扩展module 拍照或者选择图库的照片后 怎样将图片显示到weex页面上",
+  "user": {
+    "login": "lanxiner123",
+    "id": 16813429,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/16813429?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/lanxiner123",
+    "html_url": "https://github.com/lanxiner123",
+    "followers_url": "https://api.github.com/users/lanxiner123/followers",
+    "following_url": "https://api.github.com/users/lanxiner123/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lanxiner123/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/lanxiner123/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/lanxiner123/subscriptions",
+    "organizations_url": "https://api.github.com/users/lanxiner123/orgs",
+    "repos_url": "https://api.github.com/users/lanxiner123/repos",
+    "events_url": "https://api.github.com/users/lanxiner123/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/lanxiner123/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 339914708,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/enhancement",
+      "name": "enhancement",
+      "color": "84b6eb",
+      "default": true
+    }
+  ],
+  "state": "closed",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": 15,
+  "created_at": "2016-08-29T07:14:53Z",
+  "updated_at": "2016-10-13T07:02:52Z",
+  "closed_at": "2016-09-12T03:23:38Z",
+  "body": "我自己扩展了module来调取摄像头，拍照或者选择图库的照片后怎样将图片显示到weex页面上：\n- (void)cropViewController:(PECropViewController *)controller didFinishCroppingImage:(UIImage *)croppedImage 里面的croppedImage是回调回来的图片  怎样将这个回调的图片传给weex\n  我自己通过保存图片到本地，打算传给weex页面本地路径，但是现在还不支持，请问这样怎么解决呀，现在在项目中又遇到了这样的问题\n"
+}

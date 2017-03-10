@@ -1,0 +1,78 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/2273",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/2273/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/2273/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/2273/events",
+  "html_url": "https://github.com/alibaba/weex/issues/2273",
+  "id": 200921026,
+  "number": 2273,
+  "title": "【新需求】给手势操作开放更多的控制权",
+  "user": {
+    "login": "YongX",
+    "id": 7367678,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7367678?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/YongX",
+    "html_url": "https://github.com/YongX",
+    "followers_url": "https://api.github.com/users/YongX/followers",
+    "following_url": "https://api.github.com/users/YongX/following{/other_user}",
+    "gists_url": "https://api.github.com/users/YongX/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/YongX/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/YongX/subscriptions",
+    "organizations_url": "https://api.github.com/users/YongX/orgs",
+    "repos_url": "https://api.github.com/users/YongX/repos",
+    "events_url": "https://api.github.com/users/YongX/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/YongX/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 339914708,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/enhancement",
+      "name": "enhancement",
+      "color": "84b6eb",
+      "default": true
+    }
+  ],
+  "state": "open",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/282930597",
+      "html_url": "https://github.com/alibaba/weex/issues/2273#issuecomment-282930597",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/2273",
+      "id": 282930597,
+      "user": {
+        "login": "yong-chen04",
+        "id": 25790987,
+        "avatar_url": "https://avatars2.githubusercontent.com/u/25790987?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yong-chen04",
+        "html_url": "https://github.com/yong-chen04",
+        "followers_url": "https://api.github.com/users/yong-chen04/followers",
+        "following_url": "https://api.github.com/users/yong-chen04/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yong-chen04/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yong-chen04/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yong-chen04/subscriptions",
+        "organizations_url": "https://api.github.com/users/yong-chen04/orgs",
+        "repos_url": "https://api.github.com/users/yong-chen04/repos",
+        "events_url": "https://api.github.com/users/yong-chen04/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yong-chen04/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2017-02-28T03:21:53Z",
+      "updated_at": "2017-02-28T03:21:53Z",
+      "body": "Any updates?"
+    }
+  ],
+  "created_at": "2017-01-16T02:59:49Z",
+  "updated_at": "2017-03-01T06:28:16Z",
+  "closed_at": null,
+  "body": "说明：以下描述是在`wxsdk 0.9.4`版本上进行测试的，\b新版的`0.9.5`应该未对手势做升级。\r\n\r\n**需求描述：**\r\n目前的手势系统提供的方法从文档上看不能阻止内嵌滚动元素的默认滚动事件。考虑一种页面结构：\r\n```\r\n<template>\r\n  <div class=\"list-wrap\" ontouchmove=\"handleTouchmove\">\r\n    <list class=\"menu-left\" id=\"menu\">\r\n      <cell class=\"menu-item\" repeat=\"menu\">\r\n        <text class=\"menu-name\">{{ name }}</text>\r\n      </cell>\r\n    </list>\r\n  </div>\r\n</template>\r\n```\r\n期望能做到可以在`handleTouchmove`方法中控制是让整个`view`滚动，还是让`list`滚动。\r\n\r\n**应用场景：**\r\n一个典型的应用场景是在饿了么App的商品列表页：\r\n![wechatimg37](https://cloud.githubusercontent.com/assets/7367678/21926291/168fc070-d9bc-11e6-9dc7-6cc16703c95e.jpeg)\r\n\r\n图中我主要分成了3大块区域。红色区域1为一个`view`包含两列`list`，绿色区域2为`list`组件，黑色区域3为头部。\r\n这里的一个交互细节是在截图所示的状态下，对区域2做上划操作实际上滑动的是整个区域1，直到滑动的高度为当前区域3所在的高度后，区域2里面的`list`才重新响应滑动操作。下拉的过程则相反。\r\n\r\n"
+}

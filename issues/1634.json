@@ -1,0 +1,85 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/1634",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/1634/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/1634/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/1634/events",
+  "html_url": "https://github.com/alibaba/weex/issues/1634",
+  "id": 189050981,
+  "number": 1634,
+  "title": "sticky在andriod的效果不正常",
+  "user": {
+    "login": "jiuyuegui",
+    "id": 7759642,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/7759642?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jiuyuegui",
+    "html_url": "https://github.com/jiuyuegui",
+    "followers_url": "https://api.github.com/users/jiuyuegui/followers",
+    "following_url": "https://api.github.com/users/jiuyuegui/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jiuyuegui/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jiuyuegui/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jiuyuegui/subscriptions",
+    "organizations_url": "https://api.github.com/users/jiuyuegui/orgs",
+    "repos_url": "https://api.github.com/users/jiuyuegui/repos",
+    "events_url": "https://api.github.com/users/jiuyuegui/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jiuyuegui/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 359381236,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/android",
+      "name": "android",
+      "color": "f9d0c4",
+      "default": false
+    },
+    {
+      "id": 339914709,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/help%20wanted",
+      "name": "help wanted",
+      "color": "159818",
+      "default": true
+    }
+  ],
+  "state": "closed",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/260311801",
+      "html_url": "https://github.com/alibaba/weex/issues/1634#issuecomment-260311801",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/1634",
+      "id": 260311801,
+      "user": {
+        "login": "Hanks10100",
+        "id": 8401776,
+        "avatar_url": "https://avatars3.githubusercontent.com/u/8401776?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Hanks10100",
+        "html_url": "https://github.com/Hanks10100",
+        "followers_url": "https://api.github.com/users/Hanks10100/followers",
+        "following_url": "https://api.github.com/users/Hanks10100/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Hanks10100/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Hanks10100/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Hanks10100/subscriptions",
+        "organizations_url": "https://api.github.com/users/Hanks10100/orgs",
+        "repos_url": "https://api.github.com/users/Hanks10100/repos",
+        "events_url": "https://api.github.com/users/Hanks10100/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Hanks10100/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2016-11-14T11:26:00Z",
+      "updated_at": "2016-11-14T11:26:00Z",
+      "body": "提醒下，不要在 github 放关于手淘的东西，也不要放二维码。\n"
+    }
+  ],
+  "created_at": "2016-11-14T08:07:53Z",
+  "updated_at": "2016-11-14T11:26:00Z",
+  "closed_at": "2016-11-14T11:26:00Z",
+  "body": "sticky在andriod上向上滑动的时候，能看到sticky区域是\"复制了一份节点\"让其sticky，具体显示如下：\r\n<img style=\"width: 460px; height: 702px\" src=\"https://cloud.githubusercontent.com/assets/7759642/20259081/fb667da0-aa8d-11e6-8460-f29ecda96faa.png\" />\r\n代码如下\r\n<pre>\r\n<style>\r\n\t.common {\r\n\t\tflex-direction: row;\t\r\n\t\talign-items: center;\r\n\t\tjustify-content: center;\t\r\n\t\theight: 100;\r\n\t\twidth: 750;\r\n\t\tposition: sticky; \r\n\t\tmargin-top: 80;\r\n\t\tmargin-bottom: 80;\r\n\t\topacity: 0.6;\r\n\t}\r\n\t.common-txt {\r\n\t\tbackground-color: #999999;\r\n\t\topacity: 0.6;\r\n\t}\r\n\t.txt {\r\n\t\tfont-size: 28;\r\n\t\tmargin-top: 20;\r\n\t\tmargin-bottom: 20;\r\n\t}\r\n\t.content {\r\n\t\theight: 1600;\r\n\t\twidth: 750;\r\n\t\tbackground-color: #999999;\r\n\t}\r\n</style>\r\n<template>\r\n\t<scroller style=\"position: relative\">\r\n\t\t<div class=\"common\">\r\n\t\t\t<text class=\"common-txt\">header ----- sticky</text>\r\n\t\t</div>\r\n\t\t<div class=\"content\">\r\n\t\t\t<text>test</text>\r\n\t\t</div>\r\n\t</scroller>\r\n</template>\r\n</pre>\r\n<a href=\"http://weex.alibaba-inc.com/playground/6a32d11056bae922ace5e14e22fb26d7\">测试二维码</a>\r\n<img style=\"width: 50px; height: 50px\" src=\"https://cloud.githubusercontent.com/assets/7759642/20258055/a0f99d34-aa88-11e6-86ba-52286e100151.png\" />"
+}

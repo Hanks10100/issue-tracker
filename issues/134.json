@@ -1,0 +1,115 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/134",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/134/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/134/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/134/events",
+  "html_url": "https://github.com/alibaba/weex/issues/134",
+  "id": 152766407,
+  "number": 134,
+  "title": "Update data from native",
+  "user": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 359381236,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/android",
+      "name": "android",
+      "color": "f9d0c4",
+      "default": false
+    },
+    {
+      "id": 339914708,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/enhancement",
+      "name": "enhancement",
+      "color": "84b6eb",
+      "default": true
+    },
+    {
+      "id": 359381235,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/html5",
+      "name": "html5",
+      "color": "f9d0c4",
+      "default": false
+    },
+    {
+      "id": 359381244,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/ios",
+      "name": "ios",
+      "color": "f9d0c4",
+      "default": false
+    },
+    {
+      "id": 359381537,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/js%20runtime",
+      "name": "js runtime",
+      "color": "f9d0c4",
+      "default": false
+    }
+  ],
+  "state": "closed",
+  "locked": false,
+  "assignee": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "assignees": [
+    {
+      "login": "sospartan",
+      "id": 115201,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sospartan",
+      "html_url": "https://github.com/sospartan",
+      "followers_url": "https://api.github.com/users/sospartan/followers",
+      "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+      "organizations_url": "https://api.github.com/users/sospartan/orgs",
+      "repos_url": "https://api.github.com/users/sospartan/repos",
+      "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sospartan/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  ],
+  "milestone": null,
+  "comments": 3,
+  "created_at": "2016-05-03T12:55:47Z",
+  "updated_at": "2016-07-08T04:28:56Z",
+  "closed_at": "2016-07-08T04:28:55Z",
+  "body": "Weex has an one-way data flow, from js to native. But components with 'state' will be problems, such as `switch`/`video` etc, as described in #28 .  \nThese components' state will be update by native event, a mechanism is necessary to make changes directly to the js side. And avoiding send update event rendundantly.\n\nFor example :  \n\n``` html\n<template>\n  <scroller>\n    <switch checked=\"{{switchOn}}\" style=\"margin-bottom:20\">\n    </switch>\n    <ui-button value=\"toggle switch\" click=\"{{toggle}}\"></ui-button>\n  </scroller>\n</template>\n\n<script>\n  module.exports = {\n    data: {\n      switchOn: 'true'\n    },\n    methods: {\n      toggle: function() {\n          console.log(\"current switch checked:\"+this.switchOn);\n          this.switchOn = (this.switchOn=='true'?'false':'true');\n      }\n    }\n  };\n</script>\n```\n\nIn this case, once click the `switch` , the `ui-button` have to click twice to really toggle the `switch`. It's not  acceptable.  \nI will use another `fireEvent` method ( https://github.com/alibaba/weex/blob/dev/src/js-framework/lib/app/ctrl.js#L112)  to solve this. I'll test it in android first.\n\n@zshshr @Jinjiang @boboning @luics @terrykingcha \n"
+}

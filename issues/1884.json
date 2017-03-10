@@ -1,0 +1,101 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/1884",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/1884/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/1884/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/1884/events",
+  "html_url": "https://github.com/alibaba/weex/issues/1884",
+  "id": 195165624,
+  "number": 1884,
+  "title": "scroller 在 ios 上的问题 ",
+  "user": {
+    "login": "lmnsg",
+    "id": 10400425,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/10400425?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/lmnsg",
+    "html_url": "https://github.com/lmnsg",
+    "followers_url": "https://api.github.com/users/lmnsg/followers",
+    "following_url": "https://api.github.com/users/lmnsg/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lmnsg/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/lmnsg/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/lmnsg/subscriptions",
+    "organizations_url": "https://api.github.com/users/lmnsg/orgs",
+    "repos_url": "https://api.github.com/users/lmnsg/repos",
+    "events_url": "https://api.github.com/users/lmnsg/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/lmnsg/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 550413598,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/%3Cscroller%3E",
+      "name": "<scroller>",
+      "color": "fef2c0",
+      "default": false
+    },
+    {
+      "id": 339914706,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/bug",
+      "name": "bug",
+      "color": "fc2929",
+      "default": true
+    },
+    {
+      "id": 359381244,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/ios",
+      "name": "ios",
+      "color": "f9d0c4",
+      "default": false
+    }
+  ],
+  "state": "open",
+  "locked": false,
+  "assignee": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "assignees": [
+    {
+      "login": "acton393",
+      "id": 11631084,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/acton393",
+      "html_url": "https://github.com/acton393",
+      "followers_url": "https://api.github.com/users/acton393/followers",
+      "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+      "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+      "organizations_url": "https://api.github.com/users/acton393/orgs",
+      "repos_url": "https://api.github.com/users/acton393/repos",
+      "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/acton393/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  ],
+  "milestone": null,
+  "comments": 7,
+  "created_at": "2016-12-13T05:33:29Z",
+  "updated_at": "2017-03-01T06:45:29Z",
+  "closed_at": null,
+  "body": "当 scroller 内部元素的高度低于 scroller 的高度的时候, scroller 无法滑动，也就无法触发下拉刷新操作。\r\nhtml5 端测试发现是可以下拉的\r\n\r\nList（IOS 端） 在同样情况下可以下拉，但是很诡异..  无论是上拉还是下拉都触发了下拉\r\n"
+}

@@ -1,0 +1,78 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/2390",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/2390/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/2390/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/2390/events",
+  "html_url": "https://github.com/alibaba/weex/issues/2390",
+  "id": 202464013,
+  "number": 2390,
+  "title": "border-radius在android4.4设备上圆角无效",
+  "user": {
+    "login": "13754327232",
+    "id": 25242004,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/25242004?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/13754327232",
+    "html_url": "https://github.com/13754327232",
+    "followers_url": "https://api.github.com/users/13754327232/followers",
+    "following_url": "https://api.github.com/users/13754327232/following{/other_user}",
+    "gists_url": "https://api.github.com/users/13754327232/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/13754327232/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/13754327232/subscriptions",
+    "organizations_url": "https://api.github.com/users/13754327232/orgs",
+    "repos_url": "https://api.github.com/users/13754327232/repos",
+    "events_url": "https://api.github.com/users/13754327232/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/13754327232/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 359381236,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/android",
+      "name": "android",
+      "color": "f9d0c4",
+      "default": false
+    }
+  ],
+  "state": "open",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/275041294",
+      "html_url": "https://github.com/alibaba/weex/issues/2390#issuecomment-275041294",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/2390",
+      "id": 275041294,
+      "user": {
+        "login": "DoranYun",
+        "id": 16359169,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/16359169?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/DoranYun",
+        "html_url": "https://github.com/DoranYun",
+        "followers_url": "https://api.github.com/users/DoranYun/followers",
+        "following_url": "https://api.github.com/users/DoranYun/following{/other_user}",
+        "gists_url": "https://api.github.com/users/DoranYun/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/DoranYun/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/DoranYun/subscriptions",
+        "organizations_url": "https://api.github.com/users/DoranYun/orgs",
+        "repos_url": "https://api.github.com/users/DoranYun/repos",
+        "events_url": "https://api.github.com/users/DoranYun/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/DoranYun/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2017-01-25T07:49:57Z",
+      "updated_at": "2017-01-25T07:49:57Z",
+      "body": "麻烦提供更多信息，WeexSDK 版本、示例代码等"
+    }
+  ],
+  "created_at": "2017-01-23T07:36:40Z",
+  "updated_at": "2017-01-25T07:49:57Z",
+  "closed_at": null,
+  "body": "border-radius在android4.4设备上圆角没有效果，还是直角"
+}

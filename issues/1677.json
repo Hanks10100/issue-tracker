@@ -1,0 +1,123 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/1677",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/1677/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/1677/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/1677/events",
+  "html_url": "https://github.com/alibaba/weex/issues/1677",
+  "id": 190628160,
+  "number": 1677,
+  "title": "[Proposal] support returning value synchronously for module methods",
+  "user": {
+    "login": "cxfeng1",
+    "id": 1625893,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1625893?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cxfeng1",
+    "html_url": "https://github.com/cxfeng1",
+    "followers_url": "https://api.github.com/users/cxfeng1/followers",
+    "following_url": "https://api.github.com/users/cxfeng1/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cxfeng1/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cxfeng1/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cxfeng1/subscriptions",
+    "organizations_url": "https://api.github.com/users/cxfeng1/orgs",
+    "repos_url": "https://api.github.com/users/cxfeng1/repos",
+    "events_url": "https://api.github.com/users/cxfeng1/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cxfeng1/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 339914708,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/enhancement",
+      "name": "enhancement",
+      "color": "84b6eb",
+      "default": true
+    },
+    {
+      "id": 473484279,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/new%20feature",
+      "name": "new feature",
+      "color": "1d76db",
+      "default": false
+    }
+  ],
+  "state": "closed",
+  "locked": false,
+  "assignee": {
+    "login": "cxfeng1",
+    "id": 1625893,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1625893?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cxfeng1",
+    "html_url": "https://github.com/cxfeng1",
+    "followers_url": "https://api.github.com/users/cxfeng1/followers",
+    "following_url": "https://api.github.com/users/cxfeng1/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cxfeng1/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cxfeng1/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cxfeng1/subscriptions",
+    "organizations_url": "https://api.github.com/users/cxfeng1/orgs",
+    "repos_url": "https://api.github.com/users/cxfeng1/repos",
+    "events_url": "https://api.github.com/users/cxfeng1/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cxfeng1/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "assignees": [
+    {
+      "login": "cxfeng1",
+      "id": 1625893,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1625893?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cxfeng1",
+      "html_url": "https://github.com/cxfeng1",
+      "followers_url": "https://api.github.com/users/cxfeng1/followers",
+      "following_url": "https://api.github.com/users/cxfeng1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cxfeng1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cxfeng1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cxfeng1/subscriptions",
+      "organizations_url": "https://api.github.com/users/cxfeng1/orgs",
+      "repos_url": "https://api.github.com/users/cxfeng1/repos",
+      "events_url": "https://api.github.com/users/cxfeng1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cxfeng1/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  ],
+  "milestone": null,
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/263186454",
+      "html_url": "https://github.com/alibaba/weex/issues/1677#issuecomment-263186454",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/1677",
+      "id": 263186454,
+      "user": {
+        "login": "Jinjiang",
+        "id": 206848,
+        "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Jinjiang",
+        "html_url": "https://github.com/Jinjiang",
+        "followers_url": "https://api.github.com/users/Jinjiang/followers",
+        "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+        "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+        "repos_url": "https://api.github.com/users/Jinjiang/repos",
+        "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2016-11-28T05:28:04Z",
+      "updated_at": "2016-11-28T05:28:04Z",
+      "body": "Duplicated to #968 but it's better to come here I think."
+    }
+  ],
+  "created_at": "2016-11-21T06:13:19Z",
+  "updated_at": "2017-01-22T03:36:23Z",
+  "closed_at": "2017-01-22T03:36:23Z",
+  "body": "# Proposal: Support returning value synchronously for module methods\r\n\r\n## Background\r\n\r\nNow all module methods are asynchronous only and have no return value.\r\n\r\nWe have to switch all  APIs into async mode like this:\r\n\r\n```\r\nvar storage = require('@weex-module/storage');\r\n  storage.length(function(e) {\r\n});\r\n```\r\n\r\nAs discussed in #968 , it's not simple and clear enough to use and different with web-standard API,  which always bring a lot of trouble to us. \r\n\r\nI consider that module extending principle should be:\r\n\r\n> If there is a web API standard already,  we should export API according to the standard definition, providing extension API according to the actual situation at the same time.\r\n\r\nThere are a lot of web APIs that need a return value, such as [Geolocation](https://dev.w3.org/geo/api/spec-source.html), so the ability to return value synchronously should be necessary. \r\n\r\n## Introduction\r\n\r\nWe will add two js-native call functions:\r\n\r\n#### 1.callNativeModule\r\n\r\n```\r\nvar returnValue = callNativeModule(instanceId, module, method, arguments, options)\r\n```\r\n**instanceId**: (string) identify of the weex instance  \r\n**module**:  (string) name of the module to be called on.\r\n**method**:  (string) name of the method to be called.\r\n**arguments**:(array) an array object specifying the arguments with which method should be called.\r\n**options**:(object) options object used to API extending, default is {}.\r\n**returnValue**:(all-types) the return value returned by calling module's method.\r\n\r\n\r\n#### 2.callNativeComponent\r\n\r\n```\r\ncallNativeComponent(instanceId,  componentRef,  method,  arguments, options) // Not support return value.\r\n```\r\n\r\n**instanceId**: (string) identify of the weex instance  \r\n**componentRef**:  (string) ref of the component to be called on.\r\n**method**:  (string) name of the method to be called.\r\n**arguments**:(array) an array object specifying the arguments with which method should be called.\r\n**options**:(object) options object used to API extending, default is {}.\r\n**returnValue**:(all-types) the return value returned by calling component's method.\r\n\r\n### Renderer\r\n\r\n* Renderer should implement the two APIs，dispatch them to original module/component method and export the return value to js.\r\n* module methods that returning value synchronously should be registered differently from the async ones.\r\n\r\n### JS Framework\r\n\r\nJS's module call:\r\n\r\n```\r\nvar storage = require('@weex-module/storage')\r\nvar length = storage.length()\r\n```\r\n\r\nJS Framework should dispatch them to `callNativeModule` call:\r\n\r\n```\r\nvar returnValue = callNativeModule(instanceId, 'storage', 'length',[], {});\r\n```\r\n\r\nIn a similar way, component method:\r\n\r\n```\r\nvar el = this.$el('web')\r\nel.goBack()\r\n```\r\n\r\nshould be dispatched to `callNativeComponent`:\r\n\r\n```\r\nvar returnValue = callNativeComponent(instanceId,  componentRef,  'goback',  [],  {});\r\n```\r\n\r\n### Devtool\r\n\r\nDev-tool should also implement the two APIs  using web socket communication.\r\n\r\n### Performance\r\n\r\n* Calling `callNativeModule` once takes about 0.1ms on iPhone 6\r\n* Other benchmarks will come soon...\r\n"
+}

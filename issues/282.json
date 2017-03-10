@@ -1,0 +1,49 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/282",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/282/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/282/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/282/events",
+  "html_url": "https://github.com/alibaba/weex/issues/282",
+  "id": 155169236,
+  "number": 282,
+  "title": "请问有没有拍照和二维码的组件",
+  "user": {
+    "login": "zjsxfly",
+    "id": 16100230,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/16100230?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/zjsxfly",
+    "html_url": "https://github.com/zjsxfly",
+    "followers_url": "https://api.github.com/users/zjsxfly/followers",
+    "following_url": "https://api.github.com/users/zjsxfly/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zjsxfly/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/zjsxfly/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/zjsxfly/subscriptions",
+    "organizations_url": "https://api.github.com/users/zjsxfly/orgs",
+    "repos_url": "https://api.github.com/users/zjsxfly/repos",
+    "events_url": "https://api.github.com/users/zjsxfly/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/zjsxfly/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 339914708,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/enhancement",
+      "name": "enhancement",
+      "color": "84b6eb",
+      "default": true
+    }
+  ],
+  "state": "closed",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": 2,
+  "created_at": "2016-05-17T03:27:09Z",
+  "updated_at": "2016-10-24T08:09:56Z",
+  "closed_at": "2016-10-24T08:09:56Z",
+  "body": "请问有没有拍照和二维码的组件\n"
+}
