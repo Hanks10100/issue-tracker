@@ -26,11 +26,11 @@ function getAllIssues (agent) {
         } else {
           console.log(` => got ${comments.number} comments of  ${issue.number}`)
           issue.comments = comments
+          jsonfile.spaces = 2
+          jsonfile.writeFile(`issues/${issue.number}.json`, issue, () => {
+            console.log(` => write issues/${issue.number}.json`)
+          })
         }
-        jsonfile.spaces = 2
-        jsonfile.writeFile(`issues/${issue.number}.json`, issue, () => {
-          console.log(` => write issues/${issue.number}.json`)
-        })
       })
     })
   })
