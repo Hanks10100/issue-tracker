@@ -13,35 +13,26 @@ const summary = {
   zhCommentCount: 0, //
 }
 
-function isChinese (string) {
+function containChinese (string) {
   return !!/.*[\u4e00-\u9fa5]+.*$/.test(string)
 }
 
 function pickTop (lists, N = 99999999) {
-  const chosen = [];
-  let min = 9999999;
+  const chosen = []
 
   for (let key in lists) {
     const item = { name: key, count: lists[key] }
-    if (lists[key] <= min) {
-      if (chosen.length <= N) {
-        min = lists[key]
-        chosen.push(item)
-      }
+    if (!chosen.length || lists[key] <= chosen[chosen.length - 1].count) {
+      chosen.length <= N && chosen.push(item)
     } else {
       for (let i = chosen.length - 2; i >= 0; --i) {
         if (chosen[i].count >= lists[key]) {
           chosen.splice(i + 1, 0, item)
           break
         }
-        if (i === 0) {
-          chosen.splice(i, 0, item)
-        }
+        i === 0 && chosen.splice(i, 0, item)
       }
-      if (chosen.length > N) {
-        chosen.pop()
-        min = chosen[chosen.length - 1].count
-      }
+      chosen.length > N && chosen.pop()
     }
   }
 
@@ -68,7 +59,7 @@ function statistic (issues) {
     summary.issueCount++
 
     const issue = issues[number]
-    isChinese(issue.body) ? summary.zhIssueCount++ : summary.enIssueCount++
+    containChinese(issue.body) ? summary.zhIssueCount++ : summary.enIssueCount++
 
     accumulate(authors, issue.user.login)
     accumulate(openTimeline, alignTime(Date.parse(issue.created_at)))
@@ -79,7 +70,7 @@ function statistic (issues) {
     if (Array.isArray(issue.comments)) {
       issue.comments.forEach(comment => {
         summary.commentCount++
-        isChinese(comment.body) ? summary.zhCommentCount++ : summary.enCommentCount++
+        containChinese(comment.body) ? summary.zhCommentCount++ : summary.enCommentCount++
         accumulate(commenters, comment.user.login)
       })
     }
