@@ -17,27 +17,22 @@ function containChinese (string) {
   return !!/.*[\u4e00-\u9fa5]+.*$/.test(string)
 }
 
-function pickTop (lists, N = 99999999) {
+function pickTop (array, N = 99999999) {
   const chosen = []
 
-  for (let key in lists) {
-    const item = { name: key, count: lists[key] }
-    if (!chosen.length || lists[key] <= chosen[chosen.length - 1].count) {
-      chosen.length <= N && chosen.push(item)
-    } else {
-      for (let i = chosen.length - 2; i >= 0; --i) {
-        if (chosen[i].count >= lists[key]) {
-          chosen.splice(i + 1, 0, item)
-          break
-        }
-        i === 0 && chosen.splice(i, 0, item)
-      }
-      chosen.length > N && chosen.pop()
+  for (let name in array) {
+    let i = chosen.length
+    while (i > 0 && chosen[i - 1].count < array[name]) {
+      i--
     }
+    chosen.splice(i, 0, { name, count: array[name] })
+    chosen.length > N && chosen.pop()
   }
 
   return chosen
 }
+
+// function pickTop(A,N){var T=[];for(var n in A){var v=A[n],i=T.length;while(i>0&&T[i-1].count<v)i--;T.splice(i,0,{name:n,count:v});T.length>N&&T.pop()}return T}
 
 function alignTime (timestamp) {
   const unit = 24 * 60 * 60 * 1000
@@ -78,8 +73,8 @@ function statistic (issues) {
 
   summary.topAuthor = pickTop(authors, 10)
   summary.topCommenter = pickTop(commenters, 10)
-  summary.openTimeline = pickTop(openTimeline).sort((a, b) => a.timestamp - b.timestamp)
-  summary.closeTimeline = pickTop(closeTimeline).sort((a, b) => a.timestamp - b.timestamp)
+  // summary.openTimeline = pickTop(openTimeline).sort((a, b) => a.timestamp - b.timestamp)
+  // summary.closeTimeline = pickTop(closeTimeline).sort((a, b) => a.timestamp - b.timestamp)
 
   return summary
 }
