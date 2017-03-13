@@ -1,20 +1,21 @@
 const fs = require('fs')
-const path = require('path')
 const jsonfile = require('jsonfile')
 
-const MAX_COUNT = 3000
-
-function readIssues () {
-  const issues = {}
-  for (let i = 1; i < MAX_COUNT; ++i) {
-    const filename = `issues/${i}.json`
-    if (fs.existsSync(filename)) {
-      issues[i] = jsonfile.readFileSync(filename)
+function createLoader (path) {
+  const MAX_COUNT = 3000
+  return function loader (start = 1, count = MAX_COUNT) {
+    const json = {}
+    for (let i = start; i < start + count; ++i) {
+      const filename = `./${path}/${i}.json`
+      if (fs.existsSync(filename)) {
+        json[i] = jsonfile.readFileSync(filename)
+      }
     }
+    return json
   }
-  return issues
 }
 
 module.exports = {
-  readIssues
+  readIssues: createLoader('issues'),
+  readPrs: createLoader('prs')
 }
