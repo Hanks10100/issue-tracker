@@ -1,0 +1,107 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/590",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/590/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/590/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/590/events",
+  "html_url": "https://github.com/alibaba/weex/pull/590",
+  "id": 162386088,
+  "number": 590,
+  "title": "re-organize `src` file structure",
+  "user": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 339914708,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/enhancement",
+      "name": "enhancement",
+      "color": "84b6eb",
+      "default": true
+    },
+    {
+      "id": 359381235,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/html5",
+      "name": "html5",
+      "color": "f9d0c4",
+      "default": false
+    },
+    {
+      "id": 359381537,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/js%20runtime",
+      "name": "js runtime",
+      "color": "f9d0c4",
+      "default": false
+    }
+  ],
+  "state": "closed",
+  "locked": false,
+  "assignee": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "assignees": [
+    {
+      "login": "luics",
+      "id": 1018815,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/luics",
+      "html_url": "https://github.com/luics",
+      "followers_url": "https://api.github.com/users/luics/followers",
+      "following_url": "https://api.github.com/users/luics/following{/other_user}",
+      "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+      "organizations_url": "https://api.github.com/users/luics/orgs",
+      "repos_url": "https://api.github.com/users/luics/repos",
+      "events_url": "https://api.github.com/users/luics/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/luics/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  ],
+  "milestone": null,
+  "comments": [],
+  "created_at": "2016-06-27T07:02:47Z",
+  "updated_at": "2016-06-27T16:29:54Z",
+  "closed_at": "2016-06-27T16:29:54Z",
+  "pull_request": {
+    "url": "https://api.github.com/repos/alibaba/weex/pulls/590",
+    "html_url": "https://github.com/alibaba/weex/pull/590",
+    "diff_url": "https://github.com/alibaba/weex/pull/590.diff",
+    "patch_url": "https://github.com/alibaba/weex/pull/590.patch"
+  },
+  "body": "- make all npm deps and scripts together\n- reduced ci duration\n- moved `src/weex-components` to `dist/weex-components` (it will be maintained as a independent repo in the future)\n- moved `src/h5-render` to `html5/browser`\n- moved `src/js-framework` to `html5/`\n- moved all tests in `src/js-framework` to `html5/test/unit` (it will be moved into `test/html5` in the future)\n- new e2e test framework in `html5/test/e2e` (it will be moved into `test/html5` in the future)\n- removed old `website` (the latest one is in `gh-pages` branch)\n- supported framework extension like rx, vue ...\n- some frontend bugfix, all already have been reviewed earlier\n"
+}

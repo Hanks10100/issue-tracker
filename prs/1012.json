@@ -1,0 +1,93 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/1012",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/1012/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/1012/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/1012/events",
+  "html_url": "https://github.com/alibaba/weex/pull/1012",
+  "id": 171462529,
+  "number": 1012,
+  "title": "[jsfm] add vanilla framework",
+  "user": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 359381537,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/js%20runtime",
+      "name": "js runtime",
+      "color": "f9d0c4",
+      "default": false
+    }
+  ],
+  "state": "closed",
+  "locked": false,
+  "assignee": {
+    "login": "yuanyan",
+    "id": 677114,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/677114?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/yuanyan",
+    "html_url": "https://github.com/yuanyan",
+    "followers_url": "https://api.github.com/users/yuanyan/followers",
+    "following_url": "https://api.github.com/users/yuanyan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/yuanyan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/yuanyan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/yuanyan/subscriptions",
+    "organizations_url": "https://api.github.com/users/yuanyan/orgs",
+    "repos_url": "https://api.github.com/users/yuanyan/repos",
+    "events_url": "https://api.github.com/users/yuanyan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/yuanyan/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "assignees": [
+    {
+      "login": "yuanyan",
+      "id": 677114,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/677114?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yuanyan",
+      "html_url": "https://github.com/yuanyan",
+      "followers_url": "https://api.github.com/users/yuanyan/followers",
+      "following_url": "https://api.github.com/users/yuanyan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yuanyan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yuanyan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yuanyan/subscriptions",
+      "organizations_url": "https://api.github.com/users/yuanyan/orgs",
+      "repos_url": "https://api.github.com/users/yuanyan/repos",
+      "events_url": "https://api.github.com/users/yuanyan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yuanyan/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  ],
+  "milestone": null,
+  "comments": [],
+  "created_at": "2016-08-16T16:43:06Z",
+  "updated_at": "2016-08-17T08:20:20Z",
+  "closed_at": "2016-08-17T08:20:20Z",
+  "pull_request": {
+    "url": "https://api.github.com/repos/alibaba/weex/pulls/1012",
+    "html_url": "https://github.com/alibaba/weex/pull/1012",
+    "diff_url": "https://github.com/alibaba/weex/pull/1012.diff",
+    "patch_url": "https://github.com/alibaba/weex/pull/1012.patch"
+  },
+  "body": "Almost no capsulation at all. Just a vanilla JavaScript environment.\n"
+}

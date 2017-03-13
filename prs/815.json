@@ -1,0 +1,93 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/815",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/815/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/815/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/815/events",
+  "html_url": "https://github.com/alibaba/weex/pull/815",
+  "id": 166016223,
+  "number": 815,
+  "title": "[jsfm] v0.15.1",
+  "user": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 359381537,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/js%20runtime",
+      "name": "js runtime",
+      "color": "f9d0c4",
+      "default": false
+    }
+  ],
+  "state": "closed",
+  "locked": false,
+  "assignee": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "assignees": [
+    {
+      "login": "luics",
+      "id": 1018815,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/luics",
+      "html_url": "https://github.com/luics",
+      "followers_url": "https://api.github.com/users/luics/followers",
+      "following_url": "https://api.github.com/users/luics/following{/other_user}",
+      "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+      "organizations_url": "https://api.github.com/users/luics/orgs",
+      "repos_url": "https://api.github.com/users/luics/repos",
+      "events_url": "https://api.github.com/users/luics/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/luics/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  ],
+  "milestone": null,
+  "comments": [],
+  "created_at": "2016-07-18T04:13:22Z",
+  "updated_at": "2016-07-18T05:33:47Z",
+  "closed_at": "2016-07-18T05:33:47Z",
+  "pull_request": {
+    "url": "https://api.github.com/repos/alibaba/weex/pulls/815",
+    "html_url": "https://github.com/alibaba/weex/pull/815",
+    "diff_url": "https://github.com/alibaba/weex/pull/815.diff",
+    "patch_url": "https://github.com/alibaba/weex/pull/815.patch"
+  },
+  "body": "- made private methods as functional as possible\n- simplified `default/util` and `shared`\n- arranged all `console` calls in whole framework\n- new mechanism to publish to npm\n- fixed repeat bug when update values with new object references \n"
+}

@@ -1,0 +1,55 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/2600",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/2600/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/2600/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/2600/events",
+  "html_url": "https://github.com/alibaba/weex/pull/2600",
+  "id": 208035914,
+  "number": 2600,
+  "title": "* [html5] fix list scroller bug",
+  "user": {
+    "login": "fkysly",
+    "id": 3274605,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3274605?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/fkysly",
+    "html_url": "https://github.com/fkysly",
+    "followers_url": "https://api.github.com/users/fkysly/followers",
+    "following_url": "https://api.github.com/users/fkysly/following{/other_user}",
+    "gists_url": "https://api.github.com/users/fkysly/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/fkysly/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/fkysly/subscriptions",
+    "organizations_url": "https://api.github.com/users/fkysly/orgs",
+    "repos_url": "https://api.github.com/users/fkysly/repos",
+    "events_url": "https://api.github.com/users/fkysly/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/fkysly/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 359381235,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/html5",
+      "name": "html5",
+      "color": "f9d0c4",
+      "default": false
+    }
+  ],
+  "state": "closed",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": [],
+  "created_at": "2017-02-16T06:58:07Z",
+  "updated_at": "2017-02-17T06:46:09Z",
+  "closed_at": "2017-02-17T06:46:09Z",
+  "pull_request": {
+    "url": "https://api.github.com/repos/alibaba/weex/pulls/2600",
+    "html_url": "https://github.com/alibaba/weex/pull/2600",
+    "diff_url": "https://github.com/alibaba/weex/pull/2600.diff",
+    "patch_url": "https://github.com/alibaba/weex/pull/2600.patch"
+  },
+  "body": ""
+}

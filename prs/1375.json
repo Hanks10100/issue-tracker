@@ -1,0 +1,112 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/1375",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/1375/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/1375/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/1375/events",
+  "html_url": "https://github.com/alibaba/weex/pull/1375",
+  "id": 182072841,
+  "number": 1375,
+  "title": "* [jsfm] add watcher try catch",
+  "user": {
+    "login": "fkysly",
+    "id": 3274605,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3274605?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/fkysly",
+    "html_url": "https://github.com/fkysly",
+    "followers_url": "https://api.github.com/users/fkysly/followers",
+    "following_url": "https://api.github.com/users/fkysly/following{/other_user}",
+    "gists_url": "https://api.github.com/users/fkysly/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/fkysly/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/fkysly/subscriptions",
+    "organizations_url": "https://api.github.com/users/fkysly/orgs",
+    "repos_url": "https://api.github.com/users/fkysly/repos",
+    "events_url": "https://api.github.com/users/fkysly/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/fkysly/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 386964381,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/on%20hold",
+      "name": "on hold",
+      "color": "b60205",
+      "default": false
+    }
+  ],
+  "state": "closed",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/252709530",
+      "html_url": "https://github.com/alibaba/weex/pull/1375#issuecomment-252709530",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/1375",
+      "id": 252709530,
+      "user": {
+        "login": "Jinjiang",
+        "id": 206848,
+        "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Jinjiang",
+        "html_url": "https://github.com/Jinjiang",
+        "followers_url": "https://api.github.com/users/Jinjiang/followers",
+        "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+        "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+        "repos_url": "https://api.github.com/users/Jinjiang/repos",
+        "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2016-10-10T18:51:17Z",
+      "updated_at": "2016-10-10T18:51:17Z",
+      "body": "Please bump the patch version at last.\nThanks.\n"
+    },
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/252803339",
+      "html_url": "https://github.com/alibaba/weex/pull/1375#issuecomment-252803339",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/1375",
+      "id": 252803339,
+      "user": {
+        "login": "Jinjiang",
+        "id": 206848,
+        "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Jinjiang",
+        "html_url": "https://github.com/Jinjiang",
+        "followers_url": "https://api.github.com/users/Jinjiang/followers",
+        "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+        "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+        "repos_url": "https://api.github.com/users/Jinjiang/repos",
+        "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2016-10-11T03:38:24Z",
+      "updated_at": "2016-10-11T03:38:24Z",
+      "body": "Finally we choose #1378 instead.\nThanks.\n"
+    }
+  ],
+  "created_at": "2016-10-10T17:40:35Z",
+  "updated_at": "2016-10-11T03:38:24Z",
+  "closed_at": "2016-10-11T03:38:24Z",
+  "pull_request": {
+    "url": "https://api.github.com/repos/alibaba/weex/pulls/1375",
+    "html_url": "https://github.com/alibaba/weex/pull/1375",
+    "diff_url": "https://github.com/alibaba/weex/pull/1375.diff",
+    "patch_url": "https://github.com/alibaba/weex/pull/1375.patch"
+  },
+  "body": ""
+}

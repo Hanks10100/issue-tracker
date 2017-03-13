@@ -1,0 +1,93 @@
+{
+  "url": "https://api.github.com/repos/alibaba/weex/issues/749",
+  "repository_url": "https://api.github.com/repos/alibaba/weex",
+  "labels_url": "https://api.github.com/repos/alibaba/weex/issues/749/labels{/name}",
+  "comments_url": "https://api.github.com/repos/alibaba/weex/issues/749/comments",
+  "events_url": "https://api.github.com/repos/alibaba/weex/issues/749/events",
+  "html_url": "https://github.com/alibaba/weex/pull/749",
+  "id": 164295204,
+  "number": 749,
+  "title": "Jsfm 0.14",
+  "user": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 359381537,
+      "url": "https://api.github.com/repos/alibaba/weex/labels/js%20runtime",
+      "name": "js runtime",
+      "color": "f9d0c4",
+      "default": false
+    }
+  ],
+  "state": "closed",
+  "locked": false,
+  "assignee": {
+    "login": "IskenHuang",
+    "id": 731134,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/731134?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/IskenHuang",
+    "html_url": "https://github.com/IskenHuang",
+    "followers_url": "https://api.github.com/users/IskenHuang/followers",
+    "following_url": "https://api.github.com/users/IskenHuang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/IskenHuang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/IskenHuang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/IskenHuang/subscriptions",
+    "organizations_url": "https://api.github.com/users/IskenHuang/orgs",
+    "repos_url": "https://api.github.com/users/IskenHuang/repos",
+    "events_url": "https://api.github.com/users/IskenHuang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/IskenHuang/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "assignees": [
+    {
+      "login": "IskenHuang",
+      "id": 731134,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/731134?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/IskenHuang",
+      "html_url": "https://github.com/IskenHuang",
+      "followers_url": "https://api.github.com/users/IskenHuang/followers",
+      "following_url": "https://api.github.com/users/IskenHuang/following{/other_user}",
+      "gists_url": "https://api.github.com/users/IskenHuang/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/IskenHuang/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/IskenHuang/subscriptions",
+      "organizations_url": "https://api.github.com/users/IskenHuang/orgs",
+      "repos_url": "https://api.github.com/users/IskenHuang/repos",
+      "events_url": "https://api.github.com/users/IskenHuang/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/IskenHuang/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  ],
+  "milestone": null,
+  "comments": [],
+  "created_at": "2016-07-07T12:15:18Z",
+  "updated_at": "2016-07-07T12:17:14Z",
+  "closed_at": "2016-07-07T12:17:14Z",
+  "pull_request": {
+    "url": "https://api.github.com/repos/alibaba/weex/pulls/749",
+    "html_url": "https://github.com/alibaba/weex/pull/749",
+    "diff_url": "https://github.com/alibaba/weex/pull/749.diff",
+    "patch_url": "https://github.com/alibaba/weex/pull/749.patch"
+  },
+  "body": "- new Timer APIs implementation\n- no more `updateActions` needed when setTimeout or Promise\n- supported callNative signal\n"
+}
