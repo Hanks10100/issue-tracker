@@ -71,7 +71,36 @@
     }
   ],
   "milestone": null,
-  "comments": 1,
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/237822774",
+      "html_url": "https://github.com/alibaba/weex/issues/761#issuecomment-237822774",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/761",
+      "id": 237822774,
+      "user": {
+        "login": "lvscar",
+        "id": 1578838,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/1578838?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lvscar",
+        "html_url": "https://github.com/lvscar",
+        "followers_url": "https://api.github.com/users/lvscar/followers",
+        "following_url": "https://api.github.com/users/lvscar/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lvscar/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lvscar/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lvscar/subscriptions",
+        "organizations_url": "https://api.github.com/users/lvscar/orgs",
+        "repos_url": "https://api.github.com/users/lvscar/repos",
+        "events_url": "https://api.github.com/users/lvscar/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lvscar/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2016-08-05T10:59:00Z",
+      "updated_at": "2016-08-05T10:59:00Z",
+      "body": "@Jinjiang , please comment your suggestion about this issue.\n"
+    }
+  ],
   "created_at": "2016-07-08T03:36:14Z",
   "updated_at": "2016-08-11T09:12:58Z",
   "closed_at": "2016-08-11T09:12:58Z",

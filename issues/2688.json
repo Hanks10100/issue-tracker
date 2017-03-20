@@ -173,10 +173,38 @@
       "created_at": "2017-02-24T11:39:50Z",
       "updated_at": "2017-02-24T11:39:58Z",
       "body": "@yfldj  @dongnaebi  fixed 元素也是挂在 rootView 上， 现在input 框在弹出键盘的时候，是会把rootView往上拉，考虑到键盘会挡住地下的input框"
+    },
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/286041497",
+      "html_url": "https://github.com/alibaba/weex/issues/2688#issuecomment-286041497",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/2688",
+      "id": 286041497,
+      "user": {
+        "login": "dongnaebi",
+        "id": 6902417,
+        "avatar_url": "https://avatars2.githubusercontent.com/u/6902417?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/dongnaebi",
+        "html_url": "https://github.com/dongnaebi",
+        "followers_url": "https://api.github.com/users/dongnaebi/followers",
+        "following_url": "https://api.github.com/users/dongnaebi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/dongnaebi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/dongnaebi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/dongnaebi/subscriptions",
+        "organizations_url": "https://api.github.com/users/dongnaebi/orgs",
+        "repos_url": "https://api.github.com/users/dongnaebi/repos",
+        "events_url": "https://api.github.com/users/dongnaebi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/dongnaebi/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2017-03-13T08:20:58Z",
+      "updated_at": "2017-03-13T08:30:35Z",
+      "body": "@acton393 有个方案可以考虑下，`<div role='fixed'></div>`，取到`role=fixed`的话，输入框聚焦时rootView上移多少，fixed元素就在原基础上下移多少。或者把`role=navbar`扩展的灵活一点。。。安卓也有这个问题 #2914 "
     }
   ],
   "created_at": "2017-02-21T03:51:33Z",
-  "updated_at": "2017-02-24T11:39:58Z",
+  "updated_at": "2017-03-13T08:30:35Z",
   "closed_at": null,
   "body": "![image](https://cloud.githubusercontent.com/assets/6778148/23150105/cc1306ea-f82b-11e6-8491-565328de6c52.png)\r\n![image](https://cloud.githubusercontent.com/assets/6778148/23150107/d063e980-f82b-11e6-9266-a40ebb9771e7.png)\r\nvue写的导航条，键盘出来后上移超出屏幕了，对于这种情况，请问有人知道有什么解决方案吗，iOS的sdk做了rootview的上移处理。"
 }

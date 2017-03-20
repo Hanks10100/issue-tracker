@@ -89,10 +89,38 @@
       "created_at": "2017-03-10T09:15:29Z",
       "updated_at": "2017-03-10T09:15:29Z",
       "body": "\r\n发错了不要再发了\r\n\r\n\r\nboling@126.com\r\n \r\n发件人： AugHua\r\n发送时间： 2017-03-10 17:11\r\n收件人： alibaba/weex\r\n抄送： Subscribed\r\n主题： Re: [alibaba/weex] 不知道有没计划实现绘制相关的组件如 react-native-art (#2892)\r\n@xiaozi4624 不是gcanvas插件吗\r\n—\r\nYou are receiving this because you are subscribed to this thread.\r\nReply to this email directly, view it on GitHub, or mute the thread.\r\n"
+    },
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/285829400",
+      "html_url": "https://github.com/alibaba/weex/issues/2892#issuecomment-285829400",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/2892",
+      "id": 285829400,
+      "user": {
+        "login": "zfha",
+        "id": 4082233,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/4082233?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zfha",
+        "html_url": "https://github.com/zfha",
+        "followers_url": "https://api.github.com/users/zfha/followers",
+        "following_url": "https://api.github.com/users/zfha/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zfha/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zfha/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zfha/subscriptions",
+        "organizations_url": "https://api.github.com/users/zfha/orgs",
+        "repos_url": "https://api.github.com/users/zfha/repos",
+        "events_url": "https://api.github.com/users/zfha/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zfha/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2017-03-11T01:37:45Z",
+      "updated_at": "2017-03-11T01:37:45Z",
+      "body": "@xiaozi4624 请查看weex-chart 插件"
     }
   ],
   "created_at": "2017-03-09T09:52:09Z",
-  "updated_at": "2017-03-10T09:15:29Z",
+  "updated_at": "2017-03-11T01:37:45Z",
   "closed_at": null,
   "body": "不知道有没计划实现绘制相关的组件如 react-native-art？"
 }

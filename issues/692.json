@@ -33,7 +33,36 @@
   "assignee": null,
   "assignees": [],
   "milestone": null,
-  "comments": 1,
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/230214579",
+      "html_url": "https://github.com/alibaba/weex/issues/692#issuecomment-230214579",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/692",
+      "id": 230214579,
+      "user": {
+        "login": "luics",
+        "id": 1018815,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/luics",
+        "html_url": "https://github.com/luics",
+        "followers_url": "https://api.github.com/users/luics/followers",
+        "following_url": "https://api.github.com/users/luics/following{/other_user}",
+        "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+        "organizations_url": "https://api.github.com/users/luics/orgs",
+        "repos_url": "https://api.github.com/users/luics/repos",
+        "events_url": "https://api.github.com/users/luics/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/luics/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2016-07-04T06:28:17Z",
+      "updated_at": "2016-07-04T06:28:17Z",
+      "body": "可以考虑在 org https://github.com/weexteam 或个人 repo 维护类似的配置、插件，然后在 https://github.com/alibaba/weex/wiki/Weex-Community 中添加一个链接，已有类似的例子。\n"
+    }
+  ],
   "created_at": "2016-07-04T06:13:53Z",
   "updated_at": "2016-07-04T06:28:17Z",
   "closed_at": "2016-07-04T06:28:17Z",

@@ -86,7 +86,36 @@
     }
   ],
   "milestone": null,
-  "comments": 1,
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/225756490",
+      "html_url": "https://github.com/alibaba/weex/issues/456#issuecomment-225756490",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/456",
+      "id": 225756490,
+      "user": {
+        "login": "slowsay",
+        "id": 476717,
+        "avatar_url": "https://avatars3.githubusercontent.com/u/476717?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/slowsay",
+        "html_url": "https://github.com/slowsay",
+        "followers_url": "https://api.github.com/users/slowsay/followers",
+        "following_url": "https://api.github.com/users/slowsay/following{/other_user}",
+        "gists_url": "https://api.github.com/users/slowsay/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/slowsay/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/slowsay/subscriptions",
+        "organizations_url": "https://api.github.com/users/slowsay/orgs",
+        "repos_url": "https://api.github.com/users/slowsay/repos",
+        "events_url": "https://api.github.com/users/slowsay/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/slowsay/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2016-06-14T01:31:21Z",
+      "updated_at": "2016-06-14T02:05:17Z",
+      "body": "有aa标签?\n"
+    }
+  ],
   "created_at": "2016-06-13T08:17:15Z",
   "updated_at": "2016-06-14T06:30:08Z",
   "closed_at": "2016-06-14T06:30:08Z",

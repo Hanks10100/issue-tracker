@@ -733,10 +733,38 @@
       "created_at": "2017-03-10T06:06:30Z",
       "updated_at": "2017-03-10T06:06:30Z",
       "body": "@zjutyujf 项目中有使用weex，如果也撤掉的话，那么工作量不可小。"
+    },
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/285992885",
+      "html_url": "https://github.com/alibaba/weex/issues/2875#issuecomment-285992885",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/2875",
+      "id": 285992885,
+      "user": {
+        "login": "leansail",
+        "id": 21301164,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/21301164?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/leansail",
+        "html_url": "https://github.com/leansail",
+        "followers_url": "https://api.github.com/users/leansail/followers",
+        "following_url": "https://api.github.com/users/leansail/following{/other_user}",
+        "gists_url": "https://api.github.com/users/leansail/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/leansail/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/leansail/subscriptions",
+        "organizations_url": "https://api.github.com/users/leansail/orgs",
+        "repos_url": "https://api.github.com/users/leansail/repos",
+        "events_url": "https://api.github.com/users/leansail/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/leansail/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2017-03-13T00:58:43Z",
+      "updated_at": "2017-03-13T01:17:42Z",
+      "body": "总结一下我们微信和QQ群里目前讨论出来的一些情况:\r\n1、只要不用热更新，应该和weex、rn这些无关，群里有只用weex、rn，没有启用热更新，审核通过的例子；\r\n2、除了直接使用jspatch，由于使用了第三方sdk而间接引入jspatch的情况也会被拒，目前发现的有个推、高德、bugtags，个推提供了新的临时sdk，群里已经有人审核通过了,据说今天会提供正式的sdk。其它的sdk，大家可以通过使用  nm /path/to/executable_filepath | grep \"JSPatch\" 进行排查。\r\n3、有人猜测是否因为代码中使用了dlopen(), dlsym(), respondsToSelector:, performSelector:, method_exchangeImplementations()这些方法。\r\n4、[jspatch官方的解决方案](http://mp.weixin.qq.com/s?__biz=MzIzNTQ2MDg2Ng==&mid=2247483771&idx=1&sn=bde0ec28bd3c3ced7e762b648bba6024&chksm=e8e78116df9008009941fe19ee888d6c49a30d52929713e59e553c1b15a0fc7507cb40e41772&mpshare=1&scene=1&srcid=0310Sn6x1gi5m4PqSc0KMdoQ#rd)\r\n\r\n我们的群地址如下，请入群同学自觉，不要讨论非技术话题。\r\n\r\n\r\n![apple both](https://cloud.githubusercontent.com/assets/21301164/23838026/0ea4500e-07cc-11e7-95b0-9879f1e18ab9.png)\r\n\r\n"
     }
   ],
   "created_at": "2017-03-08T02:57:19Z",
-  "updated_at": "2017-03-10T06:44:23Z",
+  "updated_at": "2017-03-13T01:17:42Z",
   "closed_at": null,
   "body": "今天收到Apple的警告邮件。\r\n应用中使用了Weex\r\n\r\n* 是否和Weex有关？\r\n* 如果有关请问是否有解决方案。\r\n* 其它开发者最近有收到类似邮件的话，也请分享一下。\r\n\r\n苹果相关规则，https://developer.apple.com/terms/\r\n\r\nDear Developer,\r\n\r\nYour app, extension, and/or linked framework appears to contain code designed explicitly with the capability to change your app’s behavior or functionality after App Review approval, which is not in compliance with section 3.3.2 of the Apple Developer Program License Agreement and App Store Review Guideline 2.5.2. This code, combined with a remote resource, can facilitate significant changes to your app’s behavior compared to when it was initially reviewed for the App Store. While you may not be using this functionality currently, it has the potential to load private frameworks, private methods, and enable future feature changes.\r\n\r\nThis includes any code which passes arbitrary parameters to dynamic methods such as dlopen(), dlsym(), respondsToSelector:, performSelector:, method_exchangeImplementations(), and running remote scripts in order to change app behavior or call SPI, based on the contents of the downloaded script. Even if the remote resource is not intentionally malicious, it could easily be hijacked via a Man In The Middle (MiTM) attack, which can pose a serious security vulnerability to users of your app.\r\n\r\nPlease perform an in-depth review of your app and remove any code, frameworks, or SDKs that fall in line with the functionality described above before submitting the next update for your app for review.\r\n\r\nBest regards,\r\n\r\nApp Store Review\r\n"
 }
