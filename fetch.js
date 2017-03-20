@@ -19,16 +19,16 @@ function getAllIssues (agent) {
     const issues = Array.from(issueList).filter(item => !item.pull_request)
     console.log(` => got ${issues.length} issues`)
     issues.forEach(issue => {
-      console.log(` => fetch the comments of ${issue.number}`)
+      // console.log(` => fetch the comments of ${issue.number}`)
       agent.listIssueComments(issue.number, (error, comments) => {
         if (error) {
           console.log(` => failed to fetch the comments of ${issue.number}`)
         } else {
-          console.log(` => got ${comments.length} comments of  ${issue.number}`)
+          // console.log(` => got ${comments.length} comments of  ${issue.number}`)
           issue.comments = comments
           jsonfile.spaces = 2
           jsonfile.writeFile(`issues/${issue.number}.json`, issue, () => {
-            console.log(` => write issues/${issue.number}.json`)
+            // console.log(` => write issues/${issue.number}.json`)
           })
         }
       })

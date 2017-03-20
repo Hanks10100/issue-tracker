@@ -38,10 +38,11 @@ function statistic (issues) {
 
   summary.topAuthor = pickTop(authors, 10)
   summary.topCommenter = pickTop(commenters, 10)
-  summary.openTimeline = pickTop(openTimeline).sort((a, b) => a.timestamp - b.timestamp)
-  summary.closeTimeline = pickTop(closeTimeline).sort((a, b) => a.timestamp - b.timestamp)
+  // summary.openTimeline = pickTop(openTimeline).sort((a, b) => a.timestamp - b.timestamp)
+  // summary.closeTimeline = pickTop(closeTimeline).sort((a, b) => a.timestamp - b.timestamp)
 
   return summary
 }
 
 console.log(statistic(load.readIssues()))
+// console.log(statistic(load.readPrs()))
