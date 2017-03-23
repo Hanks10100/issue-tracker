@@ -1,17 +1,14 @@
 const fs = require('fs')
+const chalk = require('chalk')
 const jsonfile = require('jsonfile')
 const segment = require('./segment')
 const { pickTop, pad } = require('./utils.js')
-
-function readIssue (number) {
-  console.log(` => Can't find ${filename}`)
-}
 
 function getWords (number) {
   const filename = `./issues/${number}.json`
   if (fs.existsSync(filename)) {
     const issue = jsonfile.readFileSync(filename)
-    console.log(`#${pad(number, 5)} ${issue.title}`)
+    console.log(`\n#${pad(number, 5)} ${chalk.cyan(issue.title)}`)
 
     const words = segment(issue.title)
     Array.prototype.push.apply(words, segment(issue.body))
@@ -23,24 +20,8 @@ function getWords (number) {
 
     return words
   }
-  console.log(`\n => Can't find ${filename}`)
+  console.log(`\n => ${chalk.red("No #" + number + ", maybe its a pull request")}`)
   return []
-}
-
-function getPAssignee () {
-  return jsonfile.readFileSync(`words/issue_assignees_probability.json`)
-}
-
-function getPAssigneeWords () {
-  return jsonfile.readFileSync(`words/issue_assignee_words_probability.json`)
-}
-
-function getPLabel () {
-  return jsonfile.readFileSync(`words/issue_labels_probability.json`)
-}
-
-function getPLabelWords () {
-  return jsonfile.readFileSync(`words/issue_label_words_probability.json`)
 }
 
 // function judgeWords (words, Pbase, Ptag, Ptarget) {
@@ -98,6 +79,7 @@ function judgeWords (words, options) {
 
 function judge (number) {
   const words = getWords(number)
+  if (!words.length) return
 
   const assignees = judgeWords(words, {
     words: './data/assignee_words.json',
@@ -121,16 +103,22 @@ function print (type, result) {
       return Math.max(count, name.length)
     }, 0)
 
-    console.log(`\n ${type}:\n`)
+    console.log(`\n ${chalk.bold(type)}:\n`)
     result.forEach(({ name, count }) => {
-      if (count && count >= 0.0000001) {
-        console.log(`    ${pad(name, maxLength)}  ${count.toFixed(6)}`)
+      if (count && count >= 0.000001) {
+        let color = chalk.reset
+        switch (true) {
+          case (count > 0.5): color = x => chalk.bold(chalk.green(x)); break;
+          case (count > 0.4): color = chalk.bold; break;
+          case (count < 0.15): color = chalk.grey; break;
+        }
+        console.log(`    ${color(pad(name, maxLength))}  ${color(count.toFixed(6))}`)
       }
     })
   }
 }
 
-let issueNumber = 395
+let issueNumber = 539
 if (process.argv[2]) {
   issueNumber = Number(process.argv[2])
 }
