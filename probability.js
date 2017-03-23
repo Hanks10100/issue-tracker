@@ -24,26 +24,21 @@ function readWordCount (filePath) {
   const labels = pick(jsonfile.readFileSync(filePath), 2)
   const PLabelWord = {}
 
-  for (const label in labels) {
-    const words = labels[label]
-    const summary = {
-      wordCount: 0,
-      uniqueWordCount: 0,
-      words: {},
-      labels: {}
-    }
-    for (const word in words) {
-      summary.uniqueWordCount++
-      summary.wordCount += words[word]
-    }
+  let totalWordCount = 0
 
-    PLabelWord[label] = {}
-    for (const word in words) {
-      PLabelWord[label][word] = words[word] / summary.wordCount
+  for (const label in labels) {
+    for (const word in labels[label]) {
+      totalWordCount += labels[label][word]
     }
-    console.log(check(PLabelWord[label]))
   }
 
+  for (const label in labels) {
+    PLabelWord[label] = {}
+    for (const word in labels[label]) {
+      PLabelWord[label][word] = labels[label][word] / totalWordCount
+    }
+  }
+  console.log(checkAll(PLabelWord))
   return PLabelWord
 }
 
@@ -51,6 +46,16 @@ function check (P) {
   let sum = 0
   for (const key in P) {
     sum += P[key]
+  }
+  return Math.abs(sum - 1) < 1e-10
+}
+
+function checkAll (P) {
+  let sum = 0
+  for (const label in P) {
+    for (const key in P[label]) {
+      sum += P[label][key]
+    }
   }
   return Math.abs(sum - 1) < 1e-10
 }
