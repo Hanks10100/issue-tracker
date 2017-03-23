@@ -1,23 +1,39 @@
 const jsonfile = require('jsonfile')
-const segment = require('./segment')
+const load = require('./load.js')
+const segment = require('./segment.js')
 const { pad, accumulate } = require('./utils.js')
 
-function stat (summary, words) {
+function wordStat (summary, words) {
   if (Array.isArray(words)) {
     words.map(s => s.toLowerCase()).forEach(word => {
-      summary.wordCount++
-      if (!summary.words[word]) summary.uniqueWordCount++
-      accumulate(summary.words, word)
+      accumulate(summary, word)
     })
   }
+}
+
+function wordCount (issues) {
+  const summary = {}
+  // console.log(issues)
+  for (const number in issues) {
+    const issue = issues[number]
+    if (Number(number) > 10) break
+    console.log(`#${pad(number, 5)} ${issue.title}`)
+    wordStat(summary, segment(issue.title))
+    if (Array.isArray(issue.comments)) {
+      issue.comments.forEach(comment => {
+        wordStat(summary, segment(comment.body))
+      })
+    }
+  }
+  return summary
 }
 
 function labelStat (summary, labels, words) {
   if (Array.isArray(labels) && Array.isArray(words)) {
     words.map(s => s.toLowerCase()).forEach(word => {
       labels.forEach(label => {
-        summary.labelWords[label.name] = summary.labelWords[label.name] || {}
-        accumulate(summary.labelWords[label.name], word)
+        summary[label.login] = summary[label.login] || {}
+        accumulate(summary[label.login], word)
       })
     })
   }
@@ -25,44 +41,39 @@ function labelStat (summary, labels, words) {
 
 function readSource (filePath) {
   const issues = jsonfile.readFileSync(filePath)
-  const summary = {
-    source: filePath,
-    issueCount: 0,
-    commentCount: 0,
-    wordCount: 0,
-    uniqueWordCount: 0,
-    // words: {},
-    labelWords: {},
-  }
-  // console.log(issues)
+  const summary = {}
+
   if (Array.isArray(issues) && issues.length) {
     issues.forEach((number, i) => {
-      // if (i > 5) return
+      if (i > 5) return
       const issue = jsonfile.readFileSync(`./issues/${number}.json`)
       console.log(`${pad(i+1, 5)}#${pad(number, 5)} ${issue.title}`)
 
-      summary.issueCount++
       // stat(summary, segment(issue.title))
-      labelStat(summary, issue.labels, segment(issue.title))
+      labelStat(summary, issue.assignees, segment(issue.title))
 
       if (Array.isArray(issue.comments)) {
         issue.comments.forEach(comment => {
-          summary.commentCount++
-          // stat(summary, segment(comment.body))
-          labelStat(summary, issue.labels, segment(comment.body))
+          labelStat(summary, issue.assignees, segment(comment.body))
         })
       }
     })
   }
+
   return summary
 }
 
 function record () {
-  const summary = readSource(`./summary/issues_with_label.json`)
-  // console.log(summary)
   jsonfile.spaces = 2
-  // jsonfile.writeFile(`words/issue_word_count.json`, summary)
-  jsonfile.writeFile(`words/issue_with_label_word_count.json`, summary.labelWords)
+
+  // const wcount = wordCount(load.readIssues())
+  // jsonfile.writeFile(`words/issue_word_count.json`, wcount)
+
+  // const summary = readSource(`./summary/issues_with_label.json`)
+  // jsonfile.writeFile(`words/issue_with_label_word_count.json`, summary)
+
+  const summary = readSource(`./summary/issues_with_assignee.json`)
+  jsonfile.writeFile(`words/issue_with_assignee_word_count.json`, summary)
 }
 
 record()

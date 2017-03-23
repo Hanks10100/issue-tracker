@@ -22,8 +22,7 @@ function pick (labels, count = 5) {
 
 function readWordCount (filePath) {
   const labels = pick(jsonfile.readFileSync(filePath), 2)
-  const PLabelWord = {}
-
+  const P = {}
   let totalWordCount = 0
 
   for (const label in labels) {
@@ -33,13 +32,13 @@ function readWordCount (filePath) {
   }
 
   for (const label in labels) {
-    PLabelWord[label] = {}
+    P[label] = {}
     for (const word in labels[label]) {
-      PLabelWord[label][word] = labels[label][word] / totalWordCount
+      P[label][word] = labels[label][word] / totalWordCount
     }
   }
-  console.log(checkAll(PLabelWord))
-  return PLabelWord
+  console.log(checkAll(P))
+  return P
 }
 
 function check (P) {
