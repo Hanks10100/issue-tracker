@@ -8,11 +8,7 @@ function pick (labels, count = 5) {
     const words = labels[label]
     useful[label] = useful[label] || {}
     for (const word in words) {
-      // skip the single word
-      if (String(word).length <= 1) continue
-      if (Number(word)) continue
-      if (String(word).match(/^https?:\/\//i)) continue
-      if (words[word] >= count) {
+      if (isUseful(word, words[word])) {
         useful[label][word] = words[word]
       }
     }
@@ -20,7 +16,35 @@ function pick (labels, count = 5) {
   return useful
 }
 
+function isUseful (word, count) {
+  return String(word).length > 1
+    && !Number(word)
+    && !String(word).match(/^https?:\/\//i)
+    && count >= 5
+}
+
 function readWordCount (filePath) {
+  const words = jsonfile.readFileSync(filePath)
+  const P = {}
+  let totalWordCount = 0
+
+  for (const word in words) {
+    if (isUseful(word, words[word])) {
+      totalWordCount += words[word]
+    }
+  }
+
+  for (const word in words) {
+    if (isUseful(word, words[word])) {
+      P[word] = words[word] / totalWordCount
+    }
+  }
+
+  console.log(check(P))
+  return P
+}
+
+function getTagP (filePath) {
   const labels = pick(jsonfile.readFileSync(filePath), 2)
   const P = {}
   let totalWordCount = 0
@@ -60,10 +84,17 @@ function checkAll (P) {
 }
 
 function record () {
-  const summary = readWordCount('./words/issue_with_label_word_count.json')
-  // console.log(summary)
   jsonfile.spaces = 2
-  jsonfile.writeFile(`words/issue_label_words_probability.json`, summary)
+
+  const wcount = readWordCount('./words/issue_word_count.json')
+  jsonfile.writeFile(`words/issue_words_probability.json`, wcount)
+
+  // console.log(summary)
+  // const summary = getTagP('./words/issue_with_label_word_count.json')
+  // jsonfile.writeFile(`words/issue_label_words_probability.json`, summary)
+
+  // const summary = getTagP('./words/issue_with_assignee_word_count.json')
+  // jsonfile.writeFile(`words/issue_assignee_words_probability.json`, summary)
 }
 
 record()
