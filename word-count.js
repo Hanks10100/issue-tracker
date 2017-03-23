@@ -3,77 +3,74 @@ const load = require('./load.js')
 const segment = require('./segment.js')
 const { pad, accumulate } = require('./utils.js')
 
-function wordStat (summary, words) {
-  if (Array.isArray(words)) {
-    words.map(s => s.toLowerCase()).forEach(word => {
-      accumulate(summary, word)
+function segmentIssue (issue) {
+  const words = []
+
+  const titleWords = segment(issue.title)
+  for (let i = 0; i < 5; ++i) {
+    words.push(...titleWords)
+  }
+
+  const bodyWords = segment(issue.body)
+  for (let i = 0; i < 2; ++i) {
+    words.push(...bodyWords)
+  }
+
+  if (Array.isArray(issue.comments)) {
+    issue.comments.forEach(comment => {
+      words.push(...segment(comment.body))
     })
   }
+
+  return words
 }
 
 function wordCount (issues) {
-  const summary = {}
-  // console.log(issues)
+  const summary = {
+    words: {},
+    labels: {},
+    assignees: {},
+    labelWords: {},
+    assigneeWords: {}
+  }
+
   for (const number in issues) {
     const issue = issues[number]
-    if (Number(number) > 10) break
     console.log(`#${pad(number, 5)} ${issue.title}`)
-    wordStat(summary, segment(issue.title))
-    if (Array.isArray(issue.comments)) {
-      issue.comments.forEach(comment => {
-        wordStat(summary, segment(comment.body))
+    // if (number > 10) break
+    const words = segmentIssue(issue).map(s => s.toLowerCase())
+
+    words.forEach(word => accumulate(summary.words, word))
+
+    if (issue.labels.length) {
+      issue.labels.forEach(({ name }) => {
+        summary.labelWords[name] = {}
+        accumulate(summary.labels, name)
+        words.forEach(word => accumulate(summary.labelWords[name], word))
       })
     }
-  }
-  return summary
-}
 
-function labelStat (summary, labels, words) {
-  if (Array.isArray(labels) && Array.isArray(words)) {
-    words.map(s => s.toLowerCase()).forEach(word => {
-      labels.forEach(label => {
-        summary[label.login] = summary[label.login] || {}
-        accumulate(summary[label.login], word)
+    if (issue.assignees.length) {
+      issue.assignees.forEach(({ login }) => {
+        summary.assigneeWords[login] = {}
+        accumulate(summary.assignees, login)
+        words.forEach(word => accumulate(summary.assigneeWords[login], word))
       })
-    })
-  }
-}
-
-function readSource (filePath) {
-  const issues = jsonfile.readFileSync(filePath)
-  const summary = {}
-
-  if (Array.isArray(issues) && issues.length) {
-    issues.forEach((number, i) => {
-      if (i > 5) return
-      const issue = jsonfile.readFileSync(`./issues/${number}.json`)
-      console.log(`${pad(i+1, 5)}#${pad(number, 5)} ${issue.title}`)
-
-      // stat(summary, segment(issue.title))
-      labelStat(summary, issue.assignees, segment(issue.title))
-
-      if (Array.isArray(issue.comments)) {
-        issue.comments.forEach(comment => {
-          labelStat(summary, issue.assignees, segment(comment.body))
-        })
-      }
-    })
+    }
   }
 
   return summary
 }
 
 function record () {
+  const summary = wordCount(load.readIssues())
+
   jsonfile.spaces = 2
-
-  // const wcount = wordCount(load.readIssues())
-  // jsonfile.writeFile(`words/issue_word_count.json`, wcount)
-
-  // const summary = readSource(`./summary/issues_with_label.json`)
-  // jsonfile.writeFile(`words/issue_with_label_word_count.json`, summary)
-
-  const summary = readSource(`./summary/issues_with_assignee.json`)
-  jsonfile.writeFile(`words/issue_with_assignee_word_count.json`, summary)
+  jsonfile.writeFile(`counts/words.json`, summary.words)
+  jsonfile.writeFile(`counts/labels.json`, summary.labels)
+  jsonfile.writeFile(`counts/assignees.json`, summary.assignees)
+  jsonfile.writeFile(`counts/label_words.json`, summary.labelWords)
+  jsonfile.writeFile(`counts/assignee_words.json`, summary.assigneeWords)
 }
 
 record()

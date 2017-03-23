@@ -21,8 +21,16 @@ function createSegment () {
   return seg
 }
 
+// TODO: pre process the raw text
+function preProcess (text) {
+  // trim source code
+  text = text.replace(/\s\`{3}[^\`]+\`{3}\s/gi, '\n')
+
+  return text
+}
+
 function segment (text) {
-  return createSegment().doSegment(text, {
+  return createSegment().doSegment(preProcess(text), {
     stripPunctuation: true,
     simple: true
   })
