@@ -188,5 +188,24 @@
   "created_at": "2016-12-23T08:02:06Z",
   "updated_at": "2016-12-23T23:15:15Z",
   "closed_at": "2016-12-23T23:15:15Z",
-  "body": "在 找节点 --> 获取子组件 这个demo 中，根节点应该是 scroller 吧?\r\n------------------\r\n```\r\n<template>\r\n  <div>\r\n    <text id=\"goto-top\">Top</text>\r\n    <div style=\"height: 10000; background-color: #999999;\"></div>\r\n    <text onclick=\"back2Top\">Back to Top</text>\r\n  </div>\r\n</template>\r\n<script>\r\n  var dom = require('@weex-module/dom')\r\n  module.exports = {\r\n    methods: {\r\n      back2Top: function () {\r\n        var el = this.$el('goto-top')\r\n        dom.scrollToElement(el, { offset: 10 })\r\n      }\r\n    }\r\n  }\r\n</script>\r\n```"
+  "body": "在 找节点 --> 获取子组件 这个demo 中，根节点应该是 scroller 吧?\r\n------------------\r\n```\r\n<template>\r\n  <div>\r\n    <text id=\"goto-top\">Top</text>\r\n    <div style=\"height: 10000; background-color: #999999;\"></div>\r\n    <text onclick=\"back2Top\">Back to Top</text>\r\n  </div>\r\n</template>\r\n<script>\r\n  var dom = require('@weex-module/dom')\r\n  module.exports = {\r\n    methods: {\r\n      back2Top: function () {\r\n        var el = this.$el('goto-top')\r\n        dom.scrollToElement(el, { offset: 10 })\r\n      }\r\n    }\r\n  }\r\n</script>\r\n```",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -216,5 +216,24 @@
   "created_at": "2016-08-06T03:13:57Z",
   "updated_at": "2016-08-23T17:44:07Z",
   "closed_at": "2016-08-23T17:44:07Z",
-  "body": "程序启动起来之后,只要一刷新就卡死？难道要看一次就要重启一次？用安卓playground扫描也一样不能刷新，且改动源码，页面并没有热更新。所有例子都一样，环境如下：\nnode : v6.2.0\nnpm : v3.8.9\nwin64\ngit : v2.9.2\n"
+  "body": "程序启动起来之后,只要一刷新就卡死？难道要看一次就要重启一次？用安卓playground扫描也一样不能刷新，且改动源码，页面并没有热更新。所有例子都一样，环境如下：\nnode : v6.2.0\nnpm : v3.8.9\nwin64\ngit : v2.9.2\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

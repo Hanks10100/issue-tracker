@@ -168,5 +168,24 @@
   "created_at": "2016-06-09T01:07:12Z",
   "updated_at": "2016-11-28T03:42:23Z",
   "closed_at": "2016-11-28T03:42:23Z",
-  "body": "``` html\n<list class=\"reading-list\">\n            <refresh class=\"refresh-view\" display=\"{{refresh_display}}\" onrefresh=\"onrefresh\">\n                <text class=\"refresh-arrow\" if=\"{{(refresh_display==='hide')}}\">刷新</text>\n                <loading-indicator></loading-indicator>\n            </refresh>\n            <cell>\n                <slider class=\"top-slider\" append=\"tree\">\n                    <indicator class=\"indicator\"></indicator>\n                    <div repeat=\"{{imageList}}\">\n                        <!--<image class=\"slider-item\" src=\"{{cover}}\"></image>-->\n                        <text>{{title}}</text>\n                    </div>\n                </slider>\n            </cell>\n            <cell class=\"row\" repeat=\"{{rows}}\" index=\"{{$index}}\">\n                <div class=\"reading-item\">\n                    <text class=\"item-title\">row {{id}}</text>\n                </div>\n            </cell>\n        </list>\n```\n\n代码如上，imageList是通过网络获取的，数据回来后给数据赋值页面的slider数据没有刷新，但是放到list外正常\n"
+  "body": "``` html\n<list class=\"reading-list\">\n            <refresh class=\"refresh-view\" display=\"{{refresh_display}}\" onrefresh=\"onrefresh\">\n                <text class=\"refresh-arrow\" if=\"{{(refresh_display==='hide')}}\">刷新</text>\n                <loading-indicator></loading-indicator>\n            </refresh>\n            <cell>\n                <slider class=\"top-slider\" append=\"tree\">\n                    <indicator class=\"indicator\"></indicator>\n                    <div repeat=\"{{imageList}}\">\n                        <!--<image class=\"slider-item\" src=\"{{cover}}\"></image>-->\n                        <text>{{title}}</text>\n                    </div>\n                </slider>\n            </cell>\n            <cell class=\"row\" repeat=\"{{rows}}\" index=\"{{$index}}\">\n                <div class=\"reading-item\">\n                    <text class=\"item-title\">row {{id}}</text>\n                </div>\n            </cell>\n        </list>\n```\n\n代码如上，imageList是通过网络获取的，数据回来后给数据赋值页面的slider数据没有刷新，但是放到list外正常\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

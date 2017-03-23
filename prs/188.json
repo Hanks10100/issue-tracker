@@ -129,5 +129,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/188.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/188.patch"
   },
-  "body": "贡献一个带点设计感的 demo（看着更像真实应用）\n\n存在问题\n1. 为什么不能设置 line-height，太可怕了！\n2. 怎么才能启用思源黑体，可以加载自定义的字体文件吗，怎么加载？\n3. font-weight:light; 这个字重不支持？（用思源黑体light字重显示摘要会很好看）\n4. 底部最后一条貌似没显示完整（被裁掉了10个像素高）\n5. 不支持 margin:20 30 的写法\n6. 不支持 border-bottom:1px solid #ccc; 写法\n"
+  "body": "贡献一个带点设计感的 demo（看着更像真实应用）\n\n存在问题\n1. 为什么不能设置 line-height，太可怕了！\n2. 怎么才能启用思源黑体，可以加载自定义的字体文件吗，怎么加载？\n3. font-weight:light; 这个字重不支持？（用思源黑体light字重显示摘要会很好看）\n4. 底部最后一条貌似没显示完整（被裁掉了10个像素高）\n5. 不支持 margin:20 30 的写法\n6. 不支持 border-bottom:1px solid #ccc; 写法\n",
+  "closed_by": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -150,5 +150,24 @@
   "created_at": "2016-08-23T04:17:29Z",
   "updated_at": "2016-10-12T09:34:36Z",
   "closed_at": "2016-08-23T06:15:30Z",
-  "body": "weex怎么支持返回的数据里有html标签的数据呀\n像这种`\"html_desc\": \"目前已投<font color = \\\"#d7ff00\\\">160</font>财富，还差<font color = \\\"#d7ff00\\\">40</font>财富开奖\"`,\n我起初用webview  但是html_desc不是src\n前端的可以通过`jpag.find(\".bd\").html(\"目前已投<font color = \\\"#d7ff00\\\">160</font>财富，还差<font color = \\\"#d7ff00\\\">40</font>财富开奖\")`\n请问weex怎么来实现呢\n"
+  "body": "weex怎么支持返回的数据里有html标签的数据呀\n像这种`\"html_desc\": \"目前已投<font color = \\\"#d7ff00\\\">160</font>财富，还差<font color = \\\"#d7ff00\\\">40</font>财富开奖\"`,\n我起初用webview  但是html_desc不是src\n前端的可以通过`jpag.find(\".bd\").html(\"目前已投<font color = \\\"#d7ff00\\\">160</font>财富，还差<font color = \\\"#d7ff00\\\">40</font>财富开奖\")`\n请问weex怎么来实现呢\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

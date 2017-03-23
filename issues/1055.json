@@ -272,5 +272,24 @@
   "created_at": "2016-08-23T09:11:43Z",
   "updated_at": "2016-11-25T06:25:39Z",
   "closed_at": "2016-10-24T13:21:46Z",
-  "body": "H5页面跨域请求时报错，请问怎么解决\n直接weex index.we在浏览器进行调试\n\n**我的跨域代码是这样写的:**\n\n![qq 20160823164836](https://cloud.githubusercontent.com/assets/17329044/17885873/b3eb2db8-6951-11e6-8047-60224a169734.png)\n![qq 20160823164949](https://cloud.githubusercontent.com/assets/17329044/17885874/b4256492-6951-11e6-884c-be0710e6c1d5.png)\n\n**运行时报如下错误，用stream跨域请求后面会默认添加callback=jsonp，但报错又提示jsonp未定义**\n\n![qq 20160823165445](https://cloud.githubusercontent.com/assets/17329044/17886010/790e8982-6952-11e6-9e3e-109849ac6c5e.png)\n\n**正常情况下后台返回的数据**\n![qq 20160823170226](https://cloud.githubusercontent.com/assets/17329044/17886251/7b71dcbe-6953-11e6-8f5a-2b3c5c626696.png)\n"
+  "body": "H5页面跨域请求时报错，请问怎么解决\n直接weex index.we在浏览器进行调试\n\n**我的跨域代码是这样写的:**\n\n![qq 20160823164836](https://cloud.githubusercontent.com/assets/17329044/17885873/b3eb2db8-6951-11e6-8047-60224a169734.png)\n![qq 20160823164949](https://cloud.githubusercontent.com/assets/17329044/17885874/b4256492-6951-11e6-884c-be0710e6c1d5.png)\n\n**运行时报如下错误，用stream跨域请求后面会默认添加callback=jsonp，但报错又提示jsonp未定义**\n\n![qq 20160823165445](https://cloud.githubusercontent.com/assets/17329044/17886010/790e8982-6952-11e6-9e3e-109849ac6c5e.png)\n\n**正常情况下后台返回的数据**\n![qq 20160823170226](https://cloud.githubusercontent.com/assets/17329044/17886251/7b71dcbe-6953-11e6-8f5a-2b3c5c626696.png)\n",
+  "closed_by": {
+    "login": "MrRaindrop",
+    "id": 1545874,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1545874?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/MrRaindrop",
+    "html_url": "https://github.com/MrRaindrop",
+    "followers_url": "https://api.github.com/users/MrRaindrop/followers",
+    "following_url": "https://api.github.com/users/MrRaindrop/following{/other_user}",
+    "gists_url": "https://api.github.com/users/MrRaindrop/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/MrRaindrop/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/MrRaindrop/subscriptions",
+    "organizations_url": "https://api.github.com/users/MrRaindrop/orgs",
+    "repos_url": "https://api.github.com/users/MrRaindrop/repos",
+    "events_url": "https://api.github.com/users/MrRaindrop/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/MrRaindrop/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

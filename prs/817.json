@@ -72,5 +72,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/817.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/817.patch"
   },
-  "body": "add android-feature-iconfont branch\n"
+  "body": "add android-feature-iconfont branch\n",
+  "closed_by": {
+    "login": "LeeJay0226",
+    "id": 7502237,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/7502237?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/LeeJay0226",
+    "html_url": "https://github.com/LeeJay0226",
+    "followers_url": "https://api.github.com/users/LeeJay0226/followers",
+    "following_url": "https://api.github.com/users/LeeJay0226/following{/other_user}",
+    "gists_url": "https://api.github.com/users/LeeJay0226/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/LeeJay0226/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/LeeJay0226/subscriptions",
+    "organizations_url": "https://api.github.com/users/LeeJay0226/orgs",
+    "repos_url": "https://api.github.com/users/LeeJay0226/repos",
+    "events_url": "https://api.github.com/users/LeeJay0226/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/LeeJay0226/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

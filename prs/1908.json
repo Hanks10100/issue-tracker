@@ -134,5 +134,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1908.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1908.patch"
   },
-  "body": "* `<image>` support `load` event\r\n* through the event object, developers can access`naturalWidth` and `naturalHeight` to get the original width and height of the loaded image.\r\n\r\nuse case:\r\n\r\n```html\r\n<template>\r\n  <div><image src=\"...\" onload=\"handleLoad\"></image></div>\r\n</template>\r\n\r\n<script>\r\nmodule.exports = {\r\n  methods: {\r\n    handleLoad: function (e) {\r\n      console.log('load!' + ' size: ' + e.naturalWidth + ',' + e.naturalHeight)\r\n    }\r\n  }\r\n}\r\n</script>\r\n```\r\n"
+  "body": "* `<image>` support `load` event\r\n* through the event object, developers can access`naturalWidth` and `naturalHeight` to get the original width and height of the loaded image.\r\n\r\nuse case:\r\n\r\n```html\r\n<template>\r\n  <div><image src=\"...\" onload=\"handleLoad\"></image></div>\r\n</template>\r\n\r\n<script>\r\nmodule.exports = {\r\n  methods: {\r\n    handleLoad: function (e) {\r\n      console.log('load!' + ' size: ' + e.naturalWidth + ',' + e.naturalHeight)\r\n    }\r\n  }\r\n}\r\n</script>\r\n```\r\n",
+  "closed_by": {
+    "login": "Hanks10100",
+    "id": 8401776,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8401776?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Hanks10100",
+    "html_url": "https://github.com/Hanks10100",
+    "followers_url": "https://api.github.com/users/Hanks10100/followers",
+    "following_url": "https://api.github.com/users/Hanks10100/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Hanks10100/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Hanks10100/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Hanks10100/subscriptions",
+    "organizations_url": "https://api.github.com/users/Hanks10100/orgs",
+    "repos_url": "https://api.github.com/users/Hanks10100/repos",
+    "events_url": "https://api.github.com/users/Hanks10100/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Hanks10100/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

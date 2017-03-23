@@ -122,5 +122,24 @@
   "created_at": "2016-09-01T08:10:38Z",
   "updated_at": "2016-09-02T08:17:09Z",
   "closed_at": "2016-09-02T08:17:09Z",
-  "body": "平台是h5\n代码如下:\nstream.fetch({\n        method: 'POST',\n        url: url,\n        type:'json',\n        headers: {'Content-Type':'application/x-www-form-urlencoded'},\n        body:'{name:'123'}'\n      }, \n查看请求体时, FormData下面有 {\"name\":\"123\"}\n但是PHP服务器那边使用 $_POST, 却获取不到参数,  求解!!!\nRequestHeader如下:\n\n![qq 20160901165802](https://cloud.githubusercontent.com/assets/12408084/18161636/5184f634-7065-11e6-871c-cf48573b86cb.png)\n"
+  "body": "平台是h5\n代码如下:\nstream.fetch({\n        method: 'POST',\n        url: url,\n        type:'json',\n        headers: {'Content-Type':'application/x-www-form-urlencoded'},\n        body:'{name:'123'}'\n      }, \n查看请求体时, FormData下面有 {\"name\":\"123\"}\n但是PHP服务器那边使用 $_POST, 却获取不到参数,  求解!!!\nRequestHeader如下:\n\n![qq 20160901165802](https://cloud.githubusercontent.com/assets/12408084/18161636/5184f634-7065-11e6-871c-cf48573b86cb.png)\n",
+  "closed_by": {
+    "login": "renqishuang",
+    "id": 12408084,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/12408084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/renqishuang",
+    "html_url": "https://github.com/renqishuang",
+    "followers_url": "https://api.github.com/users/renqishuang/followers",
+    "following_url": "https://api.github.com/users/renqishuang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/renqishuang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/renqishuang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/renqishuang/subscriptions",
+    "organizations_url": "https://api.github.com/users/renqishuang/orgs",
+    "repos_url": "https://api.github.com/users/renqishuang/repos",
+    "events_url": "https://api.github.com/users/renqishuang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/renqishuang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

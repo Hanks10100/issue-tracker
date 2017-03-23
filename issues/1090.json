@@ -216,5 +216,24 @@
   "created_at": "2016-08-30T01:39:21Z",
   "updated_at": "2016-08-30T06:12:19Z",
   "closed_at": "2016-08-30T06:12:19Z",
-  "body": "```\n//hello-weex.we\n<template>\n    <div>\n        <text class=\"title\">hello weex</text>\n        <text class=\"body\">ddd</text>\n    </div>\n</template>\n```\n\n这段代码用weex hello-weex.we命令build出来的资源，放在android 小米3 安卓6.0上，打开是一篇空白，给字体加上颜色后就显示出来了。。。请问默认字体是白色吗？\n"
+  "body": "```\n//hello-weex.we\n<template>\n    <div>\n        <text class=\"title\">hello weex</text>\n        <text class=\"body\">ddd</text>\n    </div>\n</template>\n```\n\n这段代码用weex hello-weex.we命令build出来的资源，放在android 小米3 安卓6.0上，打开是一篇空白，给字体加上颜色后就显示出来了。。。请问默认字体是白色吗？\n",
+  "closed_by": {
+    "login": "YorkShen",
+    "id": 4162544,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4162544?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/YorkShen",
+    "html_url": "https://github.com/YorkShen",
+    "followers_url": "https://api.github.com/users/YorkShen/followers",
+    "following_url": "https://api.github.com/users/YorkShen/following{/other_user}",
+    "gists_url": "https://api.github.com/users/YorkShen/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/YorkShen/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/YorkShen/subscriptions",
+    "organizations_url": "https://api.github.com/users/YorkShen/orgs",
+    "repos_url": "https://api.github.com/users/YorkShen/repos",
+    "events_url": "https://api.github.com/users/YorkShen/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/YorkShen/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -224,5 +224,24 @@
   "created_at": "2016-05-12T12:37:48Z",
   "updated_at": "2016-05-30T05:58:56Z",
   "closed_at": "2016-05-30T05:58:56Z",
-  "body": "```\nfont-style:\"italic\" /* not supported on Android*/\n```\n"
+  "body": "```\nfont-style:\"italic\" /* not supported on Android*/\n```\n",
+  "closed_by": {
+    "login": "YorkShen",
+    "id": 4162544,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4162544?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/YorkShen",
+    "html_url": "https://github.com/YorkShen",
+    "followers_url": "https://api.github.com/users/YorkShen/followers",
+    "following_url": "https://api.github.com/users/YorkShen/following{/other_user}",
+    "gists_url": "https://api.github.com/users/YorkShen/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/YorkShen/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/YorkShen/subscriptions",
+    "organizations_url": "https://api.github.com/users/YorkShen/orgs",
+    "repos_url": "https://api.github.com/users/YorkShen/repos",
+    "events_url": "https://api.github.com/users/YorkShen/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/YorkShen/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

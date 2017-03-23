@@ -156,5 +156,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2461.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2461.patch"
   },
-  "body": "通过 `use_frameworks!` 将 WeexSDK 以动态库形式引入项目后，对 `main.js` 的读取就不 work 了，因为 `main.js` 的路径变为了 `MyApp.app/Frameworks/MyFramework.framework/main.js`。\r\n\r\n使用 `[NSBundle bundleForClass:self]` 可以始终正确地取出包含 `main.js` 的 bundle，不管它是 main bundle 还是什么。"
+  "body": "通过 `use_frameworks!` 将 WeexSDK 以动态库形式引入项目后，对 `main.js` 的读取就不 work 了，因为 `main.js` 的路径变为了 `MyApp.app/Frameworks/MyFramework.framework/main.js`。\r\n\r\n使用 `[NSBundle bundleForClass:self]` 可以始终正确地取出包含 `main.js` 的 bundle，不管它是 main bundle 还是什么。",
+  "closed_by": {
+    "login": "cxfeng1",
+    "id": 1625893,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1625893?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cxfeng1",
+    "html_url": "https://github.com/cxfeng1",
+    "followers_url": "https://api.github.com/users/cxfeng1/followers",
+    "following_url": "https://api.github.com/users/cxfeng1/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cxfeng1/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cxfeng1/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cxfeng1/subscriptions",
+    "organizations_url": "https://api.github.com/users/cxfeng1/orgs",
+    "repos_url": "https://api.github.com/users/cxfeng1/repos",
+    "events_url": "https://api.github.com/users/cxfeng1/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cxfeng1/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

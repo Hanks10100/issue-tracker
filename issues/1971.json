@@ -178,5 +178,24 @@
   "created_at": "2016-12-21T03:05:28Z",
   "updated_at": "2016-12-23T12:20:19Z",
   "closed_at": "2016-12-23T12:20:19Z",
-  "body": "看了一下微信端一个页面拨打电话的方式是直接一个 `<a href=\"tel:10086\">马上拨打电话10086</a>`完成，\r\nweex我这么写的话，a标签编译出来的是div标签，不起作用。如何实现这个功能。"
+  "body": "看了一下微信端一个页面拨打电话的方式是直接一个 `<a href=\"tel:10086\">马上拨打电话10086</a>`完成，\r\nweex我这么写的话，a标签编译出来的是div标签，不起作用。如何实现这个功能。",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

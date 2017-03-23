@@ -178,5 +178,24 @@
   "created_at": "2016-10-31T00:16:41Z",
   "updated_at": "2016-10-31T08:45:57Z",
   "closed_at": "2016-10-31T08:45:57Z",
-  "body": "我用的 0.8.0.2版本，上面的问题解决了，但是报新的错。\n如果是a 链接则会报错，\nbundle源码：\n\n``` javascript\n{\n                  \"type\": \"a\",\n                  \"attr\": {\n                    \"href\": function () {return this.pages['i-bio-desc']}\n                  },\n                  \"children\": [\n                    {\n                      \"type\": \"text\",\n                      \"attr\": {\n                        \"value\": \"个人简介\"\n                      }\n                    }\n                  ]\n                },\n```\n\n报错信息\n10-25 13:57:42.462 2424-2453/org.yuntu.app E/weex: [WXBridgeManager] invokeInitFramework java.lang.UnsatisfiedLinkError: No implementation found for int com.taobao.weex.bridge.WXBridge.initFramework(java.lang.String, com.taobao.weex.bridge.WXParams) (tried Java_com_taobao_weex_bridge_WXBridge_initFramework and Java_com_taobao_weex_bridge_WXBridge_initFramework__Ljava_lang_String_2Lcom_taobao_weex_bridge_WXParams_2) at com.taobao.weex.bridge.WXBridge.initFramework(Native Method) at com.taobao.weex.bridge.WXBridgeManager.initFramework(WXBridgeManager.java:1027) at com.taobao.weex.bridge.WXBridgeManager.invokeCreateInstance(WXBridgeManager.java:826) at com.taobao.weex.bridge.WXBridgeManager.access$200(WXBridgeManager.java:273) at com.taobao.weex.bridge.WXBridgeManager$5.run(WXBridgeManager.java:807) at com.taobao.weex.common.WXThread$SafeRunnable.run(WXThread.java:234) at android.os.Handler.handleCallback(Handler.java:739) at android.os.Handler.dispatchMessage(Handler.java:95) at android.os.Looper.loop(Looper.java:148) at android.os.HandlerThread.run(HandlerThread.java:61)\n"
+  "body": "我用的 0.8.0.2版本，上面的问题解决了，但是报新的错。\n如果是a 链接则会报错，\nbundle源码：\n\n``` javascript\n{\n                  \"type\": \"a\",\n                  \"attr\": {\n                    \"href\": function () {return this.pages['i-bio-desc']}\n                  },\n                  \"children\": [\n                    {\n                      \"type\": \"text\",\n                      \"attr\": {\n                        \"value\": \"个人简介\"\n                      }\n                    }\n                  ]\n                },\n```\n\n报错信息\n10-25 13:57:42.462 2424-2453/org.yuntu.app E/weex: [WXBridgeManager] invokeInitFramework java.lang.UnsatisfiedLinkError: No implementation found for int com.taobao.weex.bridge.WXBridge.initFramework(java.lang.String, com.taobao.weex.bridge.WXParams) (tried Java_com_taobao_weex_bridge_WXBridge_initFramework and Java_com_taobao_weex_bridge_WXBridge_initFramework__Ljava_lang_String_2Lcom_taobao_weex_bridge_WXParams_2) at com.taobao.weex.bridge.WXBridge.initFramework(Native Method) at com.taobao.weex.bridge.WXBridgeManager.initFramework(WXBridgeManager.java:1027) at com.taobao.weex.bridge.WXBridgeManager.invokeCreateInstance(WXBridgeManager.java:826) at com.taobao.weex.bridge.WXBridgeManager.access$200(WXBridgeManager.java:273) at com.taobao.weex.bridge.WXBridgeManager$5.run(WXBridgeManager.java:807) at com.taobao.weex.common.WXThread$SafeRunnable.run(WXThread.java:234) at android.os.Handler.handleCallback(Handler.java:739) at android.os.Handler.dispatchMessage(Handler.java:95) at android.os.Looper.loop(Looper.java:148) at android.os.HandlerThread.run(HandlerThread.java:61)\n",
+  "closed_by": {
+    "login": "YorkShen",
+    "id": 4162544,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4162544?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/YorkShen",
+    "html_url": "https://github.com/YorkShen",
+    "followers_url": "https://api.github.com/users/YorkShen/followers",
+    "following_url": "https://api.github.com/users/YorkShen/following{/other_user}",
+    "gists_url": "https://api.github.com/users/YorkShen/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/YorkShen/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/YorkShen/subscriptions",
+    "organizations_url": "https://api.github.com/users/YorkShen/orgs",
+    "repos_url": "https://api.github.com/users/YorkShen/repos",
+    "events_url": "https://api.github.com/users/YorkShen/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/YorkShen/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

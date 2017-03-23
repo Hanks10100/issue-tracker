@@ -104,5 +104,24 @@
   "created_at": "2016-05-04T11:57:12Z",
   "updated_at": "2016-05-09T03:24:29Z",
   "closed_at": "2016-05-09T03:24:29Z",
-  "body": "when I use scroller，it can not back to top after tap the head。\nsystem：iOS 9.3.1\n"
+  "body": "when I use scroller，it can not back to top after tap the head。\nsystem：iOS 9.3.1\n",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

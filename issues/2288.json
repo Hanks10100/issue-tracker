@@ -37,5 +37,6 @@
   "created_at": "2017-01-17T01:59:22Z",
   "updated_at": "2017-01-17T02:00:18Z",
   "closed_at": null,
-  "body": "iOS 0.9.4上面稍微好点，在0.9.5.1上面完全是另外一个展现方式。\r\n```\r\nanimationTest:function(obj){\r\n      var duration=0;\r\n      var deg=0;\r\n      if (left) {\r\n        duration=2000;\r\n        deg='rotate(-30deg)';\r\n      }else {\r\n        duration=2000;\r\n        deg='rotate(30deg)';\r\n      }\r\n      var self=this;\r\n      left=!left;\r\n      animation.transition(obj, {\r\n          styles: {\r\n            transform: deg\r\n          },\r\n          duration: duration,\r\n        }, function () {\r\n          self.animationTest(obj);\r\n        });\r\n    }\r\n```"
+  "body": "iOS 0.9.4上面稍微好点，在0.9.5.1上面完全是另外一个展现方式。\r\n```\r\nanimationTest:function(obj){\r\n      var duration=0;\r\n      var deg=0;\r\n      if (left) {\r\n        duration=2000;\r\n        deg='rotate(-30deg)';\r\n      }else {\r\n        duration=2000;\r\n        deg='rotate(30deg)';\r\n      }\r\n      var self=this;\r\n      left=!left;\r\n      animation.transition(obj, {\r\n          styles: {\r\n            transform: deg\r\n          },\r\n          duration: duration,\r\n        }, function () {\r\n          self.animationTest(obj);\r\n        });\r\n    }\r\n```",
+  "closed_by": null
 }

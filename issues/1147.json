@@ -66,5 +66,24 @@
   "created_at": "2016-09-06T03:21:10Z",
   "updated_at": "2016-09-06T07:40:30Z",
   "closed_at": "2016-09-06T07:40:30Z",
-  "body": "android的demo 直接运行在设备上的话一直处于build状态，但是直接打包是没有问题的。求指导\n"
+  "body": "android的demo 直接运行在设备上的话一直处于build状态，但是直接打包是没有问题的。求指导\n",
+  "closed_by": {
+    "login": "weixinjie",
+    "id": 6205100,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6205100?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/weixinjie",
+    "html_url": "https://github.com/weixinjie",
+    "followers_url": "https://api.github.com/users/weixinjie/followers",
+    "following_url": "https://api.github.com/users/weixinjie/following{/other_user}",
+    "gists_url": "https://api.github.com/users/weixinjie/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/weixinjie/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/weixinjie/subscriptions",
+    "organizations_url": "https://api.github.com/users/weixinjie/orgs",
+    "repos_url": "https://api.github.com/users/weixinjie/repos",
+    "events_url": "https://api.github.com/users/weixinjie/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/weixinjie/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

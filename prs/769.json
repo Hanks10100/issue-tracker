@@ -43,5 +43,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/769.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/769.patch"
   },
-  "body": "(Please **_REMOVE**_ the following description before submiting)\n\nIt's **_RECOMMENDED**_ to submit typo fix, new demo and tiny bugfix to `dev` branch. New feature and other modifications can be submitted to \"domain\" branch including `ios`, `android`, `jsfm`, `html5`.\n\nSee [Branch Strategy](https://github.com/alibaba/weex/blob/dev/CONTRIBUTING.md#branch-management) for more detail.\n\n---\n\n（请在**_提交**_前删除这段描述）\n\n错别字修改、新 demo、较小的 bugfix 都可以直接提到 `dev` 分支；新需求以及任何你不确定影响面的改动，请提交到对应“领域”的分支（`ios`、`android`、`jsfm`、`html5`）。\n\n查看完整的[分支策略 (英文)](https://github.com/alibaba/weex/blob/dev/CONTRIBUTING.md#branch-management)。\n\nv0.6.1 has been released\n"
+  "body": "(Please **_REMOVE**_ the following description before submiting)\n\nIt's **_RECOMMENDED**_ to submit typo fix, new demo and tiny bugfix to `dev` branch. New feature and other modifications can be submitted to \"domain\" branch including `ios`, `android`, `jsfm`, `html5`.\n\nSee [Branch Strategy](https://github.com/alibaba/weex/blob/dev/CONTRIBUTING.md#branch-management) for more detail.\n\n---\n\n（请在**_提交**_前删除这段描述）\n\n错别字修改、新 demo、较小的 bugfix 都可以直接提到 `dev` 分支；新需求以及任何你不确定影响面的改动，请提交到对应“领域”的分支（`ios`、`android`、`jsfm`、`html5`）。\n\n查看完整的[分支策略 (英文)](https://github.com/alibaba/weex/blob/dev/CONTRIBUTING.md#branch-management)。\n\nv0.6.1 has been released\n",
+  "closed_by": {
+    "login": "samyzhang",
+    "id": 10821317,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/10821317?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/samyzhang",
+    "html_url": "https://github.com/samyzhang",
+    "followers_url": "https://api.github.com/users/samyzhang/followers",
+    "following_url": "https://api.github.com/users/samyzhang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/samyzhang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/samyzhang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/samyzhang/subscriptions",
+    "organizations_url": "https://api.github.com/users/samyzhang/orgs",
+    "repos_url": "https://api.github.com/users/samyzhang/repos",
+    "events_url": "https://api.github.com/users/samyzhang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/samyzhang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

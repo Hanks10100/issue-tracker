@@ -384,5 +384,24 @@
   "created_at": "2016-06-21T03:11:51Z",
   "updated_at": "2016-06-27T09:04:44Z",
   "closed_at": "2016-06-27T09:04:44Z",
-  "body": "现在出现一个问题，就是在不同的屏幕，我根据不同的屏幕，计算好每个区域块的高度，然后运行到设备里，渲染出来之后，内容区域高度和我计算出来的高度出现误差，以至于我下方需要衔接的uiview和渲染出来的页面中间出现一段空白区域。\n\n做了几个测试，6s屏幕的渲染出高度和计算高度一样，5s和4s渲染出来的高度小于计算出的高度，plus渲染出高度要高于计算出高度。\n\nplus出现的问题主要因为是在设备里取到屏幕的宽度是828，而config.env.deviceWidth取到的高度是1242，两者不一样，所以基于width算出的高度就有偏差；但是5s和4s无论native取出的宽度还是config.env.deviceWidth 取出的宽度都是一样的，但是渲染出来后还是按一定比例缩小了，不知道什么机制导致的。\n"
+  "body": "现在出现一个问题，就是在不同的屏幕，我根据不同的屏幕，计算好每个区域块的高度，然后运行到设备里，渲染出来之后，内容区域高度和我计算出来的高度出现误差，以至于我下方需要衔接的uiview和渲染出来的页面中间出现一段空白区域。\n\n做了几个测试，6s屏幕的渲染出高度和计算高度一样，5s和4s渲染出来的高度小于计算出的高度，plus渲染出高度要高于计算出高度。\n\nplus出现的问题主要因为是在设备里取到屏幕的宽度是828，而config.env.deviceWidth取到的高度是1242，两者不一样，所以基于width算出的高度就有偏差；但是5s和4s无论native取出的宽度还是config.env.deviceWidth 取出的宽度都是一样的，但是渲染出来后还是按一定比例缩小了，不知道什么机制导致的。\n",
+  "closed_by": {
+    "login": "cxfeng1",
+    "id": 1625893,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1625893?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cxfeng1",
+    "html_url": "https://github.com/cxfeng1",
+    "followers_url": "https://api.github.com/users/cxfeng1/followers",
+    "following_url": "https://api.github.com/users/cxfeng1/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cxfeng1/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cxfeng1/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cxfeng1/subscriptions",
+    "organizations_url": "https://api.github.com/users/cxfeng1/orgs",
+    "repos_url": "https://api.github.com/users/cxfeng1/repos",
+    "events_url": "https://api.github.com/users/cxfeng1/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cxfeng1/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

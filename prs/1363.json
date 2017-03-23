@@ -72,5 +72,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1363.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1363.patch"
   },
-  "body": "stream.fetch 在 type指定为 json ，并且 json 不合法时，会导致crash，这里会catch住错误，并返回error给JS层\n"
+  "body": "stream.fetch 在 type指定为 json ，并且 json 不合法时，会导致crash，这里会catch住错误，并返回error给JS层\n",
+  "closed_by": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

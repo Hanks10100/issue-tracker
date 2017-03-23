@@ -94,5 +94,24 @@
   "created_at": "2016-12-16T01:51:49Z",
   "updated_at": "2016-12-16T12:53:13Z",
   "closed_at": "2016-12-16T12:53:13Z",
-  "body": "![image](https://cloud.githubusercontent.com/assets/4744967/21248836/c467c7be-c374-11e6-8c4f-e8cfda07e484.png)\r\n\r\nI am devloping an weex component but it dosn't support use transform property like below:\r\n\r\n``` html\r\n<div style=\"transform:rotateX({{rightTransformerDegree}})\"></div>\r\n```\r\nMyabe I can use animation to solve this porblem. So are u going to support it? 😄💐\r\n"
+  "body": "![image](https://cloud.githubusercontent.com/assets/4744967/21248836/c467c7be-c374-11e6-8c4f-e8cfda07e484.png)\r\n\r\nI am devloping an weex component but it dosn't support use transform property like below:\r\n\r\n``` html\r\n<div style=\"transform:rotateX({{rightTransformerDegree}})\"></div>\r\n```\r\nMyabe I can use animation to solve this porblem. So are u going to support it? 😄💐\r\n",
+  "closed_by": {
+    "login": "JackPu",
+    "id": 4744967,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/4744967?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/JackPu",
+    "html_url": "https://github.com/JackPu",
+    "followers_url": "https://api.github.com/users/JackPu/followers",
+    "following_url": "https://api.github.com/users/JackPu/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JackPu/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/JackPu/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/JackPu/subscriptions",
+    "organizations_url": "https://api.github.com/users/JackPu/orgs",
+    "repos_url": "https://api.github.com/users/JackPu/repos",
+    "events_url": "https://api.github.com/users/JackPu/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/JackPu/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

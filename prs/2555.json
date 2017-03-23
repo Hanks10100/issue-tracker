@@ -72,5 +72,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2555.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2555.patch"
   },
-  "body": "sdk engine的初始化操作不应该在这里。\n在 instance里的初始化会导致用户在 sdk engine注册的 handlers 被覆盖。"
+  "body": "sdk engine的初始化操作不应该在这里。\n在 instance里的初始化会导致用户在 sdk engine注册的 handlers 被覆盖。",
+  "closed_by": {
+    "login": "Neeeo",
+    "id": 3702412,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/3702412?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Neeeo",
+    "html_url": "https://github.com/Neeeo",
+    "followers_url": "https://api.github.com/users/Neeeo/followers",
+    "following_url": "https://api.github.com/users/Neeeo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Neeeo/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Neeeo/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Neeeo/subscriptions",
+    "organizations_url": "https://api.github.com/users/Neeeo/orgs",
+    "repos_url": "https://api.github.com/users/Neeeo/repos",
+    "events_url": "https://api.github.com/users/Neeeo/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Neeeo/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

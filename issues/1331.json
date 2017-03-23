@@ -94,5 +94,24 @@
   "created_at": "2016-09-29T05:04:46Z",
   "updated_at": "2016-09-30T03:22:10Z",
   "closed_at": "2016-09-30T03:22:10Z",
-  "body": "`data:{\n            listdata:[ ],\n                        testdata:[1,1,1,1,1,1],\n        },`\n\n如上的：这个时候listdata是个空数据，然后我在created里去this.listdata = this.testdata; 把testdata赋值给listdata，这个时候列表有的时候会丢失，有的时候是可以完全显示，有的时候第一项或者前几项都不显示，一片空位，\n"
+  "body": "`data:{\n            listdata:[ ],\n                        testdata:[1,1,1,1,1,1],\n        },`\n\n如上的：这个时候listdata是个空数据，然后我在created里去this.listdata = this.testdata; 把testdata赋值给listdata，这个时候列表有的时候会丢失，有的时候是可以完全显示，有的时候第一项或者前几项都不显示，一片空位，\n",
+  "closed_by": {
+    "login": "jiangfei891111",
+    "id": 11548260,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11548260?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jiangfei891111",
+    "html_url": "https://github.com/jiangfei891111",
+    "followers_url": "https://api.github.com/users/jiangfei891111/followers",
+    "following_url": "https://api.github.com/users/jiangfei891111/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jiangfei891111/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jiangfei891111/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jiangfei891111/subscriptions",
+    "organizations_url": "https://api.github.com/users/jiangfei891111/orgs",
+    "repos_url": "https://api.github.com/users/jiangfei891111/repos",
+    "events_url": "https://api.github.com/users/jiangfei891111/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jiangfei891111/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

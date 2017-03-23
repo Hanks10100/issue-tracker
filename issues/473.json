@@ -132,5 +132,24 @@
   "created_at": "2016-06-15T02:06:44Z",
   "updated_at": "2016-06-16T11:52:04Z",
   "closed_at": "2016-06-16T11:52:04Z",
-  "body": "for example ,i have a sample project,and i put them into examples directory. \n\n|-modules\n|     |----main.we \n|-common\n|\n|----index.we\n\nnow i want to navigator to main page from index page,but i tried use relative path  `./modules/main.js`,no effect.\n\nonly absolute path works.\n\n```\nnavigator.push({\n              url:'http://30.10.216.55:12580/examples/build/xxx/modules/main.js',\n              'animated':'true'\n            },function(e){\n            });\n```\n"
+  "body": "for example ,i have a sample project,and i put them into examples directory. \n\n|-modules\n|     |----main.we \n|-common\n|\n|----index.we\n\nnow i want to navigator to main page from index page,but i tried use relative path  `./modules/main.js`,no effect.\n\nonly absolute path works.\n\n```\nnavigator.push({\n              url:'http://30.10.216.55:12580/examples/build/xxx/modules/main.js',\n              'animated':'true'\n            },function(e){\n            });\n```\n",
+  "closed_by": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

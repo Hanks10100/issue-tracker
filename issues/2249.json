@@ -151,5 +151,6 @@
   "created_at": "2017-01-13T05:17:11Z",
   "updated_at": "2017-02-09T02:57:06Z",
   "closed_at": null,
-  "body": "迁移至vue2.x版本后，监听slider的change事件，event中无法获取到index\r\n\r\n## 版本\r\n\r\n- weex 0.9.5\r\n- vue 2.1.8\r\n\r\n"
+  "body": "迁移至vue2.x版本后，监听slider的change事件，event中无法获取到index\r\n\r\n## 版本\r\n\r\n- weex 0.9.5\r\n- vue 2.1.8\r\n\r\n",
+  "closed_by": null
 }

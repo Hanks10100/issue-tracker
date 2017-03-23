@@ -43,5 +43,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1824.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1824.patch"
   },
-  "body": "#### feature\r\n  1. Apply attribute 'blur' to WXImageComponent using GaussianBlurFilter.\r\n\r\n#### bugfix\r\n  1. Modify WXClipboardModule by dispatching to a default queue when using UIPasteboard to avoid blocking main queue under iOS10 & macOS Sierra.\r\n"
+  "body": "#### feature\r\n  1. Apply attribute 'blur' to WXImageComponent using GaussianBlurFilter.\r\n\r\n#### bugfix\r\n  1. Modify WXClipboardModule by dispatching to a default queue when using UIPasteboard to avoid blocking main queue under iOS10 & macOS Sierra.\r\n",
+  "closed_by": {
+    "login": "xiayun200825",
+    "id": 10802974,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/10802974?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/xiayun200825",
+    "html_url": "https://github.com/xiayun200825",
+    "followers_url": "https://api.github.com/users/xiayun200825/followers",
+    "following_url": "https://api.github.com/users/xiayun200825/following{/other_user}",
+    "gists_url": "https://api.github.com/users/xiayun200825/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/xiayun200825/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/xiayun200825/subscriptions",
+    "organizations_url": "https://api.github.com/users/xiayun200825/orgs",
+    "repos_url": "https://api.github.com/users/xiayun200825/repos",
+    "events_url": "https://api.github.com/users/xiayun200825/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/xiayun200825/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

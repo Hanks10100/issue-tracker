@@ -238,5 +238,6 @@
   "created_at": "2016-11-29T08:18:09Z",
   "updated_at": "2017-03-01T06:38:12Z",
   "closed_at": null,
-  "body": "刷新数据，list里的slider数据会成倍增长，但是上下滚动，消失后再现就正常了，是不是底层cell可重用的时候没处理好？\r\n![simulator screen shot 2016 11 29 16 12 37](https://cloud.githubusercontent.com/assets/8529588/20701686/5b223bae-b64f-11e6-9ab7-bf4b5d840e91.png)\r\n![simulator screen shot 2016 11 29 16 12 42](https://cloud.githubusercontent.com/assets/8529588/20701688/5c019934-b64f-11e6-823b-6c568722972d.png)\r\n![simulator screen shot 2016 11 29 16 13 23](https://cloud.githubusercontent.com/assets/8529588/20701687/5bf6e890-b64f-11e6-9ee7-78fa20a97c5f.png)\r\n\r\n\r\n\r\n"
+  "body": "刷新数据，list里的slider数据会成倍增长，但是上下滚动，消失后再现就正常了，是不是底层cell可重用的时候没处理好？\r\n![simulator screen shot 2016 11 29 16 12 37](https://cloud.githubusercontent.com/assets/8529588/20701686/5b223bae-b64f-11e6-9ab7-bf4b5d840e91.png)\r\n![simulator screen shot 2016 11 29 16 12 42](https://cloud.githubusercontent.com/assets/8529588/20701688/5c019934-b64f-11e6-823b-6c568722972d.png)\r\n![simulator screen shot 2016 11 29 16 13 23](https://cloud.githubusercontent.com/assets/8529588/20701687/5bf6e890-b64f-11e6-9ee7-78fa20a97c5f.png)\r\n\r\n\r\n\r\n",
+  "closed_by": null
 }

@@ -45,5 +45,6 @@
   "created_at": "2016-12-27T13:36:19Z",
   "updated_at": "2017-01-04T17:19:21Z",
   "closed_at": null,
-  "body": "If there are only two children in one slider and user swipe to the second one, then he cannot swipe back to the first one. Please checkout this demo: [demo url](http://dotwe.org/1afedc478f3bcf6968f20393e18596f2). The demo code was copied from [examples](http://weex-project.io/doc/components/slider.html) in the docs.\r\n\r\nIf there are more children, there will be no problem.\r\n\r\nYou can use Weex Playground iOS App(1.3) to reproduce this issue. \r\n* OS version: iOS 10.2\r\n* weex version: 0.9.4\r\n"
+  "body": "If there are only two children in one slider and user swipe to the second one, then he cannot swipe back to the first one. Please checkout this demo: [demo url](http://dotwe.org/1afedc478f3bcf6968f20393e18596f2). The demo code was copied from [examples](http://weex-project.io/doc/components/slider.html) in the docs.\r\n\r\nIf there are more children, there will be no problem.\r\n\r\nYou can use Weex Playground iOS App(1.3) to reproduce this issue. \r\n* OS version: iOS 10.2\r\n* weex version: 0.9.4\r\n",
+  "closed_by": null
 }

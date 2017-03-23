@@ -110,5 +110,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/576.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/576.patch"
   },
-  "body": "modify scoller attributes\n"
+  "body": "modify scoller attributes\n",
+  "closed_by": {
+    "login": "xkli",
+    "id": 7642368,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7642368?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/xkli",
+    "html_url": "https://github.com/xkli",
+    "followers_url": "https://api.github.com/users/xkli/followers",
+    "following_url": "https://api.github.com/users/xkli/following{/other_user}",
+    "gists_url": "https://api.github.com/users/xkli/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/xkli/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/xkli/subscriptions",
+    "organizations_url": "https://api.github.com/users/xkli/orgs",
+    "repos_url": "https://api.github.com/users/xkli/repos",
+    "events_url": "https://api.github.com/users/xkli/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/xkli/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

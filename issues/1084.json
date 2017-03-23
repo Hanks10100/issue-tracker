@@ -206,5 +206,24 @@
   "created_at": "2016-08-29T07:40:00Z",
   "updated_at": "2016-09-20T02:13:04Z",
   "closed_at": "2016-09-20T02:13:04Z",
-  "body": "示例代码如下，ios及web端均能上拉显示“加载更多”的提示，而安卓端不行（安卓版本5.0.2，weex版本0.7.0），不过能触发事件，只是不能显示\n\n```\n        <loading class=\"loading-view\" display=\"{{loading_display}}\" onloading=\"onloading\">\n            <text class=\"loadtxt\" if=\"{{(loading_display==='hide')}}\">加载更多</text>\n          <loading-indicator class=\"loadic\"></loading-indicator>\n        </loading>\n```\n\n```\n  .loading-view {\n      height: 120px;\n      width: 750px;\n      justify-content: center;\n      align-items: center;\n      background-color: transparent;\n  }\n\n  .loadic {\n      width: 60;\n      height: 60;\n      color:#3bafda;\n  }\n\n  .loadtxt {\n      font-size: 26px;\n      color:#3bafda;\n      margin-bottom: 5px;    \n  }\n```\n\n```\n      onloading: function (e) {\n\n          var self = this;\n          self.loading_display = 'show';\n\n          setTimeout(function () {\n            self.loading_display = 'hide';\n          }, 1000)\n      }\n```\n"
+  "body": "示例代码如下，ios及web端均能上拉显示“加载更多”的提示，而安卓端不行（安卓版本5.0.2，weex版本0.7.0），不过能触发事件，只是不能显示\n\n```\n        <loading class=\"loading-view\" display=\"{{loading_display}}\" onloading=\"onloading\">\n            <text class=\"loadtxt\" if=\"{{(loading_display==='hide')}}\">加载更多</text>\n          <loading-indicator class=\"loadic\"></loading-indicator>\n        </loading>\n```\n\n```\n  .loading-view {\n      height: 120px;\n      width: 750px;\n      justify-content: center;\n      align-items: center;\n      background-color: transparent;\n  }\n\n  .loadic {\n      width: 60;\n      height: 60;\n      color:#3bafda;\n  }\n\n  .loadtxt {\n      font-size: 26px;\n      color:#3bafda;\n      margin-bottom: 5px;    \n  }\n```\n\n```\n      onloading: function (e) {\n\n          var self = this;\n          self.loading_display = 'show';\n\n          setTimeout(function () {\n            self.loading_display = 'hide';\n          }, 1000)\n      }\n```\n",
+  "closed_by": {
+    "login": "xkli",
+    "id": 7642368,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7642368?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/xkli",
+    "html_url": "https://github.com/xkli",
+    "followers_url": "https://api.github.com/users/xkli/followers",
+    "following_url": "https://api.github.com/users/xkli/following{/other_user}",
+    "gists_url": "https://api.github.com/users/xkli/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/xkli/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/xkli/subscriptions",
+    "organizations_url": "https://api.github.com/users/xkli/orgs",
+    "repos_url": "https://api.github.com/users/xkli/repos",
+    "events_url": "https://api.github.com/users/xkli/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/xkli/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

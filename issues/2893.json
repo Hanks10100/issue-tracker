@@ -66,5 +66,6 @@
   "created_at": "2017-03-09T10:07:12Z",
   "updated_at": "2017-03-10T08:39:43Z",
   "closed_at": null,
-  "body": "在安卓 weex0.10.0版本中使用 BroadcastChannel 会报BroadcastChannel is not defined错误，在网上找资料说是vue不支持BroadcastChannel  we文件可以支持，有什么好的解决方案让vue也支持没？"
+  "body": "在安卓 weex0.10.0版本中使用 BroadcastChannel 会报BroadcastChannel is not defined错误，在网上找资料说是vue不支持BroadcastChannel  we文件可以支持，有什么好的解决方案让vue也支持没？",
+  "closed_by": null
 }

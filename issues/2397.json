@@ -206,5 +206,24 @@
   "created_at": "2017-01-24T06:02:42Z",
   "updated_at": "2017-02-24T11:44:34Z",
   "closed_at": "2017-02-24T11:44:34Z",
-  "body": "hi,各位\r\n问题描述：我们这边iOS应用接入weex大约有两个月左右时间。接入以来，我们陆续收到了一些+[WXSDKEngine initSDKEnviroment]过程中产生的crash。大约累计产生了7000余次，对稳定性还是产生了一些影响。查了crash stacktrace，发现崩溃发生在-[WXBridgeManager _runLoopThread]。具体的stacktrace，我附了两个典型的作为附件，如果你们需要查看更多，也可以联系我这边(jinlin.liu@ele.me)。目前我们在iOS9/10两个系统环境下启用weex，崩溃的发生也是分布在两个系统上 。整体上来说，这个bug的崩溃率比较低，难以人为复现。相似的崩溃在-[WXComponentManager _runLoopThread]也有发生，stacktrace也非常类似。这个累计约1500余次。\r\n另外还有一些使用上的疑问，想要向这边咨询一下：\r\n1.WXBridgeManager WXComponentManager都使用了常驻线程的做法，相较于dispatch_queue，当时如何取舍的？出于何种考虑使用常驻thread的方式 ？\r\n2.thread的入口方法没有使用autoreleasepool?可能是我们理解粗浅，不过可能会有一些leak？\r\n3.出于不影响主业务流程的考虑，我们将[WXSDKEngine initSDKEnviroment]时机放的比较靠后。在第一次进入weex页面的控制器的viewdidload方法中调用，随后才进行WXSDKInstance 的renderWithURL。上面的问题与这个较迟的初始化时机是否有关联。\r\n[WXBridgeManager_crash_stacktrace01.txt](https://github.com/alibaba/weex/files/725763/WXBridgeManager_crash_stacktrace01.txt)\r\n[WXBridgeManager_crash_stacktrace02.txt](https://github.com/alibaba/weex/files/725764/WXBridgeManager_crash_stacktrace02.txt)\r\n[WXComponentManager_crash_stacktrace01.txt](https://github.com/alibaba/weex/files/725765/WXComponentManager_crash_stacktrace01.txt)\r\n[WXComponentManager_crash_stacktrace02.txt](https://github.com/alibaba/weex/files/725766/WXComponentManager_crash_stacktrace02.txt)\r\n\r\n期待回复\r\n\r\n\r\n"
+  "body": "hi,各位\r\n问题描述：我们这边iOS应用接入weex大约有两个月左右时间。接入以来，我们陆续收到了一些+[WXSDKEngine initSDKEnviroment]过程中产生的crash。大约累计产生了7000余次，对稳定性还是产生了一些影响。查了crash stacktrace，发现崩溃发生在-[WXBridgeManager _runLoopThread]。具体的stacktrace，我附了两个典型的作为附件，如果你们需要查看更多，也可以联系我这边(jinlin.liu@ele.me)。目前我们在iOS9/10两个系统环境下启用weex，崩溃的发生也是分布在两个系统上 。整体上来说，这个bug的崩溃率比较低，难以人为复现。相似的崩溃在-[WXComponentManager _runLoopThread]也有发生，stacktrace也非常类似。这个累计约1500余次。\r\n另外还有一些使用上的疑问，想要向这边咨询一下：\r\n1.WXBridgeManager WXComponentManager都使用了常驻线程的做法，相较于dispatch_queue，当时如何取舍的？出于何种考虑使用常驻thread的方式 ？\r\n2.thread的入口方法没有使用autoreleasepool?可能是我们理解粗浅，不过可能会有一些leak？\r\n3.出于不影响主业务流程的考虑，我们将[WXSDKEngine initSDKEnviroment]时机放的比较靠后。在第一次进入weex页面的控制器的viewdidload方法中调用，随后才进行WXSDKInstance 的renderWithURL。上面的问题与这个较迟的初始化时机是否有关联。\r\n[WXBridgeManager_crash_stacktrace01.txt](https://github.com/alibaba/weex/files/725763/WXBridgeManager_crash_stacktrace01.txt)\r\n[WXBridgeManager_crash_stacktrace02.txt](https://github.com/alibaba/weex/files/725764/WXBridgeManager_crash_stacktrace02.txt)\r\n[WXComponentManager_crash_stacktrace01.txt](https://github.com/alibaba/weex/files/725765/WXComponentManager_crash_stacktrace01.txt)\r\n[WXComponentManager_crash_stacktrace02.txt](https://github.com/alibaba/weex/files/725766/WXComponentManager_crash_stacktrace02.txt)\r\n\r\n期待回复\r\n\r\n\r\n",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

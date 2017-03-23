@@ -178,5 +178,24 @@
   "created_at": "2016-12-09T02:32:04Z",
   "updated_at": "2016-12-23T12:26:08Z",
   "closed_at": "2016-12-23T12:26:08Z",
-  "body": "text 标签是不是替我们做了去除左右空格啊？\r\n我遇到了这么一个问题。。我想首行空格，结果做不到了\r\n\r\n\r\n![](http://p1.bqimg.com/567571/8bdc6e9a20e8a31e.png)\r\n\r\n\r\n![](http://i1.piimg.com/567571/b8cd04cd21e1f5d3.png)"
+  "body": "text 标签是不是替我们做了去除左右空格啊？\r\n我遇到了这么一个问题。。我想首行空格，结果做不到了\r\n\r\n\r\n![](http://p1.bqimg.com/567571/8bdc6e9a20e8a31e.png)\r\n\r\n\r\n![](http://i1.piimg.com/567571/b8cd04cd21e1f5d3.png)",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

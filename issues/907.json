@@ -151,5 +151,24 @@
   "created_at": "2016-07-29T10:18:44Z",
   "updated_at": "2016-08-16T08:35:28Z",
   "closed_at": "2016-08-16T08:35:28Z",
-  "body": "![1fa0af23-0904-4cb7-a8fa-73c501ac65db](https://cloud.githubusercontent.com/assets/7502237/17245405/eb3238d6-55b8-11e6-9355-7cad84cd8002.jpg)\n"
+  "body": "![1fa0af23-0904-4cb7-a8fa-73c501ac65db](https://cloud.githubusercontent.com/assets/7502237/17245405/eb3238d6-55b8-11e6-9355-7cad84cd8002.jpg)\n",
+  "closed_by": {
+    "login": "YorkShen",
+    "id": 4162544,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4162544?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/YorkShen",
+    "html_url": "https://github.com/YorkShen",
+    "followers_url": "https://api.github.com/users/YorkShen/followers",
+    "following_url": "https://api.github.com/users/YorkShen/following{/other_user}",
+    "gists_url": "https://api.github.com/users/YorkShen/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/YorkShen/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/YorkShen/subscriptions",
+    "organizations_url": "https://api.github.com/users/YorkShen/orgs",
+    "repos_url": "https://api.github.com/users/YorkShen/repos",
+    "events_url": "https://api.github.com/users/YorkShen/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/YorkShen/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

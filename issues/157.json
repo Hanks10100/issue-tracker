@@ -104,5 +104,24 @@
   "created_at": "2016-05-05T11:05:05Z",
   "updated_at": "2016-05-24T02:55:53Z",
   "closed_at": "2016-05-24T02:55:53Z",
-  "body": "我clone了项目到本地，执行了 `npm install` 和 `./start`\n然后用 Android Studio 打开了playground，并运行。\n但是在我的魅族PRO5上测试的时候，点击 `common style` 和 `UI gallery` 会导致软件崩溃：\n#### 测试机信息：\n\n> 魅族 PRO 5\n> Android 5.1\n> Flyme 5.6.5.3 beta\n"
+  "body": "我clone了项目到本地，执行了 `npm install` 和 `./start`\n然后用 Android Studio 打开了playground，并运行。\n但是在我的魅族PRO5上测试的时候，点击 `common style` 和 `UI gallery` 会导致软件崩溃：\n#### 测试机信息：\n\n> 魅族 PRO 5\n> Android 5.1\n> Flyme 5.6.5.3 beta\n",
+  "closed_by": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

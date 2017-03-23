@@ -103,5 +103,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1737.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1737.patch"
   },
-  "body": "This is a HTML5 renderer of Weex which is written in Vue ^2.0 syntax. \r\n\r\n**It can run on the web Weex.**\r\n\r\n## Progress\r\n\r\n+ [x] `<div>`\r\n+ [x] `<text>`\r\n+ [x] `<image>`\r\n+ [x] `<list>`\r\n  + [x] `<cell>`\r\n  + [x] `<refresh>`\r\n  + [x] `<loading>`\r\n+ [x] `<slider>`\r\n  + [x] `<indicator>`\r\n+ [x] `<scroller>`\r\n+ [x] `<input>`\r\n+ [x] `<textarea>`\r\n+ [x] `<switch>`\r\n+ [x] `<a>`\r\n+ [x] `<web>`\r\n+ [x] `<video>`"
+  "body": "This is a HTML5 renderer of Weex which is written in Vue ^2.0 syntax. \r\n\r\n**It can run on the web Weex.**\r\n\r\n## Progress\r\n\r\n+ [x] `<div>`\r\n+ [x] `<text>`\r\n+ [x] `<image>`\r\n+ [x] `<list>`\r\n  + [x] `<cell>`\r\n  + [x] `<refresh>`\r\n  + [x] `<loading>`\r\n+ [x] `<slider>`\r\n  + [x] `<indicator>`\r\n+ [x] `<scroller>`\r\n+ [x] `<input>`\r\n+ [x] `<textarea>`\r\n+ [x] `<switch>`\r\n+ [x] `<a>`\r\n+ [x] `<web>`\r\n+ [x] `<video>`",
+  "closed_by": {
+    "login": "MrRaindrop",
+    "id": 1545874,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1545874?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/MrRaindrop",
+    "html_url": "https://github.com/MrRaindrop",
+    "followers_url": "https://api.github.com/users/MrRaindrop/followers",
+    "following_url": "https://api.github.com/users/MrRaindrop/following{/other_user}",
+    "gists_url": "https://api.github.com/users/MrRaindrop/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/MrRaindrop/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/MrRaindrop/subscriptions",
+    "organizations_url": "https://api.github.com/users/MrRaindrop/orgs",
+    "repos_url": "https://api.github.com/users/MrRaindrop/repos",
+    "events_url": "https://api.github.com/users/MrRaindrop/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/MrRaindrop/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

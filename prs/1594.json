@@ -156,5 +156,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1594.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1594.patch"
   },
-  "body": "add `placeholder` attribute support for image.\r\n\r\ndemo:\r\n\r\n```html\r\n<template>\r\n  <div>\r\n    <image\r\n      style=\"width:320;height:100;\"\r\n      src=\"//xxxxxxx.com/xx.jpg\"\r\n      placeholder=\"//img.alicdn.com/simba/img/TB1l5R_OXXXXXcrXpXXSutbFXXX.jpg\"></image>\r\n  </div>\r\n</template>\r\n```\r\n\r\nthe `src` is invalid, and it will use the `placeholder` image instead.\r\n"
+  "body": "add `placeholder` attribute support for image.\r\n\r\ndemo:\r\n\r\n```html\r\n<template>\r\n  <div>\r\n    <image\r\n      style=\"width:320;height:100;\"\r\n      src=\"//xxxxxxx.com/xx.jpg\"\r\n      placeholder=\"//img.alicdn.com/simba/img/TB1l5R_OXXXXXcrXpXXSutbFXXX.jpg\"></image>\r\n  </div>\r\n</template>\r\n```\r\n\r\nthe `src` is invalid, and it will use the `placeholder` image instead.\r\n",
+  "closed_by": {
+    "login": "Hanks10100",
+    "id": 8401776,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8401776?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Hanks10100",
+    "html_url": "https://github.com/Hanks10100",
+    "followers_url": "https://api.github.com/users/Hanks10100/followers",
+    "following_url": "https://api.github.com/users/Hanks10100/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Hanks10100/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Hanks10100/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Hanks10100/subscriptions",
+    "organizations_url": "https://api.github.com/users/Hanks10100/orgs",
+    "repos_url": "https://api.github.com/users/Hanks10100/repos",
+    "events_url": "https://api.github.com/users/Hanks10100/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Hanks10100/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

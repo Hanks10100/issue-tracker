@@ -150,5 +150,24 @@
   "created_at": "2016-05-19T15:39:12Z",
   "updated_at": "2016-05-20T15:10:09Z",
   "closed_at": "2016-05-20T15:10:09Z",
-  "body": "I think the case is very normal ,  such as : \n\n```\n<template>\n  <div>\n    <text onclick=\"clickAdd\" style=\"color:#ff6699;margin-bottom:50\">add item</text>\n    <text \n      repeat=\"{{(i,v) in list}}\" \n      data-index=\"{{i}}\" \n      onclick=\"changeStyle\"\n      style=\"background-color: {{v.bgColor}}\">{{v.value}}</text>\n  </div>\n</template>\n<style>\n\n</style>\n<script>\n  module.exports = {\n    data: {\n      list:[{\n        value:'test',\n        bgColor: '#f1f1f1'\n      }]\n    },\n    methods:{\n        clickAdd:function(){\n          this.list.push({\n            value: 'test'\n          });\n        },\n        changeStyle: function(e){\n          var index = e.target.attr.dataIndex;\n          var item = this.list[index];\n          if(item.active){\n            item.bgColor = '#ffffff';\n            item.active = false;\n          }else{\n            item.bgColor = '#f1f1f1';\n            item.active = true;\n          }\n        }\n    }\n  }\n</script>\n```\n\nWe push item into the initialized array `list` by click event , and it means that we create object dynamically , and  I'd like to change the special style of the dynamic item. While , because of the default data bind method , we have no way to change the special style. \n\nMaybe I'm not familiar with weex , any other recommended ways to realize it?\n"
+  "body": "I think the case is very normal ,  such as : \n\n```\n<template>\n  <div>\n    <text onclick=\"clickAdd\" style=\"color:#ff6699;margin-bottom:50\">add item</text>\n    <text \n      repeat=\"{{(i,v) in list}}\" \n      data-index=\"{{i}}\" \n      onclick=\"changeStyle\"\n      style=\"background-color: {{v.bgColor}}\">{{v.value}}</text>\n  </div>\n</template>\n<style>\n\n</style>\n<script>\n  module.exports = {\n    data: {\n      list:[{\n        value:'test',\n        bgColor: '#f1f1f1'\n      }]\n    },\n    methods:{\n        clickAdd:function(){\n          this.list.push({\n            value: 'test'\n          });\n        },\n        changeStyle: function(e){\n          var index = e.target.attr.dataIndex;\n          var item = this.list[index];\n          if(item.active){\n            item.bgColor = '#ffffff';\n            item.active = false;\n          }else{\n            item.bgColor = '#f1f1f1';\n            item.active = true;\n          }\n        }\n    }\n  }\n</script>\n```\n\nWe push item into the initialized array `list` by click event , and it means that we create object dynamically , and  I'd like to change the special style of the dynamic item. While , because of the default data bind method , we have no way to change the special style. \n\nMaybe I'm not familiar with weex , any other recommended ways to realize it?\n",
+  "closed_by": {
+    "login": "myhirra",
+    "id": 4364150,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4364150?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/myhirra",
+    "html_url": "https://github.com/myhirra",
+    "followers_url": "https://api.github.com/users/myhirra/followers",
+    "following_url": "https://api.github.com/users/myhirra/following{/other_user}",
+    "gists_url": "https://api.github.com/users/myhirra/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/myhirra/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/myhirra/subscriptions",
+    "organizations_url": "https://api.github.com/users/myhirra/orgs",
+    "repos_url": "https://api.github.com/users/myhirra/repos",
+    "events_url": "https://api.github.com/users/myhirra/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/myhirra/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

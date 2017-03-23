@@ -94,5 +94,24 @@
   "created_at": "2016-09-23T08:07:00Z",
   "updated_at": "2016-09-23T08:41:51Z",
   "closed_at": "2016-09-23T08:41:51Z",
-  "body": "[PR]请教一下怎么刷新控件呢，比如有个<text class=\"title\">字体是黑色，我想在网络请求获取到数据之后改变这个<text>的字体颜色或点击状态（是否可点击），我应该怎么做呢？在<script>获取到这个标签作修改吗，怎么获取呢，求指导一下，谢谢\n"
+  "body": "[PR]请教一下怎么刷新控件呢，比如有个<text class=\"title\">字体是黑色，我想在网络请求获取到数据之后改变这个<text>的字体颜色或点击状态（是否可点击），我应该怎么做呢？在<script>获取到这个标签作修改吗，怎么获取呢，求指导一下，谢谢\n",
+  "closed_by": {
+    "login": "voidxin",
+    "id": 17478441,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/17478441?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/voidxin",
+    "html_url": "https://github.com/voidxin",
+    "followers_url": "https://api.github.com/users/voidxin/followers",
+    "following_url": "https://api.github.com/users/voidxin/following{/other_user}",
+    "gists_url": "https://api.github.com/users/voidxin/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/voidxin/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/voidxin/subscriptions",
+    "organizations_url": "https://api.github.com/users/voidxin/orgs",
+    "repos_url": "https://api.github.com/users/voidxin/repos",
+    "events_url": "https://api.github.com/users/voidxin/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/voidxin/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

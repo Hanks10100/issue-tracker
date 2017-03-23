@@ -188,5 +188,24 @@
   "created_at": "2016-12-12T07:11:53Z",
   "updated_at": "2016-12-28T12:00:14Z",
   "closed_at": "2016-12-28T12:00:14Z",
-  "body": "`var height = 88 * 750 / env.deviceWidth`\r\n在iPhone 7 plus或者其他3倍像素比的安卓机子下，`env.deviceWidth`获取到的值有点乱。\r\n比如按照以上代码，要布局一个实际高88的导航栏，在7plus下deviceWidth的值按理应该是828才对，可是实际得到的是1000多。导致`88 * 750 / env.deviceWidth`在3倍像素比的机器显示不正常。\r\n看了其他issues，应该是iphone 4等1倍像素下也有问题。\r\n建议：①把3倍和1倍屏幕下的deviceWidth也改成和2倍的一样？②env里再加一个`pixelRadio`用以计算？"
+  "body": "`var height = 88 * 750 / env.deviceWidth`\r\n在iPhone 7 plus或者其他3倍像素比的安卓机子下，`env.deviceWidth`获取到的值有点乱。\r\n比如按照以上代码，要布局一个实际高88的导航栏，在7plus下deviceWidth的值按理应该是828才对，可是实际得到的是1000多。导致`88 * 750 / env.deviceWidth`在3倍像素比的机器显示不正常。\r\n看了其他issues，应该是iphone 4等1倍像素下也有问题。\r\n建议：①把3倍和1倍屏幕下的deviceWidth也改成和2倍的一样？②env里再加一个`pixelRadio`用以计算？",
+  "closed_by": {
+    "login": "YorkShen",
+    "id": 4162544,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4162544?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/YorkShen",
+    "html_url": "https://github.com/YorkShen",
+    "followers_url": "https://api.github.com/users/YorkShen/followers",
+    "following_url": "https://api.github.com/users/YorkShen/following{/other_user}",
+    "gists_url": "https://api.github.com/users/YorkShen/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/YorkShen/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/YorkShen/subscriptions",
+    "organizations_url": "https://api.github.com/users/YorkShen/orgs",
+    "repos_url": "https://api.github.com/users/YorkShen/repos",
+    "events_url": "https://api.github.com/users/YorkShen/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/YorkShen/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

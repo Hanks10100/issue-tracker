@@ -117,10 +117,39 @@
       "created_at": "2017-02-20T01:26:22Z",
       "updated_at": "2017-02-20T01:26:22Z",
       "body": "`Activity` 集成 `AbstractWeexActivity`就好了，AbstractWeexActivity 虽然是抽象类，但没有抽象方法，不需要做额外处理；\r\ncustomView 只需是 `ViewGroup` 子类即可；\r\n你看一遍官方 `AbstractWeexActivity` 类的代码就会懂了。\r\n🙂"
+    },
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/287996599",
+      "html_url": "https://github.com/alibaba/weex/issues/2593#issuecomment-287996599",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/2593",
+      "id": 287996599,
+      "user": {
+        "login": "kevinTutu",
+        "id": 17876044,
+        "avatar_url": "https://avatars3.githubusercontent.com/u/17876044?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/kevinTutu",
+        "html_url": "https://github.com/kevinTutu",
+        "followers_url": "https://api.github.com/users/kevinTutu/followers",
+        "following_url": "https://api.github.com/users/kevinTutu/following{/other_user}",
+        "gists_url": "https://api.github.com/users/kevinTutu/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/kevinTutu/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/kevinTutu/subscriptions",
+        "organizations_url": "https://api.github.com/users/kevinTutu/orgs",
+        "repos_url": "https://api.github.com/users/kevinTutu/repos",
+        "events_url": "https://api.github.com/users/kevinTutu/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/kevinTutu/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2017-03-21T07:23:40Z",
+      "updated_at": "2017-03-21T07:23:40Z",
+      "body": "同问 现在如何将Weex渲染加载到当前Activity的Fragment中"
     }
   ],
   "created_at": "2017-02-16T03:06:35Z",
-  "updated_at": "2017-02-20T01:26:23Z",
+  "updated_at": "2017-03-21T07:23:40Z",
   "closed_at": null,
-  "body": "Android使用原生导航栏 怎么让Weex渲染加载到当前Activity的Fragment中\r\n官方只有Activity的Weex实现\r\n"
+  "body": "Android使用原生导航栏 怎么让Weex渲染加载到当前Activity的Fragment中\r\n官方只有Activity的Weex实现\r\n",
+  "closed_by": null
 }

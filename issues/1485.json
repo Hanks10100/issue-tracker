@@ -122,5 +122,24 @@
   "created_at": "2016-10-22T06:44:33Z",
   "updated_at": "2016-10-27T07:01:08Z",
   "closed_at": "2016-10-27T07:01:08Z",
-  "body": "如题，我的执行步骤是这样的：\n1、在cmd上执行 weex debug src/main.we -h 192.168.2.108 弹出来调试页面\n2、扫描左边的二维码，上面识别出来手机信息，再扫描第2个二维码，手机上会出来页面，但是页面如下图所示，不知道什么原因？\n\n![](https://cloud.githubusercontent.com/assets/16143766/19604461/ec998f14-97e7-11e6-813d-1fc740ae6bbb.png)\n"
+  "body": "如题，我的执行步骤是这样的：\n1、在cmd上执行 weex debug src/main.we -h 192.168.2.108 弹出来调试页面\n2、扫描左边的二维码，上面识别出来手机信息，再扫描第2个二维码，手机上会出来页面，但是页面如下图所示，不知道什么原因？\n\n![](https://cloud.githubusercontent.com/assets/16143766/19604461/ec998f14-97e7-11e6-813d-1fc740ae6bbb.png)\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

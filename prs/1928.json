@@ -89,5 +89,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1928.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1928.patch"
   },
-  "body": "jsfm 传递得参数小于native函数指定个数，ios将获取的value设置到指定的参数上，其他的参数采用默认值(when jsfm send variable parameter that Less than native parameter number , iOS will set the parameter the gain value and other parameters which not set with default value )\r\n\r\n变量类型(parameter  type) | 默认值(default value) |\r\n ----|------|\r\nstring | nil  |\r\nfloat |0 |\r\ndouble |0 |\r\nint |0 |\r\nnsdictionary |nil |\r\nNSArray|nil|\r\nWXModuleCallback|null|"
+  "body": "jsfm 传递得参数小于native函数指定个数，ios将获取的value设置到指定的参数上，其他的参数采用默认值(when jsfm send variable parameter that Less than native parameter number , iOS will set the parameter the gain value and other parameters which not set with default value )\r\n\r\n变量类型(parameter  type) | 默认值(default value) |\r\n ----|------|\r\nstring | nil  |\r\nfloat |0 |\r\ndouble |0 |\r\nint |0 |\r\nnsdictionary |nil |\r\nNSArray|nil|\r\nWXModuleCallback|null|",
+  "closed_by": {
+    "login": "cxfeng1",
+    "id": 1625893,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1625893?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cxfeng1",
+    "html_url": "https://github.com/cxfeng1",
+    "followers_url": "https://api.github.com/users/cxfeng1/followers",
+    "following_url": "https://api.github.com/users/cxfeng1/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cxfeng1/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cxfeng1/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cxfeng1/subscriptions",
+    "organizations_url": "https://api.github.com/users/cxfeng1/orgs",
+    "repos_url": "https://api.github.com/users/cxfeng1/repos",
+    "events_url": "https://api.github.com/users/cxfeng1/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cxfeng1/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

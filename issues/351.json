@@ -193,5 +193,24 @@
   "created_at": "2016-05-27T05:42:18Z",
   "updated_at": "2016-07-17T16:29:48Z",
   "closed_at": "2016-07-17T16:29:48Z",
-  "body": "According to async process, Weex Render can't return a timer id synchronously. So we will try to take  the way below of returning the function id and mapping it to a real timer id:\n\n@cxfeng1 \n\n![timer](http://gw.alicdn.com/mt/TB1SHR_KXXXXXbbXXXXXXXXXXXX-1024-768.png)\n"
+  "body": "According to async process, Weex Render can't return a timer id synchronously. So we will try to take  the way below of returning the function id and mapping it to a real timer id:\n\n@cxfeng1 \n\n![timer](http://gw.alicdn.com/mt/TB1SHR_KXXXXXbbXXXXXXXXXXXX-1024-768.png)\n",
+  "closed_by": {
+    "login": "cxfeng1",
+    "id": 1625893,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1625893?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cxfeng1",
+    "html_url": "https://github.com/cxfeng1",
+    "followers_url": "https://api.github.com/users/cxfeng1/followers",
+    "following_url": "https://api.github.com/users/cxfeng1/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cxfeng1/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cxfeng1/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cxfeng1/subscriptions",
+    "organizations_url": "https://api.github.com/users/cxfeng1/orgs",
+    "repos_url": "https://api.github.com/users/cxfeng1/repos",
+    "events_url": "https://api.github.com/users/cxfeng1/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cxfeng1/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

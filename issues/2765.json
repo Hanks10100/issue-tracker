@@ -94,5 +94,6 @@
   "created_at": "2017-02-24T08:32:40Z",
   "updated_at": "2017-02-24T11:29:31Z",
   "closed_at": null,
-  "body": "\r\n```\r\n   <div ref=\"box\">\r\n      <div ref=\"div1\">\r\n      </div>\r\n      <div ref='div2'>\r\n      </div>\r\n    </div>\r\n```\r\n如上的代码，如果对div1执行了transform:translate的动画，在对box执行transform:translate的动画，会导致div1的组件变得模糊\r\n\r\n调换执行顺序也一样。\r\n\r\n<img width=\"571\" alt=\"qq20170224-0\" src=\"https://cloud.githubusercontent.com/assets/15938604/23296169/c3cb49e0-faae-11e6-9605-0b3a7e86851b.png\">\r\n\r\n"
+  "body": "\r\n```\r\n   <div ref=\"box\">\r\n      <div ref=\"div1\">\r\n      </div>\r\n      <div ref='div2'>\r\n      </div>\r\n    </div>\r\n```\r\n如上的代码，如果对div1执行了transform:translate的动画，在对box执行transform:translate的动画，会导致div1的组件变得模糊\r\n\r\n调换执行顺序也一样。\r\n\r\n<img width=\"571\" alt=\"qq20170224-0\" src=\"https://cloud.githubusercontent.com/assets/15938604/23296169/c3cb49e0-faae-11e6-9605-0b3a7e86851b.png\">\r\n\r\n",
+  "closed_by": null
 }

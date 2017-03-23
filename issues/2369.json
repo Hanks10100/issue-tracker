@@ -94,5 +94,24 @@
   "created_at": "2017-01-22T06:40:16Z",
   "updated_at": "2017-01-26T03:05:28Z",
   "closed_at": "2017-01-26T03:05:28Z",
-  "body": "#In react-native, we have `getConstants` to expose a map to js: \r\n\r\n```java\r\n  @Override\r\n  public Map<String, Object> getConstants() {\r\n    final Map<String, Object> constants = new HashMap<>();\r\n    constants.put(DURATION_SHORT_KEY, Toast.LENGTH_SHORT);\r\n    constants.put(DURATION_LONG_KEY, Toast.LENGTH_LONG);\r\n    return constants;\r\n  }\r\n```\r\n\r\nSo that js can access those constants directly without a promise. However in weex, registerModule can only do this with a callback. This is really useful if the common configs are on native side.\r\n\r\nFor more details, please refer: http://facebook.github.io/react-native/docs/native-modules-android.html"
+  "body": "#In react-native, we have `getConstants` to expose a map to js: \r\n\r\n```java\r\n  @Override\r\n  public Map<String, Object> getConstants() {\r\n    final Map<String, Object> constants = new HashMap<>();\r\n    constants.put(DURATION_SHORT_KEY, Toast.LENGTH_SHORT);\r\n    constants.put(DURATION_LONG_KEY, Toast.LENGTH_LONG);\r\n    return constants;\r\n  }\r\n```\r\n\r\nSo that js can access those constants directly without a promise. However in weex, registerModule can only do this with a callback. This is really useful if the common configs are on native side.\r\n\r\nFor more details, please refer: http://facebook.github.io/react-native/docs/native-modules-android.html",
+  "closed_by": {
+    "login": "markzhai",
+    "id": 1106500,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1106500?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/markzhai",
+    "html_url": "https://github.com/markzhai",
+    "followers_url": "https://api.github.com/users/markzhai/followers",
+    "following_url": "https://api.github.com/users/markzhai/following{/other_user}",
+    "gists_url": "https://api.github.com/users/markzhai/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/markzhai/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/markzhai/subscriptions",
+    "organizations_url": "https://api.github.com/users/markzhai/orgs",
+    "repos_url": "https://api.github.com/users/markzhai/repos",
+    "events_url": "https://api.github.com/users/markzhai/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/markzhai/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -122,5 +122,24 @@
   "created_at": "2016-10-15T09:49:33Z",
   "updated_at": "2016-10-23T02:31:16Z",
   "closed_at": "2016-10-23T02:31:16Z",
-  "body": "IOS 端\n`\n[self fireEvent:@\"pagefinish\" params:data domChanges:@{\n                                                               @\"attrs\": @{@\"src\":@\"cooliean\"},\n                                                               @\"style\" : @{@\"height\":@(heightV)}\n                                                               }];\n`\n比如这样的方法，通过回调修改了组件的样式，或者属性，怎么自动刷新呢。\n谢谢了\n"
+  "body": "IOS 端\n`\n[self fireEvent:@\"pagefinish\" params:data domChanges:@{\n                                                               @\"attrs\": @{@\"src\":@\"cooliean\"},\n                                                               @\"style\" : @{@\"height\":@(heightV)}\n                                                               }];\n`\n比如这样的方法，通过回调修改了组件的样式，或者属性，怎么自动刷新呢。\n谢谢了\n",
+  "closed_by": {
+    "login": "cooliean",
+    "id": 4754617,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/4754617?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cooliean",
+    "html_url": "https://github.com/cooliean",
+    "followers_url": "https://api.github.com/users/cooliean/followers",
+    "following_url": "https://api.github.com/users/cooliean/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cooliean/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cooliean/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cooliean/subscriptions",
+    "organizations_url": "https://api.github.com/users/cooliean/orgs",
+    "repos_url": "https://api.github.com/users/cooliean/repos",
+    "events_url": "https://api.github.com/users/cooliean/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cooliean/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

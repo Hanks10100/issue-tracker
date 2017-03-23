@@ -151,5 +151,24 @@
   "created_at": "2016-09-01T06:56:45Z",
   "updated_at": "2016-12-12T07:39:03Z",
   "closed_at": "2016-09-01T08:02:05Z",
-  "body": "首先说下,  使用weex的平台是h5, \n使用stream.fetch请求服务器时,  默认把请求参数都放在 请求体的Request Payload 中,  我的后台服务器只从请求体的Form Data中获取参数,  那么我就想改下这个参数存放地点, API中有headers字段, 于是我就\n添加headers: {'Content-Type':'application/x-www-form-urlencoded'}, 希望我的参数能出现在FormData中,  但是请求体中的Content-Type没有变化, 依然是text/plain;charset=UTF-8, 我的参数依然出现在了\nRequest Payload中,  求大神解释一下!!!!  \nstream.fetch({\n        method: 'POST',\n        url: url,\n        type:'json',\n        headers: {'Content-Type':'application/x-www-form-urlencoded'},\n        body:\"{'name':'123'}\"\n      }\n"
+  "body": "首先说下,  使用weex的平台是h5, \n使用stream.fetch请求服务器时,  默认把请求参数都放在 请求体的Request Payload 中,  我的后台服务器只从请求体的Form Data中获取参数,  那么我就想改下这个参数存放地点, API中有headers字段, 于是我就\n添加headers: {'Content-Type':'application/x-www-form-urlencoded'}, 希望我的参数能出现在FormData中,  但是请求体中的Content-Type没有变化, 依然是text/plain;charset=UTF-8, 我的参数依然出现在了\nRequest Payload中,  求大神解释一下!!!!  \nstream.fetch({\n        method: 'POST',\n        url: url,\n        type:'json',\n        headers: {'Content-Type':'application/x-www-form-urlencoded'},\n        body:\"{'name':'123'}\"\n      }\n",
+  "closed_by": {
+    "login": "renqishuang",
+    "id": 12408084,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/12408084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/renqishuang",
+    "html_url": "https://github.com/renqishuang",
+    "followers_url": "https://api.github.com/users/renqishuang/followers",
+    "following_url": "https://api.github.com/users/renqishuang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/renqishuang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/renqishuang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/renqishuang/subscriptions",
+    "organizations_url": "https://api.github.com/users/renqishuang/orgs",
+    "repos_url": "https://api.github.com/users/renqishuang/repos",
+    "events_url": "https://api.github.com/users/renqishuang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/renqishuang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

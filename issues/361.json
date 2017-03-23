@@ -119,5 +119,24 @@
   "created_at": "2016-05-27T19:27:42Z",
   "updated_at": "2016-05-31T14:26:47Z",
   "closed_at": "2016-05-31T14:26:47Z",
-  "body": "``` vue\n<template>\n  <div onclick=\"update\" style=\"width: {{x}}; height: {{y}}; background-color: blue;\"></div>\n</template>\n\n<script>\n  module.exports = {\n    data: {\n      x: 200,\n      y: 100\n    },\n    methods: {\n      update: function () {\n        this.x = 400\n        this.y = '400' // when length value is a string it will fail to set.\n      }\n    }\n  }\n</script>\n```\n\nMy suggestion is maintain a whitelist of length unit names in renderer.\n"
+  "body": "``` vue\n<template>\n  <div onclick=\"update\" style=\"width: {{x}}; height: {{y}}; background-color: blue;\"></div>\n</template>\n\n<script>\n  module.exports = {\n    data: {\n      x: 200,\n      y: 100\n    },\n    methods: {\n      update: function () {\n        this.x = 400\n        this.y = '400' // when length value is a string it will fail to set.\n      }\n    }\n  }\n</script>\n```\n\nMy suggestion is maintain a whitelist of length unit names in renderer.\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

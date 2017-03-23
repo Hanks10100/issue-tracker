@@ -300,5 +300,24 @@
   "created_at": "2016-08-11T09:00:31Z",
   "updated_at": "2016-08-12T08:10:19Z",
   "closed_at": "2016-08-12T08:10:19Z",
-  "body": "请问是不是用**this.$openURL**(URL)方法或者**< a >**标签打开的js都会自带如下的bar？\n\n![](http://ac-pa07cjgz.clouddn.com/c365a4b4612e28ab.png)\n"
+  "body": "请问是不是用**this.$openURL**(URL)方法或者**< a >**标签打开的js都会自带如下的bar？\n\n![](http://ac-pa07cjgz.clouddn.com/c365a4b4612e28ab.png)\n",
+  "closed_by": {
+    "login": "bringmehome",
+    "id": 6698007,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6698007?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/bringmehome",
+    "html_url": "https://github.com/bringmehome",
+    "followers_url": "https://api.github.com/users/bringmehome/followers",
+    "following_url": "https://api.github.com/users/bringmehome/following{/other_user}",
+    "gists_url": "https://api.github.com/users/bringmehome/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/bringmehome/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/bringmehome/subscriptions",
+    "organizations_url": "https://api.github.com/users/bringmehome/orgs",
+    "repos_url": "https://api.github.com/users/bringmehome/repos",
+    "events_url": "https://api.github.com/users/bringmehome/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/bringmehome/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

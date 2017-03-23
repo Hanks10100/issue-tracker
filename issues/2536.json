@@ -178,5 +178,24 @@
   "created_at": "2017-02-13T07:19:36Z",
   "updated_at": "2017-02-17T12:34:48Z",
   "closed_at": "2017-02-17T12:34:48Z",
-  "body": "js端实现的导航栏，iOS端使用WXRootViewController初始化的NavigationController。在加载时会闪现黑灰色的导航栏，然后显示js端的实现的导航栏。\r\n个人感觉应该是本身导航栏先于js端实现的导航栏显示，这个情况不知道有没有办法解决？\r\n\r\nweex.version : 0.9.5.1\r\niPhone.version : simulators/iPhone 6p 10.2"
+  "body": "js端实现的导航栏，iOS端使用WXRootViewController初始化的NavigationController。在加载时会闪现黑灰色的导航栏，然后显示js端的实现的导航栏。\r\n个人感觉应该是本身导航栏先于js端实现的导航栏显示，这个情况不知道有没有办法解决？\r\n\r\nweex.version : 0.9.5.1\r\niPhone.version : simulators/iPhone 6p 10.2",
+  "closed_by": {
+    "login": "jizhidejingmo",
+    "id": 13342825,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/13342825?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jizhidejingmo",
+    "html_url": "https://github.com/jizhidejingmo",
+    "followers_url": "https://api.github.com/users/jizhidejingmo/followers",
+    "following_url": "https://api.github.com/users/jizhidejingmo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jizhidejingmo/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jizhidejingmo/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jizhidejingmo/subscriptions",
+    "organizations_url": "https://api.github.com/users/jizhidejingmo/orgs",
+    "repos_url": "https://api.github.com/users/jizhidejingmo/repos",
+    "events_url": "https://api.github.com/users/jizhidejingmo/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jizhidejingmo/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

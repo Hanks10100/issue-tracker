@@ -196,5 +196,24 @@
   "created_at": "2017-01-04T02:24:32Z",
   "updated_at": "2017-03-06T03:00:54Z",
   "closed_at": "2017-03-06T03:00:54Z",
-  "body": "给圆角按钮添加background-color变换动画后，会造成触发动画时圆角失效。\r\n此BUG经测试 仅安卓平台会有\r\nplayground版本0.9.4\r\n\r\n[在线示例代码](http://dotwe.org/acea9bfd57bff36f43ac79edea0cd3e7)\r\n\r\n![quickmemo _2017-01-04-10-15-43](https://cloud.githubusercontent.com/assets/13174847/21629979/c4f6248a-d267-11e6-98c4-66b847ebd6d6.png)\r\n\r\n\r\n"
+  "body": "给圆角按钮添加background-color变换动画后，会造成触发动画时圆角失效。\r\n此BUG经测试 仅安卓平台会有\r\nplayground版本0.9.4\r\n\r\n[在线示例代码](http://dotwe.org/acea9bfd57bff36f43ac79edea0cd3e7)\r\n\r\n![quickmemo _2017-01-04-10-15-43](https://cloud.githubusercontent.com/assets/13174847/21629979/c4f6248a-d267-11e6-98c4-66b847ebd6d6.png)\r\n\r\n\r\n",
+  "closed_by": {
+    "login": "YorkShen",
+    "id": 4162544,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4162544?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/YorkShen",
+    "html_url": "https://github.com/YorkShen",
+    "followers_url": "https://api.github.com/users/YorkShen/followers",
+    "following_url": "https://api.github.com/users/YorkShen/following{/other_user}",
+    "gists_url": "https://api.github.com/users/YorkShen/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/YorkShen/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/YorkShen/subscriptions",
+    "organizations_url": "https://api.github.com/users/YorkShen/orgs",
+    "repos_url": "https://api.github.com/users/YorkShen/repos",
+    "events_url": "https://api.github.com/users/YorkShen/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/YorkShen/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

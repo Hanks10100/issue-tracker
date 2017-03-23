@@ -102,5 +102,6 @@
   "created_at": "2017-01-17T03:40:08Z",
   "updated_at": "2017-01-18T17:11:24Z",
   "closed_at": null,
-  "body": "Weex 项目的源码文件每个都写了几百行的LICENSE，开源项目除了顶层的LICENSE文件，其他只需要十几行写简略版的就够了。\r\n\r\n见：\r\n![2017-01-17 11 38 05](https://cloud.githubusercontent.com/assets/1106500/22006864/933b1fda-dca9-11e6-9851-263bdb91dce3.png)\r\n![2017-01-17 11 38 21](https://cloud.githubusercontent.com/assets/1106500/22006868/9a19e9f8-dca9-11e6-8a85-c2c2aa1a07a2.png)\r\n\r\n而Weex的：\r\n![2017-01-17 11 39 54](https://cloud.githubusercontent.com/assets/1106500/22006884/ae18ecce-dca9-11e6-81d4-afe7c3f486d5.png)\r\n"
+  "body": "Weex 项目的源码文件每个都写了几百行的LICENSE，开源项目除了顶层的LICENSE文件，其他只需要十几行写简略版的就够了。\r\n\r\n见：\r\n![2017-01-17 11 38 05](https://cloud.githubusercontent.com/assets/1106500/22006864/933b1fda-dca9-11e6-9851-263bdb91dce3.png)\r\n![2017-01-17 11 38 21](https://cloud.githubusercontent.com/assets/1106500/22006868/9a19e9f8-dca9-11e6-8a85-c2c2aa1a07a2.png)\r\n\r\n而Weex的：\r\n![2017-01-17 11 39 54](https://cloud.githubusercontent.com/assets/1106500/22006884/ae18ecce-dca9-11e6-81d4-afe7c3f486d5.png)\r\n",
+  "closed_by": null
 }

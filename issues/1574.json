@@ -175,5 +175,24 @@
   "created_at": "2016-11-03T11:05:09Z",
   "updated_at": "2016-12-22T19:10:48Z",
   "closed_at": "2016-12-22T19:10:48Z",
-  "body": "wxc-navtab每个tab是wxc-navpage（先交页面A），点击wxc-navpage会调整到其他的wxc-navpage（先交页面B），然后在页面B返回到页面A的话会出现留白。效果如下\r\n![image](https://cloud.githubusercontent.com/assets/6845497/19963501/a816da58-a1f7-11e6-9027-fe3a6dd8fa4a.png)\r\n![image](https://cloud.githubusercontent.com/assets/6845497/19963511/ad32cca4-a1f7-11e6-95a1-17533ec2ab4e.png)\r\n如果是页面A不是嵌套在wxc-navtab中的话，返回是是没有留白问题。\r\n\r\n现在通过在ios代码中加入了，留白问题就解决了。\r\nself.edgesForExtendedLayout = UIRectEdgeNone;\r\n\r\n本人不是IOS开发，具体细节不清楚了。。"
+  "body": "wxc-navtab每个tab是wxc-navpage（先交页面A），点击wxc-navpage会调整到其他的wxc-navpage（先交页面B），然后在页面B返回到页面A的话会出现留白。效果如下\r\n![image](https://cloud.githubusercontent.com/assets/6845497/19963501/a816da58-a1f7-11e6-9027-fe3a6dd8fa4a.png)\r\n![image](https://cloud.githubusercontent.com/assets/6845497/19963511/ad32cca4-a1f7-11e6-95a1-17533ec2ab4e.png)\r\n如果是页面A不是嵌套在wxc-navtab中的话，返回是是没有留白问题。\r\n\r\n现在通过在ios代码中加入了，留白问题就解决了。\r\nself.edgesForExtendedLayout = UIRectEdgeNone;\r\n\r\n本人不是IOS开发，具体细节不清楚了。。",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

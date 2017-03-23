@@ -122,5 +122,24 @@
   "created_at": "2016-09-05T07:25:17Z",
   "updated_at": "2016-09-09T02:58:06Z",
   "closed_at": "2016-09-07T07:05:39Z",
-  "body": "Seems that require of `dom` can not get the real dom module.  \n\n```\n                var dom = require('@weex-module/dom');\n                dom.scrollToElement(this.$el('module-' + index), {offset: 0});\n```\n\nThe error msg in logcat is below:  \n\n> ReportException : TypeError: Object [object Object] has no method 'scrollToElement'\n>                                                                 at Vm.**weex_module**.exports.methods.linkToId (eval at <anonymous> ((weex):2997:17), <anonymous>:70:22)\n>                                                                 at Vm.Object.assign.children.children.children.children.children.events.click (eval at <anonymous> ((weex):2997:17), <anonymous>:372:59)\n>                                                                 at Node.<anonymous> ((weex):205:55)\n>                                                                 at Node.Element.fireEvent ((weex):7660:21)\n>                                                                 at Document.fireEvent ((weex):7323:14)\n>                                                                 at AppInstance.fireEvent ((weex):3047:28)\n>                                                                 at fireEvent ((weex):2566:22)\n>                                                                 at _ret.v ((weex):2591:33)\n>                                                                 at Array.forEach (native)\n>                                                                 at (weex):2586:14\n"
+  "body": "Seems that require of `dom` can not get the real dom module.  \n\n```\n                var dom = require('@weex-module/dom');\n                dom.scrollToElement(this.$el('module-' + index), {offset: 0});\n```\n\nThe error msg in logcat is below:  \n\n> ReportException : TypeError: Object [object Object] has no method 'scrollToElement'\n>                                                                 at Vm.**weex_module**.exports.methods.linkToId (eval at <anonymous> ((weex):2997:17), <anonymous>:70:22)\n>                                                                 at Vm.Object.assign.children.children.children.children.children.events.click (eval at <anonymous> ((weex):2997:17), <anonymous>:372:59)\n>                                                                 at Node.<anonymous> ((weex):205:55)\n>                                                                 at Node.Element.fireEvent ((weex):7660:21)\n>                                                                 at Document.fireEvent ((weex):7323:14)\n>                                                                 at AppInstance.fireEvent ((weex):3047:28)\n>                                                                 at fireEvent ((weex):2566:22)\n>                                                                 at _ret.v ((weex):2591:33)\n>                                                                 at Array.forEach (native)\n>                                                                 at (weex):2586:14\n",
+  "closed_by": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -206,5 +206,24 @@
   "created_at": "2016-09-21T07:04:54Z",
   "updated_at": "2017-01-20T06:54:33Z",
   "closed_at": "2016-09-22T08:11:31Z",
-  "body": "iOS native本地需要传参数到js页面，请教下怎么操作。\n"
+  "body": "iOS native本地需要传参数到js页面，请教下怎么操作。\n",
+  "closed_by": {
+    "login": "voidxin",
+    "id": 17478441,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/17478441?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/voidxin",
+    "html_url": "https://github.com/voidxin",
+    "followers_url": "https://api.github.com/users/voidxin/followers",
+    "following_url": "https://api.github.com/users/voidxin/following{/other_user}",
+    "gists_url": "https://api.github.com/users/voidxin/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/voidxin/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/voidxin/subscriptions",
+    "organizations_url": "https://api.github.com/users/voidxin/orgs",
+    "repos_url": "https://api.github.com/users/voidxin/repos",
+    "events_url": "https://api.github.com/users/voidxin/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/voidxin/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

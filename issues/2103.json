@@ -122,5 +122,24 @@
   "created_at": "2017-01-01T14:59:06Z",
   "updated_at": "2017-01-04T13:35:16Z",
   "closed_at": "2017-01-04T13:35:16Z",
-  "body": "stream模块fetch方法callback的ok参数在安卓是返回boolean类型的值，如下代码可以执行，而IOS里返回的是Int类型，成功为1，这就需要前端js进行类型转换。虽然是个小问题，但是框架本身的返回结果应该是要统一的，不然违背了weex的“多端接口设计一致”。\r\n```javascript\r\n     stream.fetch(params, function (response) {\r\n            if (response.ok === true) {\r\n\r\n            }\r\n     }\r\n```"
+  "body": "stream模块fetch方法callback的ok参数在安卓是返回boolean类型的值，如下代码可以执行，而IOS里返回的是Int类型，成功为1，这就需要前端js进行类型转换。虽然是个小问题，但是框架本身的返回结果应该是要统一的，不然违背了weex的“多端接口设计一致”。\r\n```javascript\r\n     stream.fetch(params, function (response) {\r\n            if (response.ok === true) {\r\n\r\n            }\r\n     }\r\n```",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -66,5 +66,6 @@
   "created_at": "2017-02-21T10:27:44Z",
   "updated_at": "2017-02-21T10:28:02Z",
   "closed_at": null,
-  "body": "com.taobao.weex.bridge.WXBridgeManager.initFramework(SourceFile:1033)\r\ncom.taobao.weex.bridge.WXBridgeManager.invokeInitFramework(SourceFile:1013)"
+  "body": "com.taobao.weex.bridge.WXBridgeManager.initFramework(SourceFile:1033)\r\ncom.taobao.weex.bridge.WXBridgeManager.invokeInitFramework(SourceFile:1013)",
+  "closed_by": null
 }

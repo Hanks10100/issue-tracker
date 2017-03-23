@@ -165,5 +165,24 @@
   "created_at": "2016-12-09T09:03:50Z",
   "updated_at": "2016-12-12T07:33:06Z",
   "closed_at": "2016-12-12T07:32:57Z",
-  "body": "使用weex helloworld.we 生成h5web页面，按照地址http://172.17.6.139:8081/weex_tmp/h5_render/?page=helloworld.js生成二维码。用Android手机上面的微信（版本号6.3.31）扫描二维码发现只能显示标题，不能显示内容。用手机百度（版本号7.4）也是一样，UC浏览器也试试也不行。  用Android手机上的360浏览器、Chrome浏览器都是可以的。难道Android手机上面的微信和百度浏览器内核都不支持weex生成的h5页面吗？跟踪不到h5代码运行，没办法知道故障到底在哪，用的是中兴天机和三星galaxy note3。  对比测试了一下，在iphone上面微信和百度都是可以的，可能是iOS平台上强制统一浏览器内核所致。 在PC Window平台上面浏览器都是可以的。盼请验证并尽快修复这个bug。"
+  "body": "使用weex helloworld.we 生成h5web页面，按照地址http://172.17.6.139:8081/weex_tmp/h5_render/?page=helloworld.js生成二维码。用Android手机上面的微信（版本号6.3.31）扫描二维码发现只能显示标题，不能显示内容。用手机百度（版本号7.4）也是一样，UC浏览器也试试也不行。  用Android手机上的360浏览器、Chrome浏览器都是可以的。难道Android手机上面的微信和百度浏览器内核都不支持weex生成的h5页面吗？跟踪不到h5代码运行，没办法知道故障到底在哪，用的是中兴天机和三星galaxy note3。  对比测试了一下，在iphone上面微信和百度都是可以的，可能是iOS平台上强制统一浏览器内核所致。 在PC Window平台上面浏览器都是可以的。盼请验证并尽快修复这个bug。",
+  "closed_by": {
+    "login": "alex1226",
+    "id": 21376762,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/21376762?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/alex1226",
+    "html_url": "https://github.com/alex1226",
+    "followers_url": "https://api.github.com/users/alex1226/followers",
+    "following_url": "https://api.github.com/users/alex1226/following{/other_user}",
+    "gists_url": "https://api.github.com/users/alex1226/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/alex1226/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/alex1226/subscriptions",
+    "organizations_url": "https://api.github.com/users/alex1226/orgs",
+    "repos_url": "https://api.github.com/users/alex1226/repos",
+    "events_url": "https://api.github.com/users/alex1226/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/alex1226/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

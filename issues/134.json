@@ -196,5 +196,24 @@
   "created_at": "2016-05-03T12:55:47Z",
   "updated_at": "2016-07-08T04:28:56Z",
   "closed_at": "2016-07-08T04:28:55Z",
-  "body": "Weex has an one-way data flow, from js to native. But components with 'state' will be problems, such as `switch`/`video` etc, as described in #28 .  \nThese components' state will be update by native event, a mechanism is necessary to make changes directly to the js side. And avoiding send update event rendundantly.\n\nFor example :  \n\n``` html\n<template>\n  <scroller>\n    <switch checked=\"{{switchOn}}\" style=\"margin-bottom:20\">\n    </switch>\n    <ui-button value=\"toggle switch\" click=\"{{toggle}}\"></ui-button>\n  </scroller>\n</template>\n\n<script>\n  module.exports = {\n    data: {\n      switchOn: 'true'\n    },\n    methods: {\n      toggle: function() {\n          console.log(\"current switch checked:\"+this.switchOn);\n          this.switchOn = (this.switchOn=='true'?'false':'true');\n      }\n    }\n  };\n</script>\n```\n\nIn this case, once click the `switch` , the `ui-button` have to click twice to really toggle the `switch`. It's not  acceptable.  \nI will use another `fireEvent` method ( https://github.com/alibaba/weex/blob/dev/src/js-framework/lib/app/ctrl.js#L112)  to solve this. I'll test it in android first.\n\n@zshshr @Jinjiang @boboning @luics @terrykingcha \n"
+  "body": "Weex has an one-way data flow, from js to native. But components with 'state' will be problems, such as `switch`/`video` etc, as described in #28 .  \nThese components' state will be update by native event, a mechanism is necessary to make changes directly to the js side. And avoiding send update event rendundantly.\n\nFor example :  \n\n``` html\n<template>\n  <scroller>\n    <switch checked=\"{{switchOn}}\" style=\"margin-bottom:20\">\n    </switch>\n    <ui-button value=\"toggle switch\" click=\"{{toggle}}\"></ui-button>\n  </scroller>\n</template>\n\n<script>\n  module.exports = {\n    data: {\n      switchOn: 'true'\n    },\n    methods: {\n      toggle: function() {\n          console.log(\"current switch checked:\"+this.switchOn);\n          this.switchOn = (this.switchOn=='true'?'false':'true');\n      }\n    }\n  };\n</script>\n```\n\nIn this case, once click the `switch` , the `ui-button` have to click twice to really toggle the `switch`. It's not  acceptable.  \nI will use another `fireEvent` method ( https://github.com/alibaba/weex/blob/dev/src/js-framework/lib/app/ctrl.js#L112)  to solve this. I'll test it in android first.\n\n@zshshr @Jinjiang @boboning @luics @terrykingcha \n",
+  "closed_by": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

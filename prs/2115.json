@@ -119,5 +119,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2115.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2115.patch"
   },
-  "body": "support four styles:\r\n:active\r\n:focus\r\n:disabled\r\n:enabled\r\n\r\n\r\n![伪类规范](https://raw.githubusercontent.com/kfeagle/firstdemo/master/%E4%BC%AA%E7%B1%BB%E8%A7%84%E8%8C%83.png )\r\n\r\nrefer: https://github.com/alibaba/weex/issues/942\r\n\r\ndemo:http://dotwe.org/27340c0fa7876d5cd80a172e751554b1\r\ndemo:http://dotwe.org/weex/215a77bb88c9e4ce81fc995426cd1595"
+  "body": "support four styles:\r\n:active\r\n:focus\r\n:disabled\r\n:enabled\r\n\r\n\r\n![伪类规范](https://raw.githubusercontent.com/kfeagle/firstdemo/master/%E4%BC%AA%E7%B1%BB%E8%A7%84%E8%8C%83.png )\r\n\r\nrefer: https://github.com/alibaba/weex/issues/942\r\n\r\ndemo:http://dotwe.org/27340c0fa7876d5cd80a172e751554b1\r\ndemo:http://dotwe.org/weex/215a77bb88c9e4ce81fc995426cd1595",
+  "closed_by": {
+    "login": "boboning",
+    "id": 18302124,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/18302124?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/boboning",
+    "html_url": "https://github.com/boboning",
+    "followers_url": "https://api.github.com/users/boboning/followers",
+    "following_url": "https://api.github.com/users/boboning/following{/other_user}",
+    "gists_url": "https://api.github.com/users/boboning/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/boboning/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/boboning/subscriptions",
+    "organizations_url": "https://api.github.com/users/boboning/orgs",
+    "repos_url": "https://api.github.com/users/boboning/repos",
+    "events_url": "https://api.github.com/users/boboning/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/boboning/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

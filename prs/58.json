@@ -43,5 +43,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/58.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/58.patch"
   },
-  "body": ""
+  "body": "",
+  "closed_by": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

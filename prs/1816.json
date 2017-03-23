@@ -100,5 +100,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1816.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1816.patch"
   },
-  "body": "fix appear's bug when inner scroller has no height specified.\r\n\r\ncase:\r\n\r\n```html\r\n<template>\r\n  <div>\r\n    <text>{{value}}</text>\r\n    <scroller>\r\n      <div class=\"container\" repeat=\"{{(k, v) in itemList}}\">\r\n        <text class=\"thumb title\" indexv=\"{{k}}\" onappear=\"test(k)\">{{v.title}}</text>\r\n      </div>\r\n    </scroller>\r\n  </div>\r\n</template>\r\n\r\n<style>\r\n  .container {flex-direction: row;}\r\n  .thumb {width: 200; height: 500;}\r\n  .title {flex: 1; color: #ff0000; font-size: 48; font-weight: bold; background-color: #eeeeee;}\r\n</style>\r\n\r\n<script>\r\n  module.exports = {\r\n    data: {\r\n      itemList: [\r\n        {itemId: '520421163634', title: 'title1'},\r\n        {itemId: '522076777462', title: 'title2'}, \r\n        {itemId: '520421163634', title: 'title3'},\r\n        {itemId: '522076777462', title: 'title4'}, \r\n        {itemId: '520421163634', title: 'title5'},\r\n        {itemId: '522076777462', title: 'title6'}, \r\n      ],\r\n    value:0\r\n    },\r\n    methods: {\r\n      test: function (k, e) {\r\n        console.log('appear:', k)\r\n      }\r\n    }\r\n  }\r\n</script>\r\n```"
+  "body": "fix appear's bug when inner scroller has no height specified.\r\n\r\ncase:\r\n\r\n```html\r\n<template>\r\n  <div>\r\n    <text>{{value}}</text>\r\n    <scroller>\r\n      <div class=\"container\" repeat=\"{{(k, v) in itemList}}\">\r\n        <text class=\"thumb title\" indexv=\"{{k}}\" onappear=\"test(k)\">{{v.title}}</text>\r\n      </div>\r\n    </scroller>\r\n  </div>\r\n</template>\r\n\r\n<style>\r\n  .container {flex-direction: row;}\r\n  .thumb {width: 200; height: 500;}\r\n  .title {flex: 1; color: #ff0000; font-size: 48; font-weight: bold; background-color: #eeeeee;}\r\n</style>\r\n\r\n<script>\r\n  module.exports = {\r\n    data: {\r\n      itemList: [\r\n        {itemId: '520421163634', title: 'title1'},\r\n        {itemId: '522076777462', title: 'title2'}, \r\n        {itemId: '520421163634', title: 'title3'},\r\n        {itemId: '522076777462', title: 'title4'}, \r\n        {itemId: '520421163634', title: 'title5'},\r\n        {itemId: '522076777462', title: 'title6'}, \r\n      ],\r\n    value:0\r\n    },\r\n    methods: {\r\n      test: function (k, e) {\r\n        console.log('appear:', k)\r\n      }\r\n    }\r\n  }\r\n</script>\r\n```",
+  "closed_by": {
+    "login": "Hanks10100",
+    "id": 8401776,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8401776?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Hanks10100",
+    "html_url": "https://github.com/Hanks10100",
+    "followers_url": "https://api.github.com/users/Hanks10100/followers",
+    "following_url": "https://api.github.com/users/Hanks10100/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Hanks10100/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Hanks10100/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Hanks10100/subscriptions",
+    "organizations_url": "https://api.github.com/users/Hanks10100/orgs",
+    "repos_url": "https://api.github.com/users/Hanks10100/repos",
+    "events_url": "https://api.github.com/users/Hanks10100/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Hanks10100/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

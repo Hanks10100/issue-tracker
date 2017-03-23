@@ -132,5 +132,24 @@
   "created_at": "2016-06-21T09:11:18Z",
   "updated_at": "2016-06-22T06:12:36Z",
   "closed_at": "2016-06-22T06:12:36Z",
-  "body": "我发送网络请求的时候,设置了header在pc端调试不起作用，在android手机端是正确的，code 如下，请问该如何处理\nstream.sendHttp({\n      method: 'GET',\n      url: GET_URL,\n      header: {\n       'key': 'value'\n     }\n    }, function(ret) {\n      console.log('get', ret);\n      me.getResult = ret;\n    });\n"
+  "body": "我发送网络请求的时候,设置了header在pc端调试不起作用，在android手机端是正确的，code 如下，请问该如何处理\nstream.sendHttp({\n      method: 'GET',\n      url: GET_URL,\n      header: {\n       'key': 'value'\n     }\n    }, function(ret) {\n      console.log('get', ret);\n      me.getResult = ret;\n    });\n",
+  "closed_by": {
+    "login": "yahooyee",
+    "id": 4351143,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4351143?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/yahooyee",
+    "html_url": "https://github.com/yahooyee",
+    "followers_url": "https://api.github.com/users/yahooyee/followers",
+    "following_url": "https://api.github.com/users/yahooyee/following{/other_user}",
+    "gists_url": "https://api.github.com/users/yahooyee/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/yahooyee/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/yahooyee/subscriptions",
+    "organizations_url": "https://api.github.com/users/yahooyee/orgs",
+    "repos_url": "https://api.github.com/users/yahooyee/repos",
+    "events_url": "https://api.github.com/users/yahooyee/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/yahooyee/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

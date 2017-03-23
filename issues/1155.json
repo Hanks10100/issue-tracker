@@ -94,5 +94,24 @@
   "created_at": "2016-09-07T06:47:31Z",
   "updated_at": "2016-09-07T08:13:27Z",
   "closed_at": "2016-09-07T08:13:27Z",
-  "body": "iOS。例如一个原生的列表页面push到一个weex写的详情页，详情页是用weex写的，怎么把原生列表的ID传到weex页面用作请求？是否有优雅一点的实现？现在的办法是本地保存ID，然后用storage module读取。。。求更好的办法\n"
+  "body": "iOS。例如一个原生的列表页面push到一个weex写的详情页，详情页是用weex写的，怎么把原生列表的ID传到weex页面用作请求？是否有优雅一点的实现？现在的办法是本地保存ID，然后用storage module读取。。。求更好的办法\n",
+  "closed_by": {
+    "login": "yfldj",
+    "id": 6778148,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6778148?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/yfldj",
+    "html_url": "https://github.com/yfldj",
+    "followers_url": "https://api.github.com/users/yfldj/followers",
+    "following_url": "https://api.github.com/users/yfldj/following{/other_user}",
+    "gists_url": "https://api.github.com/users/yfldj/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/yfldj/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/yfldj/subscriptions",
+    "organizations_url": "https://api.github.com/users/yfldj/orgs",
+    "repos_url": "https://api.github.com/users/yfldj/repos",
+    "events_url": "https://api.github.com/users/yfldj/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/yfldj/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

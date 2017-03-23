@@ -125,5 +125,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1644.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1644.patch"
   },
-  "body": "`BroadcastChannel` API is the solution for inter-instance communication. See #1536 for more detail.\r\n\r\n##  Reference\r\n\r\n+ [BroadcastChannel specification](https://html.spec.whatwg.org/multipage/comms.html#broadcasting-to-other-browsing-contexts).\r\n+ [MessageEvent specification](https://html.spec.whatwg.org/multipage/comms.html#messageevent)\r\n\r\n## API\r\n\r\n+ `postMessage`: Sends the given message to other BroadcastChannel objects set up for this channel.\r\n+ `close`: Closes the BroadcastChannel object, opening it up to garbage collection.\r\n\r\n## Usage\r\n\r\n```js\r\nconst Stack = new BroadcastChannel('Avengers')\r\nStack.onmessage = function (event) {\r\n  console.log(event.data) // in this case, it's \"Hulk Smash !!!\"\r\n}\r\n\r\n// in another instance\r\nconst Hulk = new BroadcastChannel('Avengers')\r\nHulk.postMessage(\"Hulk Smash !!!\")\r\n```\r\n\r\nRun the code above, Stack can receive the message from Hulk."
+  "body": "`BroadcastChannel` API is the solution for inter-instance communication. See #1536 for more detail.\r\n\r\n##  Reference\r\n\r\n+ [BroadcastChannel specification](https://html.spec.whatwg.org/multipage/comms.html#broadcasting-to-other-browsing-contexts).\r\n+ [MessageEvent specification](https://html.spec.whatwg.org/multipage/comms.html#messageevent)\r\n\r\n## API\r\n\r\n+ `postMessage`: Sends the given message to other BroadcastChannel objects set up for this channel.\r\n+ `close`: Closes the BroadcastChannel object, opening it up to garbage collection.\r\n\r\n## Usage\r\n\r\n```js\r\nconst Stack = new BroadcastChannel('Avengers')\r\nStack.onmessage = function (event) {\r\n  console.log(event.data) // in this case, it's \"Hulk Smash !!!\"\r\n}\r\n\r\n// in another instance\r\nconst Hulk = new BroadcastChannel('Avengers')\r\nHulk.postMessage(\"Hulk Smash !!!\")\r\n```\r\n\r\nRun the code above, Stack can receive the message from Hulk.",
+  "closed_by": {
+    "login": "fkysly",
+    "id": 3274605,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3274605?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/fkysly",
+    "html_url": "https://github.com/fkysly",
+    "followers_url": "https://api.github.com/users/fkysly/followers",
+    "following_url": "https://api.github.com/users/fkysly/following{/other_user}",
+    "gists_url": "https://api.github.com/users/fkysly/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/fkysly/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/fkysly/subscriptions",
+    "organizations_url": "https://api.github.com/users/fkysly/orgs",
+    "repos_url": "https://api.github.com/users/fkysly/repos",
+    "events_url": "https://api.github.com/users/fkysly/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/fkysly/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

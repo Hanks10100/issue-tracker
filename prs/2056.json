@@ -72,5 +72,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2056.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2056.patch"
   },
-  "body": "modify list component code style\r\n主要重构下WXListComponent.initComponentHostView里的代码，原代码是个长函数，用几个小函数代替，抽出公共变量WXRecyclerView innerRecyclerView，避免多次bounceRecyclerView.getInnerView()，同时bounceRecyclerView抽到一个protect方法里，便于业务有需求扩充功能时从BounceRecyclerView派生一个自己的子类，在子类上增加一些功能。"
+  "body": "modify list component code style\r\n主要重构下WXListComponent.initComponentHostView里的代码，原代码是个长函数，用几个小函数代替，抽出公共变量WXRecyclerView innerRecyclerView，避免多次bounceRecyclerView.getInnerView()，同时bounceRecyclerView抽到一个protect方法里，便于业务有需求扩充功能时从BounceRecyclerView派生一个自己的子类，在子类上增加一些功能。",
+  "closed_by": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

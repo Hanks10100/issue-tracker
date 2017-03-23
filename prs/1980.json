@@ -96,5 +96,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1980.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1980.patch"
   },
-  "body": " > Achieve the proposal in #421 .\r\n\r\n## DSL\r\n\r\nRef: W3C Spec [CSS Device Adaptation](https://drafts.csswg.org/css-device-adapt/#viewport-meta)\r\n\r\nAdding item in config script:\r\n\r\n```html\r\n<script type=\"config\">\r\n  {\r\n    \"viewport\": {\r\n        \"width\": \"device-width\",\r\n        ...\r\n    },\r\n    ...\r\n  }\r\n</script>\r\n```\r\n\r\n > **Maybe we will use `<meta>` tag as DSL in future.**\r\n\r\n### Supported properties\r\n\r\n- `width`: number or `\"device-width\"` or `\"device-height\"`\r\n- `height`: number or `\"device-width\"` or `\"device-height\"`\r\n\r\n## JS-Native API\r\n- module: `meta`\r\n- method: `setViewport`\r\n- args: `[viewportObject]` (just same as viewport object in config script)\r\n\r\n"
+  "body": " > Achieve the proposal in #421 .\r\n\r\n## DSL\r\n\r\nRef: W3C Spec [CSS Device Adaptation](https://drafts.csswg.org/css-device-adapt/#viewport-meta)\r\n\r\nAdding item in config script:\r\n\r\n```html\r\n<script type=\"config\">\r\n  {\r\n    \"viewport\": {\r\n        \"width\": \"device-width\",\r\n        ...\r\n    },\r\n    ...\r\n  }\r\n</script>\r\n```\r\n\r\n > **Maybe we will use `<meta>` tag as DSL in future.**\r\n\r\n### Supported properties\r\n\r\n- `width`: number or `\"device-width\"` or `\"device-height\"`\r\n- `height`: number or `\"device-width\"` or `\"device-height\"`\r\n\r\n## JS-Native API\r\n- module: `meta`\r\n- method: `setViewport`\r\n- args: `[viewportObject]` (just same as viewport object in config script)\r\n\r\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

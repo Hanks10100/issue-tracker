@@ -262,5 +262,24 @@
   "created_at": "2017-02-20T01:09:20Z",
   "updated_at": "2017-02-24T01:53:46Z",
   "closed_at": "2017-02-20T04:40:33Z",
-  "body": "0.9.5版本\r\n在WXModule中\r\n调用(Activity)mWXSDKInstance.getContext().startActivityForResult()\r\n在WXModule的onActivityResult方法中为什么接收不到回调呢？\r\n\r\n"
+  "body": "0.9.5版本\r\n在WXModule中\r\n调用(Activity)mWXSDKInstance.getContext().startActivityForResult()\r\n在WXModule的onActivityResult方法中为什么接收不到回调呢？\r\n\r\n",
+  "closed_by": {
+    "login": "misakuo",
+    "id": 6958743,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6958743?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/misakuo",
+    "html_url": "https://github.com/misakuo",
+    "followers_url": "https://api.github.com/users/misakuo/followers",
+    "following_url": "https://api.github.com/users/misakuo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/misakuo/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/misakuo/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/misakuo/subscriptions",
+    "organizations_url": "https://api.github.com/users/misakuo/orgs",
+    "repos_url": "https://api.github.com/users/misakuo/repos",
+    "events_url": "https://api.github.com/users/misakuo/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/misakuo/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

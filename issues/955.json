@@ -150,5 +150,24 @@
   "created_at": "2016-08-08T07:05:13Z",
   "updated_at": "2016-08-12T09:42:09Z",
   "closed_at": "2016-08-09T03:08:14Z",
-  "body": "你好，\n\n我现在想在页面中想创建一个多行的文本输入框，HTML5中可以用textarea定义。但在weex的内建组件中没有textarea，我该如何定义这样的文本输入框？或者这个需要使用自定义组件?\n"
+  "body": "你好，\n\n我现在想在页面中想创建一个多行的文本输入框，HTML5中可以用textarea定义。但在weex的内建组件中没有textarea，我该如何定义这样的文本输入框？或者这个需要使用自定义组件?\n",
+  "closed_by": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

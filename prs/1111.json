@@ -110,5 +110,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1111.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1111.patch"
   },
-  "body": "在Android M及以上，`android.permission.READ_PHONE_STATE`权限需要在运行时动态申请，在`DebugServerProxy.java`中没有判断此权限就直接使用了`getSystemService(Context.TELEPHONY_SERVICE)`，在没有权限的情况下会导致playground发生crash，现在把这个权限和相机权限一同申请，如果拒绝了其中任意一个权限则不能打开扫码Activity也就不能触发DebugServerProxy中的逻辑\n"
+  "body": "在Android M及以上，`android.permission.READ_PHONE_STATE`权限需要在运行时动态申请，在`DebugServerProxy.java`中没有判断此权限就直接使用了`getSystemService(Context.TELEPHONY_SERVICE)`，在没有权限的情况下会导致playground发生crash，现在把这个权限和相机权限一同申请，如果拒绝了其中任意一个权限则不能打开扫码Activity也就不能触发DebugServerProxy中的逻辑\n",
+  "closed_by": {
+    "login": "misakuo",
+    "id": 6958743,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6958743?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/misakuo",
+    "html_url": "https://github.com/misakuo",
+    "followers_url": "https://api.github.com/users/misakuo/followers",
+    "following_url": "https://api.github.com/users/misakuo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/misakuo/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/misakuo/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/misakuo/subscriptions",
+    "organizations_url": "https://api.github.com/users/misakuo/orgs",
+    "repos_url": "https://api.github.com/users/misakuo/repos",
+    "events_url": "https://api.github.com/users/misakuo/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/misakuo/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

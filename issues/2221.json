@@ -66,5 +66,6 @@
   "created_at": "2017-01-11T08:56:49Z",
   "updated_at": "2017-01-16T01:50:02Z",
   "closed_at": null,
-  "body": "无论是document,或者window都无法获得，该怎么办呢，但是服务端那边却可以写入cookie"
+  "body": "无论是document,或者window都无法获得，该怎么办呢，但是服务端那边却可以写入cookie",
+  "closed_by": null
 }

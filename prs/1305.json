@@ -138,5 +138,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1305.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1305.patch"
   },
-  "body": "在readme中展示各平台SDK最新版本的badge ，包括：  \njcenter内的[Android SDK](https://bintray.com/alibabaweex/maven/weex_sdk)\ncocoapods内的[iOS SDK](https://cocoapods.org/pods/WeexSDK)\nnpm内的[HTML5 SDK](https://www.npmjs.com/package/weex-html5)\n"
+  "body": "在readme中展示各平台SDK最新版本的badge ，包括：  \njcenter内的[Android SDK](https://bintray.com/alibabaweex/maven/weex_sdk)\ncocoapods内的[iOS SDK](https://cocoapods.org/pods/WeexSDK)\nnpm内的[HTML5 SDK](https://www.npmjs.com/package/weex-html5)\n",
+  "closed_by": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

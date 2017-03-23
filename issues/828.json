@@ -104,5 +104,24 @@
   "created_at": "2016-07-20T03:30:29Z",
   "updated_at": "2016-07-20T08:00:41Z",
   "closed_at": "2016-07-20T08:00:41Z",
-  "body": "1.为什么不遵循w3c标准，生成出来的html结果都是div+span，毫无语义化\n2.如何使用字体图标，而不是图片\n3.很多css的选择器无法使用，调样式的难度大大提高了\n4.用绝对定位或固定定位时，如何让div居中，left，top，bottom，right这些的值用不了百分比\n5.textarea不支持，该用什么标签？\n"
+  "body": "1.为什么不遵循w3c标准，生成出来的html结果都是div+span，毫无语义化\n2.如何使用字体图标，而不是图片\n3.很多css的选择器无法使用，调样式的难度大大提高了\n4.用绝对定位或固定定位时，如何让div居中，left，top，bottom，right这些的值用不了百分比\n5.textarea不支持，该用什么标签？\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

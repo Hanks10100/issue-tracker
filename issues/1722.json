@@ -402,5 +402,24 @@
   "created_at": "2016-11-25T00:57:18Z",
   "updated_at": "2016-12-27T16:28:32Z",
   "closed_at": "2016-12-27T16:28:32Z",
-  "body": "`<template>`\r\n `   <div>`\r\n\t\t\t  `<div` if=\"{{flag1}}\" style=\"background-color:#FFFAFA;height:1350px;\" `>`\r\n\t\t\t\t  `<image` style=\"width:780px;height:600px;opacity:{{opacitys}};\" `src=\"http://s6.sinaimg.cn/mw690/0023IuTRzy76x8fmVbn25&690\"></image>`\r\n\t\t\t  `</div>`\t  \r\n\t   ` </div>`\r\n`</template>`\r\n`<script>`\r\n`require('weex-components');`\r\n`var` `timer;`\r\n\t`module.exports={`\r\n\t\t`data:{`\r\n\t\t\t`opacitys:1,`\r\n\t\t`},`\r\n\t\t`ready:function(){`\r\n\t\t\t`var` t=setInterval(this.changeopa.bind(this),1000);\r\n\t\t`},`\r\n\t\t`methods:{`\r\n\t\t\t`changeopa:function(){`\r\n\t\t\t\t`this.opacitys=this.opacitys-0.2;`\r\n\t\t\t\t`var` $modal = require('@weex-module/modal');\r\n\t\t\t   ` $modal.toast({'message': 'change'+this.opacitys, duration: `1});\r\n\t\t\t`}`\r\n\t\t`}`\r\n\r\n\t}\r\n`</script>`"
+  "body": "`<template>`\r\n `   <div>`\r\n\t\t\t  `<div` if=\"{{flag1}}\" style=\"background-color:#FFFAFA;height:1350px;\" `>`\r\n\t\t\t\t  `<image` style=\"width:780px;height:600px;opacity:{{opacitys}};\" `src=\"http://s6.sinaimg.cn/mw690/0023IuTRzy76x8fmVbn25&690\"></image>`\r\n\t\t\t  `</div>`\t  \r\n\t   ` </div>`\r\n`</template>`\r\n`<script>`\r\n`require('weex-components');`\r\n`var` `timer;`\r\n\t`module.exports={`\r\n\t\t`data:{`\r\n\t\t\t`opacitys:1,`\r\n\t\t`},`\r\n\t\t`ready:function(){`\r\n\t\t\t`var` t=setInterval(this.changeopa.bind(this),1000);\r\n\t\t`},`\r\n\t\t`methods:{`\r\n\t\t\t`changeopa:function(){`\r\n\t\t\t\t`this.opacitys=this.opacitys-0.2;`\r\n\t\t\t\t`var` $modal = require('@weex-module/modal');\r\n\t\t\t   ` $modal.toast({'message': 'change'+this.opacitys, duration: `1});\r\n\t\t\t`}`\r\n\t\t`}`\r\n\r\n\t}\r\n`</script>`",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

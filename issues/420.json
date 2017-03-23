@@ -132,5 +132,24 @@
   "created_at": "2016-06-08T06:05:01Z",
   "updated_at": "2016-06-12T04:05:45Z",
   "closed_at": "2016-06-12T04:05:45Z",
-  "body": "请问怎样适配不同的手机呀，我在谷歌浏览器上用不同的手机浏览都不能适配\n"
+  "body": "请问怎样适配不同的手机呀，我在谷歌浏览器上用不同的手机浏览都不能适配\n",
+  "closed_by": {
+    "login": "lanxiner123",
+    "id": 16813429,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/16813429?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/lanxiner123",
+    "html_url": "https://github.com/lanxiner123",
+    "followers_url": "https://api.github.com/users/lanxiner123/followers",
+    "following_url": "https://api.github.com/users/lanxiner123/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lanxiner123/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/lanxiner123/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/lanxiner123/subscriptions",
+    "organizations_url": "https://api.github.com/users/lanxiner123/orgs",
+    "repos_url": "https://api.github.com/users/lanxiner123/repos",
+    "events_url": "https://api.github.com/users/lanxiner123/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/lanxiner123/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

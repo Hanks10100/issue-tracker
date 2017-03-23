@@ -66,5 +66,24 @@
   "created_at": "2016-12-01T02:39:37Z",
   "updated_at": "2016-12-01T05:07:01Z",
   "closed_at": "2016-12-01T05:07:01Z",
-  "body": "最近准备上手编写module，代码如下\r\npublic class TestModule extends WXModule {\r\n\r\n    @WXModuleAnno\r\n    public void login(String username, JSCallback callback) {\r\n        callback.invoke(username + 1234567);\r\n    }\r\n}\r\n随后在application中添加了\r\nWXSDKEngine.registerModule(\"TM\", TestModule.class);\r\n\r\nwe文件：\r\n<template>\r\n    <scroller>\r\n        <text style=\"font-size:60px; color:red\" onclick=\"{{login}}\">{{text}}</text>\r\n    </scroller>\r\n</template>\r\n\r\n<script>\r\n    module.exports = {\r\n        data: {\r\n          text: 'click me!'\r\n        },\r\n        methods: {\r\n            login: function() {\r\n                var tm = require('@weex_module/TM');\r\n                var ret = tm.login('wangqianyu');\r\n                var modal = require('@weex/modal');\r\n                modal.toast({'message':'ret', duration: 0.7});\r\n            }\r\n\r\n        }\r\n    }\r\n</script>\r\n\r\n通过weex testModule.we输出了错误：\r\nERR! ModuleNotFoundError: Module not found: Error: Cannot resolve module '@weex_module/TM' in /Users/xxx/weex \r\ninfo Please try to enter directory where your we file saved, and run command 'npm install @weex_module' \r\n\r\n在网上探索了很长时间始终无法解决，顾求救于此！！！"
+  "body": "最近准备上手编写module，代码如下\r\npublic class TestModule extends WXModule {\r\n\r\n    @WXModuleAnno\r\n    public void login(String username, JSCallback callback) {\r\n        callback.invoke(username + 1234567);\r\n    }\r\n}\r\n随后在application中添加了\r\nWXSDKEngine.registerModule(\"TM\", TestModule.class);\r\n\r\nwe文件：\r\n<template>\r\n    <scroller>\r\n        <text style=\"font-size:60px; color:red\" onclick=\"{{login}}\">{{text}}</text>\r\n    </scroller>\r\n</template>\r\n\r\n<script>\r\n    module.exports = {\r\n        data: {\r\n          text: 'click me!'\r\n        },\r\n        methods: {\r\n            login: function() {\r\n                var tm = require('@weex_module/TM');\r\n                var ret = tm.login('wangqianyu');\r\n                var modal = require('@weex/modal');\r\n                modal.toast({'message':'ret', duration: 0.7});\r\n            }\r\n\r\n        }\r\n    }\r\n</script>\r\n\r\n通过weex testModule.we输出了错误：\r\nERR! ModuleNotFoundError: Module not found: Error: Cannot resolve module '@weex_module/TM' in /Users/xxx/weex \r\ninfo Please try to enter directory where your we file saved, and run command 'npm install @weex_module' \r\n\r\n在网上探索了很长时间始终无法解决，顾求救于此！！！",
+  "closed_by": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

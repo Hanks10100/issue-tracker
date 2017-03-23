@@ -618,5 +618,24 @@
   "created_at": "2016-07-26T09:21:22Z",
   "updated_at": "2016-10-19T13:22:28Z",
   "closed_at": "2016-10-19T13:22:28Z",
-  "body": "Weex中是否有类似react native “原生模块可以在没有被调用的情况下往JavaScript发送事件通知” 的功能。 我在文档中和源码中没有发现。 \n\n我们现在需要在android native 端截取键值然后主动发送给JS,JS实现相应的界面变化，这种需求能满足吗？\n"
+  "body": "Weex中是否有类似react native “原生模块可以在没有被调用的情况下往JavaScript发送事件通知” 的功能。 我在文档中和源码中没有发现。 \n\n我们现在需要在android native 端截取键值然后主动发送给JS,JS实现相应的界面变化，这种需求能满足吗？\n",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

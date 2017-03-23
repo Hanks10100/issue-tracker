@@ -151,5 +151,24 @@
   "created_at": "2016-10-14T06:39:36Z",
   "updated_at": "2016-10-24T09:55:54Z",
   "closed_at": "2016-10-24T09:55:54Z",
-  "body": "![3b3eb8af-df2d-4996-b3ac-fff407ce3b20](https://cloud.githubusercontent.com/assets/6778148/19377818/a791c818-921b-11e6-9ac6-46021cd49821.png)\n![cb5de896-f6ae-415a-a237-2deb5d735881](https://cloud.githubusercontent.com/assets/6778148/19377819/a9808560-921b-11e6-8eed-36eb6f5fc86f.png)\n这里为什么这样传參？对不上号，开发者实现这个协议，看到可以获取pageName,结果看sdk源码发现这里是写死weex，真正的pageName又是传到arg里面。。。。\n"
+  "body": "![3b3eb8af-df2d-4996-b3ac-fff407ce3b20](https://cloud.githubusercontent.com/assets/6778148/19377818/a791c818-921b-11e6-9ac6-46021cd49821.png)\n![cb5de896-f6ae-415a-a237-2deb5d735881](https://cloud.githubusercontent.com/assets/6778148/19377819/a9808560-921b-11e6-8eed-36eb6f5fc86f.png)\n这里为什么这样传參？对不上号，开发者实现这个协议，看到可以获取pageName,结果看sdk源码发现这里是写死weex，真正的pageName又是传到arg里面。。。。\n",
+  "closed_by": {
+    "login": "alext1981",
+    "id": 8254442,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8254442?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/alext1981",
+    "html_url": "https://github.com/alext1981",
+    "followers_url": "https://api.github.com/users/alext1981/followers",
+    "following_url": "https://api.github.com/users/alext1981/following{/other_user}",
+    "gists_url": "https://api.github.com/users/alext1981/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/alext1981/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/alext1981/subscriptions",
+    "organizations_url": "https://api.github.com/users/alext1981/orgs",
+    "repos_url": "https://api.github.com/users/alext1981/repos",
+    "events_url": "https://api.github.com/users/alext1981/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/alext1981/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

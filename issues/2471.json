@@ -37,5 +37,6 @@
   "created_at": "2017-02-08T04:23:06Z",
   "updated_at": "2017-02-08T04:23:06Z",
   "closed_at": null,
-  "body": "用 $weex compile path/to/*.vue,*.js . 命令编译，会把所有的js文件都编成了一个。\r\n那我如果要用其中一个文件的js，该怎么写啊：\r\n比如\r\n<embed v-for=\"item in tabItems\" :src=\"item.src\" type=\"weex\" :style=\"{ visibility: item.visibility }\" class=\"content\" > </embed>\r\n\r\n这里的:src需要写一个js文件，如果写 src: 'tabcontent.js?itemId=tab1'\r\n\r\n这个tabcontent.js已经被编译到一个文件里面了，在ios平台上访问不到了，该怎么办。"
+  "body": "用 $weex compile path/to/*.vue,*.js . 命令编译，会把所有的js文件都编成了一个。\r\n那我如果要用其中一个文件的js，该怎么写啊：\r\n比如\r\n<embed v-for=\"item in tabItems\" :src=\"item.src\" type=\"weex\" :style=\"{ visibility: item.visibility }\" class=\"content\" > </embed>\r\n\r\n这里的:src需要写一个js文件，如果写 src: 'tabcontent.js?itemId=tab1'\r\n\r\n这个tabcontent.js已经被编译到一个文件里面了，在ios平台上访问不到了，该怎么办。",
+  "closed_by": null
 }

@@ -122,5 +122,24 @@
   "created_at": "2016-09-09T06:43:21Z",
   "updated_at": "2016-09-14T02:46:18Z",
   "closed_at": "2016-09-14T02:46:17Z",
-  "body": "list的height要不要显示的设置？\n我发现如果一个页面的比如有三个组件，上面两个组件比如占用了手机屏幕高度的1/3，此时如果你想让第三个组件可以上下滑动，加上list cell标签后，会存在有内容超过手机屏幕下方都不能拖动的情况，除非把list的内容数据给的更多，才有可能可以滑动。    \n\n是不是list的默认height是手机整个屏幕的高度啊？（而不管的这个组件其实只占用屏幕的比如2/3的高度啊）\n"
+  "body": "list的height要不要显示的设置？\n我发现如果一个页面的比如有三个组件，上面两个组件比如占用了手机屏幕高度的1/3，此时如果你想让第三个组件可以上下滑动，加上list cell标签后，会存在有内容超过手机屏幕下方都不能拖动的情况，除非把list的内容数据给的更多，才有可能可以滑动。    \n\n是不是list的默认height是手机整个屏幕的高度啊？（而不管的这个组件其实只占用屏幕的比如2/3的高度啊）\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

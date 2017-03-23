@@ -384,5 +384,24 @@
   "created_at": "2016-05-09T03:40:12Z",
   "updated_at": "2017-02-28T08:02:59Z",
   "closed_at": "2016-10-10T17:14:37Z",
-  "body": "当我插入input框的时候遇到以下几个问题：\n1.input获取光标的时候，弹出键盘，然后点击任何其他区域，键盘都无法缩回去。\n2.点击手机键盘的回车键的时候，竟然是换行而不是失去焦点让键盘缩回去。input按照是不应该出现换行才对。能换行的应该是textarea。\n3. 如果是因为原生的限制问题，把输入框都统一为input了，那是不是在内上面添加属性，可以控制它是否执行换行。\n"
+  "body": "当我插入input框的时候遇到以下几个问题：\n1.input获取光标的时候，弹出键盘，然后点击任何其他区域，键盘都无法缩回去。\n2.点击手机键盘的回车键的时候，竟然是换行而不是失去焦点让键盘缩回去。input按照是不应该出现换行才对。能换行的应该是textarea。\n3. 如果是因为原生的限制问题，把输入框都统一为input了，那是不是在内上面添加属性，可以控制它是否执行换行。\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

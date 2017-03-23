@@ -104,5 +104,24 @@
   "created_at": "2016-07-14T07:30:28Z",
   "updated_at": "2016-07-18T03:08:29Z",
   "closed_at": "2016-07-18T03:08:29Z",
-  "body": "list在html5环境下不能上下滑动，不管是使用pc的chrome浏览器，还是在android手机的浏览器上面都不能上下滑动。只有在pc chrome上面可以使用鼠标中键滚动。但是同样的代码在android native上面是正常的。\n\n测试版本：WEEX HTML5: 0.2.23 Build 20160713\n"
+  "body": "list在html5环境下不能上下滑动，不管是使用pc的chrome浏览器，还是在android手机的浏览器上面都不能上下滑动。只有在pc chrome上面可以使用鼠标中键滚动。但是同样的代码在android native上面是正常的。\n\n测试版本：WEEX HTML5: 0.2.23 Build 20160713\n",
+  "closed_by": {
+    "login": "MrRaindrop",
+    "id": 1545874,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1545874?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/MrRaindrop",
+    "html_url": "https://github.com/MrRaindrop",
+    "followers_url": "https://api.github.com/users/MrRaindrop/followers",
+    "following_url": "https://api.github.com/users/MrRaindrop/following{/other_user}",
+    "gists_url": "https://api.github.com/users/MrRaindrop/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/MrRaindrop/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/MrRaindrop/subscriptions",
+    "organizations_url": "https://api.github.com/users/MrRaindrop/orgs",
+    "repos_url": "https://api.github.com/users/MrRaindrop/repos",
+    "events_url": "https://api.github.com/users/MrRaindrop/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/MrRaindrop/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

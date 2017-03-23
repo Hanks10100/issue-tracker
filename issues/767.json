@@ -375,5 +375,24 @@
   "created_at": "2016-07-10T03:23:55Z",
   "updated_at": "2016-07-27T01:56:42Z",
   "closed_at": "2016-07-14T01:43:33Z",
-  "body": "如题\n除了一下的报错，还有就是weex的配置中的weexPath的配置有问题，需要配置成weex/node_modules/weex-loader\n才不会报local build path is invalid的错误\n\njavafx/application/Platform\njava.lang.NoClassDefFoundError: javafx/application/Platform\n    at com.darin.weex.ui.preview.WeexFxPreviewEditor$2$1.run(WeexFxPreviewEditor.java:161)\n    at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.a(LaterInvocator.java:337)\n    at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:321)\n    at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)\n    at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)\n    at java.awt.EventQueue.access$500(EventQueue.java:97)\n    at java.awt.EventQueue$3.run(EventQueue.java:709)\n    at java.awt.EventQueue$3.run(EventQueue.java:703)\n    at java.security.AccessController.doPrivileged(Native Method)\n\n上述问题是由于自己storm的jdk版本导致的\n\n但是还是会报错，且语法高亮还是没有\n不知道是不是我使用的方式不对\n\n会报错 the custom element wxc-tabbar is not found /User/***\n"
+  "body": "如题\n除了一下的报错，还有就是weex的配置中的weexPath的配置有问题，需要配置成weex/node_modules/weex-loader\n才不会报local build path is invalid的错误\n\njavafx/application/Platform\njava.lang.NoClassDefFoundError: javafx/application/Platform\n    at com.darin.weex.ui.preview.WeexFxPreviewEditor$2$1.run(WeexFxPreviewEditor.java:161)\n    at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.a(LaterInvocator.java:337)\n    at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:321)\n    at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)\n    at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)\n    at java.awt.EventQueue.access$500(EventQueue.java:97)\n    at java.awt.EventQueue$3.run(EventQueue.java:709)\n    at java.awt.EventQueue$3.run(EventQueue.java:703)\n    at java.security.AccessController.doPrivileged(Native Method)\n\n上述问题是由于自己storm的jdk版本导致的\n\n但是还是会报错，且语法高亮还是没有\n不知道是不是我使用的方式不对\n\n会报错 the custom element wxc-tabbar is not found /User/***\n",
+  "closed_by": {
+    "login": "fengshanjian",
+    "id": 6636912,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6636912?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/fengshanjian",
+    "html_url": "https://github.com/fengshanjian",
+    "followers_url": "https://api.github.com/users/fengshanjian/followers",
+    "following_url": "https://api.github.com/users/fengshanjian/following{/other_user}",
+    "gists_url": "https://api.github.com/users/fengshanjian/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/fengshanjian/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/fengshanjian/subscriptions",
+    "organizations_url": "https://api.github.com/users/fengshanjian/orgs",
+    "repos_url": "https://api.github.com/users/fengshanjian/repos",
+    "events_url": "https://api.github.com/users/fengshanjian/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/fengshanjian/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -112,5 +112,24 @@
   "created_at": "2016-05-10T02:31:50Z",
   "updated_at": "2016-05-10T02:54:31Z",
   "closed_at": "2016-05-10T02:54:31Z",
-  "body": "目前style里面的CSS只支持单独的定义引用：\n\n``` css\n.demo{\n  ...\n}\n```\n\n这样会造成我们写公共样式的时候会写很多全局性的CSS，引起CSS全局污染。可否支持下如下的写法：\n\n``` css\n.demo .text{\n  ...\n}\n```\n\n让`.text` 继承`.demo` 的样式，并且 `.text` 又有自己的特殊样式\n"
+  "body": "目前style里面的CSS只支持单独的定义引用：\n\n``` css\n.demo{\n  ...\n}\n```\n\n这样会造成我们写公共样式的时候会写很多全局性的CSS，引起CSS全局污染。可否支持下如下的写法：\n\n``` css\n.demo .text{\n  ...\n}\n```\n\n让`.text` 继承`.demo` 的样式，并且 `.text` 又有自己的特殊样式\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

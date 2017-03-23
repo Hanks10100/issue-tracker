@@ -132,5 +132,24 @@
   "created_at": "2016-07-01T16:42:55Z",
   "updated_at": "2016-07-19T06:21:32Z",
   "closed_at": "2016-07-04T10:26:47Z",
-  "body": "For now, we only can chained other loader for parted files like: .js, .css, .tpl. But not for .we files.\n\nVue use a selector loader for picking out the script/template/style parts from .vue file in the chain. ([src](https://github.com/vuejs/vue-loader/blob/master/lib/loader.js#L62))\n\n——\n我們現在只能在獨立的 .js, .css, .tpl 檔案中使用其他的 loader。\n\n而 Vue 是利用一個 selector 的 loader 將 .vue 的某部分取出，再送給下一個 loader，也許 Weex 也能效仿這樣的做法來讓 .we 檔可以被其他的 loader 渲染\n"
+  "body": "For now, we only can chained other loader for parted files like: .js, .css, .tpl. But not for .we files.\n\nVue use a selector loader for picking out the script/template/style parts from .vue file in the chain. ([src](https://github.com/vuejs/vue-loader/blob/master/lib/loader.js#L62))\n\n——\n我們現在只能在獨立的 .js, .css, .tpl 檔案中使用其他的 loader。\n\n而 Vue 是利用一個 selector 的 loader 將 .vue 的某部分取出，再送給下一個 loader，也許 Weex 也能效仿這樣的做法來讓 .we 檔可以被其他的 loader 渲染\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

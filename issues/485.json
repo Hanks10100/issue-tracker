@@ -45,5 +45,24 @@
   "created_at": "2016-06-15T21:57:00Z",
   "updated_at": "2016-08-30T05:42:40Z",
   "closed_at": "2016-08-30T05:42:40Z",
-  "body": "Now only CSS property value in `<style>` and static (without data binding) `<template>` could be fully supported and \"autofixed\". For example: `style=\"width: 100px;\"` to `{width: 100}`. But `style=\"width: {{x}}\"` and `this.x = '100px'` won't work well.\n\nWe can abstract some type of CSS unit and make sure each property name always has a same CSS unit. So both static & dynamic CSS property value will be fully supported and \"autofixed\".\n\nMy implementation advice:\n1. The CSS unit parser will be abstracted and solid in virtual-DOM layer\n2. The renderer will register supported CSS property names and units for each native components, but different components have the same property name but with different types is not allowed. In another words, the unit of a CSS property name is unique for all components.\n\nCurrently abstracted CSS units:\n- color unit: `color`, `background-color`, ...\n- length unit: `width`, `height`, ...\n- time unit: `transition-duration, ...`\n- number unit: `flex`, `z-index`, ...\n- enumerable unit: `position`, `text-align`, ...\n\neven we can support combo CSS unit later:\n- `padding`: `10px`, `10px 20px`, `5px 10px 20px`, `10px 20px 15px 50px`\n- `border`: `1px solid white`\n- ...\n"
+  "body": "Now only CSS property value in `<style>` and static (without data binding) `<template>` could be fully supported and \"autofixed\". For example: `style=\"width: 100px;\"` to `{width: 100}`. But `style=\"width: {{x}}\"` and `this.x = '100px'` won't work well.\n\nWe can abstract some type of CSS unit and make sure each property name always has a same CSS unit. So both static & dynamic CSS property value will be fully supported and \"autofixed\".\n\nMy implementation advice:\n1. The CSS unit parser will be abstracted and solid in virtual-DOM layer\n2. The renderer will register supported CSS property names and units for each native components, but different components have the same property name but with different types is not allowed. In another words, the unit of a CSS property name is unique for all components.\n\nCurrently abstracted CSS units:\n- color unit: `color`, `background-color`, ...\n- length unit: `width`, `height`, ...\n- time unit: `transition-duration, ...`\n- number unit: `flex`, `z-index`, ...\n- enumerable unit: `position`, `text-align`, ...\n\neven we can support combo CSS unit later:\n- `padding`: `10px`, `10px 20px`, `5px 10px 20px`, `10px 20px 15px 50px`\n- `border`: `1px solid white`\n- ...\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

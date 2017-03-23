@@ -379,10 +379,57 @@
       "created_at": "2017-03-13T07:01:24Z",
       "updated_at": "2017-03-13T07:01:24Z",
       "body": "input 高度写死成 60"
+    },
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/286056598",
+      "html_url": "https://github.com/alibaba/weex/issues/2821#issuecomment-286056598",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/2821",
+      "id": 286056598,
+      "user": {
+        "login": "langxianfu",
+        "id": 12893281,
+        "avatar_url": "https://avatars1.githubusercontent.com/u/12893281?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/langxianfu",
+        "html_url": "https://github.com/langxianfu",
+        "followers_url": "https://api.github.com/users/langxianfu/followers",
+        "following_url": "https://api.github.com/users/langxianfu/following{/other_user}",
+        "gists_url": "https://api.github.com/users/langxianfu/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/langxianfu/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/langxianfu/subscriptions",
+        "organizations_url": "https://api.github.com/users/langxianfu/orgs",
+        "repos_url": "https://api.github.com/users/langxianfu/repos",
+        "events_url": "https://api.github.com/users/langxianfu/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/langxianfu/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2017-03-13T09:34:06Z",
+      "updated_at": "2017-03-13T09:34:06Z",
+      "body": "还有我看到现在光标闪的颜色是红色？怎么改变颜色？"
     }
   ],
   "created_at": "2017-03-01T02:45:41Z",
-  "updated_at": "2017-03-13T07:01:24Z",
+  "updated_at": "2017-03-13T09:34:06Z",
   "closed_at": "2017-03-09T02:38:16Z",
-  "body": "手动调用 focus 方法获取焦点，引导输入的光标没有出现"
+  "body": "手动调用 focus 方法获取焦点，引导输入的光标没有出现",
+  "closed_by": {
+    "login": "karynsong",
+    "id": 4401542,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/4401542?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/karynsong",
+    "html_url": "https://github.com/karynsong",
+    "followers_url": "https://api.github.com/users/karynsong/followers",
+    "following_url": "https://api.github.com/users/karynsong/following{/other_user}",
+    "gists_url": "https://api.github.com/users/karynsong/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/karynsong/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/karynsong/subscriptions",
+    "organizations_url": "https://api.github.com/users/karynsong/orgs",
+    "repos_url": "https://api.github.com/users/karynsong/repos",
+    "events_url": "https://api.github.com/users/karynsong/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/karynsong/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

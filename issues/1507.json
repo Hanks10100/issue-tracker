@@ -94,5 +94,24 @@
   "created_at": "2016-10-25T10:57:32Z",
   "updated_at": "2016-10-26T02:27:48Z",
   "closed_at": "2016-10-26T02:27:48Z",
-  "body": "template\n`<textarea autofocus=\"true\" placeholder=\"给卖家留言\" value=\"给卖家留言\" row=\"20\"></textarea>`\n\n转成html:\n`<div value=\"给卖家留言\" placeholder=\"给卖家留言\" autofocus=\"true\" class=\"weex-container\" data-ref=\"19\"></div>`\n"
+  "body": "template\n`<textarea autofocus=\"true\" placeholder=\"给卖家留言\" value=\"给卖家留言\" row=\"20\"></textarea>`\n\n转成html:\n`<div value=\"给卖家留言\" placeholder=\"给卖家留言\" autofocus=\"true\" class=\"weex-container\" data-ref=\"19\"></div>`\n",
+  "closed_by": {
+    "login": "DemoPan",
+    "id": 3454188,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/3454188?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/DemoPan",
+    "html_url": "https://github.com/DemoPan",
+    "followers_url": "https://api.github.com/users/DemoPan/followers",
+    "following_url": "https://api.github.com/users/DemoPan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/DemoPan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/DemoPan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/DemoPan/subscriptions",
+    "organizations_url": "https://api.github.com/users/DemoPan/orgs",
+    "repos_url": "https://api.github.com/users/DemoPan/repos",
+    "events_url": "https://api.github.com/users/DemoPan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/DemoPan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

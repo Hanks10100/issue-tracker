@@ -356,5 +356,24 @@
   "created_at": "2016-04-26T02:57:15Z",
   "updated_at": "2016-04-27T05:59:20Z",
   "closed_at": "2016-04-26T03:42:06Z",
-  "body": "npm ERR! Darwin 15.4.0\nnpm ERR! argv \"/usr/local/bin/node\" \"/usr/local/bin/npm\" \"run\" \"serve\"\nnpm ERR! node v4.2.2\nnpm ERR! npm  v2.14.7\nnpm ERR! file sh\nnpm ERR! code ELIFECYCLE\nnpm ERR! errno ENOENT\nnpm ERR! syscall spawn\nnpm ERR! weex@0.4.0 serve: `npm run dev && npm run build && serve ./ -p 12580`\nnpm ERR! spawn ENOENT\nnpm ERR! \nnpm ERR! Failed at the weex@0.4.0 serve script 'npm run dev && npm run build && serve ./ -p 12580'.\nnpm ERR! This is most likely a problem with the weex package,\nnpm ERR! not with npm itself.\nnpm ERR! Tell the author that this fails on your system:\nnpm ERR!     npm run dev && npm run build && serve ./ -p 12580\nnpm ERR! You can get their info via:\nnpm ERR!     npm owner ls weex\nnpm ERR! There is likely additional logging output above.\n\nthanks\n"
+  "body": "npm ERR! Darwin 15.4.0\nnpm ERR! argv \"/usr/local/bin/node\" \"/usr/local/bin/npm\" \"run\" \"serve\"\nnpm ERR! node v4.2.2\nnpm ERR! npm  v2.14.7\nnpm ERR! file sh\nnpm ERR! code ELIFECYCLE\nnpm ERR! errno ENOENT\nnpm ERR! syscall spawn\nnpm ERR! weex@0.4.0 serve: `npm run dev && npm run build && serve ./ -p 12580`\nnpm ERR! spawn ENOENT\nnpm ERR! \nnpm ERR! Failed at the weex@0.4.0 serve script 'npm run dev && npm run build && serve ./ -p 12580'.\nnpm ERR! This is most likely a problem with the weex package,\nnpm ERR! not with npm itself.\nnpm ERR! Tell the author that this fails on your system:\nnpm ERR!     npm run dev && npm run build && serve ./ -p 12580\nnpm ERR! You can get their info via:\nnpm ERR!     npm owner ls weex\nnpm ERR! There is likely additional logging output above.\n\nthanks\n",
+  "closed_by": {
+    "login": "Ericcom",
+    "id": 12063573,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/12063573?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Ericcom",
+    "html_url": "https://github.com/Ericcom",
+    "followers_url": "https://api.github.com/users/Ericcom/followers",
+    "following_url": "https://api.github.com/users/Ericcom/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Ericcom/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Ericcom/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Ericcom/subscriptions",
+    "organizations_url": "https://api.github.com/users/Ericcom/orgs",
+    "repos_url": "https://api.github.com/users/Ericcom/repos",
+    "events_url": "https://api.github.com/users/Ericcom/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Ericcom/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

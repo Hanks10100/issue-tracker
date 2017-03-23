@@ -272,5 +272,24 @@
   "created_at": "2016-08-03T08:12:16Z",
   "updated_at": "2016-10-26T03:07:14Z",
   "closed_at": "2016-10-26T03:07:14Z",
-  "body": "获取input输入框内容，没有好的办法，用 `oninput` 方法 与 `onchange` 都不调用回调方法；\n1、`onchange=\"onchange\"`\n2、\n\n```\nonchange: function(event) {\n    utils.toastDebug(\"event\" + event)\n},\n```\n"
+  "body": "获取input输入框内容，没有好的办法，用 `oninput` 方法 与 `onchange` 都不调用回调方法；\n1、`onchange=\"onchange\"`\n2、\n\n```\nonchange: function(event) {\n    utils.toastDebug(\"event\" + event)\n},\n```\n",
+  "closed_by": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

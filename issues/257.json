@@ -328,5 +328,24 @@
   "created_at": "2016-05-16T02:17:30Z",
   "updated_at": "2016-05-18T13:02:18Z",
   "closed_at": "2016-05-18T13:02:18Z",
-  "body": "我根据文档步骤弄了好多遍，为什么examples中的运用一些像wxc-button组件的例子在手机上扫码后都不能显示呀，其他运用普通标签的例子是可以的，该安装的我都安装了\n"
+  "body": "我根据文档步骤弄了好多遍，为什么examples中的运用一些像wxc-button组件的例子在手机上扫码后都不能显示呀，其他运用普通标签的例子是可以的，该安装的我都安装了\n",
+  "closed_by": {
+    "login": "lanxiner123",
+    "id": 16813429,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/16813429?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/lanxiner123",
+    "html_url": "https://github.com/lanxiner123",
+    "followers_url": "https://api.github.com/users/lanxiner123/followers",
+    "following_url": "https://api.github.com/users/lanxiner123/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lanxiner123/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/lanxiner123/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/lanxiner123/subscriptions",
+    "organizations_url": "https://api.github.com/users/lanxiner123/orgs",
+    "repos_url": "https://api.github.com/users/lanxiner123/repos",
+    "events_url": "https://api.github.com/users/lanxiner123/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/lanxiner123/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

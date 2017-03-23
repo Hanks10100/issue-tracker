@@ -206,5 +206,24 @@
   "created_at": "2017-01-06T13:58:33Z",
   "updated_at": "2017-01-25T06:56:54Z",
   "closed_at": "2017-01-25T06:56:54Z",
-  "body": "\r\n我搭建了个weex项目，h5的地址为pay2018.com:12580\r\n经测试，该页面在安卓版的qq、安卓版的微信、mac上的safari上显示为一片空白\r\n在mac的chrome、iPad的safari下显示正常。\r\n\r\n安卓手机：小米5（安卓版本为6.0）,坚果YQ601(安卓版本为5.1.1)\r\n\r\n提示错误（mac safari）为：TypeError: window.weex.init is not a function. (In 'window.weex.init', 'window.weex.init' is undefined)\r\n"
+  "body": "\r\n我搭建了个weex项目，h5的地址为pay2018.com:12580\r\n经测试，该页面在安卓版的qq、安卓版的微信、mac上的safari上显示为一片空白\r\n在mac的chrome、iPad的safari下显示正常。\r\n\r\n安卓手机：小米5（安卓版本为6.0）,坚果YQ601(安卓版本为5.1.1)\r\n\r\n提示错误（mac safari）为：TypeError: window.weex.init is not a function. (In 'window.weex.init', 'window.weex.init' is undefined)\r\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

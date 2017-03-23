@@ -122,5 +122,24 @@
   "created_at": "2016-09-21T10:05:06Z",
   "updated_at": "2016-09-22T03:19:11Z",
   "closed_at": "2016-09-22T03:18:51Z",
-  "body": " 我看官方demo里有这么几行代码：\nif(!WXSoInstallMgrSdk.isCPUSupport()){\n      mProgressBar.setVisibility(View.INVISIBLE);\n      mTipView.setText(R.string.cpu_not_support_tip);\n      return;\n    }\n<string name=\"cpu_not_support_tip\">Sorry, your current device is x86 architecture.\\n We only support arm architecture devices!</string>\n\n说不支持x86的设备，请问确实如此吗？\n"
+  "body": " 我看官方demo里有这么几行代码：\nif(!WXSoInstallMgrSdk.isCPUSupport()){\n      mProgressBar.setVisibility(View.INVISIBLE);\n      mTipView.setText(R.string.cpu_not_support_tip);\n      return;\n    }\n<string name=\"cpu_not_support_tip\">Sorry, your current device is x86 architecture.\\n We only support arm architecture devices!</string>\n\n说不支持x86的设备，请问确实如此吗？\n",
+  "closed_by": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

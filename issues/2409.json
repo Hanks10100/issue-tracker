@@ -178,5 +178,24 @@
   "created_at": "2017-01-26T01:49:45Z",
   "updated_at": "2017-02-06T06:50:27Z",
   "closed_at": "2017-02-06T06:50:27Z",
-  "body": "之前用的是ionic开发Hybrid APP，在看了多方介绍之后准备入坑WEEX，看了2天的官方文档后有2个问题想问一下。\r\n\r\n1、如何直接构建APP，官方文档中构建新应用的地方暂时还是一片空白，集成到现有应用要求掌握一定原生开发能力，请问WEEX是否能提供类似ionic的ionic build android之类的命令行生成应用的功能，或者其他不需要原生开发能力的解决方案\r\n2、文档介绍说WEEX不支持v-html标签，如果我有一个需求，类似于一个传统的电商平台，需要开放给商户入驻并提供富文本编辑商品图文详情的功能，既然WEEX不支持v-html，我该如何实现该需求\r\n"
+  "body": "之前用的是ionic开发Hybrid APP，在看了多方介绍之后准备入坑WEEX，看了2天的官方文档后有2个问题想问一下。\r\n\r\n1、如何直接构建APP，官方文档中构建新应用的地方暂时还是一片空白，集成到现有应用要求掌握一定原生开发能力，请问WEEX是否能提供类似ionic的ionic build android之类的命令行生成应用的功能，或者其他不需要原生开发能力的解决方案\r\n2、文档介绍说WEEX不支持v-html标签，如果我有一个需求，类似于一个传统的电商平台，需要开放给商户入驻并提供富文本编辑商品图文详情的功能，既然WEEX不支持v-html，我该如何实现该需求\r\n",
+  "closed_by": {
+    "login": "Dpuer",
+    "id": 11489830,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/11489830?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Dpuer",
+    "html_url": "https://github.com/Dpuer",
+    "followers_url": "https://api.github.com/users/Dpuer/followers",
+    "following_url": "https://api.github.com/users/Dpuer/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Dpuer/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Dpuer/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Dpuer/subscriptions",
+    "organizations_url": "https://api.github.com/users/Dpuer/orgs",
+    "repos_url": "https://api.github.com/users/Dpuer/repos",
+    "events_url": "https://api.github.com/users/Dpuer/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Dpuer/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -97,5 +97,6 @@
   "created_at": "2016-12-19T06:36:14Z",
   "updated_at": "2017-03-01T06:52:15Z",
   "closed_at": null,
-  "body": "android 模拟器 6.0系统\r\n\r\n在android 平台 使用 <scroller> 时 列表最后 会出现加载不全的情况\r\n\r\n这里是代码 http://dotwe.org/d02e80668804e4031612ef15df28782d\r\n\r\n![default](https://cloud.githubusercontent.com/assets/10106142/21303306/7975d530-c5f8-11e6-9637-205e931e7bc7.png)\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+  "body": "android 模拟器 6.0系统\r\n\r\n在android 平台 使用 <scroller> 时 列表最后 会出现加载不全的情况\r\n\r\n这里是代码 http://dotwe.org/d02e80668804e4031612ef15df28782d\r\n\r\n![default](https://cloud.githubusercontent.com/assets/10106142/21303306/7975d530-c5f8-11e6-9637-205e931e7bc7.png)\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+  "closed_by": null
 }

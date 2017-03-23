@@ -37,5 +37,6 @@
   "created_at": "2017-02-14T02:51:24Z",
   "updated_at": "2017-02-14T02:51:24Z",
   "closed_at": null,
-  "body": "Weex  Tabbar 集成到iOS项目中的时候，切换页面，页面效果不展示，playground也没有效果，单个页面调试的时候页面是正常的，一旦加入wxc-tabbar控件的时候，效果就没有展示出来，\r\n但是同样的代码，放在安卓项目里面是正常展示的。"
+  "body": "Weex  Tabbar 集成到iOS项目中的时候，切换页面，页面效果不展示，playground也没有效果，单个页面调试的时候页面是正常的，一旦加入wxc-tabbar控件的时候，效果就没有展示出来，\r\n但是同样的代码，放在安卓项目里面是正常展示的。",
+  "closed_by": null
 }

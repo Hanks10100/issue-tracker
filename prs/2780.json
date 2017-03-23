@@ -43,5 +43,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2780.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2780.patch"
   },
-  "body": "Weex Release v0.10.0"
+  "body": "Weex Release v0.10.0",
+  "closed_by": {
+    "login": "zcx90",
+    "id": 15881771,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/15881771?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/zcx90",
+    "html_url": "https://github.com/zcx90",
+    "followers_url": "https://api.github.com/users/zcx90/followers",
+    "following_url": "https://api.github.com/users/zcx90/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zcx90/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/zcx90/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/zcx90/subscriptions",
+    "organizations_url": "https://api.github.com/users/zcx90/orgs",
+    "repos_url": "https://api.github.com/users/zcx90/repos",
+    "events_url": "https://api.github.com/users/zcx90/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/zcx90/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

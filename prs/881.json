@@ -166,5 +166,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/881.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/881.patch"
   },
-  "body": "stop using `arguments.callee` in `requestFrame()` callback function.\n\ncreated a named function to do the same thing, and pass it to the `requestFrame()`.\n"
+  "body": "stop using `arguments.callee` in `requestFrame()` callback function.\n\ncreated a named function to do the same thing, and pass it to the `requestFrame()`.\n",
+  "closed_by": {
+    "login": "MrRaindrop",
+    "id": 1545874,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1545874?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/MrRaindrop",
+    "html_url": "https://github.com/MrRaindrop",
+    "followers_url": "https://api.github.com/users/MrRaindrop/followers",
+    "following_url": "https://api.github.com/users/MrRaindrop/following{/other_user}",
+    "gists_url": "https://api.github.com/users/MrRaindrop/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/MrRaindrop/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/MrRaindrop/subscriptions",
+    "organizations_url": "https://api.github.com/users/MrRaindrop/orgs",
+    "repos_url": "https://api.github.com/users/MrRaindrop/repos",
+    "events_url": "https://api.github.com/users/MrRaindrop/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/MrRaindrop/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

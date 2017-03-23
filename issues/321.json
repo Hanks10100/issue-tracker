@@ -175,5 +175,24 @@
   "created_at": "2016-05-20T08:51:25Z",
   "updated_at": "2016-05-24T03:05:19Z",
   "closed_at": "2016-05-24T03:05:19Z",
-  "body": "The ui has changed with data only **once**, maybe something is error in **array** handler ?\nsimple demo is like this: \n\n```\n<template>\n  <div>\n    <div repeat=\"{{(i,v) in data.list}}\" \n         onclick=\"clickHandler(i)\"\n         style=\"height:50;background-color:#f0f0f0;margin-bottom:20;align-items:center;justify-content:center;\">\n      <text>{{i}}</text>\n    </div>\n\n    <div>\n      <text repeat=\"{{currentItem.values}}\">key:{{key}}</text>\n    </div>\n  </div>\n</template>\n\n<script>\n  module.exports = {\n    data: {\n      data:{\n        list:[\n          {\n            values:[\n              {\n                key: 'list1'\n              }\n            ]\n          },\n          {\n            values:[\n              {\n                key: 'list2'\n              }\n            ]\n          },\n          {\n            values:[\n              {\n                key: 'list3'\n              }\n            ]\n          }\n        ]\n      },\n      currentItem:{\n\n      }\n    },\n    methods:{\n      clickHandler:function(i){\n          this.currentItem = this.data.list[i];\n      }\n    }\n  }\n</script>\n```\n"
+  "body": "The ui has changed with data only **once**, maybe something is error in **array** handler ?\nsimple demo is like this: \n\n```\n<template>\n  <div>\n    <div repeat=\"{{(i,v) in data.list}}\" \n         onclick=\"clickHandler(i)\"\n         style=\"height:50;background-color:#f0f0f0;margin-bottom:20;align-items:center;justify-content:center;\">\n      <text>{{i}}</text>\n    </div>\n\n    <div>\n      <text repeat=\"{{currentItem.values}}\">key:{{key}}</text>\n    </div>\n  </div>\n</template>\n\n<script>\n  module.exports = {\n    data: {\n      data:{\n        list:[\n          {\n            values:[\n              {\n                key: 'list1'\n              }\n            ]\n          },\n          {\n            values:[\n              {\n                key: 'list2'\n              }\n            ]\n          },\n          {\n            values:[\n              {\n                key: 'list3'\n              }\n            ]\n          }\n        ]\n      },\n      currentItem:{\n\n      }\n    },\n    methods:{\n      clickHandler:function(i){\n          this.currentItem = this.data.list[i];\n      }\n    }\n  }\n</script>\n```\n",
+  "closed_by": {
+    "login": "myhirra",
+    "id": 4364150,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4364150?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/myhirra",
+    "html_url": "https://github.com/myhirra",
+    "followers_url": "https://api.github.com/users/myhirra/followers",
+    "following_url": "https://api.github.com/users/myhirra/following{/other_user}",
+    "gists_url": "https://api.github.com/users/myhirra/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/myhirra/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/myhirra/subscriptions",
+    "organizations_url": "https://api.github.com/users/myhirra/orgs",
+    "repos_url": "https://api.github.com/users/myhirra/repos",
+    "events_url": "https://api.github.com/users/myhirra/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/myhirra/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

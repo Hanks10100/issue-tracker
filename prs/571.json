@@ -81,5 +81,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/571.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/571.patch"
   },
-  "body": "- decouple component registration by change component holder  to interface\n- improve alias component  registration\n"
+  "body": "- decouple component registration by change component holder  to interface\n- improve alias component  registration\n",
+  "closed_by": {
+    "login": "zshshr",
+    "id": 5382962,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5382962?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/zshshr",
+    "html_url": "https://github.com/zshshr",
+    "followers_url": "https://api.github.com/users/zshshr/followers",
+    "following_url": "https://api.github.com/users/zshshr/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zshshr/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/zshshr/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/zshshr/subscriptions",
+    "organizations_url": "https://api.github.com/users/zshshr/orgs",
+    "repos_url": "https://api.github.com/users/zshshr/repos",
+    "events_url": "https://api.github.com/users/zshshr/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/zshshr/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

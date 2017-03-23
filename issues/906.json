@@ -207,5 +207,24 @@
   "created_at": "2016-07-29T10:17:12Z",
   "updated_at": "2016-10-24T11:32:49Z",
   "closed_at": "2016-10-24T11:32:49Z",
-  "body": "Hi，\n请问android模块开发里返回给前端的参数必须是Map<String, Object>格式的吗？\n我使用Json或者String或者JSONArray前端收到的都是空的。\n如下：\nnative：\n                public void onDevicesFind(JSONArray deviceStatus) {\n                    Log.d(\"---fog---\", deviceStatus.toString());\n                    WXBridgeManager.getInstance().callback(instanceId, callbackId, deviceStatus, true);\n                }\n\njs：\n        fog.startSearchDevices(\"test\",function(ret){\n            console.log(\" js fog ----- \", JSON.stringify(ret));\n        });\n\nlog：\n07-29 18:16:37.119 4797-4838/com.taobao.weex.sample.app D/jsengine: jsLog>>>>: js fog -----  | {} | __LOG | \n07-29 18:16:37.119 4797-4838/com.taobao.weex.sample.app D/jsLog:  js fog -----  | {} | __LOG | \n"
+  "body": "Hi，\n请问android模块开发里返回给前端的参数必须是Map<String, Object>格式的吗？\n我使用Json或者String或者JSONArray前端收到的都是空的。\n如下：\nnative：\n                public void onDevicesFind(JSONArray deviceStatus) {\n                    Log.d(\"---fog---\", deviceStatus.toString());\n                    WXBridgeManager.getInstance().callback(instanceId, callbackId, deviceStatus, true);\n                }\n\njs：\n        fog.startSearchDevices(\"test\",function(ret){\n            console.log(\" js fog ----- \", JSON.stringify(ret));\n        });\n\nlog：\n07-29 18:16:37.119 4797-4838/com.taobao.weex.sample.app D/jsengine: jsLog>>>>: js fog -----  | {} | __LOG | \n07-29 18:16:37.119 4797-4838/com.taobao.weex.sample.app D/jsLog:  js fog -----  | {} | __LOG | \n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

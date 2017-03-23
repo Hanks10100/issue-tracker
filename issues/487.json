@@ -160,5 +160,24 @@
   "created_at": "2016-06-16T01:36:52Z",
   "updated_at": "2016-09-18T13:35:26Z",
   "closed_at": "2016-07-01T07:43:44Z",
-  "body": "下拉刷新组件scroller中没有效果，在list中魅族上面可以，vivo手机上面不可以。\n"
+  "body": "下拉刷新组件scroller中没有效果，在list中魅族上面可以，vivo手机上面不可以。\n",
+  "closed_by": {
+    "login": "xkli",
+    "id": 7642368,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7642368?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/xkli",
+    "html_url": "https://github.com/xkli",
+    "followers_url": "https://api.github.com/users/xkli/followers",
+    "following_url": "https://api.github.com/users/xkli/following{/other_user}",
+    "gists_url": "https://api.github.com/users/xkli/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/xkli/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/xkli/subscriptions",
+    "organizations_url": "https://api.github.com/users/xkli/orgs",
+    "repos_url": "https://api.github.com/users/xkli/repos",
+    "events_url": "https://api.github.com/users/xkli/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/xkli/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -122,5 +122,24 @@
   "created_at": "2016-10-24T05:56:38Z",
   "updated_at": "2016-10-25T08:56:08Z",
   "closed_at": "2016-10-25T02:10:09Z",
-  "body": "可以说中文吧，我直接提问了，之前做过ionic开发，原生接触过一点，这个是不是应该写好h5上的逻辑，然后一句命令，自动生成ios平台，没看明白怎么弄得，先跑了那个demo。不知道ios部分的代码自己写么\n\n![5](https://cloud.githubusercontent.com/assets/11485619/19635206/3b443d32-99f3-11e6-8559-62e7776d124a.png)\n"
+  "body": "可以说中文吧，我直接提问了，之前做过ionic开发，原生接触过一点，这个是不是应该写好h5上的逻辑，然后一句命令，自动生成ios平台，没看明白怎么弄得，先跑了那个demo。不知道ios部分的代码自己写么\n\n![5](https://cloud.githubusercontent.com/assets/11485619/19635206/3b443d32-99f3-11e6-8559-62e7776d124a.png)\n",
+  "closed_by": {
+    "login": "johnzhu12",
+    "id": 11485619,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/11485619?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/johnzhu12",
+    "html_url": "https://github.com/johnzhu12",
+    "followers_url": "https://api.github.com/users/johnzhu12/followers",
+    "following_url": "https://api.github.com/users/johnzhu12/following{/other_user}",
+    "gists_url": "https://api.github.com/users/johnzhu12/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/johnzhu12/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/johnzhu12/subscriptions",
+    "organizations_url": "https://api.github.com/users/johnzhu12/orgs",
+    "repos_url": "https://api.github.com/users/johnzhu12/repos",
+    "events_url": "https://api.github.com/users/johnzhu12/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/johnzhu12/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

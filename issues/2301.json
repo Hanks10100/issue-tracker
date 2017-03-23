@@ -112,5 +112,24 @@
   "created_at": "2017-01-17T09:21:00Z",
   "updated_at": "2017-01-19T03:42:06Z",
   "closed_at": "2017-01-19T03:42:06Z",
-  "body": "我在使用全局事件的时候，在ready方法中注册了一个事件，但是这个事件在页面渲染完成之后里面就回调了（listener中执行了后续代码），而在native中调用mInstance.fireGlobalEventCallback没能触发listener中的回调\r\n//native中调用代码\r\nmConfirm.setOnClickListener(new OnClickListener() {\r\n          @Override\r\n           public void onClick(View v) {\r\n                Map<String, Object> param = new HashMap<>();\r\n                param.put(\"key\", \"native invoke weex\");\r\n                mInstance.fireGlobalEventCallback(\"globalevent\", param);\r\n            }\r\n        });\r\n\r\n// js中调用代码\r\nvar globalEvent = require('@weex-module/globalEvent');\r\nready:function() {\r\n             globalEvent.addEventListener(\"globalevent\", new function(event) {\r\n                  model.toast({\"message\":\"native call js\", \"duration\":1});\r\n              });\r\n        }\r\n\r\n看了文档，使用方式应该没有什么问题，如果有我未发现的地方，请指出，谢谢"
+  "body": "我在使用全局事件的时候，在ready方法中注册了一个事件，但是这个事件在页面渲染完成之后里面就回调了（listener中执行了后续代码），而在native中调用mInstance.fireGlobalEventCallback没能触发listener中的回调\r\n//native中调用代码\r\nmConfirm.setOnClickListener(new OnClickListener() {\r\n          @Override\r\n           public void onClick(View v) {\r\n                Map<String, Object> param = new HashMap<>();\r\n                param.put(\"key\", \"native invoke weex\");\r\n                mInstance.fireGlobalEventCallback(\"globalevent\", param);\r\n            }\r\n        });\r\n\r\n// js中调用代码\r\nvar globalEvent = require('@weex-module/globalEvent');\r\nready:function() {\r\n             globalEvent.addEventListener(\"globalevent\", new function(event) {\r\n                  model.toast({\"message\":\"native call js\", \"duration\":1});\r\n              });\r\n        }\r\n\r\n看了文档，使用方式应该没有什么问题，如果有我未发现的地方，请指出，谢谢",
+  "closed_by": {
+    "login": "xkli",
+    "id": 7642368,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7642368?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/xkli",
+    "html_url": "https://github.com/xkli",
+    "followers_url": "https://api.github.com/users/xkli/followers",
+    "following_url": "https://api.github.com/users/xkli/following{/other_user}",
+    "gists_url": "https://api.github.com/users/xkli/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/xkli/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/xkli/subscriptions",
+    "organizations_url": "https://api.github.com/users/xkli/orgs",
+    "repos_url": "https://api.github.com/users/xkli/repos",
+    "events_url": "https://api.github.com/users/xkli/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/xkli/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -132,5 +132,24 @@
   "created_at": "2016-08-16T03:13:10Z",
   "updated_at": "2016-11-08T02:24:59Z",
   "closed_at": "2016-08-19T08:16:06Z",
-  "body": "weex examples/hello.we\n\nby execute the above, the browser automatically opens\nhttp://127.0.0.1:8081/weex_tmp/h5_render/?hot-reload_controller&page=hello.js&loader=xhr\n\nunfortunately, got the following:\n\nThe 127.0.0.1 page isn’t working\n\n127.0.0.1 didn’t send any data.\n\nBR\n"
+  "body": "weex examples/hello.we\n\nby execute the above, the browser automatically opens\nhttp://127.0.0.1:8081/weex_tmp/h5_render/?hot-reload_controller&page=hello.js&loader=xhr\n\nunfortunately, got the following:\n\nThe 127.0.0.1 page isn’t working\n\n127.0.0.1 didn’t send any data.\n\nBR\n",
+  "closed_by": {
+    "login": "lvscar",
+    "id": 1578838,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1578838?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/lvscar",
+    "html_url": "https://github.com/lvscar",
+    "followers_url": "https://api.github.com/users/lvscar/followers",
+    "following_url": "https://api.github.com/users/lvscar/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lvscar/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/lvscar/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/lvscar/subscriptions",
+    "organizations_url": "https://api.github.com/users/lvscar/orgs",
+    "repos_url": "https://api.github.com/users/lvscar/repos",
+    "events_url": "https://api.github.com/users/lvscar/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/lvscar/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

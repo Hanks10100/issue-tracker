@@ -72,5 +72,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/427.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/427.patch"
   },
-  "body": "Example 代码标签闭合错误46-47行\n"
+  "body": "Example 代码标签闭合错误46-47行\n",
+  "closed_by": {
+    "login": "4013465w",
+    "id": 6347990,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6347990?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/4013465w",
+    "html_url": "https://github.com/4013465w",
+    "followers_url": "https://api.github.com/users/4013465w/followers",
+    "following_url": "https://api.github.com/users/4013465w/following{/other_user}",
+    "gists_url": "https://api.github.com/users/4013465w/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/4013465w/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/4013465w/subscriptions",
+    "organizations_url": "https://api.github.com/users/4013465w/orgs",
+    "repos_url": "https://api.github.com/users/4013465w/repos",
+    "events_url": "https://api.github.com/users/4013465w/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/4013465w/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

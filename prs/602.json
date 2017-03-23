@@ -43,5 +43,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/602.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/602.patch"
   },
-  "body": "## 连接Chrome Developer Tools进行Remote debug。\n1. 通过inspect API接口可以调试element层级与cssstyle、console日志输出、source tree展示、network实时跟踪；\n2. 通过debu API接口可以断点调试。\n"
+  "body": "## 连接Chrome Developer Tools进行Remote debug。\n1. 通过inspect API接口可以调试element层级与cssstyle、console日志输出、source tree展示、network实时跟踪；\n2. 通过debu API接口可以断点调试。\n",
+  "closed_by": {
+    "login": "yangshengtao",
+    "id": 8348001,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8348001?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/yangshengtao",
+    "html_url": "https://github.com/yangshengtao",
+    "followers_url": "https://api.github.com/users/yangshengtao/followers",
+    "following_url": "https://api.github.com/users/yangshengtao/following{/other_user}",
+    "gists_url": "https://api.github.com/users/yangshengtao/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/yangshengtao/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/yangshengtao/subscriptions",
+    "organizations_url": "https://api.github.com/users/yangshengtao/orgs",
+    "repos_url": "https://api.github.com/users/yangshengtao/repos",
+    "events_url": "https://api.github.com/users/yangshengtao/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/yangshengtao/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

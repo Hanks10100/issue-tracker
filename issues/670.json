@@ -37,5 +37,24 @@
   "created_at": "2016-07-01T03:34:33Z",
   "updated_at": "2016-07-01T06:17:50Z",
   "closed_at": "2016-07-01T06:17:50Z",
-  "body": ""
+  "body": "",
+  "closed_by": {
+    "login": "xiaoao",
+    "id": 233974,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/233974?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/xiaoao",
+    "html_url": "https://github.com/xiaoao",
+    "followers_url": "https://api.github.com/users/xiaoao/followers",
+    "following_url": "https://api.github.com/users/xiaoao/following{/other_user}",
+    "gists_url": "https://api.github.com/users/xiaoao/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/xiaoao/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/xiaoao/subscriptions",
+    "organizations_url": "https://api.github.com/users/xiaoao/orgs",
+    "repos_url": "https://api.github.com/users/xiaoao/repos",
+    "events_url": "https://api.github.com/users/xiaoao/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/xiaoao/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -94,5 +94,24 @@
   "created_at": "2017-01-17T12:08:53Z",
   "updated_at": "2017-01-26T02:06:26Z",
   "closed_at": "2017-01-26T02:06:26Z",
-  "body": "On my mac, \r\n\r\n1. Run `weexpack create xxx` to init a weex project.\r\n2. cd xxx, run `weexpack run ios`, display the following error:\r\n\r\n> Cloning spec repo `alibaba-inc-specs` from `git@gitlab.alibaba-inc.com:alipods/specs.git`\r\n> [!] Unable to add a source with url `git@gitlab.alibaba-inc.com:alipods/specs.git` named `alibaba-inc-specs`.\r\n> You can try adding it manually in `~/.cocoapods/repos` or via `pod repo add`.\r\n\r\nI'm pretty sure I installed **_cocoapods_** successfully, is that issue about `git@gitlab.alibaba-inc.com:alipods/specs.git`, this impacts me to use **_weexpack_**, could anyone help me on this?"
+  "body": "On my mac, \r\n\r\n1. Run `weexpack create xxx` to init a weex project.\r\n2. cd xxx, run `weexpack run ios`, display the following error:\r\n\r\n> Cloning spec repo `alibaba-inc-specs` from `git@gitlab.alibaba-inc.com:alipods/specs.git`\r\n> [!] Unable to add a source with url `git@gitlab.alibaba-inc.com:alipods/specs.git` named `alibaba-inc-specs`.\r\n> You can try adding it manually in `~/.cocoapods/repos` or via `pod repo add`.\r\n\r\nI'm pretty sure I installed **_cocoapods_** successfully, is that issue about `git@gitlab.alibaba-inc.com:alipods/specs.git`, this impacts me to use **_weexpack_**, could anyone help me on this?",
+  "closed_by": {
+    "login": "hwysjj",
+    "id": 5877000,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5877000?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/hwysjj",
+    "html_url": "https://github.com/hwysjj",
+    "followers_url": "https://api.github.com/users/hwysjj/followers",
+    "following_url": "https://api.github.com/users/hwysjj/following{/other_user}",
+    "gists_url": "https://api.github.com/users/hwysjj/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/hwysjj/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/hwysjj/subscriptions",
+    "organizations_url": "https://api.github.com/users/hwysjj/orgs",
+    "repos_url": "https://api.github.com/users/hwysjj/repos",
+    "events_url": "https://api.github.com/users/hwysjj/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/hwysjj/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

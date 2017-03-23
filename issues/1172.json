@@ -140,5 +140,24 @@
   "created_at": "2016-09-08T07:21:52Z",
   "updated_at": "2016-10-24T12:23:10Z",
   "closed_at": "2016-10-24T12:23:10Z",
-  "body": "```\nweex sdk: 0.7.0\njsframework: 0.15.7\n```\n\n代码:\n\n```\n<style>\n    .wrapper {\n        background-color: #accded;\n    }\n</style>\n\n<template>\n    <div class=\"wrapper\">\n        <text logo-height=\"{{logoHeight}}\">here is demo</text>\n    </div>\n</template>\n\n<script>\n\n    module.exports = {\n        data: {\n            logoHeight: 80\n        },\n        created: function () {\n            nativeLog('parent created');\n        },\n        methods: {\n\n        }\n    }\n</script>\n```\n\nbug重现流程:\n1. `logo-height=\"{{logoHeight}}\"`, 页面显示正常\n2. `logo-height=\"{{this.logoHeight}}\"`, 由于多加了一个 this, 页面白屏\n3. 代码恢复正常`logo-height=\"{{logoHeight}}\"`, 重新载入, 页面仍然白屏, 无法正常显示页面. playground 杀掉之后重新扫码, 才能看到正常的页面\n\n看上去是同一个 url 对应的代码这么反复更改才会出这样的问题, 扫码url变化之后就不会有问题\n"
+  "body": "```\nweex sdk: 0.7.0\njsframework: 0.15.7\n```\n\n代码:\n\n```\n<style>\n    .wrapper {\n        background-color: #accded;\n    }\n</style>\n\n<template>\n    <div class=\"wrapper\">\n        <text logo-height=\"{{logoHeight}}\">here is demo</text>\n    </div>\n</template>\n\n<script>\n\n    module.exports = {\n        data: {\n            logoHeight: 80\n        },\n        created: function () {\n            nativeLog('parent created');\n        },\n        methods: {\n\n        }\n    }\n</script>\n```\n\nbug重现流程:\n1. `logo-height=\"{{logoHeight}}\"`, 页面显示正常\n2. `logo-height=\"{{this.logoHeight}}\"`, 由于多加了一个 this, 页面白屏\n3. 代码恢复正常`logo-height=\"{{logoHeight}}\"`, 重新载入, 页面仍然白屏, 无法正常显示页面. playground 杀掉之后重新扫码, 才能看到正常的页面\n\n看上去是同一个 url 对应的代码这么反复更改才会出这样的问题, 扫码url变化之后就不会有问题\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

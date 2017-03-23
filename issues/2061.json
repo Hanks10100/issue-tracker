@@ -244,5 +244,24 @@
   "created_at": "2016-12-28T11:41:18Z",
   "updated_at": "2017-01-22T07:36:18Z",
   "closed_at": "2017-01-22T07:36:18Z",
-  "body": "比如这个url:\r\nstream.fetch({\r\n                    method: 'GET',\r\n                    headers:{\r\n                        'apikey':'deaa5742c4fa6856c33309d63aefba4c'\r\n                    },\r\n                    url: 'http://apis.baidu.com/tngou/cook/name?name=鸡',\r\n                    type: 'json'\r\n                }, function (ret) {。。。。。\r\n\r\n这个没有encodeURI的话在ios端会出问题，很难调试问题也不好找，在安卓端与web都好着，估计是安卓端sdk阿里巴巴团队对url进行的转码而ios端的sdk的程序员没有进行转码。\r\n虽然可以使用者使用encodeURI进行转码，但是很多时候那些参数是变量而且会忽略，然后出问题了又不好调试可以卡住程序员很久，觉得不如官方sdk里面帮忙encode一下比较好。\r\n"
+  "body": "比如这个url:\r\nstream.fetch({\r\n                    method: 'GET',\r\n                    headers:{\r\n                        'apikey':'deaa5742c4fa6856c33309d63aefba4c'\r\n                    },\r\n                    url: 'http://apis.baidu.com/tngou/cook/name?name=鸡',\r\n                    type: 'json'\r\n                }, function (ret) {。。。。。\r\n\r\n这个没有encodeURI的话在ios端会出问题，很难调试问题也不好找，在安卓端与web都好着，估计是安卓端sdk阿里巴巴团队对url进行的转码而ios端的sdk的程序员没有进行转码。\r\n虽然可以使用者使用encodeURI进行转码，但是很多时候那些参数是变量而且会忽略，然后出问题了又不好调试可以卡住程序员很久，觉得不如官方sdk里面帮忙encode一下比较好。\r\n",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

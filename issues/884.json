@@ -272,5 +272,24 @@
   "created_at": "2016-07-28T07:06:37Z",
   "updated_at": "2016-10-01T03:13:48Z",
   "closed_at": "2016-08-04T03:23:05Z",
-  "body": " ReportException : ReferenceError: **weex_define** is not defined\n                                                               at Object.<anonymous> ((weex):47:3)\n                                                               at **webpack_require** ((weex):20:30)\n                                                               at (weex):40:18\n                                                               at (weex):43:10\nor\n\n ReportException :undefined:0: TypeError: undefined is not a function\n\nstep\n1.  clone https://github.com/xkli/WXSample.git and finish setImage method in ImageAdapter.java,\n2. build and run it，first run is well，a big Hello world appeared，replace hello.js with list-demo.js( find it in playground Demo Code), it works well too.\n3. sometimes later, annoying thing happen,  a big Hello world missing,  I got some tips what mentioned above when I try to rebuild it.  what's wrong?  How to fix it or check it?\n\nsome info about environment:\nMAC OS，  MI NOTE LTE， AndroidStudio 2.1.2   gradle com.android.tools.build:gradle:2.1.2\n"
+  "body": " ReportException : ReferenceError: **weex_define** is not defined\n                                                               at Object.<anonymous> ((weex):47:3)\n                                                               at **webpack_require** ((weex):20:30)\n                                                               at (weex):40:18\n                                                               at (weex):43:10\nor\n\n ReportException :undefined:0: TypeError: undefined is not a function\n\nstep\n1.  clone https://github.com/xkli/WXSample.git and finish setImage method in ImageAdapter.java,\n2. build and run it，first run is well，a big Hello world appeared，replace hello.js with list-demo.js( find it in playground Demo Code), it works well too.\n3. sometimes later, annoying thing happen,  a big Hello world missing,  I got some tips what mentioned above when I try to rebuild it.  what's wrong?  How to fix it or check it?\n\nsome info about environment:\nMAC OS，  MI NOTE LTE， AndroidStudio 2.1.2   gradle com.android.tools.build:gradle:2.1.2\n",
+  "closed_by": {
+    "login": "balmy",
+    "id": 7794302,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/7794302?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/balmy",
+    "html_url": "https://github.com/balmy",
+    "followers_url": "https://api.github.com/users/balmy/followers",
+    "following_url": "https://api.github.com/users/balmy/following{/other_user}",
+    "gists_url": "https://api.github.com/users/balmy/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/balmy/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/balmy/subscriptions",
+    "organizations_url": "https://api.github.com/users/balmy/orgs",
+    "repos_url": "https://api.github.com/users/balmy/repos",
+    "events_url": "https://api.github.com/users/balmy/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/balmy/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

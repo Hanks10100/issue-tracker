@@ -66,5 +66,6 @@
   "created_at": "2017-01-11T03:03:34Z",
   "updated_at": "2017-02-09T09:17:37Z",
   "closed_at": null,
-  "body": "Android DevTool 调试报错，一直无法进入调试状态，页面也是空的，具体报错为：Uncaught DOMException: Failed to execute 'getItem' on 'Storage': access is denied for this [document.(见截图)\r\n![a7796442-92c2-40a3-9ea6-73866d974d2f](https://cloud.githubusercontent.com/assets/5284450/21833496/87c48be8-d7ed-11e6-8970-2df04a317d22.png)\r\n求大神指导"
+  "body": "Android DevTool 调试报错，一直无法进入调试状态，页面也是空的，具体报错为：Uncaught DOMException: Failed to execute 'getItem' on 'Storage': access is denied for this [document.(见截图)\r\n![a7796442-92c2-40a3-9ea6-73866d974d2f](https://cloud.githubusercontent.com/assets/5284450/21833496/87c48be8-d7ed-11e6-8970-2df04a317d22.png)\r\n求大神指导",
+  "closed_by": null
 }

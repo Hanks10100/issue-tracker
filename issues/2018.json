@@ -66,5 +66,24 @@
   "created_at": "2016-12-26T04:14:17Z",
   "updated_at": "2016-12-27T15:47:56Z",
   "closed_at": "2016-12-27T15:47:56Z",
-  "body": "playground 最新版本\r\n```\r\n\r\n<template>\r\n  <div class=\"div\">\r\n    <banner></banner>\r\n    <panel>\r\n        <text slot=\"leftContent\">生活</text>\r\n        <text>center</text>\r\n        <text slot=\"rightContent\">更多</text>\r\n    </panel>\r\n  </div>\r\n</template>\r\n```\r\n\r\n```\r\n\r\n<template>\r\n    <div class=\"title\">\r\n        <div class=\"titleLeft\">\r\n            <slot name=\"leftContent\"></slot>\r\n        </div>\r\n        <div class=\"titleCenter\">\r\n            <slot></slot>\r\n        </div>\r\n        <div class=\"titleRight\">\r\n            <slot name=\"rightContent\"></slot>\r\n        </div>\r\n    </div>\r\n</template>\r\n```\r\n\r\n![image](https://cloud.githubusercontent.com/assets/21190596/21475276/8d7f8faa-cb64-11e6-895d-02058db68749.png)\r\n\r\n渲染始终在最后一个 slot\r\n"
+  "body": "playground 最新版本\r\n```\r\n\r\n<template>\r\n  <div class=\"div\">\r\n    <banner></banner>\r\n    <panel>\r\n        <text slot=\"leftContent\">生活</text>\r\n        <text>center</text>\r\n        <text slot=\"rightContent\">更多</text>\r\n    </panel>\r\n  </div>\r\n</template>\r\n```\r\n\r\n```\r\n\r\n<template>\r\n    <div class=\"title\">\r\n        <div class=\"titleLeft\">\r\n            <slot name=\"leftContent\"></slot>\r\n        </div>\r\n        <div class=\"titleCenter\">\r\n            <slot></slot>\r\n        </div>\r\n        <div class=\"titleRight\">\r\n            <slot name=\"rightContent\"></slot>\r\n        </div>\r\n    </div>\r\n</template>\r\n```\r\n\r\n![image](https://cloud.githubusercontent.com/assets/21190596/21475276/8d7f8faa-cb64-11e6-895d-02058db68749.png)\r\n\r\n渲染始终在最后一个 slot\r\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -250,5 +250,24 @@
   "created_at": "2016-10-21T03:55:55Z",
   "updated_at": "2016-11-22T10:02:45Z",
   "closed_at": "2016-11-22T10:02:45Z",
-  "body": "虽然文档上没有写，但是我测试中发现是可以通过为 slider 添加属性 index=number 的方式来控制 slider 的 index 的，但是发现了一个 bug，就是在 ios 中，当 slider 里的内容超过 2个的时候此方式有效，当小于等于2的时候就不行了。\n\n是什么问题呢...  \n"
+  "body": "虽然文档上没有写，但是我测试中发现是可以通过为 slider 添加属性 index=number 的方式来控制 slider 的 index 的，但是发现了一个 bug，就是在 ios 中，当 slider 里的内容超过 2个的时候此方式有效，当小于等于2的时候就不行了。\n\n是什么问题呢...  \n",
+  "closed_by": {
+    "login": "cxfeng1",
+    "id": 1625893,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1625893?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cxfeng1",
+    "html_url": "https://github.com/cxfeng1",
+    "followers_url": "https://api.github.com/users/cxfeng1/followers",
+    "following_url": "https://api.github.com/users/cxfeng1/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cxfeng1/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cxfeng1/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cxfeng1/subscriptions",
+    "organizations_url": "https://api.github.com/users/cxfeng1/orgs",
+    "repos_url": "https://api.github.com/users/cxfeng1/repos",
+    "events_url": "https://api.github.com/users/cxfeng1/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cxfeng1/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

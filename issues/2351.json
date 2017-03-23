@@ -160,5 +160,6 @@
   "created_at": "2017-01-20T07:57:24Z",
   "updated_at": "2017-01-22T11:54:07Z",
   "closed_at": null,
-  "body": "为什么我用playground扫相同的有网络请求的we，android机能扫出网络请求结果，iphone的就直接报这个错求解\r\n![e4e52e8a-1ef2-f602-23e1-32a9e7733601](https://cloud.githubusercontent.com/assets/25242004/22140712/19f7a774-df29-11e6-8892-5adbc5517d25.png)\r\n"
+  "body": "为什么我用playground扫相同的有网络请求的we，android机能扫出网络请求结果，iphone的就直接报这个错求解\r\n![e4e52e8a-1ef2-f602-23e1-32a9e7733601](https://cloud.githubusercontent.com/assets/25242004/22140712/19f7a774-df29-11e6-8892-5adbc5517d25.png)\r\n",
+  "closed_by": null
 }

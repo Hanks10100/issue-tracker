@@ -72,5 +72,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/194.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/194.patch"
   },
-  "body": "fix for this issue https://github.com/alibaba/weex/issues/164\n\nvue 的作者最后还是把这个限制去掉了（ vuejs/vue@b89e7c3 ）\n\n这个限制真的很麻烦（很多数据库都有以_开头的默认字段，需要一个一个处理转换，非常冗余）\n可以看看\nvuejs/vue#665\n这里的讨论\n\nPython有个哲学，就是不要限死，因为凡事都有例外\n"
+  "body": "fix for this issue https://github.com/alibaba/weex/issues/164\n\nvue 的作者最后还是把这个限制去掉了（ vuejs/vue@b89e7c3 ）\n\n这个限制真的很麻烦（很多数据库都有以_开头的默认字段，需要一个一个处理转换，非常冗余）\n可以看看\nvuejs/vue#665\n这里的讨论\n\nPython有个哲学，就是不要限死，因为凡事都有例外\n",
+  "closed_by": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

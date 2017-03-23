@@ -66,5 +66,24 @@
   "created_at": "2017-03-08T02:37:58Z",
   "updated_at": "2017-03-08T07:26:14Z",
   "closed_at": "2017-03-08T07:26:14Z",
-  "body": "在进行界面布局的时候有时候需要设置dp，那么是否需要自定义一个module传density过来，然后每个想写dp的地方都转换一下呢？"
+  "body": "在进行界面布局的时候有时候需要设置dp，那么是否需要自定义一个module传density过来，然后每个想写dp的地方都转换一下呢？",
+  "closed_by": {
+    "login": "misakuo",
+    "id": 6958743,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6958743?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/misakuo",
+    "html_url": "https://github.com/misakuo",
+    "followers_url": "https://api.github.com/users/misakuo/followers",
+    "following_url": "https://api.github.com/users/misakuo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/misakuo/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/misakuo/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/misakuo/subscriptions",
+    "organizations_url": "https://api.github.com/users/misakuo/orgs",
+    "repos_url": "https://api.github.com/users/misakuo/repos",
+    "events_url": "https://api.github.com/users/misakuo/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/misakuo/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

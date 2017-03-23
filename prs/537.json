@@ -43,5 +43,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/537.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/537.patch"
   },
-  "body": "[ios] remove inverted-logic\n"
+  "body": "[ios] remove inverted-logic\n",
+  "closed_by": {
+    "login": "xujingbao",
+    "id": 1118548,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1118548?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/xujingbao",
+    "html_url": "https://github.com/xujingbao",
+    "followers_url": "https://api.github.com/users/xujingbao/followers",
+    "following_url": "https://api.github.com/users/xujingbao/following{/other_user}",
+    "gists_url": "https://api.github.com/users/xujingbao/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/xujingbao/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/xujingbao/subscriptions",
+    "organizations_url": "https://api.github.com/users/xujingbao/orgs",
+    "repos_url": "https://api.github.com/users/xujingbao/repos",
+    "events_url": "https://api.github.com/users/xujingbao/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/xujingbao/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

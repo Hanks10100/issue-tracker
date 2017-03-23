@@ -254,5 +254,24 @@
   "created_at": "2017-01-13T10:25:57Z",
   "updated_at": "2017-01-17T05:17:43Z",
   "closed_at": "2017-01-17T05:16:45Z",
-  "body": "debug时，扫一扫后 app crash掉了，报错 [WXDebugger registerCallNativeModule:] unrecognized selector，请查看一下"
+  "body": "debug时，扫一扫后 app crash掉了，报错 [WXDebugger registerCallNativeModule:] unrecognized selector，请查看一下",
+  "closed_by": {
+    "login": "xiaohuapunk",
+    "id": 9956517,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/9956517?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/xiaohuapunk",
+    "html_url": "https://github.com/xiaohuapunk",
+    "followers_url": "https://api.github.com/users/xiaohuapunk/followers",
+    "following_url": "https://api.github.com/users/xiaohuapunk/following{/other_user}",
+    "gists_url": "https://api.github.com/users/xiaohuapunk/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/xiaohuapunk/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/xiaohuapunk/subscriptions",
+    "organizations_url": "https://api.github.com/users/xiaohuapunk/orgs",
+    "repos_url": "https://api.github.com/users/xiaohuapunk/repos",
+    "events_url": "https://api.github.com/users/xiaohuapunk/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/xiaohuapunk/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

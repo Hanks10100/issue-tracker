@@ -72,5 +72,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1283.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1283.patch"
   },
-  "body": ""
+  "body": "",
+  "closed_by": {
+    "login": "ShanZha",
+    "id": 4124537,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/4124537?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ShanZha",
+    "html_url": "https://github.com/ShanZha",
+    "followers_url": "https://api.github.com/users/ShanZha/followers",
+    "following_url": "https://api.github.com/users/ShanZha/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ShanZha/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ShanZha/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ShanZha/subscriptions",
+    "organizations_url": "https://api.github.com/users/ShanZha/orgs",
+    "repos_url": "https://api.github.com/users/ShanZha/repos",
+    "events_url": "https://api.github.com/users/ShanZha/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ShanZha/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

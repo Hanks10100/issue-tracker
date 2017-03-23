@@ -328,5 +328,24 @@
   "created_at": "2016-09-20T02:58:09Z",
   "updated_at": "2016-12-13T08:15:31Z",
   "closed_at": "2016-09-26T02:29:56Z",
-  "body": "windows系统\n1、weex init\n2、 npm install\n3、weex **.we --qr\n在第三步的时候就包这个错了\nERR! ReferenceError: Unknown plugin \"D:\\Users\\****\\AppData\\Roaming\\n\npm\\node_modules\\weex-toolkit\\node_modules\\weex-loader\\node_modules\\babel-p\nlugin-transform-runtime\" specified in \"base\" at 0, attempted to resolve relative\nto \"F:\\week\\week\\we\"\n\n一直报这个错，不知道什么原因，求帮忙啊\n"
+  "body": "windows系统\n1、weex init\n2、 npm install\n3、weex **.we --qr\n在第三步的时候就包这个错了\nERR! ReferenceError: Unknown plugin \"D:\\Users\\****\\AppData\\Roaming\\n\npm\\node_modules\\weex-toolkit\\node_modules\\weex-loader\\node_modules\\babel-p\nlugin-transform-runtime\" specified in \"base\" at 0, attempted to resolve relative\nto \"F:\\week\\week\\we\"\n\n一直报这个错，不知道什么原因，求帮忙啊\n",
+  "closed_by": {
+    "login": "lvscar",
+    "id": 1578838,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1578838?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/lvscar",
+    "html_url": "https://github.com/lvscar",
+    "followers_url": "https://api.github.com/users/lvscar/followers",
+    "following_url": "https://api.github.com/users/lvscar/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lvscar/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/lvscar/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/lvscar/subscriptions",
+    "organizations_url": "https://api.github.com/users/lvscar/orgs",
+    "repos_url": "https://api.github.com/users/lvscar/repos",
+    "events_url": "https://api.github.com/users/lvscar/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/lvscar/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

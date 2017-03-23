@@ -150,5 +150,6 @@
   "created_at": "2017-01-18T08:01:33Z",
   "updated_at": "2017-01-23T02:50:40Z",
   "closed_at": null,
-  "body": "1、as控制台输出截图\r\n![2](https://cloud.githubusercontent.com/assets/15266646/22055591/d5fc6444-dd96-11e6-8f82-086d2f393899.png)\r\n2、vue代码\r\n![1](https://cloud.githubusercontent.com/assets/15266646/22055593/d84ffd50-dd96-11e6-8534-3ee5fbb04b51.png)\r\n\r\n系统win7，使用sdk(版本0.9.4)源码依赖的方式，集成的项目，as debug的时候点击a标签都会报E/weex: [WXModuleManager] module factory not found\r\n\r\n\r\n\r\n\r\n"
+  "body": "1、as控制台输出截图\r\n![2](https://cloud.githubusercontent.com/assets/15266646/22055591/d5fc6444-dd96-11e6-8f82-086d2f393899.png)\r\n2、vue代码\r\n![1](https://cloud.githubusercontent.com/assets/15266646/22055593/d84ffd50-dd96-11e6-8534-3ee5fbb04b51.png)\r\n\r\n系统win7，使用sdk(版本0.9.4)源码依赖的方式，集成的项目，as debug的时候点击a标签都会报E/weex: [WXModuleManager] module factory not found\r\n\r\n\r\n\r\n\r\n",
+  "closed_by": null
 }

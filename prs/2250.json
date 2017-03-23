@@ -71,9 +71,38 @@
     }
   ],
   "milestone": null,
-  "comments": [],
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/288627030",
+      "html_url": "https://github.com/alibaba/weex/pull/2250#issuecomment-288627030",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/2250",
+      "id": 288627030,
+      "user": {
+        "login": "emptywalker",
+        "id": 12522809,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/12522809?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/emptywalker",
+        "html_url": "https://github.com/emptywalker",
+        "followers_url": "https://api.github.com/users/emptywalker/followers",
+        "following_url": "https://api.github.com/users/emptywalker/following{/other_user}",
+        "gists_url": "https://api.github.com/users/emptywalker/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/emptywalker/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/emptywalker/subscriptions",
+        "organizations_url": "https://api.github.com/users/emptywalker/orgs",
+        "repos_url": "https://api.github.com/users/emptywalker/repos",
+        "events_url": "https://api.github.com/users/emptywalker/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/emptywalker/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2017-03-23T06:14:55Z",
+      "updated_at": "2017-03-23T06:14:55Z",
+      "body": "这个在调用的时候 怎么使用，instanceId哪里来呢"
+    }
+  ],
   "created_at": "2017-01-13T05:50:58Z",
-  "updated_at": "2017-01-13T06:31:30Z",
+  "updated_at": "2017-03-23T06:14:55Z",
   "closed_at": "2017-01-13T06:31:30Z",
   "pull_request": {
     "url": "https://api.github.com/repos/alibaba/weex/pulls/2250",
@@ -81,5 +110,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2250.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2250.patch"
   },
-  "body": "support two synchronous calls for bridge communication:\r\n\r\n* `callNativeComponent`\r\n* `callNativeModule`"
+  "body": "support two synchronous calls for bridge communication:\r\n\r\n* `callNativeComponent`\r\n* `callNativeModule`",
+  "closed_by": {
+    "login": "Hanks10100",
+    "id": 8401776,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8401776?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Hanks10100",
+    "html_url": "https://github.com/Hanks10100",
+    "followers_url": "https://api.github.com/users/Hanks10100/followers",
+    "following_url": "https://api.github.com/users/Hanks10100/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Hanks10100/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Hanks10100/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Hanks10100/subscriptions",
+    "organizations_url": "https://api.github.com/users/Hanks10100/orgs",
+    "repos_url": "https://api.github.com/users/Hanks10100/repos",
+    "events_url": "https://api.github.com/users/Hanks10100/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Hanks10100/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

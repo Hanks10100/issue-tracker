@@ -43,5 +43,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/407.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/407.patch"
   },
-  "body": ""
+  "body": "",
+  "closed_by": {
+    "login": "littleseven",
+    "id": 3962302,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3962302?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/littleseven",
+    "html_url": "https://github.com/littleseven",
+    "followers_url": "https://api.github.com/users/littleseven/followers",
+    "following_url": "https://api.github.com/users/littleseven/following{/other_user}",
+    "gists_url": "https://api.github.com/users/littleseven/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/littleseven/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/littleseven/subscriptions",
+    "organizations_url": "https://api.github.com/users/littleseven/orgs",
+    "repos_url": "https://api.github.com/users/littleseven/repos",
+    "events_url": "https://api.github.com/users/littleseven/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/littleseven/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

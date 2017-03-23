@@ -234,5 +234,24 @@
   "created_at": "2017-01-19T07:41:17Z",
   "updated_at": "2017-02-15T11:13:40Z",
   "closed_at": "2017-01-19T10:29:35Z",
-  "body": "在iOS 设备上，修改类的 toString 方法会提示：\r\n\r\n> Cannot assign to read only property 'toString' of object\r\n\r\n在游览器里没这个问题。用的sdk是从 `dev` 分支下自己编译的最新版。\r\n\r\n复现代码:\r\n```vue\r\n<template>\r\n  <div class=\"wrapper\" @click=\"update\">\r\n    <image :src=\"logoUrl\" class=\"logo\"></image>\r\n    <text class=\"title\" v-if=\"!show\">Good!! {{target}}</text>\r\n    <text class=\"title\" v-else-if=\"show\">Bad!! {{target}}</text>\r\n  </div>\r\n</template>\r\n\r\n<style>\r\n  .wrapper { align-items: center; margin-top: 120px; }\r\n  .title { font-size: 48px; }\r\n  .logo { width: 360px; height: 82px; }\r\n</style>\r\n\r\n<script>\r\n  export default {\r\n    data: {\r\n      logoUrl: 'https://alibaba.github.io/weex/img/weex_logo_blue@3x.png',\r\n      target: 'World',\r\n      show: true,\r\n    },\r\n    mounted: function() {\r\n      debugger;\r\n      var a = function() {\r\n\r\n      };\r\n      a.prototype.toString = function(){return 'hhhhhh';};\r\n    },\r\n    methods: {\r\n      update: function (e) {\r\n        this.target = 'Weex'\r\n        console.log('target:', this.target)\r\n      }\r\n    }\r\n  }\r\n</script>\r\n```"
+  "body": "在iOS 设备上，修改类的 toString 方法会提示：\r\n\r\n> Cannot assign to read only property 'toString' of object\r\n\r\n在游览器里没这个问题。用的sdk是从 `dev` 分支下自己编译的最新版。\r\n\r\n复现代码:\r\n```vue\r\n<template>\r\n  <div class=\"wrapper\" @click=\"update\">\r\n    <image :src=\"logoUrl\" class=\"logo\"></image>\r\n    <text class=\"title\" v-if=\"!show\">Good!! {{target}}</text>\r\n    <text class=\"title\" v-else-if=\"show\">Bad!! {{target}}</text>\r\n  </div>\r\n</template>\r\n\r\n<style>\r\n  .wrapper { align-items: center; margin-top: 120px; }\r\n  .title { font-size: 48px; }\r\n  .logo { width: 360px; height: 82px; }\r\n</style>\r\n\r\n<script>\r\n  export default {\r\n    data: {\r\n      logoUrl: 'https://alibaba.github.io/weex/img/weex_logo_blue@3x.png',\r\n      target: 'World',\r\n      show: true,\r\n    },\r\n    mounted: function() {\r\n      debugger;\r\n      var a = function() {\r\n\r\n      };\r\n      a.prototype.toString = function(){return 'hhhhhh';};\r\n    },\r\n    methods: {\r\n      update: function (e) {\r\n        this.target = 'Weex'\r\n        console.log('target:', this.target)\r\n      }\r\n    }\r\n  }\r\n</script>\r\n```",
+  "closed_by": {
+    "login": "Hanks10100",
+    "id": 8401776,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8401776?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Hanks10100",
+    "html_url": "https://github.com/Hanks10100",
+    "followers_url": "https://api.github.com/users/Hanks10100/followers",
+    "following_url": "https://api.github.com/users/Hanks10100/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Hanks10100/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Hanks10100/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Hanks10100/subscriptions",
+    "organizations_url": "https://api.github.com/users/Hanks10100/orgs",
+    "repos_url": "https://api.github.com/users/Hanks10100/repos",
+    "events_url": "https://api.github.com/users/Hanks10100/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Hanks10100/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

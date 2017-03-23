@@ -43,5 +43,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2736.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2736.patch"
   },
-  "body": "add support of current-item-scale properties of slider-neighbor, as same as iOS."
+  "body": "add support of current-item-scale properties of slider-neighbor, as same as iOS.",
+  "closed_by": {
+    "login": "wispy316",
+    "id": 4507261,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/4507261?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/wispy316",
+    "html_url": "https://github.com/wispy316",
+    "followers_url": "https://api.github.com/users/wispy316/followers",
+    "following_url": "https://api.github.com/users/wispy316/following{/other_user}",
+    "gists_url": "https://api.github.com/users/wispy316/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/wispy316/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/wispy316/subscriptions",
+    "organizations_url": "https://api.github.com/users/wispy316/orgs",
+    "repos_url": "https://api.github.com/users/wispy316/repos",
+    "events_url": "https://api.github.com/users/wispy316/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/wispy316/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -100,5 +100,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/589.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/589.patch"
   },
-  "body": "## feature list:\n- [android] bugfix\n- [android] fix register order\n- [android] allow rewrite component\n- [android] add x86 support\n- [android] add new stream.fetch for network \n- [android] add horizontal scroll list & list scroll transformation\n- [android] improve sdk initial task: make reflection lazy or and execute in JS thread\n- [android] improve sdk architecture by decouple module/component management\n- [android]  optimize list recycle\n- [android] bugfix layout can not be reset for list\n- [android] add loadmoreretry att for load more\n- [android] fix getScreenWidth npe\n- [android] add setting render screen direction\n- [android] allow duplication registerModule\n- [android] allow duplicate register component\n- [android] fix multithreading exception\n- [android] add fresco image adapter\n- [android] bugfix layout can not be reset for list\n- [android] add loadmoreretry att for load more\n- [android] optimize list recycle\n"
+  "body": "## feature list:\n- [android] bugfix\n- [android] fix register order\n- [android] allow rewrite component\n- [android] add x86 support\n- [android] add new stream.fetch for network \n- [android] add horizontal scroll list & list scroll transformation\n- [android] improve sdk initial task: make reflection lazy or and execute in JS thread\n- [android] improve sdk architecture by decouple module/component management\n- [android]  optimize list recycle\n- [android] bugfix layout can not be reset for list\n- [android] add loadmoreretry att for load more\n- [android] fix getScreenWidth npe\n- [android] add setting render screen direction\n- [android] allow duplication registerModule\n- [android] allow duplicate register component\n- [android] fix multithreading exception\n- [android] add fresco image adapter\n- [android] bugfix layout can not be reset for list\n- [android] add loadmoreretry att for load more\n- [android] optimize list recycle\n",
+  "closed_by": {
+    "login": "atomtong",
+    "id": 5134163,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5134163?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/atomtong",
+    "html_url": "https://github.com/atomtong",
+    "followers_url": "https://api.github.com/users/atomtong/followers",
+    "following_url": "https://api.github.com/users/atomtong/following{/other_user}",
+    "gists_url": "https://api.github.com/users/atomtong/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/atomtong/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/atomtong/subscriptions",
+    "organizations_url": "https://api.github.com/users/atomtong/orgs",
+    "repos_url": "https://api.github.com/users/atomtong/repos",
+    "events_url": "https://api.github.com/users/atomtong/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/atomtong/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

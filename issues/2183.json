@@ -178,5 +178,24 @@
   "created_at": "2017-01-09T12:41:45Z",
   "updated_at": "2017-01-10T02:20:08Z",
   "closed_at": "2017-01-10T02:20:08Z",
-  "body": "问题描述：\r\n我在一个we文件中增加了如下代码：\r\nthis.modal.toast({'message':'test', 'duration': 2});\r\n\r\n结果：\r\n1. this.modal.toast在Android端显示正常;\r\n2. this.modal.toast在iOS端不会显示浮层提示，但换成weex playground运行，可以显示浮层提示。\r\n\r\n分析过程：\r\n1. 将iOS SDK从0.8.0升级到0.9.4，问题依然复现；\r\n2. 跟踪WXModalUIModule中的如下代码，没有异常，但浮层提示不能显示：\r\n- (void)showToast:(UIView *)toastView superView:(UIView *)superView duration:(double)duration\r\n{\r\n    if (!toastView || !superView) {\r\n        return;\r\n    }\r\n    \r\n    [WXToastManager sharedManager].toastingView = toastView;\r\n    [superView addSubview:toastView];\r\n    \r\n    [UIView animateWithDuration:0.2 delay:duration options:UIViewAnimationOptionCurveEaseInOut animations:^{\r\n        toastView.transform = CGAffineTransformConcat(toastView.transform, CGAffineTransformMakeScale(0.8, 0.8)) ;\r\n    } completion:^(BOOL finished) {\r\n        [UIView animateWithDuration:0.2 delay:0.2 options:UIViewAnimationOptionCurveEaseInOut animations:^{\r\n            toastView.alpha = 0;\r\n        } completion:^(BOOL finished){\r\n            [toastView removeFromSuperview];\r\n            [WXToastManager sharedManager].toastingView = nil;\r\n            \r\n            NSMutableArray *queue = [WXToastManager sharedManager].toastQueue;\r\n            if (queue.count > 0) {\r\n                [queue removeObjectAtIndex:0];\r\n                if (queue.count > 0) {\r\n                    WXToastInfo *info = [queue firstObject];\r\n                    [self showToast:info.toastView superView:info.superView duration:info.duration];\r\n                }\r\n            }\r\n        }];\r\n    }];\r\n}\r\n\r\n3. 比较APP中的WXViewController与weex playground的代码，没有遗漏代码。\r\n\r\n问题：\r\n1. iOS APP的集成过程完全遵循demo程序；\r\n2.我的APP中集成了一些第三方组件：百度地图SDK、友盟统计、极光推送等；\r\n3.现在的现象是依赖组件兼容性的问题么？\r\n\r\n谢谢！"
+  "body": "问题描述：\r\n我在一个we文件中增加了如下代码：\r\nthis.modal.toast({'message':'test', 'duration': 2});\r\n\r\n结果：\r\n1. this.modal.toast在Android端显示正常;\r\n2. this.modal.toast在iOS端不会显示浮层提示，但换成weex playground运行，可以显示浮层提示。\r\n\r\n分析过程：\r\n1. 将iOS SDK从0.8.0升级到0.9.4，问题依然复现；\r\n2. 跟踪WXModalUIModule中的如下代码，没有异常，但浮层提示不能显示：\r\n- (void)showToast:(UIView *)toastView superView:(UIView *)superView duration:(double)duration\r\n{\r\n    if (!toastView || !superView) {\r\n        return;\r\n    }\r\n    \r\n    [WXToastManager sharedManager].toastingView = toastView;\r\n    [superView addSubview:toastView];\r\n    \r\n    [UIView animateWithDuration:0.2 delay:duration options:UIViewAnimationOptionCurveEaseInOut animations:^{\r\n        toastView.transform = CGAffineTransformConcat(toastView.transform, CGAffineTransformMakeScale(0.8, 0.8)) ;\r\n    } completion:^(BOOL finished) {\r\n        [UIView animateWithDuration:0.2 delay:0.2 options:UIViewAnimationOptionCurveEaseInOut animations:^{\r\n            toastView.alpha = 0;\r\n        } completion:^(BOOL finished){\r\n            [toastView removeFromSuperview];\r\n            [WXToastManager sharedManager].toastingView = nil;\r\n            \r\n            NSMutableArray *queue = [WXToastManager sharedManager].toastQueue;\r\n            if (queue.count > 0) {\r\n                [queue removeObjectAtIndex:0];\r\n                if (queue.count > 0) {\r\n                    WXToastInfo *info = [queue firstObject];\r\n                    [self showToast:info.toastView superView:info.superView duration:info.duration];\r\n                }\r\n            }\r\n        }];\r\n    }];\r\n}\r\n\r\n3. 比较APP中的WXViewController与weex playground的代码，没有遗漏代码。\r\n\r\n问题：\r\n1. iOS APP的集成过程完全遵循demo程序；\r\n2.我的APP中集成了一些第三方组件：百度地图SDK、友盟统计、极光推送等；\r\n3.现在的现象是依赖组件兼容性的问题么？\r\n\r\n谢谢！",
+  "closed_by": {
+    "login": "Lurkyli",
+    "id": 9714115,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/9714115?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Lurkyli",
+    "html_url": "https://github.com/Lurkyli",
+    "followers_url": "https://api.github.com/users/Lurkyli/followers",
+    "following_url": "https://api.github.com/users/Lurkyli/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Lurkyli/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Lurkyli/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Lurkyli/subscriptions",
+    "organizations_url": "https://api.github.com/users/Lurkyli/orgs",
+    "repos_url": "https://api.github.com/users/Lurkyli/repos",
+    "events_url": "https://api.github.com/users/Lurkyli/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Lurkyli/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -361,5 +361,6 @@
   "created_at": "2016-11-02T01:07:11Z",
   "updated_at": "2016-12-08T02:12:43Z",
   "closed_at": null,
-  "body": "由于自定义的component的组件需要涉及到activity的生命周期的几个方法，重写了此接口的方法，但是在实际执行的时候并没有进入到我的方法\r\nandroid    0.7.0版本"
+  "body": "由于自定义的component的组件需要涉及到activity的生命周期的几个方法，重写了此接口的方法，但是在实际执行的时候并没有进入到我的方法\r\nandroid    0.7.0版本",
+  "closed_by": null
 }

@@ -122,5 +122,24 @@
   "created_at": "2016-12-27T08:04:53Z",
   "updated_at": "2017-01-02T10:40:13Z",
   "closed_at": "2016-12-27T15:27:11Z",
-  "body": "第一个问题：如何可以写成这样的方式？ 就像var username= module.getUsername();其中moudle是自定义模块。\r\n第二个问题：如何在回调函数中直接返回一个Object对象。moudle.getInfo(function(obj){});其中obj是一个{a:a,b:b,c:c,...}的对象。"
+  "body": "第一个问题：如何可以写成这样的方式？ 就像var username= module.getUsername();其中moudle是自定义模块。\r\n第二个问题：如何在回调函数中直接返回一个Object对象。moudle.getInfo(function(obj){});其中obj是一个{a:a,b:b,c:c,...}的对象。",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -81,5 +81,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2211.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2211.patch"
   },
-  "body": "* prevent loadmore event from being triggered while pulling down.\t\t\t\r\n* ensure default modules/components/handlers are ready before create instance."
+  "body": "* prevent loadmore event from being triggered while pulling down.\t\t\t\r\n* ensure default modules/components/handlers are ready before create instance.",
+  "closed_by": {
+    "login": "kfeagle",
+    "id": 11485145,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/11485145?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/kfeagle",
+    "html_url": "https://github.com/kfeagle",
+    "followers_url": "https://api.github.com/users/kfeagle/followers",
+    "following_url": "https://api.github.com/users/kfeagle/following{/other_user}",
+    "gists_url": "https://api.github.com/users/kfeagle/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/kfeagle/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/kfeagle/subscriptions",
+    "organizations_url": "https://api.github.com/users/kfeagle/orgs",
+    "repos_url": "https://api.github.com/users/kfeagle/repos",
+    "events_url": "https://api.github.com/users/kfeagle/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/kfeagle/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

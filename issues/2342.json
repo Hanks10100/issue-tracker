@@ -66,5 +66,6 @@
   "created_at": "2017-01-20T02:28:24Z",
   "updated_at": "2017-01-20T12:58:41Z",
   "closed_at": null,
-  "body": "用weexpack 运行 TypeError: Cannot read property 'join' of undefined\r\nat utils.checkAndInstallForIosDeploy.then.then.then.then.then.then.then.then.then.catch.e (/usr/local/lib/node_modules/weexpack/src/run/iOS.js:32:33) 什么情况"
+  "body": "用weexpack 运行 TypeError: Cannot read property 'join' of undefined\r\nat utils.checkAndInstallForIosDeploy.then.then.then.then.then.then.then.then.then.catch.e (/usr/local/lib/node_modules/weexpack/src/run/iOS.js:32:33) 什么情况",
+  "closed_by": null
 }

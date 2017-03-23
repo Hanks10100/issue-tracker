@@ -179,5 +179,24 @@
   "created_at": "2017-01-04T09:20:28Z",
   "updated_at": "2017-01-05T10:06:35Z",
   "closed_at": "2017-01-05T10:06:35Z",
-  "body": "Hi，我现在有一个需求：需要将一个第三方公司提供的密码输入框控件封装成Weex自定义组件，其实需要一个方法去调用控件一个C++ 本地方法来获取加密密文，但目前我没有找到适当的方式来让Weex端能直接调用自定义组件的成员方法，是Weex不支持吗？求赐教！"
+  "body": "Hi，我现在有一个需求：需要将一个第三方公司提供的密码输入框控件封装成Weex自定义组件，其实需要一个方法去调用控件一个C++ 本地方法来获取加密密文，但目前我没有找到适当的方式来让Weex端能直接调用自定义组件的成员方法，是Weex不支持吗？求赐教！",
+  "closed_by": {
+    "login": "misakuo",
+    "id": 6958743,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6958743?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/misakuo",
+    "html_url": "https://github.com/misakuo",
+    "followers_url": "https://api.github.com/users/misakuo/followers",
+    "following_url": "https://api.github.com/users/misakuo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/misakuo/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/misakuo/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/misakuo/subscriptions",
+    "organizations_url": "https://api.github.com/users/misakuo/orgs",
+    "repos_url": "https://api.github.com/users/misakuo/repos",
+    "events_url": "https://api.github.com/users/misakuo/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/misakuo/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

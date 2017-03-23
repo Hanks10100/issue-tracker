@@ -66,5 +66,6 @@
   "created_at": "2017-02-13T03:29:58Z",
   "updated_at": "2017-02-16T03:40:37Z",
   "closed_at": null,
-  "body": "是不支持还是我使用的不对？\r\n```js\r\n<input type=\"radio\" name=\"sex\" value=\"woman\" />\r\n<input type=\"radio\" name=\"sex\" value=\"man\" />\r\n```"
+  "body": "是不支持还是我使用的不对？\r\n```js\r\n<input type=\"radio\" name=\"sex\" value=\"woman\" />\r\n<input type=\"radio\" name=\"sex\" value=\"man\" />\r\n```",
+  "closed_by": null
 }

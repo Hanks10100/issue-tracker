@@ -234,5 +234,24 @@
   "created_at": "2016-12-15T08:41:42Z",
   "updated_at": "2016-12-19T01:48:22Z",
   "closed_at": "2016-12-19T01:48:22Z",
-  "body": "\r\n### 1. js安全性问题\r\n##### 现在 我们这边采用增量更新机制升级js 文件,首次对js进行zip加密压缩,首次运行时候时将js文件解压出来存放在app的某个目录下面进行运行渲染,但是js文件其实暴露出来了,我们的一些页面接口很容易暴露,这个不是我们想要的, 请问weex该如何保证js的安全性\r\n\r\n### 2. js文件较大\r\n##### weex页面的js都是可以独立运行的,设计的初衷很好,但是带来的问题生成的js文件比较大,比较简单的功能页面都要上百k,目前我们团队采用zip 加密压缩压缩完也只能变小80%左右,其实文件还是很大.这样的体验不是我们想要的,在抓包过程发现淘宝的数据包请求都很小,能否分享下淘宝的实现\r\n\r\n### 3. weex首次运行在android中有明显白屏过程\r\n##### 将js存放本地,首次运行会发现有明显的白过程,需要在页面做加载动画, 看了淘宝android版本的貌似有做提前预加载的处理,预加载这一块希望貌似目前的资料很少\r\n\r\n\r\n###### 我们app已经在部分模块集成weex,效果很棒, 连做原生的开发人员都很难区分页面是用weex实现还是用原生实现的,在这里感谢weex团队.\r\n"
+  "body": "\r\n### 1. js安全性问题\r\n##### 现在 我们这边采用增量更新机制升级js 文件,首次对js进行zip加密压缩,首次运行时候时将js文件解压出来存放在app的某个目录下面进行运行渲染,但是js文件其实暴露出来了,我们的一些页面接口很容易暴露,这个不是我们想要的, 请问weex该如何保证js的安全性\r\n\r\n### 2. js文件较大\r\n##### weex页面的js都是可以独立运行的,设计的初衷很好,但是带来的问题生成的js文件比较大,比较简单的功能页面都要上百k,目前我们团队采用zip 加密压缩压缩完也只能变小80%左右,其实文件还是很大.这样的体验不是我们想要的,在抓包过程发现淘宝的数据包请求都很小,能否分享下淘宝的实现\r\n\r\n### 3. weex首次运行在android中有明显白屏过程\r\n##### 将js存放本地,首次运行会发现有明显的白过程,需要在页面做加载动画, 看了淘宝android版本的貌似有做提前预加载的处理,预加载这一块希望貌似目前的资料很少\r\n\r\n\r\n###### 我们app已经在部分模块集成weex,效果很棒, 连做原生的开发人员都很难区分页面是用weex实现还是用原生实现的,在这里感谢weex团队.\r\n",
+  "closed_by": {
+    "login": "liujianying",
+    "id": 6265414,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6265414?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/liujianying",
+    "html_url": "https://github.com/liujianying",
+    "followers_url": "https://api.github.com/users/liujianying/followers",
+    "following_url": "https://api.github.com/users/liujianying/following{/other_user}",
+    "gists_url": "https://api.github.com/users/liujianying/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/liujianying/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/liujianying/subscriptions",
+    "organizations_url": "https://api.github.com/users/liujianying/orgs",
+    "repos_url": "https://api.github.com/users/liujianying/repos",
+    "events_url": "https://api.github.com/users/liujianying/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/liujianying/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

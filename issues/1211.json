@@ -318,5 +318,24 @@
   "created_at": "2016-09-13T01:51:45Z",
   "updated_at": "2016-10-24T12:26:39Z",
   "closed_at": "2016-10-24T12:26:39Z",
-  "body": "在created里边使用stream方法调用后台服务，在stream的回调里边修改了界面的数据绑定变量 变量值修改后 界面有时会根据新值渲染 有时不会，举例代码如下，有时候div就能正常显示，有时候就不能，但是从界面能看出留了一段高度在那。android手机\n\n``` html\n<template>\n   <div style=\"height: 500; width: 500; background-color: red\" if={{xxx}}></div>\n</template>\n<script>\n   module.exports={\n      data: {\n         xxx:false;\n      },\n      created:function() {\n         var stream = require('@weex-module/stream');\n         stream.fetch({***}, function(res){xxx=true;}, function(res){});\n      }\n   }\n</script>\n```\n"
+  "body": "在created里边使用stream方法调用后台服务，在stream的回调里边修改了界面的数据绑定变量 变量值修改后 界面有时会根据新值渲染 有时不会，举例代码如下，有时候div就能正常显示，有时候就不能，但是从界面能看出留了一段高度在那。android手机\n\n``` html\n<template>\n   <div style=\"height: 500; width: 500; background-color: red\" if={{xxx}}></div>\n</template>\n<script>\n   module.exports={\n      data: {\n         xxx:false;\n      },\n      created:function() {\n         var stream = require('@weex-module/stream');\n         stream.fetch({***}, function(res){xxx=true;}, function(res){});\n      }\n   }\n</script>\n```\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

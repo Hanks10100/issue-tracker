@@ -108,5 +108,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2474.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2474.patch"
   },
-  "body": "add a new length unit of 'wx'. This is a platform based unit, just suitable for part-screen usage.\r\n1. in html5 means x * devicePixelRatio.  \r\n2. in Android means x * density (same as dp).\r\n3. in iOS means x * scale.\r\n\r\nso the weex will render the same size of views as the native does.\r\n"
+  "body": "add a new length unit of 'wx'. This is a platform based unit, just suitable for part-screen usage.\r\n1. in html5 means x * devicePixelRatio.  \r\n2. in Android means x * density (same as dp).\r\n3. in iOS means x * scale.\r\n\r\nso the weex will render the same size of views as the native does.\r\n",
+  "closed_by": {
+    "login": "wispy316",
+    "id": 4507261,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/4507261?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/wispy316",
+    "html_url": "https://github.com/wispy316",
+    "followers_url": "https://api.github.com/users/wispy316/followers",
+    "following_url": "https://api.github.com/users/wispy316/following{/other_user}",
+    "gists_url": "https://api.github.com/users/wispy316/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/wispy316/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/wispy316/subscriptions",
+    "organizations_url": "https://api.github.com/users/wispy316/orgs",
+    "repos_url": "https://api.github.com/users/wispy316/repos",
+    "events_url": "https://api.github.com/users/wispy316/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/wispy316/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

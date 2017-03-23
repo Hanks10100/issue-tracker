@@ -66,5 +66,6 @@
   "created_at": "2017-02-27T10:33:15Z",
   "updated_at": "2017-02-27T10:33:55Z",
   "closed_at": null,
-  "body": "获取到的UIImage对象以回调Block方式回传，请问而后如何将图片应用到Img标签上？"
+  "body": "获取到的UIImage对象以回调Block方式回传，请问而后如何将图片应用到Img标签上？",
+  "closed_by": null
 }

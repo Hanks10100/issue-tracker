@@ -94,5 +94,24 @@
   "created_at": "2017-01-11T05:48:49Z",
   "updated_at": "2017-01-13T07:03:11Z",
   "closed_at": "2017-01-13T07:03:11Z",
-  "body": "Weex Android SDK 版本： 0.9.4\r\n\r\n```HTML\r\n<div style=\"height: 100;\" onclick=\"toast(100)\"></div>\r\n```\r\n```JavaScript\r\nmethods: {\r\n    toast: function (i) {\r\n        require('@weex-module/toastModule').showToast(\"测试\");\r\n    }\r\n}\r\n```\r\n\r\nhttps://weex-project.io/cn/doc/syntax/events.html#%E7%89%B9%E6%AE%8A%E7%9A%84%E5%86%85%E8%81%94%E4%BA%8B%E4%BB%B6%E5%A4%84%E7%90%86%E5%8F%82%E6%95%B0\r\n\r\n仿照文档写点击事件，在 `toast` 后加上括号，调用本地方法就无法响应，去掉括号只写函数名（`onclick=\"toast\"`）才能正常响应点击事件。\r\n\r\n求大神指导！ 😀"
+  "body": "Weex Android SDK 版本： 0.9.4\r\n\r\n```HTML\r\n<div style=\"height: 100;\" onclick=\"toast(100)\"></div>\r\n```\r\n```JavaScript\r\nmethods: {\r\n    toast: function (i) {\r\n        require('@weex-module/toastModule').showToast(\"测试\");\r\n    }\r\n}\r\n```\r\n\r\nhttps://weex-project.io/cn/doc/syntax/events.html#%E7%89%B9%E6%AE%8A%E7%9A%84%E5%86%85%E8%81%94%E4%BA%8B%E4%BB%B6%E5%A4%84%E7%90%86%E5%8F%82%E6%95%B0\r\n\r\n仿照文档写点击事件，在 `toast` 后加上括号，调用本地方法就无法响应，去掉括号只写函数名（`onclick=\"toast\"`）才能正常响应点击事件。\r\n\r\n求大神指导！ 😀",
+  "closed_by": {
+    "login": "CCC2016",
+    "id": 17694018,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/17694018?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/CCC2016",
+    "html_url": "https://github.com/CCC2016",
+    "followers_url": "https://api.github.com/users/CCC2016/followers",
+    "following_url": "https://api.github.com/users/CCC2016/following{/other_user}",
+    "gists_url": "https://api.github.com/users/CCC2016/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/CCC2016/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/CCC2016/subscriptions",
+    "organizations_url": "https://api.github.com/users/CCC2016/orgs",
+    "repos_url": "https://api.github.com/users/CCC2016/repos",
+    "events_url": "https://api.github.com/users/CCC2016/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/CCC2016/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

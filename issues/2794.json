@@ -150,5 +150,6 @@
   "created_at": "2017-02-27T06:52:48Z",
   "updated_at": "2017-02-27T08:16:21Z",
   "closed_at": null,
-  "body": "list和scroller的loading还有refresh在安卓和IOS上没有问题，但是在H5上出现BUG，例如样式混乱和无法隐藏"
+  "body": "list和scroller的loading还有refresh在安卓和IOS上没有问题，但是在H5上出现BUG，例如样式混乱和无法隐藏",
+  "closed_by": null
 }

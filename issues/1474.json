@@ -94,5 +94,24 @@
   "created_at": "2016-10-20T16:44:04Z",
   "updated_at": "2016-10-24T12:32:08Z",
   "closed_at": "2016-10-24T12:32:08Z",
-  "body": "发现使用WXLoadingIndicator不太方便，由于默认是不start的,导致使用起来很不方便，建议加个属性start,这样可以很方便控制这个指示条是否开启，更灵活,类似如下\n\n```\n<loading-indicator start=\"true\"></loading-indicator>\n```\n"
+  "body": "发现使用WXLoadingIndicator不太方便，由于默认是不start的,导致使用起来很不方便，建议加个属性start,这样可以很方便控制这个指示条是否开启，更灵活,类似如下\n\n```\n<loading-indicator start=\"true\"></loading-indicator>\n```\n",
+  "closed_by": {
+    "login": "alext1981",
+    "id": 8254442,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8254442?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/alext1981",
+    "html_url": "https://github.com/alext1981",
+    "followers_url": "https://api.github.com/users/alext1981/followers",
+    "following_url": "https://api.github.com/users/alext1981/following{/other_user}",
+    "gists_url": "https://api.github.com/users/alext1981/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/alext1981/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/alext1981/subscriptions",
+    "organizations_url": "https://api.github.com/users/alext1981/orgs",
+    "repos_url": "https://api.github.com/users/alext1981/repos",
+    "events_url": "https://api.github.com/users/alext1981/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/alext1981/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

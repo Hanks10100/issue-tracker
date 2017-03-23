@@ -72,5 +72,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1313.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1313.patch"
   },
-  "body": "[ios]Add a interface in 'WXAppConfiguration' to helping inject customize protocol classes to 'NSURLSesstion' in 'WXNetworkDefaultImpl'\n"
+  "body": "[ios]Add a interface in 'WXAppConfiguration' to helping inject customize protocol classes to 'NSURLSesstion' in 'WXNetworkDefaultImpl'\n",
+  "closed_by": {
+    "login": "chenfeng1993",
+    "id": 22446792,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/22446792?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/chenfeng1993",
+    "html_url": "https://github.com/chenfeng1993",
+    "followers_url": "https://api.github.com/users/chenfeng1993/followers",
+    "following_url": "https://api.github.com/users/chenfeng1993/following{/other_user}",
+    "gists_url": "https://api.github.com/users/chenfeng1993/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/chenfeng1993/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/chenfeng1993/subscriptions",
+    "organizations_url": "https://api.github.com/users/chenfeng1993/orgs",
+    "repos_url": "https://api.github.com/users/chenfeng1993/repos",
+    "events_url": "https://api.github.com/users/chenfeng1993/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/chenfeng1993/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

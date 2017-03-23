@@ -102,5 +102,24 @@
   "created_at": "2016-11-02T10:34:31Z",
   "updated_at": "2016-11-28T04:16:20Z",
   "closed_at": "2016-11-28T04:16:20Z",
-  "body": "Hi,我想自定义个组件放到一个模块里面，用到二维码扫描，但是看到playground里面的直接把zxing的源码复制进来了，导致在我的模块里面应用zxing会跟playground里面的冲突，怎么破"
+  "body": "Hi,我想自定义个组件放到一个模块里面，用到二维码扫描，但是看到playground里面的直接把zxing的源码复制进来了，导致在我的模块里面应用zxing会跟playground里面的冲突，怎么破",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

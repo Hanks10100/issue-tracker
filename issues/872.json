@@ -188,5 +188,24 @@
   "created_at": "2016-07-27T02:45:09Z",
   "updated_at": "2016-08-11T08:50:45Z",
   "closed_at": "2016-08-11T08:50:45Z",
-  "body": "原始代码：\n// updatable styles\nInput.prototype.style = extend(\n  **Object.create(Atomic.prototype.style, {**\n    placeholderColor: function (val) {\n      this.setPlaceholderColor(val)\n    }\n  }))\n\n修改后的代码：\n// updatable styles\nInput.prototype.style = extend(\n  **Object.create(Atomic.prototype.style), {**\n    placeholderColor: function (val) {\n      this.setPlaceholderColor(val)\n    }\n  })\n这个问题会直接导致placeholder-color不生效\n"
+  "body": "原始代码：\n// updatable styles\nInput.prototype.style = extend(\n  **Object.create(Atomic.prototype.style, {**\n    placeholderColor: function (val) {\n      this.setPlaceholderColor(val)\n    }\n  }))\n\n修改后的代码：\n// updatable styles\nInput.prototype.style = extend(\n  **Object.create(Atomic.prototype.style), {**\n    placeholderColor: function (val) {\n      this.setPlaceholderColor(val)\n    }\n  })\n这个问题会直接导致placeholder-color不生效\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

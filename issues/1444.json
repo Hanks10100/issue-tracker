@@ -66,5 +66,24 @@
   "created_at": "2016-10-18T13:19:34Z",
   "updated_at": "2016-10-24T12:34:37Z",
   "closed_at": "2016-10-24T12:34:37Z",
-  "body": "1、slider在滑动过程中，经常会触发多次onChange事件。\n目前我已经在js层加了一个throttle去控制频率，但是最好的方式还是在客户端代码去做这个throttle，因为虽然js能控制住，但是native->js的通信量还是没有减少，会消耗性能。\n2、希望支持非循环滚动的属性来控制是否循环，因为我最近的业务场景就必须是非循环滚动的。\n"
+  "body": "1、slider在滑动过程中，经常会触发多次onChange事件。\n目前我已经在js层加了一个throttle去控制频率，但是最好的方式还是在客户端代码去做这个throttle，因为虽然js能控制住，但是native->js的通信量还是没有减少，会消耗性能。\n2、希望支持非循环滚动的属性来控制是否循环，因为我最近的业务场景就必须是非循环滚动的。\n",
+  "closed_by": {
+    "login": "alext1981",
+    "id": 8254442,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8254442?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/alext1981",
+    "html_url": "https://github.com/alext1981",
+    "followers_url": "https://api.github.com/users/alext1981/followers",
+    "following_url": "https://api.github.com/users/alext1981/following{/other_user}",
+    "gists_url": "https://api.github.com/users/alext1981/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/alext1981/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/alext1981/subscriptions",
+    "organizations_url": "https://api.github.com/users/alext1981/orgs",
+    "repos_url": "https://api.github.com/users/alext1981/repos",
+    "events_url": "https://api.github.com/users/alext1981/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/alext1981/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

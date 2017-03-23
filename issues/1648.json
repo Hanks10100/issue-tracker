@@ -206,5 +206,24 @@
   "created_at": "2016-11-16T04:15:40Z",
   "updated_at": "2016-12-16T03:51:35Z",
   "closed_at": "2016-11-17T14:50:00Z",
-  "body": "在使用weex-html5 的0.4.1版本后，tabbar在浏览器不显示内容，并且样式非常奇怪\r\n替换回0.3.2一切正常，example里的tabbar例子也能重现\r\n\r\n0.3.2显示tabbar页面内容\r\n![html5-0 3 2](https://cloud.githubusercontent.com/assets/17056882/20333973/79c392fa-abf1-11e6-9802-1bed199e5356.PNG)\r\n\r\n0.4.1不显示tabbar页面内容\r\n![html5-0 4 1](https://cloud.githubusercontent.com/assets/17056882/20333993/99fdf6b4-abf1-11e6-8077-2e253d37ee00.PNG)"
+  "body": "在使用weex-html5 的0.4.1版本后，tabbar在浏览器不显示内容，并且样式非常奇怪\r\n替换回0.3.2一切正常，example里的tabbar例子也能重现\r\n\r\n0.3.2显示tabbar页面内容\r\n![html5-0 3 2](https://cloud.githubusercontent.com/assets/17056882/20333973/79c392fa-abf1-11e6-9802-1bed199e5356.PNG)\r\n\r\n0.4.1不显示tabbar页面内容\r\n![html5-0 4 1](https://cloud.githubusercontent.com/assets/17056882/20333993/99fdf6b4-abf1-11e6-8077-2e253d37ee00.PNG)",
+  "closed_by": {
+    "login": "findabox",
+    "id": 17056882,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/17056882?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/findabox",
+    "html_url": "https://github.com/findabox",
+    "followers_url": "https://api.github.com/users/findabox/followers",
+    "following_url": "https://api.github.com/users/findabox/following{/other_user}",
+    "gists_url": "https://api.github.com/users/findabox/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/findabox/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/findabox/subscriptions",
+    "organizations_url": "https://api.github.com/users/findabox/orgs",
+    "repos_url": "https://api.github.com/users/findabox/repos",
+    "events_url": "https://api.github.com/users/findabox/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/findabox/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

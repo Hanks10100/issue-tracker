@@ -37,5 +37,24 @@
   "created_at": "2017-01-24T02:41:06Z",
   "updated_at": "2017-02-28T02:48:34Z",
   "closed_at": "2017-02-28T02:48:34Z",
-  "body": "<!--\r\n0. It's ***RECOMMENDED*** to [submit PR](https://github.com/alibaba/weex/pulls) for typo, new demo or tiny bugfix.\r\n0. If this's a ***BUG***, pls provide: course repetition, error/crash log, device model, OS version, App version (playground or other apps).\r\n0. If this's a ***FEATURE***, pls provide: details, pseudo codes if necessary.\r\n\r\n---\r\n\r\n（请在***提交***前删除这段描述）\r\n\r\n0. 我们***推荐***小问题直接[提 PR](https://github.com/alibaba/weex/pulls)，如错别字、新 demo 或 bugfix。\r\n0. 如果是 ***Bug***，请提供：复现步骤（推荐有截图）、error/crash log、设备型号、OS 版本、App 版本（playground 版本或自己的 app）。\r\n0. 如果是***新需求***，请提供：详细描述、应用场景、适当的伪代码（如有）。\r\n-->\r\n问题描述：\r\n之前项目是通过增加配置文件，配置服务器加载图片的scheme和host，例如一个图片是http://xxx/images/index/example.png，配置文件中配置项为{\"scheme\":\"http\"，\"host\":\"xxx/images\"}，we文件中<image src=\"index/example.png\">通过在ImageAdapter中获取配置项在index/example.png前拼接路径。\r\n但是在升级了0.9.5之后，这种配置能力失效，例如http://xxx/js/index.js中使用了上面说的example.png，在ImageAdapter实现之前就已经确定图片的url，为http://xxx/js/example.png，和我之前想要的index/example.png有很大差距。\r\n请问有什么好的思路或者其他改进建议？就是不想在we文件中写那么长的绝对路径，更不想把图片和js放在一起。\r\n\r\n归根结底 还是希望在ImageAdapter中能够取到we中配置的src"
+  "body": "<!--\r\n0. It's ***RECOMMENDED*** to [submit PR](https://github.com/alibaba/weex/pulls) for typo, new demo or tiny bugfix.\r\n0. If this's a ***BUG***, pls provide: course repetition, error/crash log, device model, OS version, App version (playground or other apps).\r\n0. If this's a ***FEATURE***, pls provide: details, pseudo codes if necessary.\r\n\r\n---\r\n\r\n（请在***提交***前删除这段描述）\r\n\r\n0. 我们***推荐***小问题直接[提 PR](https://github.com/alibaba/weex/pulls)，如错别字、新 demo 或 bugfix。\r\n0. 如果是 ***Bug***，请提供：复现步骤（推荐有截图）、error/crash log、设备型号、OS 版本、App 版本（playground 版本或自己的 app）。\r\n0. 如果是***新需求***，请提供：详细描述、应用场景、适当的伪代码（如有）。\r\n-->\r\n问题描述：\r\n之前项目是通过增加配置文件，配置服务器加载图片的scheme和host，例如一个图片是http://xxx/images/index/example.png，配置文件中配置项为{\"scheme\":\"http\"，\"host\":\"xxx/images\"}，we文件中<image src=\"index/example.png\">通过在ImageAdapter中获取配置项在index/example.png前拼接路径。\r\n但是在升级了0.9.5之后，这种配置能力失效，例如http://xxx/js/index.js中使用了上面说的example.png，在ImageAdapter实现之前就已经确定图片的url，为http://xxx/js/example.png，和我之前想要的index/example.png有很大差距。\r\n请问有什么好的思路或者其他改进建议？就是不想在we文件中写那么长的绝对路径，更不想把图片和js放在一起。\r\n\r\n归根结底 还是希望在ImageAdapter中能够取到we中配置的src",
+  "closed_by": {
+    "login": "AugHua",
+    "id": 12036023,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/12036023?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/AugHua",
+    "html_url": "https://github.com/AugHua",
+    "followers_url": "https://api.github.com/users/AugHua/followers",
+    "following_url": "https://api.github.com/users/AugHua/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AugHua/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/AugHua/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/AugHua/subscriptions",
+    "organizations_url": "https://api.github.com/users/AugHua/orgs",
+    "repos_url": "https://api.github.com/users/AugHua/repos",
+    "events_url": "https://api.github.com/users/AugHua/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/AugHua/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

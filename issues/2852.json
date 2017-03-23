@@ -66,5 +66,24 @@
   "created_at": "2017-03-05T04:33:27Z",
   "updated_at": "2017-03-13T01:59:51Z",
   "closed_at": "2017-03-13T01:59:51Z",
-  "body": "sass对组件，script，style  的 文件导入，链接，很好的重用页内重复的标签编写，script代码分文件，提高script公用性减低.we文件臃肿度"
+  "body": "sass对组件，script，style  的 文件导入，链接，很好的重用页内重复的标签编写，script代码分文件，提高script公用性减低.we文件臃肿度",
+  "closed_by": {
+    "login": "liuzhiyi1992",
+    "id": 13046550,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/13046550?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/liuzhiyi1992",
+    "html_url": "https://github.com/liuzhiyi1992",
+    "followers_url": "https://api.github.com/users/liuzhiyi1992/followers",
+    "following_url": "https://api.github.com/users/liuzhiyi1992/following{/other_user}",
+    "gists_url": "https://api.github.com/users/liuzhiyi1992/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/liuzhiyi1992/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/liuzhiyi1992/subscriptions",
+    "organizations_url": "https://api.github.com/users/liuzhiyi1992/orgs",
+    "repos_url": "https://api.github.com/users/liuzhiyi1992/repos",
+    "events_url": "https://api.github.com/users/liuzhiyi1992/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/liuzhiyi1992/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -160,5 +160,24 @@
   "created_at": "2016-07-02T09:14:22Z",
   "updated_at": "2016-08-01T12:46:11Z",
   "closed_at": "2016-08-01T12:46:11Z",
-  "body": "slider动画有点小问题，transform: translate3d的值一直累加，到最后动画效果就变成一闪而过的的，下面是截图，这里是不是要优化一下\n![bug](https://cloud.githubusercontent.com/assets/9419773/16539507/e202a8c8-4077-11e6-977c-f661185cb0b0.jpg)\n"
+  "body": "slider动画有点小问题，transform: translate3d的值一直累加，到最后动画效果就变成一闪而过的的，下面是截图，这里是不是要优化一下\n![bug](https://cloud.githubusercontent.com/assets/9419773/16539507/e202a8c8-4077-11e6-977c-f661185cb0b0.jpg)\n",
+  "closed_by": {
+    "login": "MrRaindrop",
+    "id": 1545874,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1545874?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/MrRaindrop",
+    "html_url": "https://github.com/MrRaindrop",
+    "followers_url": "https://api.github.com/users/MrRaindrop/followers",
+    "following_url": "https://api.github.com/users/MrRaindrop/following{/other_user}",
+    "gists_url": "https://api.github.com/users/MrRaindrop/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/MrRaindrop/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/MrRaindrop/subscriptions",
+    "organizations_url": "https://api.github.com/users/MrRaindrop/orgs",
+    "repos_url": "https://api.github.com/users/MrRaindrop/repos",
+    "events_url": "https://api.github.com/users/MrRaindrop/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/MrRaindrop/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

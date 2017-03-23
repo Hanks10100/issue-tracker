@@ -132,5 +132,24 @@
   "created_at": "2016-06-20T04:43:51Z",
   "updated_at": "2016-07-08T06:16:52Z",
   "closed_at": "2016-07-08T06:16:52Z",
-  "body": "scroller 在使用加入上下拉刷新控件时，是没有作用的，测试魅族、vivo、华为、小米目前都不可以使用，希望会尽快修复~\n"
+  "body": "scroller 在使用加入上下拉刷新控件时，是没有作用的，测试魅族、vivo、华为、小米目前都不可以使用，希望会尽快修复~\n",
+  "closed_by": {
+    "login": "zshshr",
+    "id": 5382962,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5382962?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/zshshr",
+    "html_url": "https://github.com/zshshr",
+    "followers_url": "https://api.github.com/users/zshshr/followers",
+    "following_url": "https://api.github.com/users/zshshr/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zshshr/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/zshshr/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/zshshr/subscriptions",
+    "organizations_url": "https://api.github.com/users/zshshr/orgs",
+    "repos_url": "https://api.github.com/users/zshshr/repos",
+    "events_url": "https://api.github.com/users/zshshr/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/zshshr/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

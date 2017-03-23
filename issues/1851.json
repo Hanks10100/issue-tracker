@@ -175,5 +175,24 @@
   "created_at": "2016-12-09T08:09:11Z",
   "updated_at": "2017-03-01T06:58:19Z",
   "closed_at": "2017-03-01T06:58:19Z",
-  "body": "Andriod APP从没有用Weex的升级到用Weex项目的apk，在部分手机（Vivo Y51A和魅蓝5）上渲染.weex界面报错；等清理掉数据库缓存后，又好了；\r\n![image](https://cloud.githubusercontent.com/assets/10821317/21041855/cada4d66-be28-11e6-842b-8ceaa6484dce.png)\r\n跟踪信息是，exeJs调用jni渲染template错误；不知道是怎么导致的？\r\n"
+  "body": "Andriod APP从没有用Weex的升级到用Weex项目的apk，在部分手机（Vivo Y51A和魅蓝5）上渲染.weex界面报错；等清理掉数据库缓存后，又好了；\r\n![image](https://cloud.githubusercontent.com/assets/10821317/21041855/cada4d66-be28-11e6-842b-8ceaa6484dce.png)\r\n跟踪信息是，exeJs调用jni渲染template错误；不知道是怎么导致的？\r\n",
+  "closed_by": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

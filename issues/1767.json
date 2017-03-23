@@ -160,5 +160,24 @@
   "created_at": "2016-11-29T08:36:51Z",
   "updated_at": "2016-11-30T02:37:03Z",
   "closed_at": "2016-11-29T09:50:29Z",
-  "body": "1、先上图\r\n![simulator screen shot 2016 11 29 16 22 09](https://cloud.githubusercontent.com/assets/8529588/20702051/0846b08e-b651-11e6-9dcb-946f1f6fe520.png)\r\n![2016-11-29 16 24 12](https://cloud.githubusercontent.com/assets/8529588/20702052/0a66fc20-b651-11e6-9aed-f1d26e55ca3b.png)\r\n![80a39d2edcaf1616366b4c37798a66c5](https://cloud.githubusercontent.com/assets/8529588/20702054/0c32abb2-b651-11e6-9af4-5842dd5cb053.png)\r\n2.环境：\r\n版本：\r\niOS x , weex 0.8.0正常；iOS x，weex 0.7 transform: rotate(45deg);失败；\r\n浏览器正常；\r\n安卓只测试了0.8.2，失败\r\n3.代码：\r\n1)style 片段\r\n```css\r\n.div-flag {\r\n    transform: rotate(45deg);\r\n    -ms-transform:rotate(45deg); \t/* IE 9 */\r\n    -moz-transform:rotate(45deg); \t/* Firefox */\r\n    -webkit-transform:rotate(45deg); /* Safari 和 Chrome */\r\n    -o-transform:rotate(45deg); \t/* Opera */\r\n    position: absolute;\r\n    top: -37px;\r\n    right: -37px;\r\n    width: 140px;\r\n    height: 30px;\r\n    background-color: red;\r\n    justify-content: center;\r\n    align-items: center;\r\n    /*overflow-clip: ;*/\r\n    margin-top: 53px;\r\n    margin-bottom: 53px;\r\n}\r\n```\r\n2)html 片段\r\n<img width=\"150\" alt=\"2016-11-29 16 35 49\" src=\"https://cloud.githubusercontent.com/assets/8529588/20702325/52688b14-b652-11e6-8ea1-1dff31225d79.png\">\r\n\r\n```html\r\n<div class=\"div-flag\"  if=\"{{bind_data.rightcont != ''}}\">\r\n            <text class=\"text-flag\">测试是</text>\r\n</div>\r\n```"
+  "body": "1、先上图\r\n![simulator screen shot 2016 11 29 16 22 09](https://cloud.githubusercontent.com/assets/8529588/20702051/0846b08e-b651-11e6-9dcb-946f1f6fe520.png)\r\n![2016-11-29 16 24 12](https://cloud.githubusercontent.com/assets/8529588/20702052/0a66fc20-b651-11e6-9aed-f1d26e55ca3b.png)\r\n![80a39d2edcaf1616366b4c37798a66c5](https://cloud.githubusercontent.com/assets/8529588/20702054/0c32abb2-b651-11e6-9af4-5842dd5cb053.png)\r\n2.环境：\r\n版本：\r\niOS x , weex 0.8.0正常；iOS x，weex 0.7 transform: rotate(45deg);失败；\r\n浏览器正常；\r\n安卓只测试了0.8.2，失败\r\n3.代码：\r\n1)style 片段\r\n```css\r\n.div-flag {\r\n    transform: rotate(45deg);\r\n    -ms-transform:rotate(45deg); \t/* IE 9 */\r\n    -moz-transform:rotate(45deg); \t/* Firefox */\r\n    -webkit-transform:rotate(45deg); /* Safari 和 Chrome */\r\n    -o-transform:rotate(45deg); \t/* Opera */\r\n    position: absolute;\r\n    top: -37px;\r\n    right: -37px;\r\n    width: 140px;\r\n    height: 30px;\r\n    background-color: red;\r\n    justify-content: center;\r\n    align-items: center;\r\n    /*overflow-clip: ;*/\r\n    margin-top: 53px;\r\n    margin-bottom: 53px;\r\n}\r\n```\r\n2)html 片段\r\n<img width=\"150\" alt=\"2016-11-29 16 35 49\" src=\"https://cloud.githubusercontent.com/assets/8529588/20702325/52688b14-b652-11e6-8ea1-1dff31225d79.png\">\r\n\r\n```html\r\n<div class=\"div-flag\"  if=\"{{bind_data.rightcont != ''}}\">\r\n            <text class=\"text-flag\">测试是</text>\r\n</div>\r\n```",
+  "closed_by": {
+    "login": "misakuo",
+    "id": 6958743,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6958743?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/misakuo",
+    "html_url": "https://github.com/misakuo",
+    "followers_url": "https://api.github.com/users/misakuo/followers",
+    "following_url": "https://api.github.com/users/misakuo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/misakuo/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/misakuo/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/misakuo/subscriptions",
+    "organizations_url": "https://api.github.com/users/misakuo/orgs",
+    "repos_url": "https://api.github.com/users/misakuo/repos",
+    "events_url": "https://api.github.com/users/misakuo/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/misakuo/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -43,5 +43,6 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2392.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2392.patch"
   },
-  "body": "the input attribute name is camelized."
+  "body": "the input attribute name is camelized.",
+  "closed_by": null
 }

@@ -186,5 +186,24 @@
   "created_at": "2016-11-29T07:52:17Z",
   "updated_at": "2016-12-27T16:21:41Z",
   "closed_at": "2016-12-27T16:21:41Z",
-  "body": "# 1.滑动方向不同：\r\n嵌套有scroller的cell会跑到第一行。\r\n![simulator screen shot 2016 11 29 15 56 29](https://cloud.githubusercontent.com/assets/8529588/20701496/64442266-b64e-11e6-8833-15eb1c9a66f1.png)\r\n正常应该是这样的：\r\n![simulator screen shot 2016 11 29 16 10 06](https://cloud.githubusercontent.com/assets/8529588/20701510/71fc8b32-b64e-11e6-8684-ee4edfd34f82.png)\r\n\r\n## 环境：\r\nweex 0.8.0有这个问题，0.7没有。iOS 10；调用render位置：viewDidLoad\r\n# 2.滑动方向相同：\r\n高度计算不准。包括marquee。"
+  "body": "# 1.滑动方向不同：\r\n嵌套有scroller的cell会跑到第一行。\r\n![simulator screen shot 2016 11 29 15 56 29](https://cloud.githubusercontent.com/assets/8529588/20701496/64442266-b64e-11e6-8833-15eb1c9a66f1.png)\r\n正常应该是这样的：\r\n![simulator screen shot 2016 11 29 16 10 06](https://cloud.githubusercontent.com/assets/8529588/20701510/71fc8b32-b64e-11e6-8684-ee4edfd34f82.png)\r\n\r\n## 环境：\r\nweex 0.8.0有这个问题，0.7没有。iOS 10；调用render位置：viewDidLoad\r\n# 2.滑动方向相同：\r\n高度计算不准。包括marquee。",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

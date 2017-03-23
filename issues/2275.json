@@ -664,5 +664,6 @@
   "created_at": "2017-01-16T03:41:29Z",
   "updated_at": "2017-01-19T04:48:24Z",
   "closed_at": null,
-  "body": "本来说，想试试这个全新的框架，可是引入picker后，界面压根不能正常渲染\r\n![image](https://cloud.githubusercontent.com/assets/17919630/21970368/7db9917e-dbe0-11e6-8c12-fe1694532d26.png)\r\n\r\n能够出来的是这个项目的例子，但是数据选择器，时间选择器，都不能正常的渲染出来，那几个按钮点了也是渲染错误，android手机上测试的\r\n求大神指点迷津！！！！！"
+  "body": "本来说，想试试这个全新的框架，可是引入picker后，界面压根不能正常渲染\r\n![image](https://cloud.githubusercontent.com/assets/17919630/21970368/7db9917e-dbe0-11e6-8c12-fe1694532d26.png)\r\n\r\n能够出来的是这个项目的例子，但是数据选择器，时间选择器，都不能正常的渲染出来，那几个按钮点了也是渲染错误，android手机上测试的\r\n求大神指点迷津！！！！！",
+  "closed_by": null
 }

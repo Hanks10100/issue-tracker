@@ -138,5 +138,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1221.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1221.patch"
   },
-  "body": "reproduce： weex/examples/component/scroller-demo.js\n\nreproduce method： pull up the list at the end，the loading component will not be hidden, because the loading event does not be invoked\n\nroot cause: when creating the virtual DOM tree, if the root container's \"append\" attribute is \"tree\", the whole page will be create first and then be added to the document, which means that the docId will be assigned to the root container at last, while all of its children nodes can not get the docId when they are being created. A node couldn't be added to the \"nodemap\" of document if it do not have the docId.  If an event is passed from native, the current document cannot find the proper component to handle it, because its \"nodemap\" is empty.  \n\n``` javascript\nfunction compileNativeComponent(vm, template, dest, type) {\n.......\nconst treeMode = template.append === 'tree'\n  const app = vm._app || {}\n  if (app.lastSignal !== -1 && !treeMode) {\n    console.debug('[JS Framework] compile to append single node for', element)\n    app.lastSignal = attachTarget(vm, element, dest)\n  }\n  if (app.lastSignal !== -1) {\n    compileChildren(vm, template, element)\n  }\n  if (app.lastSignal !== -1 && treeMode) {\n    console.debug('[JS Framework] compile to append whole tree for', element)\n    app.lastSignal = attachTarget(vm, element, dest)\n  }\n}\n```\n"
+  "body": "reproduce： weex/examples/component/scroller-demo.js\n\nreproduce method： pull up the list at the end，the loading component will not be hidden, because the loading event does not be invoked\n\nroot cause: when creating the virtual DOM tree, if the root container's \"append\" attribute is \"tree\", the whole page will be create first and then be added to the document, which means that the docId will be assigned to the root container at last, while all of its children nodes can not get the docId when they are being created. A node couldn't be added to the \"nodemap\" of document if it do not have the docId.  If an event is passed from native, the current document cannot find the proper component to handle it, because its \"nodemap\" is empty.  \n\n``` javascript\nfunction compileNativeComponent(vm, template, dest, type) {\n.......\nconst treeMode = template.append === 'tree'\n  const app = vm._app || {}\n  if (app.lastSignal !== -1 && !treeMode) {\n    console.debug('[JS Framework] compile to append single node for', element)\n    app.lastSignal = attachTarget(vm, element, dest)\n  }\n  if (app.lastSignal !== -1) {\n    compileChildren(vm, template, element)\n  }\n  if (app.lastSignal !== -1 && treeMode) {\n    console.debug('[JS Framework] compile to append whole tree for', element)\n    app.lastSignal = attachTarget(vm, element, dest)\n  }\n}\n```\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

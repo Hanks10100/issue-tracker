@@ -147,5 +147,24 @@
   "created_at": "2016-09-28T08:23:55Z",
   "updated_at": "2016-09-30T02:02:09Z",
   "closed_at": "2016-09-30T02:01:56Z",
-  "body": "复现步骤\n（1）使用repeat进行LIst展示。\n如果采用以下的语法：\n\n``` html\n<div repeat=\"{{dataList}}\">\n  <div class=\"itemContent\" if=\"{{_item_style==='hide'}}\">\n    <text class=\"titleCenter\">{{_title}}</text>\n  </div>\n</div>\n```\n\n现象：\n会出现以下划线开头的变量无法正常获取值。\n上述例子中_item_style 和_title 都无法获取到正常值。\n如果重命名去掉下划线，值获取正常。\n\n注：如果使用\n\n``` html\n<div repeat=\"item in dataList\">\n  <div class=\"itemContent\" if=\"{{item._item_style==='hide'}}\">\n    <text class=\"titleCenter\">{{item._title}}</text>\n  </div>\n</div>\n```\n\n显示正常，值正常获取。\n"
+  "body": "复现步骤\n（1）使用repeat进行LIst展示。\n如果采用以下的语法：\n\n``` html\n<div repeat=\"{{dataList}}\">\n  <div class=\"itemContent\" if=\"{{_item_style==='hide'}}\">\n    <text class=\"titleCenter\">{{_title}}</text>\n  </div>\n</div>\n```\n\n现象：\n会出现以下划线开头的变量无法正常获取值。\n上述例子中_item_style 和_title 都无法获取到正常值。\n如果重命名去掉下划线，值获取正常。\n\n注：如果使用\n\n``` html\n<div repeat=\"item in dataList\">\n  <div class=\"itemContent\" if=\"{{item._item_style==='hide'}}\">\n    <text class=\"titleCenter\">{{item._title}}</text>\n  </div>\n</div>\n```\n\n显示正常，值正常获取。\n",
+  "closed_by": {
+    "login": "Hanks10100",
+    "id": 8401776,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8401776?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Hanks10100",
+    "html_url": "https://github.com/Hanks10100",
+    "followers_url": "https://api.github.com/users/Hanks10100/followers",
+    "following_url": "https://api.github.com/users/Hanks10100/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Hanks10100/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Hanks10100/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Hanks10100/subscriptions",
+    "organizations_url": "https://api.github.com/users/Hanks10100/orgs",
+    "repos_url": "https://api.github.com/users/Hanks10100/repos",
+    "events_url": "https://api.github.com/users/Hanks10100/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Hanks10100/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -37,5 +37,24 @@
   "created_at": "2016-05-19T12:34:30Z",
   "updated_at": "2016-05-19T12:38:29Z",
   "closed_at": "2016-05-19T12:38:29Z",
-  "body": "simple demo: \n\n```\n<template>\n      <div style=\"background-color:{{active? themeColor:'#f0f0f0'}}\" repeat=\"{{timeList}}\">\n          <div data-index=\"{{index}}\" \n                  onclick=\"tabClick\" >\n                <text>{{active}}</text>\n          </div>\n      </div>\n</template>\n\n<script>\n\n    module.exports = {\n        data: {\n            themeColor:'#ff6699',\n            data: {\n                \"timeList\" : [{\n                    \"active\": true\n                }, {\n                    \"active\": true\n                }, {\n                    \"active\": true\n                }]\n            }\n        },\n        methods: {\n            ready: function () {\n                //init data-bind\n                for(var i = 0; i < this.data.timeList.length;i++){\n                    this.data.timeList[i].active = false;\n                    this.data.timeList[i].index = i;\n                }\n\n                this.timeList = this.data.timeList;\n            },\n\n            tabClick:function(e){\n                var target = e.target;\n                var index = target.attr.dataIndex;\n\n                var currentItem = this.timeList[index];\n                this.timeList[index].active = true;\n            }\n        }\n    };\n</script>\n```\n"
+  "body": "simple demo: \n\n```\n<template>\n      <div style=\"background-color:{{active? themeColor:'#f0f0f0'}}\" repeat=\"{{timeList}}\">\n          <div data-index=\"{{index}}\" \n                  onclick=\"tabClick\" >\n                <text>{{active}}</text>\n          </div>\n      </div>\n</template>\n\n<script>\n\n    module.exports = {\n        data: {\n            themeColor:'#ff6699',\n            data: {\n                \"timeList\" : [{\n                    \"active\": true\n                }, {\n                    \"active\": true\n                }, {\n                    \"active\": true\n                }]\n            }\n        },\n        methods: {\n            ready: function () {\n                //init data-bind\n                for(var i = 0; i < this.data.timeList.length;i++){\n                    this.data.timeList[i].active = false;\n                    this.data.timeList[i].index = i;\n                }\n\n                this.timeList = this.data.timeList;\n            },\n\n            tabClick:function(e){\n                var target = e.target;\n                var index = target.attr.dataIndex;\n\n                var currentItem = this.timeList[index];\n                this.timeList[index].active = true;\n            }\n        }\n    };\n</script>\n```\n",
+  "closed_by": {
+    "login": "myhirra",
+    "id": 4364150,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4364150?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/myhirra",
+    "html_url": "https://github.com/myhirra",
+    "followers_url": "https://api.github.com/users/myhirra/followers",
+    "following_url": "https://api.github.com/users/myhirra/following{/other_user}",
+    "gists_url": "https://api.github.com/users/myhirra/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/myhirra/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/myhirra/subscriptions",
+    "organizations_url": "https://api.github.com/users/myhirra/orgs",
+    "repos_url": "https://api.github.com/users/myhirra/repos",
+    "events_url": "https://api.github.com/users/myhirra/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/myhirra/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

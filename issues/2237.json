@@ -122,5 +122,24 @@
   "created_at": "2017-01-12T09:12:41Z",
   "updated_at": "2017-01-12T12:51:57Z",
   "closed_at": "2017-01-12T10:20:54Z",
-  "body": "CocoaPods  WeexSDK 0.9.5 中的 main.js 还是20161103版本，导致ios集成运行出错：\r\n\r\n```\r\n[undefined:63:37] ReferenceError: Can't find variable: Vue\r\n```\r\n拷入最新的main.js后运行正常\r\n\r\n麻烦确认一下 😄 "
+  "body": "CocoaPods  WeexSDK 0.9.5 中的 main.js 还是20161103版本，导致ios集成运行出错：\r\n\r\n```\r\n[undefined:63:37] ReferenceError: Can't find variable: Vue\r\n```\r\n拷入最新的main.js后运行正常\r\n\r\n麻烦确认一下 😄 ",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

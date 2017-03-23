@@ -203,5 +203,24 @@
   "created_at": "2016-09-08T05:01:32Z",
   "updated_at": "2016-09-14T09:57:28Z",
   "closed_at": "2016-09-14T09:57:28Z",
-  "body": "问题出在[ImageClipDrawable](https://github.com/alibaba/weex/blob/android/android/sdk/src/main/java/com/taobao/weex/ui/view/WXImageView.java#L320)上，没有看明白`ImageClipDrawable`具体起的是什么作用。暂时将\n\n```\n    if (drawable != null) {\n      super.setImageDrawable(new ImageClipDrawable(drawable));\n    } else {\n      super.setImageDrawable(null);\n    }\n```\n\n修改为`super.setImageDrawable(drawable);`是可以的。\n"
+  "body": "问题出在[ImageClipDrawable](https://github.com/alibaba/weex/blob/android/android/sdk/src/main/java/com/taobao/weex/ui/view/WXImageView.java#L320)上，没有看明白`ImageClipDrawable`具体起的是什么作用。暂时将\n\n```\n    if (drawable != null) {\n      super.setImageDrawable(new ImageClipDrawable(drawable));\n    } else {\n      super.setImageDrawable(null);\n    }\n```\n\n修改为`super.setImageDrawable(drawable);`是可以的。\n",
+  "closed_by": {
+    "login": "YorkShen",
+    "id": 4162544,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4162544?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/YorkShen",
+    "html_url": "https://github.com/YorkShen",
+    "followers_url": "https://api.github.com/users/YorkShen/followers",
+    "following_url": "https://api.github.com/users/YorkShen/following{/other_user}",
+    "gists_url": "https://api.github.com/users/YorkShen/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/YorkShen/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/YorkShen/subscriptions",
+    "organizations_url": "https://api.github.com/users/YorkShen/orgs",
+    "repos_url": "https://api.github.com/users/YorkShen/repos",
+    "events_url": "https://api.github.com/users/YorkShen/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/YorkShen/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

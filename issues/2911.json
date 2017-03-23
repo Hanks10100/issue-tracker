@@ -28,7 +28,7 @@
     "site_admin": false
   },
   "labels": [],
-  "state": "open",
+  "state": "closed",
   "locked": false,
   "assignee": null,
   "assignees": [],
@@ -171,12 +171,31 @@
         "site_admin": false
       },
       "created_at": "2017-03-13T04:06:23Z",
-      "updated_at": "2017-03-13T04:06:54Z",
-      "body": "hi  @xztl  @Juice007  @shmy  @xispower  @huacnlee  不好意思  这边有一行误提交， 这个commit 是当时修复覆盖注册的问题， 估计是当时在测试 url 拦截的问题， 测试代码误提交导致的\r\n[错误地方](https://github.com/apache/incubator-weex/commit/1e4105f633693b26f7d73b818418ce643040de60)\r\n\r\n\r\n已经在[pr](https://github.com/apache/incubator-weex/pull/94/files) 这边修复, 给大家带来困扰， 实在抱歉.. \r\n\r\n\r\n如果还发现类似问题，可以直接邮件我..\r\n"
+      "updated_at": "2017-03-14T03:25:17Z",
+      "body": "尝试0.10.3，应该已经解决\r\n\r\n------ update----\r\nhi  @xztl  @Juice007  @shmy  @xispower  @huacnlee  不好意思  这边有一行误提交， 这个commit 是当时修复覆盖注册的问题， 估计是当时在测试 url 拦截的问题， 测试代码误提交导致的\r\n[错误地方](https://github.com/apache/incubator-weex/commit/1e4105f633693b26f7d73b818418ce643040de60)\r\n\r\n\r\n已经在[pr](https://github.com/apache/incubator-weex/pull/94/files) 这边修复, 给大家带来困扰， 实在抱歉.. \r\n\r\n\r\n如果还发现类似问题，可以直接邮件我..\r\n"
     }
   ],
   "created_at": "2017-03-11T07:50:10Z",
-  "updated_at": "2017-03-13T04:06:54Z",
-  "closed_at": null,
-  "body": "<!--\r\n\r\n注意：Weex 社区已经迁移至 Apache 基金会，为了让社区更聚焦，这里将不会受理 **2017年3月13号** 以后新创建的issue\r\n详情请移步至：https://weex.apache.org/cn/guide/contributing.html\r\n感谢理解\r\n\r\n-->\r\n"
+  "updated_at": "2017-03-16T05:50:04Z",
+  "closed_at": "2017-03-16T05:50:04Z",
+  "body": "<!--\r\n\r\n注意：Weex 社区已经迁移至 Apache 基金会，为了让社区更聚焦，这里将不会受理 **2017年3月13号** 以后新创建的issue\r\n详情请移步至：https://weex.apache.org/cn/guide/contributing.html\r\n感谢理解\r\n\r\n-->\r\n",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

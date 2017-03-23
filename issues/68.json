@@ -112,5 +112,24 @@
   "created_at": "2016-04-25T08:05:54Z",
   "updated_at": "2016-04-25T08:43:33Z",
   "closed_at": "2016-04-25T08:43:33Z",
-  "body": "After looking the doc of Weex, I found that I need tnpm to install Weex-CLI tools, but when I install tnpm over npm, I found there is only a fake package in npm, and no result on Internet to resolve this problem. \n\nWhen I install tnpm over npm, I got this message.\n\nThis is a fake package on official npm.\nPerhaps you installed the wrong one.\nPlease visit urls below and use the right way to install tnpm\nA1ib4b4: http://t.cn/Rysxjww\nT3nC3nt: http://km.oa.com/articles/show/260990\n\nBut this 2 URL can't be opened.\n"
+  "body": "After looking the doc of Weex, I found that I need tnpm to install Weex-CLI tools, but when I install tnpm over npm, I found there is only a fake package in npm, and no result on Internet to resolve this problem. \n\nWhen I install tnpm over npm, I got this message.\n\nThis is a fake package on official npm.\nPerhaps you installed the wrong one.\nPlease visit urls below and use the right way to install tnpm\nA1ib4b4: http://t.cn/Rysxjww\nT3nC3nt: http://km.oa.com/articles/show/260990\n\nBut this 2 URL can't be opened.\n",
+  "closed_by": {
+    "login": "lvscar",
+    "id": 1578838,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1578838?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/lvscar",
+    "html_url": "https://github.com/lvscar",
+    "followers_url": "https://api.github.com/users/lvscar/followers",
+    "following_url": "https://api.github.com/users/lvscar/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lvscar/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/lvscar/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/lvscar/subscriptions",
+    "organizations_url": "https://api.github.com/users/lvscar/orgs",
+    "repos_url": "https://api.github.com/users/lvscar/repos",
+    "events_url": "https://api.github.com/users/lvscar/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/lvscar/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

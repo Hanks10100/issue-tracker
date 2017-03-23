@@ -94,5 +94,24 @@
   "created_at": "2016-12-28T11:41:08Z",
   "updated_at": "2016-12-30T00:56:05Z",
   "closed_at": "2016-12-30T00:56:05Z",
-  "body": "```\r\nlvsendeMacBook:Desktop lvsen$ node -v\r\nv6.3.1\r\nlvsendeMacBook:Desktop lvsen$ npm -v\r\n3.10.3\r\nlvsendeMacBook:Desktop lvsen$ weex --version\r\ninfo 0.6.4\r\nlvsendeMacBook:Desktop lvsen$ wa\r\nwait           wait4path      wall           watchman       watchman-make  watchman-wait\r\nlvsendeMacBook:Desktop lvsen$ wa\r\nwait           wait4path      wall           watchman       watchman-make  watchman-wait\r\nlvsendeMacBook:Desktop lvsen$ watchman -v\r\n4.6.0\r\nlvsendeMacBook:Desktop lvsen$\r\nlvsendeMacBook:Desktop lvsen$\r\nlvsendeMacBook:Desktop lvsen$ ll test.we\r\n-rwxrwxrwx  1 lvsen  staff    61B 12 28 17:37 test.we\r\nlvsendeMacBook:Desktop lvsen$\r\nlvsendeMacBook:Desktop lvsen$ weex test.we\r\ninfo Wed Dec 28 2016 19:39:35 GMT+0800 (CST)WebSocket  is listening on port 8082\r\ninfo Wed Dec 28 2016 19:39:35 GMT+0800 (CST)http  is listening on port 8081\r\n2016-12-28 19:39 node[3205] (FSEvents.framework) FSEventStreamStart: register_with_server: ERROR: f2d_register_rpc() => (null) (-22)\r\n2016-12-28 19:39 node[3205] (FSEvents.framework) FSEventStreamStart: register_with_server: ERROR: f2d_register_rpc() => (null) (-22)\r\n2016-12-28 19:39 node[3205] (FSEvents.framework) FSEventStreamStart: register_with_server: ERROR: f2d_register_rpc() => (null) (-22)\r\n2016-12-28 19:39 node[3205] (FSEvents.framework) FSEventStreamStart: register_with_server: ERROR: f2d_register_rpc() => (null) (-22)\r\n2016-12-28 19:39 node[3205] (FSEvents.framework) FSEventStreamStart: register_with_server: ERROR: f2d_register_rpc() => (null) (-22)\r\n2016-12-28 19:39 node[3205] (FSEvents.framework) FSEventStreamStart: register_with_server: ERROR: f2d_register_rpc() => (null) (-22)\r\nevents.js:160\r\n      throw er; // Unhandled 'error' event\r\n      ^\r\n\r\nError: Error watching file for changes: EMFILE\r\n    at exports._errnoException (util.js:1012:11)\r\n    at FSEvent.FSWatcher._handle.onchange (fs.js:1406:11)\r\n```"
+  "body": "```\r\nlvsendeMacBook:Desktop lvsen$ node -v\r\nv6.3.1\r\nlvsendeMacBook:Desktop lvsen$ npm -v\r\n3.10.3\r\nlvsendeMacBook:Desktop lvsen$ weex --version\r\ninfo 0.6.4\r\nlvsendeMacBook:Desktop lvsen$ wa\r\nwait           wait4path      wall           watchman       watchman-make  watchman-wait\r\nlvsendeMacBook:Desktop lvsen$ wa\r\nwait           wait4path      wall           watchman       watchman-make  watchman-wait\r\nlvsendeMacBook:Desktop lvsen$ watchman -v\r\n4.6.0\r\nlvsendeMacBook:Desktop lvsen$\r\nlvsendeMacBook:Desktop lvsen$\r\nlvsendeMacBook:Desktop lvsen$ ll test.we\r\n-rwxrwxrwx  1 lvsen  staff    61B 12 28 17:37 test.we\r\nlvsendeMacBook:Desktop lvsen$\r\nlvsendeMacBook:Desktop lvsen$ weex test.we\r\ninfo Wed Dec 28 2016 19:39:35 GMT+0800 (CST)WebSocket  is listening on port 8082\r\ninfo Wed Dec 28 2016 19:39:35 GMT+0800 (CST)http  is listening on port 8081\r\n2016-12-28 19:39 node[3205] (FSEvents.framework) FSEventStreamStart: register_with_server: ERROR: f2d_register_rpc() => (null) (-22)\r\n2016-12-28 19:39 node[3205] (FSEvents.framework) FSEventStreamStart: register_with_server: ERROR: f2d_register_rpc() => (null) (-22)\r\n2016-12-28 19:39 node[3205] (FSEvents.framework) FSEventStreamStart: register_with_server: ERROR: f2d_register_rpc() => (null) (-22)\r\n2016-12-28 19:39 node[3205] (FSEvents.framework) FSEventStreamStart: register_with_server: ERROR: f2d_register_rpc() => (null) (-22)\r\n2016-12-28 19:39 node[3205] (FSEvents.framework) FSEventStreamStart: register_with_server: ERROR: f2d_register_rpc() => (null) (-22)\r\n2016-12-28 19:39 node[3205] (FSEvents.framework) FSEventStreamStart: register_with_server: ERROR: f2d_register_rpc() => (null) (-22)\r\nevents.js:160\r\n      throw er; // Unhandled 'error' event\r\n      ^\r\n\r\nError: Error watching file for changes: EMFILE\r\n    at exports._errnoException (util.js:1012:11)\r\n    at FSEvent.FSWatcher._handle.onchange (fs.js:1406:11)\r\n```",
+  "closed_by": {
+    "login": "reason211",
+    "id": 6103174,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6103174?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/reason211",
+    "html_url": "https://github.com/reason211",
+    "followers_url": "https://api.github.com/users/reason211/followers",
+    "following_url": "https://api.github.com/users/reason211/following{/other_user}",
+    "gists_url": "https://api.github.com/users/reason211/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/reason211/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/reason211/subscriptions",
+    "organizations_url": "https://api.github.com/users/reason211/orgs",
+    "repos_url": "https://api.github.com/users/reason211/repos",
+    "events_url": "https://api.github.com/users/reason211/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/reason211/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

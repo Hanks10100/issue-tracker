@@ -94,5 +94,24 @@
   "created_at": "2016-10-15T11:56:58Z",
   "updated_at": "2016-10-16T14:20:14Z",
   "closed_at": "2016-10-16T14:20:14Z",
-  "body": "weex概念上的三端统一和\"write once, run anywhere\"感觉目前只适用在一些比较简单的界面场景，但是感觉离大部分替代native还有很多工程实现问题要解决，我提2个问题：\n1. weex提供的官方组件我理解也是和RN一样逐个对接native的组件，现在都是一些好抽象的能三端实现的组件。那么如果是一些平台特殊的，但是又是很常用的组件（如 Android的 PageViewer），怎么实现三端统一？ 如果不考虑实现这种差异化的组件，是否意味着限制了开发者能力，牺牲了用户体验？\n2. 只是css的子集，如果真的去深入浏览器，我们发现最复杂的其实是css和渲染引擎，不过其实目前所有的框架（RN、weex、微信小程序）都没去突破这块，虽然表面都是使用css语法，但真正实践的时候，会发现用CSS3很容易实现的一些效果，在这种方案下需要曲线救国去实现，有点回到IE6时代的感觉。\n3. 接着上一个问题，我的理解这种方案根本不可能实现完整的CSS，否则相当于重新定义了一个渲染引擎。那么目前样式上的三端统一，是建立在这种css子集的基础上的，假如将来这种方案就到这种程度了，请问真的能够大规模替换native和直接代替普通的web开发吗？\n\n以上问题纯属个人想法，或许weex的团队已经思考过和有解法，期望能回复交流\n"
+  "body": "weex概念上的三端统一和\"write once, run anywhere\"感觉目前只适用在一些比较简单的界面场景，但是感觉离大部分替代native还有很多工程实现问题要解决，我提2个问题：\n1. weex提供的官方组件我理解也是和RN一样逐个对接native的组件，现在都是一些好抽象的能三端实现的组件。那么如果是一些平台特殊的，但是又是很常用的组件（如 Android的 PageViewer），怎么实现三端统一？ 如果不考虑实现这种差异化的组件，是否意味着限制了开发者能力，牺牲了用户体验？\n2. 只是css的子集，如果真的去深入浏览器，我们发现最复杂的其实是css和渲染引擎，不过其实目前所有的框架（RN、weex、微信小程序）都没去突破这块，虽然表面都是使用css语法，但真正实践的时候，会发现用CSS3很容易实现的一些效果，在这种方案下需要曲线救国去实现，有点回到IE6时代的感觉。\n3. 接着上一个问题，我的理解这种方案根本不可能实现完整的CSS，否则相当于重新定义了一个渲染引擎。那么目前样式上的三端统一，是建立在这种css子集的基础上的，假如将来这种方案就到这种程度了，请问真的能够大规模替换native和直接代替普通的web开发吗？\n\n以上问题纯属个人想法，或许weex的团队已经思考过和有解法，期望能回复交流\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

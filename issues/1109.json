@@ -216,5 +216,24 @@
   "created_at": "2016-08-30T09:38:22Z",
   "updated_at": "2016-10-26T03:07:29Z",
   "closed_at": "2016-10-26T03:07:29Z",
-  "body": "我自定义了一个WXComponent叫HTMLView，实现initWithRef方法的时候，发现没办法拿到自己定义的变量值。\n\n```\n- (instancetype) initWithRef:(NSString *)ref type:(NSString *)type styles:(NSDictionary *)styles attributes:(NSDictionary *)attributes events:(NSArray *)events weexInstance:(WXSDKInstance *)weexInstance\n{}\n```\n\nweex的template代码如下，带花括号的变量无法拿到数据，当我改成字符串就可以拿到。\n\n```\n<htmlview class=\"html-view\" img=\"{{news.img}}\" content=\"{{news.content}}\" tag=\"{{typeId}}\"></htmlview>\n```\n"
+  "body": "我自定义了一个WXComponent叫HTMLView，实现initWithRef方法的时候，发现没办法拿到自己定义的变量值。\n\n```\n- (instancetype) initWithRef:(NSString *)ref type:(NSString *)type styles:(NSDictionary *)styles attributes:(NSDictionary *)attributes events:(NSArray *)events weexInstance:(WXSDKInstance *)weexInstance\n{}\n```\n\nweex的template代码如下，带花括号的变量无法拿到数据，当我改成字符串就可以拿到。\n\n```\n<htmlview class=\"html-view\" img=\"{{news.img}}\" content=\"{{news.content}}\" tag=\"{{typeId}}\"></htmlview>\n```\n",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -188,5 +188,24 @@
   "created_at": "2017-02-08T10:37:23Z",
   "updated_at": "2017-03-06T03:45:27Z",
   "closed_at": "2017-03-06T03:45:27Z",
-  "body": "系统 macOS 10.12.2\r\nAndroid Studio 2.2.3\r\n\r\ngit clone 下了 dev 分支：\r\n\r\n在最新版的 Android Studio 中进行编译， `gradle build` 失败：\r\n\r\n提示：\r\n> WARNING: Conflict with dependency 'com.android.support:recyclerview-v7'. Resolved versions for app (23.2.1) and test app (23.1.1) differ. See http://g.co/androidstudio/app-test-app-conflict for details.\r\n> ...\r\n> Conflict with dependency 'com.android.support:recyclerview-v7'. Resolved versions for app (23.2.1) and test app (23.1.1) differ. See http://g.co/androidstudio/app-test-app-conflict for details.\r\n> \r\n> FAILED\r\n> :commons:mergeDebugAndroidTestResources UP-TO-DATE\r\n>\r\n> FAILURE: Build failed with an exception.\r\n> \r\n> * What went wrong:\r\n> Execution failed for task ':app:prepareDebugAndroidTestDependencies'.\r\n> Dependency Error. See console for details.\r\n\r\n\r\n不是很懂 Gradle 配置，只找到了：\r\n```\r\n    provided 'com.android.support:recyclerview-v7:23.1.1'\r\n```\r\n\r\n尝试了：<https://github.com/JakeWharton/u2020/blob/05a57bf43b9b61f16d32cbe8717af77cd608b0fb/build.gradle#L136-L140> 这里的方法\r\n\r\n并没有用。"
+  "body": "系统 macOS 10.12.2\r\nAndroid Studio 2.2.3\r\n\r\ngit clone 下了 dev 分支：\r\n\r\n在最新版的 Android Studio 中进行编译， `gradle build` 失败：\r\n\r\n提示：\r\n> WARNING: Conflict with dependency 'com.android.support:recyclerview-v7'. Resolved versions for app (23.2.1) and test app (23.1.1) differ. See http://g.co/androidstudio/app-test-app-conflict for details.\r\n> ...\r\n> Conflict with dependency 'com.android.support:recyclerview-v7'. Resolved versions for app (23.2.1) and test app (23.1.1) differ. See http://g.co/androidstudio/app-test-app-conflict for details.\r\n> \r\n> FAILED\r\n> :commons:mergeDebugAndroidTestResources UP-TO-DATE\r\n>\r\n> FAILURE: Build failed with an exception.\r\n> \r\n> * What went wrong:\r\n> Execution failed for task ':app:prepareDebugAndroidTestDependencies'.\r\n> Dependency Error. See console for details.\r\n\r\n\r\n不是很懂 Gradle 配置，只找到了：\r\n```\r\n    provided 'com.android.support:recyclerview-v7:23.1.1'\r\n```\r\n\r\n尝试了：<https://github.com/JakeWharton/u2020/blob/05a57bf43b9b61f16d32cbe8717af77cd608b0fb/build.gradle#L136-L140> 这里的方法\r\n\r\n并没有用。",
+  "closed_by": {
+    "login": "YorkShen",
+    "id": 4162544,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4162544?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/YorkShen",
+    "html_url": "https://github.com/YorkShen",
+    "followers_url": "https://api.github.com/users/YorkShen/followers",
+    "following_url": "https://api.github.com/users/YorkShen/following{/other_user}",
+    "gists_url": "https://api.github.com/users/YorkShen/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/YorkShen/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/YorkShen/subscriptions",
+    "organizations_url": "https://api.github.com/users/YorkShen/orgs",
+    "repos_url": "https://api.github.com/users/YorkShen/repos",
+    "events_url": "https://api.github.com/users/YorkShen/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/YorkShen/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

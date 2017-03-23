@@ -81,5 +81,6 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2561.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2561.patch"
   },
-  "body": "界面刷新很快的时候，某些情况下 content inset 不会更新。比如 修改后的 content offet 和修改前的 content offset 一样时。\n所以更新 content inset 的事还是交给对应的 component 更合理，毕竟 content offset 也是在此更新的。"
+  "body": "界面刷新很快的时候，某些情况下 content inset 不会更新。比如 修改后的 content offet 和修改前的 content offset 一样时。\n所以更新 content inset 的事还是交给对应的 component 更合理，毕竟 content offset 也是在此更新的。",
+  "closed_by": null
 }

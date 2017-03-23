@@ -37,5 +37,24 @@
   "created_at": "2016-06-30T13:14:07Z",
   "updated_at": "2016-06-30T13:26:09Z",
   "closed_at": "2016-06-30T13:26:09Z",
-  "body": "1. It's **_RECOMMENDED**_ to [submit PR](https://github.com/alibaba/weex/pulls) for typo, new demo or tiny bugfix.\n2. If this's a **_BUG**_, pls provide: course repetition, error/crash log, device model, OS version, App version (playground or other apps).\n3. If this's a **_FEATURE**_, pls provide: details, pseudo codes if necessary.\n\n---\n1. 我们**_推荐**_小问题直接[提 PR](https://github.com/alibaba/weex/pulls)，如错别字、新 demo 或 bugfix。\n2. 如果是 **_Bug**_，请提供：复现步骤（推荐有截图）、error/crash log、设备型号、OS 版本、App 版本（playground 版本或自己的 app）。\n3. 如果是**_新需求**_，请提供：详细描述、应用场景、适当的伪代码（如有）。\n"
+  "body": "1. It's **_RECOMMENDED**_ to [submit PR](https://github.com/alibaba/weex/pulls) for typo, new demo or tiny bugfix.\n2. If this's a **_BUG**_, pls provide: course repetition, error/crash log, device model, OS version, App version (playground or other apps).\n3. If this's a **_FEATURE**_, pls provide: details, pseudo codes if necessary.\n\n---\n1. 我们**_推荐**_小问题直接[提 PR](https://github.com/alibaba/weex/pulls)，如错别字、新 demo 或 bugfix。\n2. 如果是 **_Bug**_，请提供：复现步骤（推荐有截图）、error/crash log、设备型号、OS 版本、App 版本（playground 版本或自己的 app）。\n3. 如果是**_新需求**_，请提供：详细描述、应用场景、适当的伪代码（如有）。\n",
+  "closed_by": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

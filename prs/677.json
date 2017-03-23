@@ -43,5 +43,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/677.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/677.patch"
   },
-  "body": "1. add timeout option to fetch\n2. add put/delete/head/patch method to fetch\n"
+  "body": "1. add timeout option to fetch\n2. add put/delete/head/patch method to fetch\n",
+  "closed_by": {
+    "login": "denghongcai",
+    "id": 1433247,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1433247?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/denghongcai",
+    "html_url": "https://github.com/denghongcai",
+    "followers_url": "https://api.github.com/users/denghongcai/followers",
+    "following_url": "https://api.github.com/users/denghongcai/following{/other_user}",
+    "gists_url": "https://api.github.com/users/denghongcai/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/denghongcai/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/denghongcai/subscriptions",
+    "organizations_url": "https://api.github.com/users/denghongcai/orgs",
+    "repos_url": "https://api.github.com/users/denghongcai/repos",
+    "events_url": "https://api.github.com/users/denghongcai/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/denghongcai/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

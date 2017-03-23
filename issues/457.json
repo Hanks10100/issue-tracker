@@ -90,5 +90,24 @@
   "created_at": "2016-06-13T08:58:28Z",
   "updated_at": "2016-06-15T07:09:30Z",
   "closed_at": "2016-06-15T07:09:30Z",
-  "body": "2016-06-13 16:41:16.774 WeexDemo[19053:2385264] \u001b[fg0,128,0; <Weex>[debug]WXJSCoreBridge.m:66, jsLog: [JS Framework] \"created\" lifecycle in Vm(example-list-item)  \u001b[;\nlibc++abi.dylib: terminating with uncaught exception of type NSException\n(lldb) \n\n这个是ios 官方demo，我在模拟机随意点击一些按钮后会崩掉而且是随机的。\n"
+  "body": "2016-06-13 16:41:16.774 WeexDemo[19053:2385264] \u001b[fg0,128,0; <Weex>[debug]WXJSCoreBridge.m:66, jsLog: [JS Framework] \"created\" lifecycle in Vm(example-list-item)  \u001b[;\nlibc++abi.dylib: terminating with uncaught exception of type NSException\n(lldb) \n\n这个是ios 官方demo，我在模拟机随意点击一些按钮后会崩掉而且是随机的。\n",
+  "closed_by": {
+    "login": "gurisxie",
+    "id": 7436932,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/7436932?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/gurisxie",
+    "html_url": "https://github.com/gurisxie",
+    "followers_url": "https://api.github.com/users/gurisxie/followers",
+    "following_url": "https://api.github.com/users/gurisxie/following{/other_user}",
+    "gists_url": "https://api.github.com/users/gurisxie/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/gurisxie/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/gurisxie/subscriptions",
+    "organizations_url": "https://api.github.com/users/gurisxie/orgs",
+    "repos_url": "https://api.github.com/users/gurisxie/repos",
+    "events_url": "https://api.github.com/users/gurisxie/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/gurisxie/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

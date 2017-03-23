@@ -81,5 +81,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2081.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2081.patch"
   },
-  "body": "* [ios] placeholder position is not strict same as text & user domchange, not update text .chinese is ok(placehodler的位置和text不是严格相同& 用了domchange，输入中文没问题了，之前的片段去除)"
+  "body": "* [ios] placeholder position is not strict same as text & user domchange, not update text .chinese is ok(placehodler的位置和text不是严格相同& 用了domchange，输入中文没问题了，之前的片段去除)",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -104,5 +104,24 @@
   "created_at": "2016-07-27T03:47:45Z",
   "updated_at": "2016-08-30T06:40:31Z",
   "closed_at": "2016-08-30T06:40:31Z",
-  "body": "![playground](https://cloud.githubusercontent.com/assets/19163532/17163226/aa01c2e8-53ef-11e6-91f6-12b3821ae2e7.png)\n\n``` java\n5872/com.alibaba.weex E/AndroidRuntime: FATAL EXCEPTION: OkHttp Dispatcher\n                                                                Process: com.alibaba.weex, PID: 5572\n                                                                java.lang.SecurityException: getDeviceId: Neither user 10076 nor current process has android.permission.READ_PHONE_STATE.\n                                                                    at android.os.Parcel.readException(Parcel.java:1620)\n                                                                    at android.os.Parcel.readException(Parcel.java:1573)\n                                                                    at com.android.internal.telephony.ITelephony$Stub$Proxy.getDeviceId(ITelephony.java:4207)\n                                                                    at android.telephony.TelephonyManager.getDeviceId(TelephonyManager.java:746)\n                                                                    at com.taobao.weex.devtools.debug.DebugServerProxy$1.getShakeHandsMessage(DebugServerProxy.java:84)\n                                                                    at com.taobao.weex.devtools.debug.DebugServerProxy$1.onSuccess(DebugServerProxy.java:96)\n                                                                    at com.taobao.weex.devtools.debug.DebugSocketClient.onOpen(DebugSocketClient.java:120)\n```\n\n十分明显，6.0手机权限问题，用的时候，尝试请求一下是否有权限。\n"
+  "body": "![playground](https://cloud.githubusercontent.com/assets/19163532/17163226/aa01c2e8-53ef-11e6-91f6-12b3821ae2e7.png)\n\n``` java\n5872/com.alibaba.weex E/AndroidRuntime: FATAL EXCEPTION: OkHttp Dispatcher\n                                                                Process: com.alibaba.weex, PID: 5572\n                                                                java.lang.SecurityException: getDeviceId: Neither user 10076 nor current process has android.permission.READ_PHONE_STATE.\n                                                                    at android.os.Parcel.readException(Parcel.java:1620)\n                                                                    at android.os.Parcel.readException(Parcel.java:1573)\n                                                                    at com.android.internal.telephony.ITelephony$Stub$Proxy.getDeviceId(ITelephony.java:4207)\n                                                                    at android.telephony.TelephonyManager.getDeviceId(TelephonyManager.java:746)\n                                                                    at com.taobao.weex.devtools.debug.DebugServerProxy$1.getShakeHandsMessage(DebugServerProxy.java:84)\n                                                                    at com.taobao.weex.devtools.debug.DebugServerProxy$1.onSuccess(DebugServerProxy.java:96)\n                                                                    at com.taobao.weex.devtools.debug.DebugSocketClient.onOpen(DebugSocketClient.java:120)\n```\n\n十分明显，6.0手机权限问题，用的时候，尝试请求一下是否有权限。\n",
+  "closed_by": {
+    "login": "littleseven",
+    "id": 3962302,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3962302?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/littleseven",
+    "html_url": "https://github.com/littleseven",
+    "followers_url": "https://api.github.com/users/littleseven/followers",
+    "following_url": "https://api.github.com/users/littleseven/following{/other_user}",
+    "gists_url": "https://api.github.com/users/littleseven/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/littleseven/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/littleseven/subscriptions",
+    "organizations_url": "https://api.github.com/users/littleseven/orgs",
+    "repos_url": "https://api.github.com/users/littleseven/repos",
+    "events_url": "https://api.github.com/users/littleseven/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/littleseven/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

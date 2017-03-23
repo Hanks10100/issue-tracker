@@ -272,5 +272,24 @@
   "created_at": "2016-12-05T02:20:02Z",
   "updated_at": "2017-01-22T07:39:21Z",
   "closed_at": "2017-01-22T07:39:21Z",
-  "body": "对于ios端长时间以来的上拉下拉问题，我测试了下>0.9.1的几个版本，已经优化很多。\r\n\r\n不知道发版计划是什么，希望能尽快发布的dev branch和pod。。。这些问题的fix都望眼欲穿。\r\n\r\n当**首次记录数少于一屏**时，还是有错误。\r\n下图`ios-feature-20161208`分支playground 修改`list-basic.we`文件的rows为：\r\n```\r\nrows:[\r\n        {id: 1},\r\n        {id: 2},\r\n      ],\r\n```\r\n明显看出，页面为了配合上拉，完全**下滑到底部**了。\r\n![ios端上拉下拉问题](http://7xitzh.com1.z0.glb.clouddn.com/WechatIMG2.jpeg)"
+  "body": "对于ios端长时间以来的上拉下拉问题，我测试了下>0.9.1的几个版本，已经优化很多。\r\n\r\n不知道发版计划是什么，希望能尽快发布的dev branch和pod。。。这些问题的fix都望眼欲穿。\r\n\r\n当**首次记录数少于一屏**时，还是有错误。\r\n下图`ios-feature-20161208`分支playground 修改`list-basic.we`文件的rows为：\r\n```\r\nrows:[\r\n        {id: 1},\r\n        {id: 2},\r\n      ],\r\n```\r\n明显看出，页面为了配合上拉，完全**下滑到底部**了。\r\n![ios端上拉下拉问题](http://7xitzh.com1.z0.glb.clouddn.com/WechatIMG2.jpeg)",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -100,5 +100,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2278.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2278.patch"
   },
-  "body": "doc:https://weex-project.io/references/modules/stream.html\r\nok(boolean): true if status code is bewteen 200～299.\r\nok's type in android is boolean. so so change the ok to bool type same as android\r\n\r\nuser can use it as follow:\r\n```javascript\r\nif(ret.ok === true){\r\n         console.log('get:'+ret);\r\n         me.getResult = JSON.stringify(ret.data);\r\n  }else{\r\n         me.getResult = \"request failed\";\r\n}\r\n```\r\n\r\nrefer:http://stackoverflow.com/questions/3970794/objective-c-how-to-put-boolean-values-in-json-dictionary"
+  "body": "doc:https://weex-project.io/references/modules/stream.html\r\nok(boolean): true if status code is bewteen 200～299.\r\nok's type in android is boolean. so so change the ok to bool type same as android\r\n\r\nuser can use it as follow:\r\n```javascript\r\nif(ret.ok === true){\r\n         console.log('get:'+ret);\r\n         me.getResult = JSON.stringify(ret.data);\r\n  }else{\r\n         me.getResult = \"request failed\";\r\n}\r\n```\r\n\r\nrefer:http://stackoverflow.com/questions/3970794/objective-c-how-to-put-boolean-values-in-json-dictionary",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

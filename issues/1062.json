@@ -216,5 +216,24 @@
   "created_at": "2016-08-24T03:00:09Z",
   "updated_at": "2016-08-30T06:27:54Z",
   "closed_at": "2016-08-28T10:40:12Z",
-  "body": "本地就是文件 \n\n``` javascript\nexports.getDevices=  function getDevices(config){\n    var devices = {\n        width : config.env.deviceWidth,\n        height : config.env.deviceHeight\n    };\n     return devices;\n}\n```\n\n.we中引入\n\n``` javascript\ncreated: function() {\n            var config = this.$getConfig();\n            var DevicesUtil = require('./common/devicesUtil');\n            var devices = DevicesUtil.getDevice(config);\n            console.log(devices);\n            this.devices.width = devices.width;\n            this.devices.height = devices.height;\n        }\n```\n\n网页端测试正常 ，但是在android上却报 `createInstanceTypeError: Object [object Object] has no method 'getDevices'`\n"
+  "body": "本地就是文件 \n\n``` javascript\nexports.getDevices=  function getDevices(config){\n    var devices = {\n        width : config.env.deviceWidth,\n        height : config.env.deviceHeight\n    };\n     return devices;\n}\n```\n\n.we中引入\n\n``` javascript\ncreated: function() {\n            var config = this.$getConfig();\n            var DevicesUtil = require('./common/devicesUtil');\n            var devices = DevicesUtil.getDevice(config);\n            console.log(devices);\n            this.devices.width = devices.width;\n            this.devices.height = devices.height;\n        }\n```\n\n网页端测试正常 ，但是在android上却报 `createInstanceTypeError: Object [object Object] has no method 'getDevices'`\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

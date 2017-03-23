@@ -81,5 +81,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2134.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2134.patch"
   },
-  "body": "iconfont fontStorage should set when  download success\r\n复现问题方案：\r\n第一次打开app，iconfont 现在不成功\r\n激活网络，第二次打开iconfont，iconfont会一直不会显示\r\n\r\n场景：ios 10 第一次请求系统网络，还没有获取系统网络权限，以后iconfont会一直加载不成功"
+  "body": "iconfont fontStorage should set when  download success\r\n复现问题方案：\r\n第一次打开app，iconfont 现在不成功\r\n激活网络，第二次打开iconfont，iconfont会一直不会显示\r\n\r\n场景：ios 10 第一次请求系统网络，还没有获取系统网络权限，以后iconfont会一直加载不成功",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -273,5 +273,24 @@
   "created_at": "2016-10-26T08:17:34Z",
   "updated_at": "2016-12-23T12:46:25Z",
   "closed_at": "2016-12-23T12:46:25Z",
-  "body": "# 提供执行javascript的接口\n\n提供native接口供app在页面(bundle)加载/执行前,做一些准备工作(注入基础库,预加载数据).\n一个app的基础库是不需要跟随页面一起执行的,如果在'打包'工具能实现的前提下,完全可以预加载,能有限减少加载页面的影响.坏处是在加载页面前的内存消耗会增加.\n## 修改内容\n\n在SDKEngine和Instance添加接口执行javascript,便于在全局以及Instance范围内注入内容\n\n1.\n\n```\nSDKEngine#executeJS(String javascriptContent)\n```\n\n2.\n\n```\nSDKInstance#executeJs(String javascriptContent)\n```\n"
+  "body": "# 提供执行javascript的接口\n\n提供native接口供app在页面(bundle)加载/执行前,做一些准备工作(注入基础库,预加载数据).\n一个app的基础库是不需要跟随页面一起执行的,如果在'打包'工具能实现的前提下,完全可以预加载,能有限减少加载页面的影响.坏处是在加载页面前的内存消耗会增加.\n## 修改内容\n\n在SDKEngine和Instance添加接口执行javascript,便于在全局以及Instance范围内注入内容\n\n1.\n\n```\nSDKEngine#executeJS(String javascriptContent)\n```\n\n2.\n\n```\nSDKInstance#executeJs(String javascriptContent)\n```\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

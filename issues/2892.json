@@ -122,5 +122,6 @@
   "created_at": "2017-03-09T09:52:09Z",
   "updated_at": "2017-03-11T01:37:45Z",
   "closed_at": null,
-  "body": "不知道有没计划实现绘制相关的组件如 react-native-art？"
+  "body": "不知道有没计划实现绘制相关的组件如 react-native-art？",
+  "closed_by": null
 }

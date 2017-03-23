@@ -122,5 +122,24 @@
   "created_at": "2016-12-13T10:10:30Z",
   "updated_at": "2016-12-14T02:51:18Z",
   "closed_at": "2016-12-14T02:51:18Z",
-  "body": "场景:使用UITableView cellForRowAtIndexPath 中通renderWithURL 动态加载脚本渲染UITableViewCell的subview.动态添加View时 renderWithURL 会不断累加内存.注释掉renderWithURL一行代码.内存叠加情况消失."
+  "body": "场景:使用UITableView cellForRowAtIndexPath 中通renderWithURL 动态加载脚本渲染UITableViewCell的subview.动态添加View时 renderWithURL 会不断累加内存.注释掉renderWithURL一行代码.内存叠加情况消失.",
+  "closed_by": {
+    "login": "cxfeng1",
+    "id": 1625893,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1625893?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cxfeng1",
+    "html_url": "https://github.com/cxfeng1",
+    "followers_url": "https://api.github.com/users/cxfeng1/followers",
+    "following_url": "https://api.github.com/users/cxfeng1/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cxfeng1/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cxfeng1/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cxfeng1/subscriptions",
+    "organizations_url": "https://api.github.com/users/cxfeng1/orgs",
+    "repos_url": "https://api.github.com/users/cxfeng1/repos",
+    "events_url": "https://api.github.com/users/cxfeng1/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cxfeng1/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

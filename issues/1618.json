@@ -94,5 +94,24 @@
   "created_at": "2016-11-10T08:27:01Z",
   "updated_at": "2016-11-14T04:06:28Z",
   "closed_at": "2016-11-14T04:06:28Z",
-  "body": "placeholder属性 在Consts中是\"placeHolder\"\r\nwe文件打包后都是小写的.....\r\n所以等于就是不能用了...\r\n"
+  "body": "placeholder属性 在Consts中是\"placeHolder\"\r\nwe文件打包后都是小写的.....\r\n所以等于就是不能用了...\r\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

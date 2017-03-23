@@ -81,5 +81,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2109.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2109.patch"
   },
-  "body": ""
+  "body": "",
+  "closed_by": {
+    "login": "vczero",
+    "id": 6133685,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6133685?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/vczero",
+    "html_url": "https://github.com/vczero",
+    "followers_url": "https://api.github.com/users/vczero/followers",
+    "following_url": "https://api.github.com/users/vczero/following{/other_user}",
+    "gists_url": "https://api.github.com/users/vczero/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/vczero/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/vczero/subscriptions",
+    "organizations_url": "https://api.github.com/users/vczero/orgs",
+    "repos_url": "https://api.github.com/users/vczero/repos",
+    "events_url": "https://api.github.com/users/vczero/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/vczero/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -151,5 +151,24 @@
   "created_at": "2016-06-18T03:12:29Z",
   "updated_at": "2016-06-23T15:34:29Z",
   "closed_at": "2016-06-23T15:34:29Z",
-  "body": "after change line 3 padding-body=\"0\" to some other value in style-box.we, then click refresh, app will crash.\n\nthe stack shows the following info, maybe cause by the wrong sequence of loading component.\n\nWeexDemo[98574:7596106] \u001b[fg255,0,0; <Weex>[error]WXAssert.m:19, component not exists \u001b[;\nWeexDemo[98574:7596106] **\\* Assertion failure in -[WXComponentManager updateStyles:forComponent:]()\n\nsometimes, crash at function addComponent:(NSDictionary *)componentData toSupercomponent:(NSString *)superRef atIndex:(NSInteger)index appendingInTree:(BOOL)appendingInTree, the error is the same\n"
+  "body": "after change line 3 padding-body=\"0\" to some other value in style-box.we, then click refresh, app will crash.\n\nthe stack shows the following info, maybe cause by the wrong sequence of loading component.\n\nWeexDemo[98574:7596106] \u001b[fg255,0,0; <Weex>[error]WXAssert.m:19, component not exists \u001b[;\nWeexDemo[98574:7596106] **\\* Assertion failure in -[WXComponentManager updateStyles:forComponent:]()\n\nsometimes, crash at function addComponent:(NSDictionary *)componentData toSupercomponent:(NSString *)superRef atIndex:(NSInteger)index appendingInTree:(BOOL)appendingInTree, the error is the same\n",
+  "closed_by": {
+    "login": "cxfeng1",
+    "id": 1625893,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1625893?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cxfeng1",
+    "html_url": "https://github.com/cxfeng1",
+    "followers_url": "https://api.github.com/users/cxfeng1/followers",
+    "following_url": "https://api.github.com/users/cxfeng1/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cxfeng1/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cxfeng1/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cxfeng1/subscriptions",
+    "organizations_url": "https://api.github.com/users/cxfeng1/orgs",
+    "repos_url": "https://api.github.com/users/cxfeng1/repos",
+    "events_url": "https://api.github.com/users/cxfeng1/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cxfeng1/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

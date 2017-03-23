@@ -234,5 +234,24 @@
   "created_at": "2016-08-08T12:20:15Z",
   "updated_at": "2016-08-23T17:45:53Z",
   "closed_at": "2016-08-23T17:45:53Z",
-  "body": "详细需求：用weex写页面应用，用open url方式打开一个个的页面，需要自己写容器管理前进后退。这种方式类似于比较原始的web页面，点击不同链接打开新的页面，只不过浏览器帮忙管理了页面堆栈。但前端开发这块貌似用单页面应用（SPA）的理念来开发web应用，做到无页面重新加载或跳转就可以动态刷新页面。weex作为一种动态化方案，不支持SPA的话，那么需要重新加载或调整页面，用户体验不好。\nweex支持SPA开发理念，需要提供路由机制实现页面跳转。\n\n应用场景：weex页面切换，不要重新加载或跳转\n"
+  "body": "详细需求：用weex写页面应用，用open url方式打开一个个的页面，需要自己写容器管理前进后退。这种方式类似于比较原始的web页面，点击不同链接打开新的页面，只不过浏览器帮忙管理了页面堆栈。但前端开发这块貌似用单页面应用（SPA）的理念来开发web应用，做到无页面重新加载或跳转就可以动态刷新页面。weex作为一种动态化方案，不支持SPA的话，那么需要重新加载或调整页面，用户体验不好。\nweex支持SPA开发理念，需要提供路由机制实现页面跳转。\n\n应用场景：weex页面切换，不要重新加载或跳转\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

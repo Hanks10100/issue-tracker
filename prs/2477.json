@@ -43,5 +43,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2477.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2477.patch"
   },
-  "body": "* [android] Use u4 v8 on Weex's native side and add v8 code cache supports.\r\na) make weex sdk depend on weexv8(u4)\r\nb) provide a performance boost by compiling 'new Function' on native side\r\nc) make the app playground to use a new feature of v8 code cache\r\n\r\nIf some Weex's embedder want to use the feature of v8 code cache for a js bundle, need to add the following banner header in the bundle:\r\n/*!197\r\n\r\n{\r\nversion: \"0.4.0.20170207\",\r\ncreate: \"20170207145011\",\r\ngit: \"jsfm-feature-0.19.a--027e045\",\r\ndigest: \"f896450c2023a601771c46369fe5d72c\"\r\n}\r\n!*/\r\nThen, Weex sdk can parse the banner into a json object and return the field 'digest' as the unique idification for the bundle, because v8 code cache needs a unique idification for the bundle."
+  "body": "* [android] Use u4 v8 on Weex's native side and add v8 code cache supports.\r\na) make weex sdk depend on weexv8(u4)\r\nb) provide a performance boost by compiling 'new Function' on native side\r\nc) make the app playground to use a new feature of v8 code cache\r\n\r\nIf some Weex's embedder want to use the feature of v8 code cache for a js bundle, need to add the following banner header in the bundle:\r\n/*!197\r\n\r\n{\r\nversion: \"0.4.0.20170207\",\r\ncreate: \"20170207145011\",\r\ngit: \"jsfm-feature-0.19.a--027e045\",\r\ndigest: \"f896450c2023a601771c46369fe5d72c\"\r\n}\r\n!*/\r\nThen, Weex sdk can parse the banner into a json object and return the field 'digest' as the unique idification for the bundle, because v8 code cache needs a unique idification for the bundle.",
+  "closed_by": {
+    "login": "zshshr",
+    "id": 5382962,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5382962?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/zshshr",
+    "html_url": "https://github.com/zshshr",
+    "followers_url": "https://api.github.com/users/zshshr/followers",
+    "following_url": "https://api.github.com/users/zshshr/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zshshr/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/zshshr/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/zshshr/subscriptions",
+    "organizations_url": "https://api.github.com/users/zshshr/orgs",
+    "repos_url": "https://api.github.com/users/zshshr/repos",
+    "events_url": "https://api.github.com/users/zshshr/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/zshshr/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -43,5 +43,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1898.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1898.patch"
   },
-  "body": "#<!--\r\nIt's ***RECOMMENDED*** to submit typo fix, new demo and tiny bugfix to `dev` branch. New feature and other modifications can be submitted to \"domain\" branch including `ios`, `android`, `jsfm`, `html5`.\r\n    \r\nSee [Branch Strategy](https://github.com/alibaba/weex/blob/dev/CONTRIBUTING.md#branch-management) for more detail.\r\n\r\n---\r\n\r\n（请在***提交***前删除这段描述）\r\n\r\n错别字修改、新 demo、较小的 bugfix 都可以直接提到 `dev` 分支；新需求以及任何你不确定影响面的改动，请提交到对应“领域”的分支（`ios`、`android`、`jsfm`、`html5`）。\r\n\r\n查看完整的[分支策略 (英文)](https://github.com/alibaba/weex/blob/dev/CONTRIBUTING.md#branch-management)。\r\n-->\r\n千牛需求：http://velocity.alibaba-inc.com/issues/3200  \r\n测试demo:http://weex.alibaba-inc.com/playground/fe233c18bb0bd24b2dfe7076c772eff7\r\n解决方案：\r\nscroll过程中通过onscroll事件回调，传回x轴偏移比例。前端监听onscroll事件，并设置精度值：0--1之间。native端判断偏移比例超过精度就进行一次回调。比如：精度0.1，正常会回调8或9次。scroll达到page宽度时，可能不回调。所以前端要监听onchange事件，保证currentPage值正确。"
+  "body": "#<!--\r\nIt's ***RECOMMENDED*** to submit typo fix, new demo and tiny bugfix to `dev` branch. New feature and other modifications can be submitted to \"domain\" branch including `ios`, `android`, `jsfm`, `html5`.\r\n    \r\nSee [Branch Strategy](https://github.com/alibaba/weex/blob/dev/CONTRIBUTING.md#branch-management) for more detail.\r\n\r\n---\r\n\r\n（请在***提交***前删除这段描述）\r\n\r\n错别字修改、新 demo、较小的 bugfix 都可以直接提到 `dev` 分支；新需求以及任何你不确定影响面的改动，请提交到对应“领域”的分支（`ios`、`android`、`jsfm`、`html5`）。\r\n\r\n查看完整的[分支策略 (英文)](https://github.com/alibaba/weex/blob/dev/CONTRIBUTING.md#branch-management)。\r\n-->\r\n千牛需求：http://velocity.alibaba-inc.com/issues/3200  \r\n测试demo:http://weex.alibaba-inc.com/playground/fe233c18bb0bd24b2dfe7076c772eff7\r\n解决方案：\r\nscroll过程中通过onscroll事件回调，传回x轴偏移比例。前端监听onscroll事件，并设置精度值：0--1之间。native端判断偏移比例超过精度就进行一次回调。比如：精度0.1，正常会回调8或9次。scroll达到page宽度时，可能不回调。所以前端要监听onchange事件，保证currentPage值正确。",
+  "closed_by": {
+    "login": "bluebird78999",
+    "id": 753735,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/753735?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/bluebird78999",
+    "html_url": "https://github.com/bluebird78999",
+    "followers_url": "https://api.github.com/users/bluebird78999/followers",
+    "following_url": "https://api.github.com/users/bluebird78999/following{/other_user}",
+    "gists_url": "https://api.github.com/users/bluebird78999/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/bluebird78999/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/bluebird78999/subscriptions",
+    "organizations_url": "https://api.github.com/users/bluebird78999/orgs",
+    "repos_url": "https://api.github.com/users/bluebird78999/repos",
+    "events_url": "https://api.github.com/users/bluebird78999/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/bluebird78999/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

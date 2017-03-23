@@ -153,5 +153,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/768.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/768.patch"
   },
-  "body": "Now we can use `npm run build:config` to generate `html5/runtime/frameworks.js` (this file has been ignored by git now).\nThis command will find all the `framework-*.js` files in `html5/runtime/` folder and register each of them to the generated file.\n\n``` js\n// built by npm run build:config\n\nimport * as Weex from '../default'\nimport * as Rx from 'weex-rx-framework'\n\nexport default {\n  Weex,\n  Rx\n}\n```\n\nYou can also run it like `npm run build:config -- weex,rx` to filter which frameworks we will include.\nBe default the generated file `html5/runtime/frameworks.js` not existed but when we run `npm run build:native`,  `npm run build:browser` or  `npm run build` it will init once if the file hasn't been built.\n"
+  "body": "Now we can use `npm run build:config` to generate `html5/runtime/frameworks.js` (this file has been ignored by git now).\nThis command will find all the `framework-*.js` files in `html5/runtime/` folder and register each of them to the generated file.\n\n``` js\n// built by npm run build:config\n\nimport * as Weex from '../default'\nimport * as Rx from 'weex-rx-framework'\n\nexport default {\n  Weex,\n  Rx\n}\n```\n\nYou can also run it like `npm run build:config -- weex,rx` to filter which frameworks we will include.\nBe default the generated file `html5/runtime/frameworks.js` not existed but when we run `npm run build:native`,  `npm run build:browser` or  `npm run build` it will init once if the file hasn't been built.\n",
+  "closed_by": {
+    "login": "yuanyan",
+    "id": 677114,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/677114?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/yuanyan",
+    "html_url": "https://github.com/yuanyan",
+    "followers_url": "https://api.github.com/users/yuanyan/followers",
+    "following_url": "https://api.github.com/users/yuanyan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/yuanyan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/yuanyan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/yuanyan/subscriptions",
+    "organizations_url": "https://api.github.com/users/yuanyan/orgs",
+    "repos_url": "https://api.github.com/users/yuanyan/repos",
+    "events_url": "https://api.github.com/users/yuanyan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/yuanyan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

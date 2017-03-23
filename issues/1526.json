@@ -66,5 +66,24 @@
   "created_at": "2016-10-28T03:30:16Z",
   "updated_at": "2016-10-28T06:17:21Z",
   "closed_at": "2016-10-28T06:17:21Z",
-  "body": "请问js-native中，有办法在{}内传递function，让native拿到JSCallbck吗（即JSCallbck作为方法的参数对象的子成员传递）\n"
+  "body": "请问js-native中，有办法在{}内传递function，让native拿到JSCallbck吗（即JSCallbck作为方法的参数对象的子成员传递）\n",
+  "closed_by": {
+    "login": "ytig",
+    "id": 22391643,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22391643?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ytig",
+    "html_url": "https://github.com/ytig",
+    "followers_url": "https://api.github.com/users/ytig/followers",
+    "following_url": "https://api.github.com/users/ytig/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ytig/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ytig/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ytig/subscriptions",
+    "organizations_url": "https://api.github.com/users/ytig/orgs",
+    "repos_url": "https://api.github.com/users/ytig/repos",
+    "events_url": "https://api.github.com/users/ytig/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ytig/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -94,5 +94,24 @@
   "created_at": "2016-07-21T10:37:47Z",
   "updated_at": "2016-07-25T06:29:51Z",
   "closed_at": "2016-07-25T06:29:51Z",
-  "body": " border: solid 1px #e7e6f0;   在浏览器显示边框，在ios设备上不显示。\n\nweex页面没有body，怎么给整个页面设背景色啊？？\n"
+  "body": " border: solid 1px #e7e6f0;   在浏览器显示边框，在ios设备上不显示。\n\nweex页面没有body，怎么给整个页面设背景色啊？？\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

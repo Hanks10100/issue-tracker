@@ -252,5 +252,24 @@
   "created_at": "2016-10-18T12:42:29Z",
   "updated_at": "2016-11-30T07:44:42Z",
   "closed_at": "2016-11-30T07:43:47Z",
-  "body": "android 自定义component需要再注册一个DomObject，否则不能利用flex布局。\n但是要override什么方法，这点上不知从何入手。\n"
+  "body": "android 自定义component需要再注册一个DomObject，否则不能利用flex布局。\n但是要override什么方法，这点上不知从何入手。\n",
+  "closed_by": {
+    "login": "YanyeZhang",
+    "id": 8480050,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8480050?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/YanyeZhang",
+    "html_url": "https://github.com/YanyeZhang",
+    "followers_url": "https://api.github.com/users/YanyeZhang/followers",
+    "following_url": "https://api.github.com/users/YanyeZhang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/YanyeZhang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/YanyeZhang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/YanyeZhang/subscriptions",
+    "organizations_url": "https://api.github.com/users/YanyeZhang/orgs",
+    "repos_url": "https://api.github.com/users/YanyeZhang/repos",
+    "events_url": "https://api.github.com/users/YanyeZhang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/YanyeZhang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -90,5 +90,6 @@
   "created_at": "2017-01-19T07:30:39Z",
   "updated_at": "2017-01-22T02:57:33Z",
   "closed_at": null,
-  "body": "\r\nandroid 一个apk里面的dex文件只有65k个方法，app做大之后方法超过了就用multidex多分包打包，会生成两个dex文件，这样引入的weex库就会被分在两个dex文件里，这样打出来的apk无法渲染出weex的页面。\r\n（0.8以上的可能多了很多方法，用了multidex之后就没法渲染成功）\r\n\r\n请问这个问题怎么解决呢？"
+  "body": "\r\nandroid 一个apk里面的dex文件只有65k个方法，app做大之后方法超过了就用multidex多分包打包，会生成两个dex文件，这样引入的weex库就会被分在两个dex文件里，这样打出来的apk无法渲染出weex的页面。\r\n（0.8以上的可能多了很多方法，用了multidex之后就没法渲染成功）\r\n\r\n请问这个问题怎么解决呢？",
+  "closed_by": null
 }

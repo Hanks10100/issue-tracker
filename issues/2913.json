@@ -150,5 +150,6 @@
   "created_at": "2017-03-12T15:52:10Z",
   "updated_at": "2017-03-13T07:00:04Z",
   "closed_at": null,
-  "body": "当使用navbar组件的时候，或者也许是其他组件的时候，如果当前页面上有数据与view同步更新操作时，比如 [http://dotwe.org/vue/eafe8d0001e94a065e31abd8dec80c87](http://dotwe.org/vue/eafe8d0001e94a065e31abd8dec80c87)\r\nview更新就会出错，debug看xcode后台能看到错误提示： \r\n![image](https://cloud.githubusercontent.com/assets/1892162/23833288/3ffe3852-077e-11e7-8c62-6e5162edbe9e.png)\r\n\r\n可以运行dotwe例子，有navbar的时候点击黑色区域无法更新显示的数字，删除掉navbar就可以了。\r\n\r\n我想了下应该时数据更新的时候，框架在查找数据绑定的view时报错，可能是在查找组件生成的view时报错。当取出navbar组件的时候就没有问题，我试过自定义的其他组件，也会引起这个错误。\r\n\r\n希望能够确定下问题，目前weex工程中基本上所有设计交互更新的页面都没有导入组件，导致很多重复的代码。"
+  "body": "当使用navbar组件的时候，或者也许是其他组件的时候，如果当前页面上有数据与view同步更新操作时，比如 [http://dotwe.org/vue/eafe8d0001e94a065e31abd8dec80c87](http://dotwe.org/vue/eafe8d0001e94a065e31abd8dec80c87)\r\nview更新就会出错，debug看xcode后台能看到错误提示： \r\n![image](https://cloud.githubusercontent.com/assets/1892162/23833288/3ffe3852-077e-11e7-8c62-6e5162edbe9e.png)\r\n\r\n可以运行dotwe例子，有navbar的时候点击黑色区域无法更新显示的数字，删除掉navbar就可以了。\r\n\r\n我想了下应该时数据更新的时候，框架在查找数据绑定的view时报错，可能是在查找组件生成的view时报错。当取出navbar组件的时候就没有问题，我试过自定义的其他组件，也会引起这个错误。\r\n\r\n希望能够确定下问题，目前weex工程中基本上所有设计交互更新的页面都没有导入组件，导致很多重复的代码。",
+  "closed_by": null
 }

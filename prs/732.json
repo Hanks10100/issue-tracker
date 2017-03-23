@@ -81,5 +81,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/732.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/732.patch"
   },
-  "body": "iOS feature modal bugfix\nnumber compatible\n"
+  "body": "iOS feature modal bugfix\nnumber compatible\n",
+  "closed_by": {
+    "login": "boboning",
+    "id": 18302124,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/18302124?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/boboning",
+    "html_url": "https://github.com/boboning",
+    "followers_url": "https://api.github.com/users/boboning/followers",
+    "following_url": "https://api.github.com/users/boboning/following{/other_user}",
+    "gists_url": "https://api.github.com/users/boboning/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/boboning/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/boboning/subscriptions",
+    "organizations_url": "https://api.github.com/users/boboning/orgs",
+    "repos_url": "https://api.github.com/users/boboning/repos",
+    "events_url": "https://api.github.com/users/boboning/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/boboning/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

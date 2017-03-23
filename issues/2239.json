@@ -66,5 +66,24 @@
   "created_at": "2017-01-12T12:03:41Z",
   "updated_at": "2017-01-13T02:43:41Z",
   "closed_at": "2017-01-13T02:43:41Z",
-  "body": "由于业务需求上的强烈需求，迫切需要能获取list和scroll的滚动状态。很多的页面效果需要根据这些状态来实现。"
+  "body": "由于业务需求上的强烈需求，迫切需要能获取list和scroll的滚动状态。很多的页面效果需要根据这些状态来实现。",
+  "closed_by": {
+    "login": "misakuo",
+    "id": 6958743,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6958743?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/misakuo",
+    "html_url": "https://github.com/misakuo",
+    "followers_url": "https://api.github.com/users/misakuo/followers",
+    "following_url": "https://api.github.com/users/misakuo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/misakuo/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/misakuo/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/misakuo/subscriptions",
+    "organizations_url": "https://api.github.com/users/misakuo/orgs",
+    "repos_url": "https://api.github.com/users/misakuo/repos",
+    "events_url": "https://api.github.com/users/misakuo/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/misakuo/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -336,5 +336,24 @@
   "created_at": "2016-05-09T08:52:33Z",
   "updated_at": "2016-05-12T04:24:10Z",
   "closed_at": "2016-05-10T11:02:31Z",
-  "body": "code\n\n```\n<template>\n    <div><input type=\"text\" value=\"haha\" /></div>\n</template>\n```\n\nwhen I click the input area on Android, comes out the keyboard, but then there is no way to hide the keyboard.\n\nmaybe I can implement the hiding action in JS, but can the keyboard itself include the feature.\n\nscreen shots compare, in Chrome, the native keyboard has a folding button.\n\nChrome input\n![image](https://cloud.githubusercontent.com/assets/296426/15108454/96ad7e96-1608-11e6-9ac1-cc401a75ea54.png)\n\nweex input\n![snip20160509_6](https://cloud.githubusercontent.com/assets/296426/15108375/33009676-1608-11e6-95b4-5ed3aafdf874.png)\n"
+  "body": "code\n\n```\n<template>\n    <div><input type=\"text\" value=\"haha\" /></div>\n</template>\n```\n\nwhen I click the input area on Android, comes out the keyboard, but then there is no way to hide the keyboard.\n\nmaybe I can implement the hiding action in JS, but can the keyboard itself include the feature.\n\nscreen shots compare, in Chrome, the native keyboard has a folding button.\n\nChrome input\n![image](https://cloud.githubusercontent.com/assets/296426/15108454/96ad7e96-1608-11e6-9ac1-cc401a75ea54.png)\n\nweex input\n![snip20160509_6](https://cloud.githubusercontent.com/assets/296426/15108375/33009676-1608-11e6-95b4-5ed3aafdf874.png)\n",
+  "closed_by": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

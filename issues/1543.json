@@ -66,5 +66,24 @@
   "created_at": "2016-10-31T07:33:05Z",
   "updated_at": "2016-10-31T11:36:29Z",
   "closed_at": "2016-10-31T11:36:29Z",
-  "body": "weex中的说明：\r\nIn order to simplify the page design and the complete underlying implementation, the width of our default screen is unified to 750 pixels, different screens should be scaled with corresponding ratio.\r\n\r\n也就是说weex的元素在所有的屏幕中使用的放大缩小来进行屏幕适配的，源码中也有大量的同WXScreenResizeRadio的计算，所以我们现在开发的app包括官方的weex playground，在iphone5s中看起来比较精致，但一到iphone 6plus上，界面一拉大，扑面而来一股粗糙之感，。。。。。不能忍啊。。\r\n\r\n我们想对我们的元素在不同的屏幕上限定死大小，请问有什么好的办法？\r\n\r\n比如在ios原生开发里，如无适配设置，font size为11，在各个屏幕上都为11；高度为300，各个屏幕都为300。"
+  "body": "weex中的说明：\r\nIn order to simplify the page design and the complete underlying implementation, the width of our default screen is unified to 750 pixels, different screens should be scaled with corresponding ratio.\r\n\r\n也就是说weex的元素在所有的屏幕中使用的放大缩小来进行屏幕适配的，源码中也有大量的同WXScreenResizeRadio的计算，所以我们现在开发的app包括官方的weex playground，在iphone5s中看起来比较精致，但一到iphone 6plus上，界面一拉大，扑面而来一股粗糙之感，。。。。。不能忍啊。。\r\n\r\n我们想对我们的元素在不同的屏幕上限定死大小，请问有什么好的办法？\r\n\r\n比如在ios原生开发里，如无适配设置，font size为11，在各个屏幕上都为11；高度为300，各个屏幕都为300。",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

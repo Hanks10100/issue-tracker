@@ -94,5 +94,24 @@
   "created_at": "2016-12-26T04:40:14Z",
   "updated_at": "2016-12-28T01:39:20Z",
   "closed_at": "2016-12-28T01:39:20Z",
-  "body": "问题是这样的：比如我自定义了一个组件 A，然后我在 main 组件里引用了A, 当修改A的时候必须要在main里也修改些东西，然后运行才会显示A修改后的效果。(我已经开启监听和服务的了，无论单独修改A,还是main 都会自动更新转成js，问题就是如果不修改main的话，再运行不会自动加载更新后的A 的js) 所以结果就是每当修改A后，也要在mian里随便改点什么然后再运行 (iOS集成Weex真机运行)"
+  "body": "问题是这样的：比如我自定义了一个组件 A，然后我在 main 组件里引用了A, 当修改A的时候必须要在main里也修改些东西，然后运行才会显示A修改后的效果。(我已经开启监听和服务的了，无论单独修改A,还是main 都会自动更新转成js，问题就是如果不修改main的话，再运行不会自动加载更新后的A 的js) 所以结果就是每当修改A后，也要在mian里随便改点什么然后再运行 (iOS集成Weex真机运行)",
+  "closed_by": {
+    "login": "AndyFightting",
+    "id": 12689782,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/12689782?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/AndyFightting",
+    "html_url": "https://github.com/AndyFightting",
+    "followers_url": "https://api.github.com/users/AndyFightting/followers",
+    "following_url": "https://api.github.com/users/AndyFightting/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AndyFightting/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/AndyFightting/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/AndyFightting/subscriptions",
+    "organizations_url": "https://api.github.com/users/AndyFightting/orgs",
+    "repos_url": "https://api.github.com/users/AndyFightting/repos",
+    "events_url": "https://api.github.com/users/AndyFightting/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/AndyFightting/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

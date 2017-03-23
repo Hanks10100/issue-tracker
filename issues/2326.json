@@ -150,5 +150,6 @@
   "created_at": "2017-01-19T02:05:34Z",
   "updated_at": "2017-01-22T03:37:39Z",
   "closed_at": null,
-  "body": "试了下， 官方 examples 也不行 https://weex-project.io/examples/dom-scroll.html "
+  "body": "试了下， 官方 examples 也不行 https://weex-project.io/examples/dom-scroll.html ",
+  "closed_by": null
 }

@@ -160,5 +160,24 @@
   "created_at": "2017-01-24T09:50:33Z",
   "updated_at": "2017-02-10T10:00:27Z",
   "closed_at": "2017-02-10T10:00:27Z",
-  "body": "vue 官方写法 class 渲染不生效\r\n:class=\"{'item-on' :  true}\" \r\n需要写成下面这种才生效，是因为必须要传入一个空的 class 么？\r\n[true ? 'item-on' : '']\r\n\r\n样式无法继承，使得 active 状态的 class 可能会加非常多的才能使一个复杂的 list 显示 active 的状态。比如：list 背景和内部的字体都有 active 的状态，都需要些一个 active 的样式\r\n\r\n现在 toolkit 还是有问题，weex is undefined，无法调试，找问题都靠猜\r\n\r\n很多原生标签方法没有暴露，没法调用到，很难做扩展。比如 iOS 的：#import \"WXComponent_internal.h\""
+  "body": "vue 官方写法 class 渲染不生效\r\n:class=\"{'item-on' :  true}\" \r\n需要写成下面这种才生效，是因为必须要传入一个空的 class 么？\r\n[true ? 'item-on' : '']\r\n\r\n样式无法继承，使得 active 状态的 class 可能会加非常多的才能使一个复杂的 list 显示 active 的状态。比如：list 背景和内部的字体都有 active 的状态，都需要些一个 active 的样式\r\n\r\n现在 toolkit 还是有问题，weex is undefined，无法调试，找问题都靠猜\r\n\r\n很多原生标签方法没有暴露，没法调用到，很难做扩展。比如 iOS 的：#import \"WXComponent_internal.h\"",
+  "closed_by": {
+    "login": "Hanks10100",
+    "id": 8401776,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8401776?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Hanks10100",
+    "html_url": "https://github.com/Hanks10100",
+    "followers_url": "https://api.github.com/users/Hanks10100/followers",
+    "following_url": "https://api.github.com/users/Hanks10100/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Hanks10100/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Hanks10100/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Hanks10100/subscriptions",
+    "organizations_url": "https://api.github.com/users/Hanks10100/orgs",
+    "repos_url": "https://api.github.com/users/Hanks10100/repos",
+    "events_url": "https://api.github.com/users/Hanks10100/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Hanks10100/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

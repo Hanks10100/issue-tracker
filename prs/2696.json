@@ -72,5 +72,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2696.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2696.patch"
   },
-  "body": "fix some type error in guide-intro-using-vue doc.\r\n\r\n"
+  "body": "fix some type error in guide-intro-using-vue doc.\r\n\r\n",
+  "closed_by": {
+    "login": "x-yao",
+    "id": 5781441,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5781441?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/x-yao",
+    "html_url": "https://github.com/x-yao",
+    "followers_url": "https://api.github.com/users/x-yao/followers",
+    "following_url": "https://api.github.com/users/x-yao/following{/other_user}",
+    "gists_url": "https://api.github.com/users/x-yao/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/x-yao/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/x-yao/subscriptions",
+    "organizations_url": "https://api.github.com/users/x-yao/orgs",
+    "repos_url": "https://api.github.com/users/x-yao/repos",
+    "events_url": "https://api.github.com/users/x-yao/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/x-yao/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

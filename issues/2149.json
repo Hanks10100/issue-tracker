@@ -150,5 +150,24 @@
   "created_at": "2017-01-05T10:36:35Z",
   "updated_at": "2017-01-10T07:32:49Z",
   "closed_at": "2017-01-09T10:35:08Z",
-  "body": "设备型号：Samsung SM-G5308W\r\nOS 版本：Android 4.4\r\nApp 版本：0.9.4\r\n\r\n通过 playground 应用扫描二维码，界面显示正常；但通过 Weex SDK 集成时，界面显示不全；\r\n\r\n`mWXSDKInstance.render(\"more-lists\", WXFileUtils.loadAsset(\"more-lists.js\", this), null, null, -1, -1, WXRenderStrategy.APPEND_ASYNC);`\r\n\r\n![weex sdk](https://github.com/CCC2016/Cache/blob/master/Weex%20SDK%20show%20error.png \"error\")"
+  "body": "设备型号：Samsung SM-G5308W\r\nOS 版本：Android 4.4\r\nApp 版本：0.9.4\r\n\r\n通过 playground 应用扫描二维码，界面显示正常；但通过 Weex SDK 集成时，界面显示不全；\r\n\r\n`mWXSDKInstance.render(\"more-lists\", WXFileUtils.loadAsset(\"more-lists.js\", this), null, null, -1, -1, WXRenderStrategy.APPEND_ASYNC);`\r\n\r\n![weex sdk](https://github.com/CCC2016/Cache/blob/master/Weex%20SDK%20show%20error.png \"error\")",
+  "closed_by": {
+    "login": "CCC2016",
+    "id": 17694018,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/17694018?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/CCC2016",
+    "html_url": "https://github.com/CCC2016",
+    "followers_url": "https://api.github.com/users/CCC2016/followers",
+    "following_url": "https://api.github.com/users/CCC2016/following{/other_user}",
+    "gists_url": "https://api.github.com/users/CCC2016/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/CCC2016/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/CCC2016/subscriptions",
+    "organizations_url": "https://api.github.com/users/CCC2016/orgs",
+    "repos_url": "https://api.github.com/users/CCC2016/repos",
+    "events_url": "https://api.github.com/users/CCC2016/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/CCC2016/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

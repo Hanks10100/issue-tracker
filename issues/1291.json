@@ -94,5 +94,24 @@
   "created_at": "2016-09-22T09:35:14Z",
   "updated_at": "2017-02-23T14:34:39Z",
   "closed_at": "2016-10-10T18:02:23Z",
-  "body": "## 建议\n- 使用本地资源地址，或者可以通过类似于`this.$rootPath+'/images/abc.png'`的方式获取本地存储文件地址\n- 支持`vh`单位，因为宽度总值为`750px`，但高度总值并不确定，有些场景还是需要的\n- 是否有类似`vue-devtools`的调试工具？我看到的`weex`的`devtools`好像并不是这种功能，不过有个临时方案（不知道weex有没有自定义过滤器，如果有那更简单了）\n  `js\n  module.exports = {\n    data: {\n      foo: {foo: 1}\n    },\n    computed: {\n      bar: function () {\n        return JSON.stringify(this.foo, null, 2)\n      }\n    }\n  }\n  `\n- `wxc-tabbar`组件中使用图标时只能用图片（而且还是服务器图片，好累啊。。）？是否可以用svg或者iconfont（顺便问下不支持本地资源路径的话iconfont如何在css中定义）？\n- 类似于`wxc-navpage`和`wxc-tabbar`的组件是否可以自行组装？因为我看`wxc-navpage`的event好奇怪啊。。。\n- 是否可以自定义页面间切换的动画？因为有的可能从下而上呢。\n- 是否支持css3的动画、阴影和模糊之类的样式？因为这些在布局时还是很有用的\n- 是否可以像`Vue`那样执行`Vue.use`来添加插件？\n- 继续跟踪中。。。\n"
+  "body": "## 建议\n- 使用本地资源地址，或者可以通过类似于`this.$rootPath+'/images/abc.png'`的方式获取本地存储文件地址\n- 支持`vh`单位，因为宽度总值为`750px`，但高度总值并不确定，有些场景还是需要的\n- 是否有类似`vue-devtools`的调试工具？我看到的`weex`的`devtools`好像并不是这种功能，不过有个临时方案（不知道weex有没有自定义过滤器，如果有那更简单了）\n  `js\n  module.exports = {\n    data: {\n      foo: {foo: 1}\n    },\n    computed: {\n      bar: function () {\n        return JSON.stringify(this.foo, null, 2)\n      }\n    }\n  }\n  `\n- `wxc-tabbar`组件中使用图标时只能用图片（而且还是服务器图片，好累啊。。）？是否可以用svg或者iconfont（顺便问下不支持本地资源路径的话iconfont如何在css中定义）？\n- 类似于`wxc-navpage`和`wxc-tabbar`的组件是否可以自行组装？因为我看`wxc-navpage`的event好奇怪啊。。。\n- 是否可以自定义页面间切换的动画？因为有的可能从下而上呢。\n- 是否支持css3的动画、阴影和模糊之类的样式？因为这些在布局时还是很有用的\n- 是否可以像`Vue`那样执行`Vue.use`来添加插件？\n- 继续跟踪中。。。\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

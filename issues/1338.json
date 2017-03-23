@@ -160,5 +160,24 @@
   "created_at": "2016-09-30T06:03:09Z",
   "updated_at": "2016-10-26T02:30:43Z",
   "closed_at": "2016-10-26T02:30:43Z",
-  "body": "在 ios 上使用 image 标签，设置其宽高为 view 的宽高，rezie=\"contain\" 的时候图片考屏幕下方显示，不在中间区域。\n"
+  "body": "在 ios 上使用 image 标签，设置其宽高为 view 的宽高，rezie=\"contain\" 的时候图片考屏幕下方显示，不在中间区域。\n",
+  "closed_by": {
+    "login": "Hanks10100",
+    "id": 8401776,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8401776?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Hanks10100",
+    "html_url": "https://github.com/Hanks10100",
+    "followers_url": "https://api.github.com/users/Hanks10100/followers",
+    "following_url": "https://api.github.com/users/Hanks10100/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Hanks10100/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Hanks10100/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Hanks10100/subscriptions",
+    "organizations_url": "https://api.github.com/users/Hanks10100/orgs",
+    "repos_url": "https://api.github.com/users/Hanks10100/repos",
+    "events_url": "https://api.github.com/users/Hanks10100/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Hanks10100/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

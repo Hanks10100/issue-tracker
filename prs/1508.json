@@ -81,5 +81,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1508.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1508.patch"
   },
-  "body": "# Overview\n\n**Refactored the runtime module**: simplifying the dependency, split virtual dom, required the shared polyfill and export several API.\n# Details\n- Split `vdom.js` into `Document` `Node` `Element` `Comment`, and put them into `vdom` folder.\n- Extract the common dom operation and place it in the `vdom/operation.js`.\n- Fix the condition judgment bug in `insertBefore` and `insertAfter`.\n- Use `Object.assign` to extend prototypes.\n- Add `handler.js` to manage the communication between javascript and native.\n- Make dom operations, such as  `addElement` `createBody` `updateAttrs` and some similar methods, became top-level API.\n- Remove the `resetClassStyle` API on Element prototype.\n- Move `shared/utils` to legacy framework.\n- Wrap functions on `shared/console.js` and `shared/setTimeout.js`, and call it at `native/index.js`\n- Add comments for each function.\n- Export several useful APIs.\n# Runtime APIs\n- `setNativeConsole`: [function] set up custom console for native environment\n- `resetNativeConsole`: [function] reset console to default\n- `setNativeTimer`: [function] set up timer API polyfill (for Android V8)\n- `resetNativeTimer`: [function] reset timer API to default\n- `init`: [function] init each frameworks in config\n- `config`: [object]\n  - `Comment`: [function] virtual dom Comment constructor\n  - `Document`: [function] virtual dom Document constructor\n  - `Element`: [function] virtual dom Element constructor\n  - `Listener`: [function] virtual dom operation Listener constructor\n  - `sendTasks`: [function] send tasks to native\n"
+  "body": "# Overview\n\n**Refactored the runtime module**: simplifying the dependency, split virtual dom, required the shared polyfill and export several API.\n# Details\n- Split `vdom.js` into `Document` `Node` `Element` `Comment`, and put them into `vdom` folder.\n- Extract the common dom operation and place it in the `vdom/operation.js`.\n- Fix the condition judgment bug in `insertBefore` and `insertAfter`.\n- Use `Object.assign` to extend prototypes.\n- Add `handler.js` to manage the communication between javascript and native.\n- Make dom operations, such as  `addElement` `createBody` `updateAttrs` and some similar methods, became top-level API.\n- Remove the `resetClassStyle` API on Element prototype.\n- Move `shared/utils` to legacy framework.\n- Wrap functions on `shared/console.js` and `shared/setTimeout.js`, and call it at `native/index.js`\n- Add comments for each function.\n- Export several useful APIs.\n# Runtime APIs\n- `setNativeConsole`: [function] set up custom console for native environment\n- `resetNativeConsole`: [function] reset console to default\n- `setNativeTimer`: [function] set up timer API polyfill (for Android V8)\n- `resetNativeTimer`: [function] reset timer API to default\n- `init`: [function] init each frameworks in config\n- `config`: [object]\n  - `Comment`: [function] virtual dom Comment constructor\n  - `Document`: [function] virtual dom Document constructor\n  - `Element`: [function] virtual dom Element constructor\n  - `Listener`: [function] virtual dom operation Listener constructor\n  - `sendTasks`: [function] send tasks to native\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

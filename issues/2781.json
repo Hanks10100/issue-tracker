@@ -37,5 +37,6 @@
   "created_at": "2017-02-25T14:31:17Z",
   "updated_at": "2017-02-25T14:33:12Z",
   "closed_at": null,
-  "body": "错误写法:\r\n`<input type=\"text\">`\r\n正确写法：\r\n`<input type=\"text\"/>`"
+  "body": "错误写法:\r\n`<input type=\"text\">`\r\n正确写法：\r\n`<input type=\"text\"/>`",
+  "closed_by": null
 }

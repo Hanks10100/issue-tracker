@@ -147,5 +147,24 @@
   "created_at": "2016-04-22T13:30:27Z",
   "updated_at": "2016-07-08T05:26:35Z",
   "closed_at": "2016-07-08T05:26:35Z",
-  "body": "In Android native Toast, if one toast is still showing, and the second one comes, the first one will soon be replaced (may with a crash animation)\n\nWhile in weex, the second toast (or you may call it modal) can appear only if the first completes its showing duration. This problem is more serious if we have a sequence of toast, which makes user have a wait a long long time to see all toasts.\n"
+  "body": "In Android native Toast, if one toast is still showing, and the second one comes, the first one will soon be replaced (may with a crash animation)\n\nWhile in weex, the second toast (or you may call it modal) can appear only if the first completes its showing duration. This problem is more serious if we have a sequence of toast, which makes user have a wait a long long time to see all toasts.\n",
+  "closed_by": {
+    "login": "zshshr",
+    "id": 5382962,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5382962?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/zshshr",
+    "html_url": "https://github.com/zshshr",
+    "followers_url": "https://api.github.com/users/zshshr/followers",
+    "following_url": "https://api.github.com/users/zshshr/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zshshr/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/zshshr/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/zshshr/subscriptions",
+    "organizations_url": "https://api.github.com/users/zshshr/orgs",
+    "repos_url": "https://api.github.com/users/zshshr/repos",
+    "events_url": "https://api.github.com/users/zshshr/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/zshshr/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

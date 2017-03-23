@@ -74,5 +74,24 @@
   "created_at": "2016-12-08T07:33:52Z",
   "updated_at": "2017-03-01T06:43:42Z",
   "closed_at": "2017-03-01T06:43:42Z",
-  "body": "A - B \r\n界面如下\r\n\r\nA 朋友圈界面\r\n![33238a58-7389-46b9-9547-1de6a60a32c1](https://cloud.githubusercontent.com/assets/20534672/21001516/adeb8418-bd5b-11e6-85c3-a2aee4b91d1b.png)\r\n\r\nB 上传朋友圈界面\r\n![77bacafe-326e-4fa2-8327-045c50390725](https://cloud.githubusercontent.com/assets/20534672/21001537/e1013f46-bd5b-11e6-820f-66edb01ad59e.png)\r\n\r\nA 已经上传成功以后的朋友圈界面\r\n![7ef93cb7-742f-4624-a486-2e3278e06203](https://cloud.githubusercontent.com/assets/20534672/21001569/156e4b3e-bd5c-11e6-8011-22303244a331.png)\r\n\r\n\r\n由于是 Push 过来的页面 当我左滑返回时会再次出现  B 上传朋友圈的界面 ， 然后左滑 返回到 A 没有上传新的朋友圈的界面。\r\n\r\n我不知道我是否表达清楚，意思就是 B 发表朋友圈界面只是一个功能业 只需要出现一次，然后刷新 A 界面就可以了。这个需要PresentViewController 方法来实现。 刚刚查看了0.9.0 的版本也没有考虑到这个功能，所以我来提个需求。这个需求我很久以前就提到过得。使用 push 一个方法照顾不到所有的界面逻辑。"
+  "body": "A - B \r\n界面如下\r\n\r\nA 朋友圈界面\r\n![33238a58-7389-46b9-9547-1de6a60a32c1](https://cloud.githubusercontent.com/assets/20534672/21001516/adeb8418-bd5b-11e6-85c3-a2aee4b91d1b.png)\r\n\r\nB 上传朋友圈界面\r\n![77bacafe-326e-4fa2-8327-045c50390725](https://cloud.githubusercontent.com/assets/20534672/21001537/e1013f46-bd5b-11e6-820f-66edb01ad59e.png)\r\n\r\nA 已经上传成功以后的朋友圈界面\r\n![7ef93cb7-742f-4624-a486-2e3278e06203](https://cloud.githubusercontent.com/assets/20534672/21001569/156e4b3e-bd5c-11e6-8011-22303244a331.png)\r\n\r\n\r\n由于是 Push 过来的页面 当我左滑返回时会再次出现  B 上传朋友圈的界面 ， 然后左滑 返回到 A 没有上传新的朋友圈的界面。\r\n\r\n我不知道我是否表达清楚，意思就是 B 发表朋友圈界面只是一个功能业 只需要出现一次，然后刷新 A 界面就可以了。这个需要PresentViewController 方法来实现。 刚刚查看了0.9.0 的版本也没有考虑到这个功能，所以我来提个需求。这个需求我很久以前就提到过得。使用 push 一个方法照顾不到所有的界面逻辑。",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

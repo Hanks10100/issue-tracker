@@ -138,5 +138,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1829.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1829.patch"
   },
-  "body": "Remove some invisiable characters in document [extend-to-ios.md](https://github.com/alibaba/weex/blob/dev/doc/advanced/extend-to-ios.md)\r\n<img width=\"919\" alt=\"screen shot 2016-12-07 at 15 44 55\" src=\"https://cloud.githubusercontent.com/assets/2053617/20959237/e41eb9be-bc94-11e6-8e8e-2aed67e6d85a.png\">\r\n"
+  "body": "Remove some invisiable characters in document [extend-to-ios.md](https://github.com/alibaba/weex/blob/dev/doc/advanced/extend-to-ios.md)\r\n<img width=\"919\" alt=\"screen shot 2016-12-07 at 15 44 55\" src=\"https://cloud.githubusercontent.com/assets/2053617/20959237/e41eb9be-bc94-11e6-8e8e-2aed67e6d85a.png\">\r\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -150,5 +150,24 @@
   "created_at": "2016-10-06T15:09:34Z",
   "updated_at": "2017-01-05T09:23:58Z",
   "closed_at": "2016-10-24T08:22:10Z",
-  "body": "1、目前的下拉刷新组件refresh和onloading文档打不开；\n2、list里的例子也过于简单，只是实现了下拉刷新的事件，而实际开发中，一般都会刚开始下拉显示“下拉刷新”，下拉一定距离后显示“松开后刷新”，松开后显示“正在刷新”；\n3、整个下拉组件建议参考手机淘宝的下拉刷新效果实现，目前对于不会原生的开发者来说，手机淘宝的下拉刷新效果用weex是根本无法实现的。\n"
+  "body": "1、目前的下拉刷新组件refresh和onloading文档打不开；\n2、list里的例子也过于简单，只是实现了下拉刷新的事件，而实际开发中，一般都会刚开始下拉显示“下拉刷新”，下拉一定距离后显示“松开后刷新”，松开后显示“正在刷新”；\n3、整个下拉组件建议参考手机淘宝的下拉刷新效果实现，目前对于不会原生的开发者来说，手机淘宝的下拉刷新效果用weex是根本无法实现的。\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

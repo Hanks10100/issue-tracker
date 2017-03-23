@@ -122,5 +122,24 @@
   "created_at": "2016-12-24T09:07:47Z",
   "updated_at": "2016-12-26T07:11:56Z",
   "closed_at": "2016-12-26T07:09:37Z",
-  "body": "weexpack run android 能够在AS的模拟器上运行apk，但是用build进行打包的时候会出现\r\n`ts@1.0.15\r\nnpm WARN helloworld@1.0.0 No repository field.\r\n\r\n> helloworld@1.0.0 build H:\\github\\weex-demo\\helloworld\r\n> webpack\r\n\r\nHash: d16d92df9b8179ff6941\r\nVersion: webpack 1.14.0\r\nTime: 1602ms\r\n   Asset     Size  Chunks             Chunk Names\r\nindex.js  8.85 kB       0  [emitted]  index\r\n    + 4 hidden modules\r\n\r\n => Will start Android app\r\n============build config============\r\nAppId=>com.alibaba.weex\r\nAppName=>WeexApp\r\nSplashText=>Hello\r\nWeex\r\nWeexBundle=>index.js\r\nif you want to change build config.please modify android.config.json\r\n => Building app ...\r\n'.' 不是内部或外部命令，也不是可运行的程序\r\n或批处理文件。`\r\n无法完成打包"
+  "body": "weexpack run android 能够在AS的模拟器上运行apk，但是用build进行打包的时候会出现\r\n`ts@1.0.15\r\nnpm WARN helloworld@1.0.0 No repository field.\r\n\r\n> helloworld@1.0.0 build H:\\github\\weex-demo\\helloworld\r\n> webpack\r\n\r\nHash: d16d92df9b8179ff6941\r\nVersion: webpack 1.14.0\r\nTime: 1602ms\r\n   Asset     Size  Chunks             Chunk Names\r\nindex.js  8.85 kB       0  [emitted]  index\r\n    + 4 hidden modules\r\n\r\n => Will start Android app\r\n============build config============\r\nAppId=>com.alibaba.weex\r\nAppName=>WeexApp\r\nSplashText=>Hello\r\nWeex\r\nWeexBundle=>index.js\r\nif you want to change build config.please modify android.config.json\r\n => Building app ...\r\n'.' 不是内部或外部命令，也不是可运行的程序\r\n或批处理文件。`\r\n无法完成打包",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

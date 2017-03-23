@@ -37,5 +37,24 @@
   "created_at": "2016-12-20T13:53:01Z",
   "updated_at": "2016-12-20T13:53:23Z",
   "closed_at": "2016-12-20T13:53:23Z",
-  "body": "<div class=\"selectnum\" repeat=\"( index, v) in arr\">\r\n     <text value=\"{{v.id}}\" onclick=\"selectfunc(arr[{{index}}].id)\" class=\"select_player1\">{{v.id}}</text>\r\n</div>\r\n\r\n<script>\r\n     module.reports = {\r\n         data:{\r\n         arr:[\r\n         {id: 1},\r\n         {id: 2}\r\n         ],\r\n         select_player:\"\"\r\n         },\r\n         methods:{\r\n        selectfunc: function(x){\r\n         this.select_player = x;     \r\n       }\r\n       }\r\n}\r\n</script>\r\n\r\n点击之后没有反应\r\n"
+  "body": "<div class=\"selectnum\" repeat=\"( index, v) in arr\">\r\n     <text value=\"{{v.id}}\" onclick=\"selectfunc(arr[{{index}}].id)\" class=\"select_player1\">{{v.id}}</text>\r\n</div>\r\n\r\n<script>\r\n     module.reports = {\r\n         data:{\r\n         arr:[\r\n         {id: 1},\r\n         {id: 2}\r\n         ],\r\n         select_player:\"\"\r\n         },\r\n         methods:{\r\n        selectfunc: function(x){\r\n         this.select_player = x;     \r\n       }\r\n       }\r\n}\r\n</script>\r\n\r\n点击之后没有反应\r\n",
+  "closed_by": {
+    "login": "DangDangHellen",
+    "id": 23217362,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/23217362?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/DangDangHellen",
+    "html_url": "https://github.com/DangDangHellen",
+    "followers_url": "https://api.github.com/users/DangDangHellen/followers",
+    "following_url": "https://api.github.com/users/DangDangHellen/following{/other_user}",
+    "gists_url": "https://api.github.com/users/DangDangHellen/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/DangDangHellen/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/DangDangHellen/subscriptions",
+    "organizations_url": "https://api.github.com/users/DangDangHellen/orgs",
+    "repos_url": "https://api.github.com/users/DangDangHellen/repos",
+    "events_url": "https://api.github.com/users/DangDangHellen/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/DangDangHellen/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

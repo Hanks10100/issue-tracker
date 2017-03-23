@@ -123,5 +123,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/118.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/118.patch"
   },
-  "body": "fix `.we` with config case. \ne.g.\n\n```\n<template>\n  <div></div>\n</template>\n<script type=\"config\">\n{\n  downgrade: {\n  ....\n  }\n}\n<script>\n```\n"
+  "body": "fix `.we` with config case. \ne.g.\n\n```\n<template>\n  <div></div>\n</template>\n<script type=\"config\">\n{\n  downgrade: {\n  ....\n  }\n}\n<script>\n```\n",
+  "closed_by": {
+    "login": "gurisxie",
+    "id": 7436932,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/7436932?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/gurisxie",
+    "html_url": "https://github.com/gurisxie",
+    "followers_url": "https://api.github.com/users/gurisxie/followers",
+    "following_url": "https://api.github.com/users/gurisxie/following{/other_user}",
+    "gists_url": "https://api.github.com/users/gurisxie/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/gurisxie/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/gurisxie/subscriptions",
+    "organizations_url": "https://api.github.com/users/gurisxie/orgs",
+    "repos_url": "https://api.github.com/users/gurisxie/repos",
+    "events_url": "https://api.github.com/users/gurisxie/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/gurisxie/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

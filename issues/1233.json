@@ -132,5 +132,24 @@
   "created_at": "2016-09-17T01:18:26Z",
   "updated_at": "2016-09-18T13:42:43Z",
   "closed_at": "2016-09-18T13:42:43Z",
-  "body": "```\n<div repeat=\"{% raw %}{{(k, v) in list}}{% endraw %}\">\n  <text>No. {{k + 1}}, {{v.nickname}}</text>\n</div>\n```\n\n根据这种方式去获取repeat的索引，会报错，不能够找到`this.k`这个方法，我将`{% raw %}{{(k, v) in list}}{% endraw %}` -> `{{(k, v) in list}}`即可正常运行，希望能够修改一下文档 :)\n## 建议，能否将`k`修改成`index`这样便于理解\n"
+  "body": "```\n<div repeat=\"{% raw %}{{(k, v) in list}}{% endraw %}\">\n  <text>No. {{k + 1}}, {{v.nickname}}</text>\n</div>\n```\n\n根据这种方式去获取repeat的索引，会报错，不能够找到`this.k`这个方法，我将`{% raw %}{{(k, v) in list}}{% endraw %}` -> `{{(k, v) in list}}`即可正常运行，希望能够修改一下文档 :)\n## 建议，能否将`k`修改成`index`这样便于理解\n",
+  "closed_by": {
+    "login": "lvscar",
+    "id": 1578838,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1578838?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/lvscar",
+    "html_url": "https://github.com/lvscar",
+    "followers_url": "https://api.github.com/users/lvscar/followers",
+    "following_url": "https://api.github.com/users/lvscar/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lvscar/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/lvscar/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/lvscar/subscriptions",
+    "organizations_url": "https://api.github.com/users/lvscar/orgs",
+    "repos_url": "https://api.github.com/users/lvscar/repos",
+    "events_url": "https://api.github.com/users/lvscar/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/lvscar/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

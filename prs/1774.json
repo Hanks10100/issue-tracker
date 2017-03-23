@@ -129,5 +129,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1774.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1774.patch"
   },
-  "body": "进一步优化默认样式，组件也可以更改cssnode的默认样式\r\n    [self configResetCSSNodeStyles:resetStyles]; 是替换 CSSNode 的\r\n    [self configResetStyles:resetStyles]; 是替换 styles 的\r\n之所以写两个，是因为他们的线程要求不一样\r\n默认是两个空方法，不影响效率，用户可以根据自己的情况使用\r\n"
+  "body": "进一步优化默认样式，组件也可以更改cssnode的默认样式\r\n    [self configResetCSSNodeStyles:resetStyles]; 是替换 CSSNode 的\r\n    [self configResetStyles:resetStyles]; 是替换 styles 的\r\n之所以写两个，是因为他们的线程要求不一样\r\n默认是两个空方法，不影响效率，用户可以根据自己的情况使用\r\n",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

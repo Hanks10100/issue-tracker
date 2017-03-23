@@ -119,5 +119,24 @@
   "created_at": "2016-04-27T18:35:22Z",
   "updated_at": "2016-05-29T16:34:57Z",
   "closed_at": "2016-05-19T11:42:52Z",
-  "body": "the long-term branch is `jsfm-feature-vue` and gonna be moved to repo `alibaba/weex-vue-next`\n- [x] native dom node-ops\n  - [x] `createElement (tagName)`\n  - [x] `createElementNS (namespace, tagName)`\n  - [x] `createTextNode (text)`\n  - [x] `insertBefore (parentNode, newNode, referenceNode)`\n  - [x] `removeChild (node, child)`\n  - [x] `appendChild (node, child)`\n  - [x] `parentNode (node)`\n  - [x] `nextSibling (node)`\n  - [x] `tagName (node)`\n  - [x] `setTextContent (node, text)`\n- [x] native dom modules\n  - [x] `attr`\n  - [x] `style`\n  - [x] `class`\n  - [x] `event`\n- [x] first paint optimization\n  - [x] `append=\"tree|node\"`\n  - [x] `stream` option\n  - [x] support sub components\n- [x] multiple instance management\n  - [x] `createInstance()`\n  - [x] `renderFinish`\n  - [x] `refreshInstance()`\n  - [x] `refreshFinish`\n  - [x] `destroyInstance()`\n- [x] register components and modules from native\n  - [x] `registerComponents()`\n  - [x] `registerModules()`\n- [x] export virtual dom tree for debugging\n  - [x] `getRoot()`\n- [x] `callJS()`\n  - [x] `fireEvent()`\n  - [x] `callback()`\n- [x] `weex-vue-loader`\n- [x] compiler\n  - [x] parse `class`/`style`\n  - [x] generate `__r__`\n  - [x] generate `__s__`\n  - [x] generate `__m__`\n  - [x] generate `__t__`\n  - [x] generate `class`/`style`\n- [x] Vue 2.0 core enhancement\n  - [x] separate `__h__` into `renderElement` & `renderElementWithChildren`\n  - [x] from text and static root to `__t__` and `__m__`\n  - [x] `style` / `class` mechanism\n  - [x] text node to `<text>` (hacked)\n  - [x] `stream` option and `append` (`atom`) option (hacked)\n- [x] adapt to Android engine\n"
+  "body": "the long-term branch is `jsfm-feature-vue` and gonna be moved to repo `alibaba/weex-vue-next`\n- [x] native dom node-ops\n  - [x] `createElement (tagName)`\n  - [x] `createElementNS (namespace, tagName)`\n  - [x] `createTextNode (text)`\n  - [x] `insertBefore (parentNode, newNode, referenceNode)`\n  - [x] `removeChild (node, child)`\n  - [x] `appendChild (node, child)`\n  - [x] `parentNode (node)`\n  - [x] `nextSibling (node)`\n  - [x] `tagName (node)`\n  - [x] `setTextContent (node, text)`\n- [x] native dom modules\n  - [x] `attr`\n  - [x] `style`\n  - [x] `class`\n  - [x] `event`\n- [x] first paint optimization\n  - [x] `append=\"tree|node\"`\n  - [x] `stream` option\n  - [x] support sub components\n- [x] multiple instance management\n  - [x] `createInstance()`\n  - [x] `renderFinish`\n  - [x] `refreshInstance()`\n  - [x] `refreshFinish`\n  - [x] `destroyInstance()`\n- [x] register components and modules from native\n  - [x] `registerComponents()`\n  - [x] `registerModules()`\n- [x] export virtual dom tree for debugging\n  - [x] `getRoot()`\n- [x] `callJS()`\n  - [x] `fireEvent()`\n  - [x] `callback()`\n- [x] `weex-vue-loader`\n- [x] compiler\n  - [x] parse `class`/`style`\n  - [x] generate `__r__`\n  - [x] generate `__s__`\n  - [x] generate `__m__`\n  - [x] generate `__t__`\n  - [x] generate `class`/`style`\n- [x] Vue 2.0 core enhancement\n  - [x] separate `__h__` into `renderElement` & `renderElementWithChildren`\n  - [x] from text and static root to `__t__` and `__m__`\n  - [x] `style` / `class` mechanism\n  - [x] text node to `<text>` (hacked)\n  - [x] `stream` option and `append` (`atom`) option (hacked)\n- [x] adapt to Android engine\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

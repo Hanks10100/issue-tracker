@@ -160,5 +160,24 @@
   "created_at": "2016-08-11T03:53:21Z",
   "updated_at": "2016-08-27T05:13:52Z",
   "closed_at": "2016-08-27T05:13:52Z",
-  "body": "我在自己的项目中使用WXDevtool去调试代码，但是在安装的过程出现错误,Podfile如下\n![image](https://cloud.githubusercontent.com/assets/12522809/17578301/ce218c50-5fb9-11e6-9925-dbccd155cfbb.png)\n安装错误提示如下:\n![image](https://cloud.githubusercontent.com/assets/12522809/17578314/f779d878-5fb9-11e6-81c0-26546205283b.png)\n\n我在pod中搜索WXDevtool 结果如下：\n![image](https://cloud.githubusercontent.com/assets/12522809/17578284/9a86bf0a-5fb9-11e6-9cac-deb02c2f3ba9.png)\n\n不知道是不是beta版 造成的   等下再试试正式版的   但是其他的都可以搜到\n"
+  "body": "我在自己的项目中使用WXDevtool去调试代码，但是在安装的过程出现错误,Podfile如下\n![image](https://cloud.githubusercontent.com/assets/12522809/17578301/ce218c50-5fb9-11e6-9925-dbccd155cfbb.png)\n安装错误提示如下:\n![image](https://cloud.githubusercontent.com/assets/12522809/17578314/f779d878-5fb9-11e6-81c0-26546205283b.png)\n\n我在pod中搜索WXDevtool 结果如下：\n![image](https://cloud.githubusercontent.com/assets/12522809/17578284/9a86bf0a-5fb9-11e6-9cac-deb02c2f3ba9.png)\n\n不知道是不是beta版 造成的   等下再试试正式版的   但是其他的都可以搜到\n",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

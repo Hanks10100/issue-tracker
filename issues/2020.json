@@ -374,5 +374,6 @@
   "created_at": "2016-12-26T07:58:50Z",
   "updated_at": "2017-03-01T18:03:42Z",
   "closed_at": null,
-  "body": "<img width=\"1171\" alt=\"screen shot 2016-12-26 at 15 56 21\" src=\"https://cloud.githubusercontent.com/assets/1559791/21478194/f232c42a-cb83-11e6-8830-03c6970e6859.png\">\r\n\r\n是 node 7.3 还是 yarn 0.18.1，更新步子迈太大扯到蛋了么？\r\n\r\n系统依赖着一块，能不能更具体一些？"
+  "body": "<img width=\"1171\" alt=\"screen shot 2016-12-26 at 15 56 21\" src=\"https://cloud.githubusercontent.com/assets/1559791/21478194/f232c42a-cb83-11e6-8830-03c6970e6859.png\">\r\n\r\n是 node 7.3 还是 yarn 0.18.1，更新步子迈太大扯到蛋了么？\r\n\r\n系统依赖着一块，能不能更具体一些？",
+  "closed_by": null
 }

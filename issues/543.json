@@ -160,5 +160,24 @@
   "created_at": "2016-06-22T03:53:07Z",
   "updated_at": "2016-12-07T02:39:48Z",
   "closed_at": "2016-06-24T05:57:55Z",
-  "body": "How-tos\n\nManage Your File Structure\nMaintain Your Component Code\nRequire 3rd-party Libs\nTransform Code Into JS Bundle\nPreview in Browser\nPreview in Playground App\nCustomize a Native Component\nCustomize Native APIs\nDebug with HTML5\nDebug with Native\nDebug with Remote Tools\nManage Data with a High-level CMS\n\n现在只有 3 4 5 三篇文档  其它文档都没有？\n"
+  "body": "How-tos\n\nManage Your File Structure\nMaintain Your Component Code\nRequire 3rd-party Libs\nTransform Code Into JS Bundle\nPreview in Browser\nPreview in Playground App\nCustomize a Native Component\nCustomize Native APIs\nDebug with HTML5\nDebug with Native\nDebug with Remote Tools\nManage Data with a High-level CMS\n\n现在只有 3 4 5 三篇文档  其它文档都没有？\n",
+  "closed_by": {
+    "login": "lvscar",
+    "id": 1578838,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1578838?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/lvscar",
+    "html_url": "https://github.com/lvscar",
+    "followers_url": "https://api.github.com/users/lvscar/followers",
+    "following_url": "https://api.github.com/users/lvscar/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lvscar/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/lvscar/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/lvscar/subscriptions",
+    "organizations_url": "https://api.github.com/users/lvscar/orgs",
+    "repos_url": "https://api.github.com/users/lvscar/repos",
+    "events_url": "https://api.github.com/users/lvscar/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/lvscar/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

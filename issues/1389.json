@@ -94,5 +94,24 @@
   "created_at": "2016-10-13T12:32:25Z",
   "updated_at": "2016-10-16T14:26:40Z",
   "closed_at": "2016-10-16T14:26:40Z",
-  "body": "注：foo 是一个新的组件\n &lt;foo title=\"...\" image=\"...\"></foo>\n是OK\n但是  &lt;foo Title=\"...\" Image=\"...\"></foo>\n不行\n\n主要原因是父view和子view的变量对应需要采用小写。单词之间用-连接，会自动转换成驼峰。\n\n强烈建议改成直接普通变量命名对应的方式。这对于原先非H5开发基本都是一个坑。\n而且react的命名就是直接命名方式，并没有这么复杂。建议可以采用更直观的方式。\n"
+  "body": "注：foo 是一个新的组件\n &lt;foo title=\"...\" image=\"...\"></foo>\n是OK\n但是  &lt;foo Title=\"...\" Image=\"...\"></foo>\n不行\n\n主要原因是父view和子view的变量对应需要采用小写。单词之间用-连接，会自动转换成驼峰。\n\n强烈建议改成直接普通变量命名对应的方式。这对于原先非H5开发基本都是一个坑。\n而且react的命名就是直接命名方式，并没有这么复杂。建议可以采用更直观的方式。\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

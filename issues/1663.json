@@ -66,5 +66,24 @@
   "created_at": "2016-11-18T01:58:01Z",
   "updated_at": "2016-11-18T02:48:05Z",
   "closed_at": "2016-11-18T02:48:05Z",
-  "body": "iOS端，我知道可以使用callback从native往weex页面传数据或调用方法，但之前这个动作是在weex页面中触发的，比如点击weex页面中的某个按钮，然后去实现譬如checkUpdate这样的代码：\r\n```\r\n        checkUpdate : function(){\r\n         var self = this;\r\n         var eventModule = require('@weex-module/event'); \r\n         eventModule.checkVerionWithLocalVersion(function(ret) { \r\n             self.version = ret;\r\n             self.loadVersionData(ret);\r\n             \r\n           });\r\n      },\r\n```\r\n现在我想知道是怎么直接在native中调用weex中的方法或者传数据过去呢？比如我有一个button是native的，我点击button的时候需要主动的调用weex页面中的某个function方法并传递native中获取到的数据(比如点击后直接调用weex页面中诸如上面的checkUpdate方法）。请问我该怎么做。"
+  "body": "iOS端，我知道可以使用callback从native往weex页面传数据或调用方法，但之前这个动作是在weex页面中触发的，比如点击weex页面中的某个按钮，然后去实现譬如checkUpdate这样的代码：\r\n```\r\n        checkUpdate : function(){\r\n         var self = this;\r\n         var eventModule = require('@weex-module/event'); \r\n         eventModule.checkVerionWithLocalVersion(function(ret) { \r\n             self.version = ret;\r\n             self.loadVersionData(ret);\r\n             \r\n           });\r\n      },\r\n```\r\n现在我想知道是怎么直接在native中调用weex中的方法或者传数据过去呢？比如我有一个button是native的，我点击button的时候需要主动的调用weex页面中的某个function方法并传递native中获取到的数据(比如点击后直接调用weex页面中诸如上面的checkUpdate方法）。请问我该怎么做。",
+  "closed_by": {
+    "login": "voidxin",
+    "id": 17478441,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/17478441?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/voidxin",
+    "html_url": "https://github.com/voidxin",
+    "followers_url": "https://api.github.com/users/voidxin/followers",
+    "following_url": "https://api.github.com/users/voidxin/following{/other_user}",
+    "gists_url": "https://api.github.com/users/voidxin/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/voidxin/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/voidxin/subscriptions",
+    "organizations_url": "https://api.github.com/users/voidxin/orgs",
+    "repos_url": "https://api.github.com/users/voidxin/repos",
+    "events_url": "https://api.github.com/users/voidxin/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/voidxin/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

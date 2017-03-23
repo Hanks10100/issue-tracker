@@ -151,5 +151,24 @@
   "created_at": "2016-07-27T09:45:49Z",
   "updated_at": "2016-09-12T12:43:03Z",
   "closed_at": "2016-09-12T12:43:02Z",
-  "body": "![](http://7xoxzw.com1.z0.glb.clouddn.com/16-7-27/55927919.jpg)\n\n如图所示，anchor上绑了disappear事件处理函数，当上面的div高度改变（也就是anchor的位置改变）之后，触发disappear事件的位置并不是新anchor的位置。\n\n问题demo: [weex-issue](https://github.com/kmCha/weex-issue)\n运行\n\n``` bash\nweex src/disappear-event.we --qr\n```\n"
+  "body": "![](http://7xoxzw.com1.z0.glb.clouddn.com/16-7-27/55927919.jpg)\n\n如图所示，anchor上绑了disappear事件处理函数，当上面的div高度改变（也就是anchor的位置改变）之后，触发disappear事件的位置并不是新anchor的位置。\n\n问题demo: [weex-issue](https://github.com/kmCha/weex-issue)\n运行\n\n``` bash\nweex src/disappear-event.we --qr\n```\n",
+  "closed_by": {
+    "login": "cxfeng1",
+    "id": 1625893,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1625893?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cxfeng1",
+    "html_url": "https://github.com/cxfeng1",
+    "followers_url": "https://api.github.com/users/cxfeng1/followers",
+    "following_url": "https://api.github.com/users/cxfeng1/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cxfeng1/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cxfeng1/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cxfeng1/subscriptions",
+    "organizations_url": "https://api.github.com/users/cxfeng1/orgs",
+    "repos_url": "https://api.github.com/users/cxfeng1/repos",
+    "events_url": "https://api.github.com/users/cxfeng1/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cxfeng1/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -104,5 +104,24 @@
   "created_at": "2016-05-11T02:29:10Z",
   "updated_at": "2016-05-12T07:41:23Z",
   "closed_at": "2016-05-12T07:41:23Z",
-  "body": "Attributes written in customized dom element(like ui-button) will not come to the shadow dom element(div). \nIn case like:\n\n> ```\n>     <template>\n>       <scroller class=\"body\">\n>           <div style=\"flex-direction: row; margin-top: 12px\" href='div'>\n>             <ui-button type=\"info\" size=\"large\" value=\"Load Weex\" style=\"\" click=\"{{_load_weex}}\" href='http://100.84.44.203/weex/js/__text.js?weex=uc'></ui-button>\n>           </div>\n>       </scroller>\n>     </template>\n>     <script>\n>       module.exports = {\n>         methods: {\n>           toast: function(msg, duration) {\n>             if (!msg || typeof msg !== 'string') {\n>               msg = 'I am Toast show!';\n>             }\n>             duration = duration || 2;\n>             this.$call('modal', 'toast', {\n>               'message': msg,\n>               'duration': duration\n>             });\n>           },\n>           _load_weex: function(ev) {\n>             this.toast(JSON.stringify(ev.target.attr), 5);\n>           },\n>         }\n>       }\n>     </script>\n> ```\n> ---\n> \n> ui-button.we is from examples.\n> It's source is like:\n> ---\n\n```\n    <template>\n      <!--FIXME disabled opacity?-->\n      <div class=\"btn btn-{{type}} btn-sz-{{size}}\" onclick=\"{{clicked}}\" style=\"opacity:{{disabled?0.9:1}}\">\n        <text class=\"btn-txt btn-txt-{{type}} btn-txt-sz-{{size}}\">{{value}}</text>\n      </div>\n    </template>\n```\n## ....\n\nIssue:\nAfter I clicked \"Load Weex\", ev.target.attr should contain \"href\", but it doesn't.\n"
+  "body": "Attributes written in customized dom element(like ui-button) will not come to the shadow dom element(div). \nIn case like:\n\n> ```\n>     <template>\n>       <scroller class=\"body\">\n>           <div style=\"flex-direction: row; margin-top: 12px\" href='div'>\n>             <ui-button type=\"info\" size=\"large\" value=\"Load Weex\" style=\"\" click=\"{{_load_weex}}\" href='http://100.84.44.203/weex/js/__text.js?weex=uc'></ui-button>\n>           </div>\n>       </scroller>\n>     </template>\n>     <script>\n>       module.exports = {\n>         methods: {\n>           toast: function(msg, duration) {\n>             if (!msg || typeof msg !== 'string') {\n>               msg = 'I am Toast show!';\n>             }\n>             duration = duration || 2;\n>             this.$call('modal', 'toast', {\n>               'message': msg,\n>               'duration': duration\n>             });\n>           },\n>           _load_weex: function(ev) {\n>             this.toast(JSON.stringify(ev.target.attr), 5);\n>           },\n>         }\n>       }\n>     </script>\n> ```\n> ---\n> \n> ui-button.we is from examples.\n> It's source is like:\n> ---\n\n```\n    <template>\n      <!--FIXME disabled opacity?-->\n      <div class=\"btn btn-{{type}} btn-sz-{{size}}\" onclick=\"{{clicked}}\" style=\"opacity:{{disabled?0.9:1}}\">\n        <text class=\"btn-txt btn-txt-{{type}} btn-txt-sz-{{size}}\">{{value}}</text>\n      </div>\n    </template>\n```\n## ....\n\nIssue:\nAfter I clicked \"Load Weex\", ev.target.attr should contain \"href\", but it doesn't.\n",
+  "closed_by": {
+    "login": "terrykingcha",
+    "id": 1314662,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1314662?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/terrykingcha",
+    "html_url": "https://github.com/terrykingcha",
+    "followers_url": "https://api.github.com/users/terrykingcha/followers",
+    "following_url": "https://api.github.com/users/terrykingcha/following{/other_user}",
+    "gists_url": "https://api.github.com/users/terrykingcha/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/terrykingcha/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/terrykingcha/subscriptions",
+    "organizations_url": "https://api.github.com/users/terrykingcha/orgs",
+    "repos_url": "https://api.github.com/users/terrykingcha/repos",
+    "events_url": "https://api.github.com/users/terrykingcha/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/terrykingcha/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

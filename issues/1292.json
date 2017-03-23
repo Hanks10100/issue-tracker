@@ -122,5 +122,24 @@
   "created_at": "2016-09-22T16:12:40Z",
   "updated_at": "2016-10-28T06:47:14Z",
   "closed_at": "2016-10-28T06:47:14Z",
-  "body": "第一个实例没错，正常运行\n![filehelper_1474550879084_88](https://cloud.githubusercontent.com/assets/20675437/18756342/2c7932ec-8122-11e6-8b2c-66f9e81c836d.png)\n![filehelper_1474551604112_91](https://cloud.githubusercontent.com/assets/20675437/18756351/3344e85a-8122-11e6-99cb-34a3b34a352d.png)\n但是第二个，也就是添加内置组件的实例，程序报错；我有检查代码，发现没有问题，错误如下\n![filehelper_1474551234750_17](https://cloud.githubusercontent.com/assets/20675437/18756382/53a92af2-8122-11e6-9b66-f568f3a6b7ff.png)\n请问，这是什么问题，缺少组件还是什么？\n"
+  "body": "第一个实例没错，正常运行\n![filehelper_1474550879084_88](https://cloud.githubusercontent.com/assets/20675437/18756342/2c7932ec-8122-11e6-8b2c-66f9e81c836d.png)\n![filehelper_1474551604112_91](https://cloud.githubusercontent.com/assets/20675437/18756351/3344e85a-8122-11e6-99cb-34a3b34a352d.png)\n但是第二个，也就是添加内置组件的实例，程序报错；我有检查代码，发现没有问题，错误如下\n![filehelper_1474551234750_17](https://cloud.githubusercontent.com/assets/20675437/18756382/53a92af2-8122-11e6-9b66-f568f3a6b7ff.png)\n请问，这是什么问题，缺少组件还是什么？\n",
+  "closed_by": {
+    "login": "lvscar",
+    "id": 1578838,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1578838?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/lvscar",
+    "html_url": "https://github.com/lvscar",
+    "followers_url": "https://api.github.com/users/lvscar/followers",
+    "following_url": "https://api.github.com/users/lvscar/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lvscar/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/lvscar/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/lvscar/subscriptions",
+    "organizations_url": "https://api.github.com/users/lvscar/orgs",
+    "repos_url": "https://api.github.com/users/lvscar/repos",
+    "events_url": "https://api.github.com/users/lvscar/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/lvscar/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

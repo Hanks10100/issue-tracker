@@ -74,5 +74,24 @@
   "created_at": "2016-10-10T09:13:07Z",
   "updated_at": "2016-10-13T01:59:48Z",
   "closed_at": "2016-10-13T01:59:48Z",
-  "body": "Consider this sample page :\n\n``` html\n<template>\n  <div>\n    <text>A: {{ A.message }}</text>\n    <text>B: {{ B.message }}</text>\n    <text>C: {{ C.message }}</text>\n    <text>D: {{ D.message }}</text>\n  </div>\n</template>\n\n<script>\n  module.exports = {\n    data: {\n      A: {},\n      B: {},\n      C: {\n        message: 'initial'\n      },\n      D: {\n        message: 'initial'\n      }\n    },\n\n    created: function() {\n      this.B.message = 'created'\n      this.C.message = 'created'\n    },\n\n    ready: function() {\n      this.A.message = 'ready'\n      this.B.message = 'ready'\n      this.C.message = 'ready'\n    }\n  }\n</script>\n```\n\nI assigned `A` `B` `C` 's `message` property to be `'ready'` in _ready_ lifecircle hook. Regardless of whether I initialize the `message` property in `data`, I should get : \n\n```\nA: ready\nB: ready\nC: ready\nD: initial\n```\n\nBut it actually rendered as this :\n\n```\nA: undefined\nB: created\nC: ready\nD: initial\n```\n\nIn my opinion, the reason is **weex currently can't setup data bindings for dynamically added properties.**\n\nConsider the case of A. Before running `ready` , the UI has already been rendered and `A.message` is `undefined`.  Because of there is no data binding for `message` property, even `A.message` changed to `ready`, it won't trigger UI updates.\n\nConsider the case of B. When `created` is running, data binding has completed and haven't start rendering elements. `B.message` changed to `created` will take effects at the first rendering, but it has no data binding neither, reassign it in `ready` won't trigger UI updates.\n\nC and D is normal case.\n"
+  "body": "Consider this sample page :\n\n``` html\n<template>\n  <div>\n    <text>A: {{ A.message }}</text>\n    <text>B: {{ B.message }}</text>\n    <text>C: {{ C.message }}</text>\n    <text>D: {{ D.message }}</text>\n  </div>\n</template>\n\n<script>\n  module.exports = {\n    data: {\n      A: {},\n      B: {},\n      C: {\n        message: 'initial'\n      },\n      D: {\n        message: 'initial'\n      }\n    },\n\n    created: function() {\n      this.B.message = 'created'\n      this.C.message = 'created'\n    },\n\n    ready: function() {\n      this.A.message = 'ready'\n      this.B.message = 'ready'\n      this.C.message = 'ready'\n    }\n  }\n</script>\n```\n\nI assigned `A` `B` `C` 's `message` property to be `'ready'` in _ready_ lifecircle hook. Regardless of whether I initialize the `message` property in `data`, I should get : \n\n```\nA: ready\nB: ready\nC: ready\nD: initial\n```\n\nBut it actually rendered as this :\n\n```\nA: undefined\nB: created\nC: ready\nD: initial\n```\n\nIn my opinion, the reason is **weex currently can't setup data bindings for dynamically added properties.**\n\nConsider the case of A. Before running `ready` , the UI has already been rendered and `A.message` is `undefined`.  Because of there is no data binding for `message` property, even `A.message` changed to `ready`, it won't trigger UI updates.\n\nConsider the case of B. When `created` is running, data binding has completed and haven't start rendering elements. `B.message` changed to `created` will take effects at the first rendering, but it has no data binding neither, reassign it in `ready` won't trigger UI updates.\n\nC and D is normal case.\n",
+  "closed_by": {
+    "login": "Hanks10100",
+    "id": 8401776,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8401776?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Hanks10100",
+    "html_url": "https://github.com/Hanks10100",
+    "followers_url": "https://api.github.com/users/Hanks10100/followers",
+    "following_url": "https://api.github.com/users/Hanks10100/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Hanks10100/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Hanks10100/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Hanks10100/subscriptions",
+    "organizations_url": "https://api.github.com/users/Hanks10100/orgs",
+    "repos_url": "https://api.github.com/users/Hanks10100/repos",
+    "events_url": "https://api.github.com/users/Hanks10100/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Hanks10100/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

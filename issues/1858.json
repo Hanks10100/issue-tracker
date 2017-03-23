@@ -94,5 +94,24 @@
   "created_at": "2016-12-09T11:19:27Z",
   "updated_at": "2016-12-23T23:51:37Z",
   "closed_at": "2016-12-23T23:51:37Z",
-  "body": "近期在弄Weex 的国际化。官方没有提供国际化的方案\r\n我自己是用这样的方式来实现的。可以临时解决我的问题。希望官方能够提供一个推荐的解决方案\r\n\r\n解决思路\r\n1.定义一个全局的变量global，每个we都引入他\r\n2.将global 放进 we 文件的data\r\n3.利用data中值变回会触发渲染的原理，在延迟100ms 后改变global的lang方法\r\n4.done, 页面重新渲染，实现国际化\r\n\r\n\r\ndemo 的文件\r\n[Weex i18n.zip](https://files.gitter.im/weexteam/cn/0CFO/weex---i18n.zip)\r\n\r\n\r\n\r\nglobal.js\r\n```javascript\r\nvar environment = {\r\n\tlanguage:\"en\" //改变这里的值。来切换中英文\r\n}\r\nvar langFiles = {\r\n\ten:require(\"./i18n/en.js\").lang\r\n}\r\nexports.lang = function(key) {\r\n\treturn \"\";\r\n}\r\nsetTimeout(function(){\r\n\texports.lang = function(key) {\r\n\t\tif (environment.language == \"en\") {\r\n\t\t\treturn langFiles.en[key] || \"not find\";\r\n\t\t}\r\n\t\treturn key;\r\n\t}\r\n},100);\r\n```\r\n\r\n\r\ni18n/en.js\r\n```javascript\r\nvar lang = {\r\n\t\"首页\":\"Home\",\r\n\t\"经纪人\":\"Agent\",\r\n\t\"指标\":\"Target\",\r\n\t\"我的\":\"My\",\r\n}\r\nexports.lang = lang;\r\n\r\n\r\n```\r\ni18n.we\r\n\r\n```html\r\n\r\n<template>\r\n\t<div style=\"justify-content: center;align-items: center;\">\r\n\t\t<text>{{global.lang('首页')}}</text>\r\n\t</div>\r\n</template>\r\n<script>\r\n\tvar global = require(\"./global.js\");\r\n\tmodule.exports = {\r\n\t\tdata:{\r\n\t\t\tglobal:global\r\n\t\t}\r\n\t}\r\n</script>\r\n```"
+  "body": "近期在弄Weex 的国际化。官方没有提供国际化的方案\r\n我自己是用这样的方式来实现的。可以临时解决我的问题。希望官方能够提供一个推荐的解决方案\r\n\r\n解决思路\r\n1.定义一个全局的变量global，每个we都引入他\r\n2.将global 放进 we 文件的data\r\n3.利用data中值变回会触发渲染的原理，在延迟100ms 后改变global的lang方法\r\n4.done, 页面重新渲染，实现国际化\r\n\r\n\r\ndemo 的文件\r\n[Weex i18n.zip](https://files.gitter.im/weexteam/cn/0CFO/weex---i18n.zip)\r\n\r\n\r\n\r\nglobal.js\r\n```javascript\r\nvar environment = {\r\n\tlanguage:\"en\" //改变这里的值。来切换中英文\r\n}\r\nvar langFiles = {\r\n\ten:require(\"./i18n/en.js\").lang\r\n}\r\nexports.lang = function(key) {\r\n\treturn \"\";\r\n}\r\nsetTimeout(function(){\r\n\texports.lang = function(key) {\r\n\t\tif (environment.language == \"en\") {\r\n\t\t\treturn langFiles.en[key] || \"not find\";\r\n\t\t}\r\n\t\treturn key;\r\n\t}\r\n},100);\r\n```\r\n\r\n\r\ni18n/en.js\r\n```javascript\r\nvar lang = {\r\n\t\"首页\":\"Home\",\r\n\t\"经纪人\":\"Agent\",\r\n\t\"指标\":\"Target\",\r\n\t\"我的\":\"My\",\r\n}\r\nexports.lang = lang;\r\n\r\n\r\n```\r\ni18n.we\r\n\r\n```html\r\n\r\n<template>\r\n\t<div style=\"justify-content: center;align-items: center;\">\r\n\t\t<text>{{global.lang('首页')}}</text>\r\n\t</div>\r\n</template>\r\n<script>\r\n\tvar global = require(\"./global.js\");\r\n\tmodule.exports = {\r\n\t\tdata:{\r\n\t\t\tglobal:global\r\n\t\t}\r\n\t}\r\n</script>\r\n```",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

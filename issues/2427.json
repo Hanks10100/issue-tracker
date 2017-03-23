@@ -37,5 +37,6 @@
   "created_at": "2017-02-04T08:19:04Z",
   "updated_at": "2017-02-04T08:19:04Z",
   "closed_at": null,
-  "body": "一个position为sticky的元素，显示在首屏之外，元素初始位置会离开原有位置"
+  "body": "一个position为sticky的元素，显示在首屏之外，元素初始位置会离开原有位置",
+  "closed_by": null
 }

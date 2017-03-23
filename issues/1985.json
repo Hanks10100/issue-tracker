@@ -66,5 +66,24 @@
   "created_at": "2016-12-22T09:10:39Z",
   "updated_at": "2016-12-22T09:14:07Z",
   "closed_at": "2016-12-22T09:14:07Z",
-  "body": "市面上的app都会有一个slider下面是一个list，我这边用的list，把slider作为header，这样的话slider就不随滚动而滚动，请问怎么解决这个问题"
+  "body": "市面上的app都会有一个slider下面是一个list，我这边用的list，把slider作为header，这样的话slider就不随滚动而滚动，请问怎么解决这个问题",
+  "closed_by": {
+    "login": "frankxiongsir",
+    "id": 11530882,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/11530882?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/frankxiongsir",
+    "html_url": "https://github.com/frankxiongsir",
+    "followers_url": "https://api.github.com/users/frankxiongsir/followers",
+    "following_url": "https://api.github.com/users/frankxiongsir/following{/other_user}",
+    "gists_url": "https://api.github.com/users/frankxiongsir/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/frankxiongsir/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/frankxiongsir/subscriptions",
+    "organizations_url": "https://api.github.com/users/frankxiongsir/orgs",
+    "repos_url": "https://api.github.com/users/frankxiongsir/repos",
+    "events_url": "https://api.github.com/users/frankxiongsir/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/frankxiongsir/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

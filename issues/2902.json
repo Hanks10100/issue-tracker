@@ -37,5 +37,6 @@
   "created_at": "2017-03-10T08:25:10Z",
   "updated_at": "2017-03-10T08:25:10Z",
   "closed_at": null,
-  "body": "![1967d8d4-1501-479b-b0d6-8674836f6228](https://cloud.githubusercontent.com/assets/3241745/23787553/970e553c-05ad-11e7-9a09-71643fccdc29.png)\r\n\r\n如果在同级目录是没有问题的\r\n我把这个文件躲到 上面去  然后require  到list-demo 里面去 就出问题怎么回事\r\nrequire('./common/wxc-item-loading-more.we')\r\n求大神指教下\r\n![a1be9a05-7ae4-4a81-a8a4-48999536e684](https://cloud.githubusercontent.com/assets/3241745/23787574/ac2e42ce-05ad-11e7-87b1-da83ef725e17.png)\r\n"
+  "body": "![1967d8d4-1501-479b-b0d6-8674836f6228](https://cloud.githubusercontent.com/assets/3241745/23787553/970e553c-05ad-11e7-9a09-71643fccdc29.png)\r\n\r\n如果在同级目录是没有问题的\r\n我把这个文件躲到 上面去  然后require  到list-demo 里面去 就出问题怎么回事\r\nrequire('./common/wxc-item-loading-more.we')\r\n求大神指教下\r\n![a1be9a05-7ae4-4a81-a8a4-48999536e684](https://cloud.githubusercontent.com/assets/3241745/23787574/ac2e42ce-05ad-11e7-87b1-da83ef725e17.png)\r\n",
+  "closed_by": null
 }

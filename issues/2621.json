@@ -66,5 +66,24 @@
   "created_at": "2017-02-17T05:57:03Z",
   "updated_at": "2017-02-18T06:43:12Z",
   "closed_at": "2017-02-18T06:43:12Z",
-  "body": "因为 vue-router 的设计和实现都是在同一个页面内的，是 SPA 概念里的产物。其实前端路由也是基于 SPA 产生的概念，在 Weex 或者原生应用这种多页跳转的场景里可能并不合适，慎重使用。虽然 weex-hackernews 项目里用了 vue-router ，但是依然在同一个 Weex 实例中，这个具体该怎解决？"
+  "body": "因为 vue-router 的设计和实现都是在同一个页面内的，是 SPA 概念里的产物。其实前端路由也是基于 SPA 产生的概念，在 Weex 或者原生应用这种多页跳转的场景里可能并不合适，慎重使用。虽然 weex-hackernews 项目里用了 vue-router ，但是依然在同一个 Weex 实例中，这个具体该怎解决？",
+  "closed_by": {
+    "login": "Hanks10100",
+    "id": 8401776,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8401776?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Hanks10100",
+    "html_url": "https://github.com/Hanks10100",
+    "followers_url": "https://api.github.com/users/Hanks10100/followers",
+    "following_url": "https://api.github.com/users/Hanks10100/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Hanks10100/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Hanks10100/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Hanks10100/subscriptions",
+    "organizations_url": "https://api.github.com/users/Hanks10100/orgs",
+    "repos_url": "https://api.github.com/users/Hanks10100/repos",
+    "events_url": "https://api.github.com/users/Hanks10100/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Hanks10100/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -104,5 +104,24 @@
   "created_at": "2016-10-24T04:59:30Z",
   "updated_at": "2016-10-28T08:14:10Z",
   "closed_at": "2016-10-28T08:14:10Z",
-  "body": "![1](https://cloud.githubusercontent.com/assets/12806513/19633957/4837bf64-99e9-11e6-8dc8-474ea7b5d384.png)\n![2](https://cloud.githubusercontent.com/assets/12806513/19633958/48390e32-99e9-11e6-90ea-34b4fe86f393.png)\n用 weex app调试repeat可以动态显示内容，可是用在电脑浏览器里面repeat只能显示data里面写好内容，w无法动态加载，请问这是什么问题\n"
+  "body": "![1](https://cloud.githubusercontent.com/assets/12806513/19633957/4837bf64-99e9-11e6-8dc8-474ea7b5d384.png)\n![2](https://cloud.githubusercontent.com/assets/12806513/19633958/48390e32-99e9-11e6-90ea-34b4fe86f393.png)\n用 weex app调试repeat可以动态显示内容，可是用在电脑浏览器里面repeat只能显示data里面写好内容，w无法动态加载，请问这是什么问题\n",
+  "closed_by": {
+    "login": "namedlock",
+    "id": 3077786,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/3077786?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/namedlock",
+    "html_url": "https://github.com/namedlock",
+    "followers_url": "https://api.github.com/users/namedlock/followers",
+    "following_url": "https://api.github.com/users/namedlock/following{/other_user}",
+    "gists_url": "https://api.github.com/users/namedlock/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/namedlock/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/namedlock/subscriptions",
+    "organizations_url": "https://api.github.com/users/namedlock/orgs",
+    "repos_url": "https://api.github.com/users/namedlock/repos",
+    "events_url": "https://api.github.com/users/namedlock/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/namedlock/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

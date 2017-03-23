@@ -178,5 +178,6 @@
   "created_at": "2017-01-10T02:18:50Z",
   "updated_at": "2017-01-13T06:50:38Z",
   "closed_at": null,
-  "body": "按照官方的用法,使用了wxc-navpage  但是为何在h5下正常 在ios和安卓下 会出现两个 导航条\r\n\r\n如图:\r\n\r\n![](http://images.kaistart.com/error-weex.png)\r\n\r\n\r\n代码:\r\n\r\n```\r\n\r\n<wxc-navpage data-role=\"none\" background-color=\"#ff5898\" title=\"今日2节目\" title-color=\"white\" left-item-title=\"返回\" left-item-color=\"white\">\r\n  <div class=\"wrapper\">\r\n   <text>message</text>\r\n  </div>\r\n  </wxc-navpage>\r\n\r\n```\r\n\r\n"
+  "body": "按照官方的用法,使用了wxc-navpage  但是为何在h5下正常 在ios和安卓下 会出现两个 导航条\r\n\r\n如图:\r\n\r\n![](http://images.kaistart.com/error-weex.png)\r\n\r\n\r\n代码:\r\n\r\n```\r\n\r\n<wxc-navpage data-role=\"none\" background-color=\"#ff5898\" title=\"今日2节目\" title-color=\"white\" left-item-title=\"返回\" left-item-color=\"white\">\r\n  <div class=\"wrapper\">\r\n   <text>message</text>\r\n  </div>\r\n  </wxc-navpage>\r\n\r\n```\r\n\r\n",
+  "closed_by": null
 }

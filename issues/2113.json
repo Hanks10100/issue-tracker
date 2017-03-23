@@ -66,5 +66,6 @@
   "created_at": "2017-01-03T07:18:45Z",
   "updated_at": "2017-01-08T02:50:46Z",
   "closed_at": null,
-  "body": "hello,\r\n我运行官网的 [list](http://dotwe.org/13e8c117b5af140d9ec07e575b1982b4) 的例子，发现固定的 header 头部样式在手机上不正常，具体见截图：\r\n\r\n![wechatimg16](https://cloud.githubusercontent.com/assets/7367678/21601622/5b34202e-d1c7-11e6-8a4c-158622f2070c.jpeg)\r\n![wechatimg17](https://cloud.githubusercontent.com/assets/7367678/21601620/5b31ea52-d1c7-11e6-9920-654c206dd7c2.jpeg)\r\n![wechatimg18](https://cloud.githubusercontent.com/assets/7367678/21601621/5b322440-d1c7-11e6-9116-a31a19daf9e3.jpeg)\r\n"
+  "body": "hello,\r\n我运行官网的 [list](http://dotwe.org/13e8c117b5af140d9ec07e575b1982b4) 的例子，发现固定的 header 头部样式在手机上不正常，具体见截图：\r\n\r\n![wechatimg16](https://cloud.githubusercontent.com/assets/7367678/21601622/5b34202e-d1c7-11e6-8a4c-158622f2070c.jpeg)\r\n![wechatimg17](https://cloud.githubusercontent.com/assets/7367678/21601620/5b31ea52-d1c7-11e6-9920-654c206dd7c2.jpeg)\r\n![wechatimg18](https://cloud.githubusercontent.com/assets/7367678/21601621/5b322440-d1c7-11e6-9116-a31a19daf9e3.jpeg)\r\n",
+  "closed_by": null
 }

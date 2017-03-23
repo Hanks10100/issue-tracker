@@ -150,5 +150,6 @@
   "created_at": "2017-03-02T07:57:39Z",
   "updated_at": "2017-03-05T14:26:44Z",
   "closed_at": null,
-  "body": "现在weex提供的刷新感觉自定义不高，我能自己通过原生代码扩展吗？我想用第三方mjrefresh扩展可以吗？"
+  "body": "现在weex提供的刷新感觉自定义不高，我能自己通过原生代码扩展吗？我想用第三方mjrefresh扩展可以吗？",
+  "closed_by": null
 }

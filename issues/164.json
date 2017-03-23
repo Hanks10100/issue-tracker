@@ -132,5 +132,24 @@
   "created_at": "2016-05-05T22:39:01Z",
   "updated_at": "2016-05-08T10:49:52Z",
   "closed_at": "2016-05-07T06:03:45Z",
-  "body": "如题，这样的变量设置了貌似没有用 \n但是，比如 mongodb 中的数据，都有 _id 这个字段（而且与 id 字段不同）\n不支持，数据处理起来就很麻烦\n"
+  "body": "如题，这样的变量设置了貌似没有用 \n但是，比如 mongodb 中的数据，都有 _id 这个字段（而且与 id 字段不同）\n不支持，数据处理起来就很麻烦\n",
+  "closed_by": {
+    "login": "terrykingcha",
+    "id": 1314662,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1314662?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/terrykingcha",
+    "html_url": "https://github.com/terrykingcha",
+    "followers_url": "https://api.github.com/users/terrykingcha/followers",
+    "following_url": "https://api.github.com/users/terrykingcha/following{/other_user}",
+    "gists_url": "https://api.github.com/users/terrykingcha/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/terrykingcha/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/terrykingcha/subscriptions",
+    "organizations_url": "https://api.github.com/users/terrykingcha/orgs",
+    "repos_url": "https://api.github.com/users/terrykingcha/repos",
+    "events_url": "https://api.github.com/users/terrykingcha/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/terrykingcha/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

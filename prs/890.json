@@ -148,5 +148,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/890.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/890.patch"
   },
-  "body": "api definition:\n\n```\nsetItem: function(key,value,callbackId)\ngetItem: function(key,callbackId)\nremoveItem: function(key,callbackId)\nlength: function(callbackId)\ngetAllKeys: function(callbackId)\n```\n\nusage is simple:\n\n```\n  var storage = require('@weex-module/storage');\n    var me = this;\n    //setItem\n    storage.setItem('foo','foo-value');\n\n    //getItem\n    storage.getItem('foo',function(e){\n      console.log('get foo result:'+JSON.stringify(e));\n      me.getItemResult = 'get foo,value is '+e.data+'\\n';\n    });\n...\n```\n"
+  "body": "api definition:\n\n```\nsetItem: function(key,value,callbackId)\ngetItem: function(key,callbackId)\nremoveItem: function(key,callbackId)\nlength: function(callbackId)\ngetAllKeys: function(callbackId)\n```\n\nusage is simple:\n\n```\n  var storage = require('@weex-module/storage');\n    var me = this;\n    //setItem\n    storage.setItem('foo','foo-value');\n\n    //getItem\n    storage.getItem('foo',function(e){\n      console.log('get foo result:'+JSON.stringify(e));\n      me.getItemResult = 'get foo,value is '+e.data+'\\n';\n    });\n...\n```\n",
+  "closed_by": {
+    "login": "MrRaindrop",
+    "id": 1545874,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1545874?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/MrRaindrop",
+    "html_url": "https://github.com/MrRaindrop",
+    "followers_url": "https://api.github.com/users/MrRaindrop/followers",
+    "following_url": "https://api.github.com/users/MrRaindrop/following{/other_user}",
+    "gists_url": "https://api.github.com/users/MrRaindrop/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/MrRaindrop/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/MrRaindrop/subscriptions",
+    "organizations_url": "https://api.github.com/users/MrRaindrop/orgs",
+    "repos_url": "https://api.github.com/users/MrRaindrop/repos",
+    "events_url": "https://api.github.com/users/MrRaindrop/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/MrRaindrop/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

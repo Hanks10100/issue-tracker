@@ -81,5 +81,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2188.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2188.patch"
   },
-  "body": "Fixed component's view should be removed separately since itsview is a subview of rootview.\r\n\r\nDemo: http://dotwe.org/4a852d2cacc5b460f9567c57230fc614\r\n\r\nFix #2040 "
+  "body": "Fixed component's view should be removed separately since itsview is a subview of rootview.\r\n\r\nDemo: http://dotwe.org/4a852d2cacc5b460f9567c57230fc614\r\n\r\nFix #2040 ",
+  "closed_by": {
+    "login": "kfeagle",
+    "id": 11485145,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/11485145?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/kfeagle",
+    "html_url": "https://github.com/kfeagle",
+    "followers_url": "https://api.github.com/users/kfeagle/followers",
+    "following_url": "https://api.github.com/users/kfeagle/following{/other_user}",
+    "gists_url": "https://api.github.com/users/kfeagle/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/kfeagle/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/kfeagle/subscriptions",
+    "organizations_url": "https://api.github.com/users/kfeagle/orgs",
+    "repos_url": "https://api.github.com/users/kfeagle/repos",
+    "events_url": "https://api.github.com/users/kfeagle/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/kfeagle/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

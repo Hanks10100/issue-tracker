@@ -37,5 +37,6 @@
   "created_at": "2017-03-01T12:32:29Z",
   "updated_at": "2017-03-01T12:32:29Z",
   "closed_at": null,
-  "body": "我在用weex 的 navigator push 方法跳转到新界面是，URL 为：\r\n{\r\n    animated = true;\r\n    url = \"http://weex.yy365.cn/notice-item.js?key=http://im.yiyao365.cn/Appnotice?GUID=589929229a0581486432546&token=ODg4ODg4fEA1NjYwNzA2ODAyZjZlfEA4OGM1ZGE5NTA0NDBiYzgyZmUyMWVlM2QxZDE1NmZhZQ--&title=2017_\\U96e8\\U8bfa\\U5de5\\U4f5c\\U5708&author=\\U51af\\U5f20\\U9f99&date=2017-02-07 09:55:46\";\r\n}\r\n\r\n，我发现sdk里边 在解析 url 这个字符串的时候，NSURL * pusnUrl=[NSURL URLWithString:param[@\"url\"]] ，获得的 pusnUrl 为nil，这是什么情况？"
+  "body": "我在用weex 的 navigator push 方法跳转到新界面是，URL 为：\r\n{\r\n    animated = true;\r\n    url = \"http://weex.yy365.cn/notice-item.js?key=http://im.yiyao365.cn/Appnotice?GUID=589929229a0581486432546&token=ODg4ODg4fEA1NjYwNzA2ODAyZjZlfEA4OGM1ZGE5NTA0NDBiYzgyZmUyMWVlM2QxZDE1NmZhZQ--&title=2017_\\U96e8\\U8bfa\\U5de5\\U4f5c\\U5708&author=\\U51af\\U5f20\\U9f99&date=2017-02-07 09:55:46\";\r\n}\r\n\r\n，我发现sdk里边 在解析 url 这个字符串的时候，NSURL * pusnUrl=[NSURL URLWithString:param[@\"url\"]] ，获得的 pusnUrl 为nil，这是什么情况？",
+  "closed_by": null
 }

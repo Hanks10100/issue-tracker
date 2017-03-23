@@ -130,5 +130,24 @@
   "created_at": "2016-09-07T12:23:27Z",
   "updated_at": "2017-02-10T04:11:24Z",
   "closed_at": "2016-10-24T08:19:38Z",
-  "body": "某些应用场景下，webview与weex需要交互。\n比如webview中执行某种操作成功后，点击webview中的按钮能让weex页面做出反应。\n另外就是按返回键能对webview界面进行响应 而不是直接操作weex页面的返回。\n\n可以考虑的方案是在webview中引入特定的js文件 作为webview与weex联系的纽带。\n"
+  "body": "某些应用场景下，webview与weex需要交互。\n比如webview中执行某种操作成功后，点击webview中的按钮能让weex页面做出反应。\n另外就是按返回键能对webview界面进行响应 而不是直接操作weex页面的返回。\n\n可以考虑的方案是在webview中引入特定的js文件 作为webview与weex联系的纽带。\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

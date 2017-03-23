@@ -81,5 +81,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2807.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2807.patch"
   },
-  "body": "## 更改方案\r\n- 删除代码_layer.backgroundColor = _backgroundColor.CGColor，之前加上是为了避免cell不能从更新恢复，现在这个代码已经在WXComponent+Display.m文件中执行了 (delete the code _layer.backgroundColor = _backgroundColor.CGColor; because it execute WXComponent+Display)\r\n\r\n## 测试用例\r\n- 伪类 http://dotwe.org/weex/d763a062ec89ec82469783d07c7f477f\r\n- 更新 http://dotwe.org/weex/6b6e4b8ddb8156a2deea703c0ad64f1a"
+  "body": "## 更改方案\r\n- 删除代码_layer.backgroundColor = _backgroundColor.CGColor，之前加上是为了避免cell不能从更新恢复，现在这个代码已经在WXComponent+Display.m文件中执行了 (delete the code _layer.backgroundColor = _backgroundColor.CGColor; because it execute WXComponent+Display)\r\n\r\n## 测试用例\r\n- 伪类 http://dotwe.org/weex/d763a062ec89ec82469783d07c7f477f\r\n- 更新 http://dotwe.org/weex/6b6e4b8ddb8156a2deea703c0ad64f1a",
+  "closed_by": {
+    "login": "cxfeng1",
+    "id": 1625893,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1625893?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cxfeng1",
+    "html_url": "https://github.com/cxfeng1",
+    "followers_url": "https://api.github.com/users/cxfeng1/followers",
+    "following_url": "https://api.github.com/users/cxfeng1/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cxfeng1/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cxfeng1/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cxfeng1/subscriptions",
+    "organizations_url": "https://api.github.com/users/cxfeng1/orgs",
+    "repos_url": "https://api.github.com/users/cxfeng1/repos",
+    "events_url": "https://api.github.com/users/cxfeng1/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cxfeng1/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

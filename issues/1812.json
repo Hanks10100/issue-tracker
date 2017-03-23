@@ -122,5 +122,24 @@
   "created_at": "2016-12-05T03:18:04Z",
   "updated_at": "2016-12-20T02:48:59Z",
   "closed_at": "2016-12-14T12:33:49Z",
-  "body": "<!--\r\n0. It's ***RECOMMENDED*** to [submit PR](https://github.com/alibaba/weex/pulls) for typo, new demo or tiny bugfix.\r\n0. If this's a ***BUG***, pls provide: course repetition, error/crash log, device model, OS version, App version (playground or other apps).\r\n0. If this's a ***FEATURE***, pls provide: details, pseudo codes if necessary.\r\n\r\n---\r\n\r\n（请在***提交***前删除这段描述）\r\n\r\n0. 我们***推荐***小问题直接[提 PR](https://github.com/alibaba/weex/pulls)，如错别字、新 demo 或 bugfix。\r\n0. 如果是 ***Bug***，请提供：复现步骤（推荐有截图）、error/crash log、设备型号、OS 版本、App 版本（playground 版本或自己的 app）。\r\n0. 如果是***新需求***，请提供：详细描述、应用场景、适当的伪代码（如有）。\r\n-->\r\n\r\n\r\n**main.js**\r\n\r\n```\r\nimport weex from 'weex-html5'\r\n\r\nlet loading = require('./modules/loading/index.js');\r\n\r\nweex.install(loading);\r\n```\r\n\r\n**loading module**"
+  "body": "<!--\r\n0. It's ***RECOMMENDED*** to [submit PR](https://github.com/alibaba/weex/pulls) for typo, new demo or tiny bugfix.\r\n0. If this's a ***BUG***, pls provide: course repetition, error/crash log, device model, OS version, App version (playground or other apps).\r\n0. If this's a ***FEATURE***, pls provide: details, pseudo codes if necessary.\r\n\r\n---\r\n\r\n（请在***提交***前删除这段描述）\r\n\r\n0. 我们***推荐***小问题直接[提 PR](https://github.com/alibaba/weex/pulls)，如错别字、新 demo 或 bugfix。\r\n0. 如果是 ***Bug***，请提供：复现步骤（推荐有截图）、error/crash log、设备型号、OS 版本、App 版本（playground 版本或自己的 app）。\r\n0. 如果是***新需求***，请提供：详细描述、应用场景、适当的伪代码（如有）。\r\n-->\r\n\r\n\r\n**main.js**\r\n\r\n```\r\nimport weex from 'weex-html5'\r\n\r\nlet loading = require('./modules/loading/index.js');\r\n\r\nweex.install(loading);\r\n```\r\n\r\n**loading module**",
+  "closed_by": {
+    "login": "fromIRIS",
+    "id": 8492963,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8492963?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/fromIRIS",
+    "html_url": "https://github.com/fromIRIS",
+    "followers_url": "https://api.github.com/users/fromIRIS/followers",
+    "following_url": "https://api.github.com/users/fromIRIS/following{/other_user}",
+    "gists_url": "https://api.github.com/users/fromIRIS/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/fromIRIS/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/fromIRIS/subscriptions",
+    "organizations_url": "https://api.github.com/users/fromIRIS/orgs",
+    "repos_url": "https://api.github.com/users/fromIRIS/repos",
+    "events_url": "https://api.github.com/users/fromIRIS/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/fromIRIS/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

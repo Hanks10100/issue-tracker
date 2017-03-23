@@ -122,5 +122,24 @@
   "created_at": "2016-07-01T07:56:08Z",
   "updated_at": "2017-03-07T09:46:48Z",
   "closed_at": "2016-07-04T13:30:09Z",
-  "body": "遇到的问题是：weex编写的代码，在pc上面用chrome模拟手机显示都正常，但是用playground扫描对应的js文件，android端却渲染失败（js的链接没问题，二维码没问题），有哪些可能的原因？\n有的页面正常，有的不正常。用了动画，大图片，会不会是尺寸问题？还是transfromer后生成的代码有问题？\n"
+  "body": "遇到的问题是：weex编写的代码，在pc上面用chrome模拟手机显示都正常，但是用playground扫描对应的js文件，android端却渲染失败（js的链接没问题，二维码没问题），有哪些可能的原因？\n有的页面正常，有的不正常。用了动画，大图片，会不会是尺寸问题？还是transfromer后生成的代码有问题？\n",
+  "closed_by": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -81,5 +81,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2448.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2448.patch"
   },
-  "body": "为input和textarea提供设置/获取文本选区的能力\r\n\r\nTestcase:\r\nhttp://dotwe.org/576201cb0c986e7ddb29626b373cc8db\r\n\r\nPS. 需要依赖jsfm 0.19.6提供的component方法调用参数可传入callbackId的能力"
+  "body": "为input和textarea提供设置/获取文本选区的能力\r\n\r\nTestcase:\r\nhttp://dotwe.org/576201cb0c986e7ddb29626b373cc8db\r\n\r\nPS. 需要依赖jsfm 0.19.6提供的component方法调用参数可传入callbackId的能力",
+  "closed_by": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

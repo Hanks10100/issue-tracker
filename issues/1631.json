@@ -122,5 +122,24 @@
   "created_at": "2016-11-12T07:47:07Z",
   "updated_at": "2016-11-14T03:47:44Z",
   "closed_at": "2016-11-14T03:47:44Z",
-  "body": "如图，要实现以下效果\r\n![collectionView](https://i.imgsafe.org/6c73bacf56.png)\r\n\r\n`<cell repeat=\"{{item in lists}}\" index=\"{{$index}}\" onclick=\"oncellclick\" append=\"tree\">`\r\n\r\n一个item只能对应一个cell，而在上图中是两个item对应一个cell,如果有collectionView实现的就好办了，\r\n但现在只有tableView实现的 list，何解"
+  "body": "如图，要实现以下效果\r\n![collectionView](https://i.imgsafe.org/6c73bacf56.png)\r\n\r\n`<cell repeat=\"{{item in lists}}\" index=\"{{$index}}\" onclick=\"oncellclick\" append=\"tree\">`\r\n\r\n一个item只能对应一个cell，而在上图中是两个item对应一个cell,如果有collectionView实现的就好办了，\r\n但现在只有tableView实现的 list，何解",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

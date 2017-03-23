@@ -90,5 +90,6 @@
   "created_at": "2017-01-22T03:52:49Z",
   "updated_at": "2017-01-25T08:33:54Z",
   "closed_at": null,
-  "body": "we：\r\n![image](https://cloud.githubusercontent.com/assets/6322749/22179832/61f677f0-e099-11e6-9be6-bfd5a9275151.png)\r\n\r\n\r\n设置index=1,slider 还是从0开始显示。\r\n\r\n找java源码slider的实现，发现在\r\n![image](https://cloud.githubusercontent.com/assets/6322749/22179815/131aa96c-e099-11e6-85d3-257744c12c15.png)\r\n在addsubview 时mViewPager.setCurrentItem(0); 这句代码导致的。如果mViewPager.setCurrentItem(index); 就可以正常工作了，希望吧这个bug更新掉"
+  "body": "we：\r\n![image](https://cloud.githubusercontent.com/assets/6322749/22179832/61f677f0-e099-11e6-9be6-bfd5a9275151.png)\r\n\r\n\r\n设置index=1,slider 还是从0开始显示。\r\n\r\n找java源码slider的实现，发现在\r\n![image](https://cloud.githubusercontent.com/assets/6322749/22179815/131aa96c-e099-11e6-85d3-257744c12c15.png)\r\n在addsubview 时mViewPager.setCurrentItem(0); 这句代码导致的。如果mViewPager.setCurrentItem(index); 就可以正常工作了，希望吧这个bug更新掉",
+  "closed_by": null
 }

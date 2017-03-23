@@ -37,5 +37,6 @@
   "created_at": "2017-02-09T09:23:31Z",
   "updated_at": "2017-02-09T09:23:31Z",
   "closed_at": null,
-  "body": "渲染界面时候，这个参数是干嘛用的，前端能接收到这个map值吗\r\n![default](https://cloud.githubusercontent.com/assets/2859264/22776870/51034e6c-eeec-11e6-8dc6-43191798aeb1.png)\r\n"
+  "body": "渲染界面时候，这个参数是干嘛用的，前端能接收到这个map值吗\r\n![default](https://cloud.githubusercontent.com/assets/2859264/22776870/51034e6c-eeec-11e6-8dc6-43191798aeb1.png)\r\n",
+  "closed_by": null
 }

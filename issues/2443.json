@@ -626,5 +626,24 @@
   "created_at": "2017-02-06T17:00:34Z",
   "updated_at": "2017-02-07T08:17:57Z",
   "closed_at": "2017-02-07T08:17:57Z",
-  "body": "不跟一个后端框架结合，让我们怎么用啊，光有weex怎么搭有功能的网站"
+  "body": "不跟一个后端框架结合，让我们怎么用啊，光有weex怎么搭有功能的网站",
+  "closed_by": {
+    "login": "SteveCruise",
+    "id": 19522557,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/19522557?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/SteveCruise",
+    "html_url": "https://github.com/SteveCruise",
+    "followers_url": "https://api.github.com/users/SteveCruise/followers",
+    "following_url": "https://api.github.com/users/SteveCruise/following{/other_user}",
+    "gists_url": "https://api.github.com/users/SteveCruise/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/SteveCruise/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/SteveCruise/subscriptions",
+    "organizations_url": "https://api.github.com/users/SteveCruise/orgs",
+    "repos_url": "https://api.github.com/users/SteveCruise/repos",
+    "events_url": "https://api.github.com/users/SteveCruise/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/SteveCruise/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

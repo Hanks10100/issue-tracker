@@ -147,5 +147,24 @@
   "created_at": "2016-11-10T10:32:37Z",
   "updated_at": "2016-11-14T11:35:14Z",
   "closed_at": "2016-11-14T11:35:14Z",
-  "body": "android weex版本0.6.2 , playgournd版本0.8.04\r\nslider下面放一个text和一个list， h5预览可以，使用playground 扫码会直接闪退，单独把list移出来和slider平级，把slider和list用div包起来，扫码就可以成功预览，是否是slider里不能放list？\r\n"
+  "body": "android weex版本0.6.2 , playgournd版本0.8.04\r\nslider下面放一个text和一个list， h5预览可以，使用playground 扫码会直接闪退，单独把list移出来和slider平级，把slider和list用div包起来，扫码就可以成功预览，是否是slider里不能放list？\r\n",
+  "closed_by": {
+    "login": "xkli",
+    "id": 7642368,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7642368?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/xkli",
+    "html_url": "https://github.com/xkli",
+    "followers_url": "https://api.github.com/users/xkli/followers",
+    "following_url": "https://api.github.com/users/xkli/following{/other_user}",
+    "gists_url": "https://api.github.com/users/xkli/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/xkli/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/xkli/subscriptions",
+    "organizations_url": "https://api.github.com/users/xkli/orgs",
+    "repos_url": "https://api.github.com/users/xkli/repos",
+    "events_url": "https://api.github.com/users/xkli/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/xkli/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

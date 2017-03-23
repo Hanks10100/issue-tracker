@@ -74,5 +74,6 @@
   "created_at": "2017-01-23T07:36:40Z",
   "updated_at": "2017-01-25T07:49:57Z",
   "closed_at": null,
-  "body": "border-radius在android4.4设备上圆角没有效果，还是直角"
+  "body": "border-radius在android4.4设备上圆角没有效果，还是直角",
+  "closed_by": null
 }

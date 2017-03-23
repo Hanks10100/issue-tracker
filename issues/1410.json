@@ -102,5 +102,24 @@
   "created_at": "2016-10-17T06:23:10Z",
   "updated_at": "2016-10-24T13:32:13Z",
   "closed_at": "2016-10-24T13:32:13Z",
-  "body": "在登录成功以后 push 到了 主页， 这样的逻辑是行不通的，因为是push 过去的  在登录后的主页 侧滑以后会回到 login 页面。这是不符合app 的设计常理的，目前的app 中能够返回到登录页面都是需要去设置中心点击退出登录才能退出的。 我现在的解决方案是 自己写了一个module 的present 方法。希望能够在新版本加入此模块方法。\n"
+  "body": "在登录成功以后 push 到了 主页， 这样的逻辑是行不通的，因为是push 过去的  在登录后的主页 侧滑以后会回到 login 页面。这是不符合app 的设计常理的，目前的app 中能够返回到登录页面都是需要去设置中心点击退出登录才能退出的。 我现在的解决方案是 自己写了一个module 的present 方法。希望能够在新版本加入此模块方法。\n",
+  "closed_by": {
+    "login": "alext1981",
+    "id": 8254442,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8254442?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/alext1981",
+    "html_url": "https://github.com/alext1981",
+    "followers_url": "https://api.github.com/users/alext1981/followers",
+    "following_url": "https://api.github.com/users/alext1981/following{/other_user}",
+    "gists_url": "https://api.github.com/users/alext1981/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/alext1981/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/alext1981/subscriptions",
+    "organizations_url": "https://api.github.com/users/alext1981/orgs",
+    "repos_url": "https://api.github.com/users/alext1981/repos",
+    "events_url": "https://api.github.com/users/alext1981/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/alext1981/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -66,5 +66,24 @@
   "created_at": "2016-05-08T00:18:13Z",
   "updated_at": "2016-05-08T01:21:12Z",
   "closed_at": "2016-05-08T01:21:12Z",
-  "body": "> weex@0.4.0 install:githooks E:\\dev\\sources\\weex\n> bash ./bin/install-hooks.sh\n\n'bash' 不是内部或外部命令，也不是可运行的程序\n或批处理文件。\n\nnpm ERR! Windows_NT 10.0.10586\nnpm ERR! argv \"C:\\Program Files\\nodejs\\node.exe\" \"C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js\" \"run\" \"install:githooks\"\nnpm ERR! node v6.0.0\nnpm ERR! npm  v3.8.6\nnpm ERR! code ELIFECYCLE\nnpm ERR! weex@0.4.0 install:githooks: `bash ./bin/install-hooks.sh`\nnpm ERR! Exit status 1\nnpm ERR!\n"
+  "body": "> weex@0.4.0 install:githooks E:\\dev\\sources\\weex\n> bash ./bin/install-hooks.sh\n\n'bash' 不是内部或外部命令，也不是可运行的程序\n或批处理文件。\n\nnpm ERR! Windows_NT 10.0.10586\nnpm ERR! argv \"C:\\Program Files\\nodejs\\node.exe\" \"C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js\" \"run\" \"install:githooks\"\nnpm ERR! node v6.0.0\nnpm ERR! npm  v3.8.6\nnpm ERR! code ELIFECYCLE\nnpm ERR! weex@0.4.0 install:githooks: `bash ./bin/install-hooks.sh`\nnpm ERR! Exit status 1\nnpm ERR!\n",
+  "closed_by": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

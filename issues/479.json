@@ -122,5 +122,24 @@
   "created_at": "2016-06-15T06:08:36Z",
   "updated_at": "2016-06-15T06:48:40Z",
   "closed_at": "2016-06-15T06:48:40Z",
-  "body": "i have a list which register `onloadmore` event:\n\n```\n<list onloadmore=\"loadMore\" loadmoreoffset=\"50\">\n\n      <cell repeat=\"{{newsList}}\" index=\"{{$index}}\">\n          <item title={{title}} image={{images[0]}}></item>\n      </cell>\n</list>\n\n  methods:{\n      loadMore: function(){\n        var self = this;\n        ...\n        stream.sendHttp({method:'GET',url:url},function(ret){\n            var retData = JSON.parse(ret);\n            var newItems = retData.xxx;\n\n            for(item in newItems){\n              self.aaaa.push(item);\n            }\n            self.currentPage++;\n        });\n      },\n```\n\nwhen i scroll to the end of list,`onloadmore` event triggered successfully,and i push new date to the data source array. but the new data does not bind to the list.\n\ndid i miss sth??\n"
+  "body": "i have a list which register `onloadmore` event:\n\n```\n<list onloadmore=\"loadMore\" loadmoreoffset=\"50\">\n\n      <cell repeat=\"{{newsList}}\" index=\"{{$index}}\">\n          <item title={{title}} image={{images[0]}}></item>\n      </cell>\n</list>\n\n  methods:{\n      loadMore: function(){\n        var self = this;\n        ...\n        stream.sendHttp({method:'GET',url:url},function(ret){\n            var retData = JSON.parse(ret);\n            var newItems = retData.xxx;\n\n            for(item in newItems){\n              self.aaaa.push(item);\n            }\n            self.currentPage++;\n        });\n      },\n```\n\nwhen i scroll to the end of list,`onloadmore` event triggered successfully,and i push new date to the data source array. but the new data does not bind to the list.\n\ndid i miss sth??\n",
+  "closed_by": {
+    "login": "Rowandjj",
+    "id": 5766252,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5766252?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Rowandjj",
+    "html_url": "https://github.com/Rowandjj",
+    "followers_url": "https://api.github.com/users/Rowandjj/followers",
+    "following_url": "https://api.github.com/users/Rowandjj/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Rowandjj/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Rowandjj/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Rowandjj/subscriptions",
+    "organizations_url": "https://api.github.com/users/Rowandjj/orgs",
+    "repos_url": "https://api.github.com/users/Rowandjj/repos",
+    "events_url": "https://api.github.com/users/Rowandjj/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Rowandjj/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

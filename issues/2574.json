@@ -122,5 +122,6 @@
   "created_at": "2017-02-15T06:55:59Z",
   "updated_at": "2017-03-04T10:14:49Z",
   "closed_at": null,
-  "body": "**环境版本：**\r\nandroid studio版本2.0\r\nandroid编译SDK是23.0.2\r\n当前使用的是weex-toolkit：1.0.1，weex_sdk:0.9.5\r\n\r\n**问题：**\r\n1. 实测this.$getConfig已经取不了\r\n2. weex.config可以取到env，但是app运行时候，weex.config.bundleUrl始终没有值\r\n\r\n请问最新版究竟如何取到bundleUrl"
+  "body": "**环境版本：**\r\nandroid studio版本2.0\r\nandroid编译SDK是23.0.2\r\n当前使用的是weex-toolkit：1.0.1，weex_sdk:0.9.5\r\n\r\n**问题：**\r\n1. 实测this.$getConfig已经取不了\r\n2. weex.config可以取到env，但是app运行时候，weex.config.bundleUrl始终没有值\r\n\r\n请问最新版究竟如何取到bundleUrl",
+  "closed_by": null
 }

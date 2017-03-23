@@ -43,5 +43,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/658.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/658.patch"
   },
-  "body": "#### Combined inspector to debug, updated README\n"
+  "body": "#### Combined inspector to debug, updated README\n",
+  "closed_by": {
+    "login": "yangshengtao",
+    "id": 8348001,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8348001?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/yangshengtao",
+    "html_url": "https://github.com/yangshengtao",
+    "followers_url": "https://api.github.com/users/yangshengtao/followers",
+    "following_url": "https://api.github.com/users/yangshengtao/following{/other_user}",
+    "gists_url": "https://api.github.com/users/yangshengtao/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/yangshengtao/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/yangshengtao/subscriptions",
+    "organizations_url": "https://api.github.com/users/yangshengtao/orgs",
+    "repos_url": "https://api.github.com/users/yangshengtao/repos",
+    "events_url": "https://api.github.com/users/yangshengtao/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/yangshengtao/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

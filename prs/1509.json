@@ -342,5 +342,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1509.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1509.patch"
   },
-  "body": "目前html5 中 stream module不支持在跨域cors情况下带cookie，目前不管zepto和jquery都有这个配置，希望可以加上，原生客户端不需要此配置，但是h5得场景下有需求，希望可以合进去，谢谢！\n"
+  "body": "目前html5 中 stream module不支持在跨域cors情况下带cookie，目前不管zepto和jquery都有这个配置，希望可以加上，原生客户端不需要此配置，但是h5得场景下有需求，希望可以合进去，谢谢！\n",
+  "closed_by": {
+    "login": "elover",
+    "id": 4330913,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4330913?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/elover",
+    "html_url": "https://github.com/elover",
+    "followers_url": "https://api.github.com/users/elover/followers",
+    "following_url": "https://api.github.com/users/elover/following{/other_user}",
+    "gists_url": "https://api.github.com/users/elover/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/elover/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/elover/subscriptions",
+    "organizations_url": "https://api.github.com/users/elover/orgs",
+    "repos_url": "https://api.github.com/users/elover/repos",
+    "events_url": "https://api.github.com/users/elover/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/elover/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

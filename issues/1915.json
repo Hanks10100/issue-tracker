@@ -221,5 +221,24 @@
   "created_at": "2016-12-16T01:58:07Z",
   "updated_at": "2017-03-01T03:45:40Z",
   "closed_at": "2017-03-01T03:45:40Z",
-  "body": "请问下，我编译hello.we文件的时候， 我端口被占用了，然后，我kill掉了，但是，当我再次运行命令的时候，那个端口又被占用了，结果看了下，是node.js占用的，我想问下，这个该怎么解决呢？"
+  "body": "请问下，我编译hello.we文件的时候， 我端口被占用了，然后，我kill掉了，但是，当我再次运行命令的时候，那个端口又被占用了，结果看了下，是node.js占用的，我想问下，这个该怎么解决呢？",
+  "closed_by": {
+    "login": "Hanks10100",
+    "id": 8401776,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8401776?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Hanks10100",
+    "html_url": "https://github.com/Hanks10100",
+    "followers_url": "https://api.github.com/users/Hanks10100/followers",
+    "following_url": "https://api.github.com/users/Hanks10100/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Hanks10100/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Hanks10100/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Hanks10100/subscriptions",
+    "organizations_url": "https://api.github.com/users/Hanks10100/orgs",
+    "repos_url": "https://api.github.com/users/Hanks10100/repos",
+    "events_url": "https://api.github.com/users/Hanks10100/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Hanks10100/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

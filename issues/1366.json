@@ -122,5 +122,24 @@
   "created_at": "2016-10-10T03:09:23Z",
   "updated_at": "2016-10-21T07:46:50Z",
   "closed_at": "2016-10-11T03:54:55Z",
-  "body": "集成weex Android环境编译出现libweexcorebk1.so is 32-bit instead of 64-bit  ,so文件是32位的不是64位，weex界面渲染不出来！另外weex的混淆\b有指导么？？测试\b设备型号：华为荣耀7i\n![o1kiaz3lfy8 9rz900 _kp](https://cloud.githubusercontent.com/assets/19909935/19226139/b32dbd02-8ed9-11e6-8b41-5de4a5cfdc06.jpg)\n"
+  "body": "集成weex Android环境编译出现libweexcorebk1.so is 32-bit instead of 64-bit  ,so文件是32位的不是64位，weex界面渲染不出来！另外weex的混淆\b有指导么？？测试\b设备型号：华为荣耀7i\n![o1kiaz3lfy8 9rz900 _kp](https://cloud.githubusercontent.com/assets/19909935/19226139/b32dbd02-8ed9-11e6-8b41-5de4a5cfdc06.jpg)\n",
+  "closed_by": {
+    "login": "YorkShen",
+    "id": 4162544,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4162544?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/YorkShen",
+    "html_url": "https://github.com/YorkShen",
+    "followers_url": "https://api.github.com/users/YorkShen/followers",
+    "following_url": "https://api.github.com/users/YorkShen/following{/other_user}",
+    "gists_url": "https://api.github.com/users/YorkShen/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/YorkShen/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/YorkShen/subscriptions",
+    "organizations_url": "https://api.github.com/users/YorkShen/orgs",
+    "repos_url": "https://api.github.com/users/YorkShen/repos",
+    "events_url": "https://api.github.com/users/YorkShen/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/YorkShen/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

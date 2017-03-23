@@ -132,5 +132,24 @@
   "created_at": "2016-06-13T09:36:37Z",
   "updated_at": "2016-06-14T01:48:59Z",
   "closed_at": "2016-06-14T01:48:59Z",
-  "body": "i use `$getConfig()` to fetch screen height,and then assign to `image` height.but it does not work,screen height is large than expects.\n\n```\n<template>\n  <scroller>\n    <image class=\"my_image\" style=\"width:750;height:{{height}}\" src = \"http://img.alicdn.com/bao/uploaded/i2/2547343901/TB2bPxhjFXXXXcnXpXXXXXXXXXX_!!2547343901-0-paimai.jpg_400x400.jpg\">\n    </image>\n  </scroller>\n</template>\n\n<style>\n\n</style>\n\n<script>\n  var modal = require('@weex-module/modal');\n  module.exports = {\n    data:{\n        height:''\n    },\n    methods : {\n      ready: function(){\n        var config = this.$getConfig();\n        var screenHeight = config.env.deviceHeight;\n        modal.toast({'message':'height:'+screenHeight,'duration':1});\n        this.height = screenHeight;\n      }\n    }\n  }\n</script>\n```\n"
+  "body": "i use `$getConfig()` to fetch screen height,and then assign to `image` height.but it does not work,screen height is large than expects.\n\n```\n<template>\n  <scroller>\n    <image class=\"my_image\" style=\"width:750;height:{{height}}\" src = \"http://img.alicdn.com/bao/uploaded/i2/2547343901/TB2bPxhjFXXXXcnXpXXXXXXXXXX_!!2547343901-0-paimai.jpg_400x400.jpg\">\n    </image>\n  </scroller>\n</template>\n\n<style>\n\n</style>\n\n<script>\n  var modal = require('@weex-module/modal');\n  module.exports = {\n    data:{\n        height:''\n    },\n    methods : {\n      ready: function(){\n        var config = this.$getConfig();\n        var screenHeight = config.env.deviceHeight;\n        modal.toast({'message':'height:'+screenHeight,'duration':1});\n        this.height = screenHeight;\n      }\n    }\n  }\n</script>\n```\n",
+  "closed_by": {
+    "login": "Rowandjj",
+    "id": 5766252,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5766252?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Rowandjj",
+    "html_url": "https://github.com/Rowandjj",
+    "followers_url": "https://api.github.com/users/Rowandjj/followers",
+    "following_url": "https://api.github.com/users/Rowandjj/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Rowandjj/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Rowandjj/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Rowandjj/subscriptions",
+    "organizations_url": "https://api.github.com/users/Rowandjj/orgs",
+    "repos_url": "https://api.github.com/users/Rowandjj/repos",
+    "events_url": "https://api.github.com/users/Rowandjj/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Rowandjj/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

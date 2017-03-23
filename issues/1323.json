@@ -94,5 +94,24 @@
   "created_at": "2016-09-27T19:09:13Z",
   "updated_at": "2016-10-24T08:26:29Z",
   "closed_at": "2016-10-24T08:26:28Z",
-  "body": "Looking at platform deployment today and Weex looks like a great option. What is the current status? Will Weex be launched when Vue 2.0 in released, what is the future roadmap? Is Weex complete at this point or coming soon?\n\nWhile it is not native I also looked at the Quasar Framework today and is super nice together with it's Quasar Play app, which you just get at the Google Play Store. I guess Weex still requires the complete local Android or iOS setup and the Weex Playground App is not what it sounds like.\n\nExcuse me for all my questions but I'm presently updating my platform deployment strategy. I'd love to read all your issues except I can not read Chinese :)\n"
+  "body": "Looking at platform deployment today and Weex looks like a great option. What is the current status? Will Weex be launched when Vue 2.0 in released, what is the future roadmap? Is Weex complete at this point or coming soon?\n\nWhile it is not native I also looked at the Quasar Framework today and is super nice together with it's Quasar Play app, which you just get at the Google Play Store. I guess Weex still requires the complete local Android or iOS setup and the Weex Playground App is not what it sounds like.\n\nExcuse me for all my questions but I'm presently updating my platform deployment strategy. I'd love to read all your issues except I can not read Chinese :)\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

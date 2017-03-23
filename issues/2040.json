@@ -317,7 +317,26 @@
     }
   ],
   "created_at": "2016-12-27T09:30:12Z",
-  "updated_at": "2017-03-07T02:33:29Z",
+  "updated_at": "2017-03-17T08:41:20Z",
   "closed_at": "2017-03-07T02:33:22Z",
-  "body": "我在组件中用：\r\nfoo.we\r\n```javascript\r\n<template>\r\n    <div>\r\n        <div if=\"shown\">\r\n             <div style=\"position:fixed;width:750;height:1400;background-color:rgba(0,0,0,.5)\" onclick=\"hide\"></div>\r\n             <div style=\"position:fixed;width:750;height:800;background-color:#fff\"><text>some child</text></div>\r\n        </div>\r\n    </div>\r\n</template>\r\n<script>\r\n    module.exports = {\r\n        data: {\r\n            shown:false\r\n        },\r\n        created:function(){\r\n            this.$on('showFoo', function (e) {\r\n                this.shown = true\r\n            }.bind(this));\r\n        },\r\n        methods:{\r\n            hide:function(){\r\n                this.shown=false;\r\n            }\r\n        }\r\n</script>\r\n```\r\n\r\niOS中，在父组件中调用`showFoo`显示正确，但是执行hide方法未能正常隐藏。\r\nweb端正常，安卓端未测\r\n\r\n还有web端直接在template的子元素的第一个div使用`if=”shown”`也不能正常执行hide方法，所以写了两级div。是否是嵌套的shown的问题？\r\n\r\n目前我是去掉了中间一级，给子元素都加了`if=\"shown\"`后得到预期结果。"
+  "body": "我在组件中用：\r\nfoo.we\r\n```javascript\r\n<template>\r\n    <div>\r\n        <div if=\"shown\">\r\n             <div style=\"position:fixed;width:750;height:1400;background-color:rgba(0,0,0,.5)\" onclick=\"hide\"></div>\r\n             <div style=\"position:fixed;width:750;height:800;background-color:#fff\"><text>some child</text></div>\r\n        </div>\r\n    </div>\r\n</template>\r\n<script>\r\n    module.exports = {\r\n        data: {\r\n            shown:false\r\n        },\r\n        created:function(){\r\n            this.$on('showFoo', function (e) {\r\n                this.shown = true\r\n            }.bind(this));\r\n        },\r\n        methods:{\r\n            hide:function(){\r\n                this.shown=false;\r\n            }\r\n        }\r\n</script>\r\n```\r\n\r\niOS中，在父组件中调用`showFoo`显示正确，但是执行hide方法未能正常隐藏。\r\nweb端正常，安卓端未测\r\n\r\n还有web端直接在template的子元素的第一个div使用`if=”shown”`也不能正常执行hide方法，所以写了两级div。是否是嵌套的shown的问题？\r\n\r\n目前我是去掉了中间一级，给子元素都加了`if=\"shown\"`后得到预期结果。",
+  "closed_by": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

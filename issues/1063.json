@@ -235,5 +235,24 @@
   "created_at": "2016-08-24T09:17:48Z",
   "updated_at": "2016-08-25T04:17:22Z",
   "closed_at": "2016-08-25T04:17:22Z",
-  "body": "示例代码如下:\n\n```\nstream.fetch({\n  method: 'GET',\n  type: 'json',\n  url: 'http://httpbin.org/get'\n}, function (ret) {\n  vm.rettype = typeof(ret);\n},function(response){});\n```\n\nios1.1版playground的stream.fetch均失败，经检测发现，网络通信正常，问题出在 ios端的 ret为一个字符串（rettype：string）。安卓及web端均返回正常的对象。\n"
+  "body": "示例代码如下:\n\n```\nstream.fetch({\n  method: 'GET',\n  type: 'json',\n  url: 'http://httpbin.org/get'\n}, function (ret) {\n  vm.rettype = typeof(ret);\n},function(response){});\n```\n\nios1.1版playground的stream.fetch均失败，经检测发现，网络通信正常，问题出在 ios端的 ret为一个字符串（rettype：string）。安卓及web端均返回正常的对象。\n",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

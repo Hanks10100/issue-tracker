@@ -81,5 +81,6 @@
   "created_at": "2017-01-16T02:41:44Z",
   "updated_at": "2017-03-01T06:27:20Z",
   "closed_at": null,
-  "body": "android上\r\n如果图片给的是矩形，需要显示为圆形（例如头像），使用filter:blur(100)，但原生代码里限制最多为10。\r\n这个数值应该由使用人来决定，不应限制\r\n"
+  "body": "android上\r\n如果图片给的是矩形，需要显示为圆形（例如头像），使用filter:blur(100)，但原生代码里限制最多为10。\r\n这个数值应该由使用人来决定，不应限制\r\n",
+  "closed_by": null
 }

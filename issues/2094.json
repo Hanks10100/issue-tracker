@@ -66,5 +66,6 @@
   "created_at": "2016-12-30T07:26:31Z",
   "updated_at": "2016-12-30T09:57:27Z",
   "closed_at": null,
-  "body": "android list 控件在下拉刷新的时候，列表不可以滚动"
+  "body": "android list 控件在下拉刷新的时候，列表不可以滚动",
+  "closed_by": null
 }

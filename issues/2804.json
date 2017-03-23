@@ -66,5 +66,6 @@
   "created_at": "2017-02-27T12:39:34Z",
   "updated_at": "2017-03-01T02:59:20Z",
   "closed_at": null,
-  "body": "看这篇文章（https://weex-project.io/cn/references/path.html） 中提到了可以加载res资源，但是我试的有问题，不知道是不是我自己写的有问题，请问是按下面这样加载吗？\r\n\r\n`<img class = \"back_btn_style\" src=\"local://back_black_arrow\"></img>`\r\n\r\n我的sdk版本是0.9.5"
+  "body": "看这篇文章（https://weex-project.io/cn/references/path.html） 中提到了可以加载res资源，但是我试的有问题，不知道是不是我自己写的有问题，请问是按下面这样加载吗？\r\n\r\n`<img class = \"back_btn_style\" src=\"local://back_black_arrow\"></img>`\r\n\r\n我的sdk版本是0.9.5",
+  "closed_by": null
 }

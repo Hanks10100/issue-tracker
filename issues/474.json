@@ -160,5 +160,24 @@
   "created_at": "2016-06-15T02:41:49Z",
   "updated_at": "2016-06-15T04:17:14Z",
   "closed_at": "2016-06-15T04:17:14Z",
-  "body": "list-item.we\n\n```\n<template>\n\n    <div class=\"container\">\n      <text class=\"title\">hello world</text>\n    </div>\n\n</template>\n\n<style>\n  .container{\n      background-color: #000000;\n      width:750;\n      height:120;\n      margin-top:10;\n      margin-right:10;\n      margin-left:5;\n  }\n  .title{\n    color:#ffffff;\n  }\n\n</style>\n\n```\n\nlist.we\n\n```\n<list>\n  <cell>\n          <list-item></list-item>\n      </cell>\n    </list>\n```\n\nmarin-top & margin-left works,margin-right no effect at all.\n\nis there sth wrong?\n"
+  "body": "list-item.we\n\n```\n<template>\n\n    <div class=\"container\">\n      <text class=\"title\">hello world</text>\n    </div>\n\n</template>\n\n<style>\n  .container{\n      background-color: #000000;\n      width:750;\n      height:120;\n      margin-top:10;\n      margin-right:10;\n      margin-left:5;\n  }\n  .title{\n    color:#ffffff;\n  }\n\n</style>\n\n```\n\nlist.we\n\n```\n<list>\n  <cell>\n          <list-item></list-item>\n      </cell>\n    </list>\n```\n\nmarin-top & margin-left works,margin-right no effect at all.\n\nis there sth wrong?\n",
+  "closed_by": {
+    "login": "Rowandjj",
+    "id": 5766252,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5766252?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Rowandjj",
+    "html_url": "https://github.com/Rowandjj",
+    "followers_url": "https://api.github.com/users/Rowandjj/followers",
+    "following_url": "https://api.github.com/users/Rowandjj/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Rowandjj/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Rowandjj/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Rowandjj/subscriptions",
+    "organizations_url": "https://api.github.com/users/Rowandjj/orgs",
+    "repos_url": "https://api.github.com/users/Rowandjj/repos",
+    "events_url": "https://api.github.com/users/Rowandjj/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Rowandjj/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

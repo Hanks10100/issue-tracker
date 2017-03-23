@@ -122,5 +122,24 @@
   "created_at": "2016-10-09T01:04:04Z",
   "updated_at": "2016-10-09T02:59:44Z",
   "closed_at": "2016-10-09T02:29:27Z",
-  "body": "```\n<template>  \n       <scroller class=\"list\" append=\"tree\">\n\n        <div class=\"cell\"  repeat=\"{{items}}\" >\n                    <div class=\"row3\"> \n                    <text class=\"row3_content\">实盘金额:{{totalPrice}}</text>\n                       <text class=\"row3_content\">差异金额:{{chayiPrice}}</text>\n\n                        <text class=\"update_btn\" onclick=\"updateAction\">修改</text>\n\n                    </div>\n\n                 </div>\n\n\n\n\n     </scroller>\n\n</template>\n```\n\n如上代码所示，在scroller中  <text class=\"update_btn\" onclick=\"updateAction\">修改</text>的updateAction点击事件失效，但是把Scroller去掉单独放在一个div中去点击事件是可以的，请问下这是什么原因呢？谢谢\n"
+  "body": "```\n<template>  \n       <scroller class=\"list\" append=\"tree\">\n\n        <div class=\"cell\"  repeat=\"{{items}}\" >\n                    <div class=\"row3\"> \n                    <text class=\"row3_content\">实盘金额:{{totalPrice}}</text>\n                       <text class=\"row3_content\">差异金额:{{chayiPrice}}</text>\n\n                        <text class=\"update_btn\" onclick=\"updateAction\">修改</text>\n\n                    </div>\n\n                 </div>\n\n\n\n\n     </scroller>\n\n</template>\n```\n\n如上代码所示，在scroller中  <text class=\"update_btn\" onclick=\"updateAction\">修改</text>的updateAction点击事件失效，但是把Scroller去掉单独放在一个div中去点击事件是可以的，请问下这是什么原因呢？谢谢\n",
+  "closed_by": {
+    "login": "voidxin",
+    "id": 17478441,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/17478441?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/voidxin",
+    "html_url": "https://github.com/voidxin",
+    "followers_url": "https://api.github.com/users/voidxin/followers",
+    "following_url": "https://api.github.com/users/voidxin/following{/other_user}",
+    "gists_url": "https://api.github.com/users/voidxin/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/voidxin/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/voidxin/subscriptions",
+    "organizations_url": "https://api.github.com/users/voidxin/orgs",
+    "repos_url": "https://api.github.com/users/voidxin/repos",
+    "events_url": "https://api.github.com/users/voidxin/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/voidxin/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

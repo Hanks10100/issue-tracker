@@ -272,5 +272,24 @@
   "created_at": "2016-08-10T07:11:09Z",
   "updated_at": "2016-08-10T10:53:18Z",
   "closed_at": "2016-08-10T09:35:47Z",
-  "body": "详细描述：当前weex 好像还不支持跨域，可否先提供开源支持\n应用场景：本地开发调试\n"
+  "body": "详细描述：当前weex 好像还不支持跨域，可否先提供开源支持\n应用场景：本地开发调试\n",
+  "closed_by": {
+    "login": "havefive",
+    "id": 5222554,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5222554?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/havefive",
+    "html_url": "https://github.com/havefive",
+    "followers_url": "https://api.github.com/users/havefive/followers",
+    "following_url": "https://api.github.com/users/havefive/following{/other_user}",
+    "gists_url": "https://api.github.com/users/havefive/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/havefive/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/havefive/subscriptions",
+    "organizations_url": "https://api.github.com/users/havefive/orgs",
+    "repos_url": "https://api.github.com/users/havefive/repos",
+    "events_url": "https://api.github.com/users/havefive/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/havefive/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

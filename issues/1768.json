@@ -252,5 +252,24 @@
   "created_at": "2016-11-29T08:41:30Z",
   "updated_at": "2016-12-01T08:44:51Z",
   "closed_at": "2016-12-01T08:44:51Z",
-  "body": "public class URLHelperModule extends WXModule{\r\n\r\n    @WXModuleAnno\r\n    public void openURL(String url,String callbackId){\r\n        //...\r\n        //callback to javascript \r\n        Map<String, Object> result = new HashMap<String, Object>();\r\n        result.put(\"ts\", System.currentTimeMillis());\r\n        WXBridgeManager.getInstance().callback(mWXSDKInstance.getInstanceId(), callbackId, result);\r\n    }\r\n}\r\nWXBridgeManager.getInstance().callback(mWXSDKInstance.getInstanceId(), callbackId, result);\r\n中callbackId在we中是怎么定义的"
+  "body": "public class URLHelperModule extends WXModule{\r\n\r\n    @WXModuleAnno\r\n    public void openURL(String url,String callbackId){\r\n        //...\r\n        //callback to javascript \r\n        Map<String, Object> result = new HashMap<String, Object>();\r\n        result.put(\"ts\", System.currentTimeMillis());\r\n        WXBridgeManager.getInstance().callback(mWXSDKInstance.getInstanceId(), callbackId, result);\r\n    }\r\n}\r\nWXBridgeManager.getInstance().callback(mWXSDKInstance.getInstanceId(), callbackId, result);\r\n中callbackId在we中是怎么定义的",
+  "closed_by": {
+    "login": "Mhina007",
+    "id": 8336331,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8336331?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Mhina007",
+    "html_url": "https://github.com/Mhina007",
+    "followers_url": "https://api.github.com/users/Mhina007/followers",
+    "following_url": "https://api.github.com/users/Mhina007/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Mhina007/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Mhina007/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Mhina007/subscriptions",
+    "organizations_url": "https://api.github.com/users/Mhina007/orgs",
+    "repos_url": "https://api.github.com/users/Mhina007/repos",
+    "events_url": "https://api.github.com/users/Mhina007/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Mhina007/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

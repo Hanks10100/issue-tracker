@@ -66,5 +66,6 @@
   "created_at": "2017-03-06T07:18:04Z",
   "updated_at": "2017-03-07T02:32:03Z",
   "closed_at": null,
-  "body": "目前http://dotwe.org/vue/eb8a8bb727811e55a7222f7c962a3532 示例是没有问题的，看了weex-vue-render应该不是0.10.0版本。\r\n\r\n在0.10.0版本下通过`v-if`切换image标签会报错\r\n\r\n![image](https://cloud.githubusercontent.com/assets/8492963/23600091/c827dc00-027f-11e7-843c-63d514160e4c.png)\r\n\r\n通过源码发现是取有个字段报错，\r\n\r\n![image](https://cloud.githubusercontent.com/assets/8492963/23600109/e20b719a-027f-11e7-9c57-891490f5267c.png)\r\n\r\n暂时的解决办法是给image标签加上style属性，并设置width.height。 \r\n\r\n望解决这个bug"
+  "body": "目前http://dotwe.org/vue/eb8a8bb727811e55a7222f7c962a3532 示例是没有问题的，看了weex-vue-render应该不是0.10.0版本。\r\n\r\n在0.10.0版本下通过`v-if`切换image标签会报错\r\n\r\n![image](https://cloud.githubusercontent.com/assets/8492963/23600091/c827dc00-027f-11e7-843c-63d514160e4c.png)\r\n\r\n通过源码发现是取有个字段报错，\r\n\r\n![image](https://cloud.githubusercontent.com/assets/8492963/23600109/e20b719a-027f-11e7-9c57-891490f5267c.png)\r\n\r\n暂时的解决办法是给image标签加上style属性，并设置width.height。 \r\n\r\n望解决这个bug",
+  "closed_by": null
 }

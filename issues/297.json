@@ -104,5 +104,24 @@
   "created_at": "2016-05-17T11:36:43Z",
   "updated_at": "2016-05-19T05:27:16Z",
   "closed_at": "2016-05-19T05:27:16Z",
-  "body": "e.g  **xtemplate**\n\n```\n{{set (array = [1,2,3])}}\n{{#each(array)}}\n<div class=\"{{if(xindex===array.length-1)}}last-child{{}}\"></div>\n{{/each}}\n\n```\n\nWell,I realize it in `javascript style` , that I make styles in the item of `array`.But I don't think it's the best way,and when the special style is a great many , it will look like not very nice . So how could you realize it in best practice?\n"
+  "body": "e.g  **xtemplate**\n\n```\n{{set (array = [1,2,3])}}\n{{#each(array)}}\n<div class=\"{{if(xindex===array.length-1)}}last-child{{}}\"></div>\n{{/each}}\n\n```\n\nWell,I realize it in `javascript style` , that I make styles in the item of `array`.But I don't think it's the best way,and when the special style is a great many , it will look like not very nice . So how could you realize it in best practice?\n",
+  "closed_by": {
+    "login": "myhirra",
+    "id": 4364150,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4364150?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/myhirra",
+    "html_url": "https://github.com/myhirra",
+    "followers_url": "https://api.github.com/users/myhirra/followers",
+    "following_url": "https://api.github.com/users/myhirra/following{/other_user}",
+    "gists_url": "https://api.github.com/users/myhirra/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/myhirra/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/myhirra/subscriptions",
+    "organizations_url": "https://api.github.com/users/myhirra/orgs",
+    "repos_url": "https://api.github.com/users/myhirra/repos",
+    "events_url": "https://api.github.com/users/myhirra/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/myhirra/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

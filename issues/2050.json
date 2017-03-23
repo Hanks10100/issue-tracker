@@ -104,5 +104,24 @@
   "created_at": "2016-12-28T03:40:18Z",
   "updated_at": "2016-12-29T08:14:53Z",
   "closed_at": "2016-12-29T08:14:53Z",
-  "body": "issues  1883 有两个问题。\r\n1 Textarea嵌套的滑动冲突问题。（0.9 已经修复）\r\n2 Textarea 初始化的时候内容高度>控件高度的时候不能滑动问题。场景如截图中评论被拒绝后，再次编辑！（0.9 未修复）\r\n\r\n我是在textarea中添加这块代码来解决的。\r\n```\r\neditText.addOnLayoutChangeListener(new View.OnLayoutChangeListener() {\r\n@Override\r\npublic void onLayoutChange(View v, int left, int top, int right, int bottom, int oldLeft, int oldTop, int oldRight, int oldBottom) {\r\nif (v.canScrollVertically(-1) || v.canScrollVertically(0)) {\r\nEditText view = (EditText) v;\r\nif (view.getMovementMethod() == null) {\r\nview.setMovementMethod(ArrowKeyMovementMethod.getInstance());\r\n}\r\n}\r\n}\r\n});\r\n\r\n```\r\n\r\n对WXEditText 中\r\n```\r\nif(h < contentH){\r\nsetMovementMethod(null);\r\n}\r\n```\r\n不清楚为什么要这样设置？？\r\n\r\n![Uploading Screenshot_20161228-111757.jpg…]()\r\n![Uploading Screenshot_20161228-112058.jpg…]()\r\n![Uploading Screenshot_20161228-112355.jpg…]()\r\n"
+  "body": "issues  1883 有两个问题。\r\n1 Textarea嵌套的滑动冲突问题。（0.9 已经修复）\r\n2 Textarea 初始化的时候内容高度>控件高度的时候不能滑动问题。场景如截图中评论被拒绝后，再次编辑！（0.9 未修复）\r\n\r\n我是在textarea中添加这块代码来解决的。\r\n```\r\neditText.addOnLayoutChangeListener(new View.OnLayoutChangeListener() {\r\n@Override\r\npublic void onLayoutChange(View v, int left, int top, int right, int bottom, int oldLeft, int oldTop, int oldRight, int oldBottom) {\r\nif (v.canScrollVertically(-1) || v.canScrollVertically(0)) {\r\nEditText view = (EditText) v;\r\nif (view.getMovementMethod() == null) {\r\nview.setMovementMethod(ArrowKeyMovementMethod.getInstance());\r\n}\r\n}\r\n}\r\n});\r\n\r\n```\r\n\r\n对WXEditText 中\r\n```\r\nif(h < contentH){\r\nsetMovementMethod(null);\r\n}\r\n```\r\n不清楚为什么要这样设置？？\r\n\r\n![Uploading Screenshot_20161228-111757.jpg…]()\r\n![Uploading Screenshot_20161228-112058.jpg…]()\r\n![Uploading Screenshot_20161228-112355.jpg…]()\r\n",
+  "closed_by": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

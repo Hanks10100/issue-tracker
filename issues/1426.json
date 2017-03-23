@@ -66,5 +66,24 @@
   "created_at": "2016-10-18T01:58:15Z",
   "updated_at": "2016-10-27T01:18:57Z",
   "closed_at": "2016-10-27T01:18:57Z",
-  "body": "back2Top: function () {\n          var top = this.$el('top')\n          dom.scrollToElement(top)\n        }\n\nReportException : TypeError: Object [object Object] has no method 'scrollToElement'\n                                                              at Vm.eval (eval at <anonymous> ((weex):2997:17), <anonymous>:492:12)\n                                                              at (weex):6680:18\n                                                              at Array.forEach (native)\n                                                              at (weex):6679:20\n                                                              at Vm.$emit ((weex):6682:8)\n                                                              at Vm.$dispatch ((weex):6688:9)\n                                                              at Vm.$dispatch ((weex):6691:19)\n                                                              at Vm.goToTop (eval at <anonymous> ((weex):2997:17), <anonymous>:297:13)\n                                                              at Node.<anonymous> ((weex):205:55)\n                                                              at Node.Element.fireEvent ((weex):7660:21)\n\nback2Top: function () {\n          var top = self.$el(\"scrollTo\");\n          this.$scrollTo(top);\n        }\n[JS Framework] Vm#$scrollTo is deprecated, please use \"require('@weex-module/dom').scrollTo(el, options)\" instead\n两种方法都试过不可以，请问这个问题要怎么解决。\n"
+  "body": "back2Top: function () {\n          var top = this.$el('top')\n          dom.scrollToElement(top)\n        }\n\nReportException : TypeError: Object [object Object] has no method 'scrollToElement'\n                                                              at Vm.eval (eval at <anonymous> ((weex):2997:17), <anonymous>:492:12)\n                                                              at (weex):6680:18\n                                                              at Array.forEach (native)\n                                                              at (weex):6679:20\n                                                              at Vm.$emit ((weex):6682:8)\n                                                              at Vm.$dispatch ((weex):6688:9)\n                                                              at Vm.$dispatch ((weex):6691:19)\n                                                              at Vm.goToTop (eval at <anonymous> ((weex):2997:17), <anonymous>:297:13)\n                                                              at Node.<anonymous> ((weex):205:55)\n                                                              at Node.Element.fireEvent ((weex):7660:21)\n\nback2Top: function () {\n          var top = self.$el(\"scrollTo\");\n          this.$scrollTo(top);\n        }\n[JS Framework] Vm#$scrollTo is deprecated, please use \"require('@weex-module/dom').scrollTo(el, options)\" instead\n两种方法都试过不可以，请问这个问题要怎么解决。\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

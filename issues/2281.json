@@ -94,5 +94,6 @@
   "created_at": "2017-01-16T10:53:48Z",
   "updated_at": "2017-01-25T09:57:00Z",
   "closed_at": null,
-  "body": "试了几种布局都不能显示，list的背景倒有，简单的放个text文本到list也显示不了。"
+  "body": "试了几种布局都不能显示，list的背景倒有，简单的放个text文本到list也显示不了。",
+  "closed_by": null
 }

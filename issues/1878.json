@@ -206,5 +206,24 @@
   "created_at": "2016-12-12T11:40:01Z",
   "updated_at": "2016-12-13T07:18:58Z",
   "closed_at": "2016-12-13T07:18:58Z",
-  "body": "你好，\r\n\r\n最近发现一个 weex 在组件高度计算上的 BUG，具体如下：\r\n\r\nWeex 要求将元素的所有尺寸使用 750px 来计算，例如高度 375px 实际渲染的结果将是实际设备宽度的 50%。这样就有可能会在宽度不等于 750px 的设备上计算出现小数。\r\n\r\n例如：\r\n\r\n```html\r\n<div style=\"width: 750; height: 100;\"></div>\r\n```\r\n\r\n在宽度为 750 的设备上（如 iPhone 6）实际计算的高度是 100px，但在 iPhone 5S 上实际计算的高度为 85.33px，即非整数。如果页面上有多个这样的被计算为高度非整数的元素相加，最终将会在某个不确切的位置出现 0.5px 到 1px 的缝隙。这条缝隙在背景色为深色时显得尤为明显。\r\n\r\n不过这个 BUG 目前只在 iOS 设备上遇到，在 iPhone 5S 及 iPhone 6/7 Plus 上更为频繁。\r\n\r\n附上一段问题重现的代码，代码中设置 `scroller` 的背景色为蓝色，每行一个高 100 的白色色块。在 iOS 设备上每隔几行就会看到一条明显的蓝色线条。\r\n\r\n```html\r\n<template>\r\n    <scroller style=\"background-color: blue;\">\r\n        <div class=\"row\"></div>\r\n        <div class=\"row\"></div>\r\n        <div class=\"row\"></div>\r\n        <div class=\"row\"></div>\r\n        <div class=\"row\"></div>\r\n        <div class=\"row\"></div>\r\n        <div class=\"row\"></div>\r\n        <div class=\"row\"></div>\r\n        <div class=\"row\"></div>\r\n        <div class=\"row\"></div>\r\n    </scroller>\r\n</template>\r\n\r\n<style>\r\n    .row {\r\n        background-color: #FFFFFF;\r\n        width: 750;\r\n        height: 100;\r\n    }\r\n</style>\r\n```"
+  "body": "你好，\r\n\r\n最近发现一个 weex 在组件高度计算上的 BUG，具体如下：\r\n\r\nWeex 要求将元素的所有尺寸使用 750px 来计算，例如高度 375px 实际渲染的结果将是实际设备宽度的 50%。这样就有可能会在宽度不等于 750px 的设备上计算出现小数。\r\n\r\n例如：\r\n\r\n```html\r\n<div style=\"width: 750; height: 100;\"></div>\r\n```\r\n\r\n在宽度为 750 的设备上（如 iPhone 6）实际计算的高度是 100px，但在 iPhone 5S 上实际计算的高度为 85.33px，即非整数。如果页面上有多个这样的被计算为高度非整数的元素相加，最终将会在某个不确切的位置出现 0.5px 到 1px 的缝隙。这条缝隙在背景色为深色时显得尤为明显。\r\n\r\n不过这个 BUG 目前只在 iOS 设备上遇到，在 iPhone 5S 及 iPhone 6/7 Plus 上更为频繁。\r\n\r\n附上一段问题重现的代码，代码中设置 `scroller` 的背景色为蓝色，每行一个高 100 的白色色块。在 iOS 设备上每隔几行就会看到一条明显的蓝色线条。\r\n\r\n```html\r\n<template>\r\n    <scroller style=\"background-color: blue;\">\r\n        <div class=\"row\"></div>\r\n        <div class=\"row\"></div>\r\n        <div class=\"row\"></div>\r\n        <div class=\"row\"></div>\r\n        <div class=\"row\"></div>\r\n        <div class=\"row\"></div>\r\n        <div class=\"row\"></div>\r\n        <div class=\"row\"></div>\r\n        <div class=\"row\"></div>\r\n        <div class=\"row\"></div>\r\n    </scroller>\r\n</template>\r\n\r\n<style>\r\n    .row {\r\n        background-color: #FFFFFF;\r\n        width: 750;\r\n        height: 100;\r\n    }\r\n</style>\r\n```",
+  "closed_by": {
+    "login": "jerrybendy",
+    "id": 7897384,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/7897384?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jerrybendy",
+    "html_url": "https://github.com/jerrybendy",
+    "followers_url": "https://api.github.com/users/jerrybendy/followers",
+    "following_url": "https://api.github.com/users/jerrybendy/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jerrybendy/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jerrybendy/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jerrybendy/subscriptions",
+    "organizations_url": "https://api.github.com/users/jerrybendy/orgs",
+    "repos_url": "https://api.github.com/users/jerrybendy/repos",
+    "events_url": "https://api.github.com/users/jerrybendy/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jerrybendy/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

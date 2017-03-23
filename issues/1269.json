@@ -347,5 +347,24 @@
   "created_at": "2016-09-20T14:15:33Z",
   "updated_at": "2016-10-24T07:27:50Z",
   "closed_at": "2016-10-24T07:27:50Z",
-  "body": "今天早上升级了ios10 发现编写的程序打开之后白屏(切换startSplashScreen之后)\n用xcode run 提示代码如下（只有这一句）：\nError compiling builtin: Invalid private name '@capabilities'\n\n机型：iphone6 \n版本：ios10.0.1 \nweexsdk:0.7\n\n然后 继续运行了本机装着的playground 发现\nMore Syntax后的一系列Hello World\n以及Navigator push 也是白屏.\n"
+  "body": "今天早上升级了ios10 发现编写的程序打开之后白屏(切换startSplashScreen之后)\n用xcode run 提示代码如下（只有这一句）：\nError compiling builtin: Invalid private name '@capabilities'\n\n机型：iphone6 \n版本：ios10.0.1 \nweexsdk:0.7\n\n然后 继续运行了本机装着的playground 发现\nMore Syntax后的一系列Hello World\n以及Navigator push 也是白屏.\n",
+  "closed_by": {
+    "login": "cxfeng1",
+    "id": 1625893,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1625893?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cxfeng1",
+    "html_url": "https://github.com/cxfeng1",
+    "followers_url": "https://api.github.com/users/cxfeng1/followers",
+    "following_url": "https://api.github.com/users/cxfeng1/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cxfeng1/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cxfeng1/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cxfeng1/subscriptions",
+    "organizations_url": "https://api.github.com/users/cxfeng1/orgs",
+    "repos_url": "https://api.github.com/users/cxfeng1/repos",
+    "events_url": "https://api.github.com/users/cxfeng1/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cxfeng1/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

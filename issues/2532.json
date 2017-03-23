@@ -150,5 +150,6 @@
   "created_at": "2017-02-13T04:10:38Z",
   "updated_at": "2017-02-20T02:10:06Z",
   "closed_at": null,
-  "body": "```\r\n// 页面返回 每个控制器的dealloc方法已经触发 _instance 也掉了 destroyInstance 方法\r\n// 但是内存没有释放，一直在飙升 期望尽快解决一下 谢谢！！！\r\n- (void)dealloc\r\n{\r\n    [_instance destroyInstance];\r\n    [[NSNotificationCenter defaultCenter] removeObserver:self];\r\n}\r\n```"
+  "body": "```\r\n// 页面返回 每个控制器的dealloc方法已经触发 _instance 也掉了 destroyInstance 方法\r\n// 但是内存没有释放，一直在飙升 期望尽快解决一下 谢谢！！！\r\n- (void)dealloc\r\n{\r\n    [_instance destroyInstance];\r\n    [[NSNotificationCenter defaultCenter] removeObserver:self];\r\n}\r\n```",
+  "closed_by": null
 }

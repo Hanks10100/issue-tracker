@@ -122,5 +122,24 @@
   "created_at": "2016-09-12T07:39:22Z",
   "updated_at": "2016-09-14T03:46:04Z",
   "closed_at": "2016-09-14T03:46:04Z",
-  "body": "## **＝＝＝＝＝＝test.js 文件＝＝＝＝＝＝＝＝**\n\n![image](https://cloud.githubusercontent.com/assets/12014252/18428119/cf55c934-78fe-11e6-8060-57a5b5482b16.png)\n## **＝＝＝＝＝＝引入文件 test.js 模块＝＝＝＝**\n\n![image](https://cloud.githubusercontent.com/assets/12014252/18428071/7ea851f0-78fe-11e6-8b74-3110c8a7905a.png)\n## **＝＝＝＝＝＝test.js  ，bundle之后的代码 ＝＝＝＝**\n\n![image](https://cloud.githubusercontent.com/assets/12014252/18428354/11c169a8-7900-11e6-9f3f-c3339d74d907.png)\n## **＝＝＝＝＝＝报错了＝＝＝＝＝＝＝＝＝＝**\n\n![image](https://cloud.githubusercontent.com/assets/12014252/18428158/f83a5586-78fe-11e6-8af3-f02ab33965bb.png)\n"
+  "body": "## **＝＝＝＝＝＝test.js 文件＝＝＝＝＝＝＝＝**\n\n![image](https://cloud.githubusercontent.com/assets/12014252/18428119/cf55c934-78fe-11e6-8060-57a5b5482b16.png)\n## **＝＝＝＝＝＝引入文件 test.js 模块＝＝＝＝**\n\n![image](https://cloud.githubusercontent.com/assets/12014252/18428071/7ea851f0-78fe-11e6-8b74-3110c8a7905a.png)\n## **＝＝＝＝＝＝test.js  ，bundle之后的代码 ＝＝＝＝**\n\n![image](https://cloud.githubusercontent.com/assets/12014252/18428354/11c169a8-7900-11e6-9f3f-c3339d74d907.png)\n## **＝＝＝＝＝＝报错了＝＝＝＝＝＝＝＝＝＝**\n\n![image](https://cloud.githubusercontent.com/assets/12014252/18428158/f83a5586-78fe-11e6-8af3-f02ab33965bb.png)\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

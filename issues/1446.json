@@ -94,5 +94,24 @@
   "created_at": "2016-10-19T02:59:51Z",
   "updated_at": "2016-10-19T05:37:00Z",
   "closed_at": "2016-10-19T05:37:00Z",
-  "body": "在 \"iOS 关于如何实现获取系统相册将其显示至网页中\" #1356 有人提到了一种解决方案：\nWXComponent *comp = (WXComponent *)[self.weexInstance componentForRef:elemRef];\nUIImageView *iv =  comp.view;\n通过这种方法，Native可以获取到we生成的界面元素，直接进行原生操作。非常不错。\n但安卓端没有发现这样的函数，请问Andriod是否有这种途径？\n"
+  "body": "在 \"iOS 关于如何实现获取系统相册将其显示至网页中\" #1356 有人提到了一种解决方案：\nWXComponent *comp = (WXComponent *)[self.weexInstance componentForRef:elemRef];\nUIImageView *iv =  comp.view;\n通过这种方法，Native可以获取到we生成的界面元素，直接进行原生操作。非常不错。\n但安卓端没有发现这样的函数，请问Andriod是否有这种途径？\n",
+  "closed_by": {
+    "login": "misakuo",
+    "id": 6958743,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6958743?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/misakuo",
+    "html_url": "https://github.com/misakuo",
+    "followers_url": "https://api.github.com/users/misakuo/followers",
+    "following_url": "https://api.github.com/users/misakuo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/misakuo/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/misakuo/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/misakuo/subscriptions",
+    "organizations_url": "https://api.github.com/users/misakuo/orgs",
+    "repos_url": "https://api.github.com/users/misakuo/repos",
+    "events_url": "https://api.github.com/users/misakuo/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/misakuo/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

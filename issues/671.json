@@ -104,5 +104,24 @@
   "created_at": "2016-07-01T03:49:11Z",
   "updated_at": "2016-07-01T08:19:17Z",
   "closed_at": "2016-07-01T08:19:17Z",
-  "body": "哈哈，第三个是不是写 Web 比较好一点？HTML5 是不有点不合适，好国内特色的感觉。。\n![image](http://alibaba.github.io/weex/img/weex_show.png)\n\n（小建议而已。图片这个也没法提 PR... 😄 ）\n"
+  "body": "哈哈，第三个是不是写 Web 比较好一点？HTML5 是不有点不合适，好国内特色的感觉。。\n![image](http://alibaba.github.io/weex/img/weex_show.png)\n\n（小建议而已。图片这个也没法提 PR... 😄 ）\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

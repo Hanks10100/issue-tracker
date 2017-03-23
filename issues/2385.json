@@ -94,5 +94,6 @@
   "created_at": "2017-01-23T03:48:03Z",
   "updated_at": "2017-01-24T03:20:56Z",
   "closed_at": null,
-  "body": "weex 按照配置app 的build.gradle\r\n` \r\nndk{ \r\n            abiFilters \"x86\"\r\n            abiFilters \"armeabi\"\r\n        }\r\n`\r\n\r\n之后 realm-android 编译\r\n\r\n`java.lang.RuntimeException: Unable to create application com.android.tools.fd.runtime.BootstrapApplication: com.getkeepsafe.relinker.MissingLibraryException: lib/armeabi/librealm-jni.so`\r\n\r\n这个要怎么过滤？"
+  "body": "weex 按照配置app 的build.gradle\r\n` \r\nndk{ \r\n            abiFilters \"x86\"\r\n            abiFilters \"armeabi\"\r\n        }\r\n`\r\n\r\n之后 realm-android 编译\r\n\r\n`java.lang.RuntimeException: Unable to create application com.android.tools.fd.runtime.BootstrapApplication: com.getkeepsafe.relinker.MissingLibraryException: lib/armeabi/librealm-jni.so`\r\n\r\n这个要怎么过滤？",
+  "closed_by": null
 }

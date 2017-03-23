@@ -178,5 +178,6 @@
   "created_at": "2017-02-21T03:51:37Z",
   "updated_at": "2017-02-28T10:09:03Z",
   "closed_at": null,
-  "body": "场景是这样的：\r\n\r\n给list绑定的数组添加一项后list自动更新， 需要在更新完后有个回调做一些动作，比如scroll to end\r\n\r\n谢谢"
+  "body": "场景是这样的：\r\n\r\n给list绑定的数组添加一项后list自动更新， 需要在更新完后有个回调做一些动作，比如scroll to end\r\n\r\n谢谢",
+  "closed_by": null
 }

@@ -196,5 +196,24 @@
   "created_at": "2016-10-27T10:08:16Z",
   "updated_at": "2016-11-28T04:08:51Z",
   "closed_at": "2016-11-28T04:08:51Z",
-  "body": "当marquee接收的数组长度很大的时候会崩溃，长度设置为100就会崩溃\n复现方法：将marquee-demo中的marquee.list数组长度设置为100，在Android 上面崩溃\n原因很可能是由于Repeat创建了过多的View导致的。\n"
+  "body": "当marquee接收的数组长度很大的时候会崩溃，长度设置为100就会崩溃\n复现方法：将marquee-demo中的marquee.list数组长度设置为100，在Android 上面崩溃\n原因很可能是由于Repeat创建了过多的View导致的。\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

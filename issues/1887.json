@@ -244,5 +244,24 @@
   "created_at": "2016-12-13T07:46:47Z",
   "updated_at": "2016-12-13T09:22:23Z",
   "closed_at": "2016-12-13T09:21:55Z",
-  "body": "template\r\n```\r\n      <slider class=\"slider\" interval='3000' auto-play='true'>\r\n          \t<div repeat='{{(key,value) in bannerPages}}'>\r\n\t\t\t\t<image id = '{{value.id}}' class ='banner_image' src = '{{value.src}}' image-quality = 'normal' onclick = 'onBannerItemClick'> \r\n\t\t\t\t</image>\r\n\t\t\t\t<text class= 'banner_title'>{{value.title}}</text>\r\n\t\t\t</div>\r\n          \t<indicator class=\"indicator\"></indicator>\r\n        </slider>\r\n```\r\n\r\nscript\r\n```\r\n       data: {\r\n\t\tbannerPages: [\r\n\t\t\t{\t\r\n\t\t\t\tid: 0,\r\n\t\t\t\tsrc: 'http://r1.ykimg.com/05100000584DE9F067BC3D31420C87DA',\r\n\t\t\t\ttitle: '<放弃我抓紧我>乔恩追爱王凯'\r\n\t\t\t},\r\n        },\r\n        methods:{\r\n\t\tonBannerItemClick:function(e){\r\n\t\t\talert(e.target.id);\r\n\t\t}\r\n        }\r\n```\r\n我想得到其中的点击是那个，在方法使用this.$index 不行，在template中想通过参数传递下来也不行，如何得到这个index值？"
+  "body": "template\r\n```\r\n      <slider class=\"slider\" interval='3000' auto-play='true'>\r\n          \t<div repeat='{{(key,value) in bannerPages}}'>\r\n\t\t\t\t<image id = '{{value.id}}' class ='banner_image' src = '{{value.src}}' image-quality = 'normal' onclick = 'onBannerItemClick'> \r\n\t\t\t\t</image>\r\n\t\t\t\t<text class= 'banner_title'>{{value.title}}</text>\r\n\t\t\t</div>\r\n          \t<indicator class=\"indicator\"></indicator>\r\n        </slider>\r\n```\r\n\r\nscript\r\n```\r\n       data: {\r\n\t\tbannerPages: [\r\n\t\t\t{\t\r\n\t\t\t\tid: 0,\r\n\t\t\t\tsrc: 'http://r1.ykimg.com/05100000584DE9F067BC3D31420C87DA',\r\n\t\t\t\ttitle: '<放弃我抓紧我>乔恩追爱王凯'\r\n\t\t\t},\r\n        },\r\n        methods:{\r\n\t\tonBannerItemClick:function(e){\r\n\t\t\talert(e.target.id);\r\n\t\t}\r\n        }\r\n```\r\n我想得到其中的点击是那个，在方法使用this.$index 不行，在template中想通过参数传递下来也不行，如何得到这个index值？",
+  "closed_by": {
+    "login": "RrtoyewxXu",
+    "id": 17476635,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/17476635?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/RrtoyewxXu",
+    "html_url": "https://github.com/RrtoyewxXu",
+    "followers_url": "https://api.github.com/users/RrtoyewxXu/followers",
+    "following_url": "https://api.github.com/users/RrtoyewxXu/following{/other_user}",
+    "gists_url": "https://api.github.com/users/RrtoyewxXu/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/RrtoyewxXu/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/RrtoyewxXu/subscriptions",
+    "organizations_url": "https://api.github.com/users/RrtoyewxXu/orgs",
+    "repos_url": "https://api.github.com/users/RrtoyewxXu/repos",
+    "events_url": "https://api.github.com/users/RrtoyewxXu/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/RrtoyewxXu/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

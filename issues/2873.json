@@ -37,5 +37,6 @@
   "created_at": "2017-03-07T12:20:33Z",
   "updated_at": "2017-03-07T12:20:33Z",
   "closed_at": null,
-  "body": "iOS 使用的vue，sdk :0.10.1\r\n场景如下，\r\nlist 中有多个cell，每个cell中都有一个input控件，如果一个input 的位置 在键盘弹出高度差不多的位置，list不会向上偏移，导致键盘会遮挡住该input控件二分之一或三分一。\r\n其它cell中的input（比如偏下一点的input 在foucs，list 会向上移动），键盘不会遮挡住，"
+  "body": "iOS 使用的vue，sdk :0.10.1\r\n场景如下，\r\nlist 中有多个cell，每个cell中都有一个input控件，如果一个input 的位置 在键盘弹出高度差不多的位置，list不会向上偏移，导致键盘会遮挡住该input控件二分之一或三分一。\r\n其它cell中的input（比如偏下一点的input 在foucs，list 会向上移动），键盘不会遮挡住，",
+  "closed_by": null
 }

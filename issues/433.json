@@ -132,5 +132,24 @@
   "created_at": "2016-06-11T13:59:18Z",
   "updated_at": "2016-06-23T04:12:18Z",
   "closed_at": "2016-06-23T04:12:18Z",
-  "body": "I have a button like this\n\n```\n<wxc-button type=\"primary\" onclick=\"{{onSearchTap}}\" value=\"Search\"></wxc-button>\n```\n\nAnd there is the `<script>` tag. But I can't see the button.\n\n```\n<script>\nrequire('weex-components');\nmodule.exports = {\n    data: {\n    },\n    methods: {\n      onSearchTap: function () {\n        this.$openURL('http://alibaba.github.io/weex/')\n      }\n    }\n}\n</script>\n```\n\nI have run `npm install weex-components` and install weex-components@0.0.6 but still can't see the button. \n\nAlso, can't find the document how to use it.\n\nThanks\nJake \n"
+  "body": "I have a button like this\n\n```\n<wxc-button type=\"primary\" onclick=\"{{onSearchTap}}\" value=\"Search\"></wxc-button>\n```\n\nAnd there is the `<script>` tag. But I can't see the button.\n\n```\n<script>\nrequire('weex-components');\nmodule.exports = {\n    data: {\n    },\n    methods: {\n      onSearchTap: function () {\n        this.$openURL('http://alibaba.github.io/weex/')\n      }\n    }\n}\n</script>\n```\n\nI have run `npm install weex-components` and install weex-components@0.0.6 but still can't see the button. \n\nAlso, can't find the document how to use it.\n\nThanks\nJake \n",
+  "closed_by": {
+    "login": "lvscar",
+    "id": 1578838,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1578838?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/lvscar",
+    "html_url": "https://github.com/lvscar",
+    "followers_url": "https://api.github.com/users/lvscar/followers",
+    "following_url": "https://api.github.com/users/lvscar/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lvscar/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/lvscar/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/lvscar/subscriptions",
+    "organizations_url": "https://api.github.com/users/lvscar/orgs",
+    "repos_url": "https://api.github.com/users/lvscar/repos",
+    "events_url": "https://api.github.com/users/lvscar/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/lvscar/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

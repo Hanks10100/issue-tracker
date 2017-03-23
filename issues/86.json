@@ -160,5 +160,24 @@
   "created_at": "2016-04-26T07:47:01Z",
   "updated_at": "2016-04-28T05:04:09Z",
   "closed_at": "2016-04-28T05:04:09Z",
-  "body": "In WXDomManager.java  line 493-502\n\n```\n  void createFinish(String instanceId) {\n    if (!isDomThread()) {\n      throw new WXRuntimeException(\"CreateFinish operation must be done in dom thread\");\n    }\n    WXDomStatement statement = mDomRegistries.get(instanceId);\n    if (statement == null) {\n      return;\n    }\n    statement.createFinish();\n  }\n```\n\nrun serve in PC\n\n```\nnpm run serve\n```\n\nmodify CURRENT_IP to PC ip like 172.18.23.41 in  WXMainActivity ,then will call createFinish,but mDomRegistries.get(instanceId) will get null \n"
+  "body": "In WXDomManager.java  line 493-502\n\n```\n  void createFinish(String instanceId) {\n    if (!isDomThread()) {\n      throw new WXRuntimeException(\"CreateFinish operation must be done in dom thread\");\n    }\n    WXDomStatement statement = mDomRegistries.get(instanceId);\n    if (statement == null) {\n      return;\n    }\n    statement.createFinish();\n  }\n```\n\nrun serve in PC\n\n```\nnpm run serve\n```\n\nmodify CURRENT_IP to PC ip like 172.18.23.41 in  WXMainActivity ,then will call createFinish,but mDomRegistries.get(instanceId) will get null \n",
+  "closed_by": {
+    "login": "lizhangqu",
+    "id": 4568646,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/4568646?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/lizhangqu",
+    "html_url": "https://github.com/lizhangqu",
+    "followers_url": "https://api.github.com/users/lizhangqu/followers",
+    "following_url": "https://api.github.com/users/lizhangqu/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lizhangqu/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/lizhangqu/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/lizhangqu/subscriptions",
+    "organizations_url": "https://api.github.com/users/lizhangqu/orgs",
+    "repos_url": "https://api.github.com/users/lizhangqu/repos",
+    "events_url": "https://api.github.com/users/lizhangqu/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/lizhangqu/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

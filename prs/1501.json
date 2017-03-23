@@ -43,5 +43,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1501.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1501.patch"
   },
-  "body": "https://github.com/alibaba/weex/pull/1284 这个pr修复 `repeat` 内添加事件上下文不一致的情况，但同时导致了 `repeat` 内的事件获取不到数据的情况。\n\n这里有一个矛盾， 保持上下文一致或者不一致都有问题。综合考虑之后的解决方案：\n- 保持原有设计， 此问题可以修复\n- 如果用户发现上下文不一致，可以能过 `this._realParent` 获取真正的上下文。 \n"
+  "body": "https://github.com/alibaba/weex/pull/1284 这个pr修复 `repeat` 内添加事件上下文不一致的情况，但同时导致了 `repeat` 内的事件获取不到数据的情况。\n\n这里有一个矛盾， 保持上下文一致或者不一致都有问题。综合考虑之后的解决方案：\n- 保持原有设计， 此问题可以修复\n- 如果用户发现上下文不一致，可以能过 `this._realParent` 获取真正的上下文。 \n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

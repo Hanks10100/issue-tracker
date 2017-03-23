@@ -66,5 +66,24 @@
   "created_at": "2016-05-08T16:08:40Z",
   "updated_at": "2016-05-09T01:06:06Z",
   "closed_at": "2016-05-09T01:06:06Z",
-  "body": "问下在we加载解析网络数据（json）该参考哪方面的东西，有没有 DEMO？\n"
+  "body": "问下在we加载解析网络数据（json）该参考哪方面的东西，有没有 DEMO？\n",
+  "closed_by": {
+    "login": "ggchxx",
+    "id": 3773841,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/3773841?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ggchxx",
+    "html_url": "https://github.com/ggchxx",
+    "followers_url": "https://api.github.com/users/ggchxx/followers",
+    "following_url": "https://api.github.com/users/ggchxx/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ggchxx/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ggchxx/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ggchxx/subscriptions",
+    "organizations_url": "https://api.github.com/users/ggchxx/orgs",
+    "repos_url": "https://api.github.com/users/ggchxx/repos",
+    "events_url": "https://api.github.com/users/ggchxx/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ggchxx/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

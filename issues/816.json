@@ -102,5 +102,24 @@
   "created_at": "2016-07-18T05:54:13Z",
   "updated_at": "2016-07-18T16:04:27Z",
   "closed_at": "2016-07-18T13:19:45Z",
-  "body": "1.还有 在后一个页面 更新上一个页面的数据，如何处理?\n2.生命周期里没有没有 onresume 和onpause 这些回调\n3.手势\n"
+  "body": "1.还有 在后一个页面 更新上一个页面的数据，如何处理?\n2.生命周期里没有没有 onresume 和onpause 这些回调\n3.手势\n",
+  "closed_by": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

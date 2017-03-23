@@ -244,5 +244,24 @@
   "created_at": "2016-08-26T09:32:44Z",
   "updated_at": "2016-09-08T12:07:13Z",
   "closed_at": "2016-09-08T12:07:13Z",
-  "body": "我最近遇到了，我在服务器抓取数据，在weex调试扫码出来后数据能够直接json解析显示出来，集成到Android后json数据的解析又不一样，得换一个解析方式才能够显示，另外，本地写死列表项的数据和weex抓取数据扫码调试，list可以上滑动刷新，集成到Android后列表没办法自动刷新，这些不知道是我写的问题还是weex的bug，我的情况是扫码没问题，集成就出问题\n"
+  "body": "我最近遇到了，我在服务器抓取数据，在weex调试扫码出来后数据能够直接json解析显示出来，集成到Android后json数据的解析又不一样，得换一个解析方式才能够显示，另外，本地写死列表项的数据和weex抓取数据扫码调试，list可以上滑动刷新，集成到Android后列表没办法自动刷新，这些不知道是我写的问题还是weex的bug，我的情况是扫码没问题，集成就出问题\n",
+  "closed_by": {
+    "login": "YorkShen",
+    "id": 4162544,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4162544?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/YorkShen",
+    "html_url": "https://github.com/YorkShen",
+    "followers_url": "https://api.github.com/users/YorkShen/followers",
+    "following_url": "https://api.github.com/users/YorkShen/following{/other_user}",
+    "gists_url": "https://api.github.com/users/YorkShen/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/YorkShen/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/YorkShen/subscriptions",
+    "organizations_url": "https://api.github.com/users/YorkShen/orgs",
+    "repos_url": "https://api.github.com/users/YorkShen/repos",
+    "events_url": "https://api.github.com/users/YorkShen/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/YorkShen/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -150,5 +150,6 @@
   "created_at": "2017-02-20T07:42:38Z",
   "updated_at": "2017-02-20T10:19:44Z",
   "closed_at": null,
-  "body": "更新0.10.0的SDK，发现list的onScroll方法无效不再调用了，然后在文档中也没有发现list和scroll有onScroll事件，想问一下onScroll是否被移除了，如果被移除了 该用什么方法监听list滚动事件\r\n"
+  "body": "更新0.10.0的SDK，发现list的onScroll方法无效不再调用了，然后在文档中也没有发现list和scroll有onScroll事件，想问一下onScroll是否被移除了，如果被移除了 该用什么方法监听list滚动事件\r\n",
+  "closed_by": null
 }

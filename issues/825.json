@@ -950,5 +950,24 @@
   "created_at": "2016-07-20T02:58:22Z",
   "updated_at": "2017-02-27T08:36:23Z",
   "closed_at": "2017-02-27T08:36:23Z",
-  "body": "与字体相关的两个问题:  \n1. 支持font family属性\n2. 支持远程font文件\n## 支持font family属性(text,textarea,input等)\n\n参考:https://developer.mozilla.org/en/docs/Web/CSS/font-family\n### 基础的需要支持:\n\n``` css\n/* A generic family name only */\nfont-family: serif;\nfont-family: sans-serif;\nfont-family: monospace;\nfont-family: cursive;\nfont-family: fantasy;\n```\n### 支持自定义的font family\n\n通过@font-face引入\n## 支持@font-face语法\n\n参考: https://developer.mozilla.org/en/docs/Web/CSS/@font-face\n支持最小的子集:   \n\n``` css\n @font-face {\n      font-family: \"font-family-name\";\n      src: url(\"font file url\");\n    }\n```\n- url支持相对路径 比如应用内置的\n### 实现\n\n实现时,jsfm通过新dom module的接口传递这个rule,native对远程文件进行加载\n### dom module新增接口addRule\n\n用于新增适用于整个page的规则.  \nprototype:\n\n``` javascript\naddRule(type:string,options:object)\n```\n\n`@font-face`的调用会是:\n\n``` javascript\naddRule('font-face',{\n      font-family: \"font-family-name\",\n      src: 'url(\"font file url\")'\n});\n```\n### native加载策略\n- 每次`addRule`调用,进行一次加载,加载过程中或者加载失败时使用默认的字体进行渲染;\n- 加载失败后不自动进行重试;\n- 加载失败后,再次触发`addRule`,再次进行加载\n- 加载成功后,不主动进行重新渲染,下次重绘时生效\n- 加载成功后,再次触发**相同名字(font-family+url)**的`addRule`调用时,使用缓存,不进行加载\n\n**以font-family+url为key**:保障url变更后会重新下载新的文件\n"
+  "body": "与字体相关的两个问题:  \n1. 支持font family属性\n2. 支持远程font文件\n## 支持font family属性(text,textarea,input等)\n\n参考:https://developer.mozilla.org/en/docs/Web/CSS/font-family\n### 基础的需要支持:\n\n``` css\n/* A generic family name only */\nfont-family: serif;\nfont-family: sans-serif;\nfont-family: monospace;\nfont-family: cursive;\nfont-family: fantasy;\n```\n### 支持自定义的font family\n\n通过@font-face引入\n## 支持@font-face语法\n\n参考: https://developer.mozilla.org/en/docs/Web/CSS/@font-face\n支持最小的子集:   \n\n``` css\n @font-face {\n      font-family: \"font-family-name\";\n      src: url(\"font file url\");\n    }\n```\n- url支持相对路径 比如应用内置的\n### 实现\n\n实现时,jsfm通过新dom module的接口传递这个rule,native对远程文件进行加载\n### dom module新增接口addRule\n\n用于新增适用于整个page的规则.  \nprototype:\n\n``` javascript\naddRule(type:string,options:object)\n```\n\n`@font-face`的调用会是:\n\n``` javascript\naddRule('font-face',{\n      font-family: \"font-family-name\",\n      src: 'url(\"font file url\")'\n});\n```\n### native加载策略\n- 每次`addRule`调用,进行一次加载,加载过程中或者加载失败时使用默认的字体进行渲染;\n- 加载失败后不自动进行重试;\n- 加载失败后,再次触发`addRule`,再次进行加载\n- 加载成功后,不主动进行重新渲染,下次重绘时生效\n- 加载成功后,再次触发**相同名字(font-family+url)**的`addRule`调用时,使用缓存,不进行加载\n\n**以font-family+url为key**:保障url变更后会重新下载新的文件\n",
+  "closed_by": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

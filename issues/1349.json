@@ -94,5 +94,24 @@
   "created_at": "2016-10-06T12:50:20Z",
   "updated_at": "2016-10-18T02:11:26Z",
   "closed_at": "2016-10-18T02:11:26Z",
-  "body": "ready:function(){\n                var timer = require('@weex-module/timer');\n                timer.setInterval(show2,1000);\n                function show()\n                {\n                    for(var i=0;i<this.sections.length;i++){\n                        for(var j=0;j<this.sections[i].rows.length;j++){\n                                  for(var k=0;k<this.sections[i].rows[j].items.length;k++){\n\n```\n                                          /**\n                                          var dateObj=new Date();\n                                          var year = dateObj.getYear();\n                                          var month = dateObj.getMonth();\n                                          var date = dateObj.getDate();\n                                          var hour = dateObj.getHours();\n                                          var minute = dateObj.getMinutes();\n                                          var second = dateObj.getSeconds(); \n                                          this.sections[i].rows[j].items[k].endTime = year+'年'+month+'月'+date+'号'+hour+'时'+minute+'分'+second+'秒';\n                                          **/\n\n                                          this.sections[i].rows[j].items[k].endTime = '测试日期：2020年12月31日';\n\n                              }\n                    }\n                }\n            }\n            function show2()\n            {\n              this.sections[0].rows[0].items[0].endTime = '测试日期：2020年12月31日';\n              this._app.updateActions();\n              //this.sections[2].rows[1].items[1].endTime = '测试日期：2020年12月31日';\n            }\n      }\n```\n"
+  "body": "ready:function(){\n                var timer = require('@weex-module/timer');\n                timer.setInterval(show2,1000);\n                function show()\n                {\n                    for(var i=0;i<this.sections.length;i++){\n                        for(var j=0;j<this.sections[i].rows.length;j++){\n                                  for(var k=0;k<this.sections[i].rows[j].items.length;k++){\n\n```\n                                          /**\n                                          var dateObj=new Date();\n                                          var year = dateObj.getYear();\n                                          var month = dateObj.getMonth();\n                                          var date = dateObj.getDate();\n                                          var hour = dateObj.getHours();\n                                          var minute = dateObj.getMinutes();\n                                          var second = dateObj.getSeconds(); \n                                          this.sections[i].rows[j].items[k].endTime = year+'年'+month+'月'+date+'号'+hour+'时'+minute+'分'+second+'秒';\n                                          **/\n\n                                          this.sections[i].rows[j].items[k].endTime = '测试日期：2020年12月31日';\n\n                              }\n                    }\n                }\n            }\n            function show2()\n            {\n              this.sections[0].rows[0].items[0].endTime = '测试日期：2020年12月31日';\n              this._app.updateActions();\n              //this.sections[2].rows[1].items[1].endTime = '测试日期：2020年12月31日';\n            }\n      }\n```\n",
+  "closed_by": {
+    "login": "Hanks10100",
+    "id": 8401776,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8401776?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Hanks10100",
+    "html_url": "https://github.com/Hanks10100",
+    "followers_url": "https://api.github.com/users/Hanks10100/followers",
+    "following_url": "https://api.github.com/users/Hanks10100/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Hanks10100/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Hanks10100/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Hanks10100/subscriptions",
+    "organizations_url": "https://api.github.com/users/Hanks10100/orgs",
+    "repos_url": "https://api.github.com/users/Hanks10100/repos",
+    "events_url": "https://api.github.com/users/Hanks10100/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Hanks10100/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

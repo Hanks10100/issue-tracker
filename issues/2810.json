@@ -37,5 +37,6 @@
   "created_at": "2017-02-28T02:18:44Z",
   "updated_at": "2017-03-01T12:56:59Z",
   "closed_at": null,
-  "body": "在weex v0.10中，list控件使用 @loadmore可以触发loading. 但无法显示 loading.\r\n如果把 list控件的 @loadmore去掉， loading控件不会调用@loading的方法。scroller可以。\r\n是不是后面list控件不包含loading? 我看源代码里面是有包含的loading.\r\n这是目前的bug？还是我的用法有错误。loading控件里面的例子也是scroller控件。\r\nh5的版本不能运行。\r\n`<list class=“discount-list”  @loadmore=“onloading”  loadmoreoffset=“30” >\r\n<cell> … </cell>\r\n<loading class=“loading” @loading=“onloading” :display=“showLoading”>\r\n</list>`"
+  "body": "在weex v0.10中，list控件使用 @loadmore可以触发loading. 但无法显示 loading.\r\n如果把 list控件的 @loadmore去掉， loading控件不会调用@loading的方法。scroller可以。\r\n是不是后面list控件不包含loading? 我看源代码里面是有包含的loading.\r\n这是目前的bug？还是我的用法有错误。loading控件里面的例子也是scroller控件。\r\nh5的版本不能运行。\r\n`<list class=“discount-list”  @loadmore=“onloading”  loadmoreoffset=“30” >\r\n<cell> … </cell>\r\n<loading class=“loading” @loading=“onloading” :display=“showLoading”>\r\n</list>`",
+  "closed_by": null
 }

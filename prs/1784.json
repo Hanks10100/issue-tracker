@@ -100,5 +100,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1784.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1784.patch"
   },
-  "body": "#1782 \r\n#1664 \r\n\r\nfix list上resetLoadmore不生效。"
+  "body": "#1782 \r\n#1664 \r\n\r\nfix list上resetLoadmore不生效。",
+  "closed_by": {
+    "login": "namedlock",
+    "id": 3077786,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/3077786?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/namedlock",
+    "html_url": "https://github.com/namedlock",
+    "followers_url": "https://api.github.com/users/namedlock/followers",
+    "following_url": "https://api.github.com/users/namedlock/following{/other_user}",
+    "gists_url": "https://api.github.com/users/namedlock/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/namedlock/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/namedlock/subscriptions",
+    "organizations_url": "https://api.github.com/users/namedlock/orgs",
+    "repos_url": "https://api.github.com/users/namedlock/repos",
+    "events_url": "https://api.github.com/users/namedlock/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/namedlock/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -150,5 +150,24 @@
   "created_at": "2016-12-01T15:18:05Z",
   "updated_at": "2016-12-02T09:59:32Z",
   "closed_at": "2016-12-02T02:02:00Z",
-  "body": "<!--\r\n0. It's ***RECOMMENDED*** to [submit PR](https://github.com/alibaba/weex/pulls) for typo, new demo or tiny bugfix.\r\n0. If this's a ***BUG***, pls provide: course repetition, error/crash log, device model, OS version, App version (playground or other apps).\r\n0. If this's a ***FEATURE***, pls provide: details, pseudo codes if necessary.\r\n\r\n---\r\n\r\n（请在***提交***前删除这段描述）\r\n\r\n0. 我们***推荐***小问题直接[提 PR](https://github.com/alibaba/weex/pulls)，如错别字、新 demo 或 bugfix。\r\n0. 如果是 ***Bug***，请提供：复现步骤（推荐有截图）、error/crash log、设备型号、OS 版本、App 版本（playground 版本或自己的 app）。\r\n0. 如果是***新需求***，请提供：详细描述、应用场景、适当的伪代码（如有）。\r\n-->\r\n\r\n\r\nweex 能否支持类似ES6的可变参数和默认参数\r\n\r\n可变参数例子：\r\n```js\r\nfunction containsAll(haystack, ...needles) {\r\n  for (var needle of needles) {\r\n    if (haystack.indexOf(needle) === -1) {\r\n      return false;\r\n    }\r\n  }\r\n  return true;\r\n}\r\n```\r\n我们来看一下调用containsAll(\"banana\", \"b\", \"nan\")之后的函数调用过程，与之前一样，传递进来的第一个参数\"banana\"赋值给参数haystack，needles前的省略号表明它是一个不定参数，所有传递进来的其它参数都被放到一个数组中，赋值给变量needles。对于我们的调用示例而言，needles被赋值为[\"b\", \"nan\"]\r\n\r\n默认参数例子\r\n```js\r\nfunction animalSentence(animals2=\"tigers\", animals3=\"bears\") {\r\n    return `Lions and ${animals2} and ${animals3}! Oh my!`;\r\n}\r\n```\r\n\r\n默认参数的定义形式为[param1[ = defaultValue1 ][, ..., paramN[ = defaultValueN ]]]，对于每个参数而言，定义默认值时=后的部分是一个表达式，如果调用者没有传递相应参数，将使用该表达式的值作为参数默认值。相关示例如下：\r\n```js\r\nanimalSentence();                       // Lions and tigers and bears! Oh my!\r\nanimalSentence(\"elephants\");            // Lions and elephants and bears! Oh my!\r\nanimalSentence(\"elephants\", \"whales\");  // Lions and elephants and whales! Oh my!\r\n```\r\n\r\n参考：http://www.infoq.com/cn/articles/es6-in-depth-rest-parameters-and-defaults"
+  "body": "<!--\r\n0. It's ***RECOMMENDED*** to [submit PR](https://github.com/alibaba/weex/pulls) for typo, new demo or tiny bugfix.\r\n0. If this's a ***BUG***, pls provide: course repetition, error/crash log, device model, OS version, App version (playground or other apps).\r\n0. If this's a ***FEATURE***, pls provide: details, pseudo codes if necessary.\r\n\r\n---\r\n\r\n（请在***提交***前删除这段描述）\r\n\r\n0. 我们***推荐***小问题直接[提 PR](https://github.com/alibaba/weex/pulls)，如错别字、新 demo 或 bugfix。\r\n0. 如果是 ***Bug***，请提供：复现步骤（推荐有截图）、error/crash log、设备型号、OS 版本、App 版本（playground 版本或自己的 app）。\r\n0. 如果是***新需求***，请提供：详细描述、应用场景、适当的伪代码（如有）。\r\n-->\r\n\r\n\r\nweex 能否支持类似ES6的可变参数和默认参数\r\n\r\n可变参数例子：\r\n```js\r\nfunction containsAll(haystack, ...needles) {\r\n  for (var needle of needles) {\r\n    if (haystack.indexOf(needle) === -1) {\r\n      return false;\r\n    }\r\n  }\r\n  return true;\r\n}\r\n```\r\n我们来看一下调用containsAll(\"banana\", \"b\", \"nan\")之后的函数调用过程，与之前一样，传递进来的第一个参数\"banana\"赋值给参数haystack，needles前的省略号表明它是一个不定参数，所有传递进来的其它参数都被放到一个数组中，赋值给变量needles。对于我们的调用示例而言，needles被赋值为[\"b\", \"nan\"]\r\n\r\n默认参数例子\r\n```js\r\nfunction animalSentence(animals2=\"tigers\", animals3=\"bears\") {\r\n    return `Lions and ${animals2} and ${animals3}! Oh my!`;\r\n}\r\n```\r\n\r\n默认参数的定义形式为[param1[ = defaultValue1 ][, ..., paramN[ = defaultValueN ]]]，对于每个参数而言，定义默认值时=后的部分是一个表达式，如果调用者没有传递相应参数，将使用该表达式的值作为参数默认值。相关示例如下：\r\n```js\r\nanimalSentence();                       // Lions and tigers and bears! Oh my!\r\nanimalSentence(\"elephants\");            // Lions and elephants and bears! Oh my!\r\nanimalSentence(\"elephants\", \"whales\");  // Lions and elephants and whales! Oh my!\r\n```\r\n\r\n参考：http://www.infoq.com/cn/articles/es6-in-depth-rest-parameters-and-defaults",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

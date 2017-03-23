@@ -132,5 +132,24 @@
   "created_at": "2017-02-21T09:47:18Z",
   "updated_at": "2017-02-23T08:42:22Z",
   "closed_at": "2017-02-23T08:42:22Z",
-  "body": "[main.js:1:16071] RangeError: Maximum call stack size exceeded.\r\nget@main.js:1:16071\r\nget@main.js:1:16912\r\nvalue\r\nget@main.js:4:13737\r\nDe@main.js:1:15139\r\npt@main.js:1:20309还有很多很多"
+  "body": "[main.js:1:16071] RangeError: Maximum call stack size exceeded.\r\nget@main.js:1:16071\r\nget@main.js:1:16912\r\nvalue\r\nget@main.js:4:13737\r\nDe@main.js:1:15139\r\npt@main.js:1:20309还有很多很多",
+  "closed_by": {
+    "login": "dongfanghu",
+    "id": 22462800,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22462800?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/dongfanghu",
+    "html_url": "https://github.com/dongfanghu",
+    "followers_url": "https://api.github.com/users/dongfanghu/followers",
+    "following_url": "https://api.github.com/users/dongfanghu/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dongfanghu/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/dongfanghu/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/dongfanghu/subscriptions",
+    "organizations_url": "https://api.github.com/users/dongfanghu/orgs",
+    "repos_url": "https://api.github.com/users/dongfanghu/repos",
+    "events_url": "https://api.github.com/users/dongfanghu/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/dongfanghu/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

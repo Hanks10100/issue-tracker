@@ -100,5 +100,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1531.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1531.patch"
   },
-  "body": "Add the missing `setTimeout` in the banner for Android V8.\n\n@sospartan @fkysly Please review. \n"
+  "body": "Add the missing `setTimeout` in the banner for Android V8.\n\n@sospartan @fkysly Please review. \n",
+  "closed_by": {
+    "login": "fkysly",
+    "id": 3274605,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3274605?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/fkysly",
+    "html_url": "https://github.com/fkysly",
+    "followers_url": "https://api.github.com/users/fkysly/followers",
+    "following_url": "https://api.github.com/users/fkysly/following{/other_user}",
+    "gists_url": "https://api.github.com/users/fkysly/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/fkysly/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/fkysly/subscriptions",
+    "organizations_url": "https://api.github.com/users/fkysly/orgs",
+    "repos_url": "https://api.github.com/users/fkysly/repos",
+    "events_url": "https://api.github.com/users/fkysly/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/fkysly/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

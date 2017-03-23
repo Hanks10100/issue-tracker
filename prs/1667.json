@@ -129,5 +129,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1667.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1667.patch"
   },
-  "body": "<!--\r\nIt's ***RECOMMENDED*** to submit typo fix, new demo and tiny bugfix to `dev` branch. New feature and other modifications can be submitted to \"domain\" branch including `ios`, `android`, `jsfm`, `html5`.\r\n    \r\nSee [Branch Strategy](https://github.com/alibaba/weex/blob/dev/CONTRIBUTING.md#branch-management) for more detail.\r\n\r\n---\r\n\r\n（请在***提交***前删除这段描述）\r\n\r\n错别字修改、新 demo、较小的 bugfix 都可以直接提到 `dev` 分支；新需求以及任何你不确定影响面的改动，请提交到对应“领域”的分支（`ios`、`android`、`jsfm`、`html5`）。\r\n\r\n查看完整的[分支策略 (英文)](https://github.com/alibaba/weex/blob/dev/CONTRIBUTING.md#branch-management)。\r\n-->\r\n\r\n经过技术委员会讨论，默认样式设置如下\r\n\r\n在三端修改，当jsframework传回空值设置默认值\r\n\r\n#### 协议\r\n\r\n\r\n名字 | 默认值 |说明|相关组件|\r\n----|------|----|----\r\nbackgroud-color | 透明  | 背景色| all\r\nfont-size | [default vlaue 32](http://alibaba.github.io/weex/doc/components/text.html)(ios)/[platform specify](http://alibaba.github.io/weex/doc/components/text.html)(安卓)/[default value 32](http://alibaba.github.io/weex/doc/components/text.html)(h5)  |字体大小| input;textarea;text\r\ncolor | 黑色 |  文本颜色 | input;textarea;text;\r\n\r\n测试用例 http://weex.alibaba-inc.com/playground/db361e4c5c783be8c9b16520f2e4e358\r\n\r\n安卓默认样式PR https://github.com/sospartan/weex/pull/50\r\n\r\n现在三端表现形式一样\r\nios @kfeagle\r\n安卓 @misakuo\r\nh5 伯飞 @zhangquan"
+  "body": "<!--\r\nIt's ***RECOMMENDED*** to submit typo fix, new demo and tiny bugfix to `dev` branch. New feature and other modifications can be submitted to \"domain\" branch including `ios`, `android`, `jsfm`, `html5`.\r\n    \r\nSee [Branch Strategy](https://github.com/alibaba/weex/blob/dev/CONTRIBUTING.md#branch-management) for more detail.\r\n\r\n---\r\n\r\n（请在***提交***前删除这段描述）\r\n\r\n错别字修改、新 demo、较小的 bugfix 都可以直接提到 `dev` 分支；新需求以及任何你不确定影响面的改动，请提交到对应“领域”的分支（`ios`、`android`、`jsfm`、`html5`）。\r\n\r\n查看完整的[分支策略 (英文)](https://github.com/alibaba/weex/blob/dev/CONTRIBUTING.md#branch-management)。\r\n-->\r\n\r\n经过技术委员会讨论，默认样式设置如下\r\n\r\n在三端修改，当jsframework传回空值设置默认值\r\n\r\n#### 协议\r\n\r\n\r\n名字 | 默认值 |说明|相关组件|\r\n----|------|----|----\r\nbackgroud-color | 透明  | 背景色| all\r\nfont-size | [default vlaue 32](http://alibaba.github.io/weex/doc/components/text.html)(ios)/[platform specify](http://alibaba.github.io/weex/doc/components/text.html)(安卓)/[default value 32](http://alibaba.github.io/weex/doc/components/text.html)(h5)  |字体大小| input;textarea;text\r\ncolor | 黑色 |  文本颜色 | input;textarea;text;\r\n\r\n测试用例 http://weex.alibaba-inc.com/playground/db361e4c5c783be8c9b16520f2e4e358\r\n\r\n安卓默认样式PR https://github.com/sospartan/weex/pull/50\r\n\r\n现在三端表现形式一样\r\nios @kfeagle\r\n安卓 @misakuo\r\nh5 伯飞 @zhangquan",
+  "closed_by": {
+    "login": "cxfeng1",
+    "id": 1625893,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1625893?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cxfeng1",
+    "html_url": "https://github.com/cxfeng1",
+    "followers_url": "https://api.github.com/users/cxfeng1/followers",
+    "following_url": "https://api.github.com/users/cxfeng1/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cxfeng1/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cxfeng1/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cxfeng1/subscriptions",
+    "organizations_url": "https://api.github.com/users/cxfeng1/orgs",
+    "repos_url": "https://api.github.com/users/cxfeng1/repos",
+    "events_url": "https://api.github.com/users/cxfeng1/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cxfeng1/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

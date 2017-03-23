@@ -81,5 +81,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/853.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/853.patch"
   },
-  "body": "1. 重写 WXStorageModule.\n\n1.1. 实现原理：存储结构分为三层，Memory->NSCache->File. 数据的大小决定其存储的位置；小于 1 KB的数据统一存储于 wxstage.json，大于 1 KB的数据存储于 hash(key) 为文件名的无后缀文件。\n\n1.2 实现接口：\n\n```\n- (void)getAllKeys:(WXModuleCallback)callback;\n\n- (void)setItem:(NSString *)key value:(NSString *)value callback:(WXModuleCallback)callback;\n\n- (void)getItem:(NSString *)key callback:(WXModuleCallback)callback;\n\n- (void)removeItem:(NSString *)key callback:(WXModuleCallback)callback;\n```\n1. 添加测试用例到 WeexSDK.\n"
+  "body": "1. 重写 WXStorageModule.\n\n1.1. 实现原理：存储结构分为三层，Memory->NSCache->File. 数据的大小决定其存储的位置；小于 1 KB的数据统一存储于 wxstage.json，大于 1 KB的数据存储于 hash(key) 为文件名的无后缀文件。\n\n1.2 实现接口：\n\n```\n- (void)getAllKeys:(WXModuleCallback)callback;\n\n- (void)setItem:(NSString *)key value:(NSString *)value callback:(WXModuleCallback)callback;\n\n- (void)getItem:(NSString *)key callback:(WXModuleCallback)callback;\n\n- (void)removeItem:(NSString *)key callback:(WXModuleCallback)callback;\n```\n1. 添加测试用例到 WeexSDK.\n",
+  "closed_by": {
+    "login": "boboning",
+    "id": 18302124,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/18302124?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/boboning",
+    "html_url": "https://github.com/boboning",
+    "followers_url": "https://api.github.com/users/boboning/followers",
+    "following_url": "https://api.github.com/users/boboning/following{/other_user}",
+    "gists_url": "https://api.github.com/users/boboning/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/boboning/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/boboning/subscriptions",
+    "organizations_url": "https://api.github.com/users/boboning/orgs",
+    "repos_url": "https://api.github.com/users/boboning/repos",
+    "events_url": "https://api.github.com/users/boboning/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/boboning/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

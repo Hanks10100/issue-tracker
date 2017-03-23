@@ -94,5 +94,24 @@
   "created_at": "2017-01-25T06:18:04Z",
   "updated_at": "2017-02-04T06:29:38Z",
   "closed_at": "2017-02-04T06:29:38Z",
-  "body": "- playground版本：weex_playgroud_10006024.apk\r\n\r\n- weex版本：\r\nC:\\Users\\aaron>weex -v\r\nv1.0.1-beta.5\r\nweex-devtool : v0.2.76\r\n\r\n- 安卓--------------------->>>>\r\n扫码,app list中不会出现设备。\r\n设备：荣耀8、红米note 4、红米1s\r\n注：没有报错误，app list列表就是不显示我的设备\r\n\r\n- 苹果--------------------->>>>\r\n设备：ipad pro\r\n扫码，app list正常显示设备。"
+  "body": "- playground版本：weex_playgroud_10006024.apk\r\n\r\n- weex版本：\r\nC:\\Users\\aaron>weex -v\r\nv1.0.1-beta.5\r\nweex-devtool : v0.2.76\r\n\r\n- 安卓--------------------->>>>\r\n扫码,app list中不会出现设备。\r\n设备：荣耀8、红米note 4、红米1s\r\n注：没有报错误，app list列表就是不显示我的设备\r\n\r\n- 苹果--------------------->>>>\r\n设备：ipad pro\r\n扫码，app list正常显示设备。",
+  "closed_by": {
+    "login": "chenkezhao",
+    "id": 15662369,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/15662369?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/chenkezhao",
+    "html_url": "https://github.com/chenkezhao",
+    "followers_url": "https://api.github.com/users/chenkezhao/followers",
+    "following_url": "https://api.github.com/users/chenkezhao/following{/other_user}",
+    "gists_url": "https://api.github.com/users/chenkezhao/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/chenkezhao/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/chenkezhao/subscriptions",
+    "organizations_url": "https://api.github.com/users/chenkezhao/orgs",
+    "repos_url": "https://api.github.com/users/chenkezhao/repos",
+    "events_url": "https://api.github.com/users/chenkezhao/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/chenkezhao/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

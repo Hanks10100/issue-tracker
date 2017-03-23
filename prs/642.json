@@ -43,5 +43,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/642.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/642.patch"
   },
-  "body": "fix find an element method\n"
+  "body": "fix find an element method\n",
+  "closed_by": {
+    "login": "wangrunxiang",
+    "id": 10829860,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/10829860?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/wangrunxiang",
+    "html_url": "https://github.com/wangrunxiang",
+    "followers_url": "https://api.github.com/users/wangrunxiang/followers",
+    "following_url": "https://api.github.com/users/wangrunxiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/wangrunxiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/wangrunxiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/wangrunxiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/wangrunxiang/orgs",
+    "repos_url": "https://api.github.com/users/wangrunxiang/repos",
+    "events_url": "https://api.github.com/users/wangrunxiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/wangrunxiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

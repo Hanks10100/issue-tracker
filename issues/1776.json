@@ -117,10 +117,57 @@
       "created_at": "2016-12-19T02:39:56Z",
       "updated_at": "2016-12-19T02:39:56Z",
       "body": "建议多分析一下，2s 时间在 JS 运行和 native 渲染中分别有多大开销，然后针对性的分析，哪块开销比较大就对哪个部分进行具体优化……\r\n这个可能问题比较综合了"
+    },
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/287606702",
+      "html_url": "https://github.com/alibaba/weex/issues/1776#issuecomment-287606702",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/1776",
+      "id": 287606702,
+      "user": {
+        "login": "501956430",
+        "id": 20204491,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/20204491?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/501956430",
+        "html_url": "https://github.com/501956430",
+        "followers_url": "https://api.github.com/users/501956430/followers",
+        "following_url": "https://api.github.com/users/501956430/following{/other_user}",
+        "gists_url": "https://api.github.com/users/501956430/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/501956430/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/501956430/subscriptions",
+        "organizations_url": "https://api.github.com/users/501956430/orgs",
+        "repos_url": "https://api.github.com/users/501956430/repos",
+        "events_url": "https://api.github.com/users/501956430/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/501956430/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2017-03-19T10:19:30Z",
+      "updated_at": "2017-03-19T10:19:30Z",
+      "body": "@cyan24 遇到相同的问题，需要解决方案，请问你的问题解决了嘛？  "
     }
   ],
   "created_at": "2016-11-30T01:58:21Z",
-  "updated_at": "2016-12-27T16:20:54Z",
+  "updated_at": "2017-03-19T10:19:30Z",
   "closed_at": "2016-12-27T16:20:54Z",
-  "body": "使用navigator push方法跳转页面期间，由于网络等其他原因，会出现短暂的白屏，是否有方法可以在白屏期间显示loading的图标？"
+  "body": "使用navigator push方法跳转页面期间，由于网络等其他原因，会出现短暂的白屏，是否有方法可以在白屏期间显示loading的图标？",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

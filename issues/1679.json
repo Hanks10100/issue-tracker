@@ -122,5 +122,24 @@
   "created_at": "2016-11-22T01:44:08Z",
   "updated_at": "2017-02-22T03:28:15Z",
   "closed_at": "2016-12-07T02:08:34Z",
-  "body": "weex已经开源几个月了,相信陆续有团队已经使用weex开发出对应的demo\r\n既然是动态更新方案,weex为何没有提及任何增量更新的相关信息.\r\n所以希望weex团队能够分享些这方面的解决方案\r\n\r\n以下是参考RN的更新方案,但是更想听听weex是如何去实现的.\r\nhttps://github.com/cnsnake11/blog/blob/master/ReactNative开发指导/ReactNative增量升级方案.md\r\n\r\nhttps://github.com/cnsnake11/react-native-pushy"
+  "body": "weex已经开源几个月了,相信陆续有团队已经使用weex开发出对应的demo\r\n既然是动态更新方案,weex为何没有提及任何增量更新的相关信息.\r\n所以希望weex团队能够分享些这方面的解决方案\r\n\r\n以下是参考RN的更新方案,但是更想听听weex是如何去实现的.\r\nhttps://github.com/cnsnake11/blog/blob/master/ReactNative开发指导/ReactNative增量升级方案.md\r\n\r\nhttps://github.com/cnsnake11/react-native-pushy",
+  "closed_by": {
+    "login": "liujianying",
+    "id": 6265414,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6265414?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/liujianying",
+    "html_url": "https://github.com/liujianying",
+    "followers_url": "https://api.github.com/users/liujianying/followers",
+    "following_url": "https://api.github.com/users/liujianying/following{/other_user}",
+    "gists_url": "https://api.github.com/users/liujianying/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/liujianying/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/liujianying/subscriptions",
+    "organizations_url": "https://api.github.com/users/liujianying/orgs",
+    "repos_url": "https://api.github.com/users/liujianying/repos",
+    "events_url": "https://api.github.com/users/liujianying/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/liujianying/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -122,5 +122,24 @@
   "created_at": "2016-07-02T00:57:41Z",
   "updated_at": "2016-07-02T05:11:42Z",
   "closed_at": "2016-07-02T05:11:05Z",
-  "body": "我嘗試著用 `weex init` 建了新專案之後，往生成的 main.we 添加了 `require('./foo.we');` ，並建立新的 foo.we 檔案在裡面填上一些 `hello world`，下 `weex build` `weex serve` 後，browser 拋出的錯誤如下：\n\n```\nTypeError: __webpack_require__(2) is not a function. (In '__webpack_require__(2)(module)', '__webpack_require__(2)' is an instance of Object)\n```\n\n![2016-07-02 08 55 35](https://cloud.githubusercontent.com/assets/841969/16537337/c5ce1920-4032-11e6-879a-3ba282511e07.png)\n"
+  "body": "我嘗試著用 `weex init` 建了新專案之後，往生成的 main.we 添加了 `require('./foo.we');` ，並建立新的 foo.we 檔案在裡面填上一些 `hello world`，下 `weex build` `weex serve` 後，browser 拋出的錯誤如下：\n\n```\nTypeError: __webpack_require__(2) is not a function. (In '__webpack_require__(2)(module)', '__webpack_require__(2)' is an instance of Object)\n```\n\n![2016-07-02 08 55 35](https://cloud.githubusercontent.com/assets/841969/16537337/c5ce1920-4032-11e6-879a-3ba282511e07.png)\n",
+  "closed_by": {
+    "login": "david50407",
+    "id": 841969,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/841969?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/david50407",
+    "html_url": "https://github.com/david50407",
+    "followers_url": "https://api.github.com/users/david50407/followers",
+    "following_url": "https://api.github.com/users/david50407/following{/other_user}",
+    "gists_url": "https://api.github.com/users/david50407/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/david50407/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/david50407/subscriptions",
+    "organizations_url": "https://api.github.com/users/david50407/orgs",
+    "repos_url": "https://api.github.com/users/david50407/repos",
+    "events_url": "https://api.github.com/users/david50407/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/david50407/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

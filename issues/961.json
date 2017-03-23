@@ -94,5 +94,24 @@
   "created_at": "2016-08-08T14:53:13Z",
   "updated_at": "2016-08-09T15:56:02Z",
   "closed_at": "2016-08-09T03:06:15Z",
-  "body": "想实现下面的布局：\n![image](https://cloud.githubusercontent.com/assets/14801991/17484072/fcd983aa-5dba-11e6-86f5-f80669bca28e.png)\n\n但是图中中text并没有随着文字大小而变化，造成最后一句“我知道了”仍然占据了满行，请问如何让weex的text标签随着文字的而自动变化？\n"
+  "body": "想实现下面的布局：\n![image](https://cloud.githubusercontent.com/assets/14801991/17484072/fcd983aa-5dba-11e6-86f5-f80669bca28e.png)\n\n但是图中中text并没有随着文字大小而变化，造成最后一句“我知道了”仍然占据了满行，请问如何让weex的text标签随着文字的而自动变化？\n",
+  "closed_by": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -66,5 +66,24 @@
   "created_at": "2016-09-14T03:07:36Z",
   "updated_at": "2016-09-14T03:51:18Z",
   "closed_at": "2016-09-14T03:51:18Z",
-  "body": "情景如下：\n我在data里指定一个数据info，`data: {info: {}}`，然后异步获取数据赋值给这个info，异步数据格式大致如下\n\n```\ninfo: {\n  list: [{\"a\":1, \"b\":2},{\"a\":1, \"b\":2}],\n  obj: {\"c\":3, \"d\":4},\n  pro: \"e\"\n}\n```\n\n问题1：\n在我上面拿到的数据里，如果直接在template里repeat数据里的info.list，compiler.js会报错：`Uncaught TypeError: Cannot read property 'slice' of undefined`\n问题2：\n对于上面数据里的info.obj.c，这样的数据在模板里直接使用会拿不到\n\n暂时解决办法：\n在data显示声明层级数据：`data:{info:{list:[], obj:{}}}`，然后就可以了\n\n在使用vue的时候是不需要显示指定多层级数据的，这个以后会支持吗，还是说必须得显示指定呢\n"
+  "body": "情景如下：\n我在data里指定一个数据info，`data: {info: {}}`，然后异步获取数据赋值给这个info，异步数据格式大致如下\n\n```\ninfo: {\n  list: [{\"a\":1, \"b\":2},{\"a\":1, \"b\":2}],\n  obj: {\"c\":3, \"d\":4},\n  pro: \"e\"\n}\n```\n\n问题1：\n在我上面拿到的数据里，如果直接在template里repeat数据里的info.list，compiler.js会报错：`Uncaught TypeError: Cannot read property 'slice' of undefined`\n问题2：\n对于上面数据里的info.obj.c，这样的数据在模板里直接使用会拿不到\n\n暂时解决办法：\n在data显示声明层级数据：`data:{info:{list:[], obj:{}}}`，然后就可以了\n\n在使用vue的时候是不需要显示指定多层级数据的，这个以后会支持吗，还是说必须得显示指定呢\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

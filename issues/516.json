@@ -244,5 +244,24 @@
   "created_at": "2016-06-20T08:06:25Z",
   "updated_at": "2016-06-22T09:07:51Z",
   "closed_at": "2016-06-22T09:07:51Z",
-  "body": "用demo 提供的二维码扫描功能，扫描生成的二维码，第一次扫描时能成功显示界面，如果返回到扫描界面，再次扫描二维码，则显示空白页面。需要会退到首页，重新按二维码扫描按钮，进入到扫描界面，扫描才能显示正常页面。\n\n自己编写demo也出现同样的问题，生成WXSDKInstance对象之后，在加载js文件时，第一次加载时可以显示界面，如果再一次加载的话，则显示空白页面。需要重新new一个WXSDKInstance对象才可以。\n\n不知道本来就是这样机制，还是一个bug，求解。\n"
+  "body": "用demo 提供的二维码扫描功能，扫描生成的二维码，第一次扫描时能成功显示界面，如果返回到扫描界面，再次扫描二维码，则显示空白页面。需要会退到首页，重新按二维码扫描按钮，进入到扫描界面，扫描才能显示正常页面。\n\n自己编写demo也出现同样的问题，生成WXSDKInstance对象之后，在加载js文件时，第一次加载时可以显示界面，如果再一次加载的话，则显示空白页面。需要重新new一个WXSDKInstance对象才可以。\n\n不知道本来就是这样机制，还是一个bug，求解。\n",
+  "closed_by": {
+    "login": "shendy1991",
+    "id": 14012553,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/14012553?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/shendy1991",
+    "html_url": "https://github.com/shendy1991",
+    "followers_url": "https://api.github.com/users/shendy1991/followers",
+    "following_url": "https://api.github.com/users/shendy1991/following{/other_user}",
+    "gists_url": "https://api.github.com/users/shendy1991/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/shendy1991/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/shendy1991/subscriptions",
+    "organizations_url": "https://api.github.com/users/shendy1991/orgs",
+    "repos_url": "https://api.github.com/users/shendy1991/repos",
+    "events_url": "https://api.github.com/users/shendy1991/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/shendy1991/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

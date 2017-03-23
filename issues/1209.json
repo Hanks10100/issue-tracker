@@ -196,5 +196,24 @@
   "created_at": "2016-09-12T09:38:09Z",
   "updated_at": "2016-11-23T03:05:36Z",
   "closed_at": "2016-11-23T03:05:36Z",
-  "body": "```\n   @WXComponentProp(name = \"clicpmargin\")\n    public void setPagerClicpPadding(int margin){\n        mViewPager.setClipToPadding(false);\n        mViewPager.setPageMargin(margin);\n        Object leftPO = mDomObj.attr.get(\"cpleft\");\n        Object rightPo = mDomObj.attr.get(\"cpright\");\n        if (leftPO != null && rightPo != null){\n            mViewPager.setPadding(Integer.parseInt(leftPO.toString()), 0, Integer.parseInt(rightPo.toString()), 0);\n        }\n    }\n```\n\n```\n   <slider style=\"flex-direction: row\" cpleft=\"60\" cpright=\"60\" clicpmargin=\"20\" index=\"1\" append=\"tree\"\n                        style=\" width: 750;background-color: #ff0000\"></slider>\n```\n\n我通过扩展原有Slider 类，实现ViewPager 两边边距的效果。当数据有三条时，ViewPager 滑动出现 很诡异的现象。好像是无限循环的时候出现了问题。滑动到下一个的时候出现当前的 item 好像被重新加载了，体验非常不好。\n"
+  "body": "```\n   @WXComponentProp(name = \"clicpmargin\")\n    public void setPagerClicpPadding(int margin){\n        mViewPager.setClipToPadding(false);\n        mViewPager.setPageMargin(margin);\n        Object leftPO = mDomObj.attr.get(\"cpleft\");\n        Object rightPo = mDomObj.attr.get(\"cpright\");\n        if (leftPO != null && rightPo != null){\n            mViewPager.setPadding(Integer.parseInt(leftPO.toString()), 0, Integer.parseInt(rightPo.toString()), 0);\n        }\n    }\n```\n\n```\n   <slider style=\"flex-direction: row\" cpleft=\"60\" cpright=\"60\" clicpmargin=\"20\" index=\"1\" append=\"tree\"\n                        style=\" width: 750;background-color: #ff0000\"></slider>\n```\n\n我通过扩展原有Slider 类，实现ViewPager 两边边距的效果。当数据有三条时，ViewPager 滑动出现 很诡异的现象。好像是无限循环的时候出现了问题。滑动到下一个的时候出现当前的 item 好像被重新加载了，体验非常不好。\n",
+  "closed_by": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

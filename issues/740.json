@@ -94,5 +94,24 @@
   "created_at": "2016-07-07T05:36:26Z",
   "updated_at": "2016-08-30T06:19:22Z",
   "closed_at": "2016-08-30T06:19:22Z",
-  "body": "在H5渲染打开一张weex页面，改页面上面是List，底部是一固定的bar, 触摸底部bar往上滑会把bar往上带的问题，在Native渲染和IOS H5渲染中没有这个问题。手机型号LGE Nexus5 5.1.1\ndemo代码：\n\n``` <template>\n  <div style=\"position: absolute; top: 0; left: 0; right: 0; bottom: 0;\">\n    <list style=\"position: absolute; top: 0; left: 0; right: 0; bottom: 88;\">\n      <cell repeat=\"{{rows}}\">\n        <text style=\"font-size: 36;width: 750; height: 80;line-height: 80; color: #333333;\">row {{id}}</text>\n      </cell>\n    </list>\n    <div style=\" position: absolute;bottom: 0;left: 0;right: 0;height: 88;background-color: #eeeeee;\"></div>\n  </div>\n</template>\n\n<script>\n  module.exports = {\n    data: {\n      rows:[]\n    },\n    created: function() {\n      for(var i = 1; i<= 30; i++) {\n        this.rows.push({id: i});\n      }\n    }\n  }\n</script>\n```\n"
+  "body": "在H5渲染打开一张weex页面，改页面上面是List，底部是一固定的bar, 触摸底部bar往上滑会把bar往上带的问题，在Native渲染和IOS H5渲染中没有这个问题。手机型号LGE Nexus5 5.1.1\ndemo代码：\n\n``` <template>\n  <div style=\"position: absolute; top: 0; left: 0; right: 0; bottom: 0;\">\n    <list style=\"position: absolute; top: 0; left: 0; right: 0; bottom: 88;\">\n      <cell repeat=\"{{rows}}\">\n        <text style=\"font-size: 36;width: 750; height: 80;line-height: 80; color: #333333;\">row {{id}}</text>\n      </cell>\n    </list>\n    <div style=\" position: absolute;bottom: 0;left: 0;right: 0;height: 88;background-color: #eeeeee;\"></div>\n  </div>\n</template>\n\n<script>\n  module.exports = {\n    data: {\n      rows:[]\n    },\n    created: function() {\n      for(var i = 1; i<= 30; i++) {\n        this.rows.push({id: i});\n      }\n    }\n  }\n</script>\n```\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

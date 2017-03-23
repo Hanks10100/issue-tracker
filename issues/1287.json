@@ -262,5 +262,24 @@
   "created_at": "2016-09-22T08:35:47Z",
   "updated_at": "2016-10-24T08:21:05Z",
   "closed_at": "2016-10-24T08:21:05Z",
-  "body": "我初始化WXSDKInstance对象，并赋值了四个block：onCreate、onFailed、renderFinish、onRenderProgress。然后用renderWithURL来渲染view。但是我没有办法通过这四个block得到渲染view的大小。而且现在我也不知道通过何种方式来限制渲染大小，设置WXSDKInstance的viewController或frame都没达到想要的效果。请问我该怎么获得和限制渲染大小呢？\n"
+  "body": "我初始化WXSDKInstance对象，并赋值了四个block：onCreate、onFailed、renderFinish、onRenderProgress。然后用renderWithURL来渲染view。但是我没有办法通过这四个block得到渲染view的大小。而且现在我也不知道通过何种方式来限制渲染大小，设置WXSDKInstance的viewController或frame都没达到想要的效果。请问我该怎么获得和限制渲染大小呢？\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

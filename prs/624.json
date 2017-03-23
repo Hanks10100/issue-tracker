@@ -89,5 +89,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/624.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/624.patch"
   },
-  "body": "example:\n\n``` vue\n<template>\n  <div onclick=\"update\">\n    <text repeat=\"list\">{{$index+1}} - {{time}}</text>\n    <text>----</text>\n    <text repeat=\"list\" track-by=\"time\">{{$index+1}} - {{time}}</text>\n    <text>----</text>\n    <text repeat=\"(k,v) in list\">{{k+1}} - {{v.time}}</text>\n    <text>----</text>\n    <text repeat=\"(k,v) in list\" track-by=\"time\">{{k+1}} - {{v.time}}</text>\n  </div>\n</template>\n\n<script>\n  module.exports = {\n    data: {\n      list: []\n    },\n    methods: {\n      update: function (e) {\n        this.list.push({ time: Date.now() })\n      }\n    }\n  }\n</script>\n```\n"
+  "body": "example:\n\n``` vue\n<template>\n  <div onclick=\"update\">\n    <text repeat=\"list\">{{$index+1}} - {{time}}</text>\n    <text>----</text>\n    <text repeat=\"list\" track-by=\"time\">{{$index+1}} - {{time}}</text>\n    <text>----</text>\n    <text repeat=\"(k,v) in list\">{{k+1}} - {{v.time}}</text>\n    <text>----</text>\n    <text repeat=\"(k,v) in list\" track-by=\"time\">{{k+1}} - {{v.time}}</text>\n  </div>\n</template>\n\n<script>\n  module.exports = {\n    data: {\n      list: []\n    },\n    methods: {\n      update: function (e) {\n        this.list.push({ time: Date.now() })\n      }\n    }\n  }\n</script>\n```\n",
+  "closed_by": {
+    "login": "IskenHuang",
+    "id": 731134,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/731134?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/IskenHuang",
+    "html_url": "https://github.com/IskenHuang",
+    "followers_url": "https://api.github.com/users/IskenHuang/followers",
+    "following_url": "https://api.github.com/users/IskenHuang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/IskenHuang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/IskenHuang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/IskenHuang/subscriptions",
+    "organizations_url": "https://api.github.com/users/IskenHuang/orgs",
+    "repos_url": "https://api.github.com/users/IskenHuang/repos",
+    "events_url": "https://api.github.com/users/IskenHuang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/IskenHuang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

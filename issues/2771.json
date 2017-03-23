@@ -206,5 +206,6 @@
   "created_at": "2017-02-24T10:14:36Z",
   "updated_at": "2017-02-25T14:59:00Z",
   "closed_at": null,
-  "body": "之前在真机上是完全可以读取我后台的数据的，但是今天不知道怎么回事没加载数据，我在后台log没看到发送的请求，但是在模拟器里是没问题的。另外，图片加载也是不行了，提示这个错误：<Weex>[error]WXImageComponent.m:218, Error downloading image: http://m.tbgame9.com/assets/mobile_500/index_icon-e5cad622e92a19a2a9af2a18e8daf727.png, detail:未能完成操作。（“NSURLErrorDomain”错误 503。） \u001b[;求解！项目很急，望早点回复，谢谢了！"
+  "body": "之前在真机上是完全可以读取我后台的数据的，但是今天不知道怎么回事没加载数据，我在后台log没看到发送的请求，但是在模拟器里是没问题的。另外，图片加载也是不行了，提示这个错误：<Weex>[error]WXImageComponent.m:218, Error downloading image: http://m.tbgame9.com/assets/mobile_500/index_icon-e5cad622e92a19a2a9af2a18e8daf727.png, detail:未能完成操作。（“NSURLErrorDomain”错误 503。） \u001b[;求解！项目很急，望早点回复，谢谢了！",
+  "closed_by": null
 }

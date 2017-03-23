@@ -132,5 +132,24 @@
   "created_at": "2017-01-13T19:15:50Z",
   "updated_at": "2017-01-17T07:11:57Z",
   "closed_at": "2017-01-17T07:11:57Z",
-  "body": "https://weex-project.io/cn/faq.html\r\n\r\n![snip20170114_27](https://cloud.githubusercontent.com/assets/478250/21942345/a9474410-da07-11e6-849f-6782afe6ac45.png)\r\n"
+  "body": "https://weex-project.io/cn/faq.html\r\n\r\n![snip20170114_27](https://cloud.githubusercontent.com/assets/478250/21942345/a9474410-da07-11e6-849f-6782afe6ac45.png)\r\n",
+  "closed_by": {
+    "login": "DoranYun",
+    "id": 16359169,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/16359169?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/DoranYun",
+    "html_url": "https://github.com/DoranYun",
+    "followers_url": "https://api.github.com/users/DoranYun/followers",
+    "following_url": "https://api.github.com/users/DoranYun/following{/other_user}",
+    "gists_url": "https://api.github.com/users/DoranYun/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/DoranYun/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/DoranYun/subscriptions",
+    "organizations_url": "https://api.github.com/users/DoranYun/orgs",
+    "repos_url": "https://api.github.com/users/DoranYun/repos",
+    "events_url": "https://api.github.com/users/DoranYun/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/DoranYun/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

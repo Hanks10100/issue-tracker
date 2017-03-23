@@ -206,5 +206,6 @@
   "created_at": "2017-02-21T03:51:33Z",
   "updated_at": "2017-03-13T08:30:35Z",
   "closed_at": null,
-  "body": "![image](https://cloud.githubusercontent.com/assets/6778148/23150105/cc1306ea-f82b-11e6-8491-565328de6c52.png)\r\n![image](https://cloud.githubusercontent.com/assets/6778148/23150107/d063e980-f82b-11e6-9266-a40ebb9771e7.png)\r\nvue写的导航条，键盘出来后上移超出屏幕了，对于这种情况，请问有人知道有什么解决方案吗，iOS的sdk做了rootview的上移处理。"
+  "body": "![image](https://cloud.githubusercontent.com/assets/6778148/23150105/cc1306ea-f82b-11e6-8491-565328de6c52.png)\r\n![image](https://cloud.githubusercontent.com/assets/6778148/23150107/d063e980-f82b-11e6-9266-a40ebb9771e7.png)\r\nvue写的导航条，键盘出来后上移超出屏幕了，对于这种情况，请问有人知道有什么解决方案吗，iOS的sdk做了rootview的上移处理。",
+  "closed_by": null
 }

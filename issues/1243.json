@@ -61,10 +61,57 @@
       "created_at": "2016-09-19T11:36:04Z",
       "updated_at": "2016-09-19T11:36:04Z",
       "body": "刷新一个页面其实就是在原地销毁旧的页面创建一个新的页面，新页面的 bundle url 和旧的页面相同，具体可以参考源代码里Playground刷新按钮的逻辑\n"
+    },
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/287079688",
+      "html_url": "https://github.com/alibaba/weex/issues/1243#issuecomment-287079688",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/1243",
+      "id": 287079688,
+      "user": {
+        "login": "LiuKaiXiang",
+        "id": 18467477,
+        "avatar_url": "https://avatars3.githubusercontent.com/u/18467477?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LiuKaiXiang",
+        "html_url": "https://github.com/LiuKaiXiang",
+        "followers_url": "https://api.github.com/users/LiuKaiXiang/followers",
+        "following_url": "https://api.github.com/users/LiuKaiXiang/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LiuKaiXiang/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LiuKaiXiang/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LiuKaiXiang/subscriptions",
+        "organizations_url": "https://api.github.com/users/LiuKaiXiang/orgs",
+        "repos_url": "https://api.github.com/users/LiuKaiXiang/repos",
+        "events_url": "https://api.github.com/users/LiuKaiXiang/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LiuKaiXiang/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2017-03-16T14:45:19Z",
+      "updated_at": "2017-03-16T14:45:19Z",
+      "body": "weex自身怎么实现刷新"
     }
   ],
   "created_at": "2016-09-18T14:01:38Z",
-  "updated_at": "2016-09-19T11:36:04Z",
+  "updated_at": "2017-03-16T14:45:19Z",
   "closed_at": "2016-09-19T11:36:04Z",
-  "body": "如何刷新一个UI页面呢  在android中是一个activity  在weex中是一个weex文件，里面怎么刷新呢?\nrefresh是模拟的刷新页面，并没有真正刷新数据\n"
+  "body": "如何刷新一个UI页面呢  在android中是一个activity  在weex中是一个weex文件，里面怎么刷新呢?\nrefresh是模拟的刷新页面，并没有真正刷新数据\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

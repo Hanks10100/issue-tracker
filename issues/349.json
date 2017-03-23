@@ -104,5 +104,24 @@
   "created_at": "2016-05-26T12:07:25Z",
   "updated_at": "2016-05-27T05:41:21Z",
   "closed_at": "2016-05-27T05:41:21Z",
-  "body": "On Android , when `lines:2` and `text-overflow:ellipsis` are set , not two but only one line of text is shown in the following style:\n\n```\nxxxxxx.....\n```\n\nThe expected result is \n\n```\nxxxxxxxx\nxxxxxxx...\n```\n\nsample code\n\n```\n.title {\n        margin-top: 12px;\n        margin-left: 12px;\n        width: 694px;\n        height: 60px;\n        lines:2;\n        font-size: 24px;\n        color: #051b28;\n        text-overflow: ellipsis;\n    }\n```\n"
+  "body": "On Android , when `lines:2` and `text-overflow:ellipsis` are set , not two but only one line of text is shown in the following style:\n\n```\nxxxxxx.....\n```\n\nThe expected result is \n\n```\nxxxxxxxx\nxxxxxxx...\n```\n\nsample code\n\n```\n.title {\n        margin-top: 12px;\n        margin-left: 12px;\n        width: 694px;\n        height: 60px;\n        lines:2;\n        font-size: 24px;\n        color: #051b28;\n        text-overflow: ellipsis;\n    }\n```\n",
+  "closed_by": {
+    "login": "YorkShen",
+    "id": 4162544,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4162544?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/YorkShen",
+    "html_url": "https://github.com/YorkShen",
+    "followers_url": "https://api.github.com/users/YorkShen/followers",
+    "following_url": "https://api.github.com/users/YorkShen/following{/other_user}",
+    "gists_url": "https://api.github.com/users/YorkShen/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/YorkShen/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/YorkShen/subscriptions",
+    "organizations_url": "https://api.github.com/users/YorkShen/orgs",
+    "repos_url": "https://api.github.com/users/YorkShen/repos",
+    "events_url": "https://api.github.com/users/YorkShen/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/YorkShen/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

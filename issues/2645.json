@@ -66,5 +66,6 @@
   "created_at": "2017-02-18T13:07:29Z",
   "updated_at": "2017-02-20T02:28:50Z",
   "closed_at": null,
-  "body": "在真机调试的时候，页面跳转出现这个错误信息：\r\n2017-02-18 21:01:21.120 WeexDemo[20166:1822415] \u001b[fg100,149,237; <Weex>[info]WXBridgeContext.m:285, No send queue for instance:3, may it has been destroyed so method:fireEvent is ignored \u001b[;\r\n\r\n\r\n急！！！"
+  "body": "在真机调试的时候，页面跳转出现这个错误信息：\r\n2017-02-18 21:01:21.120 WeexDemo[20166:1822415] \u001b[fg100,149,237; <Weex>[info]WXBridgeContext.m:285, No send queue for instance:3, may it has been destroyed so method:fireEvent is ignored \u001b[;\r\n\r\n\r\n急！！！",
+  "closed_by": null
 }

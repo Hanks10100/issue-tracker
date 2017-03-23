@@ -128,5 +128,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1558.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1558.patch"
   },
-  "body": "<!--\r\nIt's ***RECOMMENDED*** to submit typo fix, new demo and tiny bugfix to `dev` branch. New feature and other modifications can be submitted to \"domain\" branch including `ios`, `android`, `jsfm`, `html5`.\r\n    \r\nSee [Branch Strategy](https://github.com/alibaba/weex/blob/dev/CONTRIBUTING.md#branch-management) for more detail.\r\n\r\n---\r\n\r\n（请在***提交***前删除这段描述）\r\n\r\n错别字修改、新 demo、较小的 bugfix 都可以直接提到 `dev` 分支；新需求以及任何你不确定影响面的改动，请提交到对应“领域”的分支（`ios`、`android`、`jsfm`、`html5`）。\r\n\r\n查看完整的[分支策略 (英文)](https://github.com/alibaba/weex/blob/dev/CONTRIBUTING.md#branch-management)。\r\n-->\r\n\r\n在千牛的工作台模块中添加选择功能的时候\r\n没有通用性的picker，千牛无法实现城市的选择，订单搜索条件过滤等功能\r\n期望：\r\n实现通用性的picker\r\n解决方案：\r\n实现picker组件\r\n\r\n具体方案及接口\r\n组件名字\r\npicker\r\n普通单选选择器：type = selector\r\n\r\n\r\n属性名 | 类型 | 默认值 |说明\r\n----|------|----|----\r\nitems | Array  | []|type为 selector 时，value 有效\r\nindex | int  | 0| type为 selector 时，是数字，表示选择了 value 中的第index个值，从0开始。\r\nfunction | 回调 |  | 用户点击确定后，返回结果 index\r\n\r\n使用例子\r\n```js\r\npick:function (e) {\r\n        var picker = require('@weex-module/picker');\r\n        var items = new Array(\"Saab\",\"Volvo\",\"BMW\");\r\n        var index = 0;\r\n        picker.pick(items,index,function (index) {\r\n          var value = items[index];\r\n        });\r\n      }\r\n```\r\n参考 http://velocity.alibaba-inc.com/issues/3034"
+  "body": "<!--\r\nIt's ***RECOMMENDED*** to submit typo fix, new demo and tiny bugfix to `dev` branch. New feature and other modifications can be submitted to \"domain\" branch including `ios`, `android`, `jsfm`, `html5`.\r\n    \r\nSee [Branch Strategy](https://github.com/alibaba/weex/blob/dev/CONTRIBUTING.md#branch-management) for more detail.\r\n\r\n---\r\n\r\n（请在***提交***前删除这段描述）\r\n\r\n错别字修改、新 demo、较小的 bugfix 都可以直接提到 `dev` 分支；新需求以及任何你不确定影响面的改动，请提交到对应“领域”的分支（`ios`、`android`、`jsfm`、`html5`）。\r\n\r\n查看完整的[分支策略 (英文)](https://github.com/alibaba/weex/blob/dev/CONTRIBUTING.md#branch-management)。\r\n-->\r\n\r\n在千牛的工作台模块中添加选择功能的时候\r\n没有通用性的picker，千牛无法实现城市的选择，订单搜索条件过滤等功能\r\n期望：\r\n实现通用性的picker\r\n解决方案：\r\n实现picker组件\r\n\r\n具体方案及接口\r\n组件名字\r\npicker\r\n普通单选选择器：type = selector\r\n\r\n\r\n属性名 | 类型 | 默认值 |说明\r\n----|------|----|----\r\nitems | Array  | []|type为 selector 时，value 有效\r\nindex | int  | 0| type为 selector 时，是数字，表示选择了 value 中的第index个值，从0开始。\r\nfunction | 回调 |  | 用户点击确定后，返回结果 index\r\n\r\n使用例子\r\n```js\r\npick:function (e) {\r\n        var picker = require('@weex-module/picker');\r\n        var items = new Array(\"Saab\",\"Volvo\",\"BMW\");\r\n        var index = 0;\r\n        picker.pick(items,index,function (index) {\r\n          var value = items[index];\r\n        });\r\n      }\r\n```\r\n参考 http://velocity.alibaba-inc.com/issues/3034",
+  "closed_by": {
+    "login": "kfeagle",
+    "id": 11485145,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/11485145?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/kfeagle",
+    "html_url": "https://github.com/kfeagle",
+    "followers_url": "https://api.github.com/users/kfeagle/followers",
+    "following_url": "https://api.github.com/users/kfeagle/following{/other_user}",
+    "gists_url": "https://api.github.com/users/kfeagle/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/kfeagle/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/kfeagle/subscriptions",
+    "organizations_url": "https://api.github.com/users/kfeagle/orgs",
+    "repos_url": "https://api.github.com/users/kfeagle/repos",
+    "events_url": "https://api.github.com/users/kfeagle/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/kfeagle/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

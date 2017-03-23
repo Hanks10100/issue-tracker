@@ -160,5 +160,24 @@
   "created_at": "2016-08-11T11:09:44Z",
   "updated_at": "2016-08-16T11:17:45Z",
   "closed_at": "2016-08-16T09:23:24Z",
-  "body": "如题：\n\n```\n<div style=\"color:{{test?'red':'blue\"}}\"></div>\n<text>{{test?'red':'blue\"}}</text>\n```\n\n这种情况下  style中的三元运算就失效了 \n"
+  "body": "如题：\n\n```\n<div style=\"color:{{test?'red':'blue\"}}\"></div>\n<text>{{test?'red':'blue\"}}</text>\n```\n\n这种情况下  style中的三元运算就失效了 \n",
+  "closed_by": {
+    "login": "songsiqi",
+    "id": 3634329,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/3634329?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/songsiqi",
+    "html_url": "https://github.com/songsiqi",
+    "followers_url": "https://api.github.com/users/songsiqi/followers",
+    "following_url": "https://api.github.com/users/songsiqi/following{/other_user}",
+    "gists_url": "https://api.github.com/users/songsiqi/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/songsiqi/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/songsiqi/subscriptions",
+    "organizations_url": "https://api.github.com/users/songsiqi/orgs",
+    "repos_url": "https://api.github.com/users/songsiqi/repos",
+    "events_url": "https://api.github.com/users/songsiqi/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/songsiqi/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

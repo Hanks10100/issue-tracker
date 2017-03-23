@@ -66,5 +66,24 @@
   "created_at": "2016-12-20T05:27:34Z",
   "updated_at": "2016-12-20T06:02:26Z",
   "closed_at": "2016-12-20T06:02:26Z",
-  "body": "刚开始按官方文档来，生成了npm项目myModule，然后在main.js引用\r\nmain.js\r\n```javascript\r\nimport weex from 'weex-html5'\r\nimport myModule from 'myModule'\r\n//import myModule from '../module/myModule.js'\r\nconsole.log(weex)\r\nconsole.log(myModule)\r\nweex.install(myModule)\r\n```\r\n浏览器中运行报错`mod.init is not a function`，此时打印myModule为**空对象**。\r\n\r\n然后换成`import myModule from '../module/myModule.js'`，myModule.js里直接写方法并暴露出init后，再次编译运行报错\r\n`_weexHtml2.default.install(...) is not a function`\r\n此时打印myModule，里面有`init`方法\r\n\r\n分析了编译出来的main.js，两种引入方式的区别是第一种多包了一层自执行函数，因为生成myModule编译过一次（也可以不编译？），其他没什么区别，所以觉得是myModule引入方式有问题？\r\n\r\n附myModule的代码：\r\n```javascript\r\nconst myModule = {\r\n    get(key,callbackId){\r\n        this.sender.performCallback(callbackId, key)\r\n    },\r\n    set(key,value,callbackId){\r\n\r\n    },\r\n    remove(key,callbackId){\r\n\r\n    }\r\n};\r\nconst meta = {\r\n    myModule: [{\r\n        name: 'get',\r\n        args: ['string','function']\r\n    },{\r\n        name: 'set',\r\n        args: ['string','string','function']\r\n    },{\r\n        name: 'remove',\r\n        args: ['string','function']\r\n    }]\r\n};\r\nexport default{\r\n    init(Weex){\r\n        Weex.registerApiModule('myModule', myModule, meta)\r\n    }\r\n};\r\n```\r\n\r\n"
+  "body": "刚开始按官方文档来，生成了npm项目myModule，然后在main.js引用\r\nmain.js\r\n```javascript\r\nimport weex from 'weex-html5'\r\nimport myModule from 'myModule'\r\n//import myModule from '../module/myModule.js'\r\nconsole.log(weex)\r\nconsole.log(myModule)\r\nweex.install(myModule)\r\n```\r\n浏览器中运行报错`mod.init is not a function`，此时打印myModule为**空对象**。\r\n\r\n然后换成`import myModule from '../module/myModule.js'`，myModule.js里直接写方法并暴露出init后，再次编译运行报错\r\n`_weexHtml2.default.install(...) is not a function`\r\n此时打印myModule，里面有`init`方法\r\n\r\n分析了编译出来的main.js，两种引入方式的区别是第一种多包了一层自执行函数，因为生成myModule编译过一次（也可以不编译？），其他没什么区别，所以觉得是myModule引入方式有问题？\r\n\r\n附myModule的代码：\r\n```javascript\r\nconst myModule = {\r\n    get(key,callbackId){\r\n        this.sender.performCallback(callbackId, key)\r\n    },\r\n    set(key,value,callbackId){\r\n\r\n    },\r\n    remove(key,callbackId){\r\n\r\n    }\r\n};\r\nconst meta = {\r\n    myModule: [{\r\n        name: 'get',\r\n        args: ['string','function']\r\n    },{\r\n        name: 'set',\r\n        args: ['string','string','function']\r\n    },{\r\n        name: 'remove',\r\n        args: ['string','function']\r\n    }]\r\n};\r\nexport default{\r\n    init(Weex){\r\n        Weex.registerApiModule('myModule', myModule, meta)\r\n    }\r\n};\r\n```\r\n\r\n",
+  "closed_by": {
+    "login": "dongnaebi",
+    "id": 6902417,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6902417?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/dongnaebi",
+    "html_url": "https://github.com/dongnaebi",
+    "followers_url": "https://api.github.com/users/dongnaebi/followers",
+    "following_url": "https://api.github.com/users/dongnaebi/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dongnaebi/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/dongnaebi/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/dongnaebi/subscriptions",
+    "organizations_url": "https://api.github.com/users/dongnaebi/orgs",
+    "repos_url": "https://api.github.com/users/dongnaebi/repos",
+    "events_url": "https://api.github.com/users/dongnaebi/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/dongnaebi/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

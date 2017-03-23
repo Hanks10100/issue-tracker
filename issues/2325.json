@@ -206,5 +206,6 @@
   "created_at": "2017-01-18T12:03:29Z",
   "updated_at": "2017-02-10T06:22:40Z",
   "closed_at": null,
-  "body": "如题，Weex调用原生的方法，能不能直接通过WXComponent调用，而不是通过Module调用？感觉组件和Weex的交互还非常不方便。"
+  "body": "如题，Weex调用原生的方法，能不能直接通过WXComponent调用，而不是通过Module调用？感觉组件和Weex的交互还非常不方便。",
+  "closed_by": null
 }

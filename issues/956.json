@@ -234,5 +234,24 @@
   "created_at": "2016-08-08T08:04:58Z",
   "updated_at": "2016-08-19T09:30:58Z",
   "closed_at": "2016-08-19T07:26:02Z",
-  "body": "`display:flex;` 和`postion:fixed`，在游览器和app中的显示效果不同\n\n``` html\n<template>\n  <div>\n\n    <div class='flex'>\n      <div class='flex-item'>\n        <text>1</text>\n      </div>\n      <div class='flex-item'>\n        <text>1</text>\n      </div>\n      <div class='flex-item'>\n        <text>1</text>\n      </div>\n    </div>\n\n    <div class='flex' style='position: fixed; bottom: 0; width: {{$getConfig().env.deviceWidth}}px;'>\n      <div class='flex-item'>\n        <text>2</text>\n      </div>\n      <div class='flex-item'>\n        <text>2</text>\n      </div>\n      <div class='flex-item'>\n        <text>2</text>\n      </div>\n    </div>\n  </div>\n</template>\n\n\n<style>\n  .flex {\n    display: flex;\n    flex-direction: row;\n    border-style: solid;\n    border-width: 1px;\n    border-color: #f00;\n  }\n  .flex-item {\n    flex: 1;\n    border-style: solid;\n    border-width: 1px;\n    border-color: #333;\n  }\n\n</style>\n\n```\n\n游览器效果：\n![qq 20160808160240](https://cloud.githubusercontent.com/assets/7157346/17473204/cc225446-5d81-11e6-9cd9-b5d8ac256160.png)\n\napp效果（android和ios都一样）\n![img_1003](https://cloud.githubusercontent.com/assets/7157346/17473206/cd9cbf00-5d81-11e6-9433-fd2a0a8ff032.PNG)\n"
+  "body": "`display:flex;` 和`postion:fixed`，在游览器和app中的显示效果不同\n\n``` html\n<template>\n  <div>\n\n    <div class='flex'>\n      <div class='flex-item'>\n        <text>1</text>\n      </div>\n      <div class='flex-item'>\n        <text>1</text>\n      </div>\n      <div class='flex-item'>\n        <text>1</text>\n      </div>\n    </div>\n\n    <div class='flex' style='position: fixed; bottom: 0; width: {{$getConfig().env.deviceWidth}}px;'>\n      <div class='flex-item'>\n        <text>2</text>\n      </div>\n      <div class='flex-item'>\n        <text>2</text>\n      </div>\n      <div class='flex-item'>\n        <text>2</text>\n      </div>\n    </div>\n  </div>\n</template>\n\n\n<style>\n  .flex {\n    display: flex;\n    flex-direction: row;\n    border-style: solid;\n    border-width: 1px;\n    border-color: #f00;\n  }\n  .flex-item {\n    flex: 1;\n    border-style: solid;\n    border-width: 1px;\n    border-color: #333;\n  }\n\n</style>\n\n```\n\n游览器效果：\n![qq 20160808160240](https://cloud.githubusercontent.com/assets/7157346/17473204/cc225446-5d81-11e6-9cd9-b5d8ac256160.png)\n\napp效果（android和ios都一样）\n![img_1003](https://cloud.githubusercontent.com/assets/7157346/17473206/cd9cbf00-5d81-11e6-9433-fd2a0a8ff032.PNG)\n",
+  "closed_by": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

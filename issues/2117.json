@@ -37,5 +37,6 @@
   "created_at": "2017-01-03T08:31:26Z",
   "updated_at": "2017-01-03T08:32:15Z",
   "closed_at": null,
-  "body": "没想明白list如何实现多个section，每个section多条数据？demo中没找到类似的代码。\r\n另外，支持list嵌套吗？"
+  "body": "没想明白list如何实现多个section，每个section多条数据？demo中没找到类似的代码。\r\n另外，支持list嵌套吗？",
+  "closed_by": null
 }

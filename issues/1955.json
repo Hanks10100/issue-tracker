@@ -122,5 +122,24 @@
   "created_at": "2016-12-20T05:19:30Z",
   "updated_at": "2016-12-20T06:05:24Z",
   "closed_at": "2016-12-20T06:05:24Z",
-  "body": "**依赖**  weex-toolkit@0.6.4\r\n**环境** Chrome@55.0\r\n\r\n```html\r\n// child module card.we\r\n<template>\r\n  <div class='movie-card-content'>\r\n    <text class='movie-detail-title'>{{title}}</text>\r\n    <image class='movie-content-poster' src={{poster}}></image>\r\n  </div>\r\n</template>\r\n<script>\r\n  module.exports = {\r\n    data: {\r\n      title: null,\r\n      poster: null,\r\n    }\r\n  }\r\n</script>\r\n```\r\n\r\n```html\r\n//parent module index.we\r\n<template>\r\n  <div class='movie-card'>\r\n      <card title='xxx'></card>\r\n  </div>\r\n</template>\r\n```\r\n\r\n![image](https://cloud.githubusercontent.com/assets/13043118/21339023/6fd322bc-c6b6-11e6-9959-004888ab2474.png)\r\n"
+  "body": "**依赖**  weex-toolkit@0.6.4\r\n**环境** Chrome@55.0\r\n\r\n```html\r\n// child module card.we\r\n<template>\r\n  <div class='movie-card-content'>\r\n    <text class='movie-detail-title'>{{title}}</text>\r\n    <image class='movie-content-poster' src={{poster}}></image>\r\n  </div>\r\n</template>\r\n<script>\r\n  module.exports = {\r\n    data: {\r\n      title: null,\r\n      poster: null,\r\n    }\r\n  }\r\n</script>\r\n```\r\n\r\n```html\r\n//parent module index.we\r\n<template>\r\n  <div class='movie-card'>\r\n      <card title='xxx'></card>\r\n  </div>\r\n</template>\r\n```\r\n\r\n![image](https://cloud.githubusercontent.com/assets/13043118/21339023/6fd322bc-c6b6-11e6-9959-004888ab2474.png)\r\n",
+  "closed_by": {
+    "login": "oMaten",
+    "id": 13043118,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/13043118?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/oMaten",
+    "html_url": "https://github.com/oMaten",
+    "followers_url": "https://api.github.com/users/oMaten/followers",
+    "following_url": "https://api.github.com/users/oMaten/following{/other_user}",
+    "gists_url": "https://api.github.com/users/oMaten/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/oMaten/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/oMaten/subscriptions",
+    "organizations_url": "https://api.github.com/users/oMaten/orgs",
+    "repos_url": "https://api.github.com/users/oMaten/repos",
+    "events_url": "https://api.github.com/users/oMaten/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/oMaten/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

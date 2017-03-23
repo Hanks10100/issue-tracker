@@ -154,5 +154,6 @@
   "created_at": "2016-12-20T08:35:12Z",
   "updated_at": "2017-03-01T06:53:51Z",
   "closed_at": null,
-  "body": "\r\n0.6.1 header which will stick to the top when it reaches the top of the screen ，文档上说有这个功能，如果不用list，直接div 设置position 为sticky的话可以做到，但是list 就不行，不用list的话，上拉刷新和小拉刷新在有些机子里会不起作用。有解决方法吗？"
+  "body": "\r\n0.6.1 header which will stick to the top when it reaches the top of the screen ，文档上说有这个功能，如果不用list，直接div 设置position 为sticky的话可以做到，但是list 就不行，不用list的话，上拉刷新和小拉刷新在有些机子里会不起作用。有解决方法吗？",
+  "closed_by": null
 }

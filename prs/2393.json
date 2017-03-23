@@ -130,7 +130,7 @@
     }
   ],
   "created_at": "2017-01-23T09:11:25Z",
-  "updated_at": "2017-03-02T09:12:12Z",
+  "updated_at": "2017-03-17T11:15:54Z",
   "closed_at": null,
   "pull_request": {
     "url": "https://api.github.com/repos/alibaba/weex/pulls/2393",
@@ -138,5 +138,6 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2393.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2393.patch"
   },
-  "body": "修改思路：\r\n1.在WXDomManager的addRule时给每个字体font-family设置加载回调方法LoadCallback\r\n2.字体加载类TypefaceUtil，在Text控件getOrCreateTypeface时，记录下未加载完成字体的WXDomObject的引用mRef\r\n3.字体加载完成后，获取回调接口LoadCallback，在WXDomManager的回调中处理。首先获取Root节点，若存在则更新TypefaceUtil记录的遍历需要更新的WXDomObject节点，并触发Root节点的更新layout(rootDom)\r\n4. 清除TypefaceUtil中记录的WXDomObject的引用mRef"
+  "body": "修改思路：\r\n1.在WXDomManager的addRule时给每个字体font-family设置加载回调方法LoadCallback\r\n2.字体加载类TypefaceUtil，在Text控件getOrCreateTypeface时，记录下未加载完成字体的WXDomObject的引用mRef\r\n3.字体加载完成后，获取回调接口LoadCallback，在WXDomManager的回调中处理。首先获取Root节点，若存在则更新TypefaceUtil记录的遍历需要更新的WXDomObject节点，并触发Root节点的更新layout(rootDom)\r\n4. 清除TypefaceUtil中记录的WXDomObject的引用mRef",
+  "closed_by": null
 }

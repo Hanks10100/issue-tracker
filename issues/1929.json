@@ -94,5 +94,24 @@
   "created_at": "2016-12-16T20:32:45Z",
   "updated_at": "2016-12-23T23:42:15Z",
   "closed_at": "2016-12-23T23:42:15Z",
-  "body": "Is there any pre-made android wrapper apk?, so that I just need to put some configuration file to load .we from my server, change the icon and app name, and then ship it. \r\n\r\nCurrent playground apk is great for showcasing weex, but it cannot start with my .we. \r\n\r\nI think it will greatly simplify weex development / deployment.\r\n\r\n \r\n"
+  "body": "Is there any pre-made android wrapper apk?, so that I just need to put some configuration file to load .we from my server, change the icon and app name, and then ship it. \r\n\r\nCurrent playground apk is great for showcasing weex, but it cannot start with my .we. \r\n\r\nI think it will greatly simplify weex development / deployment.\r\n\r\n \r\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -173,10 +173,39 @@
       "created_at": "2017-02-14T02:54:00Z",
       "updated_at": "2017-02-14T02:54:00Z",
       "body": "weex官方提供的modal其实只是个例子，自己项目中应该需要自己实现一波吧，我们是自己实现了弹窗类的module"
+    },
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/288610343",
+      "html_url": "https://github.com/alibaba/weex/issues/2504#issuecomment-288610343",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/2504",
+      "id": 288610343,
+      "user": {
+        "login": "xubodreamsky",
+        "id": 4396150,
+        "avatar_url": "https://avatars2.githubusercontent.com/u/4396150?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/xubodreamsky",
+        "html_url": "https://github.com/xubodreamsky",
+        "followers_url": "https://api.github.com/users/xubodreamsky/followers",
+        "following_url": "https://api.github.com/users/xubodreamsky/following{/other_user}",
+        "gists_url": "https://api.github.com/users/xubodreamsky/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/xubodreamsky/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/xubodreamsky/subscriptions",
+        "organizations_url": "https://api.github.com/users/xubodreamsky/orgs",
+        "repos_url": "https://api.github.com/users/xubodreamsky/repos",
+        "events_url": "https://api.github.com/users/xubodreamsky/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/xubodreamsky/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2017-03-23T03:53:01Z",
+      "updated_at": "2017-03-23T03:53:01Z",
+      "body": "html5 的 modal 弹框太小了"
     }
   ],
   "created_at": "2017-02-10T02:11:12Z",
-  "updated_at": "2017-02-14T02:54:00Z",
+  "updated_at": "2017-03-23T03:53:01Z",
   "closed_at": null,
-  "body": "苹果7 iOS 10, 在web下显示，但在ios下不显示，其它像alert类的都能显示\r\n"
+  "body": "苹果7 iOS 10, 在web下显示，但在ios下不显示，其它像alert类的都能显示\r\n",
+  "closed_by": null
 }

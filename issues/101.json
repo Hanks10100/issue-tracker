@@ -94,5 +94,24 @@
   "created_at": "2016-04-27T06:22:14Z",
   "updated_at": "2016-08-08T06:20:47Z",
   "closed_at": "2016-04-27T08:33:35Z",
-  "body": "Strange issue. Works on Mac but fails on Windows.\n\n``` bash\nTemplateError: Error compiling template \"syntax/main.md\": (E:\\workspace\\weex-dev\\doc\\syntax\\main.md) [Line 81, Column 18]\n  Error: Unable to call `getTitle`, which is undefined or falsey\n```\n"
+  "body": "Strange issue. Works on Mac but fails on Windows.\n\n``` bash\nTemplateError: Error compiling template \"syntax/main.md\": (E:\\workspace\\weex-dev\\doc\\syntax\\main.md) [Line 81, Column 18]\n  Error: Unable to call `getTitle`, which is undefined or falsey\n```\n",
+  "closed_by": {
+    "login": "airyland",
+    "id": 559179,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/559179?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/airyland",
+    "html_url": "https://github.com/airyland",
+    "followers_url": "https://api.github.com/users/airyland/followers",
+    "following_url": "https://api.github.com/users/airyland/following{/other_user}",
+    "gists_url": "https://api.github.com/users/airyland/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/airyland/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/airyland/subscriptions",
+    "organizations_url": "https://api.github.com/users/airyland/orgs",
+    "repos_url": "https://api.github.com/users/airyland/repos",
+    "events_url": "https://api.github.com/users/airyland/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/airyland/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

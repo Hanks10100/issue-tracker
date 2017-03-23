@@ -122,5 +122,6 @@
   "created_at": "2017-01-12T14:00:33Z",
   "updated_at": "2017-02-27T14:42:08Z",
   "closed_at": null,
-  "body": "最新版weex (0.9.5) 使用 `weex.requireModule(x)` 的方式来引用模块，从前端模块化开发角度来看似乎原来的设计: `var x = require('@weex-module/x')` / `import x from '@weex-module/x'` 似乎更合理一些。请问weex未来会移除旧版的引用方法吗？"
+  "body": "最新版weex (0.9.5) 使用 `weex.requireModule(x)` 的方式来引用模块，从前端模块化开发角度来看似乎原来的设计: `var x = require('@weex-module/x')` / `import x from '@weex-module/x'` 似乎更合理一些。请问weex未来会移除旧版的引用方法吗？",
+  "closed_by": null
 }

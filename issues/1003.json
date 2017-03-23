@@ -122,5 +122,24 @@
   "created_at": "2016-08-16T09:32:26Z",
   "updated_at": "2016-10-24T08:23:40Z",
   "closed_at": "2016-10-24T08:23:40Z",
-  "body": "首先，业务代码中 使用一个表达式计算style的部分值是很常见的，而进行计算的时候就非常容易出现一些非法值如NaN（undefined参与运算）Infinity（除0）。\n那么第一个问题是，【weex如何处理width 和height等于NaN的情况？】\n\n先描述下一个具体场景，某应用的一个页面执行好好的。但是使用weex devtool调试后却出现部分样式出错。经过排查是由于两点问题。\n1、业务代码中 计算withd/height时得到了NaN。（然而，用此非法值渲染时 竟然得到正常页面结果，这也是为什么有上述问题，猜测是NaN的时候 相当于auto/initial？）\n2、weex devtool调试时，是通过类似JSON RPC的方式进行js与native通信的的。JSON不支持NaN,因此js执行环境(chrome v8)跟native通信时,NaN被转换成null，导致native渲染异常。（ios端代码分析，witdh等值为null时，会报错，同时会把这个值修正成0。这个应该是引起渲染错误的原因）\n\n那么 关于上述案例如何处理方案就需要讨论了。\n1、devtool 对NaN特殊编码，相当于让JSON支持NaN，native不变，将错就错，至少让weex devtool表现跟native一致。\n2、把这种非法值扼杀于摇篮中，由js framework层（或者devtool的js runtime层）进行检测 style的非法值，发现则直接抛异常。\n3、其他？\n\n个人觉得第二种方法可取。因为在上述案例中，NaN可能是运气好，没出现问题。那如果某次NaN运气不好引起了样式问题呢？此时无论devtool调试器还是 weex native的log 都无法提供任何的错误提示，从而无法引导用户找到bug所在。\n"
+  "body": "首先，业务代码中 使用一个表达式计算style的部分值是很常见的，而进行计算的时候就非常容易出现一些非法值如NaN（undefined参与运算）Infinity（除0）。\n那么第一个问题是，【weex如何处理width 和height等于NaN的情况？】\n\n先描述下一个具体场景，某应用的一个页面执行好好的。但是使用weex devtool调试后却出现部分样式出错。经过排查是由于两点问题。\n1、业务代码中 计算withd/height时得到了NaN。（然而，用此非法值渲染时 竟然得到正常页面结果，这也是为什么有上述问题，猜测是NaN的时候 相当于auto/initial？）\n2、weex devtool调试时，是通过类似JSON RPC的方式进行js与native通信的的。JSON不支持NaN,因此js执行环境(chrome v8)跟native通信时,NaN被转换成null，导致native渲染异常。（ios端代码分析，witdh等值为null时，会报错，同时会把这个值修正成0。这个应该是引起渲染错误的原因）\n\n那么 关于上述案例如何处理方案就需要讨论了。\n1、devtool 对NaN特殊编码，相当于让JSON支持NaN，native不变，将错就错，至少让weex devtool表现跟native一致。\n2、把这种非法值扼杀于摇篮中，由js framework层（或者devtool的js runtime层）进行检测 style的非法值，发现则直接抛异常。\n3、其他？\n\n个人觉得第二种方法可取。因为在上述案例中，NaN可能是运气好，没出现问题。那如果某次NaN运气不好引起了样式问题呢？此时无论devtool调试器还是 weex native的log 都无法提供任何的错误提示，从而无法引导用户找到bug所在。\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

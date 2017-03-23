@@ -43,5 +43,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2613.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2613.patch"
   },
-  "body": ""
+  "body": "",
+  "closed_by": {
+    "login": "DoranYun",
+    "id": 16359169,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/16359169?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/DoranYun",
+    "html_url": "https://github.com/DoranYun",
+    "followers_url": "https://api.github.com/users/DoranYun/followers",
+    "following_url": "https://api.github.com/users/DoranYun/following{/other_user}",
+    "gists_url": "https://api.github.com/users/DoranYun/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/DoranYun/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/DoranYun/subscriptions",
+    "organizations_url": "https://api.github.com/users/DoranYun/orgs",
+    "repos_url": "https://api.github.com/users/DoranYun/repos",
+    "events_url": "https://api.github.com/users/DoranYun/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/DoranYun/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

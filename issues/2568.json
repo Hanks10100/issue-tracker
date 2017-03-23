@@ -104,5 +104,24 @@
   "created_at": "2017-02-15T01:29:27Z",
   "updated_at": "2017-02-15T15:33:31Z",
   "closed_at": "2017-02-15T15:33:22Z",
-  "body": "**# bug:**\r\nvue2.0 和 weex 语法的差异，vue2.0没有支持auto-play这样中划线的写法。\r\ntemplate里面的，写成auto-play无效，autoPlay有效。"
+  "body": "**# bug:**\r\nvue2.0 和 weex 语法的差异，vue2.0没有支持auto-play这样中划线的写法。\r\ntemplate里面的，写成auto-play无效，autoPlay有效。",
+  "closed_by": {
+    "login": "Hanks10100",
+    "id": 8401776,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8401776?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Hanks10100",
+    "html_url": "https://github.com/Hanks10100",
+    "followers_url": "https://api.github.com/users/Hanks10100/followers",
+    "following_url": "https://api.github.com/users/Hanks10100/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Hanks10100/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Hanks10100/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Hanks10100/subscriptions",
+    "organizations_url": "https://api.github.com/users/Hanks10100/orgs",
+    "repos_url": "https://api.github.com/users/Hanks10100/repos",
+    "events_url": "https://api.github.com/users/Hanks10100/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Hanks10100/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

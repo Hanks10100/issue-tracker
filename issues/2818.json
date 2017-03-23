@@ -89,10 +89,39 @@
       "created_at": "2017-03-10T01:44:23Z",
       "updated_at": "2017-03-10T01:44:23Z",
       "body": "@jinyue-rdj 怎么使用的呢？求教"
+    },
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/287956082",
+      "html_url": "https://github.com/alibaba/weex/issues/2818#issuecomment-287956082",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/2818",
+      "id": 287956082,
+      "user": {
+        "login": "xubodreamsky",
+        "id": 4396150,
+        "avatar_url": "https://avatars2.githubusercontent.com/u/4396150?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/xubodreamsky",
+        "html_url": "https://github.com/xubodreamsky",
+        "followers_url": "https://api.github.com/users/xubodreamsky/followers",
+        "following_url": "https://api.github.com/users/xubodreamsky/following{/other_user}",
+        "gists_url": "https://api.github.com/users/xubodreamsky/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/xubodreamsky/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/xubodreamsky/subscriptions",
+        "organizations_url": "https://api.github.com/users/xubodreamsky/orgs",
+        "repos_url": "https://api.github.com/users/xubodreamsky/repos",
+        "events_url": "https://api.github.com/users/xubodreamsky/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/xubodreamsky/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2017-03-21T02:15:10Z",
+      "updated_at": "2017-03-21T02:15:10Z",
+      "body": "如何使用富文本？"
     }
   ],
   "created_at": "2017-02-28T10:49:05Z",
-  "updated_at": "2017-03-10T01:44:23Z",
+  "updated_at": "2017-03-21T02:15:11Z",
   "closed_at": null,
-  "body": "上次说 0.10 上线富文本，已经等了这么久了，什么时候能才上呀。\r\n\r\niOS list 的首次渲染性能稍差，这个会想要优化么"
+  "body": "上次说 0.10 上线富文本，已经等了这么久了，什么时候能才上呀。\r\n\r\niOS list 的首次渲染性能稍差，这个会想要优化么",
+  "closed_by": null
 }

@@ -243,5 +243,24 @@
   "created_at": "2016-04-24T10:23:54Z",
   "updated_at": "2016-10-24T08:06:03Z",
   "closed_at": "2016-10-24T08:06:03Z",
-  "body": "The built-in components should accept `label` property:\n\n```\n<div label=\"Love Weex\">\n<image label=\"Weex Logo\">\n```\n"
+  "body": "The built-in components should accept `label` property:\n\n```\n<div label=\"Love Weex\">\n<image label=\"Weex Logo\">\n```\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

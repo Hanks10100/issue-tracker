@@ -151,5 +151,24 @@
   "created_at": "2016-08-01T13:15:35Z",
   "updated_at": "2016-08-03T14:03:27Z",
   "closed_at": "2016-08-03T14:03:27Z",
-  "body": "今天在改一个线上页面时发生了一个未预料到的bug。我精简了一下复现bug的代码：\n\n```\n<template>\n  <container if=\"{{visible}}\" style=\"background-color: height: 100; width: 750;\">\n  </container>\n</template>  \n<script>\n  module.exports = {\n    data: {\n      visible: true\n    }\n  }\n</script>\n```\n\n上述代码由于在root元素上设置了if逻辑，导致js-framework 处理不了这种异常逻辑，在ios的某个版本上出现了crash。\n后面如何避免类似bug出现：\n1. 首先该bug已经反馈给weex开发团队，后面会完善framework的异常处理机制，同时更新文档，说明尽量在root上不要设置if、repeat这样的属性。\n2. 后面涉及到修改root属性，或者变动root的需要慎重（这次bug由于变动root的层级引起），需要对旧版本的客户端进行回归测（其实其他的一些小改动最好也都经行版本回归）\n3. 希望weex开发团队能给出一些除语法文档之外的，类似注意事项的说明，避免业务踩坑。\n"
+  "body": "今天在改一个线上页面时发生了一个未预料到的bug。我精简了一下复现bug的代码：\n\n```\n<template>\n  <container if=\"{{visible}}\" style=\"background-color: height: 100; width: 750;\">\n  </container>\n</template>  \n<script>\n  module.exports = {\n    data: {\n      visible: true\n    }\n  }\n</script>\n```\n\n上述代码由于在root元素上设置了if逻辑，导致js-framework 处理不了这种异常逻辑，在ios的某个版本上出现了crash。\n后面如何避免类似bug出现：\n1. 首先该bug已经反馈给weex开发团队，后面会完善framework的异常处理机制，同时更新文档，说明尽量在root上不要设置if、repeat这样的属性。\n2. 后面涉及到修改root属性，或者变动root的需要慎重（这次bug由于变动root的层级引起），需要对旧版本的客户端进行回归测（其实其他的一些小改动最好也都经行版本回归）\n3. 希望weex开发团队能给出一些除语法文档之外的，类似注意事项的说明，避免业务踩坑。\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

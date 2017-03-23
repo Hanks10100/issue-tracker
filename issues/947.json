@@ -140,5 +140,24 @@
   "created_at": "2016-08-05T11:01:02Z",
   "updated_at": "2016-08-26T06:10:44Z",
   "closed_at": "2016-08-26T06:10:44Z",
-  "body": "目前$getConfig().env只提供了设备高度的获取，希望能提供一个 视口高度 获取的api，因为某些应用场景下需要用到视口高度。比如：不可滚动的全屏页面。\n"
+  "body": "目前$getConfig().env只提供了设备高度的获取，希望能提供一个 视口高度 获取的api，因为某些应用场景下需要用到视口高度。比如：不可滚动的全屏页面。\n",
+  "closed_by": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

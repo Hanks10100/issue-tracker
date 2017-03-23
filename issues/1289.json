@@ -37,5 +37,24 @@
   "created_at": "2016-09-22T09:24:56Z",
   "updated_at": "2016-09-22T09:25:22Z",
   "closed_at": "2016-09-22T09:25:22Z",
-  "body": "<!--\n0. It's ***RECOMMENDED*** to [submit PR](https://github.com/alibaba/weex/pulls) for typo, new demo or tiny bugfix.\n0. If this's a ***BUG***, pls provide: course repetition, error/crash log, device model, OS version, App version (playground or other apps).\n0. If this's a ***FEATURE***, pls provide: details, pseudo codes if necessary.\n\n---\n\n（请在***提交***前删除这段描述）\n\n0. 我们***推荐***小问题直接[提 PR](https://github.com/alibaba/weex/pulls)，如错别字、新 demo 或 bugfix。\n0. 如果是 ***Bug***，请提供：复现步骤（推荐有截图）、error/crash log、设备型号、OS 版本、App 版本（playground 版本或自己的 app）。\n0. 如果是***新需求***，请提供：详细描述、应用场景、适当的伪代码（如有）。\n-->\n\n![](https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_white_fe6da1ec.png)\n"
+  "body": "<!--\n0. It's ***RECOMMENDED*** to [submit PR](https://github.com/alibaba/weex/pulls) for typo, new demo or tiny bugfix.\n0. If this's a ***BUG***, pls provide: course repetition, error/crash log, device model, OS version, App version (playground or other apps).\n0. If this's a ***FEATURE***, pls provide: details, pseudo codes if necessary.\n\n---\n\n（请在***提交***前删除这段描述）\n\n0. 我们***推荐***小问题直接[提 PR](https://github.com/alibaba/weex/pulls)，如错别字、新 demo 或 bugfix。\n0. 如果是 ***Bug***，请提供：复现步骤（推荐有截图）、error/crash log、设备型号、OS 版本、App 版本（playground 版本或自己的 app）。\n0. 如果是***新需求***，请提供：详细描述、应用场景、适当的伪代码（如有）。\n-->\n\n![](https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_white_fe6da1ec.png)\n",
+  "closed_by": {
+    "login": "whihail",
+    "id": 7128216,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/7128216?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/whihail",
+    "html_url": "https://github.com/whihail",
+    "followers_url": "https://api.github.com/users/whihail/followers",
+    "following_url": "https://api.github.com/users/whihail/following{/other_user}",
+    "gists_url": "https://api.github.com/users/whihail/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/whihail/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/whihail/subscriptions",
+    "organizations_url": "https://api.github.com/users/whihail/orgs",
+    "repos_url": "https://api.github.com/users/whihail/repos",
+    "events_url": "https://api.github.com/users/whihail/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/whihail/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

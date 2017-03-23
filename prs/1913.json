@@ -115,5 +115,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1913.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1913.patch"
   },
-  "body": "add component `<slider-neighbor>`\r\n- `neighbor-space`: 0 - 375\r\n- `neighbor-alpha`: 0 - 1\r\n- `neighbor-scale`: 0 - 1"
+  "body": "add component `<slider-neighbor>`\r\n- `neighbor-space`: 0 - 375\r\n- `neighbor-alpha`: 0 - 1\r\n- `neighbor-scale`: 0 - 1",
+  "closed_by": {
+    "login": "Hanks10100",
+    "id": 8401776,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8401776?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Hanks10100",
+    "html_url": "https://github.com/Hanks10100",
+    "followers_url": "https://api.github.com/users/Hanks10100/followers",
+    "following_url": "https://api.github.com/users/Hanks10100/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Hanks10100/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Hanks10100/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Hanks10100/subscriptions",
+    "organizations_url": "https://api.github.com/users/Hanks10100/orgs",
+    "repos_url": "https://api.github.com/users/Hanks10100/repos",
+    "events_url": "https://api.github.com/users/Hanks10100/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Hanks10100/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

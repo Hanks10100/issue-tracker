@@ -94,5 +94,24 @@
   "created_at": "2016-10-11T02:12:19Z",
   "updated_at": "2016-10-24T13:35:18Z",
   "closed_at": "2016-10-24T13:35:17Z",
-  "body": "在少于750宽度的屏幕下，字体、间距、宽度、高度变小这种问题怎么解决？在5s看到页面是变小的，在6plus又是变大的，导致app的weex页面跟原生其他页面不一致。。。\nvar height = 88 \\* 750 / env.deviceWidth 这样写可以适配，但是，这样的话每个样式都需要定义一个变量，然后计算一次，这样很麻烦。有没有统一的处理？.we文件还是按正常的写多少px，然后有个预处理的公式进行统一转换？css的预处理？求助啊！\n"
+  "body": "在少于750宽度的屏幕下，字体、间距、宽度、高度变小这种问题怎么解决？在5s看到页面是变小的，在6plus又是变大的，导致app的weex页面跟原生其他页面不一致。。。\nvar height = 88 \\* 750 / env.deviceWidth 这样写可以适配，但是，这样的话每个样式都需要定义一个变量，然后计算一次，这样很麻烦。有没有统一的处理？.we文件还是按正常的写多少px，然后有个预处理的公式进行统一转换？css的预处理？求助啊！\n",
+  "closed_by": {
+    "login": "alext1981",
+    "id": 8254442,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8254442?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/alext1981",
+    "html_url": "https://github.com/alext1981",
+    "followers_url": "https://api.github.com/users/alext1981/followers",
+    "following_url": "https://api.github.com/users/alext1981/following{/other_user}",
+    "gists_url": "https://api.github.com/users/alext1981/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/alext1981/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/alext1981/subscriptions",
+    "organizations_url": "https://api.github.com/users/alext1981/orgs",
+    "repos_url": "https://api.github.com/users/alext1981/repos",
+    "events_url": "https://api.github.com/users/alext1981/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/alext1981/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -202,5 +202,24 @@
   "created_at": "2016-05-23T10:39:08Z",
   "updated_at": "2016-10-24T08:11:23Z",
   "closed_at": "2016-10-24T08:11:23Z",
-  "body": "# Lifecycle\n## workflow\n### createInstance\n\n![createInstance](http://gw.alicdn.com/mt/TB1NL3tJVXXXXaLXVXXXXXXXXXX-1024-768.jpg)\n### refreshInstance\n\n![refreshInstance](http://gw.alicdn.com/mt/TB1HsoQJVXXXXcyXXXXXXXXXXXX-1024-768.jpg)\n### fireEvent/callback\n\n![fireEvent/callback](http://gw.alicdn.com/mt/TB1BKUFJVXXXXXIXFXXXXXXXXXX-1024-768.jpg)\n### destoryInstance\n\n![destoryInstance](http://gw.alicdn.com/mt/TB1je7BJVXXXXbyXFXXXXXXXXXX-1024-768.jpg)\n### navigate\n\n![navigate](http://gw.alicdn.com/mt/TB1YTwmJVXXXXb6XVXXXXXXXXXX-1024-768.jpg)\n## The API for Native\n\n``` javascript\n/**\n * @param {string} instanceId - the instance id\n * @param {string} name - the notified name(appear/disppear/destory/created/updated/refreshed)\n * @param {object} options - any options\n */\nglobal.notifyInstance(instanceId, name, options)\n```\n## The API in DSL\n\n``` javascript\n/**\n * @param {string} name - the notified name\n * @param {function} callback - call when notified\n */\nvm.$observe(name, callback)\n```\n"
+  "body": "# Lifecycle\n## workflow\n### createInstance\n\n![createInstance](http://gw.alicdn.com/mt/TB1NL3tJVXXXXaLXVXXXXXXXXXX-1024-768.jpg)\n### refreshInstance\n\n![refreshInstance](http://gw.alicdn.com/mt/TB1HsoQJVXXXXcyXXXXXXXXXXXX-1024-768.jpg)\n### fireEvent/callback\n\n![fireEvent/callback](http://gw.alicdn.com/mt/TB1BKUFJVXXXXXIXFXXXXXXXXXX-1024-768.jpg)\n### destoryInstance\n\n![destoryInstance](http://gw.alicdn.com/mt/TB1je7BJVXXXXbyXFXXXXXXXXXX-1024-768.jpg)\n### navigate\n\n![navigate](http://gw.alicdn.com/mt/TB1YTwmJVXXXXb6XVXXXXXXXXXX-1024-768.jpg)\n## The API for Native\n\n``` javascript\n/**\n * @param {string} instanceId - the instance id\n * @param {string} name - the notified name(appear/disppear/destory/created/updated/refreshed)\n * @param {object} options - any options\n */\nglobal.notifyInstance(instanceId, name, options)\n```\n## The API in DSL\n\n``` javascript\n/**\n * @param {string} name - the notified name\n * @param {function} callback - call when notified\n */\nvm.$observe(name, callback)\n```\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

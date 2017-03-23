@@ -132,5 +132,24 @@
   "created_at": "2017-01-22T09:36:23Z",
   "updated_at": "2017-01-23T03:17:25Z",
   "closed_at": "2017-01-23T03:17:25Z",
-  "body": "https://weex-project.io/cn/references/ios-apis.html\r\n\r\n> 降级使用\r\n> Weex 处于发展阶段会增加一些新的特性和功能，但是这些新的特性和功能都必须升级 SDK 才能实现，对于没有升级的应用应该怎么处理呢？可以使用降级功能。\r\n> \r\n> 所谓降级功能就是 Weex 无法运行的版本或者手机，可以用 Weex h5 来代替。\r\n> \r\n> Native 端可以通过接口 IWXRenderListener 中的 onException 方法进行处理，如果是主动降级 errCode 是以“|”分割的字符。“|”前面的字符为1表示主动降级，Native 端可以跳转到对应的 H5 页面。或者用其他的方式提示用户当前环境不支持 Weex。\r\n\r\n这个是Android的才对吧"
+  "body": "https://weex-project.io/cn/references/ios-apis.html\r\n\r\n> 降级使用\r\n> Weex 处于发展阶段会增加一些新的特性和功能，但是这些新的特性和功能都必须升级 SDK 才能实现，对于没有升级的应用应该怎么处理呢？可以使用降级功能。\r\n> \r\n> 所谓降级功能就是 Weex 无法运行的版本或者手机，可以用 Weex h5 来代替。\r\n> \r\n> Native 端可以通过接口 IWXRenderListener 中的 onException 方法进行处理，如果是主动降级 errCode 是以“|”分割的字符。“|”前面的字符为1表示主动降级，Native 端可以跳转到对应的 H5 页面。或者用其他的方式提示用户当前环境不支持 Weex。\r\n\r\n这个是Android的才对吧",
+  "closed_by": {
+    "login": "DoranYun",
+    "id": 16359169,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/16359169?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/DoranYun",
+    "html_url": "https://github.com/DoranYun",
+    "followers_url": "https://api.github.com/users/DoranYun/followers",
+    "following_url": "https://api.github.com/users/DoranYun/following{/other_user}",
+    "gists_url": "https://api.github.com/users/DoranYun/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/DoranYun/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/DoranYun/subscriptions",
+    "organizations_url": "https://api.github.com/users/DoranYun/orgs",
+    "repos_url": "https://api.github.com/users/DoranYun/repos",
+    "events_url": "https://api.github.com/users/DoranYun/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/DoranYun/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

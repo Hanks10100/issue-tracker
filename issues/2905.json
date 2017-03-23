@@ -37,5 +37,6 @@
   "created_at": "2017-03-10T09:16:32Z",
   "updated_at": "2017-03-10T09:16:32Z",
   "closed_at": null,
-  "body": "<!--\r\n\r\n注意：Weex 项目已经迁移至 Apache 基金会，为了让社区更聚焦，我们将不会受理 **2017年3月13号** 以后新创建的issue\r\n欢迎大家来 Apache 邮件组发表您的观点 (英文)\r\nhttp://mail-archives.apache.org/mod_mbox/#weex.incubator\r\n\r\n如果您对英文交流存在障碍，也可以来 https://segmentfault.com/t/weex\r\n\r\n-->\r\n使用vue编写的子组件在使用v-for进行列表渲染时候会出现页面一片空白的现象，并且没有报错信息出现。\r\n同样的embed这个native标签也有同样的问题"
+  "body": "<!--\r\n\r\n注意：Weex 项目已经迁移至 Apache 基金会，为了让社区更聚焦，我们将不会受理 **2017年3月13号** 以后新创建的issue\r\n欢迎大家来 Apache 邮件组发表您的观点 (英文)\r\nhttp://mail-archives.apache.org/mod_mbox/#weex.incubator\r\n\r\n如果您对英文交流存在障碍，也可以来 https://segmentfault.com/t/weex\r\n\r\n-->\r\n使用vue编写的子组件在使用v-for进行列表渲染时候会出现页面一片空白的现象，并且没有报错信息出现。\r\n同样的embed这个native标签也有同样的问题",
+  "closed_by": null
 }

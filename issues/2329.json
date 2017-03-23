@@ -160,5 +160,6 @@
   "created_at": "2017-01-19T05:50:12Z",
   "updated_at": "2017-01-23T02:13:58Z",
   "closed_at": null,
-  "body": "we里定义了id，但是不知道和最终渲染出来的 控件属性的映射关系，使用UiAutomatorviewer抓取元素的resource-id为空，请教下如何能够实现增加resource-id或者name等？另外weex自动化采用何种自动化工具比较好？"
+  "body": "we里定义了id，但是不知道和最终渲染出来的 控件属性的映射关系，使用UiAutomatorviewer抓取元素的resource-id为空，请教下如何能够实现增加resource-id或者name等？另外weex自动化采用何种自动化工具比较好？",
+  "closed_by": null
 }

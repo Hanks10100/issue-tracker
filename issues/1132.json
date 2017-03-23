@@ -244,5 +244,24 @@
   "created_at": "2016-09-02T02:07:35Z",
   "updated_at": "2016-09-07T09:29:54Z",
   "closed_at": "2016-09-07T09:29:54Z",
-  "body": "1.我在使用当前版本的Android SDK ，AbstractEditComponent 这个抽象类 并没有对 Android 中的Gravity.START 进行支持。遇到高度值很大的textarea，文字输入永远都是Gravity.CENTER。这导致我无法将光标设置到文本框的左上角。\n我现在的解决方案是在AbstractEditComponent 抽象类中增加以下方法。\nAndroid \n\n``` java\n@WXComponentProp(name = \"gravity\")\n  public void setGravity(String gravity) {\n    if (\"start\".equals(gravity)){\n          ((EditText) mHost).setGravity(Gravity.START);\n      }\n  }\n```\n\nWeex 中使用:\n\n``` html\n <textarea type=\"text\" rows=\"10\"  gravity=\"start\"  placeholder=\"在这里你可以吐槽我们,也可以描述你期待的功能(500字以内)\" autofocus=\"true\"\n                      style=\"background-color: #0000f6;width:{{deviceW}};margin: 20;\"></textarea>\n```\n\n2.我本来想通过继承TextArea这个类，但是将我的子类注册成为一个组件时，并不管用，什么都不显示,我可否能够在不修改上层代码的同时，实现这个功能？\n"
+  "body": "1.我在使用当前版本的Android SDK ，AbstractEditComponent 这个抽象类 并没有对 Android 中的Gravity.START 进行支持。遇到高度值很大的textarea，文字输入永远都是Gravity.CENTER。这导致我无法将光标设置到文本框的左上角。\n我现在的解决方案是在AbstractEditComponent 抽象类中增加以下方法。\nAndroid \n\n``` java\n@WXComponentProp(name = \"gravity\")\n  public void setGravity(String gravity) {\n    if (\"start\".equals(gravity)){\n          ((EditText) mHost).setGravity(Gravity.START);\n      }\n  }\n```\n\nWeex 中使用:\n\n``` html\n <textarea type=\"text\" rows=\"10\"  gravity=\"start\"  placeholder=\"在这里你可以吐槽我们,也可以描述你期待的功能(500字以内)\" autofocus=\"true\"\n                      style=\"background-color: #0000f6;width:{{deviceW}};margin: 20;\"></textarea>\n```\n\n2.我本来想通过继承TextArea这个类，但是将我的子类注册成为一个组件时，并不管用，什么都不显示,我可否能够在不修改上层代码的同时，实现这个功能？\n",
+  "closed_by": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

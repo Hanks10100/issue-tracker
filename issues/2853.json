@@ -66,5 +66,6 @@
   "created_at": "2017-03-05T15:00:29Z",
   "updated_at": "2017-03-08T06:47:43Z",
   "closed_at": null,
-  "body": "weex-toolkit已经安装了，不是说包括devtool的吗？当我运行 weex debug的时候，提示\r\n\r\n`This command need to install weex-devtool. Install now? (Y/n) `\r\n\r\n我确认安装，结果权限不对，我要用sudo装的，这种情况怎么解决？？另外我试着重新sudo npm install weex-devtool -g，运行weex-debug还是一样的提示，什么鬼？？！！！"
+  "body": "weex-toolkit已经安装了，不是说包括devtool的吗？当我运行 weex debug的时候，提示\r\n\r\n`This command need to install weex-devtool. Install now? (Y/n) `\r\n\r\n我确认安装，结果权限不对，我要用sudo装的，这种情况怎么解决？？另外我试着重新sudo npm install weex-devtool -g，运行weex-debug还是一样的提示，什么鬼？？！！！",
+  "closed_by": null
 }

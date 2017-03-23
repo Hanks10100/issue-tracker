@@ -66,5 +66,24 @@
   "created_at": "2017-02-16T08:06:12Z",
   "updated_at": "2017-02-16T08:12:49Z",
   "closed_at": "2017-02-16T08:12:49Z",
-  "body": "刚刚还好的 什么都没改 突然报这个错误\r\n\r\n\r\n![image](https://cloud.githubusercontent.com/assets/14103130/23012516/9b2052ae-f461-11e6-81fc-f96771ec37dc.png)\r\n\r\n\r\n没理解怎么会这样 有同样出现过的嘛\r\n屏幕白屏"
+  "body": "刚刚还好的 什么都没改 突然报这个错误\r\n\r\n\r\n![image](https://cloud.githubusercontent.com/assets/14103130/23012516/9b2052ae-f461-11e6-81fc-f96771ec37dc.png)\r\n\r\n\r\n没理解怎么会这样 有同样出现过的嘛\r\n屏幕白屏",
+  "closed_by": {
+    "login": "xiaoqi951109",
+    "id": 14103130,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/14103130?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/xiaoqi951109",
+    "html_url": "https://github.com/xiaoqi951109",
+    "followers_url": "https://api.github.com/users/xiaoqi951109/followers",
+    "following_url": "https://api.github.com/users/xiaoqi951109/following{/other_user}",
+    "gists_url": "https://api.github.com/users/xiaoqi951109/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/xiaoqi951109/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/xiaoqi951109/subscriptions",
+    "organizations_url": "https://api.github.com/users/xiaoqi951109/orgs",
+    "repos_url": "https://api.github.com/users/xiaoqi951109/repos",
+    "events_url": "https://api.github.com/users/xiaoqi951109/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/xiaoqi951109/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

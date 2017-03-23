@@ -74,5 +74,24 @@
   "created_at": "2016-09-03T05:23:19Z",
   "updated_at": "2016-10-24T08:24:41Z",
   "closed_at": "2016-10-24T08:24:41Z",
-  "body": "假设有5个页面 ABCDE\n有如下操作\n\nA-push-B-push-C-push-E-push-B \n\n此时如果在B页面执行POP操作（或使用安卓返回键） 会造成B-E-C-B-A的返回\n\n如何能提供某种方法让B页面能够直接返回到A页面\n"
+  "body": "假设有5个页面 ABCDE\n有如下操作\n\nA-push-B-push-C-push-E-push-B \n\n此时如果在B页面执行POP操作（或使用安卓返回键） 会造成B-E-C-B-A的返回\n\n如何能提供某种方法让B页面能够直接返回到A页面\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

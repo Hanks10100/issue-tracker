@@ -166,5 +166,24 @@
   "created_at": "2016-04-28T10:40:48Z",
   "updated_at": "2016-10-24T08:08:48Z",
   "closed_at": "2016-10-24T08:08:48Z",
-  "body": "在一些复杂的交互场景中，例如网易新闻中的「点击文章中的视频占位图，展开播放视频」的效果，需要获取到当前点击的占位图的位置，因此需要WEEX在点击eventTarget的时候通过类似DOM操作getBoundingClientRect来获取元素距离屏幕视野top和left的位置值，然后再创建动画，因此，需要weex提供类似getBoundingClientRect这样的api，返回被点击元素的top,left，width，height的值\n"
+  "body": "在一些复杂的交互场景中，例如网易新闻中的「点击文章中的视频占位图，展开播放视频」的效果，需要获取到当前点击的占位图的位置，因此需要WEEX在点击eventTarget的时候通过类似DOM操作getBoundingClientRect来获取元素距离屏幕视野top和left的位置值，然后再创建动画，因此，需要weex提供类似getBoundingClientRect这样的api，返回被点击元素的top,left，width，height的值\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

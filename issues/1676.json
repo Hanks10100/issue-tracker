@@ -66,5 +66,24 @@
   "created_at": "2016-11-21T02:07:55Z",
   "updated_at": "2016-11-21T03:55:51Z",
   "closed_at": "2016-11-21T03:55:51Z",
-  "body": "在Vue中可以使用以下方法：\r\n```\r\nVue.filter(\"statusLabel\" , function(value){\r\n  switch(value)\r\n  {\r\n   case 0:return \"未开始\";\r\n  case 1:return \"正在进行\";\r\n  case 2:return \"已结束\";\r\n default:return \"未开始\";\r\n}\r\n});\r\n```\r\n在使用的时候只要`v-text=\"list.status | statusLabel\"\r\n`\r\n即可将状态转换为文本。\r\n请问在weex是否有这样的功能，如果有，如何使用？\r\n\r\n谢谢大神们！\r\n"
+  "body": "在Vue中可以使用以下方法：\r\n```\r\nVue.filter(\"statusLabel\" , function(value){\r\n  switch(value)\r\n  {\r\n   case 0:return \"未开始\";\r\n  case 1:return \"正在进行\";\r\n  case 2:return \"已结束\";\r\n default:return \"未开始\";\r\n}\r\n});\r\n```\r\n在使用的时候只要`v-text=\"list.status | statusLabel\"\r\n`\r\n即可将状态转换为文本。\r\n请问在weex是否有这样的功能，如果有，如何使用？\r\n\r\n谢谢大神们！\r\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

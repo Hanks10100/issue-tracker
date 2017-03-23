@@ -122,5 +122,6 @@
   "created_at": "2017-02-12T15:06:24Z",
   "updated_at": "2017-02-15T05:50:34Z",
   "closed_at": null,
-  "body": "我看index.vu页面用的是event.OpenURL，但是又看到有个navigator组件，到底用哪个？"
+  "body": "我看index.vu页面用的是event.OpenURL，但是又看到有个navigator组件，到底用哪个？",
+  "closed_by": null
 }

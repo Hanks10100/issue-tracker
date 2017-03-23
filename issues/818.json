@@ -74,5 +74,24 @@
   "created_at": "2016-07-18T09:12:39Z",
   "updated_at": "2016-07-19T15:33:17Z",
   "closed_at": "2016-07-19T15:33:17Z",
-  "body": "如题，有没有将 weex 应用于微信公众号的朋友，上面提到的几部分内容是否有坑？最近要启用新项目，涉及到 webapp(主要是手机浏览器，微信浏览器)以及 android / ios 因此这里选型，希望能得到大家的意见，谢谢\n"
+  "body": "如题，有没有将 weex 应用于微信公众号的朋友，上面提到的几部分内容是否有坑？最近要启用新项目，涉及到 webapp(主要是手机浏览器，微信浏览器)以及 android / ios 因此这里选型，希望能得到大家的意见，谢谢\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

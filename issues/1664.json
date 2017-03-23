@@ -222,5 +222,24 @@
   "created_at": "2016-11-18T03:44:51Z",
   "updated_at": "2016-11-28T06:03:04Z",
   "closed_at": "2016-11-28T06:03:04Z",
-  "body": "* 目前由一个属性来控制行为不合适，应由方法来控制\r\n* loadmoreretry的行为是设置loadmore是否被触发，所以应把方法名字改为resetloadmore\r\n* h5/iOS/Android三端行为应一致"
+  "body": "* 目前由一个属性来控制行为不合适，应由方法来控制\r\n* loadmoreretry的行为是设置loadmore是否被触发，所以应把方法名字改为resetloadmore\r\n* h5/iOS/Android三端行为应一致",
+  "closed_by": {
+    "login": "namedlock",
+    "id": 3077786,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/3077786?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/namedlock",
+    "html_url": "https://github.com/namedlock",
+    "followers_url": "https://api.github.com/users/namedlock/followers",
+    "following_url": "https://api.github.com/users/namedlock/following{/other_user}",
+    "gists_url": "https://api.github.com/users/namedlock/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/namedlock/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/namedlock/subscriptions",
+    "organizations_url": "https://api.github.com/users/namedlock/orgs",
+    "repos_url": "https://api.github.com/users/namedlock/repos",
+    "events_url": "https://api.github.com/users/namedlock/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/namedlock/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

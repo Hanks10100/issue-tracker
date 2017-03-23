@@ -346,5 +346,24 @@
   "created_at": "2017-02-09T09:10:48Z",
   "updated_at": "2017-02-13T11:43:27Z",
   "closed_at": "2017-02-13T11:43:27Z",
-  "body": "之前用的是源码集成,现在复制了一份工程出来用cocoapods集成了一下,但是在使用的控制器里边就提示引用不到WXSDKInstance,,,不知道为什么,有人遇到过这种情况吗?从头开始只编辑了podfile和podinstall,还需要其他的吗"
+  "body": "之前用的是源码集成,现在复制了一份工程出来用cocoapods集成了一下,但是在使用的控制器里边就提示引用不到WXSDKInstance,,,不知道为什么,有人遇到过这种情况吗?从头开始只编辑了podfile和podinstall,还需要其他的吗",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

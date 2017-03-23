@@ -188,5 +188,24 @@
   "created_at": "2016-08-30T11:25:29Z",
   "updated_at": "2016-10-24T12:19:26Z",
   "closed_at": "2016-10-24T12:19:26Z",
-  "body": "前提条件：\n1. 手机: 华为 GRA-TL00[P8 移动4G] emui 4.0.1 android 6.0\n\n复现步骤：\n1. 创建测试工程，直接用renderPage方法打开playground中的tabbar-demo.js\n2. 在GRA-TL00[P8 移动4G]运行上述测试程序；\n\n结果：\n1. tabbar-demo.js中的this.$getConfig().bundleUrl返回值中不包含'file://assets/'，导致从网上寻找tabbar-demo.js资源，而没有在本地assets中寻找tabbar-demo.js，从而加载资源失败；\n\n备注：\ntabbar-demo.js的相关资源都为修改，在playground中运行正常，playground是用this.$openURL(this.url)方法打开的资源。\n"
+  "body": "前提条件：\n1. 手机: 华为 GRA-TL00[P8 移动4G] emui 4.0.1 android 6.0\n\n复现步骤：\n1. 创建测试工程，直接用renderPage方法打开playground中的tabbar-demo.js\n2. 在GRA-TL00[P8 移动4G]运行上述测试程序；\n\n结果：\n1. tabbar-demo.js中的this.$getConfig().bundleUrl返回值中不包含'file://assets/'，导致从网上寻找tabbar-demo.js资源，而没有在本地assets中寻找tabbar-demo.js，从而加载资源失败；\n\n备注：\ntabbar-demo.js的相关资源都为修改，在playground中运行正常，playground是用this.$openURL(this.url)方法打开的资源。\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

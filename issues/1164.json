@@ -123,5 +123,24 @@
   "created_at": "2016-09-08T01:01:44Z",
   "updated_at": "2016-10-24T08:24:53Z",
   "closed_at": "2016-10-24T08:24:53Z",
-  "body": "对于Android端TabLayout+ViewPager这种实现Tab切换时，扩展组件如下\n\n```\n<tab-pager>\n   <tab-indicator items=\"{{items}}\"></tab-indicator>\n   <tab-content repeat=\"{{items}}\"></tab-content>  \n</tab-pager>\n```\n\n通过repeat标签创建ViewPager中每个View的实例，但由于没办法复用，导致每次切换一个tab，内存维护了上个view的实例，导致内存暴涨。\n请问官方有什么方案解决复用问题吗\n"
+  "body": "对于Android端TabLayout+ViewPager这种实现Tab切换时，扩展组件如下\n\n```\n<tab-pager>\n   <tab-indicator items=\"{{items}}\"></tab-indicator>\n   <tab-content repeat=\"{{items}}\"></tab-content>  \n</tab-pager>\n```\n\n通过repeat标签创建ViewPager中每个View的实例，但由于没办法复用，导致每次切换一个tab，内存维护了上个view的实例，导致内存暴涨。\n请问官方有什么方案解决复用问题吗\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

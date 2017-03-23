@@ -321,5 +321,24 @@
   "created_at": "2016-06-02T08:09:27Z",
   "updated_at": "2016-10-24T08:12:12Z",
   "closed_at": "2016-10-24T08:12:12Z",
-  "body": "May the component &lt;web&gt;, implemented as a webview or a iframe, have the ability to call APIs ?According to the messages sending by the content window ?\n\nThese messages' formats may abide by the communications's protocols between native renderer and the js-framework.\n\nTake calling  `event.openURL` as a example:\n\n```\ncontentWindow.postMessage({\n  type: 'weex',\n  content: [{\n    module: 'event',\n    method: 'openURL',\n    args: ['http://www.a.url'],\n  }],\n  from: 'http://www.content.window'\n}\n```\n\nThe web component's content may call some specified native APIs through this message tunnel.\n\nIn the above example's situation, the content page got the ability to call a page redirecting process to navigate the parent main page to another page, instead of making a page redirecting in the webview/iframe itself.\n"
+  "body": "May the component &lt;web&gt;, implemented as a webview or a iframe, have the ability to call APIs ?According to the messages sending by the content window ?\n\nThese messages' formats may abide by the communications's protocols between native renderer and the js-framework.\n\nTake calling  `event.openURL` as a example:\n\n```\ncontentWindow.postMessage({\n  type: 'weex',\n  content: [{\n    module: 'event',\n    method: 'openURL',\n    args: ['http://www.a.url'],\n  }],\n  from: 'http://www.content.window'\n}\n```\n\nThe web component's content may call some specified native APIs through this message tunnel.\n\nIn the above example's situation, the content page got the ability to call a page redirecting process to navigate the parent main page to another page, instead of making a page redirecting in the webview/iframe itself.\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

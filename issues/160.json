@@ -216,5 +216,24 @@
   "created_at": "2016-05-05T20:34:56Z",
   "updated_at": "2016-09-06T06:23:17Z",
   "closed_at": "2016-05-06T14:40:08Z",
-  "body": "文档上说\n\n『after changes saved the Weex playground App will immediately display these changes. this called Hot-Reload』\n\n但是\n\n我用最新版的 weex playground 和 weex，然后修改了代码，貌似没有自动刷新。\n\n我需要 ctrl+c 杀掉 mac 上weex 进程，然后手工重启，然后 playground 手工刷新，才能看到改动\n\n很麻烦\n"
+  "body": "文档上说\n\n『after changes saved the Weex playground App will immediately display these changes. this called Hot-Reload』\n\n但是\n\n我用最新版的 weex playground 和 weex，然后修改了代码，貌似没有自动刷新。\n\n我需要 ctrl+c 杀掉 mac 上weex 进程，然后手工重启，然后 playground 手工刷新，才能看到改动\n\n很麻烦\n",
+  "closed_by": {
+    "login": "noman798",
+    "id": 12876555,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/12876555?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/noman798",
+    "html_url": "https://github.com/noman798",
+    "followers_url": "https://api.github.com/users/noman798/followers",
+    "following_url": "https://api.github.com/users/noman798/following{/other_user}",
+    "gists_url": "https://api.github.com/users/noman798/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/noman798/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/noman798/subscriptions",
+    "organizations_url": "https://api.github.com/users/noman798/orgs",
+    "repos_url": "https://api.github.com/users/noman798/repos",
+    "events_url": "https://api.github.com/users/noman798/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/noman798/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

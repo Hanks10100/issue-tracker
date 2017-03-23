@@ -94,5 +94,24 @@
   "created_at": "2017-02-10T09:36:23Z",
   "updated_at": "2017-02-13T03:34:16Z",
   "closed_at": "2017-02-13T03:34:16Z",
-  "body": "Hi weex team,\r\n\r\nThank you for the great job.\r\n\r\nI'm a newbie for weex/vue. I'm trying to run a weex server with following steps:\r\n\r\n1) create a project\r\n\r\n```\r\n$ weex init\r\nprompt: Project Name:  (wxtv) www\r\nfile: .gitignore created.\r\nfile: README.md created.\r\nfile: index.html created.\r\nfile: package.json created.\r\nfile: src/weex-bootstrap.we created.\r\nfile: webpack.config.js created.\r\n```\r\n\r\n2) install modules\r\n\r\n```\r\n$ npm install\r\n```\r\n\r\n3) add `require('weex-components')` to src/weex-bootstrap.we\r\n\r\n4) run `npm run build` reports error\r\n\r\n```\r\n$ npm run build\r\n\r\n> www@1.0.0 build /Users/kevin/Work/github/wxtv/www\r\n> webpack\r\n\r\nHash: 17e4c44cda6227f6e629\r\nVersion: webpack 1.14.0\r\nTime: 679ms\r\n  Asset     Size  Chunks             Chunk Names\r\nmain.js  3.52 kB       0  [emitted]  main\r\n    + 4 hidden modules\r\n\r\nERROR in ./~/weex-loader/lib/script.js!./~/babel-loader/lib?presets[]=/Users/kevin/Work/github/wxtv/www/~/babel-preset-es2015&presets=/Users/kevin/Work/github/wxtv/www/~/babel-preset-es2015&plugins[]=/Users/kevin/Work/github/wxtv/www/~/babel-plugin-transform-runtime&plugins=/Users/kevin/Work/github/wxtv/www/~/babel-plugin-transform-runtime&comments=false!./~/weex-loader/lib/extract.js?index=0&type=scripts!./src/weex-bootstrap.we\r\nModule not found: Error: Cannot resolve module 'weex-components' in /Users/kevin/Work/github/wxtv/www/src\r\n @ ./~/weex-loader/lib/script.js!./~/babel-loader/lib?presets[]=/Users/kevin/Work/github/wxtv/www/~/babel-preset-es2015&presets=/Users/kevin/Work/github/wxtv/www/~/babel-preset-es2015&plugins[]=/Users/kevin/Work/github/wxtv/www/~/babel-plugin-transform-runtime&plugins=/Users/kevin/Work/github/wxtv/www/~/babel-plugin-transform-runtime&comments=false!./~/weex-loader/lib/extract.js?index=0&type=scripts!./src/weex-bootstrap.we 3:0-26\r\n```\r\n\r\nMy OS is OSX EI Capitan 10.11.6\r\nweex tool version is 1.0.1-alpha\r\nwebpack  version 1.14.0"
+  "body": "Hi weex team,\r\n\r\nThank you for the great job.\r\n\r\nI'm a newbie for weex/vue. I'm trying to run a weex server with following steps:\r\n\r\n1) create a project\r\n\r\n```\r\n$ weex init\r\nprompt: Project Name:  (wxtv) www\r\nfile: .gitignore created.\r\nfile: README.md created.\r\nfile: index.html created.\r\nfile: package.json created.\r\nfile: src/weex-bootstrap.we created.\r\nfile: webpack.config.js created.\r\n```\r\n\r\n2) install modules\r\n\r\n```\r\n$ npm install\r\n```\r\n\r\n3) add `require('weex-components')` to src/weex-bootstrap.we\r\n\r\n4) run `npm run build` reports error\r\n\r\n```\r\n$ npm run build\r\n\r\n> www@1.0.0 build /Users/kevin/Work/github/wxtv/www\r\n> webpack\r\n\r\nHash: 17e4c44cda6227f6e629\r\nVersion: webpack 1.14.0\r\nTime: 679ms\r\n  Asset     Size  Chunks             Chunk Names\r\nmain.js  3.52 kB       0  [emitted]  main\r\n    + 4 hidden modules\r\n\r\nERROR in ./~/weex-loader/lib/script.js!./~/babel-loader/lib?presets[]=/Users/kevin/Work/github/wxtv/www/~/babel-preset-es2015&presets=/Users/kevin/Work/github/wxtv/www/~/babel-preset-es2015&plugins[]=/Users/kevin/Work/github/wxtv/www/~/babel-plugin-transform-runtime&plugins=/Users/kevin/Work/github/wxtv/www/~/babel-plugin-transform-runtime&comments=false!./~/weex-loader/lib/extract.js?index=0&type=scripts!./src/weex-bootstrap.we\r\nModule not found: Error: Cannot resolve module 'weex-components' in /Users/kevin/Work/github/wxtv/www/src\r\n @ ./~/weex-loader/lib/script.js!./~/babel-loader/lib?presets[]=/Users/kevin/Work/github/wxtv/www/~/babel-preset-es2015&presets=/Users/kevin/Work/github/wxtv/www/~/babel-preset-es2015&plugins[]=/Users/kevin/Work/github/wxtv/www/~/babel-plugin-transform-runtime&plugins=/Users/kevin/Work/github/wxtv/www/~/babel-plugin-transform-runtime&comments=false!./~/weex-loader/lib/extract.js?index=0&type=scripts!./src/weex-bootstrap.we 3:0-26\r\n```\r\n\r\nMy OS is OSX EI Capitan 10.11.6\r\nweex tool version is 1.0.1-alpha\r\nwebpack  version 1.14.0",
+  "closed_by": {
+    "login": "kingbeful",
+    "id": 635563,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/635563?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/kingbeful",
+    "html_url": "https://github.com/kingbeful",
+    "followers_url": "https://api.github.com/users/kingbeful/followers",
+    "following_url": "https://api.github.com/users/kingbeful/following{/other_user}",
+    "gists_url": "https://api.github.com/users/kingbeful/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/kingbeful/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/kingbeful/subscriptions",
+    "organizations_url": "https://api.github.com/users/kingbeful/orgs",
+    "repos_url": "https://api.github.com/users/kingbeful/repos",
+    "events_url": "https://api.github.com/users/kingbeful/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/kingbeful/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

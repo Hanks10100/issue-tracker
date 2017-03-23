@@ -172,5 +172,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1484.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1484.patch"
   },
-  "body": "1. In case a user didn't specify the root's height or flex, then fill the whole root container with the root element, which is by default `flex:1;`.\n   \n   the test use case:\n   \n   ``` html\n   <style>\n     .txt {\n       width: 750;\n       height: 300;\n       line-height: 300;\n     }\n   </style>\n   \n   <template>\n     <list>\n       <cell><text class=\"txt\" repeat=\"item in list\">{{item}}</text></cell>\n     </list>\n   </template>\n   \n   <script>\n     module.exports = {\n       data: {\n         list: [1,2,3,4,5,6,7,8,9,10]\n       }\n     }\n   </script>\n   ```\n   \n   This enhancement works for all the root candidates such as `droot`( downgrade root ), `div`, `list`, `scroller`, etc.\n2. A `root container` should be specified as a `weex-container` to enable flexbox layout and  the ability to set children's position to absolute.\n3. A `droot` should also be  a `weex-container` for the same reason above.\n"
+  "body": "1. In case a user didn't specify the root's height or flex, then fill the whole root container with the root element, which is by default `flex:1;`.\n   \n   the test use case:\n   \n   ``` html\n   <style>\n     .txt {\n       width: 750;\n       height: 300;\n       line-height: 300;\n     }\n   </style>\n   \n   <template>\n     <list>\n       <cell><text class=\"txt\" repeat=\"item in list\">{{item}}</text></cell>\n     </list>\n   </template>\n   \n   <script>\n     module.exports = {\n       data: {\n         list: [1,2,3,4,5,6,7,8,9,10]\n       }\n     }\n   </script>\n   ```\n   \n   This enhancement works for all the root candidates such as `droot`( downgrade root ), `div`, `list`, `scroller`, etc.\n2. A `root container` should be specified as a `weex-container` to enable flexbox layout and  the ability to set children's position to absolute.\n3. A `droot` should also be  a `weex-container` for the same reason above.\n",
+  "closed_by": {
+    "login": "Hanks10100",
+    "id": 8401776,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8401776?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Hanks10100",
+    "html_url": "https://github.com/Hanks10100",
+    "followers_url": "https://api.github.com/users/Hanks10100/followers",
+    "following_url": "https://api.github.com/users/Hanks10100/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Hanks10100/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Hanks10100/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Hanks10100/subscriptions",
+    "organizations_url": "https://api.github.com/users/Hanks10100/orgs",
+    "repos_url": "https://api.github.com/users/Hanks10100/repos",
+    "events_url": "https://api.github.com/users/Hanks10100/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Hanks10100/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

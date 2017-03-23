@@ -160,5 +160,24 @@
   "created_at": "2017-01-10T07:50:40Z",
   "updated_at": "2017-01-19T03:06:15Z",
   "closed_at": "2017-01-19T03:06:15Z",
-  "body": "代码如下：\r\n```\r\n<template>\r\n  <div class=\"list-wrap\">\r\n    <list class=\"menu\">\r\n      <cell class=\"menu-item\" repeat=\"menu\">\r\n        <text class=\"menu-name\">{{ name }}</text>\r\n      </cell>\r\n    </list>\r\n  </div>\r\n</template>\r\n<script>\r\n  module.exports = {\r\n    data: {\r\n      menu: [\r\n        { name: 1.2 },\r\n        { name: 1.8 },\r\n        { name: 1.9 },\r\n        { name: 9.8 },\r\n        { name: 6.8 },\r\n      ],\r\n    },\r\n  };\r\n</script>\r\n<style>\r\n  .list-wrap {\r\n    flex-direction: row;\r\n    flex: 1;\r\n    background-color: #fff;\r\n  }\r\n  \r\n  .menu {\r\n    width: 100px;\r\n    background-color: #f8f8f8;\r\n  }\r\n  \r\n  .menu-name {\r\n    padding-left: 20px;\r\n    padding-right: 20px;\r\n    padding-top: 36px;\r\n    padding-bottom: 36px;\r\n    lines: 3;\r\n    text-overflow: ellipsis;\r\n    color: #666;\r\n    font-size: 24px;\r\n  }\r\n  \r\n  .menu-item {\r\n    border-top-width: 1px;\r\n    border-top-style: solid;\r\n    border-top-color: #ededed;\r\n  }\r\n</style>\r\n```\r\n上面的 `9.8` 在iPhone 模拟器中会显示为 `9.800000000000001` 。由于没有真机，所以未在真机上测试。\r\n\r\n![24934643-ddc6-4fec-a75b-cf6045b72c15](https://cloud.githubusercontent.com/assets/7367678/21797843/6622366c-d74c-11e6-8aac-35e9cec068f7.png)\r\n\r\nweex sdk 版本 0.9.4\r\nios 版本 9.2"
+  "body": "代码如下：\r\n```\r\n<template>\r\n  <div class=\"list-wrap\">\r\n    <list class=\"menu\">\r\n      <cell class=\"menu-item\" repeat=\"menu\">\r\n        <text class=\"menu-name\">{{ name }}</text>\r\n      </cell>\r\n    </list>\r\n  </div>\r\n</template>\r\n<script>\r\n  module.exports = {\r\n    data: {\r\n      menu: [\r\n        { name: 1.2 },\r\n        { name: 1.8 },\r\n        { name: 1.9 },\r\n        { name: 9.8 },\r\n        { name: 6.8 },\r\n      ],\r\n    },\r\n  };\r\n</script>\r\n<style>\r\n  .list-wrap {\r\n    flex-direction: row;\r\n    flex: 1;\r\n    background-color: #fff;\r\n  }\r\n  \r\n  .menu {\r\n    width: 100px;\r\n    background-color: #f8f8f8;\r\n  }\r\n  \r\n  .menu-name {\r\n    padding-left: 20px;\r\n    padding-right: 20px;\r\n    padding-top: 36px;\r\n    padding-bottom: 36px;\r\n    lines: 3;\r\n    text-overflow: ellipsis;\r\n    color: #666;\r\n    font-size: 24px;\r\n  }\r\n  \r\n  .menu-item {\r\n    border-top-width: 1px;\r\n    border-top-style: solid;\r\n    border-top-color: #ededed;\r\n  }\r\n</style>\r\n```\r\n上面的 `9.8` 在iPhone 模拟器中会显示为 `9.800000000000001` 。由于没有真机，所以未在真机上测试。\r\n\r\n![24934643-ddc6-4fec-a75b-cf6045b72c15](https://cloud.githubusercontent.com/assets/7367678/21797843/6622366c-d74c-11e6-8aac-35e9cec068f7.png)\r\n\r\nweex sdk 版本 0.9.4\r\nios 版本 9.2",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

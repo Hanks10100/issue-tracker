@@ -201,10 +201,67 @@
       "created_at": "2017-03-09T04:24:34Z",
       "updated_at": "2017-03-09T04:24:34Z",
       "body": "@jasonhe88 @kfeagle  @hayvane   目前 Vue 确实不支持同步调用， 会在 0.12 版本进行补齐\r\n"
+    },
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/287239509",
+      "html_url": "https://github.com/alibaba/weex/issues/2790#issuecomment-287239509",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/2790",
+      "id": 287239509,
+      "user": {
+        "login": "zhaoguohui",
+        "id": 4200885,
+        "avatar_url": "https://avatars1.githubusercontent.com/u/4200885?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhaoguohui",
+        "html_url": "https://github.com/zhaoguohui",
+        "followers_url": "https://api.github.com/users/zhaoguohui/followers",
+        "following_url": "https://api.github.com/users/zhaoguohui/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhaoguohui/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhaoguohui/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhaoguohui/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhaoguohui/orgs",
+        "repos_url": "https://api.github.com/users/zhaoguohui/repos",
+        "events_url": "https://api.github.com/users/zhaoguohui/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhaoguohui/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2017-03-17T01:14:27Z",
+      "updated_at": "2017-03-17T01:14:27Z",
+      "body": "我也遇到同样的问题了，官方能不能给个demo出来，痛苦死了，调试了好久也没解决"
+    },
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/287741127",
+      "html_url": "https://github.com/alibaba/weex/issues/2790#issuecomment-287741127",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/2790",
+      "id": 287741127,
+      "user": {
+        "login": "xiaohuapunk",
+        "id": 9956517,
+        "avatar_url": "https://avatars1.githubusercontent.com/u/9956517?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/xiaohuapunk",
+        "html_url": "https://github.com/xiaohuapunk",
+        "followers_url": "https://api.github.com/users/xiaohuapunk/followers",
+        "following_url": "https://api.github.com/users/xiaohuapunk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/xiaohuapunk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/xiaohuapunk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/xiaohuapunk/subscriptions",
+        "organizations_url": "https://api.github.com/users/xiaohuapunk/orgs",
+        "repos_url": "https://api.github.com/users/xiaohuapunk/repos",
+        "events_url": "https://api.github.com/users/xiaohuapunk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/xiaohuapunk/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2017-03-20T12:06:20Z",
+      "updated_at": "2017-03-20T12:06:20Z",
+      "body": "欲哭无泪，研究了好几天，都怀疑人生了我的天"
     }
   ],
   "created_at": "2017-02-27T05:33:45Z",
-  "updated_at": "2017-03-09T04:24:34Z",
+  "updated_at": "2017-03-20T12:06:20Z",
   "closed_at": null,
-  "body": "得知从0.10版本中组件和模块可以写同步方法了， 试了几下， 不成功， 有没有范例？\r\n\r\n谢谢！！"
+  "body": "得知从0.10版本中组件和模块可以写同步方法了， 试了几下， 不成功， 有没有范例？\r\n\r\n谢谢！！",
+  "closed_by": null
 }

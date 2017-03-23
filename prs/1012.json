@@ -89,5 +89,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1012.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1012.patch"
   },
-  "body": "Almost no capsulation at all. Just a vanilla JavaScript environment.\n"
+  "body": "Almost no capsulation at all. Just a vanilla JavaScript environment.\n",
+  "closed_by": {
+    "login": "yuanyan",
+    "id": 677114,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/677114?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/yuanyan",
+    "html_url": "https://github.com/yuanyan",
+    "followers_url": "https://api.github.com/users/yuanyan/followers",
+    "following_url": "https://api.github.com/users/yuanyan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/yuanyan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/yuanyan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/yuanyan/subscriptions",
+    "organizations_url": "https://api.github.com/users/yuanyan/orgs",
+    "repos_url": "https://api.github.com/users/yuanyan/repos",
+    "events_url": "https://api.github.com/users/yuanyan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/yuanyan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

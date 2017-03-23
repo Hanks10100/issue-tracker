@@ -37,5 +37,24 @@
   "created_at": "2016-09-29T07:35:58Z",
   "updated_at": "2016-09-29T08:07:53Z",
   "closed_at": "2016-09-29T08:07:53Z",
-  "body": "找不到\n"
+  "body": "找不到\n",
+  "closed_by": {
+    "login": "JakeWoki",
+    "id": 6948411,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6948411?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/JakeWoki",
+    "html_url": "https://github.com/JakeWoki",
+    "followers_url": "https://api.github.com/users/JakeWoki/followers",
+    "following_url": "https://api.github.com/users/JakeWoki/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JakeWoki/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/JakeWoki/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/JakeWoki/subscriptions",
+    "organizations_url": "https://api.github.com/users/JakeWoki/orgs",
+    "repos_url": "https://api.github.com/users/JakeWoki/repos",
+    "events_url": "https://api.github.com/users/JakeWoki/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/JakeWoki/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

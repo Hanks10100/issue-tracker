@@ -147,5 +147,24 @@
   "created_at": "2016-04-12T09:35:54Z",
   "updated_at": "2016-04-27T09:58:18Z",
   "closed_at": "2016-04-27T09:58:18Z",
-  "body": "``` html\n<element name=\"foo\">\n  <template>\n    <container style=\"margin-top: 40px;margin-bottom: 40px;\">\n      <text onclick={{onclick}}>Bind onclick, failed</text>\n    </container>\n  </template>\n</element>\n\n<element name=\"bar\">\n  <template>\n    <container>\n      <text onclick={{click}}>Bind other prop, succeed</text>\n    </container>\n  </template>\n</element>\n\n<template>\n  <container>\n    <foo onclick={{clicked}}></foo>\n    <bar click={{clicked}}></bar>\n    <!--<text onclick=\"{{clicked}}\">bind onclick prop</text>-->\n  </container>\n</template>\n\n<script>\n  module.exports = {\n    methods: {\n      clicked: function() {\n        this.$call('modal', 'toast', {'message': 'clicked!'});\n      }\n    }\n  }\n</script>\n```\n"
+  "body": "``` html\n<element name=\"foo\">\n  <template>\n    <container style=\"margin-top: 40px;margin-bottom: 40px;\">\n      <text onclick={{onclick}}>Bind onclick, failed</text>\n    </container>\n  </template>\n</element>\n\n<element name=\"bar\">\n  <template>\n    <container>\n      <text onclick={{click}}>Bind other prop, succeed</text>\n    </container>\n  </template>\n</element>\n\n<template>\n  <container>\n    <foo onclick={{clicked}}></foo>\n    <bar click={{clicked}}></bar>\n    <!--<text onclick=\"{{clicked}}\">bind onclick prop</text>-->\n  </container>\n</template>\n\n<script>\n  module.exports = {\n    methods: {\n      clicked: function() {\n        this.$call('modal', 'toast', {'message': 'clicked!'});\n      }\n    }\n  }\n</script>\n```\n",
+  "closed_by": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

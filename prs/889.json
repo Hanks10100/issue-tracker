@@ -43,5 +43,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/889.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/889.patch"
   },
-  "body": "api definition:\n\n``` js\nsetItem: function(key,value,callbackId)\ngetItem: function(key,callbackId)\nremoveItem: function(key,callbackId)\nlength: function(callbackId)\ngetAllKeys: function(callbackId)\n```\n\nusage is simple:\n\n```\n  var storage = require('@weex-module/storage');\n    var me = this;\n    //setItem\n    storage.setItem('foo','foo-value');\n\n    //getItem\n    storage.getItem('foo',function(e){\n      console.log('get foo result:'+JSON.stringify(e));\n      me.getItemResult = 'get foo,value is '+e.data+'\\n';\n    });\n...\n```\n"
+  "body": "api definition:\n\n``` js\nsetItem: function(key,value,callbackId)\ngetItem: function(key,callbackId)\nremoveItem: function(key,callbackId)\nlength: function(callbackId)\ngetAllKeys: function(callbackId)\n```\n\nusage is simple:\n\n```\n  var storage = require('@weex-module/storage');\n    var me = this;\n    //setItem\n    storage.setItem('foo','foo-value');\n\n    //getItem\n    storage.getItem('foo',function(e){\n      console.log('get foo result:'+JSON.stringify(e));\n      me.getItemResult = 'get foo,value is '+e.data+'\\n';\n    });\n...\n```\n",
+  "closed_by": {
+    "login": "Rowandjj",
+    "id": 5766252,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5766252?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Rowandjj",
+    "html_url": "https://github.com/Rowandjj",
+    "followers_url": "https://api.github.com/users/Rowandjj/followers",
+    "following_url": "https://api.github.com/users/Rowandjj/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Rowandjj/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Rowandjj/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Rowandjj/subscriptions",
+    "organizations_url": "https://api.github.com/users/Rowandjj/orgs",
+    "repos_url": "https://api.github.com/users/Rowandjj/repos",
+    "events_url": "https://api.github.com/users/Rowandjj/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Rowandjj/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -194,5 +194,6 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1241.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1241.patch"
   },
-  "body": "Fix #1117 \n### 原因\n\n`WXWebView`中没有实现打开文件浏览器的相应回调。\n### 解决方案\n1. 在`WXWebView`中覆盖打开文件浏览器的回调方法\n2. 在`WXPageActivity`中覆盖`onActivityResult`方法\n3. 添加`onActivityResult`声明到`IWXActivityStateListener`\n4. 添加`IWXActivityStateListener`对象到`WXSDKInstance`，监听Activity返回\n5. 根据用户指定的文件类型创建文件选择的Intent对象并`startActivityForResult`\n6. 返回选中文件的Uri到WebView\n7. 移除步骤4中注册的IWXActivityStateListener对象\n"
+  "body": "Fix #1117 \n### 原因\n\n`WXWebView`中没有实现打开文件浏览器的相应回调。\n### 解决方案\n1. 在`WXWebView`中覆盖打开文件浏览器的回调方法\n2. 在`WXPageActivity`中覆盖`onActivityResult`方法\n3. 添加`onActivityResult`声明到`IWXActivityStateListener`\n4. 添加`IWXActivityStateListener`对象到`WXSDKInstance`，监听Activity返回\n5. 根据用户指定的文件类型创建文件选择的Intent对象并`startActivityForResult`\n6. 返回选中文件的Uri到WebView\n7. 移除步骤4中注册的IWXActivityStateListener对象\n",
+  "closed_by": null
 }

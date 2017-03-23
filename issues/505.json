@@ -160,5 +160,24 @@
   "created_at": "2016-06-17T12:37:47Z",
   "updated_at": "2016-06-23T03:58:50Z",
   "closed_at": "2016-06-23T03:58:50Z",
-  "body": "操作系统是Ubuntu，执行npm install -g weex-toolkit成功后，依然不能执行week命令，查看node问价夹的bin目录下的weex文件，其所有者为nobody，我不能更改权限，请问这个是哪一步有问题？\n"
+  "body": "操作系统是Ubuntu，执行npm install -g weex-toolkit成功后，依然不能执行week命令，查看node问价夹的bin目录下的weex文件，其所有者为nobody，我不能更改权限，请问这个是哪一步有问题？\n",
+  "closed_by": {
+    "login": "lvscar",
+    "id": 1578838,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1578838?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/lvscar",
+    "html_url": "https://github.com/lvscar",
+    "followers_url": "https://api.github.com/users/lvscar/followers",
+    "following_url": "https://api.github.com/users/lvscar/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lvscar/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/lvscar/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/lvscar/subscriptions",
+    "organizations_url": "https://api.github.com/users/lvscar/orgs",
+    "repos_url": "https://api.github.com/users/lvscar/repos",
+    "events_url": "https://api.github.com/users/lvscar/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/lvscar/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -389,5 +389,24 @@
   "created_at": "2016-12-21T14:45:59Z",
   "updated_at": "2016-12-29T05:40:10Z",
   "closed_at": "2016-12-23T14:57:18Z",
-  "body": "参照 https://github.com/weexteam/article/issues/109 文档开始首次体验 weex，但是：\r\n执行weex hello.we总是报错：\r\n\r\n```\r\n2016-12-20 17:52 node[82467] (FSEvents.framework) FSEventStreamStart: register_with_server: ERROR: f2d_register_rpc() => (null) (-22)\r\n2016-12-20 17:52 node[82467] (FSEvents.framework) FSEventStreamStart: register_with_server: ERROR: f2d_register_rpc() => (null) (-22)\r\n2016-12-20 17:52 node[82467] (FSEvents.framework) FSEventStreamStart: register_with_server: ERROR: f2d_register_rpc() => (null) (-22)\r\nevents.js:160\r\n      throw er; // Unhandled 'error' event\r\n      ^\r\n\r\nError: Error watching file for changes: EMFILE\r\n    at exports._errnoException (util.js:1026:11)\r\n    at FSEvent.FSWatcher._handle.onchange (fs.js:1406:11)\r\n```\r\nmacOS版本为10.12.2,重新安装watchman(4.7.0)和node(v7.3.0)，都不能解决问题。\r\nweex-toolkit用`cnpm install -g weex-toolkit`命令安装，版本为0.6.4.\r\n"
+  "body": "参照 https://github.com/weexteam/article/issues/109 文档开始首次体验 weex，但是：\r\n执行weex hello.we总是报错：\r\n\r\n```\r\n2016-12-20 17:52 node[82467] (FSEvents.framework) FSEventStreamStart: register_with_server: ERROR: f2d_register_rpc() => (null) (-22)\r\n2016-12-20 17:52 node[82467] (FSEvents.framework) FSEventStreamStart: register_with_server: ERROR: f2d_register_rpc() => (null) (-22)\r\n2016-12-20 17:52 node[82467] (FSEvents.framework) FSEventStreamStart: register_with_server: ERROR: f2d_register_rpc() => (null) (-22)\r\nevents.js:160\r\n      throw er; // Unhandled 'error' event\r\n      ^\r\n\r\nError: Error watching file for changes: EMFILE\r\n    at exports._errnoException (util.js:1026:11)\r\n    at FSEvent.FSWatcher._handle.onchange (fs.js:1406:11)\r\n```\r\nmacOS版本为10.12.2,重新安装watchman(4.7.0)和node(v7.3.0)，都不能解决问题。\r\nweex-toolkit用`cnpm install -g weex-toolkit`命令安装，版本为0.6.4.\r\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

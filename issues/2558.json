@@ -178,5 +178,24 @@
   "created_at": "2017-02-14T05:21:04Z",
   "updated_at": "2017-02-17T12:19:20Z",
   "closed_at": "2017-02-16T03:15:23Z",
-  "body": "SyntaxError: Unexpected token '<'\r\n\r\n\r\n完整的:\r\n2017-02-14 13:18:45.538657 CH999[4136:1247068] 创建完毕\r\n2017-02-14 13:18:45.563064 CH999[4136:1247203] \u001b[fg255,0,0; <Weex>[error]WXMonitor.m:196, [main.js:2:10996] SyntaxError: Unexpected token '<'\r\nFunction@[native code]\r\nmain.js:4:10996\r\ninit@main.js:4:11484\r\ncreateInstance@main.js:4:4693\r\nmain.js:1:1775 \u001b[;\r\n\r\n求助啊```"
+  "body": "SyntaxError: Unexpected token '<'\r\n\r\n\r\n完整的:\r\n2017-02-14 13:18:45.538657 CH999[4136:1247068] 创建完毕\r\n2017-02-14 13:18:45.563064 CH999[4136:1247203] \u001b[fg255,0,0; <Weex>[error]WXMonitor.m:196, [main.js:2:10996] SyntaxError: Unexpected token '<'\r\nFunction@[native code]\r\nmain.js:4:10996\r\ninit@main.js:4:11484\r\ncreateInstance@main.js:4:4693\r\nmain.js:1:1775 \u001b[;\r\n\r\n求助啊```",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

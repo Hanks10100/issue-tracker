@@ -112,5 +112,24 @@
   "created_at": "2016-10-27T14:19:31Z",
   "updated_at": "2016-12-02T08:18:04Z",
   "closed_at": "2016-12-02T08:17:58Z",
-  "body": "weex Demo提供的render方法。\n\n``` java\n  public void render(String pageName, String template, Map<String, Object> options, String jsonInitData, int width, int height, WXRenderStrategy flag)\n```\n\n当本地写死template时，关掉网络页面渲染不出来。\n打开网络后才能渲染的出来。\n请问一下，官方是提倡以bundlejs形式渲染还是以string形式渲染\n\n以上问题官方demo也有。\n复现步骤\n\n``` java\nString jsString=\"···\";\nprivate void loadWXfromLocal(boolean reload) {\n        if (reload && mInstance != null) {\n            mInstance.destroy();\n            mInstance = null;\n        }\n        if (mInstance == null) {\n            mInstance = new WXSDKInstance(this);\n            //        mInstance.setImgLoaderAdapter(new ImageAdapter(this));\n            mInstance.registerRenderListener(this);\n            mInstance.setNestedInstanceInterceptor(this);\n        }\n        mInstance.render(TAG, jsString,\n                mConfigMap, null,\n                ScreenUtil.getDisplayWidth(WXPageActivity.this), ScreenUtil\n                        .getDisplayHeight(WXPageActivity.this),\n                WXRenderStrategy.APPEND_ASYNC);\n//        mContainer.post(new Runnable() {\n//            @Override\n//            public void run() {\n//                Activity ctx = WXPageActivity.this;\n//                Rect outRect = new Rect();\n//                ctx.getWindow().getDecorView().getWindowVisibleDisplayFrame(outRect);\n//                mConfigMap.put(\"bundleUrl\", mUri.toString());\n//                String path = mUri.getScheme().equals(\"file\") ? assembleFilePath(mUri) : mUri.toString();\n//                mInstance.render(TAG, WXFileUtils.loadAsset(path, WXPageActivity.this),\n//                        mConfigMap, null,\n//                        ScreenUtil.getDisplayWidth(WXPageActivity.this), ScreenUtil\n//                                .getDisplayHeight(WXPageActivity.this),\n//                        WXRenderStrategy.APPEND_ASYNC);\n//            }\n//        });\n    }\n```\n"
+  "body": "weex Demo提供的render方法。\n\n``` java\n  public void render(String pageName, String template, Map<String, Object> options, String jsonInitData, int width, int height, WXRenderStrategy flag)\n```\n\n当本地写死template时，关掉网络页面渲染不出来。\n打开网络后才能渲染的出来。\n请问一下，官方是提倡以bundlejs形式渲染还是以string形式渲染\n\n以上问题官方demo也有。\n复现步骤\n\n``` java\nString jsString=\"···\";\nprivate void loadWXfromLocal(boolean reload) {\n        if (reload && mInstance != null) {\n            mInstance.destroy();\n            mInstance = null;\n        }\n        if (mInstance == null) {\n            mInstance = new WXSDKInstance(this);\n            //        mInstance.setImgLoaderAdapter(new ImageAdapter(this));\n            mInstance.registerRenderListener(this);\n            mInstance.setNestedInstanceInterceptor(this);\n        }\n        mInstance.render(TAG, jsString,\n                mConfigMap, null,\n                ScreenUtil.getDisplayWidth(WXPageActivity.this), ScreenUtil\n                        .getDisplayHeight(WXPageActivity.this),\n                WXRenderStrategy.APPEND_ASYNC);\n//        mContainer.post(new Runnable() {\n//            @Override\n//            public void run() {\n//                Activity ctx = WXPageActivity.this;\n//                Rect outRect = new Rect();\n//                ctx.getWindow().getDecorView().getWindowVisibleDisplayFrame(outRect);\n//                mConfigMap.put(\"bundleUrl\", mUri.toString());\n//                String path = mUri.getScheme().equals(\"file\") ? assembleFilePath(mUri) : mUri.toString();\n//                mInstance.render(TAG, WXFileUtils.loadAsset(path, WXPageActivity.this),\n//                        mConfigMap, null,\n//                        ScreenUtil.getDisplayWidth(WXPageActivity.this), ScreenUtil\n//                                .getDisplayHeight(WXPageActivity.this),\n//                        WXRenderStrategy.APPEND_ASYNC);\n//            }\n//        });\n    }\n```\n",
+  "closed_by": {
+    "login": "YanyeZhang",
+    "id": 8480050,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8480050?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/YanyeZhang",
+    "html_url": "https://github.com/YanyeZhang",
+    "followers_url": "https://api.github.com/users/YanyeZhang/followers",
+    "following_url": "https://api.github.com/users/YanyeZhang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/YanyeZhang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/YanyeZhang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/YanyeZhang/subscriptions",
+    "organizations_url": "https://api.github.com/users/YanyeZhang/orgs",
+    "repos_url": "https://api.github.com/users/YanyeZhang/repos",
+    "events_url": "https://api.github.com/users/YanyeZhang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/YanyeZhang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

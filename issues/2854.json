@@ -37,5 +37,6 @@
   "created_at": "2017-03-05T15:26:09Z",
   "updated_at": "2017-03-05T15:26:09Z",
   "closed_at": null,
-  "body": "定义一个元素的线性渐变属性，然后通过api，如 $btn.setStyle('width', \"100px\")的情况下，该元素的线性背景色会丢失，并且通过api设置线性渐变也无效，如$btn.setStyle('backgroundImage', 'linear-gradient(to top,#a80077,#66ff00);') 无法设置元素的线性背景。\r\n\r\n此处应该是个bug？还是有什么需要注意的地方？"
+  "body": "定义一个元素的线性渐变属性，然后通过api，如 $btn.setStyle('width', \"100px\")的情况下，该元素的线性背景色会丢失，并且通过api设置线性渐变也无效，如$btn.setStyle('backgroundImage', 'linear-gradient(to top,#a80077,#66ff00);') 无法设置元素的线性背景。\r\n\r\n此处应该是个bug？还是有什么需要注意的地方？",
+  "closed_by": null
 }

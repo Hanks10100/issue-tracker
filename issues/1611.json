@@ -280,5 +280,24 @@
   "created_at": "2016-11-10T03:06:42Z",
   "updated_at": "2016-12-19T02:30:44Z",
   "closed_at": "2016-12-19T02:30:44Z",
-  "body": "#iOS. 经常会时不时的 异常奔溃抛这个异常\r\n```\r\nWXUtility.m:319, Unknown fontFamily:'Open Sans', sans-serif\r\n```\r\n##代码在android 和h5上正常, 在ios 上经常奔溃\r\n\r\n![0061dc63-9103-460c-9f42-d4220d43892d](https://cloud.githubusercontent.com/assets/6265414/20163199/8532f61e-a735-11e6-9356-cb39d5b65068.png)"
+  "body": "#iOS. 经常会时不时的 异常奔溃抛这个异常\r\n```\r\nWXUtility.m:319, Unknown fontFamily:'Open Sans', sans-serif\r\n```\r\n##代码在android 和h5上正常, 在ios 上经常奔溃\r\n\r\n![0061dc63-9103-460c-9f42-d4220d43892d](https://cloud.githubusercontent.com/assets/6265414/20163199/8532f61e-a735-11e6-9356-cb39d5b65068.png)",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

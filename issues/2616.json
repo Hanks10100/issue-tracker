@@ -94,5 +94,24 @@
   "created_at": "2017-02-17T01:58:07Z",
   "updated_at": "2017-02-27T01:50:09Z",
   "closed_at": "2017-02-20T03:49:52Z",
-  "body": "android 跳转 A.vue 到B.vue用navigator.push 实现的，但是在很多的机型里会报activity not find exception的错误，请问怎么解决？？？？\r\n\r\n后来我添加了<intent-filter>\r\n                <action android:name=\"android.intent.action.VIEW\"/>\r\n                <action android:name=\"com.alibaba.weex.protocol.openurl\"/>\r\n\r\n                <category android:name=\"android.intent.category.DEFAULT\"/>\r\n                <category android:name=\"com.taobao.android.intent.category.WEEX\"/>\r\n\r\n                <data android:scheme=\"http\"/>\r\n                <data android:scheme=\"https\"/>\r\n                <data android:scheme=\"file\"/>\r\n            </intent-filter>\r\n\r\n在Androidmanifest中，虽然不报错了，但是并跳转到子页去，而是又打开了一次当前页。如何破，比较急。"
+  "body": "android 跳转 A.vue 到B.vue用navigator.push 实现的，但是在很多的机型里会报activity not find exception的错误，请问怎么解决？？？？\r\n\r\n后来我添加了<intent-filter>\r\n                <action android:name=\"android.intent.action.VIEW\"/>\r\n                <action android:name=\"com.alibaba.weex.protocol.openurl\"/>\r\n\r\n                <category android:name=\"android.intent.category.DEFAULT\"/>\r\n                <category android:name=\"com.taobao.android.intent.category.WEEX\"/>\r\n\r\n                <data android:scheme=\"http\"/>\r\n                <data android:scheme=\"https\"/>\r\n                <data android:scheme=\"file\"/>\r\n            </intent-filter>\r\n\r\n在Androidmanifest中，虽然不报错了，但是并跳转到子页去，而是又打开了一次当前页。如何破，比较急。",
+  "closed_by": {
+    "login": "wslyy99",
+    "id": 24604597,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/24604597?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/wslyy99",
+    "html_url": "https://github.com/wslyy99",
+    "followers_url": "https://api.github.com/users/wslyy99/followers",
+    "following_url": "https://api.github.com/users/wslyy99/following{/other_user}",
+    "gists_url": "https://api.github.com/users/wslyy99/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/wslyy99/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/wslyy99/subscriptions",
+    "organizations_url": "https://api.github.com/users/wslyy99/orgs",
+    "repos_url": "https://api.github.com/users/wslyy99/repos",
+    "events_url": "https://api.github.com/users/wslyy99/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/wslyy99/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

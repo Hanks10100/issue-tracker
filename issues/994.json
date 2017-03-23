@@ -188,5 +188,24 @@
   "created_at": "2016-08-15T03:12:37Z",
   "updated_at": "2016-08-16T08:01:34Z",
   "closed_at": "2016-08-16T08:01:34Z",
-  "body": "同样是 a 标签\n\n```\n<a onClick=\"javascriptCall\" href=\"someLocation\" ></a>\n```\n\n就这个 a 标签，如果在 ios 下，onClick 事件是可以监听到的，但是到了安卓下 onClick 就监听不到了，虽然说，href 会覆盖 onClick 事件，herf 可以通过 onClick 模拟出来，但是用起来确实没有 ios 下方便\n\n比如一个最常见的 由 React 搭建的 SPA 场景\n- 我要通过锚点切换页面（但这个切换却是同步的），切换前需要执行一段 js 代码设置下 state \n"
+  "body": "同样是 a 标签\n\n```\n<a onClick=\"javascriptCall\" href=\"someLocation\" ></a>\n```\n\n就这个 a 标签，如果在 ios 下，onClick 事件是可以监听到的，但是到了安卓下 onClick 就监听不到了，虽然说，href 会覆盖 onClick 事件，herf 可以通过 onClick 模拟出来，但是用起来确实没有 ios 下方便\n\n比如一个最常见的 由 React 搭建的 SPA 场景\n- 我要通过锚点切换页面（但这个切换却是同步的），切换前需要执行一段 js 代码设置下 state \n",
+  "closed_by": {
+    "login": "YorkShen",
+    "id": 4162544,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4162544?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/YorkShen",
+    "html_url": "https://github.com/YorkShen",
+    "followers_url": "https://api.github.com/users/YorkShen/followers",
+    "following_url": "https://api.github.com/users/YorkShen/following{/other_user}",
+    "gists_url": "https://api.github.com/users/YorkShen/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/YorkShen/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/YorkShen/subscriptions",
+    "organizations_url": "https://api.github.com/users/YorkShen/orgs",
+    "repos_url": "https://api.github.com/users/YorkShen/repos",
+    "events_url": "https://api.github.com/users/YorkShen/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/YorkShen/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

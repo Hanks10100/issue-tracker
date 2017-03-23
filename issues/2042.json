@@ -66,5 +66,24 @@
   "created_at": "2016-12-27T10:55:38Z",
   "updated_at": "2016-12-28T01:47:43Z",
   "closed_at": "2016-12-28T01:47:43Z",
-  "body": "iOS 集成 Weex 0.8.0 在真机 6 Plus 8.3 系统下开发调试，好像蓝屏死机概率挺高的，有时候一天一次，有时候两次，不是具体哪段代码问题，就是运行运行突然就蓝屏了，手机重启后再运行又好了。"
+  "body": "iOS 集成 Weex 0.8.0 在真机 6 Plus 8.3 系统下开发调试，好像蓝屏死机概率挺高的，有时候一天一次，有时候两次，不是具体哪段代码问题，就是运行运行突然就蓝屏了，手机重启后再运行又好了。",
+  "closed_by": {
+    "login": "AndyFightting",
+    "id": 12689782,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/12689782?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/AndyFightting",
+    "html_url": "https://github.com/AndyFightting",
+    "followers_url": "https://api.github.com/users/AndyFightting/followers",
+    "following_url": "https://api.github.com/users/AndyFightting/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AndyFightting/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/AndyFightting/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/AndyFightting/subscriptions",
+    "organizations_url": "https://api.github.com/users/AndyFightting/orgs",
+    "repos_url": "https://api.github.com/users/AndyFightting/repos",
+    "events_url": "https://api.github.com/users/AndyFightting/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/AndyFightting/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

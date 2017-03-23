@@ -37,5 +37,6 @@
   "created_at": "2017-02-28T02:29:12Z",
   "updated_at": "2017-02-28T02:29:12Z",
   "closed_at": null,
-  "body": "    问题1：官方文档明确说‘Flexbox 是默认且唯一的布局模型’、‘Weex 不支持 display: none;，因此也不支持 v-show 指令’，但是在官方提供的modal模块demo中，alert提示框，.weex-modal-wrap {display:none}，弹窗出现时加了display:block，如果这样的话是不是说明weex又支持v-show指令了，display是不是可以为none和block了，还是文档更新有问题？\r\n   问题2：input组件，因为weex不支持click事件，如果不加autofocus=‘true’，在web中将无法获取焦点；同一个页面中如果有多个input组件，只能有一个input获取焦点，其它input无法获取焦点，"
+  "body": "    问题1：官方文档明确说‘Flexbox 是默认且唯一的布局模型’、‘Weex 不支持 display: none;，因此也不支持 v-show 指令’，但是在官方提供的modal模块demo中，alert提示框，.weex-modal-wrap {display:none}，弹窗出现时加了display:block，如果这样的话是不是说明weex又支持v-show指令了，display是不是可以为none和block了，还是文档更新有问题？\r\n   问题2：input组件，因为weex不支持click事件，如果不加autofocus=‘true’，在web中将无法获取焦点；同一个页面中如果有多个input组件，只能有一个input获取焦点，其它input无法获取焦点，",
+  "closed_by": null
 }

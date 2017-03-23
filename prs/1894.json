@@ -153,5 +153,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1894.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1894.patch"
   },
-  "body": "Support more CSS units without native update.\r\n\r\nThree updates together:\r\n\r\n1. `css-units` branch in `weexteam/weex-styler`\r\n2. `weex-next` branch in `weexteam/weex-vue-loader`\r\n3. `jsfm-feature-css-units` in `jinjiang/weex`\r\n\r\nHow it works: CSS value `100rem` in `<style>` will be transformed into `\"100rem\"` by `weex-styler` and then `100 * CSS_UNIT.REM` by `weex-vue-loader`. At the same time define global variable `CSS_UNIT` in JS Framework. So it works."
+  "body": "Support more CSS units without native update.\r\n\r\nThree updates together:\r\n\r\n1. `css-units` branch in `weexteam/weex-styler`\r\n2. `weex-next` branch in `weexteam/weex-vue-loader`\r\n3. `jsfm-feature-css-units` in `jinjiang/weex`\r\n\r\nHow it works: CSS value `100rem` in `<style>` will be transformed into `\"100rem\"` by `weex-styler` and then `100 * CSS_UNIT.REM` by `weex-vue-loader`. At the same time define global variable `CSS_UNIT` in JS Framework. So it works.",
+  "closed_by": {
+    "login": "Hanks10100",
+    "id": 8401776,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8401776?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Hanks10100",
+    "html_url": "https://github.com/Hanks10100",
+    "followers_url": "https://api.github.com/users/Hanks10100/followers",
+    "following_url": "https://api.github.com/users/Hanks10100/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Hanks10100/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Hanks10100/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Hanks10100/subscriptions",
+    "organizations_url": "https://api.github.com/users/Hanks10100/orgs",
+    "repos_url": "https://api.github.com/users/Hanks10100/repos",
+    "events_url": "https://api.github.com/users/Hanks10100/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Hanks10100/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

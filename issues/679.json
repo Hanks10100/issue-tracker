@@ -150,5 +150,24 @@
   "created_at": "2016-07-01T11:43:43Z",
   "updated_at": "2017-03-03T10:04:31Z",
   "closed_at": "2016-07-01T15:01:06Z",
-  "body": "你好，我对这个项目很有兴趣，想了解下weexcore的实现，所以看了下代码组织。\n\n但是没有找到weexcore的android本地源码，只有编译好的二进制库文件。\n\n请告知一下怎么获取这个代码，如果是我没有找到，请指出，我来关闭issue。\n\n谢谢。\n"
+  "body": "你好，我对这个项目很有兴趣，想了解下weexcore的实现，所以看了下代码组织。\n\n但是没有找到weexcore的android本地源码，只有编译好的二进制库文件。\n\n请告知一下怎么获取这个代码，如果是我没有找到，请指出，我来关闭issue。\n\n谢谢。\n",
+  "closed_by": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

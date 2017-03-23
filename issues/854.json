@@ -122,5 +122,24 @@
   "created_at": "2016-07-25T02:54:04Z",
   "updated_at": "2016-12-18T12:58:18Z",
   "closed_at": "2016-07-25T06:29:52Z",
-  "body": "ios 集成项目的时候按照给的文档提示:\n\n![image](https://cloud.githubusercontent.com/assets/15952009/17089147/ff79362a-5255-11e6-80df-544c2be50f64.png)\n"
+  "body": "ios 集成项目的时候按照给的文档提示:\n\n![image](https://cloud.githubusercontent.com/assets/15952009/17089147/ff79362a-5255-11e6-80df-544c2be50f64.png)\n",
+  "closed_by": {
+    "login": "MrDragonn",
+    "id": 15952009,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/15952009?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/MrDragonn",
+    "html_url": "https://github.com/MrDragonn",
+    "followers_url": "https://api.github.com/users/MrDragonn/followers",
+    "following_url": "https://api.github.com/users/MrDragonn/following{/other_user}",
+    "gists_url": "https://api.github.com/users/MrDragonn/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/MrDragonn/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/MrDragonn/subscriptions",
+    "organizations_url": "https://api.github.com/users/MrDragonn/orgs",
+    "repos_url": "https://api.github.com/users/MrDragonn/repos",
+    "events_url": "https://api.github.com/users/MrDragonn/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/MrDragonn/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

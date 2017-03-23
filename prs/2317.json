@@ -167,5 +167,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2317.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2317.patch"
   },
-  "body": "## 概述\r\n获取文本选区，支持input textarea\r\n\r\n## API\r\n### `setSelectionRange(selectionStart,selectionEnd)`\r\n\r\n设置选区 setSelectionRange\r\n\r\n#### 参数\r\n\r\n- `selectionStart {number}`：选区起始位置\r\n- `selectionEnd {number}`：选区结束位置\r\n\r\n### `getSelectionRange(callback[options])`\r\n\r\n获取选区 setSelectionRange\r\n\r\n#### 参数\r\n\r\n- `options {Object}`：获取选区\r\n   - `selectionStart {number}`：选区起始位置\r\n   - `selectionEnd {number}`：选区结束位置\r\n\r\n#### demo\r\n http://weex.alibaba-inc.com/playground/576201cb0c986e7ddb29626b373cc8db"
+  "body": "## 概述\r\n获取文本选区，支持input textarea\r\n\r\n## API\r\n### `setSelectionRange(selectionStart,selectionEnd)`\r\n\r\n设置选区 setSelectionRange\r\n\r\n#### 参数\r\n\r\n- `selectionStart {number}`：选区起始位置\r\n- `selectionEnd {number}`：选区结束位置\r\n\r\n### `getSelectionRange(callback[options])`\r\n\r\n获取选区 setSelectionRange\r\n\r\n#### 参数\r\n\r\n- `options {Object}`：获取选区\r\n   - `selectionStart {number}`：选区起始位置\r\n   - `selectionEnd {number}`：选区结束位置\r\n\r\n#### demo\r\n http://weex.alibaba-inc.com/playground/576201cb0c986e7ddb29626b373cc8db",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

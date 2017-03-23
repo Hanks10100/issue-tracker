@@ -272,5 +272,24 @@
   "created_at": "2016-11-28T06:38:00Z",
   "updated_at": "2016-11-29T10:53:53Z",
   "closed_at": "2016-11-29T06:53:10Z",
-  "body": "<!--\r\n0. It's ***RECOMMENDED*** to [submit PR](https://github.com/alibaba/weex/pulls) for typo, new demo or tiny bugfix.\r\n0. If this's a ***BUG***, pls provide: course repetition, error/crash log, device model, OS version, App version (playground or other apps).\r\n0. If this's a ***FEATURE***, pls provide: details, pseudo codes if necessary.\r\n\r\n---\r\n\r\n（请在***提交***前删除这段描述）\r\n\r\n0. 我们***推荐***小问题直接[提 PR](https://github.com/alibaba/weex/pulls)，如错别字、新 demo 或 bugfix。\r\n0. 如果是 ***Bug***，请提供：复现步骤（推荐有截图）、error/crash log、设备型号、OS 版本、App 版本（playground 版本或自己的 app）。\r\n0. 如果是***新需求***，请提供：详细描述、应用场景、适当的伪代码（如有）。\r\n-->\r\n## Weex 中使用WXComponent 扩展自定义控件，在.wx中使用后android端无法显示，请帮忙查看是否我这写的有问题；\r\n![image](https://cloud.githubusercontent.com/assets/7411102/20658304/bac9887a-b576-11e6-8d5a-03157184e7b4.png)\r\n![image](https://cloud.githubusercontent.com/assets/7411102/20658311/c570241e-b576-11e6-9b07-8bd694d181ac.png)\r\n.wx 里调用的方法\r\n```html\r\n<richtext style=\"background-color:red;margin-top: 30\" tel=\"18600000000\"></richtext>\r\n<text style=\"background-color:red;\">123</text>\r\n```\r\n\r\n\r\n实际应该显示两个textview ，结果只显示了下面正常的text，自定义的richtext不显示\r\n![image](https://cloud.githubusercontent.com/assets/7411102/20658344/05a6bb7e-b577-11e6-928c-d5ecd064850b.png)\r\n\r\n![image](https://cloud.githubusercontent.com/assets/7411102/20658516/8072d97c-b578-11e6-83b4-2a5c719a7e91.png)\r\nAndroid7.0系统\r\n\r\n"
+  "body": "<!--\r\n0. It's ***RECOMMENDED*** to [submit PR](https://github.com/alibaba/weex/pulls) for typo, new demo or tiny bugfix.\r\n0. If this's a ***BUG***, pls provide: course repetition, error/crash log, device model, OS version, App version (playground or other apps).\r\n0. If this's a ***FEATURE***, pls provide: details, pseudo codes if necessary.\r\n\r\n---\r\n\r\n（请在***提交***前删除这段描述）\r\n\r\n0. 我们***推荐***小问题直接[提 PR](https://github.com/alibaba/weex/pulls)，如错别字、新 demo 或 bugfix。\r\n0. 如果是 ***Bug***，请提供：复现步骤（推荐有截图）、error/crash log、设备型号、OS 版本、App 版本（playground 版本或自己的 app）。\r\n0. 如果是***新需求***，请提供：详细描述、应用场景、适当的伪代码（如有）。\r\n-->\r\n## Weex 中使用WXComponent 扩展自定义控件，在.wx中使用后android端无法显示，请帮忙查看是否我这写的有问题；\r\n![image](https://cloud.githubusercontent.com/assets/7411102/20658304/bac9887a-b576-11e6-8d5a-03157184e7b4.png)\r\n![image](https://cloud.githubusercontent.com/assets/7411102/20658311/c570241e-b576-11e6-9b07-8bd694d181ac.png)\r\n.wx 里调用的方法\r\n```html\r\n<richtext style=\"background-color:red;margin-top: 30\" tel=\"18600000000\"></richtext>\r\n<text style=\"background-color:red;\">123</text>\r\n```\r\n\r\n\r\n实际应该显示两个textview ，结果只显示了下面正常的text，自定义的richtext不显示\r\n![image](https://cloud.githubusercontent.com/assets/7411102/20658344/05a6bb7e-b577-11e6-928c-d5ecd064850b.png)\r\n\r\n![image](https://cloud.githubusercontent.com/assets/7411102/20658516/8072d97c-b578-11e6-83b4-2a5c719a7e91.png)\r\nAndroid7.0系统\r\n\r\n",
+  "closed_by": {
+    "login": "YorkShen",
+    "id": 4162544,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4162544?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/YorkShen",
+    "html_url": "https://github.com/YorkShen",
+    "followers_url": "https://api.github.com/users/YorkShen/followers",
+    "following_url": "https://api.github.com/users/YorkShen/following{/other_user}",
+    "gists_url": "https://api.github.com/users/YorkShen/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/YorkShen/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/YorkShen/subscriptions",
+    "organizations_url": "https://api.github.com/users/YorkShen/orgs",
+    "repos_url": "https://api.github.com/users/YorkShen/repos",
+    "events_url": "https://api.github.com/users/YorkShen/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/YorkShen/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

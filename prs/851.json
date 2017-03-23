@@ -138,5 +138,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/851.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/851.patch"
   },
-  "body": "interfacce definition:\n\n```\npublic interface IWXStorageAdapter {\n    public boolean setItem(String key, String value);\n    public String getItem(String key);\n    public boolean removeItem(String key);\n    public long length();\n    public List<String> getAllKeys();\n}\n```\n\nuse `WXSDKEngine#setIWXStorageAdapter(IWXStorageAdapter)` to inject different storage strategy.the default is use SqliteDatabase.\n\nin weex DSL,the usage is simple:\n\n```\n  var storage = require('@weex-module/storage');\n  storage.setItem('aaa','aaa-value');\n  storage.removeItem('aaa',function(e){\n            modal.toast({'message':JSON.stringify(e),'duration':1});\n          });\n ...\n```\n"
+  "body": "interfacce definition:\n\n```\npublic interface IWXStorageAdapter {\n    public boolean setItem(String key, String value);\n    public String getItem(String key);\n    public boolean removeItem(String key);\n    public long length();\n    public List<String> getAllKeys();\n}\n```\n\nuse `WXSDKEngine#setIWXStorageAdapter(IWXStorageAdapter)` to inject different storage strategy.the default is use SqliteDatabase.\n\nin weex DSL,the usage is simple:\n\n```\n  var storage = require('@weex-module/storage');\n  storage.setItem('aaa','aaa-value');\n  storage.removeItem('aaa',function(e){\n            modal.toast({'message':JSON.stringify(e),'duration':1});\n          });\n ...\n```\n",
+  "closed_by": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -222,5 +222,24 @@
   "created_at": "2016-09-27T08:03:47Z",
   "updated_at": "2017-01-22T07:39:03Z",
   "closed_at": "2017-01-22T07:39:03Z",
-  "body": "代码如下\n\n```\n<list class=\"listItem\" loadmoreoffset={{pageSize}}>\n                <refresh class=\"refresh-view\" display=\"{{refresh_display}}\" onrefresh=\"onrefresh\">\n                    <loading-indicator></loading-indicator>\n                    <text class=\"refresh-arrow\" style=\"margin-left:36px;color:#445566;\"\n                          if=\"{{(refresh_display==='hide')}}\">{{strings.refresh}}\n                    </text>\n                </refresh>\n                <cell repeat=\"{{onListRepeatArr}}\" style=\"width: 750px;height:523px; margin-top: 0px;\">\n                    <div style=\"flex-direction: row;width:750px;\">\n                        <div repeat=\"{{item in items}}\" onclick=\"onProductDetail(item)\">\n                            <list_product_item\n                                    item=\"{{item}}\"\n                                    iconmore-src=\"{{getImage('icon_more')}}\"\n                                    product-img-src=\"{{getImageByArray(item)}}\" product-name=\"{{item.name}}\" note=\"{{strings.note}}\"\n                                    product-message=\"{{item.memo}}\" qr-img=\"{{getImage('cpgl_list_icon_erweima')}}\"\n                            >\n                            </list_product_item>\n                        </div>\n                    </div>\n                </cell>\n                <loading class=\"loading\" display=\"{{loading_display}}\" onloading=\"onloading\">\n                    <text class=\"refresh-arrow\" style=\"text-align: center; color:rgb(238, 162, 54)\"\n                          if=\"{{(refresh_display==='hide')}}\">{{strings.load_more}}\n                    </text>\n                    <loading-indicator style=\"color:#445566;\"></loading-indicator>\n                </loading>\n            </list>\n```\n\n例如一次请求20条数据 \n![image](https://cloud.githubusercontent.com/assets/15952009/18865059/e10ea640-84cb-11e6-8466-57e32bb45a45.png)\n只要稍稍向上拉一下  就会进行刷新\n"
+  "body": "代码如下\n\n```\n<list class=\"listItem\" loadmoreoffset={{pageSize}}>\n                <refresh class=\"refresh-view\" display=\"{{refresh_display}}\" onrefresh=\"onrefresh\">\n                    <loading-indicator></loading-indicator>\n                    <text class=\"refresh-arrow\" style=\"margin-left:36px;color:#445566;\"\n                          if=\"{{(refresh_display==='hide')}}\">{{strings.refresh}}\n                    </text>\n                </refresh>\n                <cell repeat=\"{{onListRepeatArr}}\" style=\"width: 750px;height:523px; margin-top: 0px;\">\n                    <div style=\"flex-direction: row;width:750px;\">\n                        <div repeat=\"{{item in items}}\" onclick=\"onProductDetail(item)\">\n                            <list_product_item\n                                    item=\"{{item}}\"\n                                    iconmore-src=\"{{getImage('icon_more')}}\"\n                                    product-img-src=\"{{getImageByArray(item)}}\" product-name=\"{{item.name}}\" note=\"{{strings.note}}\"\n                                    product-message=\"{{item.memo}}\" qr-img=\"{{getImage('cpgl_list_icon_erweima')}}\"\n                            >\n                            </list_product_item>\n                        </div>\n                    </div>\n                </cell>\n                <loading class=\"loading\" display=\"{{loading_display}}\" onloading=\"onloading\">\n                    <text class=\"refresh-arrow\" style=\"text-align: center; color:rgb(238, 162, 54)\"\n                          if=\"{{(refresh_display==='hide')}}\">{{strings.load_more}}\n                    </text>\n                    <loading-indicator style=\"color:#445566;\"></loading-indicator>\n                </loading>\n            </list>\n```\n\n例如一次请求20条数据 \n![image](https://cloud.githubusercontent.com/assets/15952009/18865059/e10ea640-84cb-11e6-8466-57e32bb45a45.png)\n只要稍稍向上拉一下  就会进行刷新\n",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

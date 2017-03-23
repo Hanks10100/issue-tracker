@@ -178,5 +178,24 @@
   "created_at": "2016-08-23T02:39:19Z",
   "updated_at": "2016-10-24T08:24:13Z",
   "closed_at": "2016-10-24T08:24:13Z",
-  "body": "**_新需求**_\n我理解weex的性能瓶颈会包括以下两个方面：\n1. 复杂的操作需要频繁的callNative和callJS（比如自定义动画这种使用场景）\n2. 复杂的计算只能通过JS去做（算法、数据处理等场景）\n那能否将常用的math方法或者动画方法封装，预置一个native的lib或者dylib，利用JS call native的能力将这些操作交给native本身处理呢。\n这种优化是否有可行性?\n"
+  "body": "**_新需求**_\n我理解weex的性能瓶颈会包括以下两个方面：\n1. 复杂的操作需要频繁的callNative和callJS（比如自定义动画这种使用场景）\n2. 复杂的计算只能通过JS去做（算法、数据处理等场景）\n那能否将常用的math方法或者动画方法封装，预置一个native的lib或者dylib，利用JS call native的能力将这些操作交给native本身处理呢。\n这种优化是否有可行性?\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

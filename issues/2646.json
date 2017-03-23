@@ -94,5 +94,24 @@
   "created_at": "2017-02-19T03:15:37Z",
   "updated_at": "2017-02-20T15:15:16Z",
   "closed_at": "2017-02-20T15:15:16Z",
-  "body": "在android的playground里面看到代码\r\nimport com.alibaba.weex.commons.adapter.DefaultWebSocketAdapterFactory;\r\nimport com.alibaba.weex.commons.adapter.ImageAdapter;\r\nimport com.alibaba.weex.extend.PlayDebugAdapter;\r\nimport com.alibaba.weex.extend.component.RichText;\r\nimport com.alibaba.weex.extend.component.WXComponentSyncTest;\r\nimport com.alibaba.weex.extend.module.GeolocationModule;\r\nimport com.alibaba.weex.extend.module.MyModule;\r\nimport com.alibaba.weex.extend.module.RenderModule;\r\nimport com.alibaba.weex.extend.module.SyncTestModule;\r\nimport com.alibaba.weex.extend.module.WXEventModule;\r\n\r\n但是这些在weex_sdk里面没有，请问这些在哪里？"
+  "body": "在android的playground里面看到代码\r\nimport com.alibaba.weex.commons.adapter.DefaultWebSocketAdapterFactory;\r\nimport com.alibaba.weex.commons.adapter.ImageAdapter;\r\nimport com.alibaba.weex.extend.PlayDebugAdapter;\r\nimport com.alibaba.weex.extend.component.RichText;\r\nimport com.alibaba.weex.extend.component.WXComponentSyncTest;\r\nimport com.alibaba.weex.extend.module.GeolocationModule;\r\nimport com.alibaba.weex.extend.module.MyModule;\r\nimport com.alibaba.weex.extend.module.RenderModule;\r\nimport com.alibaba.weex.extend.module.SyncTestModule;\r\nimport com.alibaba.weex.extend.module.WXEventModule;\r\n\r\n但是这些在weex_sdk里面没有，请问这些在哪里？",
+  "closed_by": {
+    "login": "segatecm",
+    "id": 6448025,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6448025?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/segatecm",
+    "html_url": "https://github.com/segatecm",
+    "followers_url": "https://api.github.com/users/segatecm/followers",
+    "following_url": "https://api.github.com/users/segatecm/following{/other_user}",
+    "gists_url": "https://api.github.com/users/segatecm/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/segatecm/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/segatecm/subscriptions",
+    "organizations_url": "https://api.github.com/users/segatecm/orgs",
+    "repos_url": "https://api.github.com/users/segatecm/repos",
+    "events_url": "https://api.github.com/users/segatecm/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/segatecm/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

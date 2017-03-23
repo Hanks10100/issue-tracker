@@ -119,5 +119,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2068.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2068.patch"
   },
-  "body": "* Fixed in Xcode 8.1. We can delete OS_ACTIVITY_MODE environment variable now. Otherwise it will cause some log not working. \r\nTo stop the Xcode 8 iOS Simulator from logging like crazy, we set OS_ACTIVITY_MODE = disable in target scheme.\r\n\r\n\r\n* fix bug that border-x-radius not work"
+  "body": "* Fixed in Xcode 8.1. We can delete OS_ACTIVITY_MODE environment variable now. Otherwise it will cause some log not working. \r\nTo stop the Xcode 8 iOS Simulator from logging like crazy, we set OS_ACTIVITY_MODE = disable in target scheme.\r\n\r\n\r\n* fix bug that border-x-radius not work",
+  "closed_by": {
+    "login": "kfeagle",
+    "id": 11485145,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/11485145?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/kfeagle",
+    "html_url": "https://github.com/kfeagle",
+    "followers_url": "https://api.github.com/users/kfeagle/followers",
+    "following_url": "https://api.github.com/users/kfeagle/following{/other_user}",
+    "gists_url": "https://api.github.com/users/kfeagle/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/kfeagle/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/kfeagle/subscriptions",
+    "organizations_url": "https://api.github.com/users/kfeagle/orgs",
+    "repos_url": "https://api.github.com/users/kfeagle/repos",
+    "events_url": "https://api.github.com/users/kfeagle/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/kfeagle/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

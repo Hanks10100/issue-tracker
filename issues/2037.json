@@ -160,5 +160,24 @@
   "created_at": "2016-12-27T08:24:29Z",
   "updated_at": "2016-12-29T01:41:15Z",
   "closed_at": "2016-12-29T01:41:15Z",
-  "body": "我使用了生成SDK的方式导入到项目当中，按照步骤，导入了依赖环境，但是编译出错\r\n开发工具：xcode7.3\r\nweexsdk版本：0.9.4\r\n\r\n但是，我之前使用的是0.7.x的weex sdk版本就没有报错，今天给sdk升级了一下就报错了，然后我重新新建了一个项目，也是编译报错了，这是什么原因\r\n\r\n```\r\nUndefined symbols for architecture x86_64:\r\n  \"_GLKMatrix4Identity\", referenced from:\r\n      -[WXCanvasComponent viewDidLoad] in WeexSDK(WXCanvasComponent.o)\r\n  \"_GLKTextureLoaderApplyPremultiplication\", referenced from:\r\n      -[WXCanvasComponent getTexture:] in WeexSDK(WXCanvasComponent.o)\r\n  \"_OBJC_CLASS_$_GLKBaseEffect\", referenced from:\r\n      objc-class-ref in WeexSDK(WXCanvasComponent.o)\r\n  \"_OBJC_CLASS_$_GLKTextureLoader\", referenced from:\r\n      objc-class-ref in WeexSDK(WXCanvasComponent.o)\r\n  \"_OBJC_CLASS_$_GLKView\", referenced from:\r\n      objc-class-ref in WeexSDK(WXCanvasComponent.o)\r\n  \"___gxx_personality_v0\", referenced from:\r\n      -[WXRoundedRect initWithRect:topLeft:topRight:bottomLeft:bottomRight:] in WeexSDK(WXRoundedRect.o)\r\n      Dwarf Exception Unwind Info (__eh_frame) in WeexSDK(WXRoundedRect.o)\r\nld: symbol(s) not found for architecture x86_64\r\nclang: error: linker command failed with exit code 1 (use -v to see invocation)\r\n```\r\n"
+  "body": "我使用了生成SDK的方式导入到项目当中，按照步骤，导入了依赖环境，但是编译出错\r\n开发工具：xcode7.3\r\nweexsdk版本：0.9.4\r\n\r\n但是，我之前使用的是0.7.x的weex sdk版本就没有报错，今天给sdk升级了一下就报错了，然后我重新新建了一个项目，也是编译报错了，这是什么原因\r\n\r\n```\r\nUndefined symbols for architecture x86_64:\r\n  \"_GLKMatrix4Identity\", referenced from:\r\n      -[WXCanvasComponent viewDidLoad] in WeexSDK(WXCanvasComponent.o)\r\n  \"_GLKTextureLoaderApplyPremultiplication\", referenced from:\r\n      -[WXCanvasComponent getTexture:] in WeexSDK(WXCanvasComponent.o)\r\n  \"_OBJC_CLASS_$_GLKBaseEffect\", referenced from:\r\n      objc-class-ref in WeexSDK(WXCanvasComponent.o)\r\n  \"_OBJC_CLASS_$_GLKTextureLoader\", referenced from:\r\n      objc-class-ref in WeexSDK(WXCanvasComponent.o)\r\n  \"_OBJC_CLASS_$_GLKView\", referenced from:\r\n      objc-class-ref in WeexSDK(WXCanvasComponent.o)\r\n  \"___gxx_personality_v0\", referenced from:\r\n      -[WXRoundedRect initWithRect:topLeft:topRight:bottomLeft:bottomRight:] in WeexSDK(WXRoundedRect.o)\r\n      Dwarf Exception Unwind Info (__eh_frame) in WeexSDK(WXRoundedRect.o)\r\nld: symbol(s) not found for architecture x86_64\r\nclang: error: linker command failed with exit code 1 (use -v to see invocation)\r\n```\r\n",
+  "closed_by": {
+    "login": "sunzhongliangde",
+    "id": 3336252,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/3336252?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sunzhongliangde",
+    "html_url": "https://github.com/sunzhongliangde",
+    "followers_url": "https://api.github.com/users/sunzhongliangde/followers",
+    "following_url": "https://api.github.com/users/sunzhongliangde/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sunzhongliangde/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sunzhongliangde/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sunzhongliangde/subscriptions",
+    "organizations_url": "https://api.github.com/users/sunzhongliangde/orgs",
+    "repos_url": "https://api.github.com/users/sunzhongliangde/repos",
+    "events_url": "https://api.github.com/users/sunzhongliangde/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sunzhongliangde/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

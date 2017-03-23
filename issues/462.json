@@ -160,5 +160,24 @@
   "created_at": "2016-06-14T03:16:04Z",
   "updated_at": "2016-06-15T09:59:33Z",
   "closed_at": "2016-06-15T09:59:33Z",
-  "body": "在不支持触屏的浏览器，如PC机的浏览器中，查看自带的范例，列表只能显示两行，完全没有办法操作\n"
+  "body": "在不支持触屏的浏览器，如PC机的浏览器中，查看自带的范例，列表只能显示两行，完全没有办法操作\n",
+  "closed_by": {
+    "login": "liangjl76",
+    "id": 11612534,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/11612534?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/liangjl76",
+    "html_url": "https://github.com/liangjl76",
+    "followers_url": "https://api.github.com/users/liangjl76/followers",
+    "following_url": "https://api.github.com/users/liangjl76/following{/other_user}",
+    "gists_url": "https://api.github.com/users/liangjl76/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/liangjl76/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/liangjl76/subscriptions",
+    "organizations_url": "https://api.github.com/users/liangjl76/orgs",
+    "repos_url": "https://api.github.com/users/liangjl76/repos",
+    "events_url": "https://api.github.com/users/liangjl76/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/liangjl76/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

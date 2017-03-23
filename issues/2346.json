@@ -206,5 +206,6 @@
   "created_at": "2017-01-20T06:00:43Z",
   "updated_at": "2017-03-01T02:29:46Z",
   "closed_at": null,
-  "body": "```\r\nstream.fetch({\r\n          method: 'GET',\r\n          url: 'http://liuguangli.mock.uctest.local/weex/goodsList',\r\n          type: 'json',\r\n          body: body\r\n        }, function (res) {\r\n           if ( res.ok ) {\r\n             callback(res.data.data);\r\n           }\r\n        });\r\n```\r\n使用这个模块获取数据，在浏览器上面预览的时候会出现跨域错误\r\n![image](https://cloud.githubusercontent.com/assets/13861291/22137850/7e0851f2-df18-11e6-8ab6-b3776ea3a028.png)\r\n但是在weex playground下预览却没有问题，是在浏览器下需要特殊处理吗？"
+  "body": "```\r\nstream.fetch({\r\n          method: 'GET',\r\n          url: 'http://liuguangli.mock.uctest.local/weex/goodsList',\r\n          type: 'json',\r\n          body: body\r\n        }, function (res) {\r\n           if ( res.ok ) {\r\n             callback(res.data.data);\r\n           }\r\n        });\r\n```\r\n使用这个模块获取数据，在浏览器上面预览的时候会出现跨域错误\r\n![image](https://cloud.githubusercontent.com/assets/13861291/22137850/7e0851f2-df18-11e6-8ab6-b3776ea3a028.png)\r\n但是在weex playground下预览却没有问题，是在浏览器下需要特殊处理吗？",
+  "closed_by": null
 }

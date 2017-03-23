@@ -179,5 +179,24 @@
   "created_at": "2017-03-09T14:20:45Z",
   "updated_at": "2017-03-10T05:32:59Z",
   "closed_at": "2017-03-10T05:32:59Z",
-  "body": "举个最简单的例子，我要使用自定义的WXNavigationProtocol，在代码中注册Handlers\r\n```Object-C\r\n[WXSDKEngine registerHandler:[WXNavigationImpl new] withProtocol:@protocol(WXNavigationProtocol)];\r\n```\r\n运行程序发现自定义的代码未执行，但是同样代码在0.9.5中运行正常，通过调试代码发现，每次创建WXSDKInstance都会执行``` [WXSDKEngine registerDefaults];```,而0.9.5和0.10.1代码不同：\r\n0.9.5代码：\r\n```Object-C\r\n+ (void)registerDefaults\r\n{\r\n    static dispatch_once_t onceToken;\r\n    dispatch_once(&onceToken, ^{\r\n        [self _registerDefaultComponents];\r\n        [self _registerDefaultModules];\r\n        [self _registerDefaultHandlers];\r\n    });\r\n}\r\n```\r\n0.10.1代码：\r\n```Object-C\r\n+ (void)registerDefaults\r\n{\r\n    [self _registerDefaultComponents];\r\n    [self _registerDefaultModules];\r\n    [self _registerDefaultHandlers];\r\n}\r\n```\r\n0.10.1每次创建instance都执行该段代码，导致自定义的（主要是与sdk默认冲突的）被默认覆盖了。"
+  "body": "举个最简单的例子，我要使用自定义的WXNavigationProtocol，在代码中注册Handlers\r\n```Object-C\r\n[WXSDKEngine registerHandler:[WXNavigationImpl new] withProtocol:@protocol(WXNavigationProtocol)];\r\n```\r\n运行程序发现自定义的代码未执行，但是同样代码在0.9.5中运行正常，通过调试代码发现，每次创建WXSDKInstance都会执行``` [WXSDKEngine registerDefaults];```,而0.9.5和0.10.1代码不同：\r\n0.9.5代码：\r\n```Object-C\r\n+ (void)registerDefaults\r\n{\r\n    static dispatch_once_t onceToken;\r\n    dispatch_once(&onceToken, ^{\r\n        [self _registerDefaultComponents];\r\n        [self _registerDefaultModules];\r\n        [self _registerDefaultHandlers];\r\n    });\r\n}\r\n```\r\n0.10.1代码：\r\n```Object-C\r\n+ (void)registerDefaults\r\n{\r\n    [self _registerDefaultComponents];\r\n    [self _registerDefaultModules];\r\n    [self _registerDefaultHandlers];\r\n}\r\n```\r\n0.10.1每次创建instance都执行该段代码，导致自定义的（主要是与sdk默认冲突的）被默认覆盖了。",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

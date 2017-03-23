@@ -207,5 +207,24 @@
   "created_at": "2016-10-16T07:41:58Z",
   "updated_at": "2016-10-31T11:10:33Z",
   "closed_at": "2016-10-18T09:08:56Z",
-  "body": "请问，在xcode中运行时报：\n/Users/xianyun/weex/piece/ios/playground/WeexDemo/UIViewController+WXDemoNaviBar.m:74:28: 'UIBarButtonItemStyleBordered' is deprecated: first deprecated in iOS 8.0 - Use UIBarButtonItemStylePlain when minimum deployment target is iOS7 or later\n\n这样的情况该如何解呢？\n\n我是先下载https://github.com/alibaba/weex， 把example中的weex代码全部覆盖，然后在xcode运行。第一次运行的时候，模拟器是ok的，只是手机端报错。现在是两者都报以上的错误。\n我也不知是不是我流程走的不对。但是我不是想要在weex playground中调试自己写的页面。我是要最终生成一个ios安装包，或者是手机上调试生成的一个本地app，然后可以使用。\n但是现在卡在xcode的build过程上，求指导。\n"
+  "body": "请问，在xcode中运行时报：\n/Users/xianyun/weex/piece/ios/playground/WeexDemo/UIViewController+WXDemoNaviBar.m:74:28: 'UIBarButtonItemStyleBordered' is deprecated: first deprecated in iOS 8.0 - Use UIBarButtonItemStylePlain when minimum deployment target is iOS7 or later\n\n这样的情况该如何解呢？\n\n我是先下载https://github.com/alibaba/weex， 把example中的weex代码全部覆盖，然后在xcode运行。第一次运行的时候，模拟器是ok的，只是手机端报错。现在是两者都报以上的错误。\n我也不知是不是我流程走的不对。但是我不是想要在weex playground中调试自己写的页面。我是要最终生成一个ios安装包，或者是手机上调试生成的一个本地app，然后可以使用。\n但是现在卡在xcode的build过程上，求指导。\n",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

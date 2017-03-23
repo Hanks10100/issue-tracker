@@ -66,5 +66,24 @@
   "created_at": "2016-12-26T04:13:51Z",
   "updated_at": "2016-12-26T04:28:15Z",
   "closed_at": "2016-12-26T04:28:15Z",
-  "body": "1、将web组件的代码在本地的.we文件进行编译后，在网址中访问一片空白，但是在dotwe中却可以查看！\r\n![image](https://cloud.githubusercontent.com/assets/24770276/21474853/c4282c60-cb5f-11e6-9138-0d2791b88ad2.png)\r\n2、将以上代码复制到本地，之后编译：\r\n![image](https://cloud.githubusercontent.com/assets/24770276/21475315/0d213d9e-cb65-11e6-8f0f-1370308bbdc8.png)\r\n\r\n3、打开网页，之后显示空白，并报错，堆栈溢出：\r\n![image](https://cloud.githubusercontent.com/assets/24770276/21475319/19f86920-cb65-11e6-841a-e30f2b4d1ef3.png)\r\n\r\n\r\n\r\n"
+  "body": "1、将web组件的代码在本地的.we文件进行编译后，在网址中访问一片空白，但是在dotwe中却可以查看！\r\n![image](https://cloud.githubusercontent.com/assets/24770276/21474853/c4282c60-cb5f-11e6-9138-0d2791b88ad2.png)\r\n2、将以上代码复制到本地，之后编译：\r\n![image](https://cloud.githubusercontent.com/assets/24770276/21475315/0d213d9e-cb65-11e6-8f0f-1370308bbdc8.png)\r\n\r\n3、打开网页，之后显示空白，并报错，堆栈溢出：\r\n![image](https://cloud.githubusercontent.com/assets/24770276/21475319/19f86920-cb65-11e6-841a-e30f2b4d1ef3.png)\r\n\r\n\r\n\r\n",
+  "closed_by": {
+    "login": "zcl0001",
+    "id": 24770276,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/24770276?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/zcl0001",
+    "html_url": "https://github.com/zcl0001",
+    "followers_url": "https://api.github.com/users/zcl0001/followers",
+    "following_url": "https://api.github.com/users/zcl0001/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zcl0001/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/zcl0001/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/zcl0001/subscriptions",
+    "organizations_url": "https://api.github.com/users/zcl0001/orgs",
+    "repos_url": "https://api.github.com/users/zcl0001/repos",
+    "events_url": "https://api.github.com/users/zcl0001/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/zcl0001/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

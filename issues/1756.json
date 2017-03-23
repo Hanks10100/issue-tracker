@@ -159,5 +159,24 @@
   "created_at": "2016-11-28T13:57:54Z",
   "updated_at": "2016-12-16T05:24:24Z",
   "closed_at": "2016-12-16T05:24:24Z",
-  "body": "因为业务需要，要在原生里实现一些功能，反馈数据给weex页面，本来绑定的data直接refreshInstance是没有问题的，结果刚好今天碰到了一个页面用的tab bar，refresh的结果是只能更新tabbar的页面数据，不能更新tabitem的子页面数据，求教有没有相关的说明。或者关于本地数据与weex通讯有无更好的实现方法。"
+  "body": "因为业务需要，要在原生里实现一些功能，反馈数据给weex页面，本来绑定的data直接refreshInstance是没有问题的，结果刚好今天碰到了一个页面用的tab bar，refresh的结果是只能更新tabbar的页面数据，不能更新tabitem的子页面数据，求教有没有相关的说明。或者关于本地数据与weex通讯有无更好的实现方法。",
+  "closed_by": {
+    "login": "bluebird78999",
+    "id": 753735,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/753735?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/bluebird78999",
+    "html_url": "https://github.com/bluebird78999",
+    "followers_url": "https://api.github.com/users/bluebird78999/followers",
+    "following_url": "https://api.github.com/users/bluebird78999/following{/other_user}",
+    "gists_url": "https://api.github.com/users/bluebird78999/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/bluebird78999/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/bluebird78999/subscriptions",
+    "organizations_url": "https://api.github.com/users/bluebird78999/orgs",
+    "repos_url": "https://api.github.com/users/bluebird78999/repos",
+    "events_url": "https://api.github.com/users/bluebird78999/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/bluebird78999/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

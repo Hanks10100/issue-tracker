@@ -94,5 +94,24 @@
   "created_at": "2016-11-22T08:40:45Z",
   "updated_at": "2016-11-23T02:37:07Z",
   "closed_at": "2016-11-23T02:37:07Z",
-  "body": "我发现android SDK下如果在WXSDKInstance.render方法的options传入bundleUrl参数就会渲染失败。\r\n\r\n手动跟踪代码发现是WXBridgeManager.invokeCreateInstance(String,String,Map,String)调用WXJsonUtils.fromObjectToJSONString(options)序列化方法发生无限递归调用导致堆栈溢出。\r\n但如果在上级方法调用相同的序列化方法则没有问题。"
+  "body": "我发现android SDK下如果在WXSDKInstance.render方法的options传入bundleUrl参数就会渲染失败。\r\n\r\n手动跟踪代码发现是WXBridgeManager.invokeCreateInstance(String,String,Map,String)调用WXJsonUtils.fromObjectToJSONString(options)序列化方法发生无限递归调用导致堆栈溢出。\r\n但如果在上级方法调用相同的序列化方法则没有问题。",
+  "closed_by": {
+    "login": "Hanks10100",
+    "id": 8401776,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8401776?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Hanks10100",
+    "html_url": "https://github.com/Hanks10100",
+    "followers_url": "https://api.github.com/users/Hanks10100/followers",
+    "following_url": "https://api.github.com/users/Hanks10100/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Hanks10100/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Hanks10100/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Hanks10100/subscriptions",
+    "organizations_url": "https://api.github.com/users/Hanks10100/orgs",
+    "repos_url": "https://api.github.com/users/Hanks10100/repos",
+    "events_url": "https://api.github.com/users/Hanks10100/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Hanks10100/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

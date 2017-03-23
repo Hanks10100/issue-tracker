@@ -207,5 +207,24 @@
   "created_at": "2016-11-24T02:44:26Z",
   "updated_at": "2016-12-09T15:04:55Z",
   "closed_at": "2016-12-09T15:04:55Z",
-  "body": "## android  ios 两端显示程序效果相差太多,具体问题见下面两张图片所示: \r\n\r\n### iOS:\r\n1. 设置padding 属性设置无效\r\n2.  placeholder采用label实现,字体大小没有和UITextField统一,同时placeholder比较长时候,无法自动换行\r\n\r\n### android:\r\n 1. 默认text 文本属性是垂直居中,如果需要多行显示的时候就有问题,无法通过设置TOP属性让他在显示在顶部\r\n2.当前控件必须设置lines 属性才能显示多行,否则默认只能显示2行.  \r\n\r\n\r\n```\r\n<template>\r\n\t<wxc-navpage data-role=\"none\" height={{navBarHeight}} background-color=\"#1b1d29\" title={{title}} title-color=\"white\" left-item-src=\"http://7xocov.com2.z0.glb.qiniucdn.com/return.png\" left-item-color=\"white\">\r\n\t\t<div class= \"root\">\r\n\t\t    <textarea id =\"textarea-id\" class=\"feedback\"    lines=\"10000\" autofocus=\"true\" placeholder=\"给您带来不便深表歉意，您的意见能帮助我们更好的完善产品.\" >\r\n\t\t\t</textarea>\r\n\r\n            <wxc-button class=\"btn\" value=\"提交\" onclick=\"commit\" type=\"normal\"></wxc-button>\r\n\t\t</div>\r\n\t</wxc-navpage>\r\n</template>\r\n\r\n\r\n<style>\r\n    .root {background-color: #eeeeee; flex: 1; flex-direction:column; align-content: center; }\r\n    .feedback {width:750;height:300; padding: 10; background: red; color:blue; placeholder-color:red;font-size:30;}\r\n    .btn { width:720; height: 100; background-color: orange; margin-left: 15; margin-top: 15; }\r\n</style>\r\n<script>\r\n\r\n    // 使用的组件\r\n    require('weex-components');\r\n    module.exports = {\r\n        data: {  //数据绑定\r\n            navBarHeight : 88,\r\n            title: '意见反馈',\r\n            scheight:1000,\r\n        }\r\n   }\r\n</script>\r\n```\r\n\r\n![a190ce54-bcc6-44be-8628-cf77adec9dc7](https://cloud.githubusercontent.com/assets/6265414/20584799/13b0a16a-b231-11e6-8d80-a903c951360a.png)\r\n![b545d597-b592-4528-a860-abfd599985f5](https://cloud.githubusercontent.com/assets/6265414/20584978/74b117a0-b232-11e6-84ac-425ff39bf6aa.png)\r\n\r\n\r\n\r\n"
+  "body": "## android  ios 两端显示程序效果相差太多,具体问题见下面两张图片所示: \r\n\r\n### iOS:\r\n1. 设置padding 属性设置无效\r\n2.  placeholder采用label实现,字体大小没有和UITextField统一,同时placeholder比较长时候,无法自动换行\r\n\r\n### android:\r\n 1. 默认text 文本属性是垂直居中,如果需要多行显示的时候就有问题,无法通过设置TOP属性让他在显示在顶部\r\n2.当前控件必须设置lines 属性才能显示多行,否则默认只能显示2行.  \r\n\r\n\r\n```\r\n<template>\r\n\t<wxc-navpage data-role=\"none\" height={{navBarHeight}} background-color=\"#1b1d29\" title={{title}} title-color=\"white\" left-item-src=\"http://7xocov.com2.z0.glb.qiniucdn.com/return.png\" left-item-color=\"white\">\r\n\t\t<div class= \"root\">\r\n\t\t    <textarea id =\"textarea-id\" class=\"feedback\"    lines=\"10000\" autofocus=\"true\" placeholder=\"给您带来不便深表歉意，您的意见能帮助我们更好的完善产品.\" >\r\n\t\t\t</textarea>\r\n\r\n            <wxc-button class=\"btn\" value=\"提交\" onclick=\"commit\" type=\"normal\"></wxc-button>\r\n\t\t</div>\r\n\t</wxc-navpage>\r\n</template>\r\n\r\n\r\n<style>\r\n    .root {background-color: #eeeeee; flex: 1; flex-direction:column; align-content: center; }\r\n    .feedback {width:750;height:300; padding: 10; background: red; color:blue; placeholder-color:red;font-size:30;}\r\n    .btn { width:720; height: 100; background-color: orange; margin-left: 15; margin-top: 15; }\r\n</style>\r\n<script>\r\n\r\n    // 使用的组件\r\n    require('weex-components');\r\n    module.exports = {\r\n        data: {  //数据绑定\r\n            navBarHeight : 88,\r\n            title: '意见反馈',\r\n            scheight:1000,\r\n        }\r\n   }\r\n</script>\r\n```\r\n\r\n![a190ce54-bcc6-44be-8628-cf77adec9dc7](https://cloud.githubusercontent.com/assets/6265414/20584799/13b0a16a-b231-11e6-8d80-a903c951360a.png)\r\n![b545d597-b592-4528-a860-abfd599985f5](https://cloud.githubusercontent.com/assets/6265414/20584978/74b117a0-b232-11e6-84ac-425ff39bf6aa.png)\r\n\r\n\r\n\r\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

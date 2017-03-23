@@ -94,5 +94,24 @@
   "created_at": "2016-10-18T08:54:03Z",
   "updated_at": "2016-10-25T07:45:11Z",
   "closed_at": "2016-10-25T07:45:11Z",
-  "body": "为了使用这个最新的weex-devtool-extension，我更新weex toolkit之后，weex debug app list不能加载我的app了。之前（weex toolkit 0.4.10）是可以的。\nweex版本是0.5.8\nweex debug 版本是0.2.48\n原生的weex sdk已更新至0.8.0\n\n![e3e0afc3-9c1e-4a6a-ae8b-87908e1df71d](https://cloud.githubusercontent.com/assets/6778148/19470598/b6f87f4c-9552-11e6-927f-ee48d5360953.png)\n![image](https://cloud.githubusercontent.com/assets/6778148/19470631/d172b284-9552-11e6-8b2a-dc2e89ae04d8.png)\n"
+  "body": "为了使用这个最新的weex-devtool-extension，我更新weex toolkit之后，weex debug app list不能加载我的app了。之前（weex toolkit 0.4.10）是可以的。\nweex版本是0.5.8\nweex debug 版本是0.2.48\n原生的weex sdk已更新至0.8.0\n\n![e3e0afc3-9c1e-4a6a-ae8b-87908e1df71d](https://cloud.githubusercontent.com/assets/6778148/19470598/b6f87f4c-9552-11e6-927f-ee48d5360953.png)\n![image](https://cloud.githubusercontent.com/assets/6778148/19470631/d172b284-9552-11e6-8b2a-dc2e89ae04d8.png)\n",
+  "closed_by": {
+    "login": "alext1981",
+    "id": 8254442,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8254442?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/alext1981",
+    "html_url": "https://github.com/alext1981",
+    "followers_url": "https://api.github.com/users/alext1981/followers",
+    "following_url": "https://api.github.com/users/alext1981/following{/other_user}",
+    "gists_url": "https://api.github.com/users/alext1981/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/alext1981/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/alext1981/subscriptions",
+    "organizations_url": "https://api.github.com/users/alext1981/orgs",
+    "repos_url": "https://api.github.com/users/alext1981/repos",
+    "events_url": "https://api.github.com/users/alext1981/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/alext1981/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

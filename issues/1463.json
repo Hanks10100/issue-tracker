@@ -468,5 +468,24 @@
   "created_at": "2016-10-20T01:56:14Z",
   "updated_at": "2016-10-26T15:40:56Z",
   "closed_at": "2016-10-26T02:46:53Z",
-  "body": "使用 textarea，输入文字之后，点击某个输入的地方，不能定位到我想点击的位置，总是弹出复制粘贴选项，每次点击都自动全选了，根本定位不到我想点击的位置\n\n补充问题：textarea 设置高度，placeholder的位置总是垂直居中，需求是grativity 能不能 是top？\n源码里写死了，能不能开发者自己设置位置？\nditText.setGravity(textAlign | Gravity.CENTER_VERTICAL); 这个已经写死\n"
+  "body": "使用 textarea，输入文字之后，点击某个输入的地方，不能定位到我想点击的位置，总是弹出复制粘贴选项，每次点击都自动全选了，根本定位不到我想点击的位置\n\n补充问题：textarea 设置高度，placeholder的位置总是垂直居中，需求是grativity 能不能 是top？\n源码里写死了，能不能开发者自己设置位置？\nditText.setGravity(textAlign | Gravity.CENTER_VERTICAL); 这个已经写死\n",
+  "closed_by": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

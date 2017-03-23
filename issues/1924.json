@@ -119,5 +119,24 @@
   "created_at": "2016-12-16T07:45:46Z",
   "updated_at": "2016-12-20T02:16:10Z",
   "closed_at": "2016-12-20T02:16:10Z",
-  "body": "因为weex在加载的时候是要传入显示的view大小，这样导致对一个带有底部虚拟导航栏的手机在加载进去后隐藏和显示虚拟导航栏上底部有遮蔽或空白问题。\r\nmInstance.renderByUrl(\r\n        getPageName(),\r\n        url,\r\n        options,\r\n        jsonInitData,\r\n        ScreenUtil.getDisplayWidth(this),\r\n        ScreenUtil.getDisplayHeight(this),\r\n        WXRenderStrategy.APPEND_ASYNC);"
+  "body": "因为weex在加载的时候是要传入显示的view大小，这样导致对一个带有底部虚拟导航栏的手机在加载进去后隐藏和显示虚拟导航栏上底部有遮蔽或空白问题。\r\nmInstance.renderByUrl(\r\n        getPageName(),\r\n        url,\r\n        options,\r\n        jsonInitData,\r\n        ScreenUtil.getDisplayWidth(this),\r\n        ScreenUtil.getDisplayHeight(this),\r\n        WXRenderStrategy.APPEND_ASYNC);",
+  "closed_by": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

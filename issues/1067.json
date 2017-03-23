@@ -122,5 +122,24 @@
   "created_at": "2016-08-25T03:11:54Z",
   "updated_at": "2016-10-25T02:22:28Z",
   "closed_at": "2016-10-25T02:22:28Z",
-  "body": "如题，\n由于最近app人手严重不足，所以从后端转而研究了一下android + weex\n在画产品设计图时仔细地查看了playground和英文文档，没有发现类似于DatePicker这样的控件的描述，故有此一问。\n"
+  "body": "如题，\n由于最近app人手严重不足，所以从后端转而研究了一下android + weex\n在画产品设计图时仔细地查看了playground和英文文档，没有发现类似于DatePicker这样的控件的描述，故有此一问。\n",
+  "closed_by": {
+    "login": "alext1981",
+    "id": 8254442,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8254442?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/alext1981",
+    "html_url": "https://github.com/alext1981",
+    "followers_url": "https://api.github.com/users/alext1981/followers",
+    "following_url": "https://api.github.com/users/alext1981/following{/other_user}",
+    "gists_url": "https://api.github.com/users/alext1981/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/alext1981/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/alext1981/subscriptions",
+    "organizations_url": "https://api.github.com/users/alext1981/orgs",
+    "repos_url": "https://api.github.com/users/alext1981/repos",
+    "events_url": "https://api.github.com/users/alext1981/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/alext1981/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -150,5 +150,6 @@
   "created_at": "2017-02-27T07:13:13Z",
   "updated_at": "2017-03-04T04:41:52Z",
   "closed_at": null,
-  "body": "sdk0.9.4开始 支持补全代码中的相对地址，用的是bundle的host地址，如何去掉这个功能？\r\n\r\n因为我们之前的逻辑是app那边拿到相对地址，再用我们业务需要的host进行补全。这个host与bundle里的host可能是不一样的。\r\n\r\n比如我们的js bundle地址是`cdn1.xxx.com/js/weex.js`，但是业务里的接口的地址却是`shop.m.xxx.com/api/getContent`\r\n\r\n现在的问题就是我们在`.we`页面里写接口都是相对地址`/api/getContent`，这样的话weexSDK会根据bundle的host进行转换相对地址，变成了`cdn1.xxx.com/api/getContent`，导致接口请求404。\r\n\r\n目前iOS用的sdk是`0.9.5.2`，安卓用的是`0.10.0`，\r\n\r\n**iOS不会自动拼接相对地址，而安卓会自动拼接相对地址**\r\n\r\n请问有什么方法可以开关这个设置？"
+  "body": "sdk0.9.4开始 支持补全代码中的相对地址，用的是bundle的host地址，如何去掉这个功能？\r\n\r\n因为我们之前的逻辑是app那边拿到相对地址，再用我们业务需要的host进行补全。这个host与bundle里的host可能是不一样的。\r\n\r\n比如我们的js bundle地址是`cdn1.xxx.com/js/weex.js`，但是业务里的接口的地址却是`shop.m.xxx.com/api/getContent`\r\n\r\n现在的问题就是我们在`.we`页面里写接口都是相对地址`/api/getContent`，这样的话weexSDK会根据bundle的host进行转换相对地址，变成了`cdn1.xxx.com/api/getContent`，导致接口请求404。\r\n\r\n目前iOS用的sdk是`0.9.5.2`，安卓用的是`0.10.0`，\r\n\r\n**iOS不会自动拼接相对地址，而安卓会自动拼接相对地址**\r\n\r\n请问有什么方法可以开关这个设置？",
+  "closed_by": null
 }

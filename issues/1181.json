@@ -235,5 +235,24 @@
   "created_at": "2016-09-09T02:16:26Z",
   "updated_at": "2016-10-11T04:03:27Z",
   "closed_at": "2016-10-11T04:03:27Z",
-  "body": "如截图所示，list标签，在ISO 9.3系统下，返回桌面然后进入APP，会出现空白条\n开始页面：\n![image](https://cloud.githubusercontent.com/assets/3953237/18373411/682c3f0c-7676-11e6-9bf6-29494c826d07.png)\n返回桌面再次进入APP：\n![image](https://cloud.githubusercontent.com/assets/3953237/18373404/5b063fda-7676-11e6-841d-775fbf3e5b81.png)\n"
+  "body": "如截图所示，list标签，在ISO 9.3系统下，返回桌面然后进入APP，会出现空白条\n开始页面：\n![image](https://cloud.githubusercontent.com/assets/3953237/18373411/682c3f0c-7676-11e6-9bf6-29494c826d07.png)\n返回桌面再次进入APP：\n![image](https://cloud.githubusercontent.com/assets/3953237/18373404/5b063fda-7676-11e6-841d-775fbf3e5b81.png)\n",
+  "closed_by": {
+    "login": "alext1981",
+    "id": 8254442,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8254442?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/alext1981",
+    "html_url": "https://github.com/alext1981",
+    "followers_url": "https://api.github.com/users/alext1981/followers",
+    "following_url": "https://api.github.com/users/alext1981/following{/other_user}",
+    "gists_url": "https://api.github.com/users/alext1981/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/alext1981/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/alext1981/subscriptions",
+    "organizations_url": "https://api.github.com/users/alext1981/orgs",
+    "repos_url": "https://api.github.com/users/alext1981/repos",
+    "events_url": "https://api.github.com/users/alext1981/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/alext1981/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

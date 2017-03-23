@@ -66,5 +66,6 @@
   "created_at": "2017-02-14T01:35:46Z",
   "updated_at": "2017-02-16T09:21:33Z",
   "closed_at": null,
-  "body": "\r\n你好，之前安卓平台不能二次调用render方法渲染js文件，请问现在可以了吗？"
+  "body": "\r\n你好，之前安卓平台不能二次调用render方法渲染js文件，请问现在可以了吗？",
+  "closed_by": null
 }

@@ -66,5 +66,24 @@
   "created_at": "2016-07-14T04:52:12Z",
   "updated_at": "2016-07-14T07:15:48Z",
   "closed_at": "2016-07-14T07:15:48Z",
-  "body": "同样的代码在5.1下可以全屏，Miui 4.4.4下高度只能占到父容器的4/5左右。\nnative端render、renderByUrl都试过，效果一样。\njs端也设置了ready: function () {\n            this.ctHeight = this.$getConfig().env.deviceHeight;\n            console.log(\"screenHeight:\" + this.ctHeight);\n        }\nmWXSDKInstance.renderByUrl(TAG, \"http://192.168.137.1:8080/dist/index.js\", null, null, -1, -1, WXRenderStrategy.APPEND_ASYNC);\n\nweex版本：compile 'com.taobao.android:weex_sdk:0.5.1@aar'\n"
+  "body": "同样的代码在5.1下可以全屏，Miui 4.4.4下高度只能占到父容器的4/5左右。\nnative端render、renderByUrl都试过，效果一样。\njs端也设置了ready: function () {\n            this.ctHeight = this.$getConfig().env.deviceHeight;\n            console.log(\"screenHeight:\" + this.ctHeight);\n        }\nmWXSDKInstance.renderByUrl(TAG, \"http://192.168.137.1:8080/dist/index.js\", null, null, -1, -1, WXRenderStrategy.APPEND_ASYNC);\n\nweex版本：compile 'com.taobao.android:weex_sdk:0.5.1@aar'\n",
+  "closed_by": {
+    "login": "qbcbyb",
+    "id": 6168648,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6168648?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/qbcbyb",
+    "html_url": "https://github.com/qbcbyb",
+    "followers_url": "https://api.github.com/users/qbcbyb/followers",
+    "following_url": "https://api.github.com/users/qbcbyb/following{/other_user}",
+    "gists_url": "https://api.github.com/users/qbcbyb/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/qbcbyb/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/qbcbyb/subscriptions",
+    "organizations_url": "https://api.github.com/users/qbcbyb/orgs",
+    "repos_url": "https://api.github.com/users/qbcbyb/repos",
+    "events_url": "https://api.github.com/users/qbcbyb/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/qbcbyb/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

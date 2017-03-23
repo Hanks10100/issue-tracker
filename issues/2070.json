@@ -160,5 +160,24 @@
   "created_at": "2016-12-29T03:14:41Z",
   "updated_at": "2017-01-22T03:35:35Z",
   "closed_at": "2017-01-22T03:35:35Z",
-  "body": "在测试animation的时候发现一个问题，ios版本的(最新sdk)翻转动画，如果转动角度超过180度，只能顺时针，不能逆时针，180度内正反转都没问题，超过之后反转没有任何动作，例如下面代码\r\n```\r\n<template>\r\n    <div style=\"justify-content: center; align-items: center\">\r\n        <div id=\"target\" onclick=\"{{doAnim}}\"\r\n             style=\"width: 240px; height: 240px; background-color: #F0AD4E;justify-content: center; align-items: center;\">\r\n            <text style=\"text-align: center;color: white;font-size: 80px\">Click</text>\r\n        </div>\r\n    </div>\r\n</template>\r\n<script>\r\n    module.exports = {\r\n        data: {\r\n            rotate : '0deg'\r\n        },\r\n        methods: {\r\n            doAnim: function () {\r\n                var self = this;\r\n                var animation = require('@weex-module/animation');\r\n                var target = this.$el('target');\r\n                self.rotate = self.rotate === '0deg' ? '270deg' : '0deg';\r\n                var options = {\r\n                    styles: {\r\n                        transform: 'rotate(' + self.rotate + ')',\r\n                    },\r\n                    duration: 1000,\r\n                };\r\n                var callback = function () {\r\n                    nativeLog('animation complete.');\r\n                };\r\n                animation.transition(target, options, callback);\r\n            }\r\n        }\r\n    }\r\n</script>\r\n```\r\n在0-270的时候是正常的，270-0的时候不动，再到0-270的时候，会突然从270调到0再开始0-270。我在android上测试是正常的，不知道是不是bug？"
+  "body": "在测试animation的时候发现一个问题，ios版本的(最新sdk)翻转动画，如果转动角度超过180度，只能顺时针，不能逆时针，180度内正反转都没问题，超过之后反转没有任何动作，例如下面代码\r\n```\r\n<template>\r\n    <div style=\"justify-content: center; align-items: center\">\r\n        <div id=\"target\" onclick=\"{{doAnim}}\"\r\n             style=\"width: 240px; height: 240px; background-color: #F0AD4E;justify-content: center; align-items: center;\">\r\n            <text style=\"text-align: center;color: white;font-size: 80px\">Click</text>\r\n        </div>\r\n    </div>\r\n</template>\r\n<script>\r\n    module.exports = {\r\n        data: {\r\n            rotate : '0deg'\r\n        },\r\n        methods: {\r\n            doAnim: function () {\r\n                var self = this;\r\n                var animation = require('@weex-module/animation');\r\n                var target = this.$el('target');\r\n                self.rotate = self.rotate === '0deg' ? '270deg' : '0deg';\r\n                var options = {\r\n                    styles: {\r\n                        transform: 'rotate(' + self.rotate + ')',\r\n                    },\r\n                    duration: 1000,\r\n                };\r\n                var callback = function () {\r\n                    nativeLog('animation complete.');\r\n                };\r\n                animation.transition(target, options, callback);\r\n            }\r\n        }\r\n    }\r\n</script>\r\n```\r\n在0-270的时候是正常的，270-0的时候不动，再到0-270的时候，会突然从270调到0再开始0-270。我在android上测试是正常的，不知道是不是bug？",
+  "closed_by": {
+    "login": "cxfeng1",
+    "id": 1625893,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1625893?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cxfeng1",
+    "html_url": "https://github.com/cxfeng1",
+    "followers_url": "https://api.github.com/users/cxfeng1/followers",
+    "following_url": "https://api.github.com/users/cxfeng1/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cxfeng1/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cxfeng1/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cxfeng1/subscriptions",
+    "organizations_url": "https://api.github.com/users/cxfeng1/orgs",
+    "repos_url": "https://api.github.com/users/cxfeng1/repos",
+    "events_url": "https://api.github.com/users/cxfeng1/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cxfeng1/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

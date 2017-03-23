@@ -110,5 +110,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/743.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/743.patch"
   },
-  "body": "根据原来的tech_list_2.we的代码生成的效果是这样的\n![image](https://cloud.githubusercontent.com/assets/9990676/16645529/181d9444-4457-11e6-87ab-a79fb32fe57c.png)\n修改后的效果如下\n![image](https://cloud.githubusercontent.com/assets/9990676/16645547/40f26282-4457-11e6-92a6-8c00a30774df.png)\n"
+  "body": "根据原来的tech_list_2.we的代码生成的效果是这样的\n![image](https://cloud.githubusercontent.com/assets/9990676/16645529/181d9444-4457-11e6-87ab-a79fb32fe57c.png)\n修改后的效果如下\n![image](https://cloud.githubusercontent.com/assets/9990676/16645547/40f26282-4457-11e6-92a6-8c00a30774df.png)\n",
+  "closed_by": {
+    "login": "lvscar",
+    "id": 1578838,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1578838?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/lvscar",
+    "html_url": "https://github.com/lvscar",
+    "followers_url": "https://api.github.com/users/lvscar/followers",
+    "following_url": "https://api.github.com/users/lvscar/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lvscar/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/lvscar/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/lvscar/subscriptions",
+    "organizations_url": "https://api.github.com/users/lvscar/orgs",
+    "repos_url": "https://api.github.com/users/lvscar/repos",
+    "events_url": "https://api.github.com/users/lvscar/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/lvscar/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

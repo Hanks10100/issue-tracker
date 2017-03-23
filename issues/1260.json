@@ -347,5 +347,24 @@
   "created_at": "2016-09-20T08:13:39Z",
   "updated_at": "2016-10-17T18:16:40Z",
   "closed_at": "2016-10-17T18:16:40Z",
-  "body": "# \n\n代码如下扫描后在H5  Android 均能够正常居中显示,但是在ios显示不能居中\n代码是git上最新的 ios10 iPhone5s\n\n<pre>\n&lt;template&gt;\n       &lt;div style=\"background-color:red\"&gt; \n            &lt;text class='textq'&gt;我 -- 的&lt;/text&gt;\n       &lt;/div&gt;\n&lt;/template&gt;\n&lt;style&gt;\n    .textq {\n        font-size: 50pt;\n        color: #cc0000;\n        text-align: center;\n        line-height: 500;\n        width: 150px;\n        background-color: #3e999f;\n    }\n&lt;/style&gt;\n</pre>\n# \n\n![wechatimg49](https://cloud.githubusercontent.com/assets/6265414/18662486/2cb3906c-7f4d-11e6-93e2-2c38f5e177bf.jpeg)\n"
+  "body": "# \n\n代码如下扫描后在H5  Android 均能够正常居中显示,但是在ios显示不能居中\n代码是git上最新的 ios10 iPhone5s\n\n<pre>\n&lt;template&gt;\n       &lt;div style=\"background-color:red\"&gt; \n            &lt;text class='textq'&gt;我 -- 的&lt;/text&gt;\n       &lt;/div&gt;\n&lt;/template&gt;\n&lt;style&gt;\n    .textq {\n        font-size: 50pt;\n        color: #cc0000;\n        text-align: center;\n        line-height: 500;\n        width: 150px;\n        background-color: #3e999f;\n    }\n&lt;/style&gt;\n</pre>\n# \n\n![wechatimg49](https://cloud.githubusercontent.com/assets/6265414/18662486/2cb3906c-7f4d-11e6-93e2-2c38f5e177bf.jpeg)\n",
+  "closed_by": {
+    "login": "cxfeng1",
+    "id": 1625893,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1625893?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cxfeng1",
+    "html_url": "https://github.com/cxfeng1",
+    "followers_url": "https://api.github.com/users/cxfeng1/followers",
+    "following_url": "https://api.github.com/users/cxfeng1/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cxfeng1/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cxfeng1/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cxfeng1/subscriptions",
+    "organizations_url": "https://api.github.com/users/cxfeng1/orgs",
+    "repos_url": "https://api.github.com/users/cxfeng1/repos",
+    "events_url": "https://api.github.com/users/cxfeng1/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cxfeng1/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

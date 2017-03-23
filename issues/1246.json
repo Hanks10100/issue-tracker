@@ -66,5 +66,24 @@
   "created_at": "2016-09-19T08:39:29Z",
   "updated_at": "2016-09-19T11:29:46Z",
   "closed_at": "2016-09-19T11:29:45Z",
-  "body": "希望阿里或社区的设计师帮忙设计一个好看点的 logo\n现在这个 [logo](http://alibaba.github.io/weex/) 有点尴尬呀，不太优雅，比较生硬。在多种排版需求情况下，也会遇到一定问题\n\n![image](https://cloud.githubusercontent.com/assets/1461251/18629308/51aa180c-7e97-11e6-897b-ab93f2358be0.png)\n\n我是认真的 😂\n"
+  "body": "希望阿里或社区的设计师帮忙设计一个好看点的 logo\n现在这个 [logo](http://alibaba.github.io/weex/) 有点尴尬呀，不太优雅，比较生硬。在多种排版需求情况下，也会遇到一定问题\n\n![image](https://cloud.githubusercontent.com/assets/1461251/18629308/51aa180c-7e97-11e6-897b-ab93f2358be0.png)\n\n我是认真的 😂\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

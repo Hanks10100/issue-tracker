@@ -122,5 +122,24 @@
   "created_at": "2017-01-05T03:07:30Z",
   "updated_at": "2017-01-10T04:09:19Z",
   "closed_at": "2017-01-10T04:09:19Z",
-  "body": "Weex集成至iOS时，发生如下错误。查找网上多种相似情况解决方式，依然无法解决。请问应该怎么处理？\r\n\r\n![image](https://cloud.githubusercontent.com/assets/6415080/21667822/08a916d6-d337-11e6-9aa8-c2190841f284.png)\r\n"
+  "body": "Weex集成至iOS时，发生如下错误。查找网上多种相似情况解决方式，依然无法解决。请问应该怎么处理？\r\n\r\n![image](https://cloud.githubusercontent.com/assets/6415080/21667822/08a916d6-d337-11e6-9aa8-c2190841f284.png)\r\n",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

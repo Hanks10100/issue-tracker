@@ -66,5 +66,24 @@
   "created_at": "2016-10-18T02:27:23Z",
   "updated_at": "2016-10-24T13:30:04Z",
   "closed_at": "2016-10-24T13:30:04Z",
-  "body": "weex 0.8.0 版本 android 下拉刷新与上来加载更多在加载过程,list scroller 无法上下滚动,这种体验不好,建议改进\n"
+  "body": "weex 0.8.0 版本 android 下拉刷新与上来加载更多在加载过程,list scroller 无法上下滚动,这种体验不好,建议改进\n",
+  "closed_by": {
+    "login": "alext1981",
+    "id": 8254442,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8254442?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/alext1981",
+    "html_url": "https://github.com/alext1981",
+    "followers_url": "https://api.github.com/users/alext1981/followers",
+    "following_url": "https://api.github.com/users/alext1981/following{/other_user}",
+    "gists_url": "https://api.github.com/users/alext1981/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/alext1981/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/alext1981/subscriptions",
+    "organizations_url": "https://api.github.com/users/alext1981/orgs",
+    "repos_url": "https://api.github.com/users/alext1981/repos",
+    "events_url": "https://api.github.com/users/alext1981/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/alext1981/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

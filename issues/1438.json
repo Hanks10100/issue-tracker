@@ -150,5 +150,24 @@
   "created_at": "2016-10-18T08:28:29Z",
   "updated_at": "2016-10-19T08:20:02Z",
   "closed_at": "2016-10-19T08:20:02Z",
-  "body": "Update all pods\n  Preparing\n\nAnalyzing dependencies\n\nInspecting targets to integrate\n  Using `ARCHS` setting to build architectures of target `Pods-WeexDemo`: (``)\n\nFetching external sources\n-> Fetching podspec for `WXDevtool` from `../WXDevtool/`\n-> Fetching podspec for `WeexSDK` from `../sdk/`\n\nResolving dependencies of `Podfile`\n[!] Unable to find a specification for `ATSDK-Weex (= 0.0.1)`\n"
+  "body": "Update all pods\n  Preparing\n\nAnalyzing dependencies\n\nInspecting targets to integrate\n  Using `ARCHS` setting to build architectures of target `Pods-WeexDemo`: (``)\n\nFetching external sources\n-> Fetching podspec for `WXDevtool` from `../WXDevtool/`\n-> Fetching podspec for `WeexSDK` from `../sdk/`\n\nResolving dependencies of `Podfile`\n[!] Unable to find a specification for `ATSDK-Weex (= 0.0.1)`\n",
+  "closed_by": {
+    "login": "Toorealistic",
+    "id": 15881558,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/15881558?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Toorealistic",
+    "html_url": "https://github.com/Toorealistic",
+    "followers_url": "https://api.github.com/users/Toorealistic/followers",
+    "following_url": "https://api.github.com/users/Toorealistic/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Toorealistic/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Toorealistic/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Toorealistic/subscriptions",
+    "organizations_url": "https://api.github.com/users/Toorealistic/orgs",
+    "repos_url": "https://api.github.com/users/Toorealistic/repos",
+    "events_url": "https://api.github.com/users/Toorealistic/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Toorealistic/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

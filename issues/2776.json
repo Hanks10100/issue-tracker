@@ -66,5 +66,6 @@
   "created_at": "2017-02-25T02:32:42Z",
   "updated_at": "2017-02-25T03:01:13Z",
   "closed_at": null,
-  "body": "在使用跳转的时候有一些疑问，我在viewwillappear中注册了通知观察，在viewwilldisappear中移除观察，openurl方式没有问题，换成navigator之后收不到通知，调试发现viewwilldisappear之后viewdiddisappear，居然没有执行appear和load方法。想请教navigator跳转的生命周期，我该如何放置通知观察者。"
+  "body": "在使用跳转的时候有一些疑问，我在viewwillappear中注册了通知观察，在viewwilldisappear中移除观察，openurl方式没有问题，换成navigator之后收不到通知，调试发现viewwilldisappear之后viewdiddisappear，居然没有执行appear和load方法。想请教navigator跳转的生命周期，我该如何放置通知观察者。",
+  "closed_by": null
 }

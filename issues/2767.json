@@ -243,5 +243,6 @@
   "created_at": "2017-02-24T09:38:45Z",
   "updated_at": "2017-02-27T03:21:35Z",
   "closed_at": null,
-  "body": "使用的weex-toolkit@beta  版本如下：\r\nv1.0.1-beta.6\r\nweex-builder : v0.2.2\r\n\r\nBUG:\r\n新增 的自定义module的方法，返回值String , 都变成了undefined   \r\n\r\n把  XX.vue 文件  改写成 XX.we   就正常了。  初步确定是支持VUE不好。"
+  "body": "使用的weex-toolkit@beta  版本如下：\r\nv1.0.1-beta.6\r\nweex-builder : v0.2.2\r\n\r\nBUG:\r\n新增 的自定义module的方法，返回值String , 都变成了undefined   \r\n\r\n把  XX.vue 文件  改写成 XX.we   就正常了。  初步确定是支持VUE不好。",
+  "closed_by": null
 }

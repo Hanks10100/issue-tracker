@@ -72,5 +72,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/925.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/925.patch"
   },
-  "body": "(Please **_REMOVE**_ the following description before submiting)\n\nIt's **_RECOMMENDED**_ to submit typo fix, new demo and tiny bugfix to `dev` branch. New feature and other modifications can be submitted to \"domain\" branch including `ios`, `android`, `jsfm`, `html5`.\n\nSee [Branch Strategy](https://github.com/alibaba/weex/blob/dev/CONTRIBUTING.md#branch-management) for more detail.\n\n---\n\n（请在**_提交**_前删除这段描述）\n\n错别字修改、新 demo、较小的 bugfix 都可以直接提到 `dev` 分支；新需求以及任何你不确定影响面的改动，请提交到对应“领域”的分支（`ios`、`android`、`jsfm`、`html5`）。\n\n查看完整的[分支策略 (英文)](https://github.com/alibaba/weex/blob/dev/CONTRIBUTING.md#branch-management)。\n"
+  "body": "(Please **_REMOVE**_ the following description before submiting)\n\nIt's **_RECOMMENDED**_ to submit typo fix, new demo and tiny bugfix to `dev` branch. New feature and other modifications can be submitted to \"domain\" branch including `ios`, `android`, `jsfm`, `html5`.\n\nSee [Branch Strategy](https://github.com/alibaba/weex/blob/dev/CONTRIBUTING.md#branch-management) for more detail.\n\n---\n\n（请在**_提交**_前删除这段描述）\n\n错别字修改、新 demo、较小的 bugfix 都可以直接提到 `dev` 分支；新需求以及任何你不确定影响面的改动，请提交到对应“领域”的分支（`ios`、`android`、`jsfm`、`html5`）。\n\n查看完整的[分支策略 (英文)](https://github.com/alibaba/weex/blob/dev/CONTRIBUTING.md#branch-management)。\n",
+  "closed_by": {
+    "login": "wispy316",
+    "id": 4507261,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/4507261?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/wispy316",
+    "html_url": "https://github.com/wispy316",
+    "followers_url": "https://api.github.com/users/wispy316/followers",
+    "following_url": "https://api.github.com/users/wispy316/following{/other_user}",
+    "gists_url": "https://api.github.com/users/wispy316/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/wispy316/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/wispy316/subscriptions",
+    "organizations_url": "https://api.github.com/users/wispy316/orgs",
+    "repos_url": "https://api.github.com/users/wispy316/repos",
+    "events_url": "https://api.github.com/users/wispy316/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/wispy316/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

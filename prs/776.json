@@ -115,5 +115,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/776.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/776.patch"
   },
-  "body": "- moved some `default/util` methods to `shared`\n- removed `Object.assign` polyfill and update every `Object.assign` to `util.extend`\n- removed `util.stringify` (not used)\n- removed `util.isArray` and update every `util.isArray` to `Array.isArray`\n- removed `util.nextTick` (not used)\n- removed `util.inBrowser` (not used)\n- removed `util.UA` (not used)\n- removed `util.devtools` (not used)\n- removed `util.error/warn/info/log/debug` and use `console` directly\n- removed `util.normalize` (not used)\n- removed error on none event handler\n- removed `config.customComponentMap` (not used)\n- removed `config.debug` (not used)\n- adjusted `console.log/debug/warn/error` (see details below)\n- renamed `global.needTransformerVersion` to `global.transformerVersion`\n- adapted `global.callJS` to `global.receiveTasks`\n- specialized `global.registerMethods` into default framework\n\nAll console calls in JS Framework:\n\n```\nconsole.error\n  native-js call error\n  framework & instance error\n  register a component twice or more\n  bootstrap component name error\n  downgrade error\nconsole.warn\n  methods\n    old $\n    old $scrollTo\n    old $getConfig(callback)\n    old $sendHttp\n    old $openURL\n    old $setTitle\n    old $call\n  app\n    old register\n    old render\n    old require\n  vm\n    old methods.ready\n    old INDEX\nconsole.info\nconsole.log\n---- default logLevel\nconsole.debug\n  instance\n    type/version/url\n  bundle\n    define\n    bootstrap\n  ctrl\n    init\n    bootstrap finish\n    destroy\n    fireEvent\n    callback\n    refreshData\n  compiler\n    init, created, ready\n    compile content\n    compile repeat\n    compile if\n    compile custom component\n    compile native component\n    create element\n    create body\n    append tree\n    append node\n    watch repeat\n    watch if\n```\n"
+  "body": "- moved some `default/util` methods to `shared`\n- removed `Object.assign` polyfill and update every `Object.assign` to `util.extend`\n- removed `util.stringify` (not used)\n- removed `util.isArray` and update every `util.isArray` to `Array.isArray`\n- removed `util.nextTick` (not used)\n- removed `util.inBrowser` (not used)\n- removed `util.UA` (not used)\n- removed `util.devtools` (not used)\n- removed `util.error/warn/info/log/debug` and use `console` directly\n- removed `util.normalize` (not used)\n- removed error on none event handler\n- removed `config.customComponentMap` (not used)\n- removed `config.debug` (not used)\n- adjusted `console.log/debug/warn/error` (see details below)\n- renamed `global.needTransformerVersion` to `global.transformerVersion`\n- adapted `global.callJS` to `global.receiveTasks`\n- specialized `global.registerMethods` into default framework\n\nAll console calls in JS Framework:\n\n```\nconsole.error\n  native-js call error\n  framework & instance error\n  register a component twice or more\n  bootstrap component name error\n  downgrade error\nconsole.warn\n  methods\n    old $\n    old $scrollTo\n    old $getConfig(callback)\n    old $sendHttp\n    old $openURL\n    old $setTitle\n    old $call\n  app\n    old register\n    old render\n    old require\n  vm\n    old methods.ready\n    old INDEX\nconsole.info\nconsole.log\n---- default logLevel\nconsole.debug\n  instance\n    type/version/url\n  bundle\n    define\n    bootstrap\n  ctrl\n    init\n    bootstrap finish\n    destroy\n    fireEvent\n    callback\n    refreshData\n  compiler\n    init, created, ready\n    compile content\n    compile repeat\n    compile if\n    compile custom component\n    compile native component\n    create element\n    create body\n    append tree\n    append node\n    watch repeat\n    watch if\n```\n",
+  "closed_by": {
+    "login": "IskenHuang",
+    "id": 731134,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/731134?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/IskenHuang",
+    "html_url": "https://github.com/IskenHuang",
+    "followers_url": "https://api.github.com/users/IskenHuang/followers",
+    "following_url": "https://api.github.com/users/IskenHuang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/IskenHuang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/IskenHuang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/IskenHuang/subscriptions",
+    "organizations_url": "https://api.github.com/users/IskenHuang/orgs",
+    "repos_url": "https://api.github.com/users/IskenHuang/repos",
+    "events_url": "https://api.github.com/users/IskenHuang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/IskenHuang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -110,5 +110,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1475.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1475.patch"
   },
-  "body": "本次PL：\n新建个cn文件夹，希望可以在http://alibaba.github.io/weex/doc/cn/ 下显示中文文档页面（对应cn文件夹）。另外根据issue：article翻译一些内容，最后想问有进行这个翻译整合的必要吗？\n"
+  "body": "本次PL：\n新建个cn文件夹，希望可以在http://alibaba.github.io/weex/doc/cn/ 下显示中文文档页面（对应cn文件夹）。另外根据issue：article翻译一些内容，最后想问有进行这个翻译整合的必要吗？\n",
+  "closed_by": {
+    "login": "esmeetu",
+    "id": 6694539,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6694539?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/esmeetu",
+    "html_url": "https://github.com/esmeetu",
+    "followers_url": "https://api.github.com/users/esmeetu/followers",
+    "following_url": "https://api.github.com/users/esmeetu/following{/other_user}",
+    "gists_url": "https://api.github.com/users/esmeetu/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/esmeetu/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/esmeetu/subscriptions",
+    "organizations_url": "https://api.github.com/users/esmeetu/orgs",
+    "repos_url": "https://api.github.com/users/esmeetu/repos",
+    "events_url": "https://api.github.com/users/esmeetu/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/esmeetu/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

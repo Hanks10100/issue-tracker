@@ -146,5 +146,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/546.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/546.patch"
   },
-  "body": "add new feature about downgrade. The new downgrade feature support custom function to downgrade. Example as code.\n\n```\n<script type=\"config\">\n{\n    downgrade: function (deviceInfo, tools) {\n        if (deviceInfo.osVersion === '1.0') {\n            return true;\n        }\n        else if (tools.semver.satisfies(deviceInfo.appVersion, '>=1.0.0')) {\n            // semver.satisfies only support full version format. i.e. '1.0.0', '2.3.4', ...\n            // semver is https://github.com/npm/node-semver\n            return true;\n        }\n        else if (tools.semver.satisfies(tools.normalizeVersion(deviceInfo.appVersion), '1.0.0')) {\n            // tools.normalizeVersion will force normalize version.\n            // ie. '1' -> '1.0.0', '1.0' -> '1.0.0', '1.2.3.4' -> '1.2.3'\n            return true;\n        }\n\n        // return true is downgrade.\n        return false;\n    }\n}\n</script>\n```\n\nThe old format are also supported.\n\n```\n<script type=\"config\">\n{\n    downgrade: {\n        ios: {\n            osVersion: '>1.0.0',\n            appVersion: '>1.0.0',\n            weexVersion: '>1.0.0',\n            deviceModel: ['modelA', 'modelB', ...]\n        },\n        android: {\n            osVersion: '>1.0.0',\n            appVersion: '>1.0.0',\n            weexVersion: '>1.0.0',\n            deviceModel: 'modelC'\n        }\n    }\n}\n</script>\n```\n"
+  "body": "add new feature about downgrade. The new downgrade feature support custom function to downgrade. Example as code.\n\n```\n<script type=\"config\">\n{\n    downgrade: function (deviceInfo, tools) {\n        if (deviceInfo.osVersion === '1.0') {\n            return true;\n        }\n        else if (tools.semver.satisfies(deviceInfo.appVersion, '>=1.0.0')) {\n            // semver.satisfies only support full version format. i.e. '1.0.0', '2.3.4', ...\n            // semver is https://github.com/npm/node-semver\n            return true;\n        }\n        else if (tools.semver.satisfies(tools.normalizeVersion(deviceInfo.appVersion), '1.0.0')) {\n            // tools.normalizeVersion will force normalize version.\n            // ie. '1' -> '1.0.0', '1.0' -> '1.0.0', '1.2.3.4' -> '1.2.3'\n            return true;\n        }\n\n        // return true is downgrade.\n        return false;\n    }\n}\n</script>\n```\n\nThe old format are also supported.\n\n```\n<script type=\"config\">\n{\n    downgrade: {\n        ios: {\n            osVersion: '>1.0.0',\n            appVersion: '>1.0.0',\n            weexVersion: '>1.0.0',\n            deviceModel: ['modelA', 'modelB', ...]\n        },\n        android: {\n            osVersion: '>1.0.0',\n            appVersion: '>1.0.0',\n            weexVersion: '>1.0.0',\n            deviceModel: 'modelC'\n        }\n    }\n}\n</script>\n```\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

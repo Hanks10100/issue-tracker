@@ -37,5 +37,6 @@
   "created_at": "2017-02-13T15:59:37Z",
   "updated_at": "2017-02-13T15:59:37Z",
   "closed_at": null,
-  "body": "weex: 0.9.5\r\n模拟机没有此问题\r\niphone 6s真机测试发生此问题\r\n\r\n动画一： 把一个DIV的高度增加200px, 同时 translateY(-200)\r\n动画二： 把DIV高度复原， 同时 translateY(200)\r\n\r\n连续重复动画一和动画二多次\r\n\r\n期望的结果： DIV的底部不动，向上伸缩\r\n\r\n实际结果： 每次DIV的底部都有一个向下的微小位移， 重复次数多后就很明显偏离原位\r\n\r\n\r\n\r\n"
+  "body": "weex: 0.9.5\r\n模拟机没有此问题\r\niphone 6s真机测试发生此问题\r\n\r\n动画一： 把一个DIV的高度增加200px, 同时 translateY(-200)\r\n动画二： 把DIV高度复原， 同时 translateY(200)\r\n\r\n连续重复动画一和动画二多次\r\n\r\n期望的结果： DIV的底部不动，向上伸缩\r\n\r\n实际结果： 每次DIV的底部都有一个向下的微小位移， 重复次数多后就很明显偏离原位\r\n\r\n\r\n\r\n",
+  "closed_by": null
 }

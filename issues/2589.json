@@ -66,5 +66,24 @@
   "created_at": "2017-02-16T01:59:34Z",
   "updated_at": "2017-02-16T03:05:28Z",
   "closed_at": "2017-02-16T03:05:28Z",
-  "body": " # podfile 导入最新sdk\r\n![999413a4-bd7b-401d-a849-7884119c4f85](https://cloud.githubusercontent.com/assets/10784393/23003315/daa55a6e-f42a-11e6-9340-ffec5cabed6d.PNG)\r\n\r\n#然后编译的时候出现\r\n\r\n![726a2bd4-e5a9-4911-8cf2-b2d64495179b](https://cloud.githubusercontent.com/assets/10784393/23003914/996dad04-f42e-11e6-82aa-c0e1979d19dc.png)\r\n\r\n注释， 在oc下没问题的\r\n\r\n"
+  "body": " # podfile 导入最新sdk\r\n![999413a4-bd7b-401d-a849-7884119c4f85](https://cloud.githubusercontent.com/assets/10784393/23003315/daa55a6e-f42a-11e6-9340-ffec5cabed6d.PNG)\r\n\r\n#然后编译的时候出现\r\n\r\n![726a2bd4-e5a9-4911-8cf2-b2d64495179b](https://cloud.githubusercontent.com/assets/10784393/23003914/996dad04-f42e-11e6-82aa-c0e1979d19dc.png)\r\n\r\n注释， 在oc下没问题的\r\n\r\n",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

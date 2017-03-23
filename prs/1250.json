@@ -100,5 +100,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1250.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1250.patch"
   },
-  "body": "上一版本的slider-neighbor要求slider容器中间的cell 宽度必须是容器宽度-50，若超过，多余部分会被系统截断。\n"
+  "body": "上一版本的slider-neighbor要求slider容器中间的cell 宽度必须是容器宽度-50，若超过，多余部分会被系统截断。\n",
+  "closed_by": {
+    "login": "Rowandjj",
+    "id": 5766252,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5766252?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Rowandjj",
+    "html_url": "https://github.com/Rowandjj",
+    "followers_url": "https://api.github.com/users/Rowandjj/followers",
+    "following_url": "https://api.github.com/users/Rowandjj/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Rowandjj/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Rowandjj/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Rowandjj/subscriptions",
+    "organizations_url": "https://api.github.com/users/Rowandjj/orgs",
+    "repos_url": "https://api.github.com/users/Rowandjj/repos",
+    "events_url": "https://api.github.com/users/Rowandjj/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Rowandjj/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

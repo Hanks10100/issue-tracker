@@ -2,38 +2,53 @@ const GitHub = require('github-api/dist/GitHub.js')
 const jsonfile = require('jsonfile')
 
 const gh = new GitHub({
-  username: 'Hanks10100',
-  password: '**********'
+  username: 'Hanks-bot',
+  password: 'Hanks10100'
 })
 
-function getAllIssues (agent) {
-  console.log(` => fetching the issue list ...`)
-  agent.listIssues({
-    state: 'all'
-  }, (err, issueList) => {
-    if (err) {
-      console.log(` => failed to fetch the issue list`)
-      return
-    }
-
-    const issues = Array.from(issueList).filter(item => !item.pull_request)
-    console.log(` => got ${issues.length} issues`)
-    issues.forEach(issue => {
-      // console.log(` => fetch the comments of ${issue.number}`)
-      agent.listIssueComments(issue.number, (error, comments) => {
-        if (error) {
-          console.log(` => failed to fetch the comments of ${issue.number}`)
-        } else {
-          // console.log(` => got ${comments.length} comments of  ${issue.number}`)
-          issue.comments = comments
-          jsonfile.spaces = 2
-          jsonfile.writeFile(`issues/${issue.number}.json`, issue, () => {
-            // console.log(` => write issues/${issue.number}.json`)
-          })
+function fetchIssue (agent, number) {
+  return new Promise((resolve, reject) => {
+    agent.getIssue(number, (error, issue) => {
+      if (error) {
+        if (error.response.status == 404) {
+          reject({ done: true })
         }
+        reject(error)
+      }
+
+      agent.listIssueComments(issue.number, (err, comments) => {
+        if (err) { reject(err) }
+        issue.comments = comments
+        resolve(issue)
       })
-    })
+    }).catch(resolve)
   })
 }
 
-getAllIssues(gh.getIssues('alibaba', 'weex'))
+
+function fetchAndSave (agent, number) {
+  console.log(` => fetching #${number} ...`)
+  return fetchIssue(agent, number).then(issue => {
+    const type = issue.pull_request ? 'PR': 'issue'
+    console.log(` => [${type}] #${number} ${issue.title}`)
+
+    jsonfile.spaces = 2
+    jsonfile.writeFile(`./${type.toLowerCase()}s/${number}.json`, issue)
+  })
+}
+
+function fetchNext (agent, number = 1) {
+  let retry = 3
+  return fetchAndSave(agent, number).then(() => {
+    retry = 3
+    fetchNext(agent, number + 1)
+  }).catch(res => {
+    console.log(res)
+    if (!res.done && retry) {
+      retry--
+      fetchAndSave(agent, number)
+    }
+  })
+}
+
+fetchNext(gh.getIssues('alibaba', 'weex'), 2643)

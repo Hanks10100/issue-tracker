@@ -160,5 +160,24 @@
   "created_at": "2016-05-07T09:47:40Z",
   "updated_at": "2016-06-17T03:40:07Z",
   "closed_at": "2016-06-17T03:40:07Z",
-  "body": "Error:Connection timed out: connect. If you are behind an HTTP proxy, please configure the proxy settings either in IDE or Gradle.\n\n程序启动时遇到这个问题，\n"
+  "body": "Error:Connection timed out: connect. If you are behind an HTTP proxy, please configure the proxy settings either in IDE or Gradle.\n\n程序启动时遇到这个问题，\n",
+  "closed_by": {
+    "login": "xkli",
+    "id": 7642368,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7642368?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/xkli",
+    "html_url": "https://github.com/xkli",
+    "followers_url": "https://api.github.com/users/xkli/followers",
+    "following_url": "https://api.github.com/users/xkli/following{/other_user}",
+    "gists_url": "https://api.github.com/users/xkli/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/xkli/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/xkli/subscriptions",
+    "organizations_url": "https://api.github.com/users/xkli/orgs",
+    "repos_url": "https://api.github.com/users/xkli/repos",
+    "events_url": "https://api.github.com/users/xkli/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/xkli/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

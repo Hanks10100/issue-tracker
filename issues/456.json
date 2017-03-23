@@ -119,5 +119,24 @@
   "created_at": "2016-06-13T08:17:15Z",
   "updated_at": "2016-06-14T06:30:08Z",
   "closed_at": "2016-06-14T06:30:08Z",
-  "body": "# aa.we\n\n```\n<template>\n  <div>\n    <text>{{m}}</text>\n  </div>\n</template>\n```\n# test.we\n\n```\n<template>\n  <list>\n    <cell>\n      <aa m=\"{{m}}\"></a>\n    </cell>\n\n    <cell repeat=\"{{v in r}}\">\n      <text>{{v}}</text>\n    </cell>\n\n    <cell>\n      <wxc-button type=\"primary\" size=\"large\" value=\"press\" onclick=\"go\"></wxc-button>\n    </cell>\n\n  </list>\n</template>\n\n<script>\n  require('weex-components')\n  module.exports = {\n    data: {\n      r: [ 'aksdkasdkf', '23k423k423k4', 'fkfkfkfkfkf' ],\n      m: 'hello',\n    },\n\n    methods: {\n      go: function() {\n        this.m = 'bbq'\n        this.r = [ 'bbbbbbbbbbb','cccccccccccc']\n      }\n    }\n  }\n</script>\n\n```\n# \n\nbutton click 后\n\n1)  aa 组件不能正确显示 bbq 字串，应该是没有渲染\n\n2) list cell 再次赋值后，会 crash 出错 \n"
+  "body": "# aa.we\n\n```\n<template>\n  <div>\n    <text>{{m}}</text>\n  </div>\n</template>\n```\n# test.we\n\n```\n<template>\n  <list>\n    <cell>\n      <aa m=\"{{m}}\"></a>\n    </cell>\n\n    <cell repeat=\"{{v in r}}\">\n      <text>{{v}}</text>\n    </cell>\n\n    <cell>\n      <wxc-button type=\"primary\" size=\"large\" value=\"press\" onclick=\"go\"></wxc-button>\n    </cell>\n\n  </list>\n</template>\n\n<script>\n  require('weex-components')\n  module.exports = {\n    data: {\n      r: [ 'aksdkasdkf', '23k423k423k4', 'fkfkfkfkfkf' ],\n      m: 'hello',\n    },\n\n    methods: {\n      go: function() {\n        this.m = 'bbq'\n        this.r = [ 'bbbbbbbbbbb','cccccccccccc']\n      }\n    }\n  }\n</script>\n\n```\n# \n\nbutton click 后\n\n1)  aa 组件不能正确显示 bbq 字串，应该是没有渲染\n\n2) list cell 再次赋值后，会 crash 出错 \n",
+  "closed_by": {
+    "login": "gurisxie",
+    "id": 7436932,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/7436932?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/gurisxie",
+    "html_url": "https://github.com/gurisxie",
+    "followers_url": "https://api.github.com/users/gurisxie/followers",
+    "following_url": "https://api.github.com/users/gurisxie/following{/other_user}",
+    "gists_url": "https://api.github.com/users/gurisxie/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/gurisxie/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/gurisxie/subscriptions",
+    "organizations_url": "https://api.github.com/users/gurisxie/orgs",
+    "repos_url": "https://api.github.com/users/gurisxie/repos",
+    "events_url": "https://api.github.com/users/gurisxie/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/gurisxie/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

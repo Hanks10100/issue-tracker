@@ -94,5 +94,24 @@
   "created_at": "2017-02-15T09:27:20Z",
   "updated_at": "2017-02-16T05:25:31Z",
   "closed_at": "2017-02-16T05:25:31Z",
-  "body": "我在Weex Preview和weex playground 运行时，发现生命周期init 和ready的代码都没有运行，直接粘贴你们的代码也不行，只有created里面的才会运行，\r\n<template>\r\n  <div>\r\n    <text>Hello</text>\r\n    <div style=\"height: 500; width: 500; background-color: red\" if={{xxx}}></div>\r\n  </div>\r\n</template>\r\n<script>\r\n  module.exports = {\r\n    data: function () {\r\n      return {\r\n        xxx: false\r\n      }\r\n    },\r\n    ready: function () {\r\n      var stream = require('@weex-module/stream');\r\n      var GET_URL = 'http://httpbin.org/get';\r\n      console.log('sfsf')\r\n      stream.fetch({\r\n        method: 'GET',\r\n        url: GET_URL,\r\n      }, function (res) {\r\n        this.xxx = true;\r\n      }.bind(this), function (res) {\r\n      });\r\n    }\r\n  };\r\n</script>"
+  "body": "我在Weex Preview和weex playground 运行时，发现生命周期init 和ready的代码都没有运行，直接粘贴你们的代码也不行，只有created里面的才会运行，\r\n<template>\r\n  <div>\r\n    <text>Hello</text>\r\n    <div style=\"height: 500; width: 500; background-color: red\" if={{xxx}}></div>\r\n  </div>\r\n</template>\r\n<script>\r\n  module.exports = {\r\n    data: function () {\r\n      return {\r\n        xxx: false\r\n      }\r\n    },\r\n    ready: function () {\r\n      var stream = require('@weex-module/stream');\r\n      var GET_URL = 'http://httpbin.org/get';\r\n      console.log('sfsf')\r\n      stream.fetch({\r\n        method: 'GET',\r\n        url: GET_URL,\r\n      }, function (res) {\r\n        this.xxx = true;\r\n      }.bind(this), function (res) {\r\n      });\r\n    }\r\n  };\r\n</script>",
+  "closed_by": {
+    "login": "Hanks10100",
+    "id": 8401776,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8401776?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Hanks10100",
+    "html_url": "https://github.com/Hanks10100",
+    "followers_url": "https://api.github.com/users/Hanks10100/followers",
+    "following_url": "https://api.github.com/users/Hanks10100/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Hanks10100/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Hanks10100/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Hanks10100/subscriptions",
+    "organizations_url": "https://api.github.com/users/Hanks10100/orgs",
+    "repos_url": "https://api.github.com/users/Hanks10100/repos",
+    "events_url": "https://api.github.com/users/Hanks10100/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Hanks10100/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

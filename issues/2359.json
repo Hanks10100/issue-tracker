@@ -122,5 +122,6 @@
   "created_at": "2017-01-21T01:59:03Z",
   "updated_at": "2017-03-02T09:39:55Z",
   "closed_at": null,
-  "body": "weexpack create 项目以后运行weex-project.io的list例子报这个错误。\r\nUncaught DOMException: Failed to execute 'setAttribute' on 'Element': '@loadmore' is not a valid attribute name.\r\n问下 weexpack的项目如果需要编译vue版本 还需要添加什么插件嘛？"
+  "body": "weexpack create 项目以后运行weex-project.io的list例子报这个错误。\r\nUncaught DOMException: Failed to execute 'setAttribute' on 'Element': '@loadmore' is not a valid attribute name.\r\n问下 weexpack的项目如果需要编译vue版本 还需要添加什么插件嘛？",
+  "closed_by": null
 }

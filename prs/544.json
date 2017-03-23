@@ -96,5 +96,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/544.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/544.patch"
   },
-  "body": "- removed `__VERBOSE` log level and added `__LOG`\n- fixed `console` in HTML5\n"
+  "body": "- removed `__VERBOSE` log level and added `__LOG`\n- fixed `console` in HTML5\n",
+  "closed_by": {
+    "login": "IskenHuang",
+    "id": 731134,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/731134?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/IskenHuang",
+    "html_url": "https://github.com/IskenHuang",
+    "followers_url": "https://api.github.com/users/IskenHuang/followers",
+    "following_url": "https://api.github.com/users/IskenHuang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/IskenHuang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/IskenHuang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/IskenHuang/subscriptions",
+    "organizations_url": "https://api.github.com/users/IskenHuang/orgs",
+    "repos_url": "https://api.github.com/users/IskenHuang/repos",
+    "events_url": "https://api.github.com/users/IskenHuang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/IskenHuang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

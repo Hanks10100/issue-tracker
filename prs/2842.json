@@ -89,5 +89,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2842.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2842.patch"
   },
-  "body": "* fix image size attribute: image not centralized.\r\n* fix merging style algorithm.\r\n* fix lifecycle hook (mainly the beforeUpdate).\r\n* rm root font-size, no support for rem any more.\r\n* fix slider: can’t panmove vertically if it’s in a scoller.\r\n* firelazyload in a throttle way, every 16 ms."
+  "body": "* fix image size attribute: image not centralized.\r\n* fix merging style algorithm.\r\n* fix lifecycle hook (mainly the beforeUpdate).\r\n* rm root font-size, no support for rem any more.\r\n* fix slider: can’t panmove vertically if it’s in a scoller.\r\n* firelazyload in a throttle way, every 16 ms.",
+  "closed_by": {
+    "login": "fkysly",
+    "id": 3274605,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3274605?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/fkysly",
+    "html_url": "https://github.com/fkysly",
+    "followers_url": "https://api.github.com/users/fkysly/followers",
+    "following_url": "https://api.github.com/users/fkysly/following{/other_user}",
+    "gists_url": "https://api.github.com/users/fkysly/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/fkysly/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/fkysly/subscriptions",
+    "organizations_url": "https://api.github.com/users/fkysly/orgs",
+    "repos_url": "https://api.github.com/users/fkysly/repos",
+    "events_url": "https://api.github.com/users/fkysly/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/fkysly/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

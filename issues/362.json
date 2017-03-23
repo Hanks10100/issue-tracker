@@ -188,5 +188,24 @@
   "created_at": "2016-05-28T06:58:41Z",
   "updated_at": "2016-06-04T11:43:21Z",
   "closed_at": "2016-06-03T08:25:46Z",
-  "body": "mac 终端上,以下命令执行后\n    weex tech_list.we --port 8084 --wsport 8085\n显示的二维码是这样子的\n![qrcode](https://cloud.githubusercontent.com/assets/5844104/15625722/a0593378-24e4-11e6-9f0d-d1462ae26161.png)\n"
+  "body": "mac 终端上,以下命令执行后\n    weex tech_list.we --port 8084 --wsport 8085\n显示的二维码是这样子的\n![qrcode](https://cloud.githubusercontent.com/assets/5844104/15625722/a0593378-24e4-11e6-9f0d-d1462ae26161.png)\n",
+  "closed_by": {
+    "login": "lvscar",
+    "id": 1578838,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1578838?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/lvscar",
+    "html_url": "https://github.com/lvscar",
+    "followers_url": "https://api.github.com/users/lvscar/followers",
+    "following_url": "https://api.github.com/users/lvscar/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lvscar/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/lvscar/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/lvscar/subscriptions",
+    "organizations_url": "https://api.github.com/users/lvscar/orgs",
+    "repos_url": "https://api.github.com/users/lvscar/repos",
+    "events_url": "https://api.github.com/users/lvscar/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/lvscar/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

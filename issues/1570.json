@@ -160,5 +160,24 @@
   "created_at": "2016-11-03T07:58:07Z",
   "updated_at": "2016-11-29T07:13:30Z",
   "closed_at": "2016-11-29T07:13:30Z",
-  "body": "Hi，请问navigator具体要怎么用？\r\n我看了weex-dev 的examples\\component下的navigator-demo.we代码，\r\n结果Log显示\r\n[JS Framework] Vm#$call is deprecated, please use \"require('@weex-module/moduleName')\" instead\r\n而且weex examples\\component\\navigator-demo.we后点击push，跳转到\r\nhttp://127.0.0.1:8081/weex_tmp/h5_render/index.html?page=./examples/build/component/navigator-demo.js?test=1\r\n后界面一片空白？\r\n是因为这个call的方式deprecated的问题还是源码的url的问题？\r\n为什么手机上playground的navigator的那个案例是好的呢？\r\n感谢~\r\n"
+  "body": "Hi，请问navigator具体要怎么用？\r\n我看了weex-dev 的examples\\component下的navigator-demo.we代码，\r\n结果Log显示\r\n[JS Framework] Vm#$call is deprecated, please use \"require('@weex-module/moduleName')\" instead\r\n而且weex examples\\component\\navigator-demo.we后点击push，跳转到\r\nhttp://127.0.0.1:8081/weex_tmp/h5_render/index.html?page=./examples/build/component/navigator-demo.js?test=1\r\n后界面一片空白？\r\n是因为这个call的方式deprecated的问题还是源码的url的问题？\r\n为什么手机上playground的navigator的那个案例是好的呢？\r\n感谢~\r\n",
+  "closed_by": {
+    "login": "bluebird78999",
+    "id": 753735,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/753735?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/bluebird78999",
+    "html_url": "https://github.com/bluebird78999",
+    "followers_url": "https://api.github.com/users/bluebird78999/followers",
+    "following_url": "https://api.github.com/users/bluebird78999/following{/other_user}",
+    "gists_url": "https://api.github.com/users/bluebird78999/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/bluebird78999/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/bluebird78999/subscriptions",
+    "organizations_url": "https://api.github.com/users/bluebird78999/orgs",
+    "repos_url": "https://api.github.com/users/bluebird78999/repos",
+    "events_url": "https://api.github.com/users/bluebird78999/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/bluebird78999/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

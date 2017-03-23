@@ -222,5 +222,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1400.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1400.patch"
   },
-  "body": "image组件在iOS一方面增加支持本地图片，src中输入iOS工程里面存在的image名字即可，如下\n\n```\n<image style=\"width: 100;height: 100;\" src=\"scan\"></image>\n```\n\n在WXImageComponent内会自动区别是网络图片还是本地图片\n\n同时，看看有没有可能android和web支持相应功能\n"
+  "body": "image组件在iOS一方面增加支持本地图片，src中输入iOS工程里面存在的image名字即可，如下\n\n```\n<image style=\"width: 100;height: 100;\" src=\"scan\"></image>\n```\n\n在WXImageComponent内会自动区别是网络图片还是本地图片\n\n同时，看看有没有可能android和web支持相应功能\n",
+  "closed_by": {
+    "login": "coderyi",
+    "id": 10682908,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/10682908?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/coderyi",
+    "html_url": "https://github.com/coderyi",
+    "followers_url": "https://api.github.com/users/coderyi/followers",
+    "following_url": "https://api.github.com/users/coderyi/following{/other_user}",
+    "gists_url": "https://api.github.com/users/coderyi/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/coderyi/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/coderyi/subscriptions",
+    "organizations_url": "https://api.github.com/users/coderyi/orgs",
+    "repos_url": "https://api.github.com/users/coderyi/repos",
+    "events_url": "https://api.github.com/users/coderyi/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/coderyi/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -94,5 +94,24 @@
   "created_at": "2016-08-12T02:02:30Z",
   "updated_at": "2016-08-12T03:44:52Z",
   "closed_at": "2016-08-12T03:44:52Z",
-  "body": "渲染不出web组件\n[myweb.we.zip](https://github.com/alibaba/weex/files/414532/myweb.we.zip)\n[myweb.js.zip](https://github.com/alibaba/weex/files/414533/myweb.js.zip)\n![default](https://cloud.githubusercontent.com/assets/6778148/17610734/a6b2a996-6073-11e6-8c2b-325b04a45bcb.png)\n\n2016-08-12 09:54:26.532 WeexDemo[1035:114530] \u001b[fg128,128,128; <Weex>[log]WXSDKInstance.m:172, Start rendering page:http://127.0.0.1:8080/build/myweb.js \u001b[;\n2016-08-12 09:54:26.769 WeexDemo[1035:114692] \u001b[fg255,0,0; <Weex>[error]WXMonitor.m:166, [undefined:3:29371] RangeError: Maximum call stack size exceeded.\n"
+  "body": "渲染不出web组件\n[myweb.we.zip](https://github.com/alibaba/weex/files/414532/myweb.we.zip)\n[myweb.js.zip](https://github.com/alibaba/weex/files/414533/myweb.js.zip)\n![default](https://cloud.githubusercontent.com/assets/6778148/17610734/a6b2a996-6073-11e6-8c2b-325b04a45bcb.png)\n\n2016-08-12 09:54:26.532 WeexDemo[1035:114530] \u001b[fg128,128,128; <Weex>[log]WXSDKInstance.m:172, Start rendering page:http://127.0.0.1:8080/build/myweb.js \u001b[;\n2016-08-12 09:54:26.769 WeexDemo[1035:114692] \u001b[fg255,0,0; <Weex>[error]WXMonitor.m:166, [undefined:3:29371] RangeError: Maximum call stack size exceeded.\n",
+  "closed_by": {
+    "login": "yfldj",
+    "id": 6778148,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6778148?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/yfldj",
+    "html_url": "https://github.com/yfldj",
+    "followers_url": "https://api.github.com/users/yfldj/followers",
+    "following_url": "https://api.github.com/users/yfldj/following{/other_user}",
+    "gists_url": "https://api.github.com/users/yfldj/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/yfldj/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/yfldj/subscriptions",
+    "organizations_url": "https://api.github.com/users/yfldj/orgs",
+    "repos_url": "https://api.github.com/users/yfldj/repos",
+    "events_url": "https://api.github.com/users/yfldj/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/yfldj/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

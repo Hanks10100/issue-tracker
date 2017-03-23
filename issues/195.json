@@ -151,5 +151,24 @@
   "created_at": "2016-05-08T16:01:31Z",
   "updated_at": "2016-08-10T12:46:47Z",
   "closed_at": "2016-08-10T12:46:47Z",
-  "body": "![image](https://cloud.githubusercontent.com/assets/12876555/15098833/fb4af35a-1578-11e6-84fa-b958d73265f0.png)\n\n如截图，看蓝色的2016明显比灰色的2016下沉了几个像素\n\n```\n\n<template>\n  <scroller>\n    <text class=\"txt\">One text left , the other right</text>\n    <div style=\"flex-direction:row;justify-content:space-between;\">\n       <text style=\"font-size:32\">Left</text>\n       <text style=\"font-size:32\">Right</text>\n    </div>\n    <div style=\"flex-direction:row;justify-content:space-between;\">\n       <text style=\"font-size:32\">Left</text>\n       <div style=\"flex-direction:row;align-items:flex-end\"><text style=\"font-size:32\">Right 2016</text><text style=\"margin-left:3;color:#00f\">2016</text></div>\n    </div>\n  </scroller>\n</template>\n\n<style>\n  .txt {\n    margin-bottom: 12;\n    font-size: 40;\n    background-color:#000;\n    padding:50;\n    color:#fff;\n  }\n</style>\n\n<script>\n  require('weex-components');\n</script>\n```\n"
+  "body": "![image](https://cloud.githubusercontent.com/assets/12876555/15098833/fb4af35a-1578-11e6-84fa-b958d73265f0.png)\n\n如截图，看蓝色的2016明显比灰色的2016下沉了几个像素\n\n```\n\n<template>\n  <scroller>\n    <text class=\"txt\">One text left , the other right</text>\n    <div style=\"flex-direction:row;justify-content:space-between;\">\n       <text style=\"font-size:32\">Left</text>\n       <text style=\"font-size:32\">Right</text>\n    </div>\n    <div style=\"flex-direction:row;justify-content:space-between;\">\n       <text style=\"font-size:32\">Left</text>\n       <div style=\"flex-direction:row;align-items:flex-end\"><text style=\"font-size:32\">Right 2016</text><text style=\"margin-left:3;color:#00f\">2016</text></div>\n    </div>\n  </scroller>\n</template>\n\n<style>\n  .txt {\n    margin-bottom: 12;\n    font-size: 40;\n    background-color:#000;\n    padding:50;\n    color:#fff;\n  }\n</style>\n\n<script>\n  require('weex-components');\n</script>\n```\n",
+  "closed_by": {
+    "login": "YorkShen",
+    "id": 4162544,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4162544?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/YorkShen",
+    "html_url": "https://github.com/YorkShen",
+    "followers_url": "https://api.github.com/users/YorkShen/followers",
+    "following_url": "https://api.github.com/users/YorkShen/following{/other_user}",
+    "gists_url": "https://api.github.com/users/YorkShen/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/YorkShen/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/YorkShen/subscriptions",
+    "organizations_url": "https://api.github.com/users/YorkShen/orgs",
+    "repos_url": "https://api.github.com/users/YorkShen/repos",
+    "events_url": "https://api.github.com/users/YorkShen/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/YorkShen/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

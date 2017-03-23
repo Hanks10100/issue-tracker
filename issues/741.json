@@ -94,5 +94,24 @@
   "created_at": "2016-07-07T06:14:25Z",
   "updated_at": "2016-07-07T07:02:40Z",
   "closed_at": "2016-07-07T06:37:45Z",
-  "body": "weex-devtool\n![image](https://cloud.githubusercontent.com/assets/20315378/16644071/a9e5a7c8-444c-11e6-9556-869caf7469e7.png)\n\n![image](https://cloud.githubusercontent.com/assets/20315378/16644130/14ec5904-444d-11e6-9aab-a3aaf406ba1a.png)\ndebugger和inspector按钮都不可点击\n"
+  "body": "weex-devtool\n![image](https://cloud.githubusercontent.com/assets/20315378/16644071/a9e5a7c8-444c-11e6-9556-869caf7469e7.png)\n\n![image](https://cloud.githubusercontent.com/assets/20315378/16644130/14ec5904-444d-11e6-9aab-a3aaf406ba1a.png)\ndebugger和inspector按钮都不可点击\n",
+  "closed_by": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

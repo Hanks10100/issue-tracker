@@ -83,5 +83,6 @@
   "created_at": "2017-01-03T05:56:21Z",
   "updated_at": "2017-01-07T14:58:47Z",
   "closed_at": null,
-  "body": "重现步骤 :\r\n在examples\\component\\list\\list-demo.we中添加style\r\n`\r\n  .shopDesc{\r\n    text-overflow:\r\n    ellipsis;lines:2\r\n  }\r\n`\r\n\r\n增加data.shopList[0].shopDesc 的数据长度\r\n` shopDesc: 'Genius sdf sdfdsfsd fs fsdfsdfdfa kdfg alfkajhg fkjahg dfkjagd fjhag df jhagf gasdf gakjd ajkdh gafkjd gafjdhg fkjagd jkf only means hard-working all one\\'s life',`\r\n\r\n重新打包后使用examples\\showcase\\new-fashion\\index.we 打开浏览 效果如下\r\n![gif](https://cloud.githubusercontent.com/assets/18186473/21600641/b500b818-d1ba-11e6-9b6b-4003e724a313.gif)\r\n\r\n\r\nweex-html 0.4.1"
+  "body": "重现步骤 :\r\n在examples\\component\\list\\list-demo.we中添加style\r\n`\r\n  .shopDesc{\r\n    text-overflow:\r\n    ellipsis;lines:2\r\n  }\r\n`\r\n\r\n增加data.shopList[0].shopDesc 的数据长度\r\n` shopDesc: 'Genius sdf sdfdsfsd fs fsdfsdfdfa kdfg alfkajhg fkjahg dfkjagd fjhag df jhagf gasdf gakjd ajkdh gafkjd gafjdhg fkjagd jkf only means hard-working all one\\'s life',`\r\n\r\n重新打包后使用examples\\showcase\\new-fashion\\index.we 打开浏览 效果如下\r\n![gif](https://cloud.githubusercontent.com/assets/18186473/21600641/b500b818-d1ba-11e6-9b6b-4003e724a313.gif)\r\n\r\n\r\nweex-html 0.4.1",
+  "closed_by": null
 }

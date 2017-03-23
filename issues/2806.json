@@ -150,5 +150,24 @@
   "created_at": "2017-02-27T13:31:29Z",
   "updated_at": "2017-02-28T01:57:01Z",
   "closed_at": "2017-02-28T01:57:01Z",
-  "body": "用`weex init`初始化项目；什么都没写，就在`foo.vue`里加了一个input组件：`<input  type=\"text\"/>` demo跑起来后；input获得不了焦点，也输入不了内容。有人知道是什么问题吗？"
+  "body": "用`weex init`初始化项目；什么都没写，就在`foo.vue`里加了一个input组件：`<input  type=\"text\"/>` demo跑起来后；input获得不了焦点，也输入不了内容。有人知道是什么问题吗？",
+  "closed_by": {
+    "login": "jqy518",
+    "id": 5714434,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5714434?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jqy518",
+    "html_url": "https://github.com/jqy518",
+    "followers_url": "https://api.github.com/users/jqy518/followers",
+    "following_url": "https://api.github.com/users/jqy518/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jqy518/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jqy518/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jqy518/subscriptions",
+    "organizations_url": "https://api.github.com/users/jqy518/orgs",
+    "repos_url": "https://api.github.com/users/jqy518/repos",
+    "events_url": "https://api.github.com/users/jqy518/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jqy518/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

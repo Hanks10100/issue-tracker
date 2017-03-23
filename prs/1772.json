@@ -129,5 +129,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1772.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1772.patch"
   },
-  "body": "weex 样式切换的时候，当高度等值传回空值，会自动设置为0，和安卓表现形式不一样，空值在默认样式中没处理的。先不处理"
+  "body": "weex 样式切换的时候，当高度等值传回空值，会自动设置为0，和安卓表现形式不一样，空值在默认样式中没处理的。先不处理",
+  "closed_by": {
+    "login": "cxfeng1",
+    "id": 1625893,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1625893?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cxfeng1",
+    "html_url": "https://github.com/cxfeng1",
+    "followers_url": "https://api.github.com/users/cxfeng1/followers",
+    "following_url": "https://api.github.com/users/cxfeng1/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cxfeng1/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cxfeng1/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cxfeng1/subscriptions",
+    "organizations_url": "https://api.github.com/users/cxfeng1/orgs",
+    "repos_url": "https://api.github.com/users/cxfeng1/repos",
+    "events_url": "https://api.github.com/users/cxfeng1/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cxfeng1/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

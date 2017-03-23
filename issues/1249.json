@@ -262,5 +262,24 @@
   "created_at": "2016-09-19T09:43:41Z",
   "updated_at": "2016-09-22T09:46:35Z",
   "closed_at": "2016-09-22T09:46:35Z",
-  "body": "如果通过stream去请求数据，type设置成json，并且后台接口返回的数据中包含emoji表情的话，emoji会解析失败，并且在特定情况下会造成json的解析失败。\n原因是因为在WXStreamModule的fetch方法中，当走到成功的回调以后，会调用readAsString方法去将byte数组转换成String：\n`String respData = readAsString(response.originalData,\n                headers!=null?headers.get(\"Content-Type\"):\"\"\n              );`\n在转化的过程中emoji是无法解析的，这是第一个问题。\n第二问题是在特定情况下偶发的，如果这个emoji是位于字符串的最后一个位置，那么在byte[]转化成String的过程中，后引号会丢失，就像这样：\n后台下发的是\"xxxxxxxxx😄\"，通过byte[]换成成String之后，变成了\"xxxxxxxxxxxo쌩Ģ,可以看到后引号丢失了。\n所以我的建议是\n`resp.put(\"data\",options.getType() != Options.Type.text? JSONObject.parse(respData):respData);`\n在转化成json的时候，入参不要是String，fastJson提供了入参是byte[]的方法，直接用比较合适。\n至于转换成String之后emoji丢失的情况。。。貌似没什么好的办法。\n"
+  "body": "如果通过stream去请求数据，type设置成json，并且后台接口返回的数据中包含emoji表情的话，emoji会解析失败，并且在特定情况下会造成json的解析失败。\n原因是因为在WXStreamModule的fetch方法中，当走到成功的回调以后，会调用readAsString方法去将byte数组转换成String：\n`String respData = readAsString(response.originalData,\n                headers!=null?headers.get(\"Content-Type\"):\"\"\n              );`\n在转化的过程中emoji是无法解析的，这是第一个问题。\n第二问题是在特定情况下偶发的，如果这个emoji是位于字符串的最后一个位置，那么在byte[]转化成String的过程中，后引号会丢失，就像这样：\n后台下发的是\"xxxxxxxxx😄\"，通过byte[]换成成String之后，变成了\"xxxxxxxxxxxo쌩Ģ,可以看到后引号丢失了。\n所以我的建议是\n`resp.put(\"data\",options.getType() != Options.Type.text? JSONObject.parse(respData):respData);`\n在转化成json的时候，入参不要是String，fastJson提供了入参是byte[]的方法，直接用比较合适。\n至于转换成String之后emoji丢失的情况。。。貌似没什么好的办法。\n",
+  "closed_by": {
+    "login": "YorkShen",
+    "id": 4162544,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4162544?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/YorkShen",
+    "html_url": "https://github.com/YorkShen",
+    "followers_url": "https://api.github.com/users/YorkShen/followers",
+    "following_url": "https://api.github.com/users/YorkShen/following{/other_user}",
+    "gists_url": "https://api.github.com/users/YorkShen/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/YorkShen/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/YorkShen/subscriptions",
+    "organizations_url": "https://api.github.com/users/YorkShen/orgs",
+    "repos_url": "https://api.github.com/users/YorkShen/repos",
+    "events_url": "https://api.github.com/users/YorkShen/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/YorkShen/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

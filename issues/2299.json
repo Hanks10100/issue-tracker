@@ -94,5 +94,6 @@
   "created_at": "2017-01-17T08:51:26Z",
   "updated_at": "2017-01-23T07:29:27Z",
   "closed_at": null,
-  "body": "I tried order, but it does not work.\r\nbut when I manually added it in DevTool, it works well."
+  "body": "I tried order, but it does not work.\r\nbut when I manually added it in DevTool, it works well.",
+  "closed_by": null
 }

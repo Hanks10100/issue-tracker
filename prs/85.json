@@ -43,5 +43,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/85.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/85.patch"
   },
-  "body": "- [android] set text view font default colour to black, or in some app like UC, font colour is default to white, in most of case it's same with foreground colour.\n"
+  "body": "- [android] set text view font default colour to black, or in some app like UC, font colour is default to white, in most of case it's same with foreground colour.\n",
+  "closed_by": {
+    "login": "axbing",
+    "id": 17039815,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/17039815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/axbing",
+    "html_url": "https://github.com/axbing",
+    "followers_url": "https://api.github.com/users/axbing/followers",
+    "following_url": "https://api.github.com/users/axbing/following{/other_user}",
+    "gists_url": "https://api.github.com/users/axbing/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/axbing/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/axbing/subscriptions",
+    "organizations_url": "https://api.github.com/users/axbing/orgs",
+    "repos_url": "https://api.github.com/users/axbing/repos",
+    "events_url": "https://api.github.com/users/axbing/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/axbing/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -66,5 +66,6 @@
   "created_at": "2017-02-10T03:22:17Z",
   "updated_at": "2017-02-15T15:47:23Z",
   "closed_at": null,
-  "body": "ios build 0.9.5的 playground 扫描后显示空白 报错: vue is not constructor"
+  "body": "ios build 0.9.5的 playground 扫描后显示空白 报错: vue is not constructor",
+  "closed_by": null
 }

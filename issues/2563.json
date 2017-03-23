@@ -94,5 +94,24 @@
   "created_at": "2017-02-14T07:40:31Z",
   "updated_at": "2017-02-15T03:25:49Z",
   "closed_at": "2017-02-15T03:25:49Z",
-  "body": "![image](https://cloud.githubusercontent.com/assets/17348825/22919604/bb1f1d52-f2cb-11e6-877b-b2fb283430bc.png)\r\n\r\nnpm 3.10.10\r\nnode 6.9.5"
+  "body": "![image](https://cloud.githubusercontent.com/assets/17348825/22919604/bb1f1d52-f2cb-11e6-877b-b2fb283430bc.png)\r\n\r\nnpm 3.10.10\r\nnode 6.9.5",
+  "closed_by": {
+    "login": "BusyHe",
+    "id": 17348825,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/17348825?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/BusyHe",
+    "html_url": "https://github.com/BusyHe",
+    "followers_url": "https://api.github.com/users/BusyHe/followers",
+    "following_url": "https://api.github.com/users/BusyHe/following{/other_user}",
+    "gists_url": "https://api.github.com/users/BusyHe/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/BusyHe/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/BusyHe/subscriptions",
+    "organizations_url": "https://api.github.com/users/BusyHe/orgs",
+    "repos_url": "https://api.github.com/users/BusyHe/repos",
+    "events_url": "https://api.github.com/users/BusyHe/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/BusyHe/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

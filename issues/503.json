@@ -328,5 +328,24 @@
   "created_at": "2016-06-17T06:07:55Z",
   "updated_at": "2016-06-22T12:34:44Z",
   "closed_at": "2016-06-22T12:34:44Z",
-  "body": "错误如下：\n\n'serve' ▒▒▒▒▒ڲ▒▒▒▒ⲿ▒▒▒Ҳ▒▒▒ǿ▒▒▒▒еĳ▒▒▒\n▒▒▒▒▒▒▒▒▒ļ▒▒▒\n\nnpm ERR! Windows_NT 6.1.7601\nnpm ERR! argv \"C:\\Program Files\\nodejs\\node.exe\" \"C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js\" \"run\" \"serve\"\nnpm ERR! node v4.4.5\nnpm ERR! npm  v2.15.5\nnpm ERR! code ELIFECYCLE\nnpm ERR! weex@0.4.0 serve: `serve ./ -p 12580`\nnpm ERR! Exit status 1\nnpm ERR!\nnpm ERR! Failed at the weex@0.4.0 serve script 'serve ./ -p 12580'.\nnpm ERR! This is most likely a problem with the weex package,\nnpm ERR! not with npm itself.\nnpm ERR! Tell the author that this fails on your system:\nnpm ERR!     serve ./ -p 12580\nnpm ERR! You can get information on how to open an issue for this project with:\nnpm ERR!     npm bugs weex\nnpm ERR! Or if that isn't available, you can get their info via:\nnpm ERR!\nnpm ERR!     npm owner ls weex\nnpm ERR! There is likely additional logging output above.\n\nnpm ERR! Please include the following file with any support request:\nnpm ERR!     C:\\weex\\weex-dev\\npm-debug.log\n\n上面 serve 后面我也不知道是一串上面东西，反正打印出来就是这样的。\n请问哥哥们，这是什么原因导致的。谢谢了。\n"
+  "body": "错误如下：\n\n'serve' ▒▒▒▒▒ڲ▒▒▒▒ⲿ▒▒▒Ҳ▒▒▒ǿ▒▒▒▒еĳ▒▒▒\n▒▒▒▒▒▒▒▒▒ļ▒▒▒\n\nnpm ERR! Windows_NT 6.1.7601\nnpm ERR! argv \"C:\\Program Files\\nodejs\\node.exe\" \"C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js\" \"run\" \"serve\"\nnpm ERR! node v4.4.5\nnpm ERR! npm  v2.15.5\nnpm ERR! code ELIFECYCLE\nnpm ERR! weex@0.4.0 serve: `serve ./ -p 12580`\nnpm ERR! Exit status 1\nnpm ERR!\nnpm ERR! Failed at the weex@0.4.0 serve script 'serve ./ -p 12580'.\nnpm ERR! This is most likely a problem with the weex package,\nnpm ERR! not with npm itself.\nnpm ERR! Tell the author that this fails on your system:\nnpm ERR!     serve ./ -p 12580\nnpm ERR! You can get information on how to open an issue for this project with:\nnpm ERR!     npm bugs weex\nnpm ERR! Or if that isn't available, you can get their info via:\nnpm ERR!\nnpm ERR!     npm owner ls weex\nnpm ERR! There is likely additional logging output above.\n\nnpm ERR! Please include the following file with any support request:\nnpm ERR!     C:\\weex\\weex-dev\\npm-debug.log\n\n上面 serve 后面我也不知道是一串上面东西，反正打印出来就是这样的。\n请问哥哥们，这是什么原因导致的。谢谢了。\n",
+  "closed_by": {
+    "login": "K-walker",
+    "id": 10557092,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/10557092?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/K-walker",
+    "html_url": "https://github.com/K-walker",
+    "followers_url": "https://api.github.com/users/K-walker/followers",
+    "following_url": "https://api.github.com/users/K-walker/following{/other_user}",
+    "gists_url": "https://api.github.com/users/K-walker/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/K-walker/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/K-walker/subscriptions",
+    "organizations_url": "https://api.github.com/users/K-walker/orgs",
+    "repos_url": "https://api.github.com/users/K-walker/repos",
+    "events_url": "https://api.github.com/users/K-walker/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/K-walker/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

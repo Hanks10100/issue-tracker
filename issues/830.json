@@ -151,5 +151,24 @@
   "created_at": "2016-07-20T07:11:19Z",
   "updated_at": "2016-08-01T03:16:22Z",
   "closed_at": "2016-08-01T03:16:22Z",
-  "body": "``` js\nanimation.transition(elem, {\n  styles: {\n    opacity: 1,\n    transform: 'translate(50, 50)'\n  },\n  duration: 200,\n  timingFunction: 'linear',\n}, function() {\n});\n```\n\n如果translate中的值没加单位，在浏览器端是不会触发transform的，而在IOS native端是会触发的。加上之后正常。\n"
+  "body": "``` js\nanimation.transition(elem, {\n  styles: {\n    opacity: 1,\n    transform: 'translate(50, 50)'\n  },\n  duration: 200,\n  timingFunction: 'linear',\n}, function() {\n});\n```\n\n如果translate中的值没加单位，在浏览器端是不会触发transform的，而在IOS native端是会触发的。加上之后正常。\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -104,5 +104,24 @@
   "created_at": "2016-11-20T01:28:31Z",
   "updated_at": "2016-11-21T10:06:33Z",
   "closed_at": "2016-11-21T10:06:33Z",
-  "body": "For example:\r\n\r\n```html\r\n<template>\r\n  <div>\r\n    <image\r\n      src=\"http://ww3.sinaimg.cn/mw690/005BUxg5gw1f9xltfd6ctg307305f1kz.gif\"\r\n      style=\"width: 300; height: 200;\"></image>\r\n  </div>\r\n</template>\r\n```\r\n\r\nJust work well in HTML5 Render & iOS. Android doesn't render anything or a static picture.\r\n\r\nWeex playground app 0.8.0.4 from weex homepage\r\nSmartisanOS"
+  "body": "For example:\r\n\r\n```html\r\n<template>\r\n  <div>\r\n    <image\r\n      src=\"http://ww3.sinaimg.cn/mw690/005BUxg5gw1f9xltfd6ctg307305f1kz.gif\"\r\n      style=\"width: 300; height: 200;\"></image>\r\n  </div>\r\n</template>\r\n```\r\n\r\nJust work well in HTML5 Render & iOS. Android doesn't render anything or a static picture.\r\n\r\nWeex playground app 0.8.0.4 from weex homepage\r\nSmartisanOS",
+  "closed_by": {
+    "login": "xkli",
+    "id": 7642368,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7642368?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/xkli",
+    "html_url": "https://github.com/xkli",
+    "followers_url": "https://api.github.com/users/xkli/followers",
+    "following_url": "https://api.github.com/users/xkli/following{/other_user}",
+    "gists_url": "https://api.github.com/users/xkli/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/xkli/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/xkli/subscriptions",
+    "organizations_url": "https://api.github.com/users/xkli/orgs",
+    "repos_url": "https://api.github.com/users/xkli/repos",
+    "events_url": "https://api.github.com/users/xkli/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/xkli/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

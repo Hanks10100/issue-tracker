@@ -160,5 +160,24 @@
   "created_at": "2016-05-16T07:46:50Z",
   "updated_at": "2016-08-30T05:58:05Z",
   "closed_at": "2016-08-30T05:58:05Z",
-  "body": "之前咨询过关于native API的问题，native和JS之间传递数据也能通过回调函数进行执行。今天我尝试用另一种方式来返回数据给到JS，如下：\n\n``` java\n @WXModuleAnno(moduleMethod = true,runOnUIThread = true)\n  public  String testText(String string){\n    String _string=\"demo_\"+string;\n    return string;\n  }\n```\n\n想在native里面注册一个方法直接return数据回来。貌似得到的结果是`undefined`。\n可否考虑执行下这种方式呢？个人觉得这样同步操作，会更方便的获取一些信息。也能避免异步尝试的一些其他问题。\n"
+  "body": "之前咨询过关于native API的问题，native和JS之间传递数据也能通过回调函数进行执行。今天我尝试用另一种方式来返回数据给到JS，如下：\n\n``` java\n @WXModuleAnno(moduleMethod = true,runOnUIThread = true)\n  public  String testText(String string){\n    String _string=\"demo_\"+string;\n    return string;\n  }\n```\n\n想在native里面注册一个方法直接return数据回来。貌似得到的结果是`undefined`。\n可否考虑执行下这种方式呢？个人觉得这样同步操作，会更方便的获取一些信息。也能避免异步尝试的一些其他问题。\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

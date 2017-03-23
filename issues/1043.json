@@ -104,5 +104,24 @@
   "created_at": "2016-08-22T10:02:10Z",
   "updated_at": "2016-09-19T03:12:33Z",
   "closed_at": "2016-09-19T03:12:33Z",
-  "body": "events.js:141\n      throw er; // Unhandled 'error' event\n      ^\n\nError: listen EADDRINUSE 0.0.0.0:8081\n    at Object.exports._errnoException (util.js:907:11)\n    at exports._exceptionWithHostPort (util.js:930:20)\n    at Server._listen2 (net.js:1250:14)\n    at listen (net.js:1286:10)\n    at net.js:1395:9\n    at nextTickCallbackWith3Args (node.js:453:9)\n    at process._tickCallback (node.js:359:17)\n\n为什么默认端口地址和文档不一致\n\n--port        http listening port number ,default is 8081         [默认值: -1]\n  --wsport      websocket listening port number ,default is 8082    [默认值: -1]\n  --np          do not open preview browser automatic                  [boolean]\n  -f, --force   [for create sub cmd]force to replace exsisting file(s) [boolean]\n  --help        显示帮助信息                                           [boolean]\n  -h, --host                                               [默认值: \"127.0.0.1\"]\n\n这个配置问题是什么原因导致的，我确认我本机端口8081是未被占用的呀\n"
+  "body": "events.js:141\n      throw er; // Unhandled 'error' event\n      ^\n\nError: listen EADDRINUSE 0.0.0.0:8081\n    at Object.exports._errnoException (util.js:907:11)\n    at exports._exceptionWithHostPort (util.js:930:20)\n    at Server._listen2 (net.js:1250:14)\n    at listen (net.js:1286:10)\n    at net.js:1395:9\n    at nextTickCallbackWith3Args (node.js:453:9)\n    at process._tickCallback (node.js:359:17)\n\n为什么默认端口地址和文档不一致\n\n--port        http listening port number ,default is 8081         [默认值: -1]\n  --wsport      websocket listening port number ,default is 8082    [默认值: -1]\n  --np          do not open preview browser automatic                  [boolean]\n  -f, --force   [for create sub cmd]force to replace exsisting file(s) [boolean]\n  --help        显示帮助信息                                           [boolean]\n  -h, --host                                               [默认值: \"127.0.0.1\"]\n\n这个配置问题是什么原因导致的，我确认我本机端口8081是未被占用的呀\n",
+  "closed_by": {
+    "login": "lvscar",
+    "id": 1578838,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1578838?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/lvscar",
+    "html_url": "https://github.com/lvscar",
+    "followers_url": "https://api.github.com/users/lvscar/followers",
+    "following_url": "https://api.github.com/users/lvscar/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lvscar/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/lvscar/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/lvscar/subscriptions",
+    "organizations_url": "https://api.github.com/users/lvscar/orgs",
+    "repos_url": "https://api.github.com/users/lvscar/repos",
+    "events_url": "https://api.github.com/users/lvscar/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/lvscar/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

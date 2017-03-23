@@ -72,5 +72,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2541.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2541.patch"
   },
-  "body": "add a new length unit of 'wx'. This is a platform based unit, just suitable for part-screen usage.\r\n\r\nin html5 means x * devicePixelRatio.\r\nin Android means x * density (same as dp).\r\nin iOS means x * scale.\r\nso the weex will render the same size of views as the native does.\r\n\r\n@link html5 at #2474\r\n_@link iOS at #2475 (dreprecate, in order to publish before March 1. change base branch to 0.10.0)\r\n@link Android at #2478 (dreprecate, in order to publish before March 1. change base branch to 0.10.0)_\r\n"
+  "body": "add a new length unit of 'wx'. This is a platform based unit, just suitable for part-screen usage.\r\n\r\nin html5 means x * devicePixelRatio.\r\nin Android means x * density (same as dp).\r\nin iOS means x * scale.\r\nso the weex will render the same size of views as the native does.\r\n\r\n@link html5 at #2474\r\n_@link iOS at #2475 (dreprecate, in order to publish before March 1. change base branch to 0.10.0)\r\n@link Android at #2478 (dreprecate, in order to publish before March 1. change base branch to 0.10.0)_\r\n",
+  "closed_by": {
+    "login": "wispy316",
+    "id": 4507261,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/4507261?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/wispy316",
+    "html_url": "https://github.com/wispy316",
+    "followers_url": "https://api.github.com/users/wispy316/followers",
+    "following_url": "https://api.github.com/users/wispy316/following{/other_user}",
+    "gists_url": "https://api.github.com/users/wispy316/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/wispy316/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/wispy316/subscriptions",
+    "organizations_url": "https://api.github.com/users/wispy316/orgs",
+    "repos_url": "https://api.github.com/users/wispy316/repos",
+    "events_url": "https://api.github.com/users/wispy316/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/wispy316/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

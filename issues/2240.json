@@ -150,5 +150,6 @@
   "created_at": "2017-01-12T12:35:12Z",
   "updated_at": "2017-01-16T01:46:07Z",
   "closed_at": null,
-  "body": "建议对CSS缩写语法提供支持 @Jinjiang \r\n\r\n```\r\n{\r\n    margin: 12px; /*已支持*/\r\n    padding: 12px 16px; \r\n    border: 1px solid #fff;\r\n    background: #ccc;\r\n    font: italic bold 12px/32px;\r\n}\r\n```"
+  "body": "建议对CSS缩写语法提供支持 @Jinjiang \r\n\r\n```\r\n{\r\n    margin: 12px; /*已支持*/\r\n    padding: 12px 16px; \r\n    border: 1px solid #fff;\r\n    background: #ccc;\r\n    font: italic bold 12px/32px;\r\n}\r\n```",
+  "closed_by": null
 }

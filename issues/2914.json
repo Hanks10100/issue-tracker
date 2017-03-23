@@ -33,9 +33,67 @@
   "assignee": null,
   "assignees": [],
   "milestone": null,
-  "comments": [],
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/286306328",
+      "html_url": "https://github.com/alibaba/weex/issues/2914#issuecomment-286306328",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/2914",
+      "id": 286306328,
+      "user": {
+        "login": "misakuo",
+        "id": 6958743,
+        "avatar_url": "https://avatars3.githubusercontent.com/u/6958743?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/misakuo",
+        "html_url": "https://github.com/misakuo",
+        "followers_url": "https://api.github.com/users/misakuo/followers",
+        "following_url": "https://api.github.com/users/misakuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/misakuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/misakuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/misakuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/misakuo/orgs",
+        "repos_url": "https://api.github.com/users/misakuo/repos",
+        "events_url": "https://api.github.com/users/misakuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/misakuo/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2017-03-14T02:49:18Z",
+      "updated_at": "2017-03-14T02:49:18Z",
+      "body": "看起来像是weex页面所在的Activity被设置了`android:windowSoftInputMode=\"adjustPan\"`属性"
+    },
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/286309702",
+      "html_url": "https://github.com/alibaba/weex/issues/2914#issuecomment-286309702",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/2914",
+      "id": 286309702,
+      "user": {
+        "login": "501956430",
+        "id": 20204491,
+        "avatar_url": "https://avatars0.githubusercontent.com/u/20204491?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/501956430",
+        "html_url": "https://github.com/501956430",
+        "followers_url": "https://api.github.com/users/501956430/followers",
+        "following_url": "https://api.github.com/users/501956430/following{/other_user}",
+        "gists_url": "https://api.github.com/users/501956430/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/501956430/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/501956430/subscriptions",
+        "organizations_url": "https://api.github.com/users/501956430/orgs",
+        "repos_url": "https://api.github.com/users/501956430/repos",
+        "events_url": "https://api.github.com/users/501956430/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/501956430/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2017-03-14T03:12:31Z",
+      "updated_at": "2017-03-14T03:12:31Z",
+      "body": "用 wxc-navpage做原生header"
+    }
+  ],
   "created_at": "2017-03-13T02:17:21Z",
-  "updated_at": "2017-03-13T02:17:21Z",
+  "updated_at": "2017-03-14T03:12:31Z",
   "closed_at": null,
-  "body": "当键盘弹出来的时候会让页面整体上移，包括title部分，有没有什么办法让title不上移？\r\n\r\nweex使用的是0.10.0"
+  "body": "当键盘弹出来的时候会让页面整体上移，包括title部分，有没有什么办法让title不上移？\r\n\r\nweex使用的是0.10.0",
+  "closed_by": null
 }

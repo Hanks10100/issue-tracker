@@ -132,5 +132,24 @@
   "created_at": "2016-10-27T07:04:08Z",
   "updated_at": "2016-10-27T07:56:08Z",
   "closed_at": "2016-10-27T07:56:08Z",
-  "body": "刷新很多次时,发现有很大的概率图片为空,发现是updateImage方法里的以下代码出了问题\n\n```\nif (CGRectEqualToRect(self.calculatedFrame, CGRectZero)) {\n      return;\n}\n```\n\ncalculatedFrame为CGRectZero!导致图片显示不出来！\n\n相关weex的代码如下\n\n```\n<image if=\"{{noteAds.length}}\" src=\"{{noteAds[0].img}}\" style=\"width:{{noteAds[0].width}};height:{{noteAds[0].height}}\" test=\"1\"> <image>\n```\n\nnoteAds都是有数据的,所以怀疑是calculatedFrame计算错了\n"
+  "body": "刷新很多次时,发现有很大的概率图片为空,发现是updateImage方法里的以下代码出了问题\n\n```\nif (CGRectEqualToRect(self.calculatedFrame, CGRectZero)) {\n      return;\n}\n```\n\ncalculatedFrame为CGRectZero!导致图片显示不出来！\n\n相关weex的代码如下\n\n```\n<image if=\"{{noteAds.length}}\" src=\"{{noteAds[0].img}}\" style=\"width:{{noteAds[0].width}};height:{{noteAds[0].height}}\" test=\"1\"> <image>\n```\n\nnoteAds都是有数据的,所以怀疑是calculatedFrame计算错了\n",
+  "closed_by": {
+    "login": "allentofight",
+    "id": 1235483,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1235483?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/allentofight",
+    "html_url": "https://github.com/allentofight",
+    "followers_url": "https://api.github.com/users/allentofight/followers",
+    "following_url": "https://api.github.com/users/allentofight/following{/other_user}",
+    "gists_url": "https://api.github.com/users/allentofight/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/allentofight/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/allentofight/subscriptions",
+    "organizations_url": "https://api.github.com/users/allentofight/orgs",
+    "repos_url": "https://api.github.com/users/allentofight/repos",
+    "events_url": "https://api.github.com/users/allentofight/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/allentofight/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

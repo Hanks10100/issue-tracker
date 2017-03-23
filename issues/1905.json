@@ -122,5 +122,24 @@
   "created_at": "2016-12-15T08:22:27Z",
   "updated_at": "2016-12-19T08:03:03Z",
   "closed_at": "2016-12-19T08:03:03Z",
-  "body": "例子代码:\r\nxxx.fetch({\r\n        url:'xxx',\r\n        body:{params:'age'},\r\n        // body:JSON.stringify({params:'age'}),\r\n        \r\n    })\r\n\r\nbody 存在两个平台不兼容的问题,在ios 平台上 必须要将{}转换为string,Android平台上不必如此.\r\n问题产生的原因是由于 ios 平台使用body转为NSData时发生了错误.因为此时的body为NSDIC类型.\r\n//ios stream 中的异常代码. \r\n[request setHTTPBody:[body dataUsingEncoding:NSUTF8StringEncoding]];//如果此时的body的类型为NSDicotary的话就会报错"
+  "body": "例子代码:\r\nxxx.fetch({\r\n        url:'xxx',\r\n        body:{params:'age'},\r\n        // body:JSON.stringify({params:'age'}),\r\n        \r\n    })\r\n\r\nbody 存在两个平台不兼容的问题,在ios 平台上 必须要将{}转换为string,Android平台上不必如此.\r\n问题产生的原因是由于 ios 平台使用body转为NSData时发生了错误.因为此时的body为NSDIC类型.\r\n//ios stream 中的异常代码. \r\n[request setHTTPBody:[body dataUsingEncoding:NSUTF8StringEncoding]];//如果此时的body的类型为NSDicotary的话就会报错",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

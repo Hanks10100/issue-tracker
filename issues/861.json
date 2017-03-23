@@ -216,5 +216,24 @@
   "created_at": "2016-07-25T10:52:47Z",
   "updated_at": "2016-08-01T03:09:54Z",
   "closed_at": "2016-08-01T03:09:54Z",
-  "body": "对整个weex重新build和dist后，输出weex-html5中的weex.js出现兼容性问题\n除了safar浏览器，其他浏览器中均出现\nUncaught TypeError: undefined is not a function \n检查后发现是\nObject.assign出现问题\n\n然后通过和原始weex.js文件进行对比，发现很对代码在新packing的weex.js中不存在，怀疑可能是某些模块未成功打包，求能够完整编译打包的方法和教程，谢谢\n"
+  "body": "对整个weex重新build和dist后，输出weex-html5中的weex.js出现兼容性问题\n除了safar浏览器，其他浏览器中均出现\nUncaught TypeError: undefined is not a function \n检查后发现是\nObject.assign出现问题\n\n然后通过和原始weex.js文件进行对比，发现很对代码在新packing的weex.js中不存在，怀疑可能是某些模块未成功打包，求能够完整编译打包的方法和教程，谢谢\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

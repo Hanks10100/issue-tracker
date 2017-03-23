@@ -132,5 +132,24 @@
   "created_at": "2016-05-17T12:23:26Z",
   "updated_at": "2016-06-17T03:40:21Z",
   "closed_at": "2016-06-17T03:40:21Z",
-  "body": "Error:A problem occurred configuring project ':app'.\n\n> A problem occurred configuring project ':weex_sdk_android'.\n> Could not resolve all dependencies for configuration ':weex_sdk_android:classpath'.\n>       > Could not download license-gradle-plugin.jar (gradle.plugin.nl.javadude.gradle.plugins:license-gradle-plugin:0.12.1): No cached version available for offline mode  \n\n我自己下了一个离线包我找遍了项目所有的地方，但是不知道该放哪里  \n"
+  "body": "Error:A problem occurred configuring project ':app'.\n\n> A problem occurred configuring project ':weex_sdk_android'.\n> Could not resolve all dependencies for configuration ':weex_sdk_android:classpath'.\n>       > Could not download license-gradle-plugin.jar (gradle.plugin.nl.javadude.gradle.plugins:license-gradle-plugin:0.12.1): No cached version available for offline mode  \n\n我自己下了一个离线包我找遍了项目所有的地方，但是不知道该放哪里  \n",
+  "closed_by": {
+    "login": "xkli",
+    "id": 7642368,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7642368?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/xkli",
+    "html_url": "https://github.com/xkli",
+    "followers_url": "https://api.github.com/users/xkli/followers",
+    "following_url": "https://api.github.com/users/xkli/following{/other_user}",
+    "gists_url": "https://api.github.com/users/xkli/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/xkli/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/xkli/subscriptions",
+    "organizations_url": "https://api.github.com/users/xkli/orgs",
+    "repos_url": "https://api.github.com/users/xkli/repos",
+    "events_url": "https://api.github.com/users/xkli/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/xkli/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -150,5 +150,24 @@
   "created_at": "2017-01-18T08:30:01Z",
   "updated_at": "2017-01-19T10:42:22Z",
   "closed_at": "2017-01-19T10:42:22Z",
-  "body": "pod上的0.9.5有这个问题，如果自己拿工程编译js framework，就没有这个问题。\r\n开启 debugger 也会提示 weex not found"
+  "body": "pod上的0.9.5有这个问题，如果自己拿工程编译js framework，就没有这个问题。\r\n开启 debugger 也会提示 weex not found",
+  "closed_by": {
+    "login": "Neeeo",
+    "id": 3702412,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/3702412?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Neeeo",
+    "html_url": "https://github.com/Neeeo",
+    "followers_url": "https://api.github.com/users/Neeeo/followers",
+    "following_url": "https://api.github.com/users/Neeeo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Neeeo/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Neeeo/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Neeeo/subscriptions",
+    "organizations_url": "https://api.github.com/users/Neeeo/orgs",
+    "repos_url": "https://api.github.com/users/Neeeo/repos",
+    "events_url": "https://api.github.com/users/Neeeo/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Neeeo/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

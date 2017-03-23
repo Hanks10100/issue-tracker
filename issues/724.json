@@ -122,5 +122,24 @@
   "created_at": "2016-07-06T02:09:51Z",
   "updated_at": "2016-11-15T02:23:40Z",
   "closed_at": "2016-07-06T02:45:42Z",
-  "body": "  .root {\n    background-image: url(//);\n    background-repeat:no-repeat;\n    background-size: 100% 100%;\n    position: fixed;\n    top: 0;\n  }\n\n我用如上的样式来设置了一个背景图，网页端正常，客户端不能显示背景图，不知道是否支持background-image 来设背景\n"
+  "body": "  .root {\n    background-image: url(//);\n    background-repeat:no-repeat;\n    background-size: 100% 100%;\n    position: fixed;\n    top: 0;\n  }\n\n我用如上的样式来设置了一个背景图，网页端正常，客户端不能显示背景图，不知道是否支持background-image 来设背景\n",
+  "closed_by": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

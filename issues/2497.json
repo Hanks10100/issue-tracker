@@ -150,5 +150,24 @@
   "created_at": "2017-02-09T08:39:32Z",
   "updated_at": "2017-03-09T03:30:55Z",
   "closed_at": "2017-02-14T14:07:41Z",
-  "body": "***Bug***\r\n\r\n[http://dotwe.org/vue/849c5bc407f9c091619bc7504fb8876c](http://dotwe.org/vue/849c5bc407f9c091619bc7504fb8876c)\r\n\r\n当输入时报错：\r\nVM2106 vue.runtime.js:525 [Vue warn]: Avoid mutating a prop directly since the value will be overwritten whenever the parent component re-renders. Instead, use a data or computed property based on the prop's value. Prop being mutated: \"value\" \r\n(found in component <input>)"
+  "body": "***Bug***\r\n\r\n[http://dotwe.org/vue/849c5bc407f9c091619bc7504fb8876c](http://dotwe.org/vue/849c5bc407f9c091619bc7504fb8876c)\r\n\r\n当输入时报错：\r\nVM2106 vue.runtime.js:525 [Vue warn]: Avoid mutating a prop directly since the value will be overwritten whenever the parent component re-renders. Instead, use a data or computed property based on the prop's value. Prop being mutated: \"value\" \r\n(found in component <input>)",
+  "closed_by": {
+    "login": "Hanks10100",
+    "id": 8401776,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8401776?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Hanks10100",
+    "html_url": "https://github.com/Hanks10100",
+    "followers_url": "https://api.github.com/users/Hanks10100/followers",
+    "following_url": "https://api.github.com/users/Hanks10100/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Hanks10100/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Hanks10100/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Hanks10100/subscriptions",
+    "organizations_url": "https://api.github.com/users/Hanks10100/orgs",
+    "repos_url": "https://api.github.com/users/Hanks10100/repos",
+    "events_url": "https://api.github.com/users/Hanks10100/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Hanks10100/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

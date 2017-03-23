@@ -138,5 +138,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1405.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1405.patch"
   },
-  "body": "v0.16\n- refactor the default js framework code, hide almost private APIs\n- more code comments\n- fixed bugs when `append=\"tree\"` on root element of a page\n- avoid errors when `if`/`repeat` directive on root element of a component/page\n- fixed bug of default class style cannot reset in vdom\n- fixed some memory leak issues\n- fixed Promise bugs in some mobile devices\n- supported force update of attr/style in vdom\n- added `static` directive in default js framework to avoid unnecessary data-binding and take down the memory use\n- supported `callAddElement` low-level API to make rendering faster\n- fixed JS modules conflict between instances\n"
+  "body": "v0.16\n- refactor the default js framework code, hide almost private APIs\n- more code comments\n- fixed bugs when `append=\"tree\"` on root element of a page\n- avoid errors when `if`/`repeat` directive on root element of a component/page\n- fixed bug of default class style cannot reset in vdom\n- fixed some memory leak issues\n- fixed Promise bugs in some mobile devices\n- supported force update of attr/style in vdom\n- added `static` directive in default js framework to avoid unnecessary data-binding and take down the memory use\n- supported `callAddElement` low-level API to make rendering faster\n- fixed JS modules conflict between instances\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

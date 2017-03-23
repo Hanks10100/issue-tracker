@@ -37,5 +37,24 @@
   "created_at": "2016-07-21T05:56:16Z",
   "updated_at": "2016-07-21T07:08:31Z",
   "closed_at": "2016-07-21T07:08:31Z",
-  "body": "我在src目录下有一个app-navpage.we,src下有个子目录，在子目录里的we文件要使用<app-navpage>,\n在<script>里 手动引用require('../app-navpage');在playground里可以显示，使用weex命令转js时就报错说找不到文件，weex命令把../也算做文件名了\n"
+  "body": "我在src目录下有一个app-navpage.we,src下有个子目录，在子目录里的we文件要使用<app-navpage>,\n在<script>里 手动引用require('../app-navpage');在playground里可以显示，使用weex命令转js时就报错说找不到文件，weex命令把../也算做文件名了\n",
+  "closed_by": {
+    "login": "d200820205051",
+    "id": 6907129,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6907129?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/d200820205051",
+    "html_url": "https://github.com/d200820205051",
+    "followers_url": "https://api.github.com/users/d200820205051/followers",
+    "following_url": "https://api.github.com/users/d200820205051/following{/other_user}",
+    "gists_url": "https://api.github.com/users/d200820205051/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/d200820205051/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/d200820205051/subscriptions",
+    "organizations_url": "https://api.github.com/users/d200820205051/orgs",
+    "repos_url": "https://api.github.com/users/d200820205051/repos",
+    "events_url": "https://api.github.com/users/d200820205051/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/d200820205051/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

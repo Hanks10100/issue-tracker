@@ -448,5 +448,24 @@
   "created_at": "2016-07-20T03:08:35Z",
   "updated_at": "2016-08-12T05:40:59Z",
   "closed_at": "2016-07-20T03:09:16Z",
-  "body": "ERROR in ./html5/runtime/index.js\nModule not found: Error: Cannot resolve 'file' or 'directory' ./config in I:\\1\\weex\\html5\\runtime\n @ ./html5/runtime/index.js 8:14-33\n\n经过搜索发现build\\config.frameworks.js会生成指定的文件\n所以先运行node build\\config.frameworks.js\n然后再运行./start就正常了\n"
+  "body": "ERROR in ./html5/runtime/index.js\nModule not found: Error: Cannot resolve 'file' or 'directory' ./config in I:\\1\\weex\\html5\\runtime\n @ ./html5/runtime/index.js 8:14-33\n\n经过搜索发现build\\config.frameworks.js会生成指定的文件\n所以先运行node build\\config.frameworks.js\n然后再运行./start就正常了\n",
+  "closed_by": {
+    "login": "liangjl76",
+    "id": 11612534,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/11612534?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/liangjl76",
+    "html_url": "https://github.com/liangjl76",
+    "followers_url": "https://api.github.com/users/liangjl76/followers",
+    "following_url": "https://api.github.com/users/liangjl76/following{/other_user}",
+    "gists_url": "https://api.github.com/users/liangjl76/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/liangjl76/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/liangjl76/subscriptions",
+    "organizations_url": "https://api.github.com/users/liangjl76/orgs",
+    "repos_url": "https://api.github.com/users/liangjl76/repos",
+    "events_url": "https://api.github.com/users/liangjl76/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/liangjl76/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

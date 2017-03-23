@@ -66,5 +66,24 @@
   "created_at": "2016-06-28T04:34:55Z",
   "updated_at": "2016-06-28T06:06:55Z",
   "closed_at": "2016-06-28T06:06:55Z",
-  "body": "按照你们文档说的\n\n```\npublic class MyViewComponent extends WXComponent {\n\n    public MyViewComponent(WXSDKInstance instance, WXDomObject dom, WXVContainer parent, String instanceId, boolean isLazy) {\n        super(instance, dom, parent, instanceId, isLazy);\n    }\n\n    @Override\n    protected void initView() {\n        super.initView();\n        mHost = new TextView(mContext);\n        ((TextView)mHost).setText(\"default\");\n        Toast.makeText(mContext,\"invoked\",Toast.LENGTH_SHORT).show();\n    }\n\n    @WXComponentProp(name= WXDomPropConstant.WX_ATTR_VALUE)\n    public void setMyViewValue(String value) {\n        ((TextView)mHost).setText(value);\n    }\n\n}\n```\n\n注册:\n\n```\n  WXComponentRegistry.registerComponent(\"my-view\", MyViewComponent.class, false);\n```\n\n使用:\n\n```\n<template>\n  <div>\n    <my-view value=\"default\"></my-view>\n\n  </div>\n</template>\n\n<script>\n\n\n  module.exports = {\n      data : {\n\n      }\n\n    }\n</script>\n\n```\n\n结果是根本跑不起来。界面没有任何反应。。但是那个toast确实弹出来了。\n"
+  "body": "按照你们文档说的\n\n```\npublic class MyViewComponent extends WXComponent {\n\n    public MyViewComponent(WXSDKInstance instance, WXDomObject dom, WXVContainer parent, String instanceId, boolean isLazy) {\n        super(instance, dom, parent, instanceId, isLazy);\n    }\n\n    @Override\n    protected void initView() {\n        super.initView();\n        mHost = new TextView(mContext);\n        ((TextView)mHost).setText(\"default\");\n        Toast.makeText(mContext,\"invoked\",Toast.LENGTH_SHORT).show();\n    }\n\n    @WXComponentProp(name= WXDomPropConstant.WX_ATTR_VALUE)\n    public void setMyViewValue(String value) {\n        ((TextView)mHost).setText(value);\n    }\n\n}\n```\n\n注册:\n\n```\n  WXComponentRegistry.registerComponent(\"my-view\", MyViewComponent.class, false);\n```\n\n使用:\n\n```\n<template>\n  <div>\n    <my-view value=\"default\"></my-view>\n\n  </div>\n</template>\n\n<script>\n\n\n  module.exports = {\n      data : {\n\n      }\n\n    }\n</script>\n\n```\n\n结果是根本跑不起来。界面没有任何反应。。但是那个toast确实弹出来了。\n",
+  "closed_by": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

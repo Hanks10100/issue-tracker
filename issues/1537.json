@@ -158,5 +158,24 @@
   "created_at": "2016-10-29T06:22:42Z",
   "updated_at": "2016-11-04T02:48:23Z",
   "closed_at": "2016-11-04T02:48:23Z",
-  "body": "![bad](http://i.imgur.com/SJOJjjr.gif)\n如图所示，在已有数据源的基本下再下拉刷新(请求完网络数据更新数据源)会有很明显的闪烁效果，体验很差，下拉刷新时的相关代码如下\n\n```\n var vm = this;\n if (page === 1) {\n        vm.lists = [];\n }\nvar dataSource = vm.lists;\ndataSource.push({'promotionItems': model.promotion_items});\n```\n\nlist是数据源，数据其实是一样，只不过是数据地址不一样，结果就造成了这种效果，应该是WXListComponent实现的刷新机制问题导致这种下拉刷新后的闪烁\n\n正常的下拉刷新效果可以看淘宝首页的下拉刷新，很顺畅，没有闪烁效果\n"
+  "body": "![bad](http://i.imgur.com/SJOJjjr.gif)\n如图所示，在已有数据源的基本下再下拉刷新(请求完网络数据更新数据源)会有很明显的闪烁效果，体验很差，下拉刷新时的相关代码如下\n\n```\n var vm = this;\n if (page === 1) {\n        vm.lists = [];\n }\nvar dataSource = vm.lists;\ndataSource.push({'promotionItems': model.promotion_items});\n```\n\nlist是数据源，数据其实是一样，只不过是数据地址不一样，结果就造成了这种效果，应该是WXListComponent实现的刷新机制问题导致这种下拉刷新后的闪烁\n\n正常的下拉刷新效果可以看淘宝首页的下拉刷新，很顺畅，没有闪烁效果\n",
+  "closed_by": {
+    "login": "allentofight",
+    "id": 1235483,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1235483?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/allentofight",
+    "html_url": "https://github.com/allentofight",
+    "followers_url": "https://api.github.com/users/allentofight/followers",
+    "following_url": "https://api.github.com/users/allentofight/following{/other_user}",
+    "gists_url": "https://api.github.com/users/allentofight/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/allentofight/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/allentofight/subscriptions",
+    "organizations_url": "https://api.github.com/users/allentofight/orgs",
+    "repos_url": "https://api.github.com/users/allentofight/repos",
+    "events_url": "https://api.github.com/users/allentofight/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/allentofight/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -294,5 +294,24 @@
   "created_at": "2016-11-10T03:38:22Z",
   "updated_at": "2016-11-28T04:39:13Z",
   "closed_at": "2016-11-28T04:39:13Z",
-  "body": "如下：\r\nborder-top-width: 12;\r\nborder-right: 0;\r\nborder-bottom-width: 12;\r\nborder-left-width: 20;\r\nborder-top-color: transparent;\r\nborder-right-color: transparent;\r\nborder-bottom-color: transparent;\r\nborder-left-color: #ffffff;\r\n\r\n在web中ok,但是在原生中显示的还是矩形"
+  "body": "如下：\r\nborder-top-width: 12;\r\nborder-right: 0;\r\nborder-bottom-width: 12;\r\nborder-left-width: 20;\r\nborder-top-color: transparent;\r\nborder-right-color: transparent;\r\nborder-bottom-color: transparent;\r\nborder-left-color: #ffffff;\r\n\r\n在web中ok,但是在原生中显示的还是矩形",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

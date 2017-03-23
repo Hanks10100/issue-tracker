@@ -94,5 +94,24 @@
   "created_at": "2016-10-11T13:25:05Z",
   "updated_at": "2016-10-12T01:30:13Z",
   "closed_at": "2016-10-12T01:30:13Z",
-  "body": "1.采用text-overflow 配置成ellipsis  超过宽度的字符没有以\"...\"的样式展示\n2.如果不采用text-overflow  使用lines的话 在H5上是以\"...\"显示的，在android上没有效果\n"
+  "body": "1.采用text-overflow 配置成ellipsis  超过宽度的字符没有以\"...\"的样式展示\n2.如果不采用text-overflow  使用lines的话 在H5上是以\"...\"显示的，在android上没有效果\n",
+  "closed_by": {
+    "login": "squirrelx",
+    "id": 21114837,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/21114837?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/squirrelx",
+    "html_url": "https://github.com/squirrelx",
+    "followers_url": "https://api.github.com/users/squirrelx/followers",
+    "following_url": "https://api.github.com/users/squirrelx/following{/other_user}",
+    "gists_url": "https://api.github.com/users/squirrelx/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/squirrelx/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/squirrelx/subscriptions",
+    "organizations_url": "https://api.github.com/users/squirrelx/orgs",
+    "repos_url": "https://api.github.com/users/squirrelx/repos",
+    "events_url": "https://api.github.com/users/squirrelx/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/squirrelx/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

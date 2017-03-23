@@ -150,5 +150,6 @@
   "created_at": "2017-02-16T13:05:19Z",
   "updated_at": "2017-02-23T01:57:51Z",
   "closed_at": null,
-  "body": "由于我们应用有换肤功能，所以我们的色值都是用key来表示，webpack 编译阶段，好像有对 color值 做验证，由于是自定义 value 所以color 样式就被忽略了\r\n\r\n有什么办法关闭 webpack 的color值验证吗？\r\n\r\n```\r\n<text class=\"xx\">Hello Weex!</text>\r\n<style>\r\n  .xx {\r\n    color: Key;\r\n    font-size:42;\r\n  }\r\n</style>\r\n```\r\n\r\n生成的 js\r\n\r\n```\r\nmodule.exports = {\r\n\t  \"xx\": {\r\n                \"fontSize\": 42\r\n\t  }\r\n```\r\n\r\nweex 页面只用手机应用内部，不会生成网页，在 SDK 层，我们会对 key 转换成 color"
+  "body": "由于我们应用有换肤功能，所以我们的色值都是用key来表示，webpack 编译阶段，好像有对 color值 做验证，由于是自定义 value 所以color 样式就被忽略了\r\n\r\n有什么办法关闭 webpack 的color值验证吗？\r\n\r\n```\r\n<text class=\"xx\">Hello Weex!</text>\r\n<style>\r\n  .xx {\r\n    color: Key;\r\n    font-size:42;\r\n  }\r\n</style>\r\n```\r\n\r\n生成的 js\r\n\r\n```\r\nmodule.exports = {\r\n\t  \"xx\": {\r\n                \"fontSize\": 42\r\n\t  }\r\n```\r\n\r\nweex 页面只用手机应用内部，不会生成网页，在 SDK 层，我们会对 key 转换成 color",
+  "closed_by": null
 }

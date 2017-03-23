@@ -206,5 +206,24 @@
   "created_at": "2016-09-23T08:47:40Z",
   "updated_at": "2016-09-29T06:39:54Z",
   "closed_at": "2016-09-29T06:39:54Z",
-  "body": "我在iOS 端将js的zip包下载到沙盒中 然后解压到沙盒中， 我将js的文件路径传给 url \n`Newurl = [NSString stringWithFormat:@\"file://%@/yjpt/weex_jzd/index.js\",path1];   \nself.url = [NSURL URLWithString:Newurl];`\n\n文件显示 无网络访问 一下是截图\n![image_name](http://upload-images.jianshu.io/upload_images/1767435-e5933cd17504c577.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)\n\n我将文件解压到 [NSBundle MainBundle].resourse 目录下的时候界面能够显示出来\n![image_name](http://upload-images.jianshu.io/upload_images/1767435-b15f53bd98bc65c6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)\n可是 问题是 我将文件解压到 工程目录下的时候是无法 持久保存的，下次登录的时候文件以及被清理掉了\n\n这样子我 该如何解决，难道目前就只有我一个人在做这种模式吗？\n"
+  "body": "我在iOS 端将js的zip包下载到沙盒中 然后解压到沙盒中， 我将js的文件路径传给 url \n`Newurl = [NSString stringWithFormat:@\"file://%@/yjpt/weex_jzd/index.js\",path1];   \nself.url = [NSURL URLWithString:Newurl];`\n\n文件显示 无网络访问 一下是截图\n![image_name](http://upload-images.jianshu.io/upload_images/1767435-e5933cd17504c577.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)\n\n我将文件解压到 [NSBundle MainBundle].resourse 目录下的时候界面能够显示出来\n![image_name](http://upload-images.jianshu.io/upload_images/1767435-b15f53bd98bc65c6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)\n可是 问题是 我将文件解压到 工程目录下的时候是无法 持久保存的，下次登录的时候文件以及被清理掉了\n\n这样子我 该如何解决，难道目前就只有我一个人在做这种模式吗？\n",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

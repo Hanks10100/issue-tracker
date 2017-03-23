@@ -110,5 +110,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2043.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2043.patch"
   },
-  "body": "See #1677 for more details.\r\n\r\n+ Support to use `callNativeModule` if it exists.\r\n+ Be able to set methods on module.\r\n\r\nThe \"callNative\"s would be refactored in branch `jsfm-feature-0.19`, this solution is temporary."
+  "body": "See #1677 for more details.\r\n\r\n+ Support to use `callNativeModule` if it exists.\r\n+ Be able to set methods on module.\r\n\r\nThe \"callNative\"s would be refactored in branch `jsfm-feature-0.19`, this solution is temporary.",
+  "closed_by": {
+    "login": "Hanks10100",
+    "id": 8401776,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8401776?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Hanks10100",
+    "html_url": "https://github.com/Hanks10100",
+    "followers_url": "https://api.github.com/users/Hanks10100/followers",
+    "following_url": "https://api.github.com/users/Hanks10100/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Hanks10100/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Hanks10100/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Hanks10100/subscriptions",
+    "organizations_url": "https://api.github.com/users/Hanks10100/orgs",
+    "repos_url": "https://api.github.com/users/Hanks10100/repos",
+    "events_url": "https://api.github.com/users/Hanks10100/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Hanks10100/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

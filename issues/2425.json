@@ -66,5 +66,6 @@
   "created_at": "2017-02-04T08:03:47Z",
   "updated_at": "2017-02-15T01:43:09Z",
   "closed_at": null,
-  "body": "modal在实际使用过程中，调用toast方法，出现高度几乎铺满全屏？想问下，toast的位置可以设置吗？"
+  "body": "modal在实际使用过程中，调用toast方法，出现高度几乎铺满全屏？想问下，toast的位置可以设置吗？",
+  "closed_by": null
 }

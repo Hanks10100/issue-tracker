@@ -108,5 +108,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1346.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1346.patch"
   },
-  "body": "Supported framework flag in the beginning of a JS bundle but after some spaces/linebreaks\n\n---\n\n``` javascript\n// { \"framework\": \"xxx\" }\n'something else'\n```\n\nworks for xxx\n\n---\n\n``` javascript\n//{framework:'xxx'}\n'something else'\n```\n\nworks for xxx\n\n---\n\n``` javascript\n\n\n        // { framework: 'xxx' }\n'something else'\n```\n\nworks for xxx\n\n---\n\n``` javascript\n'something else'\n// { \"framework\": \"xxx\" }\n'something else'\n```\n\nnot work for xxx, just work for default framework\n\n---\n\n``` javascript\n'something else'\n```\n\njust work for default framework\n"
+  "body": "Supported framework flag in the beginning of a JS bundle but after some spaces/linebreaks\n\n---\n\n``` javascript\n// { \"framework\": \"xxx\" }\n'something else'\n```\n\nworks for xxx\n\n---\n\n``` javascript\n//{framework:'xxx'}\n'something else'\n```\n\nworks for xxx\n\n---\n\n``` javascript\n\n\n        // { framework: 'xxx' }\n'something else'\n```\n\nworks for xxx\n\n---\n\n``` javascript\n'something else'\n// { \"framework\": \"xxx\" }\n'something else'\n```\n\nnot work for xxx, just work for default framework\n\n---\n\n``` javascript\n'something else'\n```\n\njust work for default framework\n",
+  "closed_by": {
+    "login": "yuanyan",
+    "id": 677114,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/677114?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/yuanyan",
+    "html_url": "https://github.com/yuanyan",
+    "followers_url": "https://api.github.com/users/yuanyan/followers",
+    "following_url": "https://api.github.com/users/yuanyan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/yuanyan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/yuanyan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/yuanyan/subscriptions",
+    "organizations_url": "https://api.github.com/users/yuanyan/orgs",
+    "repos_url": "https://api.github.com/users/yuanyan/repos",
+    "events_url": "https://api.github.com/users/yuanyan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/yuanyan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

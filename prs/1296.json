@@ -100,5 +100,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1296.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1296.patch"
   },
-  "body": "### _Features_\n1. Add Total storage limit to 50M. No limit in original version.\n2. Add setItemPersistent method to save persistent data. Original setItem method is now used to save cached data.\n3. Apply LRU policy on storage limit control.\n"
+  "body": "### _Features_\n1. Add Total storage limit to 50M. No limit in original version.\n2. Add setItemPersistent method to save persistent data. Original setItem method is now used to save cached data.\n3. Apply LRU policy on storage limit control.\n",
+  "closed_by": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

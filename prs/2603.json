@@ -110,5 +110,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2603.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2603.patch"
   },
-  "body": "调用`dom.scrollToElement`时支持指定是否使用滚动动画，默认开启动画。\r\n\r\nTestcase：\r\n**scroller** http://dotwe.org/weex/054ad1b8152ac7019cc079fd7fad9b99\r\n**list** http://dotwe.org/weex/2b213db5fe83170bc228916df2aad546\r\n\r\n\r\niOS实现：https://github.com/alibaba/weex/pull/2289"
+  "body": "调用`dom.scrollToElement`时支持指定是否使用滚动动画，默认开启动画。\r\n\r\nTestcase：\r\n**scroller** http://dotwe.org/weex/054ad1b8152ac7019cc079fd7fad9b99\r\n**list** http://dotwe.org/weex/2b213db5fe83170bc228916df2aad546\r\n\r\n\r\niOS实现：https://github.com/alibaba/weex/pull/2289",
+  "closed_by": {
+    "login": "misakuo",
+    "id": 6958743,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6958743?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/misakuo",
+    "html_url": "https://github.com/misakuo",
+    "followers_url": "https://api.github.com/users/misakuo/followers",
+    "following_url": "https://api.github.com/users/misakuo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/misakuo/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/misakuo/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/misakuo/subscriptions",
+    "organizations_url": "https://api.github.com/users/misakuo/orgs",
+    "repos_url": "https://api.github.com/users/misakuo/repos",
+    "events_url": "https://api.github.com/users/misakuo/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/misakuo/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

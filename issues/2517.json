@@ -37,5 +37,6 @@
   "created_at": "2017-02-10T09:20:10Z",
   "updated_at": "2017-02-10T09:20:10Z",
   "closed_at": null,
-  "body": "android上，weex的slider是由Viewpager扩展而来。\r\n但由于viewpager的特性，当页面初始化时，只有第一第二页会AttachedToWindow\r\n如果第三页有带refresh和或loading的list的话，refresh和loading会生成，但无法加入list的headview和footview中，因为这页还未AttachedToWindow，setRefreshView方法未执行，headview和footview都为null\r\n\r\n希望官方有好的解决方案"
+  "body": "android上，weex的slider是由Viewpager扩展而来。\r\n但由于viewpager的特性，当页面初始化时，只有第一第二页会AttachedToWindow\r\n如果第三页有带refresh和或loading的list的话，refresh和loading会生成，但无法加入list的headview和footview中，因为这页还未AttachedToWindow，setRefreshView方法未执行，headview和footview都为null\r\n\r\n希望官方有好的解决方案",
+  "closed_by": null
 }

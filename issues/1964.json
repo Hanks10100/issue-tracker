@@ -66,5 +66,24 @@
   "created_at": "2016-12-20T13:56:38Z",
   "updated_at": "2016-12-22T19:20:11Z",
   "closed_at": "2016-12-22T19:20:11Z",
-  "body": "` <div class=\"selectnum\" repeat=\"( index, v) in arr\">\r\n              <text value=\"{{v.id}}\" onclick=\"selectfunc(arr[{{index}}].id)\" class=\"select_player1\">{{v.id}}</text>\r\n            </div>`\r\n\r\n`<script>\r\n  module.exports = {\r\n    data: {\r\n      arr: [\r\n      {id: 10},\r\n      {id: 11},\r\n      {id: 12},\r\n      {id: 13},\r\n      {id: 14}\r\n      ],\r\n      select_player:\"谁会中奖呢？\"\r\n    },\r\n    methods: {\r\n      selectfunc: function(index){\r\n        this.select_player = '玩家'+index;\r\n      }\r\n    }\r\n  }\r\n</script>`\r\n\r\n点击之后没有反应"
+  "body": "` <div class=\"selectnum\" repeat=\"( index, v) in arr\">\r\n              <text value=\"{{v.id}}\" onclick=\"selectfunc(arr[{{index}}].id)\" class=\"select_player1\">{{v.id}}</text>\r\n            </div>`\r\n\r\n`<script>\r\n  module.exports = {\r\n    data: {\r\n      arr: [\r\n      {id: 10},\r\n      {id: 11},\r\n      {id: 12},\r\n      {id: 13},\r\n      {id: 14}\r\n      ],\r\n      select_player:\"谁会中奖呢？\"\r\n    },\r\n    methods: {\r\n      selectfunc: function(index){\r\n        this.select_player = '玩家'+index;\r\n      }\r\n    }\r\n  }\r\n</script>`\r\n\r\n点击之后没有反应",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

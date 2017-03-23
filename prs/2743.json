@@ -43,5 +43,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2743.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2743.patch"
   },
-  "body": "WXSDKInstance 调用 renderByUrl 会检查 Url 的 scheme，如果为file，会进行本地文件的加载，但是只会进行asset目前中资源文件的加载，目前改进如下：\r\n\r\n首先会进行本地文件的判断，如果存在则用这个文件加载\r\n其次会在assets目录中检查文件并加载\r\n测试：\r\n首先保证mnt/sdcard/index.js 文件存在\r\n再用WXSDKInstance.renderByUrl(\"file:///mnt/sdcard/index.js\",..) 可以顺利加载"
+  "body": "WXSDKInstance 调用 renderByUrl 会检查 Url 的 scheme，如果为file，会进行本地文件的加载，但是只会进行asset目前中资源文件的加载，目前改进如下：\r\n\r\n首先会进行本地文件的判断，如果存在则用这个文件加载\r\n其次会在assets目录中检查文件并加载\r\n测试：\r\n首先保证mnt/sdcard/index.js 文件存在\r\n再用WXSDKInstance.renderByUrl(\"file:///mnt/sdcard/index.js\",..) 可以顺利加载",
+  "closed_by": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

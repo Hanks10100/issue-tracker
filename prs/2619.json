@@ -72,5 +72,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2619.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2619.patch"
   },
-  "body": "增加对 文本输入框的内容选择和返回所选内容的位置。"
+  "body": "增加对 文本输入框的内容选择和返回所选内容的位置。",
+  "closed_by": {
+    "login": "JackPu",
+    "id": 4744967,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/4744967?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/JackPu",
+    "html_url": "https://github.com/JackPu",
+    "followers_url": "https://api.github.com/users/JackPu/followers",
+    "following_url": "https://api.github.com/users/JackPu/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JackPu/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/JackPu/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/JackPu/subscriptions",
+    "organizations_url": "https://api.github.com/users/JackPu/orgs",
+    "repos_url": "https://api.github.com/users/JackPu/repos",
+    "events_url": "https://api.github.com/users/JackPu/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/JackPu/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -222,5 +222,24 @@
   "created_at": "2016-11-24T09:42:35Z",
   "updated_at": "2016-12-22T09:02:32Z",
   "closed_at": "2016-12-22T09:02:32Z",
-  "body": "出现的代码结构是:\r\n```\r\n<list>\r\n<refresh>\r\n<item></item>\r\n</refresh>\r\n<cell><slider><div repeat=\"item in array\"></div></slider></cell>\r\n<cell repeat=\"item in array\"></cell>\r\n<cell repeat=\"item in array\"></cell>\r\n</list>\r\n```\r\n下拉小段距离后回弹发现uitableview的bounds变为-0.5（效果是视图顶端出现白线条）；\r\n下拉刷新回弹或者slider在自滚动的过程中恢复正常"
+  "body": "出现的代码结构是:\r\n```\r\n<list>\r\n<refresh>\r\n<item></item>\r\n</refresh>\r\n<cell><slider><div repeat=\"item in array\"></div></slider></cell>\r\n<cell repeat=\"item in array\"></cell>\r\n<cell repeat=\"item in array\"></cell>\r\n</list>\r\n```\r\n下拉小段距离后回弹发现uitableview的bounds变为-0.5（效果是视图顶端出现白线条）；\r\n下拉刷新回弹或者slider在自滚动的过程中恢复正常",
+  "closed_by": {
+    "login": "cxfeng1",
+    "id": 1625893,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1625893?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cxfeng1",
+    "html_url": "https://github.com/cxfeng1",
+    "followers_url": "https://api.github.com/users/cxfeng1/followers",
+    "following_url": "https://api.github.com/users/cxfeng1/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cxfeng1/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cxfeng1/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cxfeng1/subscriptions",
+    "organizations_url": "https://api.github.com/users/cxfeng1/orgs",
+    "repos_url": "https://api.github.com/users/cxfeng1/repos",
+    "events_url": "https://api.github.com/users/cxfeng1/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cxfeng1/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

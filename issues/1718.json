@@ -194,5 +194,24 @@
   "created_at": "2016-11-24T11:24:58Z",
   "updated_at": "2016-12-23T08:59:21Z",
   "closed_at": "2016-12-23T08:59:21Z",
-  "body": "在[#1141](https://github.com/alibaba/weex/issues/1141)里有人提及过\r\n我这边复线的代码结构是：\r\n```\r\n<list>\r\n<refresh onrefresh=\"refresh\">\r\n<item></item>\r\n</refresh>\r\n<cell><slider><div repeat=\"item in imageArray\"><image src=\"{{item.url}}\"></image></div></slider></cell>\r\n<cell repeat=\"item in arrayA\"></cell>\r\n<cell repeat=\"item in arrayB\"></cell>\r\n</list>\r\n<script>\r\nmodule.exports={\r\n    data: {\r\n        imageArray: [],\r\n        arrayA: [],\r\n        arrayB: [],\r\n    },\r\n    methods:{\r\n        refresh:function(){\r\n            let url = \"\";\r\n            let self = this;\r\n\t    let stream = require(\"@weex-module/net-stream\");\r\n            stream.fetch(url,function(result){\r\n            self.imageArray=result.imageArray;\r\n            });\r\n        }\r\n    }\r\n}\r\n</script>\r\n```\r\n在imageArray数据源减少时slider会将减少的那一项移到最后，但滑动到该项时显示空白\r\n补充：\r\nslider的子元素只增不减\r\n假设imageArray包含a、b、c、d四个元素，当d从后台被删除后，刷新，imageArray包含a、b、c三个元素，此时slider包含4个元素，\r\n当d被后台添加回来后，刷新，imageArray包含a、b、c、d四个元素，此时slider包含5个元素。"
+  "body": "在[#1141](https://github.com/alibaba/weex/issues/1141)里有人提及过\r\n我这边复线的代码结构是：\r\n```\r\n<list>\r\n<refresh onrefresh=\"refresh\">\r\n<item></item>\r\n</refresh>\r\n<cell><slider><div repeat=\"item in imageArray\"><image src=\"{{item.url}}\"></image></div></slider></cell>\r\n<cell repeat=\"item in arrayA\"></cell>\r\n<cell repeat=\"item in arrayB\"></cell>\r\n</list>\r\n<script>\r\nmodule.exports={\r\n    data: {\r\n        imageArray: [],\r\n        arrayA: [],\r\n        arrayB: [],\r\n    },\r\n    methods:{\r\n        refresh:function(){\r\n            let url = \"\";\r\n            let self = this;\r\n\t    let stream = require(\"@weex-module/net-stream\");\r\n            stream.fetch(url,function(result){\r\n            self.imageArray=result.imageArray;\r\n            });\r\n        }\r\n    }\r\n}\r\n</script>\r\n```\r\n在imageArray数据源减少时slider会将减少的那一项移到最后，但滑动到该项时显示空白\r\n补充：\r\nslider的子元素只增不减\r\n假设imageArray包含a、b、c、d四个元素，当d从后台被删除后，刷新，imageArray包含a、b、c三个元素，此时slider包含4个元素，\r\n当d被后台添加回来后，刷新，imageArray包含a、b、c、d四个元素，此时slider包含5个元素。",
+  "closed_by": {
+    "login": "boboning",
+    "id": 18302124,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/18302124?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/boboning",
+    "html_url": "https://github.com/boboning",
+    "followers_url": "https://api.github.com/users/boboning/followers",
+    "following_url": "https://api.github.com/users/boboning/following{/other_user}",
+    "gists_url": "https://api.github.com/users/boboning/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/boboning/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/boboning/subscriptions",
+    "organizations_url": "https://api.github.com/users/boboning/orgs",
+    "repos_url": "https://api.github.com/users/boboning/repos",
+    "events_url": "https://api.github.com/users/boboning/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/boboning/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -300,5 +300,24 @@
   "created_at": "2016-05-09T10:52:54Z",
   "updated_at": "2016-05-22T11:37:59Z",
   "closed_at": "2016-05-10T08:02:28Z",
-  "body": "如下：\n`\nE:\\git\\weex\\doc {git}\n{lamb} gitbook build\nwarn: gitbook version specified in your book.json might be too strict for future patches, '3.x.x' is more adequate\ninfo: loading 5 plugins\ninfo: loading plugin \"theme-default\"... OK\ninfo: loading plugin \"highlight\"... OK\ninfo: loading plugin \"search\"... OK\ninfo: loading plugin \"sharing\"... OK\ninfo: loading plugin \"fontsettings\"... OK\ninfo: preparing the generation\n\nTemplateError: Error compiling template \"syntax/data-binding.md\": (E:\\git\\weex\\doc\\syntax\\data-binding.md) [Line 53, Column 46]\n  Error: Unable to call `getFullName`, which is undefined or falsey\n`\n改了报错的地方之后，其他文件也是很多都报错~是不是我哪里配置不对?\n"
+  "body": "如下：\n`\nE:\\git\\weex\\doc {git}\n{lamb} gitbook build\nwarn: gitbook version specified in your book.json might be too strict for future patches, '3.x.x' is more adequate\ninfo: loading 5 plugins\ninfo: loading plugin \"theme-default\"... OK\ninfo: loading plugin \"highlight\"... OK\ninfo: loading plugin \"search\"... OK\ninfo: loading plugin \"sharing\"... OK\ninfo: loading plugin \"fontsettings\"... OK\ninfo: preparing the generation\n\nTemplateError: Error compiling template \"syntax/data-binding.md\": (E:\\git\\weex\\doc\\syntax\\data-binding.md) [Line 53, Column 46]\n  Error: Unable to call `getFullName`, which is undefined or falsey\n`\n改了报错的地方之后，其他文件也是很多都报错~是不是我哪里配置不对?\n",
+  "closed_by": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -33,9 +33,39 @@
   "assignee": null,
   "assignees": [],
   "milestone": null,
-  "comments": [],
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/286079832",
+      "html_url": "https://github.com/alibaba/weex/issues/2838#issuecomment-286079832",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/2838",
+      "id": 286079832,
+      "user": {
+        "login": "xnfa",
+        "id": 2442993,
+        "avatar_url": "https://avatars1.githubusercontent.com/u/2442993?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/xnfa",
+        "html_url": "https://github.com/xnfa",
+        "followers_url": "https://api.github.com/users/xnfa/followers",
+        "following_url": "https://api.github.com/users/xnfa/following{/other_user}",
+        "gists_url": "https://api.github.com/users/xnfa/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/xnfa/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/xnfa/subscriptions",
+        "organizations_url": "https://api.github.com/users/xnfa/orgs",
+        "repos_url": "https://api.github.com/users/xnfa/repos",
+        "events_url": "https://api.github.com/users/xnfa/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/xnfa/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2017-03-13T11:18:09Z",
+      "updated_at": "2017-03-13T11:18:09Z",
+      "body": "+1"
+    }
+  ],
   "created_at": "2017-03-02T01:58:38Z",
-  "updated_at": "2017-03-02T01:58:38Z",
+  "updated_at": "2017-03-13T11:18:10Z",
   "closed_at": null,
-  "body": "已经正常集成了Weex_sdk，在使用navigator.push的时候，在logcat中会报如下错误：\r\n`ActivityNotFoundException: No Activity found to handle Intent { act=android.intent.action.VIEW cat=[com.taobao.android.intent.category.WEEX] dat=http://10.200.206.140/app.js (has extras) }`\r\n之后跟踪到WXNavigatorModule里面，发现有个地方似乎不妥：\r\n` Intent intent = new Intent(Intent.ACTION_VIEW, builder.build());\r\n                    intent.addCategory(WEEX);\r\n                    intent.putExtra(INSTANCE_ID, mWXSDKInstance.getInstanceId());\r\n                    mWXSDKInstance.getContext().startActivity(intent);`\r\n怎么切换呢？求教\r\n\r\n"
+  "body": "已经正常集成了Weex_sdk，在使用navigator.push的时候，在logcat中会报如下错误：\r\n`ActivityNotFoundException: No Activity found to handle Intent { act=android.intent.action.VIEW cat=[com.taobao.android.intent.category.WEEX] dat=http://10.200.206.140/app.js (has extras) }`\r\n之后跟踪到WXNavigatorModule里面，发现有个地方似乎不妥：\r\n` Intent intent = new Intent(Intent.ACTION_VIEW, builder.build());\r\n                    intent.addCategory(WEEX);\r\n                    intent.putExtra(INSTANCE_ID, mWXSDKInstance.getInstanceId());\r\n                    mWXSDKInstance.getContext().startActivity(intent);`\r\n怎么切换呢？求教\r\n\r\n",
+  "closed_by": null
 }

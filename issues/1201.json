@@ -66,5 +66,24 @@
   "created_at": "2016-09-11T02:28:35Z",
   "updated_at": "2016-09-11T16:13:07Z",
   "closed_at": "2016-09-11T16:13:07Z",
-  "body": "我在`weex help`指令下没有找到关于weex-toolkit的升级方法，以及查看最新版本的信息\n\n然后查看了[它的仓库](https://github.com/weexteam/weex-toolkit)，发现还没有发布过正式版，我想知通过什么方式去检测更新\n"
+  "body": "我在`weex help`指令下没有找到关于weex-toolkit的升级方法，以及查看最新版本的信息\n\n然后查看了[它的仓库](https://github.com/weexteam/weex-toolkit)，发现还没有发布过正式版，我想知通过什么方式去检测更新\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

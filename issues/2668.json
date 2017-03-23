@@ -94,5 +94,24 @@
   "created_at": "2017-02-20T08:37:46Z",
   "updated_at": "2017-02-21T09:43:57Z",
   "closed_at": "2017-02-21T09:43:57Z",
-  "body": "编写了一个vue插件router.js：\r\n```javascript\r\nexport function install(Vue,{routes,weex}){\r\n    const navigator=weex.requireModule('navigator');\r\n    Object.defineProperty(Vue.prototype, \"$router\", {\r\n        value:{\r\n            push(url){\r\n                let bundle=pathToBundle(url,routes);\r\n                if(navigator){\r\n                    navigator.push({\r\n                        'url':bundle,\r\n                        'animated':'true'\r\n                    }, function() {console.log('skip complete')});\r\n                }\r\n            },\r\n        }\r\n        configurable:false\r\n    });\r\n}\r\n```\r\n```javascript\r\n//index.vue\r\nimport routes from './routes'\r\nimport myRouter from './router'\r\nVue.use(myRouter,{routes,weex});\r\n·········\r\njump(){\r\n    this.$router.push('a/b/123');\r\n}\r\n```\r\niOS中，执行jump方法，页面执行了跳转动画并成功打印`skip complete`，但跳转后的页面是白屏，serve中也未监听到相关js bundle的请求。\r\n\r\n安卓、web表现正常"
+  "body": "编写了一个vue插件router.js：\r\n```javascript\r\nexport function install(Vue,{routes,weex}){\r\n    const navigator=weex.requireModule('navigator');\r\n    Object.defineProperty(Vue.prototype, \"$router\", {\r\n        value:{\r\n            push(url){\r\n                let bundle=pathToBundle(url,routes);\r\n                if(navigator){\r\n                    navigator.push({\r\n                        'url':bundle,\r\n                        'animated':'true'\r\n                    }, function() {console.log('skip complete')});\r\n                }\r\n            },\r\n        }\r\n        configurable:false\r\n    });\r\n}\r\n```\r\n```javascript\r\n//index.vue\r\nimport routes from './routes'\r\nimport myRouter from './router'\r\nVue.use(myRouter,{routes,weex});\r\n·········\r\njump(){\r\n    this.$router.push('a/b/123');\r\n}\r\n```\r\niOS中，执行jump方法，页面执行了跳转动画并成功打印`skip complete`，但跳转后的页面是白屏，serve中也未监听到相关js bundle的请求。\r\n\r\n安卓、web表现正常",
+  "closed_by": {
+    "login": "dongnaebi",
+    "id": 6902417,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6902417?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/dongnaebi",
+    "html_url": "https://github.com/dongnaebi",
+    "followers_url": "https://api.github.com/users/dongnaebi/followers",
+    "following_url": "https://api.github.com/users/dongnaebi/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dongnaebi/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/dongnaebi/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/dongnaebi/subscriptions",
+    "organizations_url": "https://api.github.com/users/dongnaebi/orgs",
+    "repos_url": "https://api.github.com/users/dongnaebi/repos",
+    "events_url": "https://api.github.com/users/dongnaebi/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/dongnaebi/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

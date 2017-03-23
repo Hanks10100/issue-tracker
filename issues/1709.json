@@ -165,5 +165,6 @@
   "created_at": "2016-11-24T05:13:53Z",
   "updated_at": "2017-03-01T06:24:30Z",
   "closed_at": null,
-  "body": "slider-neighbor \r\n### 在android 上，随着list 滑动会被回收。点击区域后又重新绘制\r\n### 在ios 上，有一定几率出现空白请况\r\n期待修复\r\n"
+  "body": "slider-neighbor \r\n### 在android 上，随着list 滑动会被回收。点击区域后又重新绘制\r\n### 在ios 上，有一定几率出现空白请况\r\n期待修复\r\n",
+  "closed_by": null
 }

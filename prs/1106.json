@@ -81,5 +81,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1106.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1106.patch"
   },
-  "body": "Add line number (e.g. `(WXSDKInstance.java:752)`) before log content when method `WXEnvironment.isApkDebugable()` return `true`  \nIt provide the ability to hyperlink to code, looks like this:  \n![QQ20160830-0@2x.png](https://ooo.0o0.ooo/2016/08/30/57c4f8030b772.png)    \n\nsame as #1091 \n"
+  "body": "Add line number (e.g. `(WXSDKInstance.java:752)`) before log content when method `WXEnvironment.isApkDebugable()` return `true`  \nIt provide the ability to hyperlink to code, looks like this:  \n![QQ20160830-0@2x.png](https://ooo.0o0.ooo/2016/08/30/57c4f8030b772.png)    \n\nsame as #1091 \n",
+  "closed_by": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

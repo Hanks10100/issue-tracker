@@ -496,5 +496,24 @@
   "created_at": "2016-05-05T08:59:09Z",
   "updated_at": "2016-05-31T04:04:00Z",
   "closed_at": "2016-05-31T04:04:00Z",
-  "body": "例如我有个JS文件，里面有一个公共的JS方法。可否有办法引入此文件，然后在组件的methods里面进行调用呢？已经安装过 weex-scripter ，并且尝试用require 引用公共JS文件，但是并没不起作用，没法调取公共JS文件里面的function。\n"
+  "body": "例如我有个JS文件，里面有一个公共的JS方法。可否有办法引入此文件，然后在组件的methods里面进行调用呢？已经安装过 weex-scripter ，并且尝试用require 引用公共JS文件，但是并没不起作用，没法调取公共JS文件里面的function。\n",
+  "closed_by": {
+    "login": "terrykingcha",
+    "id": 1314662,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1314662?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/terrykingcha",
+    "html_url": "https://github.com/terrykingcha",
+    "followers_url": "https://api.github.com/users/terrykingcha/followers",
+    "following_url": "https://api.github.com/users/terrykingcha/following{/other_user}",
+    "gists_url": "https://api.github.com/users/terrykingcha/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/terrykingcha/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/terrykingcha/subscriptions",
+    "organizations_url": "https://api.github.com/users/terrykingcha/orgs",
+    "repos_url": "https://api.github.com/users/terrykingcha/repos",
+    "events_url": "https://api.github.com/users/terrykingcha/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/terrykingcha/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -221,5 +221,24 @@
   "created_at": "2016-08-04T08:36:05Z",
   "updated_at": "2016-12-23T12:43:36Z",
   "closed_at": "2016-12-23T12:43:36Z",
-  "body": "**Summary:**\n\nWe can treat pseudo-class as normal class with every style prop name a pseudo-class prefix. For example: `.class-a:focus { color: red; }` equals to `.class-a { -focus-color: red; }`\n\n**Description:**\n\n_CSS syntax Design:_\n\n``` css\n.class-a { color: blue; }\n.class-a:focus { color: red; } /* pseudo-class */\n.class-a { -focus-color: red; } /* same effect */\n```\n\n_JS Bundle Format:_\n\n``` javascript\n{\n  \"class-a\": {\n    \"color\": \"blue\",\n    \"-focus-color\": \"red\"\n  }\n}\n```\n\n_Renderer Implementation:_\n\nSupport `color` style and `-focus-color` when user tap on it. The interaction will not fire any JS task so it's faster than event.\n"
+  "body": "**Summary:**\n\nWe can treat pseudo-class as normal class with every style prop name a pseudo-class prefix. For example: `.class-a:focus { color: red; }` equals to `.class-a { -focus-color: red; }`\n\n**Description:**\n\n_CSS syntax Design:_\n\n``` css\n.class-a { color: blue; }\n.class-a:focus { color: red; } /* pseudo-class */\n.class-a { -focus-color: red; } /* same effect */\n```\n\n_JS Bundle Format:_\n\n``` javascript\n{\n  \"class-a\": {\n    \"color\": \"blue\",\n    \"-focus-color\": \"red\"\n  }\n}\n```\n\n_Renderer Implementation:_\n\nSupport `color` style and `-focus-color` when user tap on it. The interaction will not fire any JS task so it's faster than event.\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

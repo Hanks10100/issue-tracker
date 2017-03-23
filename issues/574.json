@@ -151,5 +151,24 @@
   "created_at": "2016-06-24T04:01:08Z",
   "updated_at": "2016-07-04T08:53:21Z",
   "closed_at": "2016-07-04T08:53:21Z",
-  "body": "![screenshot_2016-06-24-11-53-42](https://cloud.githubusercontent.com/assets/5263136/16327553/e2d23c80-3a02-11e6-878c-dbb91c03660e.png)\n![screenshot_2016-06-24-11-54-03](https://cloud.githubusercontent.com/assets/5263136/16327552/e2d06b6c-3a02-11e6-9bf6-b3bfb552948a.png)\n![screenshot_2016-06-24-11-54-44](https://cloud.githubusercontent.com/assets/5263136/16327554/e2d38810-3a02-11e6-92c1-9bce88c4fe8d.png)\n\nPlayground 最新版，首页显示错乱， 另外扫码js, 不能正常运行， 空白。\n型号：\nHuawei x2 , GEM-703L , Android 5.0\n\n之前的版本安装提示设备不支持weex。\n"
+  "body": "![screenshot_2016-06-24-11-53-42](https://cloud.githubusercontent.com/assets/5263136/16327553/e2d23c80-3a02-11e6-878c-dbb91c03660e.png)\n![screenshot_2016-06-24-11-54-03](https://cloud.githubusercontent.com/assets/5263136/16327552/e2d06b6c-3a02-11e6-9bf6-b3bfb552948a.png)\n![screenshot_2016-06-24-11-54-44](https://cloud.githubusercontent.com/assets/5263136/16327554/e2d38810-3a02-11e6-92c1-9bce88c4fe8d.png)\n\nPlayground 最新版，首页显示错乱， 另外扫码js, 不能正常运行， 空白。\n型号：\nHuawei x2 , GEM-703L , Android 5.0\n\n之前的版本安装提示设备不支持weex。\n",
+  "closed_by": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

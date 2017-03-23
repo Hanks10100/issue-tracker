@@ -198,5 +198,24 @@
   "created_at": "2016-11-08T05:32:31Z",
   "updated_at": "2016-11-28T04:35:30Z",
   "closed_at": "2016-11-28T04:35:30Z",
-  "body": "有一个被忽略的平台差异，就是h5上的事件都是由UI交互触发，但native只要是属性被修改，不管是来自UI交互还是程序的修改，都会触发事件。以input为例：   \r\n```html\r\n<template>\r\n<div>\r\n  <input value={{value}} oninput=\"oninput\"></input> \r\n  <text onclick=\"clicktext\">click</text>\r\n</div>\r\n</template>\r\n<script>\r\nmodule.exports = {\r\n  data:{\"value\":\"\"},\r\n  methods:{\r\n    oninput:function(e){\r\n      \r\n      this.value = e.value;\r\n      console.log(\"input\",e.value)\r\n    },\r\n    clicktext:function(){\r\n      this.value = \"some thing new \"\r\n   }\r\n  }\r\n}\r\n</script>\r\n```\r\n点击文本对`value`进行修改，在native会触发oninput，在h5上不会。并且我了解到前端开发者对这一状况都已经比较接受。\r\n所以，如果真有这样的差异，需要明确定义一下。 @Jinjiang \r\n随后我会整理哪些native控件的实现需要求改，来与h5进行统一。"
+  "body": "有一个被忽略的平台差异，就是h5上的事件都是由UI交互触发，但native只要是属性被修改，不管是来自UI交互还是程序的修改，都会触发事件。以input为例：   \r\n```html\r\n<template>\r\n<div>\r\n  <input value={{value}} oninput=\"oninput\"></input> \r\n  <text onclick=\"clicktext\">click</text>\r\n</div>\r\n</template>\r\n<script>\r\nmodule.exports = {\r\n  data:{\"value\":\"\"},\r\n  methods:{\r\n    oninput:function(e){\r\n      \r\n      this.value = e.value;\r\n      console.log(\"input\",e.value)\r\n    },\r\n    clicktext:function(){\r\n      this.value = \"some thing new \"\r\n   }\r\n  }\r\n}\r\n</script>\r\n```\r\n点击文本对`value`进行修改，在native会触发oninput，在h5上不会。并且我了解到前端开发者对这一状况都已经比较接受。\r\n所以，如果真有这样的差异，需要明确定义一下。 @Jinjiang \r\n随后我会整理哪些native控件的实现需要求改，来与h5进行统一。",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

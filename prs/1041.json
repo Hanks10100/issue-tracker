@@ -222,5 +222,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1041.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1041.patch"
   },
-  "body": "增强了Silder，同时显示左右元素各一点点的效果。\n因为改的比较多，并且AutoPlay属性的关系，所以是拓展了一个子类。\n\nKnown Issus:\n1. AutoPlay参数不好用，因为PageTransformer.transformPage()有时不会回调到。导致动画逻辑没更新上去。\n2. wxc-panel 左边有个默认是margin, 会导致左右两个view，漏出来的大小不一致。\n\n![Uploading ccc.png…]()\n"
+  "body": "增强了Silder，同时显示左右元素各一点点的效果。\n因为改的比较多，并且AutoPlay属性的关系，所以是拓展了一个子类。\n\nKnown Issus:\n1. AutoPlay参数不好用，因为PageTransformer.transformPage()有时不会回调到。导致动画逻辑没更新上去。\n2. wxc-panel 左边有个默认是margin, 会导致左右两个view，漏出来的大小不一致。\n\n![Uploading ccc.png…]()\n",
+  "closed_by": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

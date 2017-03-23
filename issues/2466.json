@@ -356,5 +356,24 @@
   "created_at": "2017-02-08T02:10:14Z",
   "updated_at": "2017-02-26T13:56:14Z",
   "closed_at": "2017-02-10T02:55:38Z",
-  "body": "发现websocket的demo，WebSocket模块是否已经可以使用，文档什么时候更新？\r\n\r\n"
+  "body": "发现websocket的demo，WebSocket模块是否已经可以使用，文档什么时候更新？\r\n\r\n",
+  "closed_by": {
+    "login": "zcl0001",
+    "id": 24770276,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/24770276?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/zcl0001",
+    "html_url": "https://github.com/zcl0001",
+    "followers_url": "https://api.github.com/users/zcl0001/followers",
+    "following_url": "https://api.github.com/users/zcl0001/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zcl0001/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/zcl0001/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/zcl0001/subscriptions",
+    "organizations_url": "https://api.github.com/users/zcl0001/orgs",
+    "repos_url": "https://api.github.com/users/zcl0001/repos",
+    "events_url": "https://api.github.com/users/zcl0001/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/zcl0001/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

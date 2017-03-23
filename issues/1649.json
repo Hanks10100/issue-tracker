@@ -402,5 +402,24 @@
   "created_at": "2016-11-16T08:27:37Z",
   "updated_at": "2016-12-23T12:49:01Z",
   "closed_at": "2016-12-23T12:49:01Z",
-  "body": "Currently there is only instance concept,  every instance is independent, and it's difficult to share data between instances.\r\n\r\n## Recommendation\r\nimport environment concept,  before creating instance, create environment first, \r\nafter create an environment,  js framework returns  an environment ID, and then we can create an instance inside the specified environment. \r\n\r\n- developer can specify JS framework version which include  build-in-libs version.\r\n- Adding new function like  `createEnv`. \r\n- Adding param envID to createInstance function.\r\n \r\n\r\n## why we need these feature\r\n\r\n- Our js framework and build-in-libs are being developed all the time, some instance code may not compatible with the js framework we are using now,  thus developers must modify their code to adapt to our js framework. with environment , developer could specify  which version of js framework and build-in-libs their are using, and before creating instance, we can create an environment for that instance.\r\n\r\n-  Considering  another situation, several page was developed by  the same developer, and it is very  common to share data between pages.  developer could share data inside the environment with no harm to the others. Developer can declare  an environment variable and use it inside that environment.\r\n"
+  "body": "Currently there is only instance concept,  every instance is independent, and it's difficult to share data between instances.\r\n\r\n## Recommendation\r\nimport environment concept,  before creating instance, create environment first, \r\nafter create an environment,  js framework returns  an environment ID, and then we can create an instance inside the specified environment. \r\n\r\n- developer can specify JS framework version which include  build-in-libs version.\r\n- Adding new function like  `createEnv`. \r\n- Adding param envID to createInstance function.\r\n \r\n\r\n## why we need these feature\r\n\r\n- Our js framework and build-in-libs are being developed all the time, some instance code may not compatible with the js framework we are using now,  thus developers must modify their code to adapt to our js framework. with environment , developer could specify  which version of js framework and build-in-libs their are using, and before creating instance, we can create an environment for that instance.\r\n\r\n-  Considering  another situation, several page was developed by  the same developer, and it is very  common to share data between pages.  developer could share data inside the environment with no harm to the others. Developer can declare  an environment variable and use it inside that environment.\r\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

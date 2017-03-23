@@ -66,5 +66,24 @@
   "created_at": "2016-11-24T03:12:42Z",
   "updated_at": "2016-11-28T05:37:59Z",
   "closed_at": "2016-11-28T05:37:59Z",
-  "body": "\r\n接口反馈大约有8000条数据，获取数据后如下显示:\r\n```\r\n <list>\r\n            <cell repeat=\"{{groups}}\">\r\n                <div style=\"height: 150;flex-direction: row;align-items: center;\" onclick=\"cellClick($index)\">\r\n\t                <div style=\"flex:0.9;\">\r\n\t                \t <text style=\"font-size: 35;margin-left: 15;\">{{shopName}}</text>\r\n\t                </div>\r\n\r\n\t                <div style=\"flex:0.1;justify-content: center;\">\r\n\t                \t<text style=\"font-size: 35;text-align: center;\"> > </text>\r\n\t                </div>\r\n\r\n                   \r\n     \r\n                </div>\r\n                <bottom-line></bottom-line>\r\n             </cell>\r\n\r\n       </list>\r\n```\r\n在iOS端中，我发现界面显示出来后很卡，并且应该是8000个cell一直在渲染，点击事件不响应，得等五六分钟全部渲染完成后点击事件才响应。。\r\n1:所以我想知道是不是在iOS中cell没有被重用，界面显示时一直在循环创建8000多个cell导致变卡、点击事件被阻挡。。\r\n2:我该怎么优化？"
+  "body": "\r\n接口反馈大约有8000条数据，获取数据后如下显示:\r\n```\r\n <list>\r\n            <cell repeat=\"{{groups}}\">\r\n                <div style=\"height: 150;flex-direction: row;align-items: center;\" onclick=\"cellClick($index)\">\r\n\t                <div style=\"flex:0.9;\">\r\n\t                \t <text style=\"font-size: 35;margin-left: 15;\">{{shopName}}</text>\r\n\t                </div>\r\n\r\n\t                <div style=\"flex:0.1;justify-content: center;\">\r\n\t                \t<text style=\"font-size: 35;text-align: center;\"> > </text>\r\n\t                </div>\r\n\r\n                   \r\n     \r\n                </div>\r\n                <bottom-line></bottom-line>\r\n             </cell>\r\n\r\n       </list>\r\n```\r\n在iOS端中，我发现界面显示出来后很卡，并且应该是8000个cell一直在渲染，点击事件不响应，得等五六分钟全部渲染完成后点击事件才响应。。\r\n1:所以我想知道是不是在iOS中cell没有被重用，界面显示时一直在循环创建8000多个cell导致变卡、点击事件被阻挡。。\r\n2:我该怎么优化？",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

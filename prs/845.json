@@ -110,5 +110,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/845.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/845.patch"
   },
-  "body": "【android】目前实现了加载assets中字体文件和网络下载字体文件的功能，全局缓存一份字体文件。\n第一次加载字体时首先从文件中查找，若文件不存在，则从网络加载，并缓存到文件中，同时读入内存中。\n加载策略：\n- 每次addRule调用,进行一次加载,加载过程中或者加载失败时使用默认的字体进行渲染;\n- 加载失败后不自动进行重试;\n- 加载失败后,再次触发addRule,再次进行加载\n- 加载成功后,不主动进行重新渲染,下次重绘时生效\n- 加载成功后,再次触发相同名字(font-family)的addRule调用时,使用缓存,不进行加载\n"
+  "body": "【android】目前实现了加载assets中字体文件和网络下载字体文件的功能，全局缓存一份字体文件。\n第一次加载字体时首先从文件中查找，若文件不存在，则从网络加载，并缓存到文件中，同时读入内存中。\n加载策略：\n- 每次addRule调用,进行一次加载,加载过程中或者加载失败时使用默认的字体进行渲染;\n- 加载失败后不自动进行重试;\n- 加载失败后,再次触发addRule,再次进行加载\n- 加载成功后,不主动进行重新渲染,下次重绘时生效\n- 加载成功后,再次触发相同名字(font-family)的addRule调用时,使用缓存,不进行加载\n",
+  "closed_by": {
+    "login": "LeeJay0226",
+    "id": 7502237,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/7502237?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/LeeJay0226",
+    "html_url": "https://github.com/LeeJay0226",
+    "followers_url": "https://api.github.com/users/LeeJay0226/followers",
+    "following_url": "https://api.github.com/users/LeeJay0226/following{/other_user}",
+    "gists_url": "https://api.github.com/users/LeeJay0226/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/LeeJay0226/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/LeeJay0226/subscriptions",
+    "organizations_url": "https://api.github.com/users/LeeJay0226/orgs",
+    "repos_url": "https://api.github.com/users/LeeJay0226/repos",
+    "events_url": "https://api.github.com/users/LeeJay0226/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/LeeJay0226/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -272,5 +272,24 @@
   "created_at": "2016-10-19T14:14:10Z",
   "updated_at": "2016-10-27T12:18:09Z",
   "closed_at": "2016-10-27T02:33:29Z",
-  "body": "今天我在升级Android Weex 版本时，出现wx_create_instance_error问题，方法还是用的以前0.7的方法，请问在升级0.8之后有较大的改动吗？\n"
+  "body": "今天我在升级Android Weex 版本时，出现wx_create_instance_error问题，方法还是用的以前0.7的方法，请问在升级0.8之后有较大的改动吗？\n",
+  "closed_by": {
+    "login": "wqd1994",
+    "id": 17613111,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/17613111?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/wqd1994",
+    "html_url": "https://github.com/wqd1994",
+    "followers_url": "https://api.github.com/users/wqd1994/followers",
+    "following_url": "https://api.github.com/users/wqd1994/following{/other_user}",
+    "gists_url": "https://api.github.com/users/wqd1994/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/wqd1994/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/wqd1994/subscriptions",
+    "organizations_url": "https://api.github.com/users/wqd1994/orgs",
+    "repos_url": "https://api.github.com/users/wqd1994/repos",
+    "events_url": "https://api.github.com/users/wqd1994/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/wqd1994/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

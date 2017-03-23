@@ -81,5 +81,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1830.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1830.patch"
   },
-  "body": ""
+  "body": "",
+  "closed_by": {
+    "login": "bluebird78999",
+    "id": 753735,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/753735?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/bluebird78999",
+    "html_url": "https://github.com/bluebird78999",
+    "followers_url": "https://api.github.com/users/bluebird78999/followers",
+    "following_url": "https://api.github.com/users/bluebird78999/following{/other_user}",
+    "gists_url": "https://api.github.com/users/bluebird78999/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/bluebird78999/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/bluebird78999/subscriptions",
+    "organizations_url": "https://api.github.com/users/bluebird78999/orgs",
+    "repos_url": "https://api.github.com/users/bluebird78999/repos",
+    "events_url": "https://api.github.com/users/bluebird78999/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/bluebird78999/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

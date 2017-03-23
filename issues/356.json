@@ -119,5 +119,24 @@
   "created_at": "2016-05-27T09:11:52Z",
   "updated_at": "2016-11-23T02:51:28Z",
   "closed_at": "2016-11-23T02:51:28Z",
-  "body": "代码如下：\n\n```\n<style>\n    .wrapper {\n        background-color: transparent;\n        position:absolute;\n        top:0px;\n        height:300px;\n        background-color: red;\n        width:100px;\n    }\n    .name {\n        font-size: 40;\n        color: #353535;\n    }\n</style>\n\n<template>\n    <container >\n        <container class=\"wrapper\">\n            <text class=\"name\" spmd=\"d1\" href=\"https://www.tmall.com\" class=\"title\" onclick=\"openUrl\">testtest</text>\n        </container>\n    </container>\n</template>\n\n<script>\n    module.exports = {\n        data: {\n            data: {}\n        }\n    }\n</script>\n```\n\n在IOS 中 正常渲染，在安卓手机中白屏什么都没有\n"
+  "body": "代码如下：\n\n```\n<style>\n    .wrapper {\n        background-color: transparent;\n        position:absolute;\n        top:0px;\n        height:300px;\n        background-color: red;\n        width:100px;\n    }\n    .name {\n        font-size: 40;\n        color: #353535;\n    }\n</style>\n\n<template>\n    <container >\n        <container class=\"wrapper\">\n            <text class=\"name\" spmd=\"d1\" href=\"https://www.tmall.com\" class=\"title\" onclick=\"openUrl\">testtest</text>\n        </container>\n    </container>\n</template>\n\n<script>\n    module.exports = {\n        data: {\n            data: {}\n        }\n    }\n</script>\n```\n\n在IOS 中 正常渲染，在安卓手机中白屏什么都没有\n",
+  "closed_by": {
+    "login": "zshshr",
+    "id": 5382962,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5382962?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/zshshr",
+    "html_url": "https://github.com/zshshr",
+    "followers_url": "https://api.github.com/users/zshshr/followers",
+    "following_url": "https://api.github.com/users/zshshr/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zshshr/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/zshshr/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/zshshr/subscriptions",
+    "organizations_url": "https://api.github.com/users/zshshr/orgs",
+    "repos_url": "https://api.github.com/users/zshshr/repos",
+    "events_url": "https://api.github.com/users/zshshr/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/zshshr/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

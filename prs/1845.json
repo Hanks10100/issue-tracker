@@ -81,5 +81,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1845.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1845.patch"
   },
-  "body": "* `weex.config` === `this.$getConfig()`\r\n* `weex.require('xxx')` === `__weex_require__('xxx')` === `require('@weex-module/xxx')`\r\n\r\nAnd more low-level APIs\r\n* `weex.define` === `__weex_define__`\r\n* `weex.document` === `__weex_document__`\r\n* `weex.bootstrap` === `__weex_bootstrap__`\r\n* `weex.Vm` === `__weex_viewmodel__`\r\n\r\nAnd they all work in both `*.we` files and `*.js` files"
+  "body": "* `weex.config` === `this.$getConfig()`\r\n* `weex.require('xxx')` === `__weex_require__('xxx')` === `require('@weex-module/xxx')`\r\n\r\nAnd more low-level APIs\r\n* `weex.define` === `__weex_define__`\r\n* `weex.document` === `__weex_document__`\r\n* `weex.bootstrap` === `__weex_bootstrap__`\r\n* `weex.Vm` === `__weex_viewmodel__`\r\n\r\nAnd they all work in both `*.we` files and `*.js` files",
+  "closed_by": {
+    "login": "Hanks10100",
+    "id": 8401776,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8401776?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Hanks10100",
+    "html_url": "https://github.com/Hanks10100",
+    "followers_url": "https://api.github.com/users/Hanks10100/followers",
+    "following_url": "https://api.github.com/users/Hanks10100/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Hanks10100/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Hanks10100/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Hanks10100/subscriptions",
+    "organizations_url": "https://api.github.com/users/Hanks10100/orgs",
+    "repos_url": "https://api.github.com/users/Hanks10100/repos",
+    "events_url": "https://api.github.com/users/Hanks10100/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Hanks10100/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

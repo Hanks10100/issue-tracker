@@ -66,5 +66,24 @@
   "created_at": "2017-02-08T02:02:41Z",
   "updated_at": "2017-02-09T10:06:51Z",
   "closed_at": "2017-02-09T10:06:51Z",
-  "body": "如题"
+  "body": "如题",
+  "closed_by": {
+    "login": "daizheng521",
+    "id": 6830186,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6830186?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/daizheng521",
+    "html_url": "https://github.com/daizheng521",
+    "followers_url": "https://api.github.com/users/daizheng521/followers",
+    "following_url": "https://api.github.com/users/daizheng521/following{/other_user}",
+    "gists_url": "https://api.github.com/users/daizheng521/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/daizheng521/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/daizheng521/subscriptions",
+    "organizations_url": "https://api.github.com/users/daizheng521/orgs",
+    "repos_url": "https://api.github.com/users/daizheng521/repos",
+    "events_url": "https://api.github.com/users/daizheng521/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/daizheng521/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -81,5 +81,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2276.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2276.patch"
   },
-  "body": "support plenty of features for weex v0.10\r\n\r\n* support sync call for callNativeComponent and callNativeModule.\r\n* support module event.\r\n* merge with jsfm 0.19 and get legacy h5-render work.\r\n* add component picker.\r\n* support load event and access of originalWidth and originalHeight for image component.\r\n* support slider-neighbor component.\r\n* support mask component.\r\n* bugfix.\r\n\r\n\r\n"
+  "body": "support plenty of features for weex v0.10\r\n\r\n* support sync call for callNativeComponent and callNativeModule.\r\n* support module event.\r\n* merge with jsfm 0.19 and get legacy h5-render work.\r\n* add component picker.\r\n* support load event and access of originalWidth and originalHeight for image component.\r\n* support slider-neighbor component.\r\n* support mask component.\r\n* bugfix.\r\n\r\n\r\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

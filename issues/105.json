@@ -94,5 +94,24 @@
   "created_at": "2016-04-27T07:06:40Z",
   "updated_at": "2016-04-27T11:33:42Z",
   "closed_at": "2016-04-27T11:33:42Z",
-  "body": "**Platform:Windows\n\nAndroid Studio logcat message：**\n\n04-27 15:01:09.739 19279-19279/com.alibaba.weex E/WXTBUtil: isSupportSmartBar:false\n04-27 15:01:09.740 19279-19279/com.alibaba.weex E/WXTBUtil: actionbar:147\n04-27 15:01:09.740 19279-19279/com.alibaba.weex E/WXTBUtil: status:63\n04-27 15:01:09.741 19279-19279/com.alibaba.weex E/WXTBUtil: height:1584\n04-27 15:01:09.799 19279-19934/com.alibaba.weex E/jsengine:  ReportException :undefined:49: ReferenceError: **weex_define** is not defined\n04-27 15:01:09.800 19279-19934/com.alibaba.weex E/jsengine:  ReportException : ReferenceError: **weex_define** is not defined\n                                                                at Object.eval (eval at init (unknown source), <anonymous>:49:3)\n                                                                at **webpack_require** (eval at init (unknown source), <anonymous>:22:30)\n                                                                at eval (eval at init (unknown source), <anonymous>:42:18)\n                                                                at eval (eval at init (unknown source), <anonymous>:45:10)\n                                                                at AppInstance.init (<anonymous>:6557:4)\n                                                                at createInstance (<anonymous>:2021:24)\n04-27 15:01:09.801 19279-19934/com.alibaba.weex E/weex: reportJSException >>>> instanceId:3, exception function:createInstance, exception:ReferenceError: **weex_define** is not defined\n\n![qq 20160427150415](https://cloud.githubusercontent.com/assets/7009705/14844354/6564ec80-0c89-11e6-89bf-beb343d8e3d0.png)\n"
+  "body": "**Platform:Windows\n\nAndroid Studio logcat message：**\n\n04-27 15:01:09.739 19279-19279/com.alibaba.weex E/WXTBUtil: isSupportSmartBar:false\n04-27 15:01:09.740 19279-19279/com.alibaba.weex E/WXTBUtil: actionbar:147\n04-27 15:01:09.740 19279-19279/com.alibaba.weex E/WXTBUtil: status:63\n04-27 15:01:09.741 19279-19279/com.alibaba.weex E/WXTBUtil: height:1584\n04-27 15:01:09.799 19279-19934/com.alibaba.weex E/jsengine:  ReportException :undefined:49: ReferenceError: **weex_define** is not defined\n04-27 15:01:09.800 19279-19934/com.alibaba.weex E/jsengine:  ReportException : ReferenceError: **weex_define** is not defined\n                                                                at Object.eval (eval at init (unknown source), <anonymous>:49:3)\n                                                                at **webpack_require** (eval at init (unknown source), <anonymous>:22:30)\n                                                                at eval (eval at init (unknown source), <anonymous>:42:18)\n                                                                at eval (eval at init (unknown source), <anonymous>:45:10)\n                                                                at AppInstance.init (<anonymous>:6557:4)\n                                                                at createInstance (<anonymous>:2021:24)\n04-27 15:01:09.801 19279-19934/com.alibaba.weex E/weex: reportJSException >>>> instanceId:3, exception function:createInstance, exception:ReferenceError: **weex_define** is not defined\n\n![qq 20160427150415](https://cloud.githubusercontent.com/assets/7009705/14844354/6564ec80-0c89-11e6-89bf-beb343d8e3d0.png)\n",
+  "closed_by": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

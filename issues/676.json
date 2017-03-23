@@ -66,5 +66,24 @@
   "created_at": "2016-07-01T09:59:06Z",
   "updated_at": "2016-07-02T02:59:11Z",
   "closed_at": "2016-07-02T02:59:11Z",
-  "body": "在浏览器和ios或安卓的app里，css只能使用css-layout还是都可以使用，weex会自动区分？\n"
+  "body": "在浏览器和ios或安卓的app里，css只能使用css-layout还是都可以使用，weex会自动区分？\n",
+  "closed_by": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

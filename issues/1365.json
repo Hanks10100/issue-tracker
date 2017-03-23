@@ -66,5 +66,24 @@
   "created_at": "2016-10-09T09:26:07Z",
   "updated_at": "2016-10-09T16:18:16Z",
   "closed_at": "2016-10-09T16:18:16Z",
-  "body": "css中设置变量不生效，只有写死在style中才生效，这样如果用data数据变化动态改变样式，只能将大量样式的变量都写死在style中，导致代码的可读性很差，另外对不懂这个坑得开发人员来说，可能都会踩一遍。浪费时间\n"
+  "body": "css中设置变量不生效，只有写死在style中才生效，这样如果用data数据变化动态改变样式，只能将大量样式的变量都写死在style中，导致代码的可读性很差，另外对不懂这个坑得开发人员来说，可能都会踩一遍。浪费时间\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

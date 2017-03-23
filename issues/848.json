@@ -179,5 +179,24 @@
   "created_at": "2016-07-23T13:35:27Z",
   "updated_at": "2016-08-01T04:05:55Z",
   "closed_at": "2016-08-01T04:05:55Z",
-  "body": "Just like React Native.\n[http://facebook.github.io/react-native/docs/touchablewithoutfeedback.html#onpressin](url)\n"
+  "body": "Just like React Native.\n[http://facebook.github.io/react-native/docs/touchablewithoutfeedback.html#onpressin](url)\n",
+  "closed_by": {
+    "login": "pcxiong",
+    "id": 9209882,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/9209882?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/pcxiong",
+    "html_url": "https://github.com/pcxiong",
+    "followers_url": "https://api.github.com/users/pcxiong/followers",
+    "following_url": "https://api.github.com/users/pcxiong/following{/other_user}",
+    "gists_url": "https://api.github.com/users/pcxiong/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/pcxiong/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/pcxiong/subscriptions",
+    "organizations_url": "https://api.github.com/users/pcxiong/orgs",
+    "repos_url": "https://api.github.com/users/pcxiong/repos",
+    "events_url": "https://api.github.com/users/pcxiong/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/pcxiong/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

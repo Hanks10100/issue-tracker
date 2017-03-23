@@ -318,5 +318,24 @@
   "created_at": "2016-05-04T15:50:57Z",
   "updated_at": "2016-05-06T08:53:50Z",
   "closed_at": "2016-05-05T03:26:15Z",
-  "body": "一直在 loading\n已确认对应的js手机是可以访问的\nmacbook， 所有的东西都是安装最新的\n两张截图如下\n![image](https://cloud.githubusercontent.com/assets/12876555/15020042/0706eb5a-1253-11e6-91ec-cae4d89991d5.png)\n\n![image](https://cloud.githubusercontent.com/assets/12876555/15019985/cb52a266-1252-11e6-8d90-a1dbb3cb3717.png)\n"
+  "body": "一直在 loading\n已确认对应的js手机是可以访问的\nmacbook， 所有的东西都是安装最新的\n两张截图如下\n![image](https://cloud.githubusercontent.com/assets/12876555/15020042/0706eb5a-1253-11e6-91ec-cae4d89991d5.png)\n\n![image](https://cloud.githubusercontent.com/assets/12876555/15019985/cb52a266-1252-11e6-8d90-a1dbb3cb3717.png)\n",
+  "closed_by": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

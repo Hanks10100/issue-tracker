@@ -72,5 +72,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2206.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2206.patch"
   },
-  "body": "手痒水一发提交，格式化代码!"
+  "body": "手痒水一发提交，格式化代码!",
+  "closed_by": {
+    "login": "cijianzy",
+    "id": 6985160,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6985160?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cijianzy",
+    "html_url": "https://github.com/cijianzy",
+    "followers_url": "https://api.github.com/users/cijianzy/followers",
+    "following_url": "https://api.github.com/users/cijianzy/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cijianzy/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cijianzy/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cijianzy/subscriptions",
+    "organizations_url": "https://api.github.com/users/cijianzy/orgs",
+    "repos_url": "https://api.github.com/users/cijianzy/repos",
+    "events_url": "https://api.github.com/users/cijianzy/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cijianzy/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

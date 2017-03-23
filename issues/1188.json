@@ -178,5 +178,24 @@
   "created_at": "2016-09-09T09:07:45Z",
   "updated_at": "2016-09-21T11:39:04Z",
   "closed_at": "2016-09-21T11:39:04Z",
-  "body": "如题，JavaScript 底层处理为 `style: { lines: 1 }` 是可以被正常识别的，但是 `style: { lines: '1' }` 不会\n"
+  "body": "如题，JavaScript 底层处理为 `style: { lines: 1 }` 是可以被正常识别的，但是 `style: { lines: '1' }` 不会\n",
+  "closed_by": {
+    "login": "cxfeng1",
+    "id": 1625893,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1625893?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cxfeng1",
+    "html_url": "https://github.com/cxfeng1",
+    "followers_url": "https://api.github.com/users/cxfeng1/followers",
+    "following_url": "https://api.github.com/users/cxfeng1/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cxfeng1/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cxfeng1/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cxfeng1/subscriptions",
+    "organizations_url": "https://api.github.com/users/cxfeng1/orgs",
+    "repos_url": "https://api.github.com/users/cxfeng1/repos",
+    "events_url": "https://api.github.com/users/cxfeng1/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cxfeng1/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

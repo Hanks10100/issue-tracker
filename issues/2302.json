@@ -66,5 +66,24 @@
   "created_at": "2017-01-17T09:51:12Z",
   "updated_at": "2017-01-18T17:53:59Z",
   "closed_at": "2017-01-18T17:52:16Z",
-  "body": "`\r\n\r\n    class WXImgLoaderDefault:NSObject, WXImgLoaderProtocol{\r\n    func downloadImage(withURL url: String!, imageFrame: CGRect, userInfo options: [AnyHashable : Any]! = [:], completed completedBlock: ((UIImage?, Error?, Bool) -> Void)!) -> WXImageOperationProtocol! {\r\n        var temp:String;\r\n        if(url.hasPrefix(\"//\")){\r\n            temp = \"http:\" + url;\r\n        }else{\r\n            temp = url;\r\n        }\r\n        let operation = SDWebImageManager.shared().downloadImage(with: URL(string: temp), options: SDWebImageOptions.retryFailed, progress: { (receivedSize:Int, expectedSize:Int) in\r\n            \r\n        }) { (image:UIImage?, error:Error?, cacheType:SDImageCacheType, finished:Bool, imageURL:URL?) in\r\n            if ((completedBlock) != nil) {\r\n                completedBlock(image, error, finished);\r\n            }\r\n        };\r\n        return operation as! WXImageOperationProtocol;\r\n    }\r\n    }\r\n`\r\n\r\n运行报错：\r\nCould not cast value of type 'SDWebImageCombinedOperation' (0x1006aa858) to 'WXImageOperationProtocol' (0x100130db8)."
+  "body": "`\r\n\r\n    class WXImgLoaderDefault:NSObject, WXImgLoaderProtocol{\r\n    func downloadImage(withURL url: String!, imageFrame: CGRect, userInfo options: [AnyHashable : Any]! = [:], completed completedBlock: ((UIImage?, Error?, Bool) -> Void)!) -> WXImageOperationProtocol! {\r\n        var temp:String;\r\n        if(url.hasPrefix(\"//\")){\r\n            temp = \"http:\" + url;\r\n        }else{\r\n            temp = url;\r\n        }\r\n        let operation = SDWebImageManager.shared().downloadImage(with: URL(string: temp), options: SDWebImageOptions.retryFailed, progress: { (receivedSize:Int, expectedSize:Int) in\r\n            \r\n        }) { (image:UIImage?, error:Error?, cacheType:SDImageCacheType, finished:Bool, imageURL:URL?) in\r\n            if ((completedBlock) != nil) {\r\n                completedBlock(image, error, finished);\r\n            }\r\n        };\r\n        return operation as! WXImageOperationProtocol;\r\n    }\r\n    }\r\n`\r\n\r\n运行报错：\r\nCould not cast value of type 'SDWebImageCombinedOperation' (0x1006aa858) to 'WXImageOperationProtocol' (0x100130db8).",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -193,5 +193,24 @@
   "created_at": "2016-11-23T01:22:41Z",
   "updated_at": "2016-12-09T14:41:49Z",
   "closed_at": "2016-12-09T14:41:49Z",
-  "body": "在mac上用火狐浏览器打开时请求失败，但集成到iOS中去可以请求成功，在weexPlayground中也能成功。不知是什么原因。代码如下：\r\n```\r\n requestData:function(sd){\r\n                var self = this\r\n                var stream = require('@weex-module/stream')\r\n                var modal = require('@weex-module/modal')\r\n                var GET_URL = 'http://192.168.5.56:8383/mkt-back/productManagement/findCapitalReceipts?staffId='+sd\r\n                self.toast('数据加载中...')\r\n                stream.fetch({\r\n                  method: 'GET',\r\n                  url: GET_URL,\r\n                  type: 'json'\r\n                }, function(ret) {   \r\n                    if (typeof ret == 'string') {\r\n                    ret = JSON.parse(ret)\r\n                  }\r\n                  if (!ret.ok) {\r\n                    modal.alert({\r\n                      message: '获取数据失败',\r\n                      okTitle: '好'\r\n                    })\r\n                  } else {\r\n                    \r\n                    if (typeof ret.data == 'string') {\r\n                      ret.data = JSON.parse(ret.data)\r\n                    }\r\n  \r\n                  }\r\n                },function(response){\r\n                 \r\n                });\r\n\r\n            },\r\n```"
+  "body": "在mac上用火狐浏览器打开时请求失败，但集成到iOS中去可以请求成功，在weexPlayground中也能成功。不知是什么原因。代码如下：\r\n```\r\n requestData:function(sd){\r\n                var self = this\r\n                var stream = require('@weex-module/stream')\r\n                var modal = require('@weex-module/modal')\r\n                var GET_URL = 'http://192.168.5.56:8383/mkt-back/productManagement/findCapitalReceipts?staffId='+sd\r\n                self.toast('数据加载中...')\r\n                stream.fetch({\r\n                  method: 'GET',\r\n                  url: GET_URL,\r\n                  type: 'json'\r\n                }, function(ret) {   \r\n                    if (typeof ret == 'string') {\r\n                    ret = JSON.parse(ret)\r\n                  }\r\n                  if (!ret.ok) {\r\n                    modal.alert({\r\n                      message: '获取数据失败',\r\n                      okTitle: '好'\r\n                    })\r\n                  } else {\r\n                    \r\n                    if (typeof ret.data == 'string') {\r\n                      ret.data = JSON.parse(ret.data)\r\n                    }\r\n  \r\n                  }\r\n                },function(response){\r\n                 \r\n                });\r\n\r\n            },\r\n```",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

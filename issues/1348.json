@@ -94,5 +94,24 @@
   "created_at": "2016-10-04T13:45:54Z",
   "updated_at": "2016-10-18T02:11:21Z",
   "closed_at": "2016-10-18T02:11:21Z",
-  "body": "refreash样式：\n            <refresh class=\"refresh-view\" display=\"{{refresh_display}}\" onrefresh=\"handleRefresh\">\n              <text class=\"refresh-arrow\" style=\"text-align: center; color:rgb(238, 162, 54)\" if=\"{{(refresh_display==='hide')}}\">Refreshing</text>\n              <loading-indicator style=\"height:60;width:60;color:#3192e1\"></loading-indicator>\n            </refresh>  \n\n事件函数：\nhandleRefresh:function(e){\n        this.refresh_display =  \"show\";\n        setTimeout( function()\n        {\n            this.refresh_display = \"hide\";\n            <!--this.shopList = [];-->\n\n```\n        while( this.shopList.length>0 )\n        {\n            this.shopList.pop();\n        }\n        this.pageIndex = 1;\n        var dataArr = this._getData(this.pageIndex);\n        for(var i=0;i<dataArr.length;i++){\n            this.shopList.push(dataArr[i]);\n        };\n        this._app.updateActions()\n    }.bind(this),1000)\n  },\n```\n"
+  "body": "refreash样式：\n            <refresh class=\"refresh-view\" display=\"{{refresh_display}}\" onrefresh=\"handleRefresh\">\n              <text class=\"refresh-arrow\" style=\"text-align: center; color:rgb(238, 162, 54)\" if=\"{{(refresh_display==='hide')}}\">Refreshing</text>\n              <loading-indicator style=\"height:60;width:60;color:#3192e1\"></loading-indicator>\n            </refresh>  \n\n事件函数：\nhandleRefresh:function(e){\n        this.refresh_display =  \"show\";\n        setTimeout( function()\n        {\n            this.refresh_display = \"hide\";\n            <!--this.shopList = [];-->\n\n```\n        while( this.shopList.length>0 )\n        {\n            this.shopList.pop();\n        }\n        this.pageIndex = 1;\n        var dataArr = this._getData(this.pageIndex);\n        for(var i=0;i<dataArr.length;i++){\n            this.shopList.push(dataArr[i]);\n        };\n        this._app.updateActions()\n    }.bind(this),1000)\n  },\n```\n",
+  "closed_by": {
+    "login": "Hanks10100",
+    "id": 8401776,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8401776?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Hanks10100",
+    "html_url": "https://github.com/Hanks10100",
+    "followers_url": "https://api.github.com/users/Hanks10100/followers",
+    "following_url": "https://api.github.com/users/Hanks10100/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Hanks10100/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Hanks10100/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Hanks10100/subscriptions",
+    "organizations_url": "https://api.github.com/users/Hanks10100/orgs",
+    "repos_url": "https://api.github.com/users/Hanks10100/repos",
+    "events_url": "https://api.github.com/users/Hanks10100/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Hanks10100/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

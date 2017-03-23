@@ -43,5 +43,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2051.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2051.patch"
   },
-  "body": "### Features\r\n  * add style \"filter:blur(*px)\" to image component\r\n     > * Use CoreImage to add filters to an image. Notice that CoreImage will automatically choose the best way to create a CIContext in order of Metal, OpenGLES, and CoreGraphics. \r\n     > * On real devices, it will be Metal for iOS8+A7, and OpenGLES for others. \r\n     > * Simulators don't support Metal, so it will be OpenGLES. But implementations of OpenGLES in simulator are only similar to a real device, performance differs a lot referring to [Apple Docs][1]. \r\n     > * It runs smoothly in a real device, but takes a while in simulator.\r\n  * add attribute \"scrollable\" to slider, scroller, sliderNeighbor component\r\n\r\n\r\n[1]: https://developer.apple.com/library/content/documentation/IDEs/Conceptual/iOS_Simulator_Guide/TestingontheiOSSimulator/TestingontheiOSSimulator.html"
+  "body": "### Features\r\n  * add style \"filter:blur(*px)\" to image component\r\n     > * Use CoreImage to add filters to an image. Notice that CoreImage will automatically choose the best way to create a CIContext in order of Metal, OpenGLES, and CoreGraphics. \r\n     > * On real devices, it will be Metal for iOS8+A7, and OpenGLES for others. \r\n     > * Simulators don't support Metal, so it will be OpenGLES. But implementations of OpenGLES in simulator are only similar to a real device, performance differs a lot referring to [Apple Docs][1]. \r\n     > * It runs smoothly in a real device, but takes a while in simulator.\r\n  * add attribute \"scrollable\" to slider, scroller, sliderNeighbor component\r\n\r\n\r\n[1]: https://developer.apple.com/library/content/documentation/IDEs/Conceptual/iOS_Simulator_Guide/TestingontheiOSSimulator/TestingontheiOSSimulator.html",
+  "closed_by": {
+    "login": "cxfeng1",
+    "id": 1625893,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1625893?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cxfeng1",
+    "html_url": "https://github.com/cxfeng1",
+    "followers_url": "https://api.github.com/users/cxfeng1/followers",
+    "following_url": "https://api.github.com/users/cxfeng1/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cxfeng1/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cxfeng1/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cxfeng1/subscriptions",
+    "organizations_url": "https://api.github.com/users/cxfeng1/orgs",
+    "repos_url": "https://api.github.com/users/cxfeng1/repos",
+    "events_url": "https://api.github.com/users/cxfeng1/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cxfeng1/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

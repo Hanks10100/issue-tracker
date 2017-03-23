@@ -214,5 +214,24 @@
   "created_at": "2016-10-25T01:56:32Z",
   "updated_at": "2016-11-03T01:32:57Z",
   "closed_at": "2016-11-03T01:32:57Z",
-  "body": "touch事件中获取不到触发的坐标位置，所以无法自己写。\nweex中有没有滑动触发事件，比如左右滑动，swipeLeft和swipeRight等,\n"
+  "body": "touch事件中获取不到触发的坐标位置，所以无法自己写。\nweex中有没有滑动触发事件，比如左右滑动，swipeLeft和swipeRight等,\n",
+  "closed_by": {
+    "login": "whoiam2007s",
+    "id": 14885732,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/14885732?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/whoiam2007s",
+    "html_url": "https://github.com/whoiam2007s",
+    "followers_url": "https://api.github.com/users/whoiam2007s/followers",
+    "following_url": "https://api.github.com/users/whoiam2007s/following{/other_user}",
+    "gists_url": "https://api.github.com/users/whoiam2007s/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/whoiam2007s/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/whoiam2007s/subscriptions",
+    "organizations_url": "https://api.github.com/users/whoiam2007s/orgs",
+    "repos_url": "https://api.github.com/users/whoiam2007s/repos",
+    "events_url": "https://api.github.com/users/whoiam2007s/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/whoiam2007s/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -132,5 +132,24 @@
   "created_at": "2016-07-14T15:56:31Z",
   "updated_at": "2016-07-19T09:54:49Z",
   "closed_at": "2016-07-19T09:54:49Z",
-  "body": " 第一次安装sudo cnpm install -g weex-toolkit 有报错。\nnode version :  6.3.0\nmac version: 10.11.2\n\n---\n\n sh: node-gyp: command not found\n[Error: Run \"sh -c node-gyp rebuild\" error, exit code 127\n    at ChildProcess.proc.on.code (/usr/local/lib/node_modules/cnpm/node_modules/runscript/index.js:67:21)\n    at emitTwo (events.js:106:13)\n    at ChildProcess.emit (events.js:191:7)\n    at maybeClose (internal/child_process.js:852:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)@%s] optional error: %s\n\n重新安装  sudo cnpm install -g node-gyp， 之后\n再安装sudo cnpm install -g weex-toolkit 问题解决。\n\n小问题，对于开发的体验和阿里的专业精神，建议解决掉。\n"
+  "body": " 第一次安装sudo cnpm install -g weex-toolkit 有报错。\nnode version :  6.3.0\nmac version: 10.11.2\n\n---\n\n sh: node-gyp: command not found\n[Error: Run \"sh -c node-gyp rebuild\" error, exit code 127\n    at ChildProcess.proc.on.code (/usr/local/lib/node_modules/cnpm/node_modules/runscript/index.js:67:21)\n    at emitTwo (events.js:106:13)\n    at ChildProcess.emit (events.js:191:7)\n    at maybeClose (internal/child_process.js:852:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)@%s] optional error: %s\n\n重新安装  sudo cnpm install -g node-gyp， 之后\n再安装sudo cnpm install -g weex-toolkit 问题解决。\n\n小问题，对于开发的体验和阿里的专业精神，建议解决掉。\n",
+  "closed_by": {
+    "login": "lvscar",
+    "id": 1578838,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1578838?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/lvscar",
+    "html_url": "https://github.com/lvscar",
+    "followers_url": "https://api.github.com/users/lvscar/followers",
+    "following_url": "https://api.github.com/users/lvscar/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lvscar/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/lvscar/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/lvscar/subscriptions",
+    "organizations_url": "https://api.github.com/users/lvscar/orgs",
+    "repos_url": "https://api.github.com/users/lvscar/repos",
+    "events_url": "https://api.github.com/users/lvscar/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/lvscar/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

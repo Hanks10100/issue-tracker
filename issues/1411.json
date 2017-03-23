@@ -468,10 +468,39 @@
       "created_at": "2017-02-18T06:27:24Z",
       "updated_at": "2017-02-18T06:27:24Z",
       "body": "@zshshr , 我的项目 ndk 配置是：\r\n``` gradle\r\nndk {\r\n        abiFilters 'x86'\r\n        abiFilters 'armeabi'\r\n        abiFilters 'armeabi-v7a'\r\n}\r\n```\r\n但是在生成的 apk 中，没有看到 armeabi-v7a 下的 weexv8.so 包，其他2个平台都有，这是什么情况？"
+    },
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/288276722",
+      "html_url": "https://github.com/alibaba/weex/issues/1411#issuecomment-288276722",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/1411",
+      "id": 288276722,
+      "user": {
+        "login": "kevinTutu",
+        "id": 17876044,
+        "avatar_url": "https://avatars3.githubusercontent.com/u/17876044?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/kevinTutu",
+        "html_url": "https://github.com/kevinTutu",
+        "followers_url": "https://api.github.com/users/kevinTutu/followers",
+        "following_url": "https://api.github.com/users/kevinTutu/following{/other_user}",
+        "gists_url": "https://api.github.com/users/kevinTutu/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/kevinTutu/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/kevinTutu/subscriptions",
+        "organizations_url": "https://api.github.com/users/kevinTutu/orgs",
+        "repos_url": "https://api.github.com/users/kevinTutu/repos",
+        "events_url": "https://api.github.com/users/kevinTutu/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/kevinTutu/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2017-03-22T02:07:08Z",
+      "updated_at": "2017-03-22T02:07:08Z",
+      "body": "这个问题如何解决"
     }
   ],
   "created_at": "2016-10-17T08:00:37Z",
-  "updated_at": "2017-02-18T06:27:24Z",
+  "updated_at": "2017-03-22T02:07:08Z",
   "closed_at": null,
-  "body": "如果是 **_Bug**_，请提供：复现步骤（推荐有截图）、error/crash log、设备型号、OS 版本、App 版本（playground 版本或自己的 app）。\n\n重现的步骤如下所示：\nhttp://note.youdao.com/noteshare?id=d5878ba7e13a2d427a595cbb8cdd8b6b\n\n暂时没有找到原因\n"
+  "body": "如果是 **_Bug**_，请提供：复现步骤（推荐有截图）、error/crash log、设备型号、OS 版本、App 版本（playground 版本或自己的 app）。\n\n重现的步骤如下所示：\nhttp://note.youdao.com/noteshare?id=d5878ba7e13a2d427a595cbb8cdd8b6b\n\n暂时没有找到原因\n",
+  "closed_by": null
 }

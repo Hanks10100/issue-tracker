@@ -66,5 +66,24 @@
   "created_at": "2016-07-31T07:23:04Z",
   "updated_at": "2016-07-31T11:06:46Z",
   "closed_at": "2016-07-31T11:06:46Z",
-  "body": "之前的项目中使用了Vue.js作为框架，很是喜欢，但Vue.js不支持IE8，听说WEEX是兼容IE8的，但是找了很久没找到合适的文档说明，所以想知道weex能否类似Vue那样通过引入一个JS文件实现对数据的绑定等操作，假如可以请问怎么实现？需要注意哪些地方？\n"
+  "body": "之前的项目中使用了Vue.js作为框架，很是喜欢，但Vue.js不支持IE8，听说WEEX是兼容IE8的，但是找了很久没找到合适的文档说明，所以想知道weex能否类似Vue那样通过引入一个JS文件实现对数据的绑定等操作，假如可以请问怎么实现？需要注意哪些地方？\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

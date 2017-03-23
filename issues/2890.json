@@ -37,5 +37,6 @@
   "created_at": "2017-03-09T06:22:15Z",
   "updated_at": "2017-03-10T09:21:18Z",
   "closed_at": null,
-  "body": "错误：`TypeError: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'`\r\n\r\n打印了一下看，是因为传入的node没有children（length=0）\r\n\r\n还有，样式reset(*{margin:0;padding:0})是故意干掉了么？\r\n\r\nreset样式优先级比自己写的样式还高。。。\r\n\r\n![image](https://cloud.githubusercontent.com/assets/6902417/23744616/e120ad8c-04ef-11e7-87e5-4d47cbf61ac4.png)\r\n\r\n\r\n`.weex-text{white-space: pre}`导致text组件不会换行\r\n"
+  "body": "错误：`TypeError: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'`\r\n\r\n打印了一下看，是因为传入的node没有children（length=0）\r\n\r\n还有，样式reset(*{margin:0;padding:0})是故意干掉了么？\r\n\r\nreset样式优先级比自己写的样式还高。。。\r\n\r\n![image](https://cloud.githubusercontent.com/assets/6902417/23744616/e120ad8c-04ef-11e7-87e5-4d47cbf61ac4.png)\r\n\r\n\r\n`.weex-text{white-space: pre}`导致text组件不会换行\r\n",
+  "closed_by": null
 }

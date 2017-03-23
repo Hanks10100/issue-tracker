@@ -100,5 +100,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2655.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2655.patch"
   },
-  "body": "# 参数保护机制优化\r\n- 对于不匹配的参数，转化为设置的类型\r\n- 在debug 模式下，对于不匹配的情况，中断调试，并且提示第几个参数不匹配信息\r\n- 整形归位一类;float和double 归位一类;字符串,数组,字典归为一类;block归位一类\r\n- [refer](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Articles/ocrtTypeEncodings.html)\r\n\r\n# demo\r\n```html\r\nWX_EXPORT_METHOD(@selector(getString:testString1:testFloat:testInt:testDouble:testArray:testDic:callback:))\r\n\r\n\r\n- (void)getString:(NSString *)testString testString1:(NSString *)testString1 testFloat:(CGFloat)floatValue testInt:(NSInteger)intValue testDouble:(double )testDouble testArray:(NSArray *)array testDic:(NSDictionary *)testDic callback:(WXModuleCallback)callback\r\n{\r\n    NSLog(@\"%@，%@,%f,%d,%f,%@,%@,%@\",testString,testString1,floatValue,intValue,testDouble,array,testDic,callback);\r\n}\r\n```\r\n\r\n```html\r\nclipboard.getString(\"teststring\",\"teststring1\",1.0,1,1.0,[\"1\",\"2\"],{\"key\":\"1\"},function(ret) {\r\n          console.log(\"paste result is \" + JSON.stringify(ret));\r\n\r\n        });\r\n```\r\n\r\n# android\r\n- [相关处理逻辑](https://github.com/alibaba/weex/blob/1db33988b17601c78d3a53a6701fb7064c015a73/android/sdk/src/main/java/com/taobao/weex/utils/WXReflectionUtils.java)\r\n"
+  "body": "# 参数保护机制优化\r\n- 对于不匹配的参数，转化为设置的类型\r\n- 在debug 模式下，对于不匹配的情况，中断调试，并且提示第几个参数不匹配信息\r\n- 整形归位一类;float和double 归位一类;字符串,数组,字典归为一类;block归位一类\r\n- [refer](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Articles/ocrtTypeEncodings.html)\r\n\r\n# demo\r\n```html\r\nWX_EXPORT_METHOD(@selector(getString:testString1:testFloat:testInt:testDouble:testArray:testDic:callback:))\r\n\r\n\r\n- (void)getString:(NSString *)testString testString1:(NSString *)testString1 testFloat:(CGFloat)floatValue testInt:(NSInteger)intValue testDouble:(double )testDouble testArray:(NSArray *)array testDic:(NSDictionary *)testDic callback:(WXModuleCallback)callback\r\n{\r\n    NSLog(@\"%@，%@,%f,%d,%f,%@,%@,%@\",testString,testString1,floatValue,intValue,testDouble,array,testDic,callback);\r\n}\r\n```\r\n\r\n```html\r\nclipboard.getString(\"teststring\",\"teststring1\",1.0,1,1.0,[\"1\",\"2\"],{\"key\":\"1\"},function(ret) {\r\n          console.log(\"paste result is \" + JSON.stringify(ret));\r\n\r\n        });\r\n```\r\n\r\n# android\r\n- [相关处理逻辑](https://github.com/alibaba/weex/blob/1db33988b17601c78d3a53a6701fb7064c015a73/android/sdk/src/main/java/com/taobao/weex/utils/WXReflectionUtils.java)\r\n",
+  "closed_by": {
+    "login": "cxfeng1",
+    "id": 1625893,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1625893?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cxfeng1",
+    "html_url": "https://github.com/cxfeng1",
+    "followers_url": "https://api.github.com/users/cxfeng1/followers",
+    "following_url": "https://api.github.com/users/cxfeng1/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cxfeng1/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cxfeng1/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cxfeng1/subscriptions",
+    "organizations_url": "https://api.github.com/users/cxfeng1/orgs",
+    "repos_url": "https://api.github.com/users/cxfeng1/repos",
+    "events_url": "https://api.github.com/users/cxfeng1/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cxfeng1/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

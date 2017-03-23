@@ -94,5 +94,24 @@
   "created_at": "2017-02-17T11:46:43Z",
   "updated_at": "2017-02-20T08:57:27Z",
   "closed_at": "2017-02-20T08:57:27Z",
-  "body": "<template>\r\n<div>\r\n    <div style=\"width: 700px;height: 100px;\" repeat=\"{{item in lists}}\" onclick=\"click(item)\">\r\n        <div >\r\n            <text>{{item.num}}-{{item.text}}</text>\r\n        </div>\r\n\r\n    </div>\r\n</div>\r\n</template>\r\n\r\n<script>\r\n    module.exports = {\r\n        data: {\r\n            va:'fd',\r\n            lists:[\r\n                {num:1,text:'test1'},\r\n                {num:2,text:'test2'},\r\n                {num:3,text:'test3'},\r\n                {num:4,text:'test4'},\r\n                {num:5,text:'test5'},\r\n\r\n            ]\r\n        },\r\n        methods: {\r\n            click: function (item, e) {\r\n                console.log(item);\r\n            }\r\n        }\r\n    }\r\n</script>\r\n\r\n<style>\r\n\r\n</style>\r\nhttp://dotwe.org/vue/365faa522400e8cacd1ec350515d1a35\r\n这种给事件函数传递参数，结果是undefined\r\n![image](https://cloud.githubusercontent.com/assets/6322749/23064228/b42d6316-f549-11e6-9bcf-0b5d5798da39.png)\r\n"
+  "body": "<template>\r\n<div>\r\n    <div style=\"width: 700px;height: 100px;\" repeat=\"{{item in lists}}\" onclick=\"click(item)\">\r\n        <div >\r\n            <text>{{item.num}}-{{item.text}}</text>\r\n        </div>\r\n\r\n    </div>\r\n</div>\r\n</template>\r\n\r\n<script>\r\n    module.exports = {\r\n        data: {\r\n            va:'fd',\r\n            lists:[\r\n                {num:1,text:'test1'},\r\n                {num:2,text:'test2'},\r\n                {num:3,text:'test3'},\r\n                {num:4,text:'test4'},\r\n                {num:5,text:'test5'},\r\n\r\n            ]\r\n        },\r\n        methods: {\r\n            click: function (item, e) {\r\n                console.log(item);\r\n            }\r\n        }\r\n    }\r\n</script>\r\n\r\n<style>\r\n\r\n</style>\r\nhttp://dotwe.org/vue/365faa522400e8cacd1ec350515d1a35\r\n这种给事件函数传递参数，结果是undefined\r\n![image](https://cloud.githubusercontent.com/assets/6322749/23064228/b42d6316-f549-11e6-9bcf-0b5d5798da39.png)\r\n",
+  "closed_by": {
+    "login": "chenyunecjtu",
+    "id": 6322749,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6322749?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/chenyunecjtu",
+    "html_url": "https://github.com/chenyunecjtu",
+    "followers_url": "https://api.github.com/users/chenyunecjtu/followers",
+    "following_url": "https://api.github.com/users/chenyunecjtu/following{/other_user}",
+    "gists_url": "https://api.github.com/users/chenyunecjtu/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/chenyunecjtu/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/chenyunecjtu/subscriptions",
+    "organizations_url": "https://api.github.com/users/chenyunecjtu/orgs",
+    "repos_url": "https://api.github.com/users/chenyunecjtu/repos",
+    "events_url": "https://api.github.com/users/chenyunecjtu/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/chenyunecjtu/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -298,5 +298,6 @@
   "created_at": "2017-01-06T11:27:05Z",
   "updated_at": "2017-01-11T07:00:52Z",
   "closed_at": null,
-  "body": "android 通过WXSDKEngine.registerModule注册的module，怎么调用startActivityForResult，以及以何种方式回调onActivityResult方法"
+  "body": "android 通过WXSDKEngine.registerModule注册的module，怎么调用startActivityForResult，以及以何种方式回调onActivityResult方法",
+  "closed_by": null
 }

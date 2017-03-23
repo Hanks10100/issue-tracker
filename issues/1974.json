@@ -196,5 +196,24 @@
   "created_at": "2016-12-21T05:58:35Z",
   "updated_at": "2017-02-14T05:50:56Z",
   "closed_at": "2017-02-14T05:50:56Z",
-  "body": "weex的以改变div的`translateY`来实现滚动的方式在很多浏览器都体验太差。\r\n\r\n具体表现在：\r\n\r\n1. 移动端浏览器，大多都是滚动时才把头部和底部收起，浏览器的头和底把可见范围缩小了很多，比如Safari。\r\n\r\n2. 一些浏览器，比如chrome和流量大头微信浏览器，都实现了酷似原生的滚动，用改变`translateY`的方式在这些浏览器上享受不到很好的滚动体验。\r\n\r\n3.有时候会滚不动？ 而且横向滚动有一定概率会和浏览器的右滑返回冲突。\r\n\r\nweex在注重三端统一的前提下，能否也考虑各端的体验？毕竟是拿来做应用的，**使用体验还是第一**。\r\n\r\n\r\n"
+  "body": "weex的以改变div的`translateY`来实现滚动的方式在很多浏览器都体验太差。\r\n\r\n具体表现在：\r\n\r\n1. 移动端浏览器，大多都是滚动时才把头部和底部收起，浏览器的头和底把可见范围缩小了很多，比如Safari。\r\n\r\n2. 一些浏览器，比如chrome和流量大头微信浏览器，都实现了酷似原生的滚动，用改变`translateY`的方式在这些浏览器上享受不到很好的滚动体验。\r\n\r\n3.有时候会滚不动？ 而且横向滚动有一定概率会和浏览器的右滑返回冲突。\r\n\r\nweex在注重三端统一的前提下，能否也考虑各端的体验？毕竟是拿来做应用的，**使用体验还是第一**。\r\n\r\n\r\n",
+  "closed_by": {
+    "login": "dongnaebi",
+    "id": 6902417,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6902417?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/dongnaebi",
+    "html_url": "https://github.com/dongnaebi",
+    "followers_url": "https://api.github.com/users/dongnaebi/followers",
+    "following_url": "https://api.github.com/users/dongnaebi/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dongnaebi/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/dongnaebi/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/dongnaebi/subscriptions",
+    "organizations_url": "https://api.github.com/users/dongnaebi/orgs",
+    "repos_url": "https://api.github.com/users/dongnaebi/repos",
+    "events_url": "https://api.github.com/users/dongnaebi/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/dongnaebi/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

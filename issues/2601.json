@@ -37,5 +37,6 @@
   "created_at": "2017-02-16T07:09:46Z",
   "updated_at": "2017-02-23T09:40:51Z",
   "closed_at": null,
-  "body": "demo地址: http://dotwe.org/vue/ff9e307c67e63ccd7218c1dc3642f2af\r\n\r\nhtml5预览的时候没有看到header的内容,ios扫码正常\r\n\r\n**更新了Weex Playground 安卓崩溃问题已经修复**\r\n~~安卓扫码直接崩溃如下图:~~\r\n![wechatimg236](https://cloud.githubusercontent.com/assets/1518967/23011037/8b72292a-f459-11e6-85e3-50024f77dce0.jpeg)\r\n\r\n版本信息:\r\n![wechatimg237](https://cloud.githubusercontent.com/assets/1518967/23011039/8bc43706-f459-11e6-9b01-4be57ca8a00e.jpeg)\r\n\r\n手机型号: 华为PE-UL00"
+  "body": "demo地址: http://dotwe.org/vue/ff9e307c67e63ccd7218c1dc3642f2af\r\n\r\nhtml5预览的时候没有看到header的内容,ios扫码正常\r\n\r\n**更新了Weex Playground 安卓崩溃问题已经修复**\r\n~~安卓扫码直接崩溃如下图:~~\r\n![wechatimg236](https://cloud.githubusercontent.com/assets/1518967/23011037/8b72292a-f459-11e6-85e3-50024f77dce0.jpeg)\r\n\r\n版本信息:\r\n![wechatimg237](https://cloud.githubusercontent.com/assets/1518967/23011039/8bc43706-f459-11e6-9b01-4be57ca8a00e.jpeg)\r\n\r\n手机型号: 华为PE-UL00",
+  "closed_by": null
 }

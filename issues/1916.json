@@ -112,5 +112,24 @@
   "created_at": "2016-12-16T02:25:35Z",
   "updated_at": "2016-12-28T05:56:10Z",
   "closed_at": "2016-12-28T05:56:10Z",
-  "body": "Android SDK 中 IWXUserTrackAdapter 回调方法收到的 errMsg 是同一类型的错误 append 起来的，用来上报的话不是很清晰，这样设计有什么用意吗？或者还有没有其他的可以在 native 接收 js 报错的接口"
+  "body": "Android SDK 中 IWXUserTrackAdapter 回调方法收到的 errMsg 是同一类型的错误 append 起来的，用来上报的话不是很清晰，这样设计有什么用意吗？或者还有没有其他的可以在 native 接收 js 报错的接口",
+  "closed_by": {
+    "login": "NLMartian",
+    "id": 1705812,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1705812?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/NLMartian",
+    "html_url": "https://github.com/NLMartian",
+    "followers_url": "https://api.github.com/users/NLMartian/followers",
+    "following_url": "https://api.github.com/users/NLMartian/following{/other_user}",
+    "gists_url": "https://api.github.com/users/NLMartian/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/NLMartian/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/NLMartian/subscriptions",
+    "organizations_url": "https://api.github.com/users/NLMartian/orgs",
+    "repos_url": "https://api.github.com/users/NLMartian/repos",
+    "events_url": "https://api.github.com/users/NLMartian/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/NLMartian/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

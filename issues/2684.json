@@ -37,5 +37,6 @@
   "created_at": "2017-02-21T03:22:15Z",
   "updated_at": "2017-02-21T03:22:15Z",
   "closed_at": null,
-  "body": "代码：http://dotwe.org/weex/b3562ee639eac0c4db60e3a75dc4a2e1\r\n在浏览器上表现正常，在android手机上测试，loadmore事件不起作用"
+  "body": "代码：http://dotwe.org/weex/b3562ee639eac0c4db60e3a75dc4a2e1\r\n在浏览器上表现正常，在android手机上测试，loadmore事件不起作用",
+  "closed_by": null
 }

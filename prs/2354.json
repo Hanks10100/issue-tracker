@@ -110,5 +110,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2354.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2354.patch"
   },
-  "body": "### Refactor transform and transition\r\n  * UIView animation does not support rotation animation whose degree > 180，so we use CAAnimation to hack it.\r\n  * Using UIView animation along with CAAnimation has a lot of problems when developers use rotate/scale/translate together\r\n  * We refactor all transition properties to use CAAnimation to ensure consistency\r\n  * We also separate transform string parsing with runtime parsing to ensure performance\r\n  * tested demos:\r\n     * all the demos in playground and tests \r\n     * http://dotwe.org/weex/7d8e99a7d5dc8ee22e2437d6d8513fec\r\n     * http://dotwe.org/weex/cad4d4cd051ab3e565f3cd42bbcac73b\r\n     * http://dotwe.org/weex/8cfadb65d744fd400728097ef7da3bcc\r\n * related issue: #1596 #2070 #2182 #2226 "
+  "body": "### Refactor transform and transition\r\n  * UIView animation does not support rotation animation whose degree > 180，so we use CAAnimation to hack it.\r\n  * Using UIView animation along with CAAnimation has a lot of problems when developers use rotate/scale/translate together\r\n  * We refactor all transition properties to use CAAnimation to ensure consistency\r\n  * We also separate transform string parsing with runtime parsing to ensure performance\r\n  * tested demos:\r\n     * all the demos in playground and tests \r\n     * http://dotwe.org/weex/7d8e99a7d5dc8ee22e2437d6d8513fec\r\n     * http://dotwe.org/weex/cad4d4cd051ab3e565f3cd42bbcac73b\r\n     * http://dotwe.org/weex/8cfadb65d744fd400728097ef7da3bcc\r\n * related issue: #1596 #2070 #2182 #2226 ",
+  "closed_by": {
+    "login": "cxfeng1",
+    "id": 1625893,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1625893?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cxfeng1",
+    "html_url": "https://github.com/cxfeng1",
+    "followers_url": "https://api.github.com/users/cxfeng1/followers",
+    "following_url": "https://api.github.com/users/cxfeng1/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cxfeng1/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cxfeng1/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cxfeng1/subscriptions",
+    "organizations_url": "https://api.github.com/users/cxfeng1/orgs",
+    "repos_url": "https://api.github.com/users/cxfeng1/repos",
+    "events_url": "https://api.github.com/users/cxfeng1/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cxfeng1/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

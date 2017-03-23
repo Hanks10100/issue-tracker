@@ -224,5 +224,6 @@
   "created_at": "2016-11-18T01:37:57Z",
   "updated_at": "2016-12-19T02:39:20Z",
   "closed_at": null,
-  "body": "\r\n\r\n我们在开发过程中遇到这样的问题，我们在引入其他三方sdk后，由于三方中使用了arm-v8a 的so 库，导致项目不能使用weex 提供的armeabi so 库，出现项目不兼容的情况，请问 weex 可以帮忙打一个arm-v8a的so 包吗？ "
+  "body": "\r\n\r\n我们在开发过程中遇到这样的问题，我们在引入其他三方sdk后，由于三方中使用了arm-v8a 的so 库，导致项目不能使用weex 提供的armeabi so 库，出现项目不兼容的情况，请问 weex 可以帮忙打一个arm-v8a的so 包吗？ ",
+  "closed_by": null
 }

@@ -104,5 +104,24 @@
   "created_at": "2016-07-19T16:00:54Z",
   "updated_at": "2016-07-28T06:30:11Z",
   "closed_at": "2016-07-28T06:30:11Z",
-  "body": "关于 Extend to iOS 部分， OC 有一部分看不懂，特别是 `WX_EXPORT_METHOD(@selector(openURL:callback))` 这一部分不知使用 Swift 如何实现，能否提供一下使用 Swift 实现扩展示例代码？\n"
+  "body": "关于 Extend to iOS 部分， OC 有一部分看不懂，特别是 `WX_EXPORT_METHOD(@selector(openURL:callback))` 这一部分不知使用 Swift 如何实现，能否提供一下使用 Swift 实现扩展示例代码？\n",
+  "closed_by": {
+    "login": "acton393",
+    "id": 11631084,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11631084?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/acton393",
+    "html_url": "https://github.com/acton393",
+    "followers_url": "https://api.github.com/users/acton393/followers",
+    "following_url": "https://api.github.com/users/acton393/following{/other_user}",
+    "gists_url": "https://api.github.com/users/acton393/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/acton393/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/acton393/subscriptions",
+    "organizations_url": "https://api.github.com/users/acton393/orgs",
+    "repos_url": "https://api.github.com/users/acton393/repos",
+    "events_url": "https://api.github.com/users/acton393/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/acton393/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -86,9 +86,57 @@
     }
   ],
   "milestone": null,
-  "comments": 1,
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/alibaba/weex/issues/comments/211303111",
+      "html_url": "https://github.com/alibaba/weex/issues/14#issuecomment-211303111",
+      "issue_url": "https://api.github.com/repos/alibaba/weex/issues/14",
+      "id": 211303111,
+      "user": {
+        "login": "YorkShen",
+        "id": 4162544,
+        "avatar_url": "https://avatars2.githubusercontent.com/u/4162544?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YorkShen",
+        "html_url": "https://github.com/YorkShen",
+        "followers_url": "https://api.github.com/users/YorkShen/followers",
+        "following_url": "https://api.github.com/users/YorkShen/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YorkShen/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YorkShen/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YorkShen/subscriptions",
+        "organizations_url": "https://api.github.com/users/YorkShen/orgs",
+        "repos_url": "https://api.github.com/users/YorkShen/repos",
+        "events_url": "https://api.github.com/users/YorkShen/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YorkShen/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2016-04-18T09:49:12Z",
+      "updated_at": "2016-04-18T09:49:12Z",
+      "body": "The method in Android expected to receive two parameter when invoking scrollToElement()method, if only one parameter is given, nothing will happen. \n\nThis issue has fixed. The second will be 0 if only one parameter is given\n"
+    }
+  ],
   "created_at": "2016-04-17T04:22:23Z",
   "updated_at": "2016-04-18T09:49:12Z",
   "closed_at": "2016-04-18T09:49:12Z",
-  "body": "code example:\n\n``` vue\n<template>\n  <scroller>\n    <text id=\"top\" style=\"height: 10000;\">Hello, World!</text>\n    <text onclick=\"gotoTop\">Goto top</text>\n  </scroller>\n</template>\n\n<script>\n  var dom = require('@weex-module/dom')\n  module.exports = {\n    methods: {\n      gotoTop: function () {\n        var top = this.$el('top')\n        dom.scrollToElement(top)\n      }\n    }\n  }\n</script>\n```\n"
+  "body": "code example:\n\n``` vue\n<template>\n  <scroller>\n    <text id=\"top\" style=\"height: 10000;\">Hello, World!</text>\n    <text onclick=\"gotoTop\">Goto top</text>\n  </scroller>\n</template>\n\n<script>\n  var dom = require('@weex-module/dom')\n  module.exports = {\n    methods: {\n      gotoTop: function () {\n        var top = this.$el('top')\n        dom.scrollToElement(top)\n      }\n    }\n  }\n</script>\n```\n",
+  "closed_by": {
+    "login": "YorkShen",
+    "id": 4162544,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4162544?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/YorkShen",
+    "html_url": "https://github.com/YorkShen",
+    "followers_url": "https://api.github.com/users/YorkShen/followers",
+    "following_url": "https://api.github.com/users/YorkShen/following{/other_user}",
+    "gists_url": "https://api.github.com/users/YorkShen/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/YorkShen/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/YorkShen/subscriptions",
+    "organizations_url": "https://api.github.com/users/YorkShen/orgs",
+    "repos_url": "https://api.github.com/users/YorkShen/repos",
+    "events_url": "https://api.github.com/users/YorkShen/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/YorkShen/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

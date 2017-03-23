@@ -103,5 +103,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1712.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1712.patch"
   },
-  "body": "html5支持picker组件，这个模块三端都会实现，相关pr:\r\n\r\n- ios: https://github.com/alibaba/weex/pull/1559\r\n- andorid: https://github.com/sospartan/weex/pull/40\r\n\r\n测试用例： [单选picker例子](http://weex.alibaba-inc.com/playground/bd78c4e1a741cf9ca359cb3b59269b92)\r\n## picker 选择器\r\n* 名字\r\n - picker\r\n* 类型\r\n - module\r\n* api\r\n  1. 调用单选picker\r\n      - pick( options  )\r\n          - options: 单选的字典  \r\n             index：默认选中的选项(int)\r\n             items：picker数据源(array)\r\n      - callback(options) 选择后回调\r\n         - options:返回的选择结果的字典\r\n            -  result:结果三种类型 success,cancel, error(string)\r\n            - data: 选择的选项(number)，当result 等于 success时存在。"
+  "body": "html5支持picker组件，这个模块三端都会实现，相关pr:\r\n\r\n- ios: https://github.com/alibaba/weex/pull/1559\r\n- andorid: https://github.com/sospartan/weex/pull/40\r\n\r\n测试用例： [单选picker例子](http://weex.alibaba-inc.com/playground/bd78c4e1a741cf9ca359cb3b59269b92)\r\n## picker 选择器\r\n* 名字\r\n - picker\r\n* 类型\r\n - module\r\n* api\r\n  1. 调用单选picker\r\n      - pick( options  )\r\n          - options: 单选的字典  \r\n             index：默认选中的选项(int)\r\n             items：picker数据源(array)\r\n      - callback(options) 选择后回调\r\n         - options:返回的选择结果的字典\r\n            -  result:结果三种类型 success,cancel, error(string)\r\n            - data: 选择的选项(number)，当result 等于 success时存在。",
+  "closed_by": {
+    "login": "MrRaindrop",
+    "id": 1545874,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1545874?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/MrRaindrop",
+    "html_url": "https://github.com/MrRaindrop",
+    "followers_url": "https://api.github.com/users/MrRaindrop/followers",
+    "following_url": "https://api.github.com/users/MrRaindrop/following{/other_user}",
+    "gists_url": "https://api.github.com/users/MrRaindrop/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/MrRaindrop/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/MrRaindrop/subscriptions",
+    "organizations_url": "https://api.github.com/users/MrRaindrop/orgs",
+    "repos_url": "https://api.github.com/users/MrRaindrop/repos",
+    "events_url": "https://api.github.com/users/MrRaindrop/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/MrRaindrop/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

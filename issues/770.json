@@ -66,5 +66,24 @@
   "created_at": "2016-07-11T14:41:19Z",
   "updated_at": "2016-07-11T23:40:37Z",
   "closed_at": "2016-07-11T23:40:09Z",
-  "body": "如果页面通过navigator.push跳转的，这个页面里的console.log不起作用，自定义的module也不起作用 \n\n可以通过简单修改 例子里的 navigator-demo.we， 在created 里打日志。 \n"
+  "body": "如果页面通过navigator.push跳转的，这个页面里的console.log不起作用，自定义的module也不起作用 \n\n可以通过简单修改 例子里的 navigator-demo.we， 在created 里打日志。 \n",
+  "closed_by": {
+    "login": "wengfei",
+    "id": 1897760,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1897760?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/wengfei",
+    "html_url": "https://github.com/wengfei",
+    "followers_url": "https://api.github.com/users/wengfei/followers",
+    "following_url": "https://api.github.com/users/wengfei/following{/other_user}",
+    "gists_url": "https://api.github.com/users/wengfei/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/wengfei/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/wengfei/subscriptions",
+    "organizations_url": "https://api.github.com/users/wengfei/orgs",
+    "repos_url": "https://api.github.com/users/wengfei/repos",
+    "events_url": "https://api.github.com/users/wengfei/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/wengfei/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

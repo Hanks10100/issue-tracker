@@ -94,5 +94,24 @@
   "created_at": "2016-07-01T11:07:59Z",
   "updated_at": "2016-07-26T08:06:57Z",
   "closed_at": "2016-07-06T07:15:31Z",
-  "body": "目前盒子越来越流行，我们在开发Android和AppleTV上面的产品。\n期望在某个milestone能支持以下能力：\n- 键值\n  - 目前WEEX没有内置的方法获取外接设备的键值，比如盒子遥控器按下确认后，WEEX能否捕捉确认件的keycode。\n- 焦点框\n  - 目前WEEX针对的是移动端，移动端使用触屏，所以WEEX目前还不支持焦点框，希望能支持控件上获取焦点以及焦点移动的能力。\n  - 盒子和移动端不同，使用的是遥控器，通过遥控器的上下左右来控制焦点、光标的移动，移动到某个控件上按下确认，从而激活某个功能。\n"
+  "body": "目前盒子越来越流行，我们在开发Android和AppleTV上面的产品。\n期望在某个milestone能支持以下能力：\n- 键值\n  - 目前WEEX没有内置的方法获取外接设备的键值，比如盒子遥控器按下确认后，WEEX能否捕捉确认件的keycode。\n- 焦点框\n  - 目前WEEX针对的是移动端，移动端使用触屏，所以WEEX目前还不支持焦点框，希望能支持控件上获取焦点以及焦点移动的能力。\n  - 盒子和移动端不同，使用的是遥控器，通过遥控器的上下左右来控制焦点、光标的移动，移动到某个控件上按下确认，从而激活某个功能。\n",
+  "closed_by": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

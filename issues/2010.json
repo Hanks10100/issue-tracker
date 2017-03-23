@@ -150,5 +150,24 @@
   "created_at": "2016-12-24T05:20:30Z",
   "updated_at": "2016-12-28T01:36:54Z",
   "closed_at": "2016-12-28T01:36:54Z",
-  "body": "<img width=\"484\" alt=\"2016-12-24 1 16 59\" src=\"https://cloud.githubusercontent.com/assets/12689782/21465367/8cf87860-c9db-11e6-8c70-26f5a02ff8a4.png\">\r\n\r\nWeex插件版本0.5.4，Android Studio 的版本2.2.2，Mac OS 10.11.5"
+  "body": "<img width=\"484\" alt=\"2016-12-24 1 16 59\" src=\"https://cloud.githubusercontent.com/assets/12689782/21465367/8cf87860-c9db-11e6-8c70-26f5a02ff8a4.png\">\r\n\r\nWeex插件版本0.5.4，Android Studio 的版本2.2.2，Mac OS 10.11.5",
+  "closed_by": {
+    "login": "AndyFightting",
+    "id": 12689782,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/12689782?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/AndyFightting",
+    "html_url": "https://github.com/AndyFightting",
+    "followers_url": "https://api.github.com/users/AndyFightting/followers",
+    "following_url": "https://api.github.com/users/AndyFightting/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AndyFightting/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/AndyFightting/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/AndyFightting/subscriptions",
+    "organizations_url": "https://api.github.com/users/AndyFightting/orgs",
+    "repos_url": "https://api.github.com/users/AndyFightting/repos",
+    "events_url": "https://api.github.com/users/AndyFightting/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/AndyFightting/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

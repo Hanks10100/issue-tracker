@@ -158,5 +158,24 @@
   "created_at": "2017-01-16T06:42:14Z",
   "updated_at": "2017-03-01T03:44:16Z",
   "closed_at": "2017-03-01T03:44:16Z",
-  "body": "debug 一个we文件时报，toolkit已经重新更新过一次无效\r\n\r\n`Launching Dev Tools...\r\nNew version[0.2.72\r\n] of Weex debugger detected! Please update.(npm install -g weex-toolkit)\r\n can not join session,unknown sessionId[null]\r\n@(C:\\Users\\JoeDennis\\AppData\\Roaming\\npm\\node_modules\\weex-toolkit\\node_modules\\\r\nweex-devtool\\lib\\components\\P2PSession.js:218:24)`\r\n\r\n页面则显示\r\nDebugee App: WeexPlayground\r\nPress F12 to open Developer Tools. Please select Sources tag to start!\r\nLog Level  \r\n**Warning:The session with native was closed,please restart your native app!**"
+  "body": "debug 一个we文件时报，toolkit已经重新更新过一次无效\r\n\r\n`Launching Dev Tools...\r\nNew version[0.2.72\r\n] of Weex debugger detected! Please update.(npm install -g weex-toolkit)\r\n can not join session,unknown sessionId[null]\r\n@(C:\\Users\\JoeDennis\\AppData\\Roaming\\npm\\node_modules\\weex-toolkit\\node_modules\\\r\nweex-devtool\\lib\\components\\P2PSession.js:218:24)`\r\n\r\n页面则显示\r\nDebugee App: WeexPlayground\r\nPress F12 to open Developer Tools. Please select Sources tag to start!\r\nLog Level  \r\n**Warning:The session with native was closed,please restart your native app!**",
+  "closed_by": {
+    "login": "Hanks10100",
+    "id": 8401776,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8401776?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Hanks10100",
+    "html_url": "https://github.com/Hanks10100",
+    "followers_url": "https://api.github.com/users/Hanks10100/followers",
+    "following_url": "https://api.github.com/users/Hanks10100/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Hanks10100/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Hanks10100/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Hanks10100/subscriptions",
+    "organizations_url": "https://api.github.com/users/Hanks10100/orgs",
+    "repos_url": "https://api.github.com/users/Hanks10100/repos",
+    "events_url": "https://api.github.com/users/Hanks10100/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Hanks10100/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

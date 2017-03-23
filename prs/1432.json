@@ -81,5 +81,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1432.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1432.patch"
   },
-  "body": "<!--\nIt's ***RECOMMENDED*** to submit typo fix, new demo and tiny bugfix to `dev` branch. New feature and other modifications can be submitted to \"domain\" branch including `ios`, `android`, `jsfm`, `html5`.\n    \nSee [Branch Strategy](https://github.com/alibaba/weex/blob/dev/CONTRIBUTING.md#branch-management) for more detail.\n\n---\n\n（请在***提交***前删除这段描述）\n\n错别字修改、新 demo、较小的 bugfix 都可以直接提到 `dev` 分支；新需求以及任何你不确定影响面的改动，请提交到对应“领域”的分支（`ios`、`android`、`jsfm`、`html5`）。\n\n查看完整的[分支策略 (英文)](https://github.com/alibaba/weex/blob/dev/CONTRIBUTING.md#branch-management)。\n-->\n## 新需求\n\nDataPicker组件：三端实现datepicker的组件\n需求版本 0.9.3\n## 其他PR地址\n\nhttps://github.com/alibaba/weex/tree/html5-feature-datepicker\nhttps://github.com/misakuo/weex/tree/android-feature-timepicker\n"
+  "body": "<!--\nIt's ***RECOMMENDED*** to submit typo fix, new demo and tiny bugfix to `dev` branch. New feature and other modifications can be submitted to \"domain\" branch including `ios`, `android`, `jsfm`, `html5`.\n    \nSee [Branch Strategy](https://github.com/alibaba/weex/blob/dev/CONTRIBUTING.md#branch-management) for more detail.\n\n---\n\n（请在***提交***前删除这段描述）\n\n错别字修改、新 demo、较小的 bugfix 都可以直接提到 `dev` 分支；新需求以及任何你不确定影响面的改动，请提交到对应“领域”的分支（`ios`、`android`、`jsfm`、`html5`）。\n\n查看完整的[分支策略 (英文)](https://github.com/alibaba/weex/blob/dev/CONTRIBUTING.md#branch-management)。\n-->\n## 新需求\n\nDataPicker组件：三端实现datepicker的组件\n需求版本 0.9.3\n## 其他PR地址\n\nhttps://github.com/alibaba/weex/tree/html5-feature-datepicker\nhttps://github.com/misakuo/weex/tree/android-feature-timepicker\n",
+  "closed_by": {
+    "login": "kfeagle",
+    "id": 11485145,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/11485145?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/kfeagle",
+    "html_url": "https://github.com/kfeagle",
+    "followers_url": "https://api.github.com/users/kfeagle/followers",
+    "following_url": "https://api.github.com/users/kfeagle/following{/other_user}",
+    "gists_url": "https://api.github.com/users/kfeagle/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/kfeagle/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/kfeagle/subscriptions",
+    "organizations_url": "https://api.github.com/users/kfeagle/orgs",
+    "repos_url": "https://api.github.com/users/kfeagle/repos",
+    "events_url": "https://api.github.com/users/kfeagle/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/kfeagle/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

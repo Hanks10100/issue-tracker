@@ -37,5 +37,6 @@
   "created_at": "2017-02-23T07:24:19Z",
   "updated_at": "2017-02-23T07:24:19Z",
   "closed_at": null,
-  "body": "比如设置了 `WXNavigationProtocol` 的handler，再 push 进一个新界面的时候都被重置成默认值了。\r\n参考这个 pr： https://github.com/alibaba/weex/pull/2555"
+  "body": "比如设置了 `WXNavigationProtocol` 的handler，再 push 进一个新界面的时候都被重置成默认值了。\r\n参考这个 pr： https://github.com/alibaba/weex/pull/2555",
+  "closed_by": null
 }

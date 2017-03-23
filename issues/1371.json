@@ -234,5 +234,24 @@
   "created_at": "2016-10-10T14:17:04Z",
   "updated_at": "2016-11-07T06:53:00Z",
   "closed_at": "2016-10-25T03:20:20Z",
-  "body": "卸载Node.js后重新安装出现的，win7系统git-bash\n![20161010221518](https://cloud.githubusercontent.com/assets/6948411/19239069/0b1abbca-8f37-11e6-9c79-04938557ce68.png)\n![20161010221545](https://cloud.githubusercontent.com/assets/6948411/19239070/0b1e2292-8f37-11e6-8c8e-815faefb8df7.png)\n![20161010221607](https://cloud.githubusercontent.com/assets/6948411/19239072/0b45b334-8f37-11e6-96d8-cef6070412fd.png)\n![20161010221626](https://cloud.githubusercontent.com/assets/6948411/19239071/0b35b560-8f37-11e6-8b13-037e10156dde.png)\n卸载Node.js后重新安装出现的，win7系统git-bash\n"
+  "body": "卸载Node.js后重新安装出现的，win7系统git-bash\n![20161010221518](https://cloud.githubusercontent.com/assets/6948411/19239069/0b1abbca-8f37-11e6-9c79-04938557ce68.png)\n![20161010221545](https://cloud.githubusercontent.com/assets/6948411/19239070/0b1e2292-8f37-11e6-8c8e-815faefb8df7.png)\n![20161010221607](https://cloud.githubusercontent.com/assets/6948411/19239072/0b45b334-8f37-11e6-96d8-cef6070412fd.png)\n![20161010221626](https://cloud.githubusercontent.com/assets/6948411/19239071/0b35b560-8f37-11e6-8b13-037e10156dde.png)\n卸载Node.js后重新安装出现的，win7系统git-bash\n",
+  "closed_by": {
+    "login": "alext1981",
+    "id": 8254442,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8254442?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/alext1981",
+    "html_url": "https://github.com/alext1981",
+    "followers_url": "https://api.github.com/users/alext1981/followers",
+    "following_url": "https://api.github.com/users/alext1981/following{/other_user}",
+    "gists_url": "https://api.github.com/users/alext1981/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/alext1981/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/alext1981/subscriptions",
+    "organizations_url": "https://api.github.com/users/alext1981/orgs",
+    "repos_url": "https://api.github.com/users/alext1981/repos",
+    "events_url": "https://api.github.com/users/alext1981/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/alext1981/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

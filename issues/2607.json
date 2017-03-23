@@ -150,5 +150,24 @@
   "created_at": "2017-02-16T10:13:51Z",
   "updated_at": "2017-02-19T01:56:26Z",
   "closed_at": "2017-02-17T02:51:24Z",
-  "body": "如下面代码：\r\nnative 传递数据到 JS 后 `nativeCall` 的回调里，data 数据改变后，界面没有实际刷新。\r\n\r\nchannel_list 实际是赋值成功的，但是界面没有重新渲染\r\n\r\nAndroid 0.9.5 有问题，在 playground 上也是，并且只有第一次刷新才有。第二次界面都描述不出来\r\nhtml5 是 OK 的\r\n\r\n\r\n\r\n```\r\nexport default {\r\n\t\tdata: {\r\n\t\t\tchannel_list: []\r\n\t\t},\r\n\t\tmethods: {\r\n\t\t\tclick: function(value) {\r\n\t\t\t\tweex.requireModule('HWBizModule').themeClickEvent(JSON.stringify(value))\r\n\t\t\t}\r\n\t\t},\r\n\t\tcreated: function() {\r\n\t\t\tvar _this = this;\r\n\t\t\tweex.requireModule('HWNativeCallModule').nativeCall(function(data) {\r\n\t\t\t\t_this.channel_list = JSON.parse(data);\r\n\t\t\t});\r\n\t\t}\r\n\t}\r\n```\r\n"
+  "body": "如下面代码：\r\nnative 传递数据到 JS 后 `nativeCall` 的回调里，data 数据改变后，界面没有实际刷新。\r\n\r\nchannel_list 实际是赋值成功的，但是界面没有重新渲染\r\n\r\nAndroid 0.9.5 有问题，在 playground 上也是，并且只有第一次刷新才有。第二次界面都描述不出来\r\nhtml5 是 OK 的\r\n\r\n\r\n\r\n```\r\nexport default {\r\n\t\tdata: {\r\n\t\t\tchannel_list: []\r\n\t\t},\r\n\t\tmethods: {\r\n\t\t\tclick: function(value) {\r\n\t\t\t\tweex.requireModule('HWBizModule').themeClickEvent(JSON.stringify(value))\r\n\t\t\t}\r\n\t\t},\r\n\t\tcreated: function() {\r\n\t\t\tvar _this = this;\r\n\t\t\tweex.requireModule('HWNativeCallModule').nativeCall(function(data) {\r\n\t\t\t\t_this.channel_list = JSON.parse(data);\r\n\t\t\t});\r\n\t\t}\r\n\t}\r\n```\r\n",
+  "closed_by": {
+    "login": "MrFuFuFu",
+    "id": 6850766,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6850766?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/MrFuFuFu",
+    "html_url": "https://github.com/MrFuFuFu",
+    "followers_url": "https://api.github.com/users/MrFuFuFu/followers",
+    "following_url": "https://api.github.com/users/MrFuFuFu/following{/other_user}",
+    "gists_url": "https://api.github.com/users/MrFuFuFu/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/MrFuFuFu/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/MrFuFuFu/subscriptions",
+    "organizations_url": "https://api.github.com/users/MrFuFuFu/orgs",
+    "repos_url": "https://api.github.com/users/MrFuFuFu/repos",
+    "events_url": "https://api.github.com/users/MrFuFuFu/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/MrFuFuFu/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -132,5 +132,24 @@
   "created_at": "2017-01-19T14:35:28Z",
   "updated_at": "2017-02-07T02:47:00Z",
   "closed_at": "2017-02-07T02:47:00Z",
-  "body": "[测试代码](http://dotwe.org/62da004fa0604af0985a6bef9e80e5cd)\r\n这个代码在IOS中显示content浮在header上面并且顶在最顶端，而且header没有与窗口宽度保持一致。相同代码在安卓、H5上都是相同效果，header宽度100%，content在header下面。"
+  "body": "[测试代码](http://dotwe.org/62da004fa0604af0985a6bef9e80e5cd)\r\n这个代码在IOS中显示content浮在header上面并且顶在最顶端，而且header没有与窗口宽度保持一致。相同代码在安卓、H5上都是相同效果，header宽度100%，content在header下面。",
+  "closed_by": {
+    "login": "hodgevk",
+    "id": 1889365,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1889365?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/hodgevk",
+    "html_url": "https://github.com/hodgevk",
+    "followers_url": "https://api.github.com/users/hodgevk/followers",
+    "following_url": "https://api.github.com/users/hodgevk/following{/other_user}",
+    "gists_url": "https://api.github.com/users/hodgevk/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/hodgevk/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/hodgevk/subscriptions",
+    "organizations_url": "https://api.github.com/users/hodgevk/orgs",
+    "repos_url": "https://api.github.com/users/hodgevk/repos",
+    "events_url": "https://api.github.com/users/hodgevk/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/hodgevk/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

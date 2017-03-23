@@ -102,5 +102,24 @@
   "created_at": "2016-07-23T05:27:26Z",
   "updated_at": "2016-08-03T00:29:18Z",
   "closed_at": "2016-08-03T00:29:18Z",
-  "body": "当使用 `repeat=\"{{list}}\"` 来遍历数组时，如果数组项不是对象，`$index` 会得到 `undefined` 或报错。\n\n``` html\n<template>\n  <container>\n    <container repeat=\"{{list}}\" class=\"{{gender}}\">\n      <image src=\"{{avatar}}\"></image>\n      <text>{{id($index)}}</text>\n    </container>\n  </container>\n</template>\n\n<script>\n  module.exports = {\n    data: {\n      list: [\n        1,          // undefined   \n        '2',        // undefined\n        undefined,  // undefined\n        null,       // Uncaught TypeError: Cannot set property '$index' of null\n        false,      // undefined\n        {}\n      ]\n    },\n    methods: {\n      id: function(x) {console.log(x); return x; }\n    }\n  }\n</script>\n\n```\n\n```\n{\n   \"env\":{\n      \"weexVersion\":\"0.5.0\",\n      \"appName\":null,\n      \"appVersion\":null,\n      \"platform\":\"Web\",\n      \"osName\":\"Safari\",\n      \"osVersion\":\"9.0\",\n      \"deviceWidth\":750,\n      \"deviceHeight\":1333.3333333333333\n   },\n   \"bundleUrl\":\"http://192.168.0.103:8081/weex_tmp/h5_render/?hot-reload_controller&page=tech_list.js&loader=xhr\",\n   \"debug\":false\n}\n```\n"
+  "body": "当使用 `repeat=\"{{list}}\"` 来遍历数组时，如果数组项不是对象，`$index` 会得到 `undefined` 或报错。\n\n``` html\n<template>\n  <container>\n    <container repeat=\"{{list}}\" class=\"{{gender}}\">\n      <image src=\"{{avatar}}\"></image>\n      <text>{{id($index)}}</text>\n    </container>\n  </container>\n</template>\n\n<script>\n  module.exports = {\n    data: {\n      list: [\n        1,          // undefined   \n        '2',        // undefined\n        undefined,  // undefined\n        null,       // Uncaught TypeError: Cannot set property '$index' of null\n        false,      // undefined\n        {}\n      ]\n    },\n    methods: {\n      id: function(x) {console.log(x); return x; }\n    }\n  }\n</script>\n\n```\n\n```\n{\n   \"env\":{\n      \"weexVersion\":\"0.5.0\",\n      \"appName\":null,\n      \"appVersion\":null,\n      \"platform\":\"Web\",\n      \"osName\":\"Safari\",\n      \"osVersion\":\"9.0\",\n      \"deviceWidth\":750,\n      \"deviceHeight\":1333.3333333333333\n   },\n   \"bundleUrl\":\"http://192.168.0.103:8081/weex_tmp/h5_render/?hot-reload_controller&page=tech_list.js&loader=xhr\",\n   \"debug\":false\n}\n```\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

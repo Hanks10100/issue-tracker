@@ -37,5 +37,6 @@
   "created_at": "2017-03-02T06:35:24Z",
   "updated_at": "2017-03-02T06:35:24Z",
   "closed_at": null,
-  "body": "当样式发生改变时，一下属性会抛数字格式异常，borderRaduis、left、top、left、right、bottom、flex\r\n\r\n我们在做很多 active 状态的时候都会使用  :class[true ? 'active' : '' ]，当 active 中含有上面这些属性时就会抛数字格式异常\r\n\r\nsetTimeout 不传时间时安卓也会抛异常"
+  "body": "当样式发生改变时，一下属性会抛数字格式异常，borderRaduis、left、top、left、right、bottom、flex\r\n\r\n我们在做很多 active 状态的时候都会使用  :class[true ? 'active' : '' ]，当 active 中含有上面这些属性时就会抛数字格式异常\r\n\r\nsetTimeout 不传时间时安卓也会抛异常",
+  "closed_by": null
 }

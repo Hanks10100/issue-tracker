@@ -115,5 +115,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/973.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/973.patch"
   },
-  "body": "**html5 renderer**\n- vdom-render refactoring, using ComponentManager as a Listener to the vdom Document.\n- rearrange the architecture of renderer's code and files.\n- registering and installing of the components and api modules are no longer relying on the requiring code of weex.\n\n**jsfm**\n- `createInstance` in jsfm return a app instance rather than undefined or error.\n- remove console reimplementation，using debug flag in url to toggle console.debug.\n- pass a Listener to the Document constructor to specify which listener the document use.\n- separate `ctrl.js` into `init.js` and `misc.js`. The `misc` contains：\n  - `updateActions`\n  - `destroy`\n  - `getRootElement`\n  - `fireEvent`\n  - `callback`\n  - `refreshData`\n- separate `default/index.js` into `create`, `map`, `register`, `bridge`, `life` and `misc` in the path `default/static`. The including methods in the above files excludes `create` are:\n  - `init`\n  - `refreshInstance`\n  - `destroyInstance`\n  - `registerComponents`\n  - `registerModules`\n  - `registerMethods`\n  - `getRoot`\n  - `receiveTasks`\n- `init` method of `runtime` add arguments of frameworks and listener\n"
+  "body": "**html5 renderer**\n- vdom-render refactoring, using ComponentManager as a Listener to the vdom Document.\n- rearrange the architecture of renderer's code and files.\n- registering and installing of the components and api modules are no longer relying on the requiring code of weex.\n\n**jsfm**\n- `createInstance` in jsfm return a app instance rather than undefined or error.\n- remove console reimplementation，using debug flag in url to toggle console.debug.\n- pass a Listener to the Document constructor to specify which listener the document use.\n- separate `ctrl.js` into `init.js` and `misc.js`. The `misc` contains：\n  - `updateActions`\n  - `destroy`\n  - `getRootElement`\n  - `fireEvent`\n  - `callback`\n  - `refreshData`\n- separate `default/index.js` into `create`, `map`, `register`, `bridge`, `life` and `misc` in the path `default/static`. The including methods in the above files excludes `create` are:\n  - `init`\n  - `refreshInstance`\n  - `destroyInstance`\n  - `registerComponents`\n  - `registerModules`\n  - `registerMethods`\n  - `getRoot`\n  - `receiveTasks`\n- `init` method of `runtime` add arguments of frameworks and listener\n",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

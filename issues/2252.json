@@ -104,5 +104,24 @@
   "created_at": "2017-01-13T06:29:36Z",
   "updated_at": "2017-02-27T03:01:34Z",
   "closed_at": "2017-02-27T03:01:34Z",
-  "body": "版本是 Android SDK 0.9.4\r\n\r\n使用模拟器 7.1 测试也无法渲染显示；\r\n真机 4.4 显示正常。\r\n\r\nhttps://github.com/alibaba/weex/blob/dev/android/commons/src/main/java/com/alibaba/weex/commons/AbstractWeexActivity.java\r\n\r\n无这句代码 `mInstance.setTrackComponent(true);`"
+  "body": "版本是 Android SDK 0.9.4\r\n\r\n使用模拟器 7.1 测试也无法渲染显示；\r\n真机 4.4 显示正常。\r\n\r\nhttps://github.com/alibaba/weex/blob/dev/android/commons/src/main/java/com/alibaba/weex/commons/AbstractWeexActivity.java\r\n\r\n无这句代码 `mInstance.setTrackComponent(true);`",
+  "closed_by": {
+    "login": "CCC2016",
+    "id": 17694018,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/17694018?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/CCC2016",
+    "html_url": "https://github.com/CCC2016",
+    "followers_url": "https://api.github.com/users/CCC2016/followers",
+    "following_url": "https://api.github.com/users/CCC2016/following{/other_user}",
+    "gists_url": "https://api.github.com/users/CCC2016/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/CCC2016/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/CCC2016/subscriptions",
+    "organizations_url": "https://api.github.com/users/CCC2016/orgs",
+    "repos_url": "https://api.github.com/users/CCC2016/repos",
+    "events_url": "https://api.github.com/users/CCC2016/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/CCC2016/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

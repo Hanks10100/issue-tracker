@@ -637,5 +637,24 @@
   "created_at": "2016-12-08T01:12:34Z",
   "updated_at": "2017-01-18T03:13:23Z",
   "closed_at": "2017-01-18T03:13:23Z",
-  "body": "在iOS 设备上，突然所有的动画都没了，有人遇到过这个问题吗？\r\n\r\n比如。Navigator 的过渡动画\r\nUIAlertController的弹出动画\r\n\r\n\r\n\r\n![](http://p1.bpimg.com/567571/beea4acadd05e29a.gif)"
+  "body": "在iOS 设备上，突然所有的动画都没了，有人遇到过这个问题吗？\r\n\r\n比如。Navigator 的过渡动画\r\nUIAlertController的弹出动画\r\n\r\n\r\n\r\n![](http://p1.bpimg.com/567571/beea4acadd05e29a.gif)",
+  "closed_by": {
+    "login": "cxfeng1",
+    "id": 1625893,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1625893?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cxfeng1",
+    "html_url": "https://github.com/cxfeng1",
+    "followers_url": "https://api.github.com/users/cxfeng1/followers",
+    "following_url": "https://api.github.com/users/cxfeng1/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cxfeng1/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cxfeng1/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cxfeng1/subscriptions",
+    "organizations_url": "https://api.github.com/users/cxfeng1/orgs",
+    "repos_url": "https://api.github.com/users/cxfeng1/repos",
+    "events_url": "https://api.github.com/users/cxfeng1/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cxfeng1/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -37,5 +37,24 @@
   "created_at": "2017-01-02T08:51:55Z",
   "updated_at": "2017-01-02T09:25:42Z",
   "closed_at": "2017-01-02T09:25:42Z",
-  "body": "复现步骤：\r\n![qq20170102-0](https://cloud.githubusercontent.com/assets/2429983/21586388/a3f2e6fe-d10b-11e6-8a36-7849afc1fef0.png)\r\n![qq20170102-0](https://cloud.githubusercontent.com/assets/2429983/21586389/a3f4b9de-d10b-11e6-8540-dfc0a0fae2a7.png)\r\n![qq20170102-1](https://cloud.githubusercontent.com/assets/2429983/21586390/a5e569a0-d10b-11e6-957c-193dc93a8ec7.png)\r\n\r\n设备型号：MacBook Air (13-inch, Early 2015)\r\nOS 版本：10.11.6 (15G1004)"
+  "body": "复现步骤：\r\n![qq20170102-0](https://cloud.githubusercontent.com/assets/2429983/21586388/a3f2e6fe-d10b-11e6-8a36-7849afc1fef0.png)\r\n![qq20170102-0](https://cloud.githubusercontent.com/assets/2429983/21586389/a3f4b9de-d10b-11e6-8540-dfc0a0fae2a7.png)\r\n![qq20170102-1](https://cloud.githubusercontent.com/assets/2429983/21586390/a5e569a0-d10b-11e6-957c-193dc93a8ec7.png)\r\n\r\n设备型号：MacBook Air (13-inch, Early 2015)\r\nOS 版本：10.11.6 (15G1004)",
+  "closed_by": {
+    "login": "charmingzuo",
+    "id": 2429983,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2429983?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/charmingzuo",
+    "html_url": "https://github.com/charmingzuo",
+    "followers_url": "https://api.github.com/users/charmingzuo/followers",
+    "following_url": "https://api.github.com/users/charmingzuo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/charmingzuo/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/charmingzuo/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/charmingzuo/subscriptions",
+    "organizations_url": "https://api.github.com/users/charmingzuo/orgs",
+    "repos_url": "https://api.github.com/users/charmingzuo/repos",
+    "events_url": "https://api.github.com/users/charmingzuo/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/charmingzuo/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

@@ -216,5 +216,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1668.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1668.patch"
   },
-  "body": "在浏览器端实现picker组件"
+  "body": "在浏览器端实现picker组件",
+  "closed_by": {
+    "login": "zhangquan",
+    "id": 804574,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/804574?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/zhangquan",
+    "html_url": "https://github.com/zhangquan",
+    "followers_url": "https://api.github.com/users/zhangquan/followers",
+    "following_url": "https://api.github.com/users/zhangquan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zhangquan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/zhangquan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/zhangquan/subscriptions",
+    "organizations_url": "https://api.github.com/users/zhangquan/orgs",
+    "repos_url": "https://api.github.com/users/zhangquan/repos",
+    "events_url": "https://api.github.com/users/zhangquan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/zhangquan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

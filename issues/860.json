@@ -151,5 +151,24 @@
   "created_at": "2016-07-25T09:56:52Z",
   "updated_at": "2016-08-02T02:03:51Z",
   "closed_at": "2016-08-02T02:03:51Z",
-  "body": "背景：在优化Android过程中发现List提供了设置scope，给不同类型Cell设置不同type的功能，以此来优化List的性能，尽可能地减少cell的创建，提高复用率。\n问题：但在实际使用中发现很容易出现问题。即使同一个cell设置了同一个scope，但也会发生crash。出现问题的原因是在实际业务中一个cell中的子元素经常会设置if控制子元素的可见性。若这个cell被复用时，会导致旧的cell和新的cell中子元素数量不一致的情况，导致数组越界，而发生crash。\n发生crash的代码如下：\n\n```\n  @Override\n  public void bindData(WXComponent component) {\n    if(!isLazy()) {\n      if (component == null) {\n        component = this;\n      }\n      super.bindData(component);\n      int count = childCount();\n      for (int i = 0; i < count; i++) {\n        getChild(i).bindData(((WXVContainer)component).getChild(i));\n      }\n    }\n  }\n```\n\n这行代码 getChild(i).bindData(((WXVContainer)component).getChild(i));\n这里由于this 和component可能不相同，导致他们的children也不相同，调用上面这行代码就很容易发生数组越界的crash了。\n"
+  "body": "背景：在优化Android过程中发现List提供了设置scope，给不同类型Cell设置不同type的功能，以此来优化List的性能，尽可能地减少cell的创建，提高复用率。\n问题：但在实际使用中发现很容易出现问题。即使同一个cell设置了同一个scope，但也会发生crash。出现问题的原因是在实际业务中一个cell中的子元素经常会设置if控制子元素的可见性。若这个cell被复用时，会导致旧的cell和新的cell中子元素数量不一致的情况，导致数组越界，而发生crash。\n发生crash的代码如下：\n\n```\n  @Override\n  public void bindData(WXComponent component) {\n    if(!isLazy()) {\n      if (component == null) {\n        component = this;\n      }\n      super.bindData(component);\n      int count = childCount();\n      for (int i = 0; i < count; i++) {\n        getChild(i).bindData(((WXVContainer)component).getChild(i));\n      }\n    }\n  }\n```\n\n这行代码 getChild(i).bindData(((WXVContainer)component).getChild(i));\n这里由于this 和component可能不相同，导致他们的children也不相同，调用上面这行代码就很容易发生数组越界的crash了。\n",
+  "closed_by": {
+    "login": "LeeJay0226",
+    "id": 7502237,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/7502237?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/LeeJay0226",
+    "html_url": "https://github.com/LeeJay0226",
+    "followers_url": "https://api.github.com/users/LeeJay0226/followers",
+    "following_url": "https://api.github.com/users/LeeJay0226/following{/other_user}",
+    "gists_url": "https://api.github.com/users/LeeJay0226/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/LeeJay0226/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/LeeJay0226/subscriptions",
+    "organizations_url": "https://api.github.com/users/LeeJay0226/orgs",
+    "repos_url": "https://api.github.com/users/LeeJay0226/repos",
+    "events_url": "https://api.github.com/users/LeeJay0226/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/LeeJay0226/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

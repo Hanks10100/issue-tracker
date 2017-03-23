@@ -66,5 +66,24 @@
   "created_at": "2016-06-22T03:42:43Z",
   "updated_at": "2016-06-22T06:12:18Z",
   "closed_at": "2016-06-22T06:12:18Z",
-  "body": "源码如下，请问该如何修改\n\n``` javacript\nready:function(){\n    unicode2str(\"unicodestr\");\n},\nmethods : {\n    unicode2str : function(unistr) {\n      return eval(\"'\" + unistr + \"'\"); //\n    },\n}\n```\n"
+  "body": "源码如下，请问该如何修改\n\n``` javacript\nready:function(){\n    unicode2str(\"unicodestr\");\n},\nmethods : {\n    unicode2str : function(unistr) {\n      return eval(\"'\" + unistr + \"'\"); //\n    },\n}\n```\n",
+  "closed_by": {
+    "login": "yahooyee",
+    "id": 4351143,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4351143?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/yahooyee",
+    "html_url": "https://github.com/yahooyee",
+    "followers_url": "https://api.github.com/users/yahooyee/followers",
+    "following_url": "https://api.github.com/users/yahooyee/following{/other_user}",
+    "gists_url": "https://api.github.com/users/yahooyee/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/yahooyee/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/yahooyee/subscriptions",
+    "organizations_url": "https://api.github.com/users/yahooyee/orgs",
+    "repos_url": "https://api.github.com/users/yahooyee/repos",
+    "events_url": "https://api.github.com/users/yahooyee/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/yahooyee/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

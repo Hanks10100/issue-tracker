@@ -94,5 +94,24 @@
   "created_at": "2017-01-16T15:12:15Z",
   "updated_at": "2017-03-01T07:09:55Z",
   "closed_at": "2017-03-01T07:09:55Z",
-  "body": "执行weexpack run ios命令后\r\n\r\n=> Will start iOS app\r\n => pod update\r\nUpdate all pods\r\nCloning spec repo `alibaba-inc-specs` from `git@gitlab.alibaba-inc.com:alipods/specs.git`\r\n[!] Unable to add a source with url `git@gitlab.alibaba-inc.com:alipods/specs.git` named `alibaba-inc-specs`.\r\nYou can try adding it manually in `~/.cocoapods/repos` or via `pod repo add`.\r\n? Choose one of the following devices iPhone 6 ios: 10.0\r\nproject is building ...\r\n** BUILD FAILED **\r\n\r\n\r\n    cd /Users/fgmh/Project/weex/weextest/platforms/ios\r\n    /bin/sh -c /Users/fgmh/Project/weex/weextest/platforms/ios/build/Build/Intermediates/WeexDemo.build/Debug-iphonesimulator/WeexDemo.build/Script-359BEE13DD78032A2CB791E8.sh\r\ndiff: /../Podfile.lock: No such file or directory\r\ndiff: /Manifest.lock: No such file or directory\r\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\r\n\r\n\r\n** BUILD FAILED **\r\n\r\nThe following build commands failed:\r\n\tPhaseScriptExecution [CP]\\ Check\\ Pods\\ Manifest.lock build/Build/Intermediates/WeexDemo.build/Debug-iphonesimulator/WeexDemo.build/Script-359BEE13DD78032A2CB791E8.sh\r\n(1 failure)\r\n\r\n\r\n这个是 cocoapods没安装好，造成的吗？"
+  "body": "执行weexpack run ios命令后\r\n\r\n=> Will start iOS app\r\n => pod update\r\nUpdate all pods\r\nCloning spec repo `alibaba-inc-specs` from `git@gitlab.alibaba-inc.com:alipods/specs.git`\r\n[!] Unable to add a source with url `git@gitlab.alibaba-inc.com:alipods/specs.git` named `alibaba-inc-specs`.\r\nYou can try adding it manually in `~/.cocoapods/repos` or via `pod repo add`.\r\n? Choose one of the following devices iPhone 6 ios: 10.0\r\nproject is building ...\r\n** BUILD FAILED **\r\n\r\n\r\n    cd /Users/fgmh/Project/weex/weextest/platforms/ios\r\n    /bin/sh -c /Users/fgmh/Project/weex/weextest/platforms/ios/build/Build/Intermediates/WeexDemo.build/Debug-iphonesimulator/WeexDemo.build/Script-359BEE13DD78032A2CB791E8.sh\r\ndiff: /../Podfile.lock: No such file or directory\r\ndiff: /Manifest.lock: No such file or directory\r\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\r\n\r\n\r\n** BUILD FAILED **\r\n\r\nThe following build commands failed:\r\n\tPhaseScriptExecution [CP]\\ Check\\ Pods\\ Manifest.lock build/Build/Intermediates/WeexDemo.build/Debug-iphonesimulator/WeexDemo.build/Script-359BEE13DD78032A2CB791E8.sh\r\n(1 failure)\r\n\r\n\r\n这个是 cocoapods没安装好，造成的吗？",
+  "closed_by": {
+    "login": "Jinjiang",
+    "id": 206848,
+    "avatar_url": "https://avatars2.githubusercontent.com/u/206848?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jinjiang",
+    "html_url": "https://github.com/Jinjiang",
+    "followers_url": "https://api.github.com/users/Jinjiang/followers",
+    "following_url": "https://api.github.com/users/Jinjiang/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jinjiang/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jinjiang/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jinjiang/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jinjiang/orgs",
+    "repos_url": "https://api.github.com/users/Jinjiang/repos",
+    "events_url": "https://api.github.com/users/Jinjiang/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jinjiang/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

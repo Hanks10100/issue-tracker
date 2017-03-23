@@ -110,5 +110,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/1600.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/1600.patch"
   },
-  "body": "\r\nbug ： \r\n1. android.database.sqlite.SQLiteException: no such table: default_wx_storage (code 1): , while compiling: INSERT OR REPLACE INTO default_wx_storage VALUES (?,?,?,?);\r\n\r\n2. android.database.sqlite.SQLiteException: Failed to change locale for db '/data/data/com.taobao.taobao/databases/WXStorage' to 'zh_CN'.\r\n\r\n\r\n\r\n\r\n"
+  "body": "\r\nbug ： \r\n1. android.database.sqlite.SQLiteException: no such table: default_wx_storage (code 1): , while compiling: INSERT OR REPLACE INTO default_wx_storage VALUES (?,?,?,?);\r\n\r\n2. android.database.sqlite.SQLiteException: Failed to change locale for db '/data/data/com.taobao.taobao/databases/WXStorage' to 'zh_CN'.\r\n\r\n\r\n\r\n\r\n",
+  "closed_by": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

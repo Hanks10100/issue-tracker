@@ -37,5 +37,6 @@
   "created_at": "2017-02-22T03:16:22Z",
   "updated_at": "2017-02-22T03:16:22Z",
   "closed_at": null,
-  "body": "今天早晨出现的问题，第一次扫描界面可以在App上展示，可是后面刷新或者再次扫描，App内都不呈现界面。然后将js文件直接copy到iOS或Android项目内部运行是可以跑起来的，主要还是playground的问题，请问是什么问题？"
+  "body": "今天早晨出现的问题，第一次扫描界面可以在App上展示，可是后面刷新或者再次扫描，App内都不呈现界面。然后将js文件直接copy到iOS或Android项目内部运行是可以跑起来的，主要还是playground的问题，请问是什么问题？",
+  "closed_by": null
 }

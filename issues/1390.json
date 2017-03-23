@@ -132,5 +132,24 @@
   "created_at": "2016-10-14T03:46:14Z",
   "updated_at": "2016-10-24T09:58:15Z",
   "closed_at": "2016-10-24T09:58:15Z",
-  "body": "![0d494ace-1d34-4d63-b0d6-eba8440d52bd](https://cloud.githubusercontent.com/assets/6778148/19375115/7f6235fc-9203-11e6-8245-9459b2c047b7.png)\n请问这个sourceURL在哪定义的？现在打印都是undefine。\n"
+  "body": "![0d494ace-1d34-4d63-b0d6-eba8440d52bd](https://cloud.githubusercontent.com/assets/6778148/19375115/7f6235fc-9203-11e6-8245-9459b2c047b7.png)\n请问这个sourceURL在哪定义的？现在打印都是undefine。\n",
+  "closed_by": {
+    "login": "alext1981",
+    "id": 8254442,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8254442?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/alext1981",
+    "html_url": "https://github.com/alext1981",
+    "followers_url": "https://api.github.com/users/alext1981/followers",
+    "following_url": "https://api.github.com/users/alext1981/following{/other_user}",
+    "gists_url": "https://api.github.com/users/alext1981/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/alext1981/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/alext1981/subscriptions",
+    "organizations_url": "https://api.github.com/users/alext1981/orgs",
+    "repos_url": "https://api.github.com/users/alext1981/repos",
+    "events_url": "https://api.github.com/users/alext1981/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/alext1981/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

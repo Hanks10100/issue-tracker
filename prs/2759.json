@@ -81,5 +81,24 @@
     "diff_url": "https://github.com/alibaba/weex/pull/2759.diff",
     "patch_url": "https://github.com/alibaba/weex/pull/2759.patch"
   },
-  "body": "Fix linear-gradient & border-radius & clipPath cannot work together if system version is 4.3 or 4.4.\r\n\r\nWithout this fix, the [border-radius of linear-gradient div](http://dotwe.org/weex/963c9ade129f86757cecdd85651cd30e) will not work.\r\n\r\nThis is mostly likely due to OpenGL ES 3.1, which provided  \"Separate shader objects\" is not supported until android 5.0."
+  "body": "Fix linear-gradient & border-radius & clipPath cannot work together if system version is 4.3 or 4.4.\r\n\r\nWithout this fix, the [border-radius of linear-gradient div](http://dotwe.org/weex/963c9ade129f86757cecdd85651cd30e) will not work.\r\n\r\nThis is mostly likely due to OpenGL ES 3.1, which provided  \"Separate shader objects\" is not supported until android 5.0.",
+  "closed_by": {
+    "login": "sospartan",
+    "id": 115201,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/115201?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sospartan",
+    "html_url": "https://github.com/sospartan",
+    "followers_url": "https://api.github.com/users/sospartan/followers",
+    "following_url": "https://api.github.com/users/sospartan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sospartan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sospartan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sospartan/subscriptions",
+    "organizations_url": "https://api.github.com/users/sospartan/orgs",
+    "repos_url": "https://api.github.com/users/sospartan/repos",
+    "events_url": "https://api.github.com/users/sospartan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sospartan/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

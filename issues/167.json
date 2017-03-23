@@ -94,5 +94,24 @@
   "created_at": "2016-05-06T00:08:34Z",
   "updated_at": "2016-05-10T02:27:15Z",
   "closed_at": "2016-05-06T03:17:53Z",
-  "body": "虽然有integrate-to-android/ios，环境配置还是复杂，还是不直观。希望能为初学者提供一个可以运行的完整的  Hello world App example。 直接编译到手机中?\n"
+  "body": "虽然有integrate-to-android/ios，环境配置还是复杂，还是不直观。希望能为初学者提供一个可以运行的完整的  Hello world App example。 直接编译到手机中?\n",
+  "closed_by": {
+    "login": "luics",
+    "id": 1018815,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1018815?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/luics",
+    "html_url": "https://github.com/luics",
+    "followers_url": "https://api.github.com/users/luics/followers",
+    "following_url": "https://api.github.com/users/luics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/luics/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/luics/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/luics/subscriptions",
+    "organizations_url": "https://api.github.com/users/luics/orgs",
+    "repos_url": "https://api.github.com/users/luics/repos",
+    "events_url": "https://api.github.com/users/luics/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/luics/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }

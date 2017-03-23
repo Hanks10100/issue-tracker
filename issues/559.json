@@ -300,5 +300,24 @@
   "created_at": "2016-06-22T14:19:18Z",
   "updated_at": "2016-06-24T07:58:34Z",
   "closed_at": "2016-06-24T07:58:34Z",
-  "body": "代码见\nhttps://github.com/noman798/weex_doc\n可以自动为 weex 的文档生成 po 文件\n\n基于 po 文件格式进行多语言化，可以很方便的实现文档的多语言同步翻译，尤其是当文档不断被修改更新时，可以做到多语言同步。\n\n并且整合了百度翻译的 api，方便加速翻译进度\n参见 http://weexdoc-zh-cn.tzworld.us （都是自动翻译的）\n\nhttp://weexdoc-zh-cn.tzworld.us/tutorial.html\n完成了第一章《教程》的翻译\n"
+  "body": "代码见\nhttps://github.com/noman798/weex_doc\n可以自动为 weex 的文档生成 po 文件\n\n基于 po 文件格式进行多语言化，可以很方便的实现文档的多语言同步翻译，尤其是当文档不断被修改更新时，可以做到多语言同步。\n\n并且整合了百度翻译的 api，方便加速翻译进度\n参见 http://weexdoc-zh-cn.tzworld.us （都是自动翻译的）\n\nhttp://weexdoc-zh-cn.tzworld.us/tutorial.html\n完成了第一章《教程》的翻译\n",
+  "closed_by": {
+    "login": "lvscar",
+    "id": 1578838,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1578838?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/lvscar",
+    "html_url": "https://github.com/lvscar",
+    "followers_url": "https://api.github.com/users/lvscar/followers",
+    "following_url": "https://api.github.com/users/lvscar/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lvscar/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/lvscar/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/lvscar/subscriptions",
+    "organizations_url": "https://api.github.com/users/lvscar/orgs",
+    "repos_url": "https://api.github.com/users/lvscar/repos",
+    "events_url": "https://api.github.com/users/lvscar/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/lvscar/received_events",
+    "type": "User",
+    "site_admin": false
+  }
 }
