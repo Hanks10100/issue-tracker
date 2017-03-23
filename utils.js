@@ -5,7 +5,8 @@ function containChinese (string) {
 function pickTop (array, N = 99999999) {
   const chosen = []
 
-  for (let name in array) {
+  for (const name in array) {
+    if (!array[name]) continue
     let i = chosen.length
     while (i > 0 && chosen[i - 1].count < array[name]) {
       i--
@@ -24,9 +25,9 @@ function alignTime (timestamp) {
   return Math.floor(parseInt(timestamp, 10) / unit) * unit
 }
 
-function accumulate (object, key) {
+function accumulate (object, key, step = 1) {
   object[key] = object[key] || 0
-  object[key]++
+  object[key] += step
 }
 
 function alignTime (timestamp) {

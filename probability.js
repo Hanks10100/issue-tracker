@@ -1,68 +1,22 @@
 const jsonfile = require('jsonfile')
-const segment = require('./segment')
 const { pad, accumulate } = require('./utils.js')
 
-function pick (labels, count = 5) {
-  const useful = {}
-  for (const label in labels) {
-    const words = labels[label]
-    useful[label] = useful[label] || {}
-    for (const word in words) {
-      if (isUseful(word, words[word])) {
-        useful[label][word] = words[word]
-      }
+function pick (summary) {
+  // return summary
+  const available = {}
+  for (const key in summary) {
+    if (isAvailable(key, summary[key])) {
+      available[key] = summary[key]
     }
   }
-  return useful
+  return available
 }
 
-function isUseful (word, count) {
+function isAvailable (word, count) {
   return String(word).length > 1
     && !Number(word)
     && !String(word).match(/^https?:\/\//i)
-    && count >= 5
-}
-
-function readWordCount (filePath) {
-  const words = jsonfile.readFileSync(filePath)
-  const P = {}
-  let totalWordCount = 0
-
-  for (const word in words) {
-    if (isUseful(word, words[word])) {
-      totalWordCount += words[word]
-    }
-  }
-
-  for (const word in words) {
-    if (isUseful(word, words[word])) {
-      P[word] = words[word] / totalWordCount
-    }
-  }
-
-  console.log(check(P))
-  return P
-}
-
-function getTagP (filePath) {
-  const labels = pick(jsonfile.readFileSync(filePath), 2)
-  const P = {}
-  let totalWordCount = 0
-
-  for (const label in labels) {
-    for (const word in labels[label]) {
-      totalWordCount += labels[label][word]
-    }
-  }
-
-  for (const label in labels) {
-    P[label] = {}
-    for (const word in labels[label]) {
-      P[label][word] = labels[label][word] / totalWordCount
-    }
-  }
-  console.log(checkAll(P))
-  return P
+    && count >= 1
 }
 
 function check (P) {
@@ -70,31 +24,75 @@ function check (P) {
   for (const key in P) {
     sum += P[key]
   }
-  return Math.abs(sum - 1) < 1e-10
+  return Math.abs(sum - 1) < 1e-5
 }
 
-function checkAll (P) {
+function toP (summary) {
   let sum = 0
-  for (const label in P) {
-    for (const key in P[label]) {
-      sum += P[label][key]
+  for (const key in summary) {
+    sum += Number(summary[key])
+  }
+
+  const P = {}
+  for (const key in summary) {
+    P[key] = Number(summary[key]) / sum
+  }
+  // console.log(` => ${check(P)}`)
+  return P
+}
+
+function calc (filePath) {
+  const P = toP(pick(jsonfile.readFileSync(filePath)))
+  console.log(` => ${filePath} ${check(P)}`)
+  return P
+}
+
+function deepCalc (filePath) {
+  const group = jsonfile.readFileSync(filePath)
+  console.log(` => ${filePath}`)
+  let totalCont = 0
+
+  const words = {}
+  for (const name in group) {
+    const summary = group[name]
+    for (const key in summary) {
+      // accumulate(words, key)
+      words[key] = words[key] || 0
+      words[key] += summary[key]
+      totalCont += summary[key]
     }
   }
-  return Math.abs(sum - 1) < 1e-10
+
+  const result = {}
+  for (const name in group) {
+    const summary = pick(group[name])
+    result[name] = {}
+
+    for (const key in summary) {
+      result[name][key] = summary[key] / totalCont
+    }
+  }
+
+  return {
+    words: toP(pick(words)),
+    result
+  }
 }
 
 function record () {
   jsonfile.spaces = 2
 
-  const wcount = readWordCount('./words/issue_word_count.json')
-  jsonfile.writeFile(`words/issue_words_probability.json`, wcount)
+  // jsonfile.writeFile(`./data/words.json`, calc(`./counts/words.json`))
+  jsonfile.writeFile(`./data/labels.json`, calc(`./counts/labels.json`))
+  jsonfile.writeFile(`./data/assignees.json`, calc(`./counts/assignees.json`))
 
-  // console.log(summary)
-  // const summary = getTagP('./words/issue_with_label_word_count.json')
-  // jsonfile.writeFile(`words/issue_label_words_probability.json`, summary)
+  const label = deepCalc(`./counts/label_words.json`)
+  jsonfile.writeFile(`./data/label_words.json`, label.words)
+  jsonfile.writeFile(`./data/label_map.json`, label.result)
 
-  // const summary = getTagP('./words/issue_with_assignee_word_count.json')
-  // jsonfile.writeFile(`words/issue_assignee_words_probability.json`, summary)
+  const assignee = deepCalc(`./counts/assignee_words.json`)
+  jsonfile.writeFile(`./data/assignee_words.json`, assignee.words)
+  jsonfile.writeFile(`./data/assignee_map.json`, assignee.result)
 }
 
 record()
