@@ -1,6 +1,8 @@
-const jsonfile = require('jsonfile')
-const load = require('./load.js')
-const utils = require('./utils.js')
+const load = require('./src/load.js')
+const utils = require('./src/utils.js')
+const db = require('./src/db.js')
+
+db.config({ basePath: 'db/weex' })
 
 function statistic (issues) {
   const { accumulate, containChinese, pad, alignTime, pickTop } = utils
@@ -68,35 +70,34 @@ function statistic (issues) {
   summary.topCommenter = pickTop(commenters)
   summary.topLabel = pickTop(labels)
   summary.topAssignees = pickTop(assignees)
-  // summary.openTimeline = pickTop(openTimeline).sort((a, b) => a.timestamp - b.timestamp)
-  // summary.closeTimeline = pickTop(closeTimeline).sort((a, b) => a.timestamp - b.timestamp)
 
   return summary
 }
 
-// console.log(statistic(load.readIssues()))
-// console.log(statistic(load.readPrs()))
-
 function record () {
   const summary = statistic(load.readIssues())
-  // console.log(summary)
-  jsonfile.spaces = 2
-  jsonfile.writeFile(`summary/issues_with_label.json`, summary.hasLabel)
-  jsonfile.writeFile(`summary/issues_with_assignee.json`, summary.hasAssignee)
-  jsonfile.writeFile(`summary/top_author.json`, summary.topAuthor)
-  jsonfile.writeFile(`summary/top_commenter.json`, summary.topCommenter)
-  jsonfile.writeFile(`summary/top_label.json`, summary.topLabel)
-  jsonfile.writeFile(`summary/top_assignee.json`, summary.topAssignees)
-  jsonfile.writeFile(`summary/statistic.json`, {
-    issueCount: summary.issueCount,
-    commentCount: summary.commentCount,
-    issueWithLabelCount: summary.issueWithLabelCount,
-    labelCount: summary.labelCount,
-    enIssueCount: summary.enIssueCount,
-    zhIssueCount: summary.zhIssueCount,
-    enCommentCount: summary.enCommentCount,
-    zhCommentCount: summary.zhCommentCount,
+
+  Promise.all([
+    db.save(`summary/issues_with_label`, summary.hasLabel),
+    db.save(`summary/issues_with_assignee`, summary.hasAssignee),
+    db.save(`summary/top_author`, summary.topAuthor),
+    db.save(`summary/top_commenter`, summary.topCommenter),
+    db.save(`summary/top_label`, summary.topLabel),
+    db.save(`summary/top_assignee`, summary.topAssignees),
+    db.save(`summary/statistic`, {
+      issueCount: summary.issueCount,
+      commentCount: summary.commentCount,
+      issueWithLabelCount: summary.issueWithLabelCount,
+      labelCount: summary.labelCount,
+      enIssueCount: summary.enIssueCount,
+      zhIssueCount: summary.zhIssueCount,
+      enCommentCount: summary.enCommentCount,
+      zhCommentCount: summary.zhCommentCount,
+    })
+  ]).then(() => {
+    console.log('\n => done')
   })
+
 }
 
 record()
