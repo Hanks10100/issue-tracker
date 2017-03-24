@@ -1,10 +1,13 @@
 const GitHub = require('github-api/dist/GitHub.js')
-const jsonfile = require('jsonfile')
+const db = require('./src/db.js')
 
-const gh = new GitHub({
+db.config({ basePath: 'db/weex' })
+
+const GitHubAgent = new GitHub({
   username: 'Hanks-bot',
   password: 'Hanks10100'
 })
+const issueAgent = GitHubAgent.getIssues('alibaba', 'weex')
 
 function fetchIssue (agent, number) {
   return new Promise((resolve, reject) => {
@@ -31,9 +34,7 @@ function fetchAndSave (agent, number) {
   return fetchIssue(agent, number).then(issue => {
     const type = issue.pull_request ? 'PR': 'issue'
     console.log(` => [${type}] #${number} ${issue.title}`)
-
-    jsonfile.spaces = 2
-    jsonfile.writeFile(`./${type.toLowerCase()}s/${number}.json`, issue)
+    db.save(`${type.toLowerCase()}s/${number}`, issue)
   })
 }
 
@@ -51,4 +52,4 @@ function fetchNext (agent, number = 1) {
   })
 }
 
-fetchNext(gh.getIssues('alibaba', 'weex'), 2643)
+fetchNext(issueAgent, 1)
