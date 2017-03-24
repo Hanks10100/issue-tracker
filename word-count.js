@@ -1,29 +1,8 @@
-const jsonfile = require('jsonfile')
-const load = require('./load.js')
-const segment = require('./segment.js')
-const { pad, accumulate } = require('./utils.js')
+const db = require('./src/db.js')
+const { segmentIssue } = require('./src/segment.js')
+const { pad, accumulate } = require('./src/utils.js')
 
-function segmentIssue (issue) {
-  const words = []
-
-  const titleWords = segment(issue.title)
-  for (let i = 0; i < 5; ++i) {
-    words.push(...titleWords)
-  }
-
-  const bodyWords = segment(issue.body)
-  for (let i = 0; i < 2; ++i) {
-    words.push(...bodyWords)
-  }
-
-  if (Array.isArray(issue.comments)) {
-    issue.comments.forEach(comment => {
-      words.push(...segment(comment.body))
-    })
-  }
-
-  return words
-}
+db.config({ basePath: 'db/weex' })
 
 function wordCount (issues) {
   const summary = {
@@ -63,14 +42,17 @@ function wordCount (issues) {
 }
 
 function record () {
-  const summary = wordCount(load.readIssues())
+  const summary = wordCount(db.readAllIssues())
 
-  jsonfile.spaces = 2
-  jsonfile.writeFile(`counts/words.json`, summary.words)
-  jsonfile.writeFile(`counts/labels.json`, summary.labels)
-  jsonfile.writeFile(`counts/assignees.json`, summary.assignees)
-  jsonfile.writeFile(`counts/label_words.json`, summary.labelWords)
-  jsonfile.writeFile(`counts/assignee_words.json`, summary.assigneeWords)
+  Promise.all([
+    db.save(`counts/words`, summary.words),
+    db.save(`counts/labels`, summary.labels),
+    db.save(`counts/assignees`, summary.assignees),
+    db.save(`counts/label_words`, summary.labelWords),
+    db.save(`counts/assignee_words`, summary.assigneeWords)
+  ]).then(() => {
+    console.log('\n => done')
+  })
 }
 
 record()

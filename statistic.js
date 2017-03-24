@@ -1,6 +1,5 @@
-const load = require('./src/load.js')
-const utils = require('./src/utils.js')
 const db = require('./src/db.js')
+const utils = require('./src/utils.js')
 
 db.config({ basePath: 'db/weex' })
 
@@ -75,7 +74,7 @@ function statistic (issues) {
 }
 
 function record () {
-  const summary = statistic(load.readIssues())
+  const summary = statistic(db.readAllIssues())
 
   Promise.all([
     db.save(`summary/issues_with_label`, summary.hasLabel),
