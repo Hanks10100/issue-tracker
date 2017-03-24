@@ -10,7 +10,11 @@ const defaultOptions = {
 }
 
 function filename (name) {
-  return path.resolve(__dirname, '..', defaultOptions.basePath, name) + '.json'
+  const dir = path.resolve(__dirname, '..', defaultOptions.basePath)
+  if (!fs.existsSync(dir)) {
+    fs.mkdir(dir)
+  }
+  return path.join(dir, name + '.json')
 }
 
 function config (options = {}) {
