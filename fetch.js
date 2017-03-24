@@ -12,7 +12,6 @@ const issueAgent = GitHubAgent.getIssues('alibaba', 'weex')
 
 function fetchAndSave (agent, number) {
   console.log(` => fetching #${number} ...`)
-
   return fetchIssue(agent, number)
     .then(issue => {
       const type = issue.pull_request ? 'PR': 'issue'
@@ -24,10 +23,7 @@ function fetchAndSave (agent, number) {
 function fetchNext (agent, number = 1) {
   let retry = 3
   return fetchAndSave(agent, number)
-    .then(() => {
-      retry = 3
-      fetchNext(agent, number + 1)
-    })
+    .then(() => fetchNext(agent, number + 1))
     .catch(res => {
       if (!res.done && retry) {
         retry--

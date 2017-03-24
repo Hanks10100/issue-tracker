@@ -1,8 +1,9 @@
-const jsonfile = require('jsonfile')
-const { pad, accumulate } = require('./utils.js')
+const db = require('./src/db.js')
+const { pad, accumulate } = require('./src/utils.js')
+
+db.config({ basePath: 'db/weex' })
 
 function pick (summary) {
-  // return summary
   const available = {}
   for (const key in summary) {
     if (isAvailable(key, summary[key])) {
@@ -41,22 +42,17 @@ function toP (summary) {
   return P
 }
 
-function calc (filePath) {
-  const P = toP(pick(jsonfile.readFileSync(filePath)))
-  console.log(` => ${filePath} ${check(P)}`)
-  return P
+function calc (sum) {
+  return toP(pick(sum))
 }
 
-function deepCalc (filePath) {
-  const group = jsonfile.readFileSync(filePath)
-  console.log(` => ${filePath}`)
+function deepCalc (group) {
   let totalCont = 0
 
   const words = {}
   for (const name in group) {
     const summary = group[name]
     for (const key in summary) {
-      // accumulate(words, key)
       words[key] = words[key] || 0
       words[key] += summary[key]
       totalCont += summary[key]
@@ -80,19 +76,19 @@ function deepCalc (filePath) {
 }
 
 function record () {
-  jsonfile.spaces = 2
+  const label = deepCalc(db.readSync(`counts/label_words`))
+  const assignee = deepCalc(db.readSync(`counts/assignee_words`))
 
-  // jsonfile.writeFile(`./data/words.json`, calc(`./counts/words.json`))
-  jsonfile.writeFile(`./data/labels.json`, calc(`./counts/labels.json`))
-  jsonfile.writeFile(`./data/assignees.json`, calc(`./counts/assignees.json`))
-
-  const label = deepCalc(`./counts/label_words.json`)
-  jsonfile.writeFile(`./data/label_words.json`, label.words)
-  jsonfile.writeFile(`./data/label_map.json`, label.result)
-
-  const assignee = deepCalc(`./counts/assignee_words.json`)
-  jsonfile.writeFile(`./data/assignee_words.json`, assignee.words)
-  jsonfile.writeFile(`./data/assignee_map.json`, assignee.result)
+  Promise.all([
+    db.save(`data/labels`, calc(db.readSync(`counts/labels`))),
+    db.save(`data/assignees`, calc(db.readSync(`counts/assignees`))),
+    db.save(`data/label_words`, label.words),
+    db.save(`data/label_map`, label.result),
+    db.save(`data/assignee_words`, assignee.words),
+    db.save(`data/assignee_map`, assignee.result)
+  ]).then(() => {
+    console.log('\n => done')
+  })
 }
 
 record()

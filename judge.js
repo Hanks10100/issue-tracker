@@ -1,64 +1,16 @@
 const fs = require('fs')
 const chalk = require('chalk')
-const jsonfile = require('jsonfile')
-const segment = require('./segment')
-const { pickTop, pad } = require('./utils.js')
+const db = require('./src/db.js')
+const { segmentIssue } = require('./src/segment.js')
+const { pickTop, pad } = require('./src/utils.js')
 
-function getWords (number) {
-  const filename = `./issues/${number}.json`
-  if (fs.existsSync(filename)) {
-    const issue = jsonfile.readFileSync(filename)
-    console.log(`\n#${pad(number, 5)} ${chalk.cyan(issue.title)}`)
-
-    const words = segment(issue.title)
-    Array.prototype.push.apply(words, segment(issue.body))
-    if (Array.isArray(issue.comments)) {
-      issue.comments.forEach(comment => {
-        Array.prototype.push.apply(words, segment(comment.body))
-      })
-    }
-
-    return words
-  }
-  console.log(`\n => ${chalk.red("No #" + number + ", maybe its a pull request")}`)
-  return []
-}
-
-// function judgeWords (words, Pbase, Ptag, Ptarget) {
-//   const result = {}
-//
-//   // console.log(words)
-//   // console.log(words)
-//   // console.log(Ptag)
-//   // console.log(Ptarget)
-//
-//   for (const type in Ptarget) {
-//     const group = Ptarget[type]
-//     let count = 0
-//     let sum = 0
-//     words.forEach(word => {
-//       if (Pbase[word] && group[word] && Ptag[type]) {
-//         // console.log(`${type}: ${Ptag[type]}`)
-//         // console.log(`${word}: ${group[word]}`)
-//         count++
-//         // sum += group[word] / Pbase[word]
-//         // sum += group[word] / Pbase[word] / Ptag[type]
-//         sum += Ptag[type] * group[word] / Pbase[word]
-//       }
-//     })
-//     result[type] = sum / count
-//   }
-//
-//   return result
-// }
-
+db.config({ basePath: 'db/weex' })
 
 function judgeWords (words, options) {
-  const PA = jsonfile.readFileSync(options.words)
-  // const PB = jsonfile.readFileSync(options.feature)
-  const group = jsonfile.readFileSync(options.condition)
-
   const result = {}
+  const PA = db.readSync(options.words)
+  // const PB = db.readSync(options.feature)
+  const group = db.readSync(options.condition)
 
   for (const type in group) {
     const PAB = group[type]
@@ -74,30 +26,33 @@ function judgeWords (words, options) {
     result[type] = sum / count
   }
 
-  return result
+  return pickTop(result, 6)
 }
 
 function judge (number) {
-  const words = getWords(number)
-  if (!words.length) return
+  const issue = db.readIssue(number)
+  if (issue) {
+    console.log(`\n#${pad(issue.number, 5)} ${chalk.cyan(issue.title)}`)
 
-  const assignees = judgeWords(words, {
-    words: './data/assignee_words.json',
-    feature: './data/assignees.json',
-    condition: './data/assignee_map.json'
-  })
+    const words = segmentIssue(issue)
 
-  const labels = judgeWords(words, {
-    words: './data/label_words.json',
-    feature: './data/labels.json',
-    condition: './data/label_map.json'
-  })
+    output('Label', judgeWords(words, {
+      words: 'data/label_words',
+      feature: 'data/labels',
+      condition: 'data/label_map'
+    }))
 
-  print('Label', pickTop(labels, 6))
-  print('Assignee', pickTop(assignees, 6))
+    output('Assignee', judgeWords(words, {
+      words: 'data/assignee_words',
+      feature: 'data/assignees',
+      condition: 'data/assignee_map'
+    }))
+  } else {
+    console.log(`\n => ${chalk.red("No #" + number + ", maybe its a pull request")}`)
+  }
 }
 
-function print (type, result) {
+function output (type, result) {
   if (Array.isArray(result)) {
     const maxLength = result.reduce((count, { name }) => {
       return Math.max(count, name.length)

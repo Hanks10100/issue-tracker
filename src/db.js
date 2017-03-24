@@ -32,6 +32,14 @@ function createLoader (type) {
   }
 }
 
+function readIssue (number) {
+  const filePath = filename(path.join('issues', String(number)))
+  if (fs.existsSync(filePath)) {
+    return jsonfile.readFileSync(filePath)
+  }
+  return null
+}
+
 module.exports = {
   save: (name, data) => jsonfile.writeFile(filename(name), data),
   saveSync: (name, data) => jsonfile.writeFileSync(filename(name), data),
@@ -39,5 +47,6 @@ module.exports = {
   readSync: name => jsonfile.readFileSync(filename(name)),
   readAllIssues: createLoader('issues'),
   readAllPRs: createLoader('prs'),
+  readIssue,
   config
 }
