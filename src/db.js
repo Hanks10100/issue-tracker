@@ -23,22 +23,15 @@ function config (options = {}) {
   jsonfile.spaces = defaultOptions.spaces
 }
 
-function createLoader (type) {
-  const MAX_COUNT = 3000
-  return function loader (start = 1, count = MAX_COUNT) {
-    const json = {}
-    for (let i = start; i < start + count; ++i) {
-      const name = filename(path.join(type, String(i)))
-      if (fs.existsSync(name)) {
-        json[i] = jsonfile.readFileSync(name)
-      }
-    }
-    return json
-  }
+function readAllType (type = 'issues') {
+  const typePath = path.resolve(__dirname, '..', defaultOptions.basePath, type)
+  return fs.readdirSync(typePath).map(file => {
+    return jsonfile.readFileSync(path.join(typePath, file))
+  })
 }
 
-function readIssue (number) {
-  const filePath = filename(path.join('issues', String(number)))
+function readType (type, number) {
+  const filePath = filename(path.join(type, String(number)))
   if (fs.existsSync(filePath)) {
     return jsonfile.readFileSync(filePath)
   }
@@ -50,8 +43,9 @@ module.exports = {
   saveSync: (name, data) => jsonfile.writeFileSync(filename(name), data),
   read: name => jsonfile.readFile(filename(name)),
   readSync: name => jsonfile.readFileSync(filename(name)),
-  readAllIssues: createLoader('issues'),
-  readAllPRs: createLoader('prs'),
-  readIssue,
+  readAllIssues: () => readAllType('issues'),
+  readAllPRs: () => readAllType('prs'),
+  readIssue: number => readType('issues', number),
+  readPR: number => readType('prs', number),
   config
 }
