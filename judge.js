@@ -1,7 +1,7 @@
 const fs = require('fs')
 const chalk = require('chalk')
 const db = require('./src/db.js')
-const { segmentIssue } = require('./src/segment.js')
+const { segmentWords } = require('./src/segment.js')
 const { pickTop, pad } = require('./src/utils.js')
 
 db.config({ basePath: 'db/weex' })
@@ -34,7 +34,7 @@ function judge (number) {
   if (issue) {
     console.log(`\n#${pad(issue.number, 5)} ${chalk.cyan(issue.title)}`)
 
-    const words = segmentIssue(issue)
+    const words = segmentWords(issue)
 
     output('Label', judgeWords(words, {
       words: 'data/label_words',

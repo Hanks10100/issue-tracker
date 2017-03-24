@@ -1,5 +1,5 @@
 const db = require('./src/db.js')
-const { segmentIssue } = require('./src/segment.js')
+const { segmentWords } = require('./src/segment.js')
 const { pad, accumulate } = require('./src/utils.js')
 
 db.config({ basePath: 'db/weex' })
@@ -16,8 +16,10 @@ function wordCount (issues) {
   for (const number in issues) {
     const issue = issues[number]
     console.log(`#${pad(number, 5)} ${issue.title}`)
-    // if (number > 10) break
-    const words = segmentIssue(issue).map(s => s.toLowerCase())
+    // if (number > 30) break
+    const words = segmentWords(issue, result => {
+      db.save(`words/${number}`, result)
+    })
 
     words.forEach(word => accumulate(summary.words, word))
 
