@@ -1,7 +1,12 @@
 const db = require('./src/db.js')
 const utils = require('./src/utils.js')
 
-db.config({ basePath: 'db/weex' })
+let repoName = 'weex'
+if (process.argv[2]) {
+  repoName = String(process.argv[2])
+}
+
+db.config({ basePath: `db/${repoName}` })
 
 function statistic (issues) {
   const { accumulate, containChinese, pad, alignTime, pickTop } = utils
@@ -27,11 +32,12 @@ function statistic (issues) {
 
   for (let number in issues) {
     const issue = issues[number]
-    summary.issueCount++
+    if (!Object.keys(issue).length) continue;
 
+    summary.issueCount++
     console.log(`#${pad(number, 5)} ${issue.title}`)
 
-    containChinese(issue.body) ? summary.zhIssueCount++ : summary.enIssueCount++
+    containChinese(issue.title + issue.body) ? summary.zhIssueCount++ : summary.enIssueCount++
 
     accumulate(authors, issue.user.login)
     accumulate(openTimeline, alignTime(Date.parse(issue.created_at)))

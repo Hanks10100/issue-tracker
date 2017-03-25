@@ -2,7 +2,12 @@ const db = require('./src/db.js')
 const { segmentWords } = require('./src/segment.js')
 const { pad, accumulate } = require('./src/utils.js')
 
-db.config({ basePath: 'db/weex' })
+let repoName = 'weex'
+if (process.argv[2]) {
+  repoName = String(process.argv[2])
+}
+
+db.config({ basePath: `db/${repoName}` })
 
 function wordCount (issues) {
   const summary = {
@@ -15,6 +20,7 @@ function wordCount (issues) {
 
   for (const number in issues) {
     const issue = issues[number]
+    if (!Object.keys(issue).length) continue;
     console.log(`#${pad(number, 5)} ${issue.title}`)
     // if (number > 30) break
     const words = segmentWords(issue, result => {

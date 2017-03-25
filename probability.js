@@ -1,7 +1,12 @@
 const db = require('./src/db.js')
 const { pad, accumulate } = require('./src/utils.js')
 
-db.config({ basePath: 'db/weex' })
+let repoName = 'weex'
+if (process.argv[2]) {
+  repoName = String(process.argv[2])
+}
+
+db.config({ basePath: `db/${repoName}` })
 
 function pick (summary) {
   const available = {}

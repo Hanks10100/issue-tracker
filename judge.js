@@ -1,4 +1,3 @@
-const fs = require('fs')
 const chalk = require('chalk')
 const db = require('./src/db.js')
 const { segmentWords } = require('./src/segment.js')
