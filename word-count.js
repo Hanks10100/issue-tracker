@@ -9,6 +9,37 @@ if (process.argv[2]) {
 
 db.config({ basePath: `db/${repoName}` })
 
+function pick (object) {
+  const available = {}
+  for (const key in object) {
+    if (key.length > 1 && object[key] >= 2) {
+      available[key] = object[key]
+    }
+  }
+  return available
+}
+
+function trimResult (summary) {
+  const result = {
+    labelWords: {},
+    assigneeWords: {}
+  }
+  result.words = pick(summary.words)
+  result.labels = pick(summary.labels)
+  result.assignees = pick(summary.assignees)
+  for (const label in summary.labelWords) {
+    if (result.labels[label]) {
+      result.labelWords[label] = pick(summary.labelWords[label])
+    }
+  }
+  for (const assignee in summary.assigneeWords) {
+    if (result.assignees[assignee]) {
+      result.assigneeWords[assignee] = pick(summary.assigneeWords[assignee])
+    }
+  }
+  return result
+}
+
 function wordCount (issues) {
   const summary = {
     words: {},
@@ -18,11 +49,10 @@ function wordCount (issues) {
     assigneeWords: {}
   }
 
-  for (const number in issues) {
-    const issue = issues[number]
-    if (!Object.keys(issue).length) continue;
+  issues.forEach(issue => {
+    const number = issue.number
+    // if (number < 1100 || number > 1200) return;
     console.log(`#${pad(number, 5)} ${issue.title}`)
-    // if (number > 30) break
     const words = segmentWords(issue, result => {
       db.save(`words/${number}`, result)
     })
@@ -44,9 +74,10 @@ function wordCount (issues) {
         words.forEach(word => accumulate(summary.assigneeWords[login], word))
       })
     }
-  }
+  })
 
-  return summary
+  // return summary
+  return trimResult(summary)
 }
 
 function record () {
