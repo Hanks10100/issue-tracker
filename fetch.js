@@ -8,7 +8,7 @@ const GitHubAgent = new GitHub({
   username: 'Hanks-bot',
   password: 'Hanks10100'
 })
-const issueAgent = GitHubAgent.getIssues('alibaba', 'weex')
+const issueAgent = GitHubAgent.getIssues('vuejs', 'weex')
 
 function fetchAndSave (agent, number) {
   console.log(` => fetching #${number} ...`)
@@ -20,16 +20,24 @@ function fetchAndSave (agent, number) {
     })
 }
 
-function fetchNext (agent, number = 1) {
-  let retry = 3
+const RETRY_COUNT = 3
+function fetchNext (agent, number = 1, retry = RETRY_COUNT) {
   return fetchAndSave(agent, number)
-    .then(() => fetchNext(agent, number + 1))
-    .catch(res => {
-      if (!res.done && retry) {
-        retry--
-        fetchAndSave(agent, number)
+    .then(() => fetchNext(agent, number + 1, retry))
+    .catch(({ response }) => {
+      console.log(` => ${response.status}`)
+      if (response.status === 404 || retry <= 0) {
+        fetchNext(agent, number + 1, RETRY_COUNT)
+      } else {
+        fetchNext(agent, number, retry - 1)
       }
     })
 }
 
-fetchNext(issueAgent, 1)
+
+let start = 1
+if (process.argv[2]) {
+  start = Number(process.argv[2])
+}
+
+fetchNext(issueAgent, start)
