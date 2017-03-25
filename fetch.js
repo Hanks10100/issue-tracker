@@ -8,7 +8,7 @@ const GitHubAgent = new GitHub({
   username: 'Hanks-bot',
   password: 'Hanks10100'
 })
-const issueAgent = GitHubAgent.getIssues('vuejs', 'weex')
+const issueAgent = GitHubAgent.getIssues('alibaba', 'weex')
 
 function fetchAndSave (agent, number) {
   console.log(` => fetching #${number} ...`)

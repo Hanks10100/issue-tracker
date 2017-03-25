@@ -8,23 +8,6 @@ if (process.argv[2]) {
 
 db.config({ basePath: `db/${repoName}` })
 
-function pick (summary) {
-  const available = {}
-  for (const key in summary) {
-    if (isAvailable(key, summary[key])) {
-      available[key] = summary[key]
-    }
-  }
-  return available
-}
-
-function isAvailable (word, count) {
-  return String(word).length > 1
-    && !Number(word)
-    && !String(word).match(/^https?:\/\//i)
-    && count >= 1
-}
-
 function check (P) {
   let sum = 0
   for (const key in P) {
@@ -47,11 +30,7 @@ function toP (summary) {
   return P
 }
 
-function calc (sum) {
-  return toP(pick(sum))
-}
-
-function deepCalc (group) {
+function calc (group) {
   let totalCont = 0
 
   const words = {}
@@ -66,7 +45,7 @@ function deepCalc (group) {
 
   const result = {}
   for (const name in group) {
-    const summary = pick(group[name])
+    const summary = group[name]
     result[name] = {}
 
     for (const key in summary) {
@@ -75,18 +54,18 @@ function deepCalc (group) {
   }
 
   return {
-    words: toP(pick(words)),
+    words: toP(words),
     result
   }
 }
 
 function record () {
-  const label = deepCalc(db.readSync(`counts/label_words`))
-  const assignee = deepCalc(db.readSync(`counts/assignee_words`))
+  const label = calc(db.readSync(`counts/label_words`))
+  const assignee = calc(db.readSync(`counts/assignee_words`))
 
   Promise.all([
-    db.save(`data/labels`, calc(db.readSync(`counts/labels`))),
-    db.save(`data/assignees`, calc(db.readSync(`counts/assignees`))),
+    db.save(`data/labels`, toP(db.readSync(`counts/labels`))),
+    db.save(`data/assignees`, toP(db.readSync(`counts/assignees`))),
     db.save(`data/label_words`, label.words),
     db.save(`data/label_map`, label.result),
     db.save(`data/assignee_words`, assignee.words),
