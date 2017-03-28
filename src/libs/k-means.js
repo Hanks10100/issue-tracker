@@ -19,9 +19,9 @@ function euclideanDistance (A, B) {
  * @return {Float32Array}
  */
 function estimateMeans (matrix) {
-  const point = []
   const M = matrix.length
   const N = matrix[0].length
+  const point = new Array(N)
   for (let j = 0; j < N; j++) {
     point[j] = 0
     for (let i = 0; i < M; i++) {
@@ -60,16 +60,16 @@ function getMark (matrix, seeds) {
  * 根据标记分割矩阵
  * @param {Array<Float32Array>} matrix 输入数据：特征值矩阵 M * N
  * @param {Array} mark 分类标记向量 M * 1
+ * @param {Number} K 分类的数量
  * @return {Array<Array<Float32Array>>}
  */
-function divide (matrix, mark) {
-  const clusters = []
+function divide (matrix, mark, K) {
+  const clusters = new Array(K)
+  for (let k = 0; k < K; ++k) {
+    clusters[k] = []
+  }
   for (let i = 0; i < matrix.length; ++i) {
-    const k = mark[i]
-    if (!clusters[k]) {
-      clusters[k] = []
-    }
-    clusters[k].push(matrix[i])
+    clusters[mark[i]].push(matrix[i])
   }
   return clusters
 }
@@ -92,12 +92,12 @@ function isSameSeed (A, B) {
  */
 function kmeans (matrix, seeds) {
   const mark = getMark(matrix, seeds)
-  const clusters = divide(matrix, mark)
-  const newSeeds = []
+  const clusters = divide(matrix, mark, seeds.length)
+  const newSeeds = new Array(seeds.length)
 
   let same = true
   for (let k = 0; k < clusters.length; ++k) {
-    newSeeds.push(estimateMeans(clusters[k]))
+    newSeeds[k] = estimateMeans(clusters[k])
     same = same && isSameSeed(seeds[k], newSeeds[k])
   }
 

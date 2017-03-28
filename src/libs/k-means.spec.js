@@ -95,7 +95,7 @@ describe('k-means', () => {
     ]
     const mark = [0, 0, 1, 1, 0, 1]
 
-    expect(divide(matrix, mark)).to.deep.equal([
+    expect(divide(matrix, mark, 2)).to.deep.equal([
       [
         new Float32Array([-1, 2]),
         new Float32Array([1, 3]),
