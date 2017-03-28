@@ -95,17 +95,7 @@ describe('k-means', () => {
     ]
     const mark = [0, 0, 1, 1, 0, 1]
 
-    expect(divide(matrix, mark, 2)).to.deep.equal([
-      [
-        new Float32Array([-1, 2]),
-        new Float32Array([1, 3]),
-        new Float32Array([0, 2])
-      ], [
-        new Float32Array([1, -1]),
-        new Float32Array([2, -1]),
-        new Float32Array([1, -2])
-      ]
-    ])
+    expect(divide(mark, 2)).to.deep.equal([[0, 1, 4], [2, 3, 5]])
   })
 
   it('isSameSeed', () => {
@@ -137,35 +127,25 @@ describe('k-means', () => {
         new Float32Array([1, 0])
       ]
 
-      expect(kmeans(matrix, seed)).to.deep.equal([
-        [
-          new Float32Array([-1, 2]),
-          new Float32Array([1, 3]),
-          new Float32Array([0, 2])
-        ], [
-          new Float32Array([1, -1]),
-          new Float32Array([2, -1]),
-          new Float32Array([1, -2])
-        ]
-      ])
+      expect(kmeans(matrix, seed)).to.deep.equal([[0, 1, 4], [2, 3, 5]])
     })
 
     it('N=2, K=3, M=14', () => {
       const matrix = [
-        new Float32Array([1, 2]),
-        new Float32Array([1, 4]),
-        new Float32Array([2, 3]),
-        new Float32Array([3, 4]),
-        new Float32Array([5, 6]),
-        new Float32Array([6, 5]),
-        new Float32Array([6, 8]),
-        new Float32Array([6, 9]),
-        new Float32Array([7, 7]),
-        new Float32Array([8, 1]),
         new Float32Array([8, 2]),
         new Float32Array([8, 7]),
+        new Float32Array([1, 2]),
+        new Float32Array([1, 4]),
+        new Float32Array([9, 3]),
+        new Float32Array([6, 5]),
         new Float32Array([9, 1]),
-        new Float32Array([9, 3])
+        new Float32Array([6, 8]),
+        new Float32Array([6, 9]),
+        new Float32Array([5, 6]),
+        new Float32Array([3, 4]),
+        new Float32Array([7, 7]),
+        new Float32Array([8, 1]),
+        new Float32Array([2, 3]),
       ]
 
       const seed = [
@@ -175,24 +155,9 @@ describe('k-means', () => {
       ]
 
       expect(kmeans(matrix, seed)).to.deep.equal([
-        [
-          new Float32Array([1, 2]),
-          new Float32Array([1, 4]),
-          new Float32Array([2, 3]),
-          new Float32Array([3, 4])
-        ], [
-          new Float32Array([5, 6]),
-          new Float32Array([6, 5]),
-          new Float32Array([6, 8]),
-          new Float32Array([6, 9]),
-          new Float32Array([7, 7]),
-          new Float32Array([8, 7])
-        ], [
-          new Float32Array([8, 1]),
-          new Float32Array([8, 2]),
-          new Float32Array([9, 1]),
-          new Float32Array([9, 3])
-        ]
+        [ 2, 3, 10, 13 ],
+        [ 1, 5, 7, 8, 9, 11 ],
+        [ 0, 4, 6, 12 ]
       ])
     })
   })

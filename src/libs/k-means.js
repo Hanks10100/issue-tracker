@@ -32,7 +32,6 @@ function estimateMeans (matrix) {
   return point
 }
 
-
 /**
  * 标记所有样本
  * @param {Array<Float32Array>} matrix 输入数据：特征值矩阵 M * N
@@ -57,23 +56,23 @@ function getMark (matrix, seeds) {
 }
 
 /**
- * 根据标记分割矩阵
- * @param {Array<Float32Array>} matrix 输入数据：特征值矩阵 M * N
- * @param {Array} mark 分类标记向量 M * 1
+ * 根据标记分割矩阵下标
  * @param {Number} K 分类的数量
- * @return {Array<Array<Float32Array>>}
+ * @return {Array<Array>}
  */
-function divide (matrix, mark, K) {
+function divide (mark, K) {
+  const M = mark.length
   const clusters = new Array(K)
   for (let k = 0; k < K; ++k) {
     clusters[k] = []
   }
-  for (let i = 0; i < matrix.length; ++i) {
-    clusters[mark[i]].push(matrix[i])
+  for (let i = 0; i < M; ++i) {
+    clusters[mark[i]].push(i)
   }
   return clusters
 }
 
+// 判断两个种子点是否相同
 function isSameSeed (A, B) {
   const N = A.length
   for (let i = 0; i < N; ++i) {
@@ -88,16 +87,16 @@ function isSameSeed (A, B) {
  * K-means 算法
  * @param {Array<Float32Array>} matrix 输入数据：特征值矩阵 M * N
  * @param {Array<Float32Array>} seed 动设定初始化参数：中心点矩阵 K * N
- * @return {Array<Array<Float32Array>>} 分类后的数据
+ * @return {Array<Array>} 分类后的数组下标
  */
 function kmeans (matrix, seeds) {
   const mark = getMark(matrix, seeds)
-  const clusters = divide(matrix, mark, seeds.length)
+  const clusters = divide(mark, seeds.length)
   const newSeeds = new Array(seeds.length)
 
   let same = true
   for (let k = 0; k < clusters.length; ++k) {
-    newSeeds[k] = estimateMeans(clusters[k])
+    newSeeds[k] = estimateMeans(clusters[k].map(i => matrix[i]))
     same = same && isSameSeed(seeds[k], newSeeds[k])
   }
 
