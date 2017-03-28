@@ -4,7 +4,7 @@
   "description": "GitHub issues",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/**/*.spec.js"
   },
   "author": "Hanks <zhanghan.me@gmail.com>",
   "license": "MIT",
@@ -13,5 +13,9 @@
     "github-api": "^3.0.0",
     "jsonfile": "^2.4.0",
     "segment": "^0.1.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
   }
 }
