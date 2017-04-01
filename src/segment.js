@@ -42,25 +42,25 @@ function isAvailable (pair) {
     // case 0x08000000: return false; // 副词 副语素
     // case 0x04000000: return false; // 叹词 叹语素
     // case 0x02000000: return false; // 方位词 方位语素
-    case 0x01000000: return false; // 成语
-    // case 0x00800000: return false; // 习语
-    case 0x00400000: return false; // 数词 数语素
-    case 0x00200000: return false; // 数量词
-    // case 0x00100000: return false; // 名词 名语素
-    case 0x00080000: return false; // 拟声词
-    case 0x00040000: return false; // 介词
-    case 0x00020000: return false; // 量词 量语素
-    case 0x00010000: return false; // 代词 代语素
-    case 0x00008000: return false; // 处所词
-    case 0x00004000: return false; // 时间词
-    case 0x00002000: return false; // 助词 助语素
-    case 0x00001000: return false; // 动词 动语素
-    // case 0x00000400: return false; // 非语素字
-    case 0x00000200: return false; // 语气词 语气语素
-    case 0x00000100: return false; // 状态词
-    // case 0x00000080: return false; // 人名
-    case 0x00000040: return false; // 地名
-    case 0x00000020: return false; // 机构团体
+    // case 0x01000000: return false; // 成语
+    // // case 0x00800000: return false; // 习语
+    // case 0x00400000: return false; // 数词 数语素
+    // case 0x00200000: return false; // 数量词
+    // // case 0x00100000: return false; // 名词 名语素
+    // case 0x00080000: return false; // 拟声词
+    // case 0x00040000: return false; // 介词
+    // case 0x00020000: return false; // 量词 量语素
+    // case 0x00010000: return false; // 代词 代语素
+    // case 0x00008000: return false; // 处所词
+    // case 0x00004000: return false; // 时间词
+    // case 0x00002000: return false; // 助词 助语素
+    // case 0x00001000: return false; // 动词 动语素
+    // // case 0x00000400: return false; // 非语素字
+    // case 0x00000200: return false; // 语气词 语气语素
+    // case 0x00000100: return false; // 状态词
+    // // case 0x00000080: return false; // 人名
+    // case 0x00000040: return false; // 地名
+    // case 0x00000020: return false; // 机构团体
     // case 0x00000010: return false; // 外文字符
     // case 0x00000008: return false; // 其他专名
     // case 0x00000004: return false; // 前接成分

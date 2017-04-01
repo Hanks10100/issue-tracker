@@ -1,7 +1,9 @@
+// Vector <=> Float32Array
+
 /**
  * 求两个向量的欧式距离
- * @param {Float32Array} A
- * @param {Float32Array} B
+ * @param {Vector} A
+ * @param {Vector} B
  * @return {Number}
  */
 function euclideanDistance (A, B) {
@@ -15,8 +17,8 @@ function euclideanDistance (A, B) {
 
 /**
  * 估算一组特征向量的中心点（最基本的，基于平均值的算法）
- * @param {Array<Float32Array>} matrix
- * @return {Float32Array}
+ * @param {Array<Vector>} matrix
+ * @return {Vector}
  */
 function estimateMeans (matrix) {
   const M = matrix.length
@@ -34,8 +36,8 @@ function estimateMeans (matrix) {
 
 /**
  * 标记所有样本
- * @param {Array<Float32Array>} matrix 输入数据：特征值矩阵 M * N
- * @param {Array<Float32Array>} seeds 动设定初始化参数：中心点矩阵 K * N
+ * @param {Array<Vector>} matrix 输入数据：特征值矩阵 M * N
+ * @param {Array<Vector>} seeds 动设定初始化参数：中心点矩阵 K * N
  * @return {Array} 分类标记向量 M * 1
  * 复杂度： O(MNK)
  */
@@ -85,8 +87,8 @@ function isSameSeed (A, B) {
 
 /**
  * K-means 算法
- * @param {Array<Float32Array>} matrix 输入数据：特征值矩阵 M * N
- * @param {Array<Float32Array>} seed 动设定初始化参数：中心点矩阵 K * N
+ * @param {Array<Vector>} matrix 输入数据：特征值矩阵 M * N
+ * @param {Array<Vector>} seed 动设定初始化参数：中心点矩阵 K * N
  * @return {Array<Array>} 分类后的数组下标
  */
 function kmeans (matrix, seeds) {
