@@ -52,18 +52,14 @@ function timeToNumber (date) {
 // + [11] 从提出问题到最后一条回复的时间跨度
 // + [12] 问题回复时间间隔的平均时长
 //
-// + [31] X 关键字在问题中的出现次数
+// + [31] X 关键字在问题中的出现次数 (选出 19 组)
 
 // 一共 32 个特征值
 
-// alias
-// 安卓 -> android
-// err -> error
 
-// 19 组关键字（人肉分类）
-// 关键字分类越规范越好
+// 19 组关键字（人肉分类），关键字分类越规范越好
 const featureWords = [
-  ['android', '安卓', 'apk', '三星', '小米', '红米', '华为', '魅族', 'oppo'], // java
+  ['android', '安卓', 'apk', '三星', '小米', '红米', '华为', '魅族', 'oppo'],
   ['ios', '苹果', 'iphone', 'ipad'],
   ['js', 'javascript', 'web', '浏览器', 'browser', 'html', 'render', '渲染'],
   ['js', 'javascript', 'runtime', '运行时', 'framework', 'jsfm', '框架', 'bridge', 'callnative', 'instance'],
@@ -148,11 +144,11 @@ function parseIssue (issue) {
     vector[12] = 0
   }
 
-  // TODO: X 关键字在问题中的出现次数
+  // 19 组关键字在问题中的出现次数
   const issueWords = {}
   segmentWords(issue).forEach(word => accumulate(issueWords, word))
   featureWords.forEach((words, i) => {
-    const index = 0 + i
+    const index = 13 + i
     vector[index] = 0
     words.forEach(word => {
       vector[index] += issueWords[word] || 0
@@ -160,6 +156,20 @@ function parseIssue (issue) {
   })
 
   return vector
+}
+
+// 把样本中的数据值域映射到 [0, 1) 之间
+// 前提：假设所有样本值都是正实数
+function normalize (samples) {
+  let min = Number.MAX_VALUE
+  let max = Number.MIN_VALUE
+  for (let i = 0; i < samples.length; ++i) {
+    min = Math.min(min, samples[i])
+    max = Math.max(max, samples[i])
+  }
+
+  const range = (max + min / samples.length) * 1.00000001
+  return samples.map(x => (x) / (range))
 }
 
 function record () {
@@ -178,25 +188,5 @@ function record () {
   db.save('features/numbers', numbers)
   console.log('\n => done')
 }
-
-
-// 把样本中的数据值域映射到 [0, 1) 之间
-// 前提：假设所有样本值都是正实数
-function normalize (samples) {
-  let min = Number.MAX_VALUE
-  let max = Number.MIN_VALUE
-  for (let i = 0; i < samples.length; ++i) {
-    min = Math.min(min, samples[i])
-    max = Math.max(max, samples[i])
-  }
-
-  const range = (max + min / samples.length) * 1.00000001
-  return samples.map(x => (x) / (range))
-}
-
-// console.log(normalize([1, 0, 0, 1]))
-// console.log(normalize([1, 2, 4, 1]))
-// console.log(normalize([10, 20, 40, 10]))
-// console.log(normalize([100, 200, 400, 100]))
 
 record()
