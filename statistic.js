@@ -71,6 +71,9 @@ function statistic (issues) {
     }
   }
 
+  summary.authors = authors
+  summary.assignees = assignees
+  summary.commenters = commenters
   summary.topAuthor = pickTop(authors)
   summary.topCommenter = pickTop(commenters)
   summary.topLabel = pickTop(labels)
@@ -85,6 +88,9 @@ function record () {
   Promise.all([
     db.save(`summary/issues_with_label`, summary.hasLabel),
     db.save(`summary/issues_with_assignee`, summary.hasAssignee),
+    db.save(`summary/authors`, summary.authors),
+    db.save(`summary/assignees`, summary.assignees),
+    db.save(`summary/commenters`, summary.commenters),
     db.save(`summary/top_author`, summary.topAuthor),
     db.save(`summary/top_commenter`, summary.topCommenter),
     db.save(`summary/top_label`, summary.topLabel),

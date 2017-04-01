@@ -1,6 +1,6 @@
 const db = require('./src/db.js')
 const { segmentWords } = require('./src/segment.js')
-const { pad, accumulate } = require('./src/utils.js')
+const { pad, accumulate, pickTop } = require('./src/utils.js')
 
 let repoName = 'weex'
 if (process.argv[2]) {
@@ -84,7 +84,7 @@ function record () {
   const summary = wordCount(db.readAllIssues())
 
   Promise.all([
-    db.save(`counts/words`, summary.words),
+    db.save(`counts/words`, pickTop(summary.words)),
     db.save(`counts/labels`, summary.labels),
     db.save(`counts/assignees`, summary.assignees),
     db.save(`counts/label_words`, summary.labelWords),
