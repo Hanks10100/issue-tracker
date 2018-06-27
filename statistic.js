@@ -1,7 +1,7 @@
 const db = require('./src/db.js')
 const utils = require('./src/utils.js')
 
-let repoName = 'weex'
+let repoName = 'incubator-weex'
 if (process.argv[2]) {
   repoName = String(process.argv[2])
 }
@@ -83,7 +83,7 @@ function statistic (issues) {
 }
 
 function record () {
-  const summary = statistic(db.readAllIssues())
+  const summary = statistic(db.readAllPRs())
 
   Promise.all([
     db.save(`summary/issues_with_label`, summary.hasLabel),

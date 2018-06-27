@@ -2,21 +2,23 @@ const GitHub = require('github-api/dist/GitHub.js')
 const { fetchIssue } = require('./src/web.js')
 const db = require('./src/db.js')
 
-db.config({ basePath: 'db/weex' })
+db.config({ basePath: 'db/incubator-weex' })
 
 const GitHubAgent = new GitHub({
   username: 'Hanks-bot',
   password: 'Hanks10100'
 })
-const issueAgent = GitHubAgent.getIssues('alibaba', 'weex')
+const issueAgent = GitHubAgent.getIssues('apache', 'incubator-weex')
 
 function fetchAndSave (agent, number) {
   console.log(` => fetching #${number} ...`)
   return fetchIssue(agent, number)
     .then(issue => {
       const type = issue.pull_request ? 'PR': 'issue'
-      console.log(` => [${type}] #${number} ${issue.title}`)
-      db.save(`${type.toLowerCase()}s/${number}`, issue)
+      if (issue.pull_request && issue.state !== 'closed') {
+        console.log(` => [${type}] #${number} ${issue.title}`)
+        db.save(`${type.toLowerCase()}s/${number}`, issue)
+      }
     })
 }
 
